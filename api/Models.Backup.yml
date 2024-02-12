@@ -1,0 +1,62 @@
+### YamlMime:ManagedReference
+items:
+- uid: Models.Backup
+  commentId: N:Models.Backup
+  id: Models.Backup
+  children:
+  - Models.Backup.CJob
+  - Models.Backup.CJobManager
+  - Models.Backup.ETypeBackup
+  langs:
+  - csharp
+  - vb
+  name: Models.Backup
+  nameWithType: Models.Backup
+  fullName: Models.Backup
+  type: Namespace
+  assemblies:
+  - Models
+references:
+- uid: Models.Backup.CJob
+  commentId: T:Models.Backup.CJob
+  parent: Models.Backup
+  href: Models.Backup.CJob.html
+  name: CJob
+  nameWithType: CJob
+  fullName: Models.Backup.CJob
+- uid: Models.Backup.CJobManager
+  commentId: T:Models.Backup.CJobManager
+  parent: Models.Backup
+  href: Models.Backup.CJobManager.html
+  name: CJobManager
+  nameWithType: CJobManager
+  fullName: Models.Backup.CJobManager
+- uid: Models.Backup.ETypeBackup
+  commentId: T:Models.Backup.ETypeBackup
+  parent: Models.Backup
+  href: Models.Backup.ETypeBackup.html
+  name: ETypeBackup
+  nameWithType: ETypeBackup
+  fullName: Models.Backup.ETypeBackup
+- uid: Models.Backup
+  commentId: N:Models.Backup
+  href: Models.html
+  name: Models.Backup
+  nameWithType: Models.Backup
+  fullName: Models.Backup
+  spec.csharp:
+  - uid: Models
+    name: Models
+    href: Models.html
+  - name: .
+  - uid: Models.Backup
+    name: Backup
+    href: Models.Backup.html
+  spec.vb:
+  - uid: Models
+    name: Models
+    href: Models.html
+  - name: .
+  - uid: Models.Backup
+    name: Backup
+    href: Models.Backup.html

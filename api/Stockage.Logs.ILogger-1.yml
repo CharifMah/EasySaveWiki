@@ -1,0 +1,276 @@
+### YamlMime:ManagedReference
+items:
+- uid: Stockage.Logs.ILogger`1
+  commentId: T:Stockage.Logs.ILogger`1
+  id: ILogger`1
+  parent: Stockage.Logs
+  children:
+  - Stockage.Logs.ILogger`1.Datas
+  - Stockage.Logs.ILogger`1.Log(`0,System.Boolean,System.Boolean,System.String)
+  langs:
+  - csharp
+  - vb
+  name: ILogger<T>
+  nameWithType: ILogger<T>
+  fullName: Stockage.Logs.ILogger<T>
+  type: Interface
+  source:
+    remote:
+      path: EasySave-G4-FISA-24/Stockage/Logs/ILogger.cs
+      branch: issue/37-update-delete-jobs
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: ILogger
+    path: Stockage/Logs/ILogger.cs
+    startLine: 3
+  assemblies:
+  - Stockage
+  namespace: Stockage.Logs
+  syntax:
+    content: public interface ILogger<T>
+    typeParameters:
+    - id: T
+    content.vb: Public Interface ILogger(Of T)
+  nameWithType.vb: ILogger(Of T)
+  fullName.vb: Stockage.Logs.ILogger(Of T)
+  name.vb: ILogger(Of T)
+- uid: Stockage.Logs.ILogger`1.Datas
+  commentId: P:Stockage.Logs.ILogger`1.Datas
+  id: Datas
+  parent: Stockage.Logs.ILogger`1
+  langs:
+  - csharp
+  - vb
+  name: Datas
+  nameWithType: ILogger<T>.Datas
+  fullName: Stockage.Logs.ILogger<T>.Datas
+  type: Property
+  source:
+    remote:
+      path: EasySave-G4-FISA-24/Stockage/Logs/ILogger.cs
+      branch: issue/37-update-delete-jobs
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: Datas
+    path: Stockage/Logs/ILogger.cs
+    startLine: 5
+  assemblies:
+  - Stockage
+  namespace: Stockage.Logs
+  syntax:
+    content: ObservableCollection<T> Datas { get; }
+    parameters: []
+    return:
+      type: System.Collections.ObjectModel.ObservableCollection{{T}}
+    content.vb: ReadOnly Property Datas As ObservableCollection(Of T)
+  overload: Stockage.Logs.ILogger`1.Datas*
+  nameWithType.vb: ILogger(Of T).Datas
+  fullName.vb: Stockage.Logs.ILogger(Of T).Datas
+- uid: Stockage.Logs.ILogger`1.Log(`0,System.Boolean,System.Boolean,System.String)
+  commentId: M:Stockage.Logs.ILogger`1.Log(`0,System.Boolean,System.Boolean,System.String)
+  id: Log(`0,System.Boolean,System.Boolean,System.String)
+  parent: Stockage.Logs.ILogger`1
+  langs:
+  - csharp
+  - vb
+  name: Log(T, bool, bool, string)
+  nameWithType: ILogger<T>.Log(T, bool, bool, string)
+  fullName: Stockage.Logs.ILogger<T>.Log(T, bool, bool, string)
+  type: Method
+  source:
+    remote:
+      path: EasySave-G4-FISA-24/Stockage/Logs/ILogger.cs
+      branch: issue/37-update-delete-jobs
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: Log
+    path: Stockage/Logs/ILogger.cs
+    startLine: 6
+  assemblies:
+  - Stockage
+  namespace: Stockage.Logs
+  syntax:
+    content: void Log(T pData, bool pSerialize, bool pAppend = true, string pFileName = "Logs")
+    parameters:
+    - id: pData
+      type: '{T}'
+    - id: pSerialize
+      type: System.Boolean
+    - id: pAppend
+      type: System.Boolean
+    - id: pFileName
+      type: System.String
+    content.vb: Sub Log(pData As T, pSerialize As Boolean, pAppend As Boolean = True, pFileName As String = "Logs")
+  overload: Stockage.Logs.ILogger`1.Log*
+  nameWithType.vb: ILogger(Of T).Log(T, Boolean, Boolean, String)
+  fullName.vb: Stockage.Logs.ILogger(Of T).Log(T, Boolean, Boolean, String)
+  name.vb: Log(T, Boolean, Boolean, String)
+references:
+- uid: Stockage.Logs
+  commentId: N:Stockage.Logs
+  href: Stockage.html
+  name: Stockage.Logs
+  nameWithType: Stockage.Logs
+  fullName: Stockage.Logs
+  spec.csharp:
+  - uid: Stockage
+    name: Stockage
+    href: Stockage.html
+  - name: .
+  - uid: Stockage.Logs
+    name: Logs
+    href: Stockage.Logs.html
+  spec.vb:
+  - uid: Stockage
+    name: Stockage
+    href: Stockage.html
+  - name: .
+  - uid: Stockage.Logs
+    name: Logs
+    href: Stockage.Logs.html
+- uid: Stockage.Logs.ILogger`1.Datas*
+  commentId: Overload:Stockage.Logs.ILogger`1.Datas
+  href: Stockage.Logs.ILogger-1.html#Stockage_Logs_ILogger_1_Datas
+  name: Datas
+  nameWithType: ILogger<T>.Datas
+  fullName: Stockage.Logs.ILogger<T>.Datas
+  nameWithType.vb: ILogger(Of T).Datas
+  fullName.vb: Stockage.Logs.ILogger(Of T).Datas
+- uid: System.Collections.ObjectModel.ObservableCollection{{T}}
+  commentId: T:System.Collections.ObjectModel.ObservableCollection{`0}
+  parent: System.Collections.ObjectModel
+  definition: System.Collections.ObjectModel.ObservableCollection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  name: ObservableCollection<T>
+  nameWithType: ObservableCollection<T>
+  fullName: System.Collections.ObjectModel.ObservableCollection<T>
+  nameWithType.vb: ObservableCollection(Of T)
+  fullName.vb: System.Collections.ObjectModel.ObservableCollection(Of T)
+  name.vb: ObservableCollection(Of T)
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.ObjectModel.ObservableCollection`1
+  commentId: T:System.Collections.ObjectModel.ObservableCollection`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  name: ObservableCollection<T>
+  nameWithType: ObservableCollection<T>
+  fullName: System.Collections.ObjectModel.ObservableCollection<T>
+  nameWithType.vb: ObservableCollection(Of T)
+  fullName.vb: System.Collections.ObjectModel.ObservableCollection(Of T)
+  name.vb: ObservableCollection(Of T)
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.ObjectModel
+  commentId: N:System.Collections.ObjectModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.ObjectModel
+  nameWithType: System.Collections.ObjectModel
+  fullName: System.Collections.ObjectModel
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.ObjectModel
+    name: ObjectModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.ObjectModel
+    name: ObjectModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel
+- uid: Stockage.Logs.ILogger`1.Log*
+  commentId: Overload:Stockage.Logs.ILogger`1.Log
+  href: Stockage.Logs.ILogger-1.html#Stockage_Logs_ILogger_1_Log__0_System_Boolean_System_Boolean_System_String_
+  name: Log
+  nameWithType: ILogger<T>.Log
+  fullName: Stockage.Logs.ILogger<T>.Log
+  nameWithType.vb: ILogger(Of T).Log
+  fullName.vb: Stockage.Logs.ILogger(Of T).Log
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

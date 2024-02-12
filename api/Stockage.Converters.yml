@@ -1,0 +1,130 @@
+### YamlMime:ManagedReference
+items:
+- uid: Stockage.Converters
+  commentId: N:Stockage.Converters
+  id: Stockage.Converters
+  children:
+  - Stockage.Converters.ConcreteCollectionTypeConverter`3
+  - Stockage.Converters.ConcreteConverter`2
+  - Stockage.Converters.ConcreteDictionnaryTypeConverter`4
+  langs:
+  - csharp
+  - vb
+  name: Stockage.Converters
+  nameWithType: Stockage.Converters
+  fullName: Stockage.Converters
+  type: Namespace
+  assemblies:
+  - Stockage
+references:
+- uid: Stockage.Converters.ConcreteCollectionTypeConverter`3
+  commentId: T:Stockage.Converters.ConcreteCollectionTypeConverter`3
+  href: Stockage.Converters.ConcreteCollectionTypeConverter-3.html
+  name: ConcreteCollectionTypeConverter<TCollection, TItem, TBaseItem>
+  nameWithType: ConcreteCollectionTypeConverter<TCollection, TItem, TBaseItem>
+  fullName: Stockage.Converters.ConcreteCollectionTypeConverter<TCollection, TItem, TBaseItem>
+  nameWithType.vb: ConcreteCollectionTypeConverter(Of TCollection, TItem, TBaseItem)
+  fullName.vb: Stockage.Converters.ConcreteCollectionTypeConverter(Of TCollection, TItem, TBaseItem)
+  name.vb: ConcreteCollectionTypeConverter(Of TCollection, TItem, TBaseItem)
+  spec.csharp:
+  - uid: Stockage.Converters.ConcreteCollectionTypeConverter`3
+    name: ConcreteCollectionTypeConverter
+    href: Stockage.Converters.ConcreteCollectionTypeConverter-3.html
+  - name: <
+  - name: TCollection
+  - name: ','
+  - name: " "
+  - name: TItem
+  - name: ','
+  - name: " "
+  - name: TBaseItem
+  - name: '>'
+  spec.vb:
+  - uid: Stockage.Converters.ConcreteCollectionTypeConverter`3
+    name: ConcreteCollectionTypeConverter
+    href: Stockage.Converters.ConcreteCollectionTypeConverter-3.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TCollection
+  - name: ','
+  - name: " "
+  - name: TItem
+  - name: ','
+  - name: " "
+  - name: TBaseItem
+  - name: )
+- uid: Stockage.Converters.ConcreteConverter`2
+  commentId: T:Stockage.Converters.ConcreteConverter`2
+  href: Stockage.Converters.ConcreteConverter-2.html
+  name: ConcreteConverter<TInterface, TConcrete>
+  nameWithType: ConcreteConverter<TInterface, TConcrete>
+  fullName: Stockage.Converters.ConcreteConverter<TInterface, TConcrete>
+  nameWithType.vb: ConcreteConverter(Of TInterface, TConcrete)
+  fullName.vb: Stockage.Converters.ConcreteConverter(Of TInterface, TConcrete)
+  name.vb: ConcreteConverter(Of TInterface, TConcrete)
+  spec.csharp:
+  - uid: Stockage.Converters.ConcreteConverter`2
+    name: ConcreteConverter
+    href: Stockage.Converters.ConcreteConverter-2.html
+  - name: <
+  - name: TInterface
+  - name: ','
+  - name: " "
+  - name: TConcrete
+  - name: '>'
+  spec.vb:
+  - uid: Stockage.Converters.ConcreteConverter`2
+    name: ConcreteConverter
+    href: Stockage.Converters.ConcreteConverter-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TInterface
+  - name: ','
+  - name: " "
+  - name: TConcrete
+  - name: )
+- uid: Stockage.Converters.ConcreteDictionnaryTypeConverter`4
+  commentId: T:Stockage.Converters.ConcreteDictionnaryTypeConverter`4
+  href: Stockage.Converters.ConcreteDictionnaryTypeConverter-4.html
+  name: ConcreteDictionnaryTypeConverter<TDictionary, TItem, TKey, TValue>
+  nameWithType: ConcreteDictionnaryTypeConverter<TDictionary, TItem, TKey, TValue>
+  fullName: Stockage.Converters.ConcreteDictionnaryTypeConverter<TDictionary, TItem, TKey, TValue>
+  nameWithType.vb: ConcreteDictionnaryTypeConverter(Of TDictionary, TItem, TKey, TValue)
+  fullName.vb: Stockage.Converters.ConcreteDictionnaryTypeConverter(Of TDictionary, TItem, TKey, TValue)
+  name.vb: ConcreteDictionnaryTypeConverter(Of TDictionary, TItem, TKey, TValue)
+  spec.csharp:
+  - uid: Stockage.Converters.ConcreteDictionnaryTypeConverter`4
+    name: ConcreteDictionnaryTypeConverter
+    href: Stockage.Converters.ConcreteDictionnaryTypeConverter-4.html
+  - name: <
+  - name: TDictionary
+  - name: ','
+  - name: " "
+  - name: TItem
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: Stockage.Converters.ConcreteDictionnaryTypeConverter`4
+    name: ConcreteDictionnaryTypeConverter
+    href: Stockage.Converters.ConcreteDictionnaryTypeConverter-4.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TDictionary
+  - name: ','
+  - name: " "
+  - name: TItem
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )

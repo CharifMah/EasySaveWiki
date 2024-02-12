@@ -1,0 +1,67 @@
+### YamlMime:ManagedReference
+items:
+- uid: EasySave.Views
+  commentId: N:EasySave.Views
+  id: EasySave.Views
+  children:
+  - EasySave.Views.BaseView
+  - EasySave.Views.ConsoleExtention
+  - EasySave.Views.LangueView
+  - EasySave.Views.View
+  langs:
+  - csharp
+  - vb
+  name: EasySave.Views
+  nameWithType: EasySave.Views
+  fullName: EasySave.Views
+  type: Namespace
+  assemblies:
+  - EasySave
+references:
+- uid: EasySave.Views.BaseView
+  commentId: T:EasySave.Views.BaseView
+  parent: EasySave.Views
+  href: EasySave.Views.BaseView.html
+  name: BaseView
+  nameWithType: BaseView
+  fullName: EasySave.Views.BaseView
+- uid: EasySave.Views.ConsoleExtention
+  commentId: T:EasySave.Views.ConsoleExtention
+  href: EasySave.Views.ConsoleExtention.html
+  name: ConsoleExtention
+  nameWithType: ConsoleExtention
+  fullName: EasySave.Views.ConsoleExtention
+- uid: EasySave.Views.LangueView
+  commentId: T:EasySave.Views.LangueView
+  href: EasySave.Views.LangueView.html
+  name: LangueView
+  nameWithType: LangueView
+  fullName: EasySave.Views.LangueView
+- uid: EasySave.Views.View
+  commentId: T:EasySave.Views.View
+  href: EasySave.Views.View.html
+  name: View
+  nameWithType: View
+  fullName: EasySave.Views.View
+- uid: EasySave.Views
+  commentId: N:EasySave.Views
+  href: EasySave.html
+  name: EasySave.Views
+  nameWithType: EasySave.Views
+  fullName: EasySave.Views
+  spec.csharp:
+  - uid: EasySave
+    name: EasySave
+    href: EasySave.html
+  - name: .
+  - uid: EasySave.Views
+    name: Views
+    href: EasySave.Views.html
+  spec.vb:
+  - uid: EasySave
+    name: EasySave
+    href: EasySave.html
+  - name: .
+  - uid: EasySave.Views
+    name: Views
+    href: EasySave.Views.html

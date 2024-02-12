@@ -1,0 +1,492 @@
+### YamlMime:ManagedReference
+items:
+- uid: EasySave.Views.View
+  commentId: T:EasySave.Views.View
+  id: View
+  parent: EasySave.Views
+  children:
+  - EasySave.Views.View.#ctor
+  - EasySave.Views.View.Menu
+  - EasySave.Views.View.Run
+  - EasySave.Views.View.Title
+  langs:
+  - csharp
+  - vb
+  name: View
+  nameWithType: View
+  fullName: EasySave.Views.View
+  type: Class
+  source:
+    remote:
+      path: EasySave-G4-FISA-24/EasySave/Views/View.cs
+      branch: issue/37-update-delete-jobs
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: View
+    path: EasySave/Views/View.cs
+    startLine: 5
+  assemblies:
+  - EasySave
+  namespace: EasySave.Views
+  syntax:
+    content: 'public class View : BaseView'
+    content.vb: Public Class View Inherits BaseView
+  inheritance:
+  - System.Object
+  - EasySave.Views.BaseView
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: EasySave.Views.View.Title
+  commentId: P:EasySave.Views.View.Title
+  id: Title
+  parent: EasySave.Views.View
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: View.Title
+  fullName: EasySave.Views.View.Title
+  type: Property
+  source:
+    remote:
+      path: EasySave-G4-FISA-24/EasySave/Views/View.cs
+      branch: issue/37-update-delete-jobs
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: Title
+    path: EasySave/Views/View.cs
+    startLine: 10
+  assemblies:
+  - EasySave
+  namespace: EasySave.Views
+  example: []
+  syntax:
+    content: public override string Title { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overrides ReadOnly Property Title As String
+  overridden: EasySave.Views.BaseView.Title
+  overload: EasySave.Views.View.Title*
+- uid: EasySave.Views.View.Menu
+  commentId: P:EasySave.Views.View.Menu
+  id: Menu
+  parent: EasySave.Views.View
+  langs:
+  - csharp
+  - vb
+  name: Menu
+  nameWithType: View.Menu
+  fullName: EasySave.Views.View.Menu
+  type: Property
+  source:
+    remote:
+      path: EasySave-G4-FISA-24/EasySave/Views/View.cs
+      branch: issue/37-update-delete-jobs
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: Menu
+    path: EasySave/Views/View.cs
+    startLine: 11
+  assemblies:
+  - EasySave
+  namespace: EasySave.Views
+  syntax:
+    content: public string Menu { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Menu As String
+  overload: EasySave.Views.View.Menu*
+- uid: EasySave.Views.View.#ctor
+  commentId: M:EasySave.Views.View.#ctor
+  id: '#ctor'
+  parent: EasySave.Views.View
+  langs:
+  - csharp
+  - vb
+  name: View()
+  nameWithType: View.View()
+  fullName: EasySave.Views.View.View()
+  type: Constructor
+  source:
+    remote:
+      path: EasySave-G4-FISA-24/EasySave/Views/View.cs
+      branch: issue/37-update-delete-jobs
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: .ctor
+    path: EasySave/Views/View.cs
+    startLine: 21
+  assemblies:
+  - EasySave
+  namespace: EasySave.Views
+  syntax:
+    content: public View()
+    content.vb: Public Sub New()
+  overload: EasySave.Views.View.#ctor*
+  nameWithType.vb: View.New()
+  fullName.vb: EasySave.Views.View.New()
+  name.vb: New()
+- uid: EasySave.Views.View.Run
+  commentId: M:EasySave.Views.View.Run
+  id: Run
+  parent: EasySave.Views.View
+  langs:
+  - csharp
+  - vb
+  name: Run()
+  nameWithType: View.Run()
+  fullName: EasySave.Views.View.Run()
+  type: Method
+  source:
+    remote:
+      path: EasySave-G4-FISA-24/EasySave/Views/View.cs
+      branch: issue/37-update-delete-jobs
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: Run
+    path: EasySave/Views/View.cs
+    startLine: 33
+  assemblies:
+  - EasySave
+  namespace: EasySave.Views
+  summary: Start the main program
+  example: []
+  syntax:
+    content: public override void Run()
+    content.vb: Public Overrides Sub Run()
+  overridden: EasySave.Views.BaseView.Run
+  overload: EasySave.Views.View.Run*
+references:
+- uid: EasySave.Views
+  commentId: N:EasySave.Views
+  href: EasySave.html
+  name: EasySave.Views
+  nameWithType: EasySave.Views
+  fullName: EasySave.Views
+  spec.csharp:
+  - uid: EasySave
+    name: EasySave
+    href: EasySave.html
+  - name: .
+  - uid: EasySave.Views
+    name: Views
+    href: EasySave.Views.html
+  spec.vb:
+  - uid: EasySave
+    name: EasySave
+    href: EasySave.html
+  - name: .
+  - uid: EasySave.Views
+    name: Views
+    href: EasySave.Views.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: EasySave.Views.BaseView
+  commentId: T:EasySave.Views.BaseView
+  parent: EasySave.Views
+  href: EasySave.Views.BaseView.html
+  name: BaseView
+  nameWithType: BaseView
+  fullName: EasySave.Views.BaseView
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EasySave.Views.BaseView.Title
+  commentId: P:EasySave.Views.BaseView.Title
+  parent: EasySave.Views.BaseView
+  href: EasySave.Views.BaseView.html#EasySave_Views_BaseView_Title
+  name: Title
+  nameWithType: BaseView.Title
+  fullName: EasySave.Views.BaseView.Title
+- uid: EasySave.Views.View.Title*
+  commentId: Overload:EasySave.Views.View.Title
+  href: EasySave.Views.View.html#EasySave_Views_View_Title
+  name: Title
+  nameWithType: View.Title
+  fullName: EasySave.Views.View.Title
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: EasySave.Views.View.Menu*
+  commentId: Overload:EasySave.Views.View.Menu
+  href: EasySave.Views.View.html#EasySave_Views_View_Menu
+  name: Menu
+  nameWithType: View.Menu
+  fullName: EasySave.Views.View.Menu
+- uid: EasySave.Views.View.#ctor*
+  commentId: Overload:EasySave.Views.View.#ctor
+  href: EasySave.Views.View.html#EasySave_Views_View__ctor
+  name: View
+  nameWithType: View.View
+  fullName: EasySave.Views.View.View
+  nameWithType.vb: View.New
+  fullName.vb: EasySave.Views.View.New
+  name.vb: New
+- uid: EasySave.Views.BaseView.Run
+  commentId: M:EasySave.Views.BaseView.Run
+  parent: EasySave.Views.BaseView
+  href: EasySave.Views.BaseView.html#EasySave_Views_BaseView_Run
+  name: Run()
+  nameWithType: BaseView.Run()
+  fullName: EasySave.Views.BaseView.Run()
+  spec.csharp:
+  - uid: EasySave.Views.BaseView.Run
+    name: Run
+    href: EasySave.Views.BaseView.html#EasySave_Views_BaseView_Run
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: EasySave.Views.BaseView.Run
+    name: Run
+    href: EasySave.Views.BaseView.html#EasySave_Views_BaseView_Run
+  - name: (
+  - name: )
+- uid: EasySave.Views.View.Run*
+  commentId: Overload:EasySave.Views.View.Run
+  href: EasySave.Views.View.html#EasySave_Views_View_Run
+  name: Run
+  nameWithType: View.Run
+  fullName: EasySave.Views.View.Run

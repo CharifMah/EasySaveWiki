@@ -1,0 +1,69 @@
+### YamlMime:ManagedReference
+items:
+- uid: EasySave.ViewModels
+  commentId: N:EasySave.ViewModels
+  id: EasySave.ViewModels
+  children:
+  - EasySave.ViewModels.BaseViewModel
+  - EasySave.ViewModels.JobViewModel
+  - EasySave.ViewModels.LangueViewModel
+  - EasySave.ViewModels.MainViewModel
+  langs:
+  - csharp
+  - vb
+  name: EasySave.ViewModels
+  nameWithType: EasySave.ViewModels
+  fullName: EasySave.ViewModels
+  type: Namespace
+  assemblies:
+  - EasySave
+references:
+- uid: EasySave.ViewModels.BaseViewModel
+  commentId: T:EasySave.ViewModels.BaseViewModel
+  parent: EasySave.ViewModels
+  href: EasySave.ViewModels.BaseViewModel.html
+  name: BaseViewModel
+  nameWithType: BaseViewModel
+  fullName: EasySave.ViewModels.BaseViewModel
+- uid: EasySave.ViewModels.JobViewModel
+  commentId: T:EasySave.ViewModels.JobViewModel
+  parent: EasySave.ViewModels
+  href: EasySave.ViewModels.JobViewModel.html
+  name: JobViewModel
+  nameWithType: JobViewModel
+  fullName: EasySave.ViewModels.JobViewModel
+- uid: EasySave.ViewModels.LangueViewModel
+  commentId: T:EasySave.ViewModels.LangueViewModel
+  parent: EasySave.ViewModels
+  href: EasySave.ViewModels.LangueViewModel.html
+  name: LangueViewModel
+  nameWithType: LangueViewModel
+  fullName: EasySave.ViewModels.LangueViewModel
+- uid: EasySave.ViewModels.MainViewModel
+  commentId: T:EasySave.ViewModels.MainViewModel
+  href: EasySave.ViewModels.MainViewModel.html
+  name: MainViewModel
+  nameWithType: MainViewModel
+  fullName: EasySave.ViewModels.MainViewModel
+- uid: EasySave.ViewModels
+  commentId: N:EasySave.ViewModels
+  href: EasySave.html
+  name: EasySave.ViewModels
+  nameWithType: EasySave.ViewModels
+  fullName: EasySave.ViewModels
+  spec.csharp:
+  - uid: EasySave
+    name: EasySave
+    href: EasySave.html
+  - name: .
+  - uid: EasySave.ViewModels
+    name: ViewModels
+    href: EasySave.ViewModels.html
+  spec.vb:
+  - uid: EasySave
+    name: EasySave
+    href: EasySave.html
+  - name: .
+  - uid: EasySave.ViewModels
+    name: ViewModels
+    href: EasySave.ViewModels.html

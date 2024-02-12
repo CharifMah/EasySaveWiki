@@ -1,0 +1,53 @@
+### YamlMime:ManagedReference
+items:
+- uid: LogsModels
+  commentId: N:LogsModels
+  id: LogsModels
+  children:
+  - LogsModels.CLogBase
+  - LogsModels.CLogDaily
+  - LogsModels.CLogState
+  - LogsModels.IPath
+  langs:
+  - csharp
+  - vb
+  name: LogsModels
+  nameWithType: LogsModels
+  fullName: LogsModels
+  type: Namespace
+  assemblies:
+  - LogsModels
+references:
+- uid: LogsModels.CLogBase
+  commentId: T:LogsModels.CLogBase
+  parent: LogsModels
+  href: LogsModels.CLogBase.html
+  name: CLogBase
+  nameWithType: CLogBase
+  fullName: LogsModels.CLogBase
+- uid: LogsModels.CLogDaily
+  commentId: T:LogsModels.CLogDaily
+  href: LogsModels.CLogDaily.html
+  name: CLogDaily
+  nameWithType: CLogDaily
+  fullName: LogsModels.CLogDaily
+- uid: LogsModels.CLogState
+  commentId: T:LogsModels.CLogState
+  parent: LogsModels
+  href: LogsModels.CLogState.html
+  name: CLogState
+  nameWithType: CLogState
+  fullName: LogsModels.CLogState
+- uid: LogsModels.IPath
+  commentId: T:LogsModels.IPath
+  parent: LogsModels
+  href: LogsModels.IPath.html
+  name: IPath
+  nameWithType: IPath
+  fullName: LogsModels.IPath
+- uid: LogsModels
+  commentId: N:LogsModels
+  href: LogsModels.html
+  name: LogsModels
+  nameWithType: LogsModels
+  fullName: LogsModels

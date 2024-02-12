@@ -1,0 +1,97 @@
+### YamlMime:TableOfContent
+items:
+- uid: EasySave.ViewModels
+  name: EasySave.ViewModels
+  items:
+  - uid: EasySave.ViewModels.BaseViewModel
+    name: BaseViewModel
+  - uid: EasySave.ViewModels.JobViewModel
+    name: JobViewModel
+  - uid: EasySave.ViewModels.LangueViewModel
+    name: LangueViewModel
+  - uid: EasySave.ViewModels.MainViewModel
+    name: MainViewModel
+- uid: EasySave.Views
+  name: EasySave.Views
+  items:
+  - uid: EasySave.Views.BaseView
+    name: BaseView
+  - uid: EasySave.Views.ConsoleExtention
+    name: ConsoleExtention
+  - uid: EasySave.Views.LangueView
+    name: LangueView
+  - uid: EasySave.Views.View
+    name: View
+- uid: LogsModels
+  name: LogsModels
+  items:
+  - uid: LogsModels.CLogBase
+    name: CLogBase
+  - uid: LogsModels.CLogDaily
+    name: CLogDaily
+  - uid: LogsModels.CLogState
+    name: CLogState
+  - uid: LogsModels.IPath
+    name: IPath
+- uid: Models
+  name: Models
+  items:
+  - uid: Models.CLangue
+    name: CLangue
+- uid: Models.Backup
+  name: Models.Backup
+  items:
+  - uid: Models.Backup.CJob
+    name: CJob
+  - uid: Models.Backup.CJobManager
+    name: CJobManager
+  - uid: Models.Backup.ETypeBackup
+    name: ETypeBackup
+- uid: Stockage
+  name: Stockage
+  items:
+  - uid: Stockage.BaseSave
+    name: BaseSave
+  - uid: Stockage.ChargerCollection
+    name: ChargerCollection
+  - uid: Stockage.ICharge
+    name: ICharge
+  - uid: Stockage.ISauve
+    name: ISauve
+  - uid: Stockage.SauveCollection
+    name: SauveCollection
+  - uid: Stockage.SauveJobs
+    name: SauveJobs
+- uid: Stockage.Converters
+  name: Stockage.Converters
+  items:
+  - uid: Stockage.Converters.ConcreteCollectionTypeConverter`3
+    name: ConcreteCollectionTypeConverter<TCollection, TItem, TBaseItem>
+  - uid: Stockage.Converters.ConcreteConverter`2
+    name: ConcreteConverter<TInterface, TConcrete>
+  - uid: Stockage.Converters.ConcreteDictionnaryTypeConverter`4
+    name: ConcreteDictionnaryTypeConverter<TDictionary, TItem, TKey, TValue>
+- uid: Stockage.Logs
+  name: Stockage.Logs
+  items:
+  - uid: Stockage.Logs.BaseLogger`1
+    name: BaseLogger<T>
+  - uid: Stockage.Logs.CGenericLogger`1
+    name: CGenericLogger<T>
+  - uid: Stockage.Logs.CLogger`1
+    name: CLogger<T>
+  - uid: Stockage.Logs.CStringLogger
+    name: CStringLogger
+  - uid: Stockage.Logs.ILogger`1
+    name: ILogger<T>
+- uid: UnitTestJobs
+  name: UnitTestJobs
+  items:
+  - uid: UnitTestJobs.JobsTestUnit
+    name: JobsTestUnit
+- uid: UnitTestStorage
+  name: UnitTestStorage
+  items:
+  - uid: UnitTestStorage.StockageTestUnit
+    name: StockageTestUnit
+memberLayout: SamePage

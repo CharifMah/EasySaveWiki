@@ -1,0 +1,1940 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: EasySave.ViewModels
+  name: EasySave.ViewModels
+  href: api/EasySave.ViewModels.html
+  commentId: N:EasySave.ViewModels
+  fullName: EasySave.ViewModels
+  nameWithType: EasySave.ViewModels
+- uid: EasySave.ViewModels.BaseViewModel
+  name: BaseViewModel
+  href: api/EasySave.ViewModels.BaseViewModel.html
+  commentId: T:EasySave.ViewModels.BaseViewModel
+  fullName: EasySave.ViewModels.BaseViewModel
+  nameWithType: BaseViewModel
+- uid: EasySave.ViewModels.BaseViewModel.NotifyPropertyChanged(System.String)
+  name: NotifyPropertyChanged(string)
+  href: api/EasySave.ViewModels.BaseViewModel.html#EasySave_ViewModels_BaseViewModel_NotifyPropertyChanged_System_String_
+  commentId: M:EasySave.ViewModels.BaseViewModel.NotifyPropertyChanged(System.String)
+  name.vb: NotifyPropertyChanged(String)
+  fullName: EasySave.ViewModels.BaseViewModel.NotifyPropertyChanged(string)
+  fullName.vb: EasySave.ViewModels.BaseViewModel.NotifyPropertyChanged(String)
+  nameWithType: BaseViewModel.NotifyPropertyChanged(string)
+  nameWithType.vb: BaseViewModel.NotifyPropertyChanged(String)
+- uid: EasySave.ViewModels.BaseViewModel.NotifyPropertyChanged*
+  name: NotifyPropertyChanged
+  href: api/EasySave.ViewModels.BaseViewModel.html#EasySave_ViewModels_BaseViewModel_NotifyPropertyChanged_
+  commentId: Overload:EasySave.ViewModels.BaseViewModel.NotifyPropertyChanged
+  isSpec: "True"
+  fullName: EasySave.ViewModels.BaseViewModel.NotifyPropertyChanged
+  nameWithType: BaseViewModel.NotifyPropertyChanged
+- uid: EasySave.ViewModels.BaseViewModel.PropertyChanged
+  name: PropertyChanged
+  href: api/EasySave.ViewModels.BaseViewModel.html#EasySave_ViewModels_BaseViewModel_PropertyChanged
+  commentId: E:EasySave.ViewModels.BaseViewModel.PropertyChanged
+  fullName: EasySave.ViewModels.BaseViewModel.PropertyChanged
+  nameWithType: BaseViewModel.PropertyChanged
+- uid: EasySave.ViewModels.JobViewModel
+  name: JobViewModel
+  href: api/EasySave.ViewModels.JobViewModel.html
+  commentId: T:EasySave.ViewModels.JobViewModel
+  fullName: EasySave.ViewModels.JobViewModel
+  nameWithType: JobViewModel
+- uid: EasySave.ViewModels.JobViewModel.#ctor
+  name: JobViewModel()
+  href: api/EasySave.ViewModels.JobViewModel.html#EasySave_ViewModels_JobViewModel__ctor
+  commentId: M:EasySave.ViewModels.JobViewModel.#ctor
+  name.vb: New()
+  fullName: EasySave.ViewModels.JobViewModel.JobViewModel()
+  fullName.vb: EasySave.ViewModels.JobViewModel.New()
+  nameWithType: JobViewModel.JobViewModel()
+  nameWithType.vb: JobViewModel.New()
+- uid: EasySave.ViewModels.JobViewModel.#ctor*
+  name: JobViewModel
+  href: api/EasySave.ViewModels.JobViewModel.html#EasySave_ViewModels_JobViewModel__ctor_
+  commentId: Overload:EasySave.ViewModels.JobViewModel.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: EasySave.ViewModels.JobViewModel.JobViewModel
+  fullName.vb: EasySave.ViewModels.JobViewModel.New
+  nameWithType: JobViewModel.JobViewModel
+  nameWithType.vb: JobViewModel.New
+- uid: EasySave.ViewModels.JobViewModel.CreateBackupJob(Models.Backup.CJob)
+  name: CreateBackupJob(CJob)
+  href: api/EasySave.ViewModels.JobViewModel.html#EasySave_ViewModels_JobViewModel_CreateBackupJob_Models_Backup_CJob_
+  commentId: M:EasySave.ViewModels.JobViewModel.CreateBackupJob(Models.Backup.CJob)
+  fullName: EasySave.ViewModels.JobViewModel.CreateBackupJob(Models.Backup.CJob)
+  nameWithType: JobViewModel.CreateBackupJob(CJob)
+- uid: EasySave.ViewModels.JobViewModel.CreateBackupJob*
+  name: CreateBackupJob
+  href: api/EasySave.ViewModels.JobViewModel.html#EasySave_ViewModels_JobViewModel_CreateBackupJob_
+  commentId: Overload:EasySave.ViewModels.JobViewModel.CreateBackupJob
+  isSpec: "True"
+  fullName: EasySave.ViewModels.JobViewModel.CreateBackupJob
+  nameWithType: JobViewModel.CreateBackupJob
+- uid: EasySave.ViewModels.JobViewModel.DeleteJobs(System.Collections.Generic.List{Models.Backup.CJob})
+  name: DeleteJobs(List<CJob>)
+  href: api/EasySave.ViewModels.JobViewModel.html#EasySave_ViewModels_JobViewModel_DeleteJobs_System_Collections_Generic_List_Models_Backup_CJob__
+  commentId: M:EasySave.ViewModels.JobViewModel.DeleteJobs(System.Collections.Generic.List{Models.Backup.CJob})
+  name.vb: DeleteJobs(List(Of CJob))
+  fullName: EasySave.ViewModels.JobViewModel.DeleteJobs(System.Collections.Generic.List<Models.Backup.CJob>)
+  fullName.vb: EasySave.ViewModels.JobViewModel.DeleteJobs(System.Collections.Generic.List(Of Models.Backup.CJob))
+  nameWithType: JobViewModel.DeleteJobs(List<CJob>)
+  nameWithType.vb: JobViewModel.DeleteJobs(List(Of CJob))
+- uid: EasySave.ViewModels.JobViewModel.DeleteJobs*
+  name: DeleteJobs
+  href: api/EasySave.ViewModels.JobViewModel.html#EasySave_ViewModels_JobViewModel_DeleteJobs_
+  commentId: Overload:EasySave.ViewModels.JobViewModel.DeleteJobs
+  isSpec: "True"
+  fullName: EasySave.ViewModels.JobViewModel.DeleteJobs
+  nameWithType: JobViewModel.DeleteJobs
+- uid: EasySave.ViewModels.JobViewModel.JobManager
+  name: JobManager
+  href: api/EasySave.ViewModels.JobViewModel.html#EasySave_ViewModels_JobViewModel_JobManager
+  commentId: P:EasySave.ViewModels.JobViewModel.JobManager
+  fullName: EasySave.ViewModels.JobViewModel.JobManager
+  nameWithType: JobViewModel.JobManager
+- uid: EasySave.ViewModels.JobViewModel.JobManager*
+  name: JobManager
+  href: api/EasySave.ViewModels.JobViewModel.html#EasySave_ViewModels_JobViewModel_JobManager_
+  commentId: Overload:EasySave.ViewModels.JobViewModel.JobManager
+  isSpec: "True"
+  fullName: EasySave.ViewModels.JobViewModel.JobManager
+  nameWithType: JobViewModel.JobManager
+- uid: EasySave.ViewModels.JobViewModel.LoadJobs(System.Boolean,System.String)
+  name: LoadJobs(bool, string)
+  href: api/EasySave.ViewModels.JobViewModel.html#EasySave_ViewModels_JobViewModel_LoadJobs_System_Boolean_System_String_
+  commentId: M:EasySave.ViewModels.JobViewModel.LoadJobs(System.Boolean,System.String)
+  name.vb: LoadJobs(Boolean, String)
+  fullName: EasySave.ViewModels.JobViewModel.LoadJobs(bool, string)
+  fullName.vb: EasySave.ViewModels.JobViewModel.LoadJobs(Boolean, String)
+  nameWithType: JobViewModel.LoadJobs(bool, string)
+  nameWithType.vb: JobViewModel.LoadJobs(Boolean, String)
+- uid: EasySave.ViewModels.JobViewModel.LoadJobs*
+  name: LoadJobs
+  href: api/EasySave.ViewModels.JobViewModel.html#EasySave_ViewModels_JobViewModel_LoadJobs_
+  commentId: Overload:EasySave.ViewModels.JobViewModel.LoadJobs
+  isSpec: "True"
+  fullName: EasySave.ViewModels.JobViewModel.LoadJobs
+  nameWithType: JobViewModel.LoadJobs
+- uid: EasySave.ViewModels.JobViewModel.RunJobs(System.Collections.Generic.List{Models.Backup.CJob})
+  name: RunJobs(List<CJob>)
+  href: api/EasySave.ViewModels.JobViewModel.html#EasySave_ViewModels_JobViewModel_RunJobs_System_Collections_Generic_List_Models_Backup_CJob__
+  commentId: M:EasySave.ViewModels.JobViewModel.RunJobs(System.Collections.Generic.List{Models.Backup.CJob})
+  name.vb: RunJobs(List(Of CJob))
+  fullName: EasySave.ViewModels.JobViewModel.RunJobs(System.Collections.Generic.List<Models.Backup.CJob>)
+  fullName.vb: EasySave.ViewModels.JobViewModel.RunJobs(System.Collections.Generic.List(Of Models.Backup.CJob))
+  nameWithType: JobViewModel.RunJobs(List<CJob>)
+  nameWithType.vb: JobViewModel.RunJobs(List(Of CJob))
+- uid: EasySave.ViewModels.JobViewModel.RunJobs*
+  name: RunJobs
+  href: api/EasySave.ViewModels.JobViewModel.html#EasySave_ViewModels_JobViewModel_RunJobs_
+  commentId: Overload:EasySave.ViewModels.JobViewModel.RunJobs
+  isSpec: "True"
+  fullName: EasySave.ViewModels.JobViewModel.RunJobs
+  nameWithType: JobViewModel.RunJobs
+- uid: EasySave.ViewModels.JobViewModel.SaveJobs
+  name: SaveJobs()
+  href: api/EasySave.ViewModels.JobViewModel.html#EasySave_ViewModels_JobViewModel_SaveJobs
+  commentId: M:EasySave.ViewModels.JobViewModel.SaveJobs
+  fullName: EasySave.ViewModels.JobViewModel.SaveJobs()
+  nameWithType: JobViewModel.SaveJobs()
+- uid: EasySave.ViewModels.JobViewModel.SaveJobs*
+  name: SaveJobs
+  href: api/EasySave.ViewModels.JobViewModel.html#EasySave_ViewModels_JobViewModel_SaveJobs_
+  commentId: Overload:EasySave.ViewModels.JobViewModel.SaveJobs
+  isSpec: "True"
+  fullName: EasySave.ViewModels.JobViewModel.SaveJobs
+  nameWithType: JobViewModel.SaveJobs
+- uid: EasySave.ViewModels.LangueViewModel
+  name: LangueViewModel
+  href: api/EasySave.ViewModels.LangueViewModel.html
+  commentId: T:EasySave.ViewModels.LangueViewModel
+  fullName: EasySave.ViewModels.LangueViewModel
+  nameWithType: LangueViewModel
+- uid: EasySave.ViewModels.LangueViewModel.#ctor
+  name: LangueViewModel()
+  href: api/EasySave.ViewModels.LangueViewModel.html#EasySave_ViewModels_LangueViewModel__ctor
+  commentId: M:EasySave.ViewModels.LangueViewModel.#ctor
+  name.vb: New()
+  fullName: EasySave.ViewModels.LangueViewModel.LangueViewModel()
+  fullName.vb: EasySave.ViewModels.LangueViewModel.New()
+  nameWithType: LangueViewModel.LangueViewModel()
+  nameWithType.vb: LangueViewModel.New()
+- uid: EasySave.ViewModels.LangueViewModel.#ctor*
+  name: LangueViewModel
+  href: api/EasySave.ViewModels.LangueViewModel.html#EasySave_ViewModels_LangueViewModel__ctor_
+  commentId: Overload:EasySave.ViewModels.LangueViewModel.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: EasySave.ViewModels.LangueViewModel.LangueViewModel
+  fullName.vb: EasySave.ViewModels.LangueViewModel.New
+  nameWithType: LangueViewModel.LangueViewModel
+  nameWithType.vb: LangueViewModel.New
+- uid: EasySave.ViewModels.LangueViewModel.Langue
+  name: Langue
+  href: api/EasySave.ViewModels.LangueViewModel.html#EasySave_ViewModels_LangueViewModel_Langue
+  commentId: P:EasySave.ViewModels.LangueViewModel.Langue
+  fullName: EasySave.ViewModels.LangueViewModel.Langue
+  nameWithType: LangueViewModel.Langue
+- uid: EasySave.ViewModels.LangueViewModel.Langue*
+  name: Langue
+  href: api/EasySave.ViewModels.LangueViewModel.html#EasySave_ViewModels_LangueViewModel_Langue_
+  commentId: Overload:EasySave.ViewModels.LangueViewModel.Langue
+  isSpec: "True"
+  fullName: EasySave.ViewModels.LangueViewModel.Langue
+  nameWithType: LangueViewModel.Langue
+- uid: EasySave.ViewModels.LangueViewModel.SetLanguage(System.String)
+  name: SetLanguage(string)
+  href: api/EasySave.ViewModels.LangueViewModel.html#EasySave_ViewModels_LangueViewModel_SetLanguage_System_String_
+  commentId: M:EasySave.ViewModels.LangueViewModel.SetLanguage(System.String)
+  name.vb: SetLanguage(String)
+  fullName: EasySave.ViewModels.LangueViewModel.SetLanguage(string)
+  fullName.vb: EasySave.ViewModels.LangueViewModel.SetLanguage(String)
+  nameWithType: LangueViewModel.SetLanguage(string)
+  nameWithType.vb: LangueViewModel.SetLanguage(String)
+- uid: EasySave.ViewModels.LangueViewModel.SetLanguage*
+  name: SetLanguage
+  href: api/EasySave.ViewModels.LangueViewModel.html#EasySave_ViewModels_LangueViewModel_SetLanguage_
+  commentId: Overload:EasySave.ViewModels.LangueViewModel.SetLanguage
+  isSpec: "True"
+  fullName: EasySave.ViewModels.LangueViewModel.SetLanguage
+  nameWithType: LangueViewModel.SetLanguage
+- uid: EasySave.ViewModels.MainViewModel
+  name: MainViewModel
+  href: api/EasySave.ViewModels.MainViewModel.html
+  commentId: T:EasySave.ViewModels.MainViewModel
+  fullName: EasySave.ViewModels.MainViewModel
+  nameWithType: MainViewModel
+- uid: EasySave.ViewModels.MainViewModel.#ctor
+  name: MainViewModel()
+  href: api/EasySave.ViewModels.MainViewModel.html#EasySave_ViewModels_MainViewModel__ctor
+  commentId: M:EasySave.ViewModels.MainViewModel.#ctor
+  name.vb: New()
+  fullName: EasySave.ViewModels.MainViewModel.MainViewModel()
+  fullName.vb: EasySave.ViewModels.MainViewModel.New()
+  nameWithType: MainViewModel.MainViewModel()
+  nameWithType.vb: MainViewModel.New()
+- uid: EasySave.ViewModels.MainViewModel.#ctor*
+  name: MainViewModel
+  href: api/EasySave.ViewModels.MainViewModel.html#EasySave_ViewModels_MainViewModel__ctor_
+  commentId: Overload:EasySave.ViewModels.MainViewModel.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: EasySave.ViewModels.MainViewModel.MainViewModel
+  fullName.vb: EasySave.ViewModels.MainViewModel.New
+  nameWithType: MainViewModel.MainViewModel
+  nameWithType.vb: MainViewModel.New
+- uid: EasySave.ViewModels.MainViewModel.JobVm
+  name: JobVm
+  href: api/EasySave.ViewModels.MainViewModel.html#EasySave_ViewModels_MainViewModel_JobVm
+  commentId: P:EasySave.ViewModels.MainViewModel.JobVm
+  fullName: EasySave.ViewModels.MainViewModel.JobVm
+  nameWithType: MainViewModel.JobVm
+- uid: EasySave.ViewModels.MainViewModel.JobVm*
+  name: JobVm
+  href: api/EasySave.ViewModels.MainViewModel.html#EasySave_ViewModels_MainViewModel_JobVm_
+  commentId: Overload:EasySave.ViewModels.MainViewModel.JobVm
+  isSpec: "True"
+  fullName: EasySave.ViewModels.MainViewModel.JobVm
+  nameWithType: MainViewModel.JobVm
+- uid: EasySave.ViewModels.MainViewModel.LangueVm
+  name: LangueVm
+  href: api/EasySave.ViewModels.MainViewModel.html#EasySave_ViewModels_MainViewModel_LangueVm
+  commentId: P:EasySave.ViewModels.MainViewModel.LangueVm
+  fullName: EasySave.ViewModels.MainViewModel.LangueVm
+  nameWithType: MainViewModel.LangueVm
+- uid: EasySave.ViewModels.MainViewModel.LangueVm*
+  name: LangueVm
+  href: api/EasySave.ViewModels.MainViewModel.html#EasySave_ViewModels_MainViewModel_LangueVm_
+  commentId: Overload:EasySave.ViewModels.MainViewModel.LangueVm
+  isSpec: "True"
+  fullName: EasySave.ViewModels.MainViewModel.LangueVm
+  nameWithType: MainViewModel.LangueVm
+- uid: EasySave.Views
+  name: EasySave.Views
+  href: api/EasySave.Views.html
+  commentId: N:EasySave.Views
+  fullName: EasySave.Views
+  nameWithType: EasySave.Views
+- uid: EasySave.Views.BaseView
+  name: BaseView
+  href: api/EasySave.Views.BaseView.html
+  commentId: T:EasySave.Views.BaseView
+  fullName: EasySave.Views.BaseView
+  nameWithType: BaseView
+- uid: EasySave.Views.BaseView.Run
+  name: Run()
+  href: api/EasySave.Views.BaseView.html#EasySave_Views_BaseView_Run
+  commentId: M:EasySave.Views.BaseView.Run
+  fullName: EasySave.Views.BaseView.Run()
+  nameWithType: BaseView.Run()
+- uid: EasySave.Views.BaseView.Run*
+  name: Run
+  href: api/EasySave.Views.BaseView.html#EasySave_Views_BaseView_Run_
+  commentId: Overload:EasySave.Views.BaseView.Run
+  isSpec: "True"
+  fullName: EasySave.Views.BaseView.Run
+  nameWithType: BaseView.Run
+- uid: EasySave.Views.BaseView.Title
+  name: Title
+  href: api/EasySave.Views.BaseView.html#EasySave_Views_BaseView_Title
+  commentId: P:EasySave.Views.BaseView.Title
+  fullName: EasySave.Views.BaseView.Title
+  nameWithType: BaseView.Title
+- uid: EasySave.Views.BaseView.Title*
+  name: Title
+  href: api/EasySave.Views.BaseView.html#EasySave_Views_BaseView_Title_
+  commentId: Overload:EasySave.Views.BaseView.Title
+  isSpec: "True"
+  fullName: EasySave.Views.BaseView.Title
+  nameWithType: BaseView.Title
+- uid: EasySave.Views.ConsoleExtention
+  name: ConsoleExtention
+  href: api/EasySave.Views.ConsoleExtention.html
+  commentId: T:EasySave.Views.ConsoleExtention
+  fullName: EasySave.Views.ConsoleExtention
+  nameWithType: ConsoleExtention
+- uid: EasySave.Views.ConsoleExtention.Clear
+  name: Clear()
+  href: api/EasySave.Views.ConsoleExtention.html#EasySave_Views_ConsoleExtention_Clear
+  commentId: M:EasySave.Views.ConsoleExtention.Clear
+  fullName: EasySave.Views.ConsoleExtention.Clear()
+  nameWithType: ConsoleExtention.Clear()
+- uid: EasySave.Views.ConsoleExtention.Clear*
+  name: Clear
+  href: api/EasySave.Views.ConsoleExtention.html#EasySave_Views_ConsoleExtention_Clear_
+  commentId: Overload:EasySave.Views.ConsoleExtention.Clear
+  isSpec: "True"
+  fullName: EasySave.Views.ConsoleExtention.Clear
+  nameWithType: ConsoleExtention.Clear
+- uid: EasySave.Views.ConsoleExtention.ReadFile(System.String,System.Text.RegularExpressions.Regex)
+  name: ReadFile(string, Regex)
+  href: api/EasySave.Views.ConsoleExtention.html#EasySave_Views_ConsoleExtention_ReadFile_System_String_System_Text_RegularExpressions_Regex_
+  commentId: M:EasySave.Views.ConsoleExtention.ReadFile(System.String,System.Text.RegularExpressions.Regex)
+  name.vb: ReadFile(String, Regex)
+  fullName: EasySave.Views.ConsoleExtention.ReadFile(string, System.Text.RegularExpressions.Regex)
+  fullName.vb: EasySave.Views.ConsoleExtention.ReadFile(String, System.Text.RegularExpressions.Regex)
+  nameWithType: ConsoleExtention.ReadFile(string, Regex)
+  nameWithType.vb: ConsoleExtention.ReadFile(String, Regex)
+- uid: EasySave.Views.ConsoleExtention.ReadFile*
+  name: ReadFile
+  href: api/EasySave.Views.ConsoleExtention.html#EasySave_Views_ConsoleExtention_ReadFile_
+  commentId: Overload:EasySave.Views.ConsoleExtention.ReadFile
+  isSpec: "True"
+  fullName: EasySave.Views.ConsoleExtention.ReadFile
+  nameWithType: ConsoleExtention.ReadFile
+- uid: EasySave.Views.ConsoleExtention.ReadFolder(System.String)
+  name: ReadFolder(string)
+  href: api/EasySave.Views.ConsoleExtention.html#EasySave_Views_ConsoleExtention_ReadFolder_System_String_
+  commentId: M:EasySave.Views.ConsoleExtention.ReadFolder(System.String)
+  name.vb: ReadFolder(String)
+  fullName: EasySave.Views.ConsoleExtention.ReadFolder(string)
+  fullName.vb: EasySave.Views.ConsoleExtention.ReadFolder(String)
+  nameWithType: ConsoleExtention.ReadFolder(string)
+  nameWithType.vb: ConsoleExtention.ReadFolder(String)
+- uid: EasySave.Views.ConsoleExtention.ReadFolder*
+  name: ReadFolder
+  href: api/EasySave.Views.ConsoleExtention.html#EasySave_Views_ConsoleExtention_ReadFolder_
+  commentId: Overload:EasySave.Views.ConsoleExtention.ReadFolder
+  isSpec: "True"
+  fullName: EasySave.Views.ConsoleExtention.ReadFolder
+  nameWithType: ConsoleExtention.ReadFolder
+- uid: EasySave.Views.ConsoleExtention.ReadResponse(System.String,System.Text.RegularExpressions.Regex,System.Func{System.String,System.Boolean})
+  name: ReadResponse(string, Regex?, Func<string, bool>)
+  href: api/EasySave.Views.ConsoleExtention.html#EasySave_Views_ConsoleExtention_ReadResponse_System_String_System_Text_RegularExpressions_Regex_System_Func_System_String_System_Boolean__
+  commentId: M:EasySave.Views.ConsoleExtention.ReadResponse(System.String,System.Text.RegularExpressions.Regex,System.Func{System.String,System.Boolean})
+  name.vb: ReadResponse(String, Regex, Func(Of String, Boolean))
+  fullName: EasySave.Views.ConsoleExtention.ReadResponse(string, System.Text.RegularExpressions.Regex?, System.Func<string, bool>)
+  fullName.vb: EasySave.Views.ConsoleExtention.ReadResponse(String, System.Text.RegularExpressions.Regex, System.Func(Of String, Boolean))
+  nameWithType: ConsoleExtention.ReadResponse(string, Regex?, Func<string, bool>)
+  nameWithType.vb: ConsoleExtention.ReadResponse(String, Regex, Func(Of String, Boolean))
+- uid: EasySave.Views.ConsoleExtention.ReadResponse*
+  name: ReadResponse
+  href: api/EasySave.Views.ConsoleExtention.html#EasySave_Views_ConsoleExtention_ReadResponse_
+  commentId: Overload:EasySave.Views.ConsoleExtention.ReadResponse
+  isSpec: "True"
+  fullName: EasySave.Views.ConsoleExtention.ReadResponse
+  nameWithType: ConsoleExtention.ReadResponse
+- uid: EasySave.Views.ConsoleExtention.WriteLineError(System.String)
+  name: WriteLineError(string)
+  href: api/EasySave.Views.ConsoleExtention.html#EasySave_Views_ConsoleExtention_WriteLineError_System_String_
+  commentId: M:EasySave.Views.ConsoleExtention.WriteLineError(System.String)
+  name.vb: WriteLineError(String)
+  fullName: EasySave.Views.ConsoleExtention.WriteLineError(string)
+  fullName.vb: EasySave.Views.ConsoleExtention.WriteLineError(String)
+  nameWithType: ConsoleExtention.WriteLineError(string)
+  nameWithType.vb: ConsoleExtention.WriteLineError(String)
+- uid: EasySave.Views.ConsoleExtention.WriteLineError*
+  name: WriteLineError
+  href: api/EasySave.Views.ConsoleExtention.html#EasySave_Views_ConsoleExtention_WriteLineError_
+  commentId: Overload:EasySave.Views.ConsoleExtention.WriteLineError
+  isSpec: "True"
+  fullName: EasySave.Views.ConsoleExtention.WriteLineError
+  nameWithType: ConsoleExtention.WriteLineError
+- uid: EasySave.Views.ConsoleExtention.WriteLineSelected(System.String)
+  name: WriteLineSelected(string)
+  href: api/EasySave.Views.ConsoleExtention.html#EasySave_Views_ConsoleExtention_WriteLineSelected_System_String_
+  commentId: M:EasySave.Views.ConsoleExtention.WriteLineSelected(System.String)
+  name.vb: WriteLineSelected(String)
+  fullName: EasySave.Views.ConsoleExtention.WriteLineSelected(string)
+  fullName.vb: EasySave.Views.ConsoleExtention.WriteLineSelected(String)
+  nameWithType: ConsoleExtention.WriteLineSelected(string)
+  nameWithType.vb: ConsoleExtention.WriteLineSelected(String)
+- uid: EasySave.Views.ConsoleExtention.WriteLineSelected*
+  name: WriteLineSelected
+  href: api/EasySave.Views.ConsoleExtention.html#EasySave_Views_ConsoleExtention_WriteLineSelected_
+  commentId: Overload:EasySave.Views.ConsoleExtention.WriteLineSelected
+  isSpec: "True"
+  fullName: EasySave.Views.ConsoleExtention.WriteLineSelected
+  nameWithType: ConsoleExtention.WriteLineSelected
+- uid: EasySave.Views.ConsoleExtention.WriteLineSucces(System.String)
+  name: WriteLineSucces(string)
+  href: api/EasySave.Views.ConsoleExtention.html#EasySave_Views_ConsoleExtention_WriteLineSucces_System_String_
+  commentId: M:EasySave.Views.ConsoleExtention.WriteLineSucces(System.String)
+  name.vb: WriteLineSucces(String)
+  fullName: EasySave.Views.ConsoleExtention.WriteLineSucces(string)
+  fullName.vb: EasySave.Views.ConsoleExtention.WriteLineSucces(String)
+  nameWithType: ConsoleExtention.WriteLineSucces(string)
+  nameWithType.vb: ConsoleExtention.WriteLineSucces(String)
+- uid: EasySave.Views.ConsoleExtention.WriteLineSucces*
+  name: WriteLineSucces
+  href: api/EasySave.Views.ConsoleExtention.html#EasySave_Views_ConsoleExtention_WriteLineSucces_
+  commentId: Overload:EasySave.Views.ConsoleExtention.WriteLineSucces
+  isSpec: "True"
+  fullName: EasySave.Views.ConsoleExtention.WriteLineSucces
+  nameWithType: ConsoleExtention.WriteLineSucces
+- uid: EasySave.Views.ConsoleExtention.WriteLineWarning(System.String)
+  name: WriteLineWarning(string)
+  href: api/EasySave.Views.ConsoleExtention.html#EasySave_Views_ConsoleExtention_WriteLineWarning_System_String_
+  commentId: M:EasySave.Views.ConsoleExtention.WriteLineWarning(System.String)
+  name.vb: WriteLineWarning(String)
+  fullName: EasySave.Views.ConsoleExtention.WriteLineWarning(string)
+  fullName.vb: EasySave.Views.ConsoleExtention.WriteLineWarning(String)
+  nameWithType: ConsoleExtention.WriteLineWarning(string)
+  nameWithType.vb: ConsoleExtention.WriteLineWarning(String)
+- uid: EasySave.Views.ConsoleExtention.WriteLineWarning*
+  name: WriteLineWarning
+  href: api/EasySave.Views.ConsoleExtention.html#EasySave_Views_ConsoleExtention_WriteLineWarning_
+  commentId: Overload:EasySave.Views.ConsoleExtention.WriteLineWarning
+  isSpec: "True"
+  fullName: EasySave.Views.ConsoleExtention.WriteLineWarning
+  nameWithType: ConsoleExtention.WriteLineWarning
+- uid: EasySave.Views.ConsoleExtention.WritePath(System.String)
+  name: WritePath(string)
+  href: api/EasySave.Views.ConsoleExtention.html#EasySave_Views_ConsoleExtention_WritePath_System_String_
+  commentId: M:EasySave.Views.ConsoleExtention.WritePath(System.String)
+  name.vb: WritePath(String)
+  fullName: EasySave.Views.ConsoleExtention.WritePath(string)
+  fullName.vb: EasySave.Views.ConsoleExtention.WritePath(String)
+  nameWithType: ConsoleExtention.WritePath(string)
+  nameWithType.vb: ConsoleExtention.WritePath(String)
+- uid: EasySave.Views.ConsoleExtention.WritePath*
+  name: WritePath
+  href: api/EasySave.Views.ConsoleExtention.html#EasySave_Views_ConsoleExtention_WritePath_
+  commentId: Overload:EasySave.Views.ConsoleExtention.WritePath
+  isSpec: "True"
+  fullName: EasySave.Views.ConsoleExtention.WritePath
+  nameWithType: ConsoleExtention.WritePath
+- uid: EasySave.Views.ConsoleExtention.WriteSubtitle(System.String,System.ConsoleColor)
+  name: WriteSubtitle(string, ConsoleColor)
+  href: api/EasySave.Views.ConsoleExtention.html#EasySave_Views_ConsoleExtention_WriteSubtitle_System_String_System_ConsoleColor_
+  commentId: M:EasySave.Views.ConsoleExtention.WriteSubtitle(System.String,System.ConsoleColor)
+  name.vb: WriteSubtitle(String, ConsoleColor)
+  fullName: EasySave.Views.ConsoleExtention.WriteSubtitle(string, System.ConsoleColor)
+  fullName.vb: EasySave.Views.ConsoleExtention.WriteSubtitle(String, System.ConsoleColor)
+  nameWithType: ConsoleExtention.WriteSubtitle(string, ConsoleColor)
+  nameWithType.vb: ConsoleExtention.WriteSubtitle(String, ConsoleColor)
+- uid: EasySave.Views.ConsoleExtention.WriteSubtitle*
+  name: WriteSubtitle
+  href: api/EasySave.Views.ConsoleExtention.html#EasySave_Views_ConsoleExtention_WriteSubtitle_
+  commentId: Overload:EasySave.Views.ConsoleExtention.WriteSubtitle
+  isSpec: "True"
+  fullName: EasySave.Views.ConsoleExtention.WriteSubtitle
+  nameWithType: ConsoleExtention.WriteSubtitle
+- uid: EasySave.Views.ConsoleExtention.WriteTitle(System.String,System.ConsoleColor)
+  name: WriteTitle(string, ConsoleColor)
+  href: api/EasySave.Views.ConsoleExtention.html#EasySave_Views_ConsoleExtention_WriteTitle_System_String_System_ConsoleColor_
+  commentId: M:EasySave.Views.ConsoleExtention.WriteTitle(System.String,System.ConsoleColor)
+  name.vb: WriteTitle(String, ConsoleColor)
+  fullName: EasySave.Views.ConsoleExtention.WriteTitle(string, System.ConsoleColor)
+  fullName.vb: EasySave.Views.ConsoleExtention.WriteTitle(String, System.ConsoleColor)
+  nameWithType: ConsoleExtention.WriteTitle(string, ConsoleColor)
+  nameWithType.vb: ConsoleExtention.WriteTitle(String, ConsoleColor)
+- uid: EasySave.Views.ConsoleExtention.WriteTitle*
+  name: WriteTitle
+  href: api/EasySave.Views.ConsoleExtention.html#EasySave_Views_ConsoleExtention_WriteTitle_
+  commentId: Overload:EasySave.Views.ConsoleExtention.WriteTitle
+  isSpec: "True"
+  fullName: EasySave.Views.ConsoleExtention.WriteTitle
+  nameWithType: ConsoleExtention.WriteTitle
+- uid: EasySave.Views.LangueView
+  name: LangueView
+  href: api/EasySave.Views.LangueView.html
+  commentId: T:EasySave.Views.LangueView
+  fullName: EasySave.Views.LangueView
+  nameWithType: LangueView
+- uid: EasySave.Views.LangueView.#ctor(EasySave.ViewModels.LangueViewModel)
+  name: LangueView(LangueViewModel)
+  href: api/EasySave.Views.LangueView.html#EasySave_Views_LangueView__ctor_EasySave_ViewModels_LangueViewModel_
+  commentId: M:EasySave.Views.LangueView.#ctor(EasySave.ViewModels.LangueViewModel)
+  name.vb: New(LangueViewModel)
+  fullName: EasySave.Views.LangueView.LangueView(EasySave.ViewModels.LangueViewModel)
+  fullName.vb: EasySave.Views.LangueView.New(EasySave.ViewModels.LangueViewModel)
+  nameWithType: LangueView.LangueView(LangueViewModel)
+  nameWithType.vb: LangueView.New(LangueViewModel)
+- uid: EasySave.Views.LangueView.#ctor*
+  name: LangueView
+  href: api/EasySave.Views.LangueView.html#EasySave_Views_LangueView__ctor_
+  commentId: Overload:EasySave.Views.LangueView.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: EasySave.Views.LangueView.LangueView
+  fullName.vb: EasySave.Views.LangueView.New
+  nameWithType: LangueView.LangueView
+  nameWithType.vb: LangueView.New
+- uid: EasySave.Views.LangueView.ListLanguage
+  name: ListLanguage()
+  href: api/EasySave.Views.LangueView.html#EasySave_Views_LangueView_ListLanguage
+  commentId: M:EasySave.Views.LangueView.ListLanguage
+  fullName: EasySave.Views.LangueView.ListLanguage()
+  nameWithType: LangueView.ListLanguage()
+- uid: EasySave.Views.LangueView.ListLanguage*
+  name: ListLanguage
+  href: api/EasySave.Views.LangueView.html#EasySave_Views_LangueView_ListLanguage_
+  commentId: Overload:EasySave.Views.LangueView.ListLanguage
+  isSpec: "True"
+  fullName: EasySave.Views.LangueView.ListLanguage
+  nameWithType: LangueView.ListLanguage
+- uid: EasySave.Views.LangueView.Run
+  name: Run()
+  href: api/EasySave.Views.LangueView.html#EasySave_Views_LangueView_Run
+  commentId: M:EasySave.Views.LangueView.Run
+  fullName: EasySave.Views.LangueView.Run()
+  nameWithType: LangueView.Run()
+- uid: EasySave.Views.LangueView.Run*
+  name: Run
+  href: api/EasySave.Views.LangueView.html#EasySave_Views_LangueView_Run_
+  commentId: Overload:EasySave.Views.LangueView.Run
+  isSpec: "True"
+  fullName: EasySave.Views.LangueView.Run
+  nameWithType: LangueView.Run
+- uid: EasySave.Views.LangueView.Title
+  name: Title
+  href: api/EasySave.Views.LangueView.html#EasySave_Views_LangueView_Title
+  commentId: P:EasySave.Views.LangueView.Title
+  fullName: EasySave.Views.LangueView.Title
+  nameWithType: LangueView.Title
+- uid: EasySave.Views.LangueView.Title*
+  name: Title
+  href: api/EasySave.Views.LangueView.html#EasySave_Views_LangueView_Title_
+  commentId: Overload:EasySave.Views.LangueView.Title
+  isSpec: "True"
+  fullName: EasySave.Views.LangueView.Title
+  nameWithType: LangueView.Title
+- uid: EasySave.Views.View
+  name: View
+  href: api/EasySave.Views.View.html
+  commentId: T:EasySave.Views.View
+  fullName: EasySave.Views.View
+  nameWithType: View
+- uid: EasySave.Views.View.#ctor
+  name: View()
+  href: api/EasySave.Views.View.html#EasySave_Views_View__ctor
+  commentId: M:EasySave.Views.View.#ctor
+  name.vb: New()
+  fullName: EasySave.Views.View.View()
+  fullName.vb: EasySave.Views.View.New()
+  nameWithType: View.View()
+  nameWithType.vb: View.New()
+- uid: EasySave.Views.View.#ctor*
+  name: View
+  href: api/EasySave.Views.View.html#EasySave_Views_View__ctor_
+  commentId: Overload:EasySave.Views.View.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: EasySave.Views.View.View
+  fullName.vb: EasySave.Views.View.New
+  nameWithType: View.View
+  nameWithType.vb: View.New
+- uid: EasySave.Views.View.Menu
+  name: Menu
+  href: api/EasySave.Views.View.html#EasySave_Views_View_Menu
+  commentId: P:EasySave.Views.View.Menu
+  fullName: EasySave.Views.View.Menu
+  nameWithType: View.Menu
+- uid: EasySave.Views.View.Menu*
+  name: Menu
+  href: api/EasySave.Views.View.html#EasySave_Views_View_Menu_
+  commentId: Overload:EasySave.Views.View.Menu
+  isSpec: "True"
+  fullName: EasySave.Views.View.Menu
+  nameWithType: View.Menu
+- uid: EasySave.Views.View.Run
+  name: Run()
+  href: api/EasySave.Views.View.html#EasySave_Views_View_Run
+  commentId: M:EasySave.Views.View.Run
+  fullName: EasySave.Views.View.Run()
+  nameWithType: View.Run()
+- uid: EasySave.Views.View.Run*
+  name: Run
+  href: api/EasySave.Views.View.html#EasySave_Views_View_Run_
+  commentId: Overload:EasySave.Views.View.Run
+  isSpec: "True"
+  fullName: EasySave.Views.View.Run
+  nameWithType: View.Run
+- uid: EasySave.Views.View.Title
+  name: Title
+  href: api/EasySave.Views.View.html#EasySave_Views_View_Title
+  commentId: P:EasySave.Views.View.Title
+  fullName: EasySave.Views.View.Title
+  nameWithType: View.Title
+- uid: EasySave.Views.View.Title*
+  name: Title
+  href: api/EasySave.Views.View.html#EasySave_Views_View_Title_
+  commentId: Overload:EasySave.Views.View.Title
+  isSpec: "True"
+  fullName: EasySave.Views.View.Title
+  nameWithType: View.Title
+- uid: LogsModels
+  name: LogsModels
+  href: api/LogsModels.html
+  commentId: N:LogsModels
+  fullName: LogsModels
+  nameWithType: LogsModels
+- uid: LogsModels.CLogBase
+  name: CLogBase
+  href: api/LogsModels.CLogBase.html
+  commentId: T:LogsModels.CLogBase
+  fullName: LogsModels.CLogBase
+  nameWithType: CLogBase
+- uid: LogsModels.CLogBase.Date
+  name: Date
+  href: api/LogsModels.CLogBase.html#LogsModels_CLogBase_Date
+  commentId: P:LogsModels.CLogBase.Date
+  fullName: LogsModels.CLogBase.Date
+  nameWithType: CLogBase.Date
+- uid: LogsModels.CLogBase.Date*
+  name: Date
+  href: api/LogsModels.CLogBase.html#LogsModels_CLogBase_Date_
+  commentId: Overload:LogsModels.CLogBase.Date
+  isSpec: "True"
+  fullName: LogsModels.CLogBase.Date
+  nameWithType: CLogBase.Date
+- uid: LogsModels.CLogBase.IsSummary
+  name: IsSummary
+  href: api/LogsModels.CLogBase.html#LogsModels_CLogBase_IsSummary
+  commentId: P:LogsModels.CLogBase.IsSummary
+  fullName: LogsModels.CLogBase.IsSummary
+  nameWithType: CLogBase.IsSummary
+- uid: LogsModels.CLogBase.IsSummary*
+  name: IsSummary
+  href: api/LogsModels.CLogBase.html#LogsModels_CLogBase_IsSummary_
+  commentId: Overload:LogsModels.CLogBase.IsSummary
+  isSpec: "True"
+  fullName: LogsModels.CLogBase.IsSummary
+  nameWithType: CLogBase.IsSummary
+- uid: LogsModels.CLogBase.Name
+  name: Name
+  href: api/LogsModels.CLogBase.html#LogsModels_CLogBase_Name
+  commentId: P:LogsModels.CLogBase.Name
+  fullName: LogsModels.CLogBase.Name
+  nameWithType: CLogBase.Name
+- uid: LogsModels.CLogBase.Name*
+  name: Name
+  href: api/LogsModels.CLogBase.html#LogsModels_CLogBase_Name_
+  commentId: Overload:LogsModels.CLogBase.Name
+  isSpec: "True"
+  fullName: LogsModels.CLogBase.Name
+  nameWithType: CLogBase.Name
+- uid: LogsModels.CLogBase.SourceDirectory
+  name: SourceDirectory
+  href: api/LogsModels.CLogBase.html#LogsModels_CLogBase_SourceDirectory
+  commentId: P:LogsModels.CLogBase.SourceDirectory
+  fullName: LogsModels.CLogBase.SourceDirectory
+  nameWithType: CLogBase.SourceDirectory
+- uid: LogsModels.CLogBase.SourceDirectory*
+  name: SourceDirectory
+  href: api/LogsModels.CLogBase.html#LogsModels_CLogBase_SourceDirectory_
+  commentId: Overload:LogsModels.CLogBase.SourceDirectory
+  isSpec: "True"
+  fullName: LogsModels.CLogBase.SourceDirectory
+  nameWithType: CLogBase.SourceDirectory
+- uid: LogsModels.CLogBase.TargetDirectory
+  name: TargetDirectory
+  href: api/LogsModels.CLogBase.html#LogsModels_CLogBase_TargetDirectory
+  commentId: P:LogsModels.CLogBase.TargetDirectory
+  fullName: LogsModels.CLogBase.TargetDirectory
+  nameWithType: CLogBase.TargetDirectory
+- uid: LogsModels.CLogBase.TargetDirectory*
+  name: TargetDirectory
+  href: api/LogsModels.CLogBase.html#LogsModels_CLogBase_TargetDirectory_
+  commentId: Overload:LogsModels.CLogBase.TargetDirectory
+  isSpec: "True"
+  fullName: LogsModels.CLogBase.TargetDirectory
+  nameWithType: CLogBase.TargetDirectory
+- uid: LogsModels.CLogBase.TotalSize
+  name: TotalSize
+  href: api/LogsModels.CLogBase.html#LogsModels_CLogBase_TotalSize
+  commentId: P:LogsModels.CLogBase.TotalSize
+  fullName: LogsModels.CLogBase.TotalSize
+  nameWithType: CLogBase.TotalSize
+- uid: LogsModels.CLogBase.TotalSize*
+  name: TotalSize
+  href: api/LogsModels.CLogBase.html#LogsModels_CLogBase_TotalSize_
+  commentId: Overload:LogsModels.CLogBase.TotalSize
+  isSpec: "True"
+  fullName: LogsModels.CLogBase.TotalSize
+  nameWithType: CLogBase.TotalSize
+- uid: LogsModels.CLogDaily
+  name: CLogDaily
+  href: api/LogsModels.CLogDaily.html
+  commentId: T:LogsModels.CLogDaily
+  fullName: LogsModels.CLogDaily
+  nameWithType: CLogDaily
+- uid: LogsModels.CLogDaily.TransfertTimeSecond
+  name: TransfertTimeSecond
+  href: api/LogsModels.CLogDaily.html#LogsModels_CLogDaily_TransfertTimeSecond
+  commentId: P:LogsModels.CLogDaily.TransfertTimeSecond
+  fullName: LogsModels.CLogDaily.TransfertTimeSecond
+  nameWithType: CLogDaily.TransfertTimeSecond
+- uid: LogsModels.CLogDaily.TransfertTimeSecond*
+  name: TransfertTimeSecond
+  href: api/LogsModels.CLogDaily.html#LogsModels_CLogDaily_TransfertTimeSecond_
+  commentId: Overload:LogsModels.CLogDaily.TransfertTimeSecond
+  isSpec: "True"
+  fullName: LogsModels.CLogDaily.TransfertTimeSecond
+  nameWithType: CLogDaily.TransfertTimeSecond
+- uid: LogsModels.CLogState
+  name: CLogState
+  href: api/LogsModels.CLogState.html
+  commentId: T:LogsModels.CLogState
+  fullName: LogsModels.CLogState
+  nameWithType: CLogState
+- uid: LogsModels.CLogState.#ctor
+  name: CLogState()
+  href: api/LogsModels.CLogState.html#LogsModels_CLogState__ctor
+  commentId: M:LogsModels.CLogState.#ctor
+  name.vb: New()
+  fullName: LogsModels.CLogState.CLogState()
+  fullName.vb: LogsModels.CLogState.New()
+  nameWithType: CLogState.CLogState()
+  nameWithType.vb: CLogState.New()
+- uid: LogsModels.CLogState.#ctor*
+  name: CLogState
+  href: api/LogsModels.CLogState.html#LogsModels_CLogState__ctor_
+  commentId: Overload:LogsModels.CLogState.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: LogsModels.CLogState.CLogState
+  fullName.vb: LogsModels.CLogState.New
+  nameWithType: CLogState.CLogState
+  nameWithType.vb: CLogState.New
+- uid: LogsModels.CLogState.ElapsedMilisecond
+  name: ElapsedMilisecond
+  href: api/LogsModels.CLogState.html#LogsModels_CLogState_ElapsedMilisecond
+  commentId: P:LogsModels.CLogState.ElapsedMilisecond
+  fullName: LogsModels.CLogState.ElapsedMilisecond
+  nameWithType: CLogState.ElapsedMilisecond
+- uid: LogsModels.CLogState.ElapsedMilisecond*
+  name: ElapsedMilisecond
+  href: api/LogsModels.CLogState.html#LogsModels_CLogState_ElapsedMilisecond_
+  commentId: Overload:LogsModels.CLogState.ElapsedMilisecond
+  isSpec: "True"
+  fullName: LogsModels.CLogState.ElapsedMilisecond
+  nameWithType: CLogState.ElapsedMilisecond
+- uid: LogsModels.CLogState.EligibleFileCount
+  name: EligibleFileCount
+  href: api/LogsModels.CLogState.html#LogsModels_CLogState_EligibleFileCount
+  commentId: P:LogsModels.CLogState.EligibleFileCount
+  fullName: LogsModels.CLogState.EligibleFileCount
+  nameWithType: CLogState.EligibleFileCount
+- uid: LogsModels.CLogState.EligibleFileCount*
+  name: EligibleFileCount
+  href: api/LogsModels.CLogState.html#LogsModels_CLogState_EligibleFileCount_
+  commentId: Overload:LogsModels.CLogState.EligibleFileCount
+  isSpec: "True"
+  fullName: LogsModels.CLogState.EligibleFileCount
+  nameWithType: CLogState.EligibleFileCount
+- uid: LogsModels.CLogState.IsActive
+  name: IsActive
+  href: api/LogsModels.CLogState.html#LogsModels_CLogState_IsActive
+  commentId: P:LogsModels.CLogState.IsActive
+  fullName: LogsModels.CLogState.IsActive
+  nameWithType: CLogState.IsActive
+- uid: LogsModels.CLogState.IsActive*
+  name: IsActive
+  href: api/LogsModels.CLogState.html#LogsModels_CLogState_IsActive_
+  commentId: Overload:LogsModels.CLogState.IsActive
+  isSpec: "True"
+  fullName: LogsModels.CLogState.IsActive
+  nameWithType: CLogState.IsActive
+- uid: LogsModels.CLogState.Name
+  name: Name
+  href: api/LogsModels.CLogState.html#LogsModels_CLogState_Name
+  commentId: P:LogsModels.CLogState.Name
+  fullName: LogsModels.CLogState.Name
+  nameWithType: CLogState.Name
+- uid: LogsModels.CLogState.Name*
+  name: Name
+  href: api/LogsModels.CLogState.html#LogsModels_CLogState_Name_
+  commentId: Overload:LogsModels.CLogState.Name
+  isSpec: "True"
+  fullName: LogsModels.CLogState.Name
+  nameWithType: CLogState.Name
+- uid: LogsModels.CLogState.RemainingFiles
+  name: RemainingFiles
+  href: api/LogsModels.CLogState.html#LogsModels_CLogState_RemainingFiles
+  commentId: P:LogsModels.CLogState.RemainingFiles
+  fullName: LogsModels.CLogState.RemainingFiles
+  nameWithType: CLogState.RemainingFiles
+- uid: LogsModels.CLogState.RemainingFiles*
+  name: RemainingFiles
+  href: api/LogsModels.CLogState.html#LogsModels_CLogState_RemainingFiles_
+  commentId: Overload:LogsModels.CLogState.RemainingFiles
+  isSpec: "True"
+  fullName: LogsModels.CLogState.RemainingFiles
+  nameWithType: CLogState.RemainingFiles
+- uid: LogsModels.IPath
+  name: IPath
+  href: api/LogsModels.IPath.html
+  commentId: T:LogsModels.IPath
+  fullName: LogsModels.IPath
+  nameWithType: IPath
+- uid: LogsModels.IPath.SourceDirectory
+  name: SourceDirectory
+  href: api/LogsModels.IPath.html#LogsModels_IPath_SourceDirectory
+  commentId: P:LogsModels.IPath.SourceDirectory
+  fullName: LogsModels.IPath.SourceDirectory
+  nameWithType: IPath.SourceDirectory
+- uid: LogsModels.IPath.SourceDirectory*
+  name: SourceDirectory
+  href: api/LogsModels.IPath.html#LogsModels_IPath_SourceDirectory_
+  commentId: Overload:LogsModels.IPath.SourceDirectory
+  isSpec: "True"
+  fullName: LogsModels.IPath.SourceDirectory
+  nameWithType: IPath.SourceDirectory
+- uid: LogsModels.IPath.TargetDirectory
+  name: TargetDirectory
+  href: api/LogsModels.IPath.html#LogsModels_IPath_TargetDirectory
+  commentId: P:LogsModels.IPath.TargetDirectory
+  fullName: LogsModels.IPath.TargetDirectory
+  nameWithType: IPath.TargetDirectory
+- uid: LogsModels.IPath.TargetDirectory*
+  name: TargetDirectory
+  href: api/LogsModels.IPath.html#LogsModels_IPath_TargetDirectory_
+  commentId: Overload:LogsModels.IPath.TargetDirectory
+  isSpec: "True"
+  fullName: LogsModels.IPath.TargetDirectory
+  nameWithType: IPath.TargetDirectory
+- uid: Models
+  name: Models
+  href: api/Models.html
+  commentId: N:Models
+  fullName: Models
+  nameWithType: Models
+- uid: Models.Backup
+  name: Models.Backup
+  href: api/Models.Backup.html
+  commentId: N:Models.Backup
+  fullName: Models.Backup
+  nameWithType: Models.Backup
+- uid: Models.Backup.CJob
+  name: CJob
+  href: api/Models.Backup.CJob.html
+  commentId: T:Models.Backup.CJob
+  fullName: Models.Backup.CJob
+  nameWithType: CJob
+- uid: Models.Backup.CJob.#ctor(System.String,System.String,System.String,Models.Backup.ETypeBackup)
+  name: CJob(string, string, string, ETypeBackup)
+  href: api/Models.Backup.CJob.html#Models_Backup_CJob__ctor_System_String_System_String_System_String_Models_Backup_ETypeBackup_
+  commentId: M:Models.Backup.CJob.#ctor(System.String,System.String,System.String,Models.Backup.ETypeBackup)
+  name.vb: New(String, String, String, ETypeBackup)
+  fullName: Models.Backup.CJob.CJob(string, string, string, Models.Backup.ETypeBackup)
+  fullName.vb: Models.Backup.CJob.New(String, String, String, Models.Backup.ETypeBackup)
+  nameWithType: CJob.CJob(string, string, string, ETypeBackup)
+  nameWithType.vb: CJob.New(String, String, String, ETypeBackup)
+- uid: Models.Backup.CJob.#ctor*
+  name: CJob
+  href: api/Models.Backup.CJob.html#Models_Backup_CJob__ctor_
+  commentId: Overload:Models.Backup.CJob.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Models.Backup.CJob.CJob
+  fullName.vb: Models.Backup.CJob.New
+  nameWithType: CJob.CJob
+  nameWithType.vb: CJob.New
+- uid: Models.Backup.CJob.BackupType
+  name: BackupType
+  href: api/Models.Backup.CJob.html#Models_Backup_CJob_BackupType
+  commentId: P:Models.Backup.CJob.BackupType
+  fullName: Models.Backup.CJob.BackupType
+  nameWithType: CJob.BackupType
+- uid: Models.Backup.CJob.BackupType*
+  name: BackupType
+  href: api/Models.Backup.CJob.html#Models_Backup_CJob_BackupType_
+  commentId: Overload:Models.Backup.CJob.BackupType
+  isSpec: "True"
+  fullName: Models.Backup.CJob.BackupType
+  nameWithType: CJob.BackupType
+- uid: Models.Backup.CJob.Equals(System.Object)
+  name: Equals(object?)
+  href: api/Models.Backup.CJob.html#Models_Backup_CJob_Equals_System_Object_
+  commentId: M:Models.Backup.CJob.Equals(System.Object)
+  name.vb: Equals(Object)
+  fullName: Models.Backup.CJob.Equals(object?)
+  fullName.vb: Models.Backup.CJob.Equals(Object)
+  nameWithType: CJob.Equals(object?)
+  nameWithType.vb: CJob.Equals(Object)
+- uid: Models.Backup.CJob.Equals*
+  name: Equals
+  href: api/Models.Backup.CJob.html#Models_Backup_CJob_Equals_
+  commentId: Overload:Models.Backup.CJob.Equals
+  isSpec: "True"
+  fullName: Models.Backup.CJob.Equals
+  nameWithType: CJob.Equals
+- uid: Models.Backup.CJob.Name
+  name: Name
+  href: api/Models.Backup.CJob.html#Models_Backup_CJob_Name
+  commentId: P:Models.Backup.CJob.Name
+  fullName: Models.Backup.CJob.Name
+  nameWithType: CJob.Name
+- uid: Models.Backup.CJob.Name*
+  name: Name
+  href: api/Models.Backup.CJob.html#Models_Backup_CJob_Name_
+  commentId: Overload:Models.Backup.CJob.Name
+  isSpec: "True"
+  fullName: Models.Backup.CJob.Name
+  nameWithType: CJob.Name
+- uid: Models.Backup.CJob.Run(Stockage.SauveJobs)
+  name: Run(SauveJobs)
+  href: api/Models.Backup.CJob.html#Models_Backup_CJob_Run_Stockage_SauveJobs_
+  commentId: M:Models.Backup.CJob.Run(Stockage.SauveJobs)
+  fullName: Models.Backup.CJob.Run(Stockage.SauveJobs)
+  nameWithType: CJob.Run(SauveJobs)
+- uid: Models.Backup.CJob.Run*
+  name: Run
+  href: api/Models.Backup.CJob.html#Models_Backup_CJob_Run_
+  commentId: Overload:Models.Backup.CJob.Run
+  isSpec: "True"
+  fullName: Models.Backup.CJob.Run
+  nameWithType: CJob.Run
+- uid: Models.Backup.CJob.SourceDirectory
+  name: SourceDirectory
+  href: api/Models.Backup.CJob.html#Models_Backup_CJob_SourceDirectory
+  commentId: P:Models.Backup.CJob.SourceDirectory
+  fullName: Models.Backup.CJob.SourceDirectory
+  nameWithType: CJob.SourceDirectory
+- uid: Models.Backup.CJob.SourceDirectory*
+  name: SourceDirectory
+  href: api/Models.Backup.CJob.html#Models_Backup_CJob_SourceDirectory_
+  commentId: Overload:Models.Backup.CJob.SourceDirectory
+  isSpec: "True"
+  fullName: Models.Backup.CJob.SourceDirectory
+  nameWithType: CJob.SourceDirectory
+- uid: Models.Backup.CJob.TargetDirectory
+  name: TargetDirectory
+  href: api/Models.Backup.CJob.html#Models_Backup_CJob_TargetDirectory
+  commentId: P:Models.Backup.CJob.TargetDirectory
+  fullName: Models.Backup.CJob.TargetDirectory
+  nameWithType: CJob.TargetDirectory
+- uid: Models.Backup.CJob.TargetDirectory*
+  name: TargetDirectory
+  href: api/Models.Backup.CJob.html#Models_Backup_CJob_TargetDirectory_
+  commentId: Overload:Models.Backup.CJob.TargetDirectory
+  isSpec: "True"
+  fullName: Models.Backup.CJob.TargetDirectory
+  nameWithType: CJob.TargetDirectory
+- uid: Models.Backup.CJobManager
+  name: CJobManager
+  href: api/Models.Backup.CJobManager.html
+  commentId: T:Models.Backup.CJobManager
+  fullName: Models.Backup.CJobManager
+  nameWithType: CJobManager
+- uid: Models.Backup.CJobManager.#ctor
+  name: CJobManager()
+  href: api/Models.Backup.CJobManager.html#Models_Backup_CJobManager__ctor
+  commentId: M:Models.Backup.CJobManager.#ctor
+  name.vb: New()
+  fullName: Models.Backup.CJobManager.CJobManager()
+  fullName.vb: Models.Backup.CJobManager.New()
+  nameWithType: CJobManager.CJobManager()
+  nameWithType.vb: CJobManager.New()
+- uid: Models.Backup.CJobManager.#ctor*
+  name: CJobManager
+  href: api/Models.Backup.CJobManager.html#Models_Backup_CJobManager__ctor_
+  commentId: Overload:Models.Backup.CJobManager.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Models.Backup.CJobManager.CJobManager
+  fullName.vb: Models.Backup.CJobManager.New
+  nameWithType: CJobManager.CJobManager
+  nameWithType.vb: CJobManager.New
+- uid: Models.Backup.CJobManager.CreateBackupJob(Models.Backup.CJob)
+  name: CreateBackupJob(CJob)
+  href: api/Models.Backup.CJobManager.html#Models_Backup_CJobManager_CreateBackupJob_Models_Backup_CJob_
+  commentId: M:Models.Backup.CJobManager.CreateBackupJob(Models.Backup.CJob)
+  fullName: Models.Backup.CJobManager.CreateBackupJob(Models.Backup.CJob)
+  nameWithType: CJobManager.CreateBackupJob(CJob)
+- uid: Models.Backup.CJobManager.CreateBackupJob*
+  name: CreateBackupJob
+  href: api/Models.Backup.CJobManager.html#Models_Backup_CJobManager_CreateBackupJob_
+  commentId: Overload:Models.Backup.CJobManager.CreateBackupJob
+  isSpec: "True"
+  fullName: Models.Backup.CJobManager.CreateBackupJob
+  nameWithType: CJobManager.CreateBackupJob
+- uid: Models.Backup.CJobManager.DeleteJobs(System.Collections.Generic.List{Models.Backup.CJob})
+  name: DeleteJobs(List<CJob>)
+  href: api/Models.Backup.CJobManager.html#Models_Backup_CJobManager_DeleteJobs_System_Collections_Generic_List_Models_Backup_CJob__
+  commentId: M:Models.Backup.CJobManager.DeleteJobs(System.Collections.Generic.List{Models.Backup.CJob})
+  name.vb: DeleteJobs(List(Of CJob))
+  fullName: Models.Backup.CJobManager.DeleteJobs(System.Collections.Generic.List<Models.Backup.CJob>)
+  fullName.vb: Models.Backup.CJobManager.DeleteJobs(System.Collections.Generic.List(Of Models.Backup.CJob))
+  nameWithType: CJobManager.DeleteJobs(List<CJob>)
+  nameWithType.vb: CJobManager.DeleteJobs(List(Of CJob))
+- uid: Models.Backup.CJobManager.DeleteJobs*
+  name: DeleteJobs
+  href: api/Models.Backup.CJobManager.html#Models_Backup_CJobManager_DeleteJobs_
+  commentId: Overload:Models.Backup.CJobManager.DeleteJobs
+  isSpec: "True"
+  fullName: Models.Backup.CJobManager.DeleteJobs
+  nameWithType: CJobManager.DeleteJobs
+- uid: Models.Backup.CJobManager.Jobs
+  name: Jobs
+  href: api/Models.Backup.CJobManager.html#Models_Backup_CJobManager_Jobs
+  commentId: P:Models.Backup.CJobManager.Jobs
+  fullName: Models.Backup.CJobManager.Jobs
+  nameWithType: CJobManager.Jobs
+- uid: Models.Backup.CJobManager.Jobs*
+  name: Jobs
+  href: api/Models.Backup.CJobManager.html#Models_Backup_CJobManager_Jobs_
+  commentId: Overload:Models.Backup.CJobManager.Jobs
+  isSpec: "True"
+  fullName: Models.Backup.CJobManager.Jobs
+  nameWithType: CJobManager.Jobs
+- uid: Models.Backup.CJobManager.LoadJobs(System.String)
+  name: LoadJobs(string)
+  href: api/Models.Backup.CJobManager.html#Models_Backup_CJobManager_LoadJobs_System_String_
+  commentId: M:Models.Backup.CJobManager.LoadJobs(System.String)
+  name.vb: LoadJobs(String)
+  fullName: Models.Backup.CJobManager.LoadJobs(string)
+  fullName.vb: Models.Backup.CJobManager.LoadJobs(String)
+  nameWithType: CJobManager.LoadJobs(string)
+  nameWithType.vb: CJobManager.LoadJobs(String)
+- uid: Models.Backup.CJobManager.LoadJobs*
+  name: LoadJobs
+  href: api/Models.Backup.CJobManager.html#Models_Backup_CJobManager_LoadJobs_
+  commentId: Overload:Models.Backup.CJobManager.LoadJobs
+  isSpec: "True"
+  fullName: Models.Backup.CJobManager.LoadJobs
+  nameWithType: CJobManager.LoadJobs
+- uid: Models.Backup.CJobManager.Name
+  name: Name
+  href: api/Models.Backup.CJobManager.html#Models_Backup_CJobManager_Name
+  commentId: P:Models.Backup.CJobManager.Name
+  fullName: Models.Backup.CJobManager.Name
+  nameWithType: CJobManager.Name
+- uid: Models.Backup.CJobManager.Name*
+  name: Name
+  href: api/Models.Backup.CJobManager.html#Models_Backup_CJobManager_Name_
+  commentId: Overload:Models.Backup.CJobManager.Name
+  isSpec: "True"
+  fullName: Models.Backup.CJobManager.Name
+  nameWithType: CJobManager.Name
+- uid: Models.Backup.CJobManager.RunJobs(System.Collections.Generic.List{Models.Backup.CJob})
+  name: RunJobs(List<CJob>)
+  href: api/Models.Backup.CJobManager.html#Models_Backup_CJobManager_RunJobs_System_Collections_Generic_List_Models_Backup_CJob__
+  commentId: M:Models.Backup.CJobManager.RunJobs(System.Collections.Generic.List{Models.Backup.CJob})
+  name.vb: RunJobs(List(Of CJob))
+  fullName: Models.Backup.CJobManager.RunJobs(System.Collections.Generic.List<Models.Backup.CJob>)
+  fullName.vb: Models.Backup.CJobManager.RunJobs(System.Collections.Generic.List(Of Models.Backup.CJob))
+  nameWithType: CJobManager.RunJobs(List<CJob>)
+  nameWithType.vb: CJobManager.RunJobs(List(Of CJob))
+- uid: Models.Backup.CJobManager.RunJobs*
+  name: RunJobs
+  href: api/Models.Backup.CJobManager.html#Models_Backup_CJobManager_RunJobs_
+  commentId: Overload:Models.Backup.CJobManager.RunJobs
+  isSpec: "True"
+  fullName: Models.Backup.CJobManager.RunJobs
+  nameWithType: CJobManager.RunJobs
+- uid: Models.Backup.CJobManager.SauveCollection
+  name: SauveCollection
+  href: api/Models.Backup.CJobManager.html#Models_Backup_CJobManager_SauveCollection
+  commentId: P:Models.Backup.CJobManager.SauveCollection
+  fullName: Models.Backup.CJobManager.SauveCollection
+  nameWithType: CJobManager.SauveCollection
+- uid: Models.Backup.CJobManager.SauveCollection*
+  name: SauveCollection
+  href: api/Models.Backup.CJobManager.html#Models_Backup_CJobManager_SauveCollection_
+  commentId: Overload:Models.Backup.CJobManager.SauveCollection
+  isSpec: "True"
+  fullName: Models.Backup.CJobManager.SauveCollection
+  nameWithType: CJobManager.SauveCollection
+- uid: Models.Backup.CJobManager.SaveJobs
+  name: SaveJobs()
+  href: api/Models.Backup.CJobManager.html#Models_Backup_CJobManager_SaveJobs
+  commentId: M:Models.Backup.CJobManager.SaveJobs
+  fullName: Models.Backup.CJobManager.SaveJobs()
+  nameWithType: CJobManager.SaveJobs()
+- uid: Models.Backup.CJobManager.SaveJobs*
+  name: SaveJobs
+  href: api/Models.Backup.CJobManager.html#Models_Backup_CJobManager_SaveJobs_
+  commentId: Overload:Models.Backup.CJobManager.SaveJobs
+  isSpec: "True"
+  fullName: Models.Backup.CJobManager.SaveJobs
+  nameWithType: CJobManager.SaveJobs
+- uid: Models.Backup.ETypeBackup
+  name: ETypeBackup
+  href: api/Models.Backup.ETypeBackup.html
+  commentId: T:Models.Backup.ETypeBackup
+  fullName: Models.Backup.ETypeBackup
+  nameWithType: ETypeBackup
+- uid: Models.Backup.ETypeBackup.COMPLET
+  name: COMPLET
+  href: api/Models.Backup.ETypeBackup.html#Models_Backup_ETypeBackup_COMPLET
+  commentId: F:Models.Backup.ETypeBackup.COMPLET
+  fullName: Models.Backup.ETypeBackup.COMPLET
+  nameWithType: ETypeBackup.COMPLET
+- uid: Models.Backup.ETypeBackup.DIFFERENTIEL
+  name: DIFFERENTIEL
+  href: api/Models.Backup.ETypeBackup.html#Models_Backup_ETypeBackup_DIFFERENTIEL
+  commentId: F:Models.Backup.ETypeBackup.DIFFERENTIEL
+  fullName: Models.Backup.ETypeBackup.DIFFERENTIEL
+  nameWithType: ETypeBackup.DIFFERENTIEL
+- uid: Models.CLangue
+  name: CLangue
+  href: api/Models.CLangue.html
+  commentId: T:Models.CLangue
+  fullName: Models.CLangue
+  nameWithType: CLangue
+- uid: Models.CLangue.#ctor
+  name: CLangue()
+  href: api/Models.CLangue.html#Models_CLangue__ctor
+  commentId: M:Models.CLangue.#ctor
+  name.vb: New()
+  fullName: Models.CLangue.CLangue()
+  fullName.vb: Models.CLangue.New()
+  nameWithType: CLangue.CLangue()
+  nameWithType.vb: CLangue.New()
+- uid: Models.CLangue.#ctor*
+  name: CLangue
+  href: api/Models.CLangue.html#Models_CLangue__ctor_
+  commentId: Overload:Models.CLangue.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Models.CLangue.CLangue
+  fullName.vb: Models.CLangue.New
+  nameWithType: CLangue.CLangue
+  nameWithType.vb: CLangue.New
+- uid: Models.CLangue.Languages
+  name: Languages
+  href: api/Models.CLangue.html#Models_CLangue_Languages
+  commentId: P:Models.CLangue.Languages
+  fullName: Models.CLangue.Languages
+  nameWithType: CLangue.Languages
+- uid: Models.CLangue.Languages*
+  name: Languages
+  href: api/Models.CLangue.html#Models_CLangue_Languages_
+  commentId: Overload:Models.CLangue.Languages
+  isSpec: "True"
+  fullName: Models.CLangue.Languages
+  nameWithType: CLangue.Languages
+- uid: Models.CLangue.SetLanguage(System.String)
+  name: SetLanguage(string)
+  href: api/Models.CLangue.html#Models_CLangue_SetLanguage_System_String_
+  commentId: M:Models.CLangue.SetLanguage(System.String)
+  name.vb: SetLanguage(String)
+  fullName: Models.CLangue.SetLanguage(string)
+  fullName.vb: Models.CLangue.SetLanguage(String)
+  nameWithType: CLangue.SetLanguage(string)
+  nameWithType.vb: CLangue.SetLanguage(String)
+- uid: Models.CLangue.SetLanguage*
+  name: SetLanguage
+  href: api/Models.CLangue.html#Models_CLangue_SetLanguage_
+  commentId: Overload:Models.CLangue.SetLanguage
+  isSpec: "True"
+  fullName: Models.CLangue.SetLanguage
+  nameWithType: CLangue.SetLanguage
+- uid: Stockage
+  name: Stockage
+  href: api/Stockage.html
+  commentId: N:Stockage
+  fullName: Stockage
+  nameWithType: Stockage
+- uid: Stockage.BaseSave
+  name: BaseSave
+  href: api/Stockage.BaseSave.html
+  commentId: T:Stockage.BaseSave
+  fullName: Stockage.BaseSave
+  nameWithType: BaseSave
+- uid: Stockage.BaseSave.#ctor(System.String)
+  name: BaseSave(string)
+  href: api/Stockage.BaseSave.html#Stockage_BaseSave__ctor_System_String_
+  commentId: M:Stockage.BaseSave.#ctor(System.String)
+  name.vb: New(String)
+  fullName: Stockage.BaseSave.BaseSave(string)
+  fullName.vb: Stockage.BaseSave.New(String)
+  nameWithType: BaseSave.BaseSave(string)
+  nameWithType.vb: BaseSave.New(String)
+- uid: Stockage.BaseSave.#ctor*
+  name: BaseSave
+  href: api/Stockage.BaseSave.html#Stockage_BaseSave__ctor_
+  commentId: Overload:Stockage.BaseSave.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Stockage.BaseSave.BaseSave
+  fullName.vb: Stockage.BaseSave.New
+  nameWithType: BaseSave.BaseSave
+  nameWithType.vb: BaseSave.New
+- uid: Stockage.BaseSave.CopyDirectory(System.IO.DirectoryInfo,System.IO.DirectoryInfo,System.Boolean,LogsModels.CLogState@,System.Boolean)
+  name: CopyDirectory(DirectoryInfo, DirectoryInfo, bool, ref CLogState, bool)
+  href: api/Stockage.BaseSave.html#Stockage_BaseSave_CopyDirectory_System_IO_DirectoryInfo_System_IO_DirectoryInfo_System_Boolean_LogsModels_CLogState__System_Boolean_
+  commentId: M:Stockage.BaseSave.CopyDirectory(System.IO.DirectoryInfo,System.IO.DirectoryInfo,System.Boolean,LogsModels.CLogState@,System.Boolean)
+  name.vb: CopyDirectory(DirectoryInfo, DirectoryInfo, Boolean, CLogState, Boolean)
+  fullName: Stockage.BaseSave.CopyDirectory(System.IO.DirectoryInfo, System.IO.DirectoryInfo, bool, ref LogsModels.CLogState, bool)
+  fullName.vb: Stockage.BaseSave.CopyDirectory(System.IO.DirectoryInfo, System.IO.DirectoryInfo, Boolean, LogsModels.CLogState, Boolean)
+  nameWithType: BaseSave.CopyDirectory(DirectoryInfo, DirectoryInfo, bool, ref CLogState, bool)
+  nameWithType.vb: BaseSave.CopyDirectory(DirectoryInfo, DirectoryInfo, Boolean, CLogState, Boolean)
+- uid: Stockage.BaseSave.CopyDirectory(System.IO.DirectoryInfo,System.IO.DirectoryInfo,System.Boolean,System.Boolean)
+  name: CopyDirectory(DirectoryInfo, DirectoryInfo, bool, bool)
+  href: api/Stockage.BaseSave.html#Stockage_BaseSave_CopyDirectory_System_IO_DirectoryInfo_System_IO_DirectoryInfo_System_Boolean_System_Boolean_
+  commentId: M:Stockage.BaseSave.CopyDirectory(System.IO.DirectoryInfo,System.IO.DirectoryInfo,System.Boolean,System.Boolean)
+  name.vb: CopyDirectory(DirectoryInfo, DirectoryInfo, Boolean, Boolean)
+  fullName: Stockage.BaseSave.CopyDirectory(System.IO.DirectoryInfo, System.IO.DirectoryInfo, bool, bool)
+  fullName.vb: Stockage.BaseSave.CopyDirectory(System.IO.DirectoryInfo, System.IO.DirectoryInfo, Boolean, Boolean)
+  nameWithType: BaseSave.CopyDirectory(DirectoryInfo, DirectoryInfo, bool, bool)
+  nameWithType.vb: BaseSave.CopyDirectory(DirectoryInfo, DirectoryInfo, Boolean, Boolean)
+- uid: Stockage.BaseSave.CopyDirectory*
+  name: CopyDirectory
+  href: api/Stockage.BaseSave.html#Stockage_BaseSave_CopyDirectory_
+  commentId: Overload:Stockage.BaseSave.CopyDirectory
+  isSpec: "True"
+  fullName: Stockage.BaseSave.CopyDirectory
+  nameWithType: BaseSave.CopyDirectory
+- uid: Stockage.BaseSave.FullPath
+  name: FullPath
+  href: api/Stockage.BaseSave.html#Stockage_BaseSave_FullPath
+  commentId: P:Stockage.BaseSave.FullPath
+  fullName: Stockage.BaseSave.FullPath
+  nameWithType: BaseSave.FullPath
+- uid: Stockage.BaseSave.FullPath*
+  name: FullPath
+  href: api/Stockage.BaseSave.html#Stockage_BaseSave_FullPath_
+  commentId: Overload:Stockage.BaseSave.FullPath
+  isSpec: "True"
+  fullName: Stockage.BaseSave.FullPath
+  nameWithType: BaseSave.FullPath
+- uid: Stockage.BaseSave.Options
+  name: Options
+  href: api/Stockage.BaseSave.html#Stockage_BaseSave_Options
+  commentId: P:Stockage.BaseSave.Options
+  fullName: Stockage.BaseSave.Options
+  nameWithType: BaseSave.Options
+- uid: Stockage.BaseSave.Options*
+  name: Options
+  href: api/Stockage.BaseSave.html#Stockage_BaseSave_Options_
+  commentId: Overload:Stockage.BaseSave.Options
+  isSpec: "True"
+  fullName: Stockage.BaseSave.Options
+  nameWithType: BaseSave.Options
+- uid: Stockage.BaseSave.Sauver*
+  name: Sauver
+  href: api/Stockage.BaseSave.html#Stockage_BaseSave_Sauver_
+  commentId: Overload:Stockage.BaseSave.Sauver
+  isSpec: "True"
+  fullName: Stockage.BaseSave.Sauver
+  nameWithType: BaseSave.Sauver
+- uid: Stockage.BaseSave.Sauver``1(``0,System.String,System.Boolean,System.String)
+  name: Sauver<T>(T, string, bool, string)
+  href: api/Stockage.BaseSave.html#Stockage_BaseSave_Sauver__1___0_System_String_System_Boolean_System_String_
+  commentId: M:Stockage.BaseSave.Sauver``1(``0,System.String,System.Boolean,System.String)
+  name.vb: Sauver(Of T)(T, String, Boolean, String)
+  fullName: Stockage.BaseSave.Sauver<T>(T, string, bool, string)
+  fullName.vb: Stockage.BaseSave.Sauver(Of T)(T, String, Boolean, String)
+  nameWithType: BaseSave.Sauver<T>(T, string, bool, string)
+  nameWithType.vb: BaseSave.Sauver(Of T)(T, String, Boolean, String)
+- uid: Stockage.ChargerCollection
+  name: ChargerCollection
+  href: api/Stockage.ChargerCollection.html
+  commentId: T:Stockage.ChargerCollection
+  fullName: Stockage.ChargerCollection
+  nameWithType: ChargerCollection
+- uid: Stockage.ChargerCollection.Charger*
+  name: Charger
+  href: api/Stockage.ChargerCollection.html#Stockage_ChargerCollection_Charger_
+  commentId: Overload:Stockage.ChargerCollection.Charger
+  isSpec: "True"
+  fullName: Stockage.ChargerCollection.Charger
+  nameWithType: ChargerCollection.Charger
+- uid: Stockage.ChargerCollection.Charger``1(System.String)
+  name: Charger<T>(string)
+  href: api/Stockage.ChargerCollection.html#Stockage_ChargerCollection_Charger__1_System_String_
+  commentId: M:Stockage.ChargerCollection.Charger``1(System.String)
+  name.vb: Charger(Of T)(String)
+  fullName: Stockage.ChargerCollection.Charger<T>(string)
+  fullName.vb: Stockage.ChargerCollection.Charger(Of T)(String)
+  nameWithType: ChargerCollection.Charger<T>(string)
+  nameWithType.vb: ChargerCollection.Charger(Of T)(String)
+- uid: Stockage.Converters
+  name: Stockage.Converters
+  href: api/Stockage.Converters.html
+  commentId: N:Stockage.Converters
+  fullName: Stockage.Converters
+  nameWithType: Stockage.Converters
+- uid: Stockage.Converters.ConcreteCollectionTypeConverter`3
+  name: ConcreteCollectionTypeConverter<TCollection, TItem, TBaseItem>
+  href: api/Stockage.Converters.ConcreteCollectionTypeConverter-3.html
+  commentId: T:Stockage.Converters.ConcreteCollectionTypeConverter`3
+  name.vb: ConcreteCollectionTypeConverter(Of TCollection, TItem, TBaseItem)
+  fullName: Stockage.Converters.ConcreteCollectionTypeConverter<TCollection, TItem, TBaseItem>
+  fullName.vb: Stockage.Converters.ConcreteCollectionTypeConverter(Of TCollection, TItem, TBaseItem)
+  nameWithType: ConcreteCollectionTypeConverter<TCollection, TItem, TBaseItem>
+  nameWithType.vb: ConcreteCollectionTypeConverter(Of TCollection, TItem, TBaseItem)
+- uid: Stockage.Converters.ConcreteCollectionTypeConverter`3.CanConvert(System.Type)
+  name: CanConvert(Type)
+  href: api/Stockage.Converters.ConcreteCollectionTypeConverter-3.html#Stockage_Converters_ConcreteCollectionTypeConverter_3_CanConvert_System_Type_
+  commentId: M:Stockage.Converters.ConcreteCollectionTypeConverter`3.CanConvert(System.Type)
+  fullName: Stockage.Converters.ConcreteCollectionTypeConverter<TCollection, TItem, TBaseItem>.CanConvert(System.Type)
+  fullName.vb: Stockage.Converters.ConcreteCollectionTypeConverter(Of TCollection, TItem, TBaseItem).CanConvert(System.Type)
+  nameWithType: ConcreteCollectionTypeConverter<TCollection, TItem, TBaseItem>.CanConvert(Type)
+  nameWithType.vb: ConcreteCollectionTypeConverter(Of TCollection, TItem, TBaseItem).CanConvert(Type)
+- uid: Stockage.Converters.ConcreteCollectionTypeConverter`3.CanConvert*
+  name: CanConvert
+  href: api/Stockage.Converters.ConcreteCollectionTypeConverter-3.html#Stockage_Converters_ConcreteCollectionTypeConverter_3_CanConvert_
+  commentId: Overload:Stockage.Converters.ConcreteCollectionTypeConverter`3.CanConvert
+  isSpec: "True"
+  fullName: Stockage.Converters.ConcreteCollectionTypeConverter<TCollection, TItem, TBaseItem>.CanConvert
+  fullName.vb: Stockage.Converters.ConcreteCollectionTypeConverter(Of TCollection, TItem, TBaseItem).CanConvert
+  nameWithType: ConcreteCollectionTypeConverter<TCollection, TItem, TBaseItem>.CanConvert
+  nameWithType.vb: ConcreteCollectionTypeConverter(Of TCollection, TItem, TBaseItem).CanConvert
+- uid: Stockage.Converters.ConcreteCollectionTypeConverter`3.ReadJson(Newtonsoft.Json.JsonReader,System.Type,System.Object,Newtonsoft.Json.JsonSerializer)
+  name: ReadJson(JsonReader, Type, object, JsonSerializer)
+  href: api/Stockage.Converters.ConcreteCollectionTypeConverter-3.html#Stockage_Converters_ConcreteCollectionTypeConverter_3_ReadJson_Newtonsoft_Json_JsonReader_System_Type_System_Object_Newtonsoft_Json_JsonSerializer_
+  commentId: M:Stockage.Converters.ConcreteCollectionTypeConverter`3.ReadJson(Newtonsoft.Json.JsonReader,System.Type,System.Object,Newtonsoft.Json.JsonSerializer)
+  name.vb: ReadJson(JsonReader, Type, Object, JsonSerializer)
+  fullName: Stockage.Converters.ConcreteCollectionTypeConverter<TCollection, TItem, TBaseItem>.ReadJson(Newtonsoft.Json.JsonReader, System.Type, object, Newtonsoft.Json.JsonSerializer)
+  fullName.vb: Stockage.Converters.ConcreteCollectionTypeConverter(Of TCollection, TItem, TBaseItem).ReadJson(Newtonsoft.Json.JsonReader, System.Type, Object, Newtonsoft.Json.JsonSerializer)
+  nameWithType: ConcreteCollectionTypeConverter<TCollection, TItem, TBaseItem>.ReadJson(JsonReader, Type, object, JsonSerializer)
+  nameWithType.vb: ConcreteCollectionTypeConverter(Of TCollection, TItem, TBaseItem).ReadJson(JsonReader, Type, Object, JsonSerializer)
+- uid: Stockage.Converters.ConcreteCollectionTypeConverter`3.ReadJson*
+  name: ReadJson
+  href: api/Stockage.Converters.ConcreteCollectionTypeConverter-3.html#Stockage_Converters_ConcreteCollectionTypeConverter_3_ReadJson_
+  commentId: Overload:Stockage.Converters.ConcreteCollectionTypeConverter`3.ReadJson
+  isSpec: "True"
+  fullName: Stockage.Converters.ConcreteCollectionTypeConverter<TCollection, TItem, TBaseItem>.ReadJson
+  fullName.vb: Stockage.Converters.ConcreteCollectionTypeConverter(Of TCollection, TItem, TBaseItem).ReadJson
+  nameWithType: ConcreteCollectionTypeConverter<TCollection, TItem, TBaseItem>.ReadJson
+  nameWithType.vb: ConcreteCollectionTypeConverter(Of TCollection, TItem, TBaseItem).ReadJson
+- uid: Stockage.Converters.ConcreteCollectionTypeConverter`3.WriteJson(Newtonsoft.Json.JsonWriter,System.Object,Newtonsoft.Json.JsonSerializer)
+  name: WriteJson(JsonWriter, object, JsonSerializer)
+  href: api/Stockage.Converters.ConcreteCollectionTypeConverter-3.html#Stockage_Converters_ConcreteCollectionTypeConverter_3_WriteJson_Newtonsoft_Json_JsonWriter_System_Object_Newtonsoft_Json_JsonSerializer_
+  commentId: M:Stockage.Converters.ConcreteCollectionTypeConverter`3.WriteJson(Newtonsoft.Json.JsonWriter,System.Object,Newtonsoft.Json.JsonSerializer)
+  name.vb: WriteJson(JsonWriter, Object, JsonSerializer)
+  fullName: Stockage.Converters.ConcreteCollectionTypeConverter<TCollection, TItem, TBaseItem>.WriteJson(Newtonsoft.Json.JsonWriter, object, Newtonsoft.Json.JsonSerializer)
+  fullName.vb: Stockage.Converters.ConcreteCollectionTypeConverter(Of TCollection, TItem, TBaseItem).WriteJson(Newtonsoft.Json.JsonWriter, Object, Newtonsoft.Json.JsonSerializer)
+  nameWithType: ConcreteCollectionTypeConverter<TCollection, TItem, TBaseItem>.WriteJson(JsonWriter, object, JsonSerializer)
+  nameWithType.vb: ConcreteCollectionTypeConverter(Of TCollection, TItem, TBaseItem).WriteJson(JsonWriter, Object, JsonSerializer)
+- uid: Stockage.Converters.ConcreteCollectionTypeConverter`3.WriteJson*
+  name: WriteJson
+  href: api/Stockage.Converters.ConcreteCollectionTypeConverter-3.html#Stockage_Converters_ConcreteCollectionTypeConverter_3_WriteJson_
+  commentId: Overload:Stockage.Converters.ConcreteCollectionTypeConverter`3.WriteJson
+  isSpec: "True"
+  fullName: Stockage.Converters.ConcreteCollectionTypeConverter<TCollection, TItem, TBaseItem>.WriteJson
+  fullName.vb: Stockage.Converters.ConcreteCollectionTypeConverter(Of TCollection, TItem, TBaseItem).WriteJson
+  nameWithType: ConcreteCollectionTypeConverter<TCollection, TItem, TBaseItem>.WriteJson
+  nameWithType.vb: ConcreteCollectionTypeConverter(Of TCollection, TItem, TBaseItem).WriteJson
+- uid: Stockage.Converters.ConcreteConverter`2
+  name: ConcreteConverter<TInterface, TConcrete>
+  href: api/Stockage.Converters.ConcreteConverter-2.html
+  commentId: T:Stockage.Converters.ConcreteConverter`2
+  name.vb: ConcreteConverter(Of TInterface, TConcrete)
+  fullName: Stockage.Converters.ConcreteConverter<TInterface, TConcrete>
+  fullName.vb: Stockage.Converters.ConcreteConverter(Of TInterface, TConcrete)
+  nameWithType: ConcreteConverter<TInterface, TConcrete>
+  nameWithType.vb: ConcreteConverter(Of TInterface, TConcrete)
+- uid: Stockage.Converters.ConcreteConverter`2.CanConvert(System.Type)
+  name: CanConvert(Type)
+  href: api/Stockage.Converters.ConcreteConverter-2.html#Stockage_Converters_ConcreteConverter_2_CanConvert_System_Type_
+  commentId: M:Stockage.Converters.ConcreteConverter`2.CanConvert(System.Type)
+  fullName: Stockage.Converters.ConcreteConverter<TInterface, TConcrete>.CanConvert(System.Type)
+  fullName.vb: Stockage.Converters.ConcreteConverter(Of TInterface, TConcrete).CanConvert(System.Type)
+  nameWithType: ConcreteConverter<TInterface, TConcrete>.CanConvert(Type)
+  nameWithType.vb: ConcreteConverter(Of TInterface, TConcrete).CanConvert(Type)
+- uid: Stockage.Converters.ConcreteConverter`2.CanConvert*
+  name: CanConvert
+  href: api/Stockage.Converters.ConcreteConverter-2.html#Stockage_Converters_ConcreteConverter_2_CanConvert_
+  commentId: Overload:Stockage.Converters.ConcreteConverter`2.CanConvert
+  isSpec: "True"
+  fullName: Stockage.Converters.ConcreteConverter<TInterface, TConcrete>.CanConvert
+  fullName.vb: Stockage.Converters.ConcreteConverter(Of TInterface, TConcrete).CanConvert
+  nameWithType: ConcreteConverter<TInterface, TConcrete>.CanConvert
+  nameWithType.vb: ConcreteConverter(Of TInterface, TConcrete).CanConvert
+- uid: Stockage.Converters.ConcreteConverter`2.CanRead
+  name: CanRead
+  href: api/Stockage.Converters.ConcreteConverter-2.html#Stockage_Converters_ConcreteConverter_2_CanRead
+  commentId: P:Stockage.Converters.ConcreteConverter`2.CanRead
+  fullName: Stockage.Converters.ConcreteConverter<TInterface, TConcrete>.CanRead
+  fullName.vb: Stockage.Converters.ConcreteConverter(Of TInterface, TConcrete).CanRead
+  nameWithType: ConcreteConverter<TInterface, TConcrete>.CanRead
+  nameWithType.vb: ConcreteConverter(Of TInterface, TConcrete).CanRead
+- uid: Stockage.Converters.ConcreteConverter`2.CanRead*
+  name: CanRead
+  href: api/Stockage.Converters.ConcreteConverter-2.html#Stockage_Converters_ConcreteConverter_2_CanRead_
+  commentId: Overload:Stockage.Converters.ConcreteConverter`2.CanRead
+  isSpec: "True"
+  fullName: Stockage.Converters.ConcreteConverter<TInterface, TConcrete>.CanRead
+  fullName.vb: Stockage.Converters.ConcreteConverter(Of TInterface, TConcrete).CanRead
+  nameWithType: ConcreteConverter<TInterface, TConcrete>.CanRead
+  nameWithType.vb: ConcreteConverter(Of TInterface, TConcrete).CanRead
+- uid: Stockage.Converters.ConcreteConverter`2.CanWrite
+  name: CanWrite
+  href: api/Stockage.Converters.ConcreteConverter-2.html#Stockage_Converters_ConcreteConverter_2_CanWrite
+  commentId: P:Stockage.Converters.ConcreteConverter`2.CanWrite
+  fullName: Stockage.Converters.ConcreteConverter<TInterface, TConcrete>.CanWrite
+  fullName.vb: Stockage.Converters.ConcreteConverter(Of TInterface, TConcrete).CanWrite
+  nameWithType: ConcreteConverter<TInterface, TConcrete>.CanWrite
+  nameWithType.vb: ConcreteConverter(Of TInterface, TConcrete).CanWrite
+- uid: Stockage.Converters.ConcreteConverter`2.CanWrite*
+  name: CanWrite
+  href: api/Stockage.Converters.ConcreteConverter-2.html#Stockage_Converters_ConcreteConverter_2_CanWrite_
+  commentId: Overload:Stockage.Converters.ConcreteConverter`2.CanWrite
+  isSpec: "True"
+  fullName: Stockage.Converters.ConcreteConverter<TInterface, TConcrete>.CanWrite
+  fullName.vb: Stockage.Converters.ConcreteConverter(Of TInterface, TConcrete).CanWrite
+  nameWithType: ConcreteConverter<TInterface, TConcrete>.CanWrite
+  nameWithType.vb: ConcreteConverter(Of TInterface, TConcrete).CanWrite
+- uid: Stockage.Converters.ConcreteConverter`2.ReadJson(Newtonsoft.Json.JsonReader,System.Type,System.Object,Newtonsoft.Json.JsonSerializer)
+  name: ReadJson(JsonReader, Type, object?, JsonSerializer)
+  href: api/Stockage.Converters.ConcreteConverter-2.html#Stockage_Converters_ConcreteConverter_2_ReadJson_Newtonsoft_Json_JsonReader_System_Type_System_Object_Newtonsoft_Json_JsonSerializer_
+  commentId: M:Stockage.Converters.ConcreteConverter`2.ReadJson(Newtonsoft.Json.JsonReader,System.Type,System.Object,Newtonsoft.Json.JsonSerializer)
+  name.vb: ReadJson(JsonReader, Type, Object, JsonSerializer)
+  fullName: Stockage.Converters.ConcreteConverter<TInterface, TConcrete>.ReadJson(Newtonsoft.Json.JsonReader, System.Type, object?, Newtonsoft.Json.JsonSerializer)
+  fullName.vb: Stockage.Converters.ConcreteConverter(Of TInterface, TConcrete).ReadJson(Newtonsoft.Json.JsonReader, System.Type, Object, Newtonsoft.Json.JsonSerializer)
+  nameWithType: ConcreteConverter<TInterface, TConcrete>.ReadJson(JsonReader, Type, object?, JsonSerializer)
+  nameWithType.vb: ConcreteConverter(Of TInterface, TConcrete).ReadJson(JsonReader, Type, Object, JsonSerializer)
+- uid: Stockage.Converters.ConcreteConverter`2.ReadJson*
+  name: ReadJson
+  href: api/Stockage.Converters.ConcreteConverter-2.html#Stockage_Converters_ConcreteConverter_2_ReadJson_
+  commentId: Overload:Stockage.Converters.ConcreteConverter`2.ReadJson
+  isSpec: "True"
+  fullName: Stockage.Converters.ConcreteConverter<TInterface, TConcrete>.ReadJson
+  fullName.vb: Stockage.Converters.ConcreteConverter(Of TInterface, TConcrete).ReadJson
+  nameWithType: ConcreteConverter<TInterface, TConcrete>.ReadJson
+  nameWithType.vb: ConcreteConverter(Of TInterface, TConcrete).ReadJson
+- uid: Stockage.Converters.ConcreteConverter`2.WriteJson(Newtonsoft.Json.JsonWriter,System.Object,Newtonsoft.Json.JsonSerializer)
+  name: WriteJson(JsonWriter, object?, JsonSerializer)
+  href: api/Stockage.Converters.ConcreteConverter-2.html#Stockage_Converters_ConcreteConverter_2_WriteJson_Newtonsoft_Json_JsonWriter_System_Object_Newtonsoft_Json_JsonSerializer_
+  commentId: M:Stockage.Converters.ConcreteConverter`2.WriteJson(Newtonsoft.Json.JsonWriter,System.Object,Newtonsoft.Json.JsonSerializer)
+  name.vb: WriteJson(JsonWriter, Object, JsonSerializer)
+  fullName: Stockage.Converters.ConcreteConverter<TInterface, TConcrete>.WriteJson(Newtonsoft.Json.JsonWriter, object?, Newtonsoft.Json.JsonSerializer)
+  fullName.vb: Stockage.Converters.ConcreteConverter(Of TInterface, TConcrete).WriteJson(Newtonsoft.Json.JsonWriter, Object, Newtonsoft.Json.JsonSerializer)
+  nameWithType: ConcreteConverter<TInterface, TConcrete>.WriteJson(JsonWriter, object?, JsonSerializer)
+  nameWithType.vb: ConcreteConverter(Of TInterface, TConcrete).WriteJson(JsonWriter, Object, JsonSerializer)
+- uid: Stockage.Converters.ConcreteConverter`2.WriteJson*
+  name: WriteJson
+  href: api/Stockage.Converters.ConcreteConverter-2.html#Stockage_Converters_ConcreteConverter_2_WriteJson_
+  commentId: Overload:Stockage.Converters.ConcreteConverter`2.WriteJson
+  isSpec: "True"
+  fullName: Stockage.Converters.ConcreteConverter<TInterface, TConcrete>.WriteJson
+  fullName.vb: Stockage.Converters.ConcreteConverter(Of TInterface, TConcrete).WriteJson
+  nameWithType: ConcreteConverter<TInterface, TConcrete>.WriteJson
+  nameWithType.vb: ConcreteConverter(Of TInterface, TConcrete).WriteJson
+- uid: Stockage.Converters.ConcreteDictionnaryTypeConverter`4
+  name: ConcreteDictionnaryTypeConverter<TDictionary, TItem, TKey, TValue>
+  href: api/Stockage.Converters.ConcreteDictionnaryTypeConverter-4.html
+  commentId: T:Stockage.Converters.ConcreteDictionnaryTypeConverter`4
+  name.vb: ConcreteDictionnaryTypeConverter(Of TDictionary, TItem, TKey, TValue)
+  fullName: Stockage.Converters.ConcreteDictionnaryTypeConverter<TDictionary, TItem, TKey, TValue>
+  fullName.vb: Stockage.Converters.ConcreteDictionnaryTypeConverter(Of TDictionary, TItem, TKey, TValue)
+  nameWithType: ConcreteDictionnaryTypeConverter<TDictionary, TItem, TKey, TValue>
+  nameWithType.vb: ConcreteDictionnaryTypeConverter(Of TDictionary, TItem, TKey, TValue)
+- uid: Stockage.Converters.ConcreteDictionnaryTypeConverter`4.CanConvert(System.Type)
+  name: CanConvert(Type)
+  href: api/Stockage.Converters.ConcreteDictionnaryTypeConverter-4.html#Stockage_Converters_ConcreteDictionnaryTypeConverter_4_CanConvert_System_Type_
+  commentId: M:Stockage.Converters.ConcreteDictionnaryTypeConverter`4.CanConvert(System.Type)
+  fullName: Stockage.Converters.ConcreteDictionnaryTypeConverter<TDictionary, TItem, TKey, TValue>.CanConvert(System.Type)
+  fullName.vb: Stockage.Converters.ConcreteDictionnaryTypeConverter(Of TDictionary, TItem, TKey, TValue).CanConvert(System.Type)
+  nameWithType: ConcreteDictionnaryTypeConverter<TDictionary, TItem, TKey, TValue>.CanConvert(Type)
+  nameWithType.vb: ConcreteDictionnaryTypeConverter(Of TDictionary, TItem, TKey, TValue).CanConvert(Type)
+- uid: Stockage.Converters.ConcreteDictionnaryTypeConverter`4.CanConvert*
+  name: CanConvert
+  href: api/Stockage.Converters.ConcreteDictionnaryTypeConverter-4.html#Stockage_Converters_ConcreteDictionnaryTypeConverter_4_CanConvert_
+  commentId: Overload:Stockage.Converters.ConcreteDictionnaryTypeConverter`4.CanConvert
+  isSpec: "True"
+  fullName: Stockage.Converters.ConcreteDictionnaryTypeConverter<TDictionary, TItem, TKey, TValue>.CanConvert
+  fullName.vb: Stockage.Converters.ConcreteDictionnaryTypeConverter(Of TDictionary, TItem, TKey, TValue).CanConvert
+  nameWithType: ConcreteDictionnaryTypeConverter<TDictionary, TItem, TKey, TValue>.CanConvert
+  nameWithType.vb: ConcreteDictionnaryTypeConverter(Of TDictionary, TItem, TKey, TValue).CanConvert
+- uid: Stockage.Converters.ConcreteDictionnaryTypeConverter`4.ReadJson(Newtonsoft.Json.JsonReader,System.Type,System.Object,Newtonsoft.Json.JsonSerializer)
+  name: ReadJson(JsonReader, Type, object?, JsonSerializer)
+  href: api/Stockage.Converters.ConcreteDictionnaryTypeConverter-4.html#Stockage_Converters_ConcreteDictionnaryTypeConverter_4_ReadJson_Newtonsoft_Json_JsonReader_System_Type_System_Object_Newtonsoft_Json_JsonSerializer_
+  commentId: M:Stockage.Converters.ConcreteDictionnaryTypeConverter`4.ReadJson(Newtonsoft.Json.JsonReader,System.Type,System.Object,Newtonsoft.Json.JsonSerializer)
+  name.vb: ReadJson(JsonReader, Type, Object, JsonSerializer)
+  fullName: Stockage.Converters.ConcreteDictionnaryTypeConverter<TDictionary, TItem, TKey, TValue>.ReadJson(Newtonsoft.Json.JsonReader, System.Type, object?, Newtonsoft.Json.JsonSerializer)
+  fullName.vb: Stockage.Converters.ConcreteDictionnaryTypeConverter(Of TDictionary, TItem, TKey, TValue).ReadJson(Newtonsoft.Json.JsonReader, System.Type, Object, Newtonsoft.Json.JsonSerializer)
+  nameWithType: ConcreteDictionnaryTypeConverter<TDictionary, TItem, TKey, TValue>.ReadJson(JsonReader, Type, object?, JsonSerializer)
+  nameWithType.vb: ConcreteDictionnaryTypeConverter(Of TDictionary, TItem, TKey, TValue).ReadJson(JsonReader, Type, Object, JsonSerializer)
+- uid: Stockage.Converters.ConcreteDictionnaryTypeConverter`4.ReadJson*
+  name: ReadJson
+  href: api/Stockage.Converters.ConcreteDictionnaryTypeConverter-4.html#Stockage_Converters_ConcreteDictionnaryTypeConverter_4_ReadJson_
+  commentId: Overload:Stockage.Converters.ConcreteDictionnaryTypeConverter`4.ReadJson
+  isSpec: "True"
+  fullName: Stockage.Converters.ConcreteDictionnaryTypeConverter<TDictionary, TItem, TKey, TValue>.ReadJson
+  fullName.vb: Stockage.Converters.ConcreteDictionnaryTypeConverter(Of TDictionary, TItem, TKey, TValue).ReadJson
+  nameWithType: ConcreteDictionnaryTypeConverter<TDictionary, TItem, TKey, TValue>.ReadJson
+  nameWithType.vb: ConcreteDictionnaryTypeConverter(Of TDictionary, TItem, TKey, TValue).ReadJson
+- uid: Stockage.Converters.ConcreteDictionnaryTypeConverter`4.WriteJson(Newtonsoft.Json.JsonWriter,System.Object,Newtonsoft.Json.JsonSerializer)
+  name: WriteJson(JsonWriter, object?, JsonSerializer)
+  href: api/Stockage.Converters.ConcreteDictionnaryTypeConverter-4.html#Stockage_Converters_ConcreteDictionnaryTypeConverter_4_WriteJson_Newtonsoft_Json_JsonWriter_System_Object_Newtonsoft_Json_JsonSerializer_
+  commentId: M:Stockage.Converters.ConcreteDictionnaryTypeConverter`4.WriteJson(Newtonsoft.Json.JsonWriter,System.Object,Newtonsoft.Json.JsonSerializer)
+  name.vb: WriteJson(JsonWriter, Object, JsonSerializer)
+  fullName: Stockage.Converters.ConcreteDictionnaryTypeConverter<TDictionary, TItem, TKey, TValue>.WriteJson(Newtonsoft.Json.JsonWriter, object?, Newtonsoft.Json.JsonSerializer)
+  fullName.vb: Stockage.Converters.ConcreteDictionnaryTypeConverter(Of TDictionary, TItem, TKey, TValue).WriteJson(Newtonsoft.Json.JsonWriter, Object, Newtonsoft.Json.JsonSerializer)
+  nameWithType: ConcreteDictionnaryTypeConverter<TDictionary, TItem, TKey, TValue>.WriteJson(JsonWriter, object?, JsonSerializer)
+  nameWithType.vb: ConcreteDictionnaryTypeConverter(Of TDictionary, TItem, TKey, TValue).WriteJson(JsonWriter, Object, JsonSerializer)
+- uid: Stockage.Converters.ConcreteDictionnaryTypeConverter`4.WriteJson*
+  name: WriteJson
+  href: api/Stockage.Converters.ConcreteDictionnaryTypeConverter-4.html#Stockage_Converters_ConcreteDictionnaryTypeConverter_4_WriteJson_
+  commentId: Overload:Stockage.Converters.ConcreteDictionnaryTypeConverter`4.WriteJson
+  isSpec: "True"
+  fullName: Stockage.Converters.ConcreteDictionnaryTypeConverter<TDictionary, TItem, TKey, TValue>.WriteJson
+  fullName.vb: Stockage.Converters.ConcreteDictionnaryTypeConverter(Of TDictionary, TItem, TKey, TValue).WriteJson
+  nameWithType: ConcreteDictionnaryTypeConverter<TDictionary, TItem, TKey, TValue>.WriteJson
+  nameWithType.vb: ConcreteDictionnaryTypeConverter(Of TDictionary, TItem, TKey, TValue).WriteJson
+- uid: Stockage.ICharge
+  name: ICharge
+  href: api/Stockage.ICharge.html
+  commentId: T:Stockage.ICharge
+  fullName: Stockage.ICharge
+  nameWithType: ICharge
+- uid: Stockage.ICharge.Charger*
+  name: Charger
+  href: api/Stockage.ICharge.html#Stockage_ICharge_Charger_
+  commentId: Overload:Stockage.ICharge.Charger
+  isSpec: "True"
+  fullName: Stockage.ICharge.Charger
+  nameWithType: ICharge.Charger
+- uid: Stockage.ICharge.Charger``1(System.String)
+  name: Charger<T>(string)
+  href: api/Stockage.ICharge.html#Stockage_ICharge_Charger__1_System_String_
+  commentId: M:Stockage.ICharge.Charger``1(System.String)
+  name.vb: Charger(Of T)(String)
+  fullName: Stockage.ICharge.Charger<T>(string)
+  fullName.vb: Stockage.ICharge.Charger(Of T)(String)
+  nameWithType: ICharge.Charger<T>(string)
+  nameWithType.vb: ICharge.Charger(Of T)(String)
+- uid: Stockage.ISauve
+  name: ISauve
+  href: api/Stockage.ISauve.html
+  commentId: T:Stockage.ISauve
+  fullName: Stockage.ISauve
+  nameWithType: ISauve
+- uid: Stockage.ISauve.CopyDirectory(System.IO.DirectoryInfo,System.IO.DirectoryInfo,System.Boolean,System.Boolean)
+  name: CopyDirectory(DirectoryInfo, DirectoryInfo, bool, bool)
+  href: api/Stockage.ISauve.html#Stockage_ISauve_CopyDirectory_System_IO_DirectoryInfo_System_IO_DirectoryInfo_System_Boolean_System_Boolean_
+  commentId: M:Stockage.ISauve.CopyDirectory(System.IO.DirectoryInfo,System.IO.DirectoryInfo,System.Boolean,System.Boolean)
+  name.vb: CopyDirectory(DirectoryInfo, DirectoryInfo, Boolean, Boolean)
+  fullName: Stockage.ISauve.CopyDirectory(System.IO.DirectoryInfo, System.IO.DirectoryInfo, bool, bool)
+  fullName.vb: Stockage.ISauve.CopyDirectory(System.IO.DirectoryInfo, System.IO.DirectoryInfo, Boolean, Boolean)
+  nameWithType: ISauve.CopyDirectory(DirectoryInfo, DirectoryInfo, bool, bool)
+  nameWithType.vb: ISauve.CopyDirectory(DirectoryInfo, DirectoryInfo, Boolean, Boolean)
+- uid: Stockage.ISauve.CopyDirectory*
+  name: CopyDirectory
+  href: api/Stockage.ISauve.html#Stockage_ISauve_CopyDirectory_
+  commentId: Overload:Stockage.ISauve.CopyDirectory
+  isSpec: "True"
+  fullName: Stockage.ISauve.CopyDirectory
+  nameWithType: ISauve.CopyDirectory
+- uid: Stockage.ISauve.Sauver*
+  name: Sauver
+  href: api/Stockage.ISauve.html#Stockage_ISauve_Sauver_
+  commentId: Overload:Stockage.ISauve.Sauver
+  isSpec: "True"
+  fullName: Stockage.ISauve.Sauver
+  nameWithType: ISauve.Sauver
+- uid: Stockage.ISauve.Sauver``1(``0,System.String,System.Boolean,System.String)
+  name: Sauver<T>(T, string, bool, string)
+  href: api/Stockage.ISauve.html#Stockage_ISauve_Sauver__1___0_System_String_System_Boolean_System_String_
+  commentId: M:Stockage.ISauve.Sauver``1(``0,System.String,System.Boolean,System.String)
+  name.vb: Sauver(Of T)(T, String, Boolean, String)
+  fullName: Stockage.ISauve.Sauver<T>(T, string, bool, string)
+  fullName.vb: Stockage.ISauve.Sauver(Of T)(T, String, Boolean, String)
+  nameWithType: ISauve.Sauver<T>(T, string, bool, string)
+  nameWithType.vb: ISauve.Sauver(Of T)(T, String, Boolean, String)
+- uid: Stockage.Logs
+  name: Stockage.Logs
+  href: api/Stockage.Logs.html
+  commentId: N:Stockage.Logs
+  fullName: Stockage.Logs
+  nameWithType: Stockage.Logs
+- uid: Stockage.Logs.BaseLogger`1
+  name: BaseLogger<T>
+  href: api/Stockage.Logs.BaseLogger-1.html
+  commentId: T:Stockage.Logs.BaseLogger`1
+  name.vb: BaseLogger(Of T)
+  fullName: Stockage.Logs.BaseLogger<T>
+  fullName.vb: Stockage.Logs.BaseLogger(Of T)
+  nameWithType: BaseLogger<T>
+  nameWithType.vb: BaseLogger(Of T)
+- uid: Stockage.Logs.BaseLogger`1.#ctor
+  name: BaseLogger()
+  href: api/Stockage.Logs.BaseLogger-1.html#Stockage_Logs_BaseLogger_1__ctor
+  commentId: M:Stockage.Logs.BaseLogger`1.#ctor
+  name.vb: New()
+  fullName: Stockage.Logs.BaseLogger<T>.BaseLogger()
+  fullName.vb: Stockage.Logs.BaseLogger(Of T).New()
+  nameWithType: BaseLogger<T>.BaseLogger()
+  nameWithType.vb: BaseLogger(Of T).New()
+- uid: Stockage.Logs.BaseLogger`1.#ctor*
+  name: BaseLogger
+  href: api/Stockage.Logs.BaseLogger-1.html#Stockage_Logs_BaseLogger_1__ctor_
+  commentId: Overload:Stockage.Logs.BaseLogger`1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Stockage.Logs.BaseLogger<T>.BaseLogger
+  fullName.vb: Stockage.Logs.BaseLogger(Of T).New
+  nameWithType: BaseLogger<T>.BaseLogger
+  nameWithType.vb: BaseLogger(Of T).New
+- uid: Stockage.Logs.BaseLogger`1.Clear
+  name: Clear()
+  href: api/Stockage.Logs.BaseLogger-1.html#Stockage_Logs_BaseLogger_1_Clear
+  commentId: M:Stockage.Logs.BaseLogger`1.Clear
+  fullName: Stockage.Logs.BaseLogger<T>.Clear()
+  fullName.vb: Stockage.Logs.BaseLogger(Of T).Clear()
+  nameWithType: BaseLogger<T>.Clear()
+  nameWithType.vb: BaseLogger(Of T).Clear()
+- uid: Stockage.Logs.BaseLogger`1.Clear*
+  name: Clear
+  href: api/Stockage.Logs.BaseLogger-1.html#Stockage_Logs_BaseLogger_1_Clear_
+  commentId: Overload:Stockage.Logs.BaseLogger`1.Clear
+  isSpec: "True"
+  fullName: Stockage.Logs.BaseLogger<T>.Clear
+  fullName.vb: Stockage.Logs.BaseLogger(Of T).Clear
+  nameWithType: BaseLogger<T>.Clear
+  nameWithType.vb: BaseLogger(Of T).Clear
+- uid: Stockage.Logs.BaseLogger`1.Datas
+  name: Datas
+  href: api/Stockage.Logs.BaseLogger-1.html#Stockage_Logs_BaseLogger_1_Datas
+  commentId: P:Stockage.Logs.BaseLogger`1.Datas
+  fullName: Stockage.Logs.BaseLogger<T>.Datas
+  fullName.vb: Stockage.Logs.BaseLogger(Of T).Datas
+  nameWithType: BaseLogger<T>.Datas
+  nameWithType.vb: BaseLogger(Of T).Datas
+- uid: Stockage.Logs.BaseLogger`1.Datas*
+  name: Datas
+  href: api/Stockage.Logs.BaseLogger-1.html#Stockage_Logs_BaseLogger_1_Datas_
+  commentId: Overload:Stockage.Logs.BaseLogger`1.Datas
+  isSpec: "True"
+  fullName: Stockage.Logs.BaseLogger<T>.Datas
+  fullName.vb: Stockage.Logs.BaseLogger(Of T).Datas
+  nameWithType: BaseLogger<T>.Datas
+  nameWithType.vb: BaseLogger(Of T).Datas
+- uid: Stockage.Logs.BaseLogger`1.Log(`0,System.Boolean,System.Boolean,System.String)
+  name: Log(T, bool, bool, string)
+  href: api/Stockage.Logs.BaseLogger-1.html#Stockage_Logs_BaseLogger_1_Log__0_System_Boolean_System_Boolean_System_String_
+  commentId: M:Stockage.Logs.BaseLogger`1.Log(`0,System.Boolean,System.Boolean,System.String)
+  name.vb: Log(T, Boolean, Boolean, String)
+  fullName: Stockage.Logs.BaseLogger<T>.Log(T, bool, bool, string)
+  fullName.vb: Stockage.Logs.BaseLogger(Of T).Log(T, Boolean, Boolean, String)
+  nameWithType: BaseLogger<T>.Log(T, bool, bool, string)
+  nameWithType.vb: BaseLogger(Of T).Log(T, Boolean, Boolean, String)
+- uid: Stockage.Logs.BaseLogger`1.Log*
+  name: Log
+  href: api/Stockage.Logs.BaseLogger-1.html#Stockage_Logs_BaseLogger_1_Log_
+  commentId: Overload:Stockage.Logs.BaseLogger`1.Log
+  isSpec: "True"
+  fullName: Stockage.Logs.BaseLogger<T>.Log
+  fullName.vb: Stockage.Logs.BaseLogger(Of T).Log
+  nameWithType: BaseLogger<T>.Log
+  nameWithType.vb: BaseLogger(Of T).Log
+- uid: Stockage.Logs.CGenericLogger`1
+  name: CGenericLogger<T>
+  href: api/Stockage.Logs.CGenericLogger-1.html
+  commentId: T:Stockage.Logs.CGenericLogger`1
+  name.vb: CGenericLogger(Of T)
+  fullName: Stockage.Logs.CGenericLogger<T>
+  fullName.vb: Stockage.Logs.CGenericLogger(Of T)
+  nameWithType: CGenericLogger<T>
+  nameWithType.vb: CGenericLogger(Of T)
+- uid: Stockage.Logs.CLogger`1
+  name: CLogger<T>
+  href: api/Stockage.Logs.CLogger-1.html
+  commentId: T:Stockage.Logs.CLogger`1
+  name.vb: CLogger(Of T)
+  fullName: Stockage.Logs.CLogger<T>
+  fullName.vb: Stockage.Logs.CLogger(Of T)
+  nameWithType: CLogger<T>
+  nameWithType.vb: CLogger(Of T)
+- uid: Stockage.Logs.CLogger`1.Clear
+  name: Clear()
+  href: api/Stockage.Logs.CLogger-1.html#Stockage_Logs_CLogger_1_Clear
+  commentId: M:Stockage.Logs.CLogger`1.Clear
+  fullName: Stockage.Logs.CLogger<T>.Clear()
+  fullName.vb: Stockage.Logs.CLogger(Of T).Clear()
+  nameWithType: CLogger<T>.Clear()
+  nameWithType.vb: CLogger(Of T).Clear()
+- uid: Stockage.Logs.CLogger`1.Clear*
+  name: Clear
+  href: api/Stockage.Logs.CLogger-1.html#Stockage_Logs_CLogger_1_Clear_
+  commentId: Overload:Stockage.Logs.CLogger`1.Clear
+  isSpec: "True"
+  fullName: Stockage.Logs.CLogger<T>.Clear
+  fullName.vb: Stockage.Logs.CLogger(Of T).Clear
+  nameWithType: CLogger<T>.Clear
+  nameWithType.vb: CLogger(Of T).Clear
+- uid: Stockage.Logs.CLogger`1.GenericLogger
+  name: GenericLogger
+  href: api/Stockage.Logs.CLogger-1.html#Stockage_Logs_CLogger_1_GenericLogger
+  commentId: P:Stockage.Logs.CLogger`1.GenericLogger
+  fullName: Stockage.Logs.CLogger<T>.GenericLogger
+  fullName.vb: Stockage.Logs.CLogger(Of T).GenericLogger
+  nameWithType: CLogger<T>.GenericLogger
+  nameWithType.vb: CLogger(Of T).GenericLogger
+- uid: Stockage.Logs.CLogger`1.GenericLogger*
+  name: GenericLogger
+  href: api/Stockage.Logs.CLogger-1.html#Stockage_Logs_CLogger_1_GenericLogger_
+  commentId: Overload:Stockage.Logs.CLogger`1.GenericLogger
+  isSpec: "True"
+  fullName: Stockage.Logs.CLogger<T>.GenericLogger
+  fullName.vb: Stockage.Logs.CLogger(Of T).GenericLogger
+  nameWithType: CLogger<T>.GenericLogger
+  nameWithType.vb: CLogger(Of T).GenericLogger
+- uid: Stockage.Logs.CLogger`1.StringLogger
+  name: StringLogger
+  href: api/Stockage.Logs.CLogger-1.html#Stockage_Logs_CLogger_1_StringLogger
+  commentId: P:Stockage.Logs.CLogger`1.StringLogger
+  fullName: Stockage.Logs.CLogger<T>.StringLogger
+  fullName.vb: Stockage.Logs.CLogger(Of T).StringLogger
+  nameWithType: CLogger<T>.StringLogger
+  nameWithType.vb: CLogger(Of T).StringLogger
+- uid: Stockage.Logs.CLogger`1.StringLogger*
+  name: StringLogger
+  href: api/Stockage.Logs.CLogger-1.html#Stockage_Logs_CLogger_1_StringLogger_
+  commentId: Overload:Stockage.Logs.CLogger`1.StringLogger
+  isSpec: "True"
+  fullName: Stockage.Logs.CLogger<T>.StringLogger
+  fullName.vb: Stockage.Logs.CLogger(Of T).StringLogger
+  nameWithType: CLogger<T>.StringLogger
+  nameWithType.vb: CLogger(Of T).StringLogger
+- uid: Stockage.Logs.CStringLogger
+  name: CStringLogger
+  href: api/Stockage.Logs.CStringLogger.html
+  commentId: T:Stockage.Logs.CStringLogger
+  fullName: Stockage.Logs.CStringLogger
+  nameWithType: CStringLogger
+- uid: Stockage.Logs.ILogger`1
+  name: ILogger<T>
+  href: api/Stockage.Logs.ILogger-1.html
+  commentId: T:Stockage.Logs.ILogger`1
+  name.vb: ILogger(Of T)
+  fullName: Stockage.Logs.ILogger<T>
+  fullName.vb: Stockage.Logs.ILogger(Of T)
+  nameWithType: ILogger<T>
+  nameWithType.vb: ILogger(Of T)
+- uid: Stockage.Logs.ILogger`1.Datas
+  name: Datas
+  href: api/Stockage.Logs.ILogger-1.html#Stockage_Logs_ILogger_1_Datas
+  commentId: P:Stockage.Logs.ILogger`1.Datas
+  fullName: Stockage.Logs.ILogger<T>.Datas
+  fullName.vb: Stockage.Logs.ILogger(Of T).Datas
+  nameWithType: ILogger<T>.Datas
+  nameWithType.vb: ILogger(Of T).Datas
+- uid: Stockage.Logs.ILogger`1.Datas*
+  name: Datas
+  href: api/Stockage.Logs.ILogger-1.html#Stockage_Logs_ILogger_1_Datas_
+  commentId: Overload:Stockage.Logs.ILogger`1.Datas
+  isSpec: "True"
+  fullName: Stockage.Logs.ILogger<T>.Datas
+  fullName.vb: Stockage.Logs.ILogger(Of T).Datas
+  nameWithType: ILogger<T>.Datas
+  nameWithType.vb: ILogger(Of T).Datas
+- uid: Stockage.Logs.ILogger`1.Log(`0,System.Boolean,System.Boolean,System.String)
+  name: Log(T, bool, bool, string)
+  href: api/Stockage.Logs.ILogger-1.html#Stockage_Logs_ILogger_1_Log__0_System_Boolean_System_Boolean_System_String_
+  commentId: M:Stockage.Logs.ILogger`1.Log(`0,System.Boolean,System.Boolean,System.String)
+  name.vb: Log(T, Boolean, Boolean, String)
+  fullName: Stockage.Logs.ILogger<T>.Log(T, bool, bool, string)
+  fullName.vb: Stockage.Logs.ILogger(Of T).Log(T, Boolean, Boolean, String)
+  nameWithType: ILogger<T>.Log(T, bool, bool, string)
+  nameWithType.vb: ILogger(Of T).Log(T, Boolean, Boolean, String)
+- uid: Stockage.Logs.ILogger`1.Log*
+  name: Log
+  href: api/Stockage.Logs.ILogger-1.html#Stockage_Logs_ILogger_1_Log_
+  commentId: Overload:Stockage.Logs.ILogger`1.Log
+  isSpec: "True"
+  fullName: Stockage.Logs.ILogger<T>.Log
+  fullName.vb: Stockage.Logs.ILogger(Of T).Log
+  nameWithType: ILogger<T>.Log
+  nameWithType.vb: ILogger(Of T).Log
+- uid: Stockage.SauveCollection
+  name: SauveCollection
+  href: api/Stockage.SauveCollection.html
+  commentId: T:Stockage.SauveCollection
+  fullName: Stockage.SauveCollection
+  nameWithType: SauveCollection
+- uid: Stockage.SauveCollection.#ctor(System.String)
+  name: SauveCollection(string)
+  href: api/Stockage.SauveCollection.html#Stockage_SauveCollection__ctor_System_String_
+  commentId: M:Stockage.SauveCollection.#ctor(System.String)
+  name.vb: New(String)
+  fullName: Stockage.SauveCollection.SauveCollection(string)
+  fullName.vb: Stockage.SauveCollection.New(String)
+  nameWithType: SauveCollection.SauveCollection(string)
+  nameWithType.vb: SauveCollection.New(String)
+- uid: Stockage.SauveCollection.#ctor*
+  name: SauveCollection
+  href: api/Stockage.SauveCollection.html#Stockage_SauveCollection__ctor_
+  commentId: Overload:Stockage.SauveCollection.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Stockage.SauveCollection.SauveCollection
+  fullName.vb: Stockage.SauveCollection.New
+  nameWithType: SauveCollection.SauveCollection
+  nameWithType.vb: SauveCollection.New
+- uid: Stockage.SauveJobs
+  name: SauveJobs
+  href: api/Stockage.SauveJobs.html
+  commentId: T:Stockage.SauveJobs
+  fullName: Stockage.SauveJobs
+  nameWithType: SauveJobs
+- uid: Stockage.SauveJobs.#ctor(System.String)
+  name: SauveJobs(string)
+  href: api/Stockage.SauveJobs.html#Stockage_SauveJobs__ctor_System_String_
+  commentId: M:Stockage.SauveJobs.#ctor(System.String)
+  name.vb: New(String)
+  fullName: Stockage.SauveJobs.SauveJobs(string)
+  fullName.vb: Stockage.SauveJobs.New(String)
+  nameWithType: SauveJobs.SauveJobs(string)
+  nameWithType.vb: SauveJobs.New(String)
+- uid: Stockage.SauveJobs.#ctor*
+  name: SauveJobs
+  href: api/Stockage.SauveJobs.html#Stockage_SauveJobs__ctor_
+  commentId: Overload:Stockage.SauveJobs.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Stockage.SauveJobs.SauveJobs
+  fullName.vb: Stockage.SauveJobs.New
+  nameWithType: SauveJobs.SauveJobs
+  nameWithType.vb: SauveJobs.New
+- uid: Stockage.SauveJobs.CopyDirectory(System.IO.DirectoryInfo,System.IO.DirectoryInfo,System.Boolean,LogsModels.CLogState@,System.Boolean)
+  name: CopyDirectory(DirectoryInfo, DirectoryInfo, bool, ref CLogState, bool)
+  href: api/Stockage.SauveJobs.html#Stockage_SauveJobs_CopyDirectory_System_IO_DirectoryInfo_System_IO_DirectoryInfo_System_Boolean_LogsModels_CLogState__System_Boolean_
+  commentId: M:Stockage.SauveJobs.CopyDirectory(System.IO.DirectoryInfo,System.IO.DirectoryInfo,System.Boolean,LogsModels.CLogState@,System.Boolean)
+  name.vb: CopyDirectory(DirectoryInfo, DirectoryInfo, Boolean, CLogState, Boolean)
+  fullName: Stockage.SauveJobs.CopyDirectory(System.IO.DirectoryInfo, System.IO.DirectoryInfo, bool, ref LogsModels.CLogState, bool)
+  fullName.vb: Stockage.SauveJobs.CopyDirectory(System.IO.DirectoryInfo, System.IO.DirectoryInfo, Boolean, LogsModels.CLogState, Boolean)
+  nameWithType: SauveJobs.CopyDirectory(DirectoryInfo, DirectoryInfo, bool, ref CLogState, bool)
+  nameWithType.vb: SauveJobs.CopyDirectory(DirectoryInfo, DirectoryInfo, Boolean, CLogState, Boolean)
+- uid: Stockage.SauveJobs.CopyDirectory*
+  name: CopyDirectory
+  href: api/Stockage.SauveJobs.html#Stockage_SauveJobs_CopyDirectory_
+  commentId: Overload:Stockage.SauveJobs.CopyDirectory
+  isSpec: "True"
+  fullName: Stockage.SauveJobs.CopyDirectory
+  nameWithType: SauveJobs.CopyDirectory
+- uid: Stockage.SauveJobs.GetDirSize(System.String)
+  name: GetDirSize(string)
+  href: api/Stockage.SauveJobs.html#Stockage_SauveJobs_GetDirSize_System_String_
+  commentId: M:Stockage.SauveJobs.GetDirSize(System.String)
+  name.vb: GetDirSize(String)
+  fullName: Stockage.SauveJobs.GetDirSize(string)
+  fullName.vb: Stockage.SauveJobs.GetDirSize(String)
+  nameWithType: SauveJobs.GetDirSize(string)
+  nameWithType.vb: SauveJobs.GetDirSize(String)
+- uid: Stockage.SauveJobs.GetDirSize*
+  name: GetDirSize
+  href: api/Stockage.SauveJobs.html#Stockage_SauveJobs_GetDirSize_
+  commentId: Overload:Stockage.SauveJobs.GetDirSize
+  isSpec: "True"
+  fullName: Stockage.SauveJobs.GetDirSize
+  nameWithType: SauveJobs.GetDirSize
+- uid: Stockage.SauveJobs.TransferedFiles
+  name: TransferedFiles
+  href: api/Stockage.SauveJobs.html#Stockage_SauveJobs_TransferedFiles
+  commentId: P:Stockage.SauveJobs.TransferedFiles
+  fullName: Stockage.SauveJobs.TransferedFiles
+  nameWithType: SauveJobs.TransferedFiles
+- uid: Stockage.SauveJobs.TransferedFiles*
+  name: TransferedFiles
+  href: api/Stockage.SauveJobs.html#Stockage_SauveJobs_TransferedFiles_
+  commentId: Overload:Stockage.SauveJobs.TransferedFiles
+  isSpec: "True"
+  fullName: Stockage.SauveJobs.TransferedFiles
+  nameWithType: SauveJobs.TransferedFiles
+- uid: Stockage.SauveJobs.UpdateLog(LogsModels.CLogState)
+  name: UpdateLog(CLogState)
+  href: api/Stockage.SauveJobs.html#Stockage_SauveJobs_UpdateLog_LogsModels_CLogState_
+  commentId: M:Stockage.SauveJobs.UpdateLog(LogsModels.CLogState)
+  fullName: Stockage.SauveJobs.UpdateLog(LogsModels.CLogState)
+  nameWithType: SauveJobs.UpdateLog(CLogState)
+- uid: Stockage.SauveJobs.UpdateLog*
+  name: UpdateLog
+  href: api/Stockage.SauveJobs.html#Stockage_SauveJobs_UpdateLog_
+  commentId: Overload:Stockage.SauveJobs.UpdateLog
+  isSpec: "True"
+  fullName: Stockage.SauveJobs.UpdateLog
+  nameWithType: SauveJobs.UpdateLog
+- uid: UnitTestJobs
+  name: UnitTestJobs
+  href: api/UnitTestJobs.html
+  commentId: N:UnitTestJobs
+  fullName: UnitTestJobs
+  nameWithType: UnitTestJobs
+- uid: UnitTestJobs.JobsTestUnit
+  name: JobsTestUnit
+  href: api/UnitTestJobs.JobsTestUnit.html
+  commentId: T:UnitTestJobs.JobsTestUnit
+  fullName: UnitTestJobs.JobsTestUnit
+  nameWithType: JobsTestUnit
+- uid: UnitTestJobs.JobsTestUnit.CreateJob
+  name: CreateJob()
+  href: api/UnitTestJobs.JobsTestUnit.html#UnitTestJobs_JobsTestUnit_CreateJob
+  commentId: M:UnitTestJobs.JobsTestUnit.CreateJob
+  fullName: UnitTestJobs.JobsTestUnit.CreateJob()
+  nameWithType: JobsTestUnit.CreateJob()
+- uid: UnitTestJobs.JobsTestUnit.CreateJob*
+  name: CreateJob
+  href: api/UnitTestJobs.JobsTestUnit.html#UnitTestJobs_JobsTestUnit_CreateJob_
+  commentId: Overload:UnitTestJobs.JobsTestUnit.CreateJob
+  isSpec: "True"
+  fullName: UnitTestJobs.JobsTestUnit.CreateJob
+  nameWithType: JobsTestUnit.CreateJob
+- uid: UnitTestJobs.JobsTestUnit.SaveJobManager
+  name: SaveJobManager()
+  href: api/UnitTestJobs.JobsTestUnit.html#UnitTestJobs_JobsTestUnit_SaveJobManager
+  commentId: M:UnitTestJobs.JobsTestUnit.SaveJobManager
+  fullName: UnitTestJobs.JobsTestUnit.SaveJobManager()
+  nameWithType: JobsTestUnit.SaveJobManager()
+- uid: UnitTestJobs.JobsTestUnit.SaveJobManager*
+  name: SaveJobManager
+  href: api/UnitTestJobs.JobsTestUnit.html#UnitTestJobs_JobsTestUnit_SaveJobManager_
+  commentId: Overload:UnitTestJobs.JobsTestUnit.SaveJobManager
+  isSpec: "True"
+  fullName: UnitTestJobs.JobsTestUnit.SaveJobManager
+  nameWithType: JobsTestUnit.SaveJobManager
+- uid: UnitTestStorage
+  name: UnitTestStorage
+  href: api/UnitTestStorage.html
+  commentId: N:UnitTestStorage
+  fullName: UnitTestStorage
+  nameWithType: UnitTestStorage
+- uid: UnitTestStorage.StockageTestUnit
+  name: StockageTestUnit
+  href: api/UnitTestStorage.StockageTestUnit.html
+  commentId: T:UnitTestStorage.StockageTestUnit
+  fullName: UnitTestStorage.StockageTestUnit
+  nameWithType: StockageTestUnit
+- uid: UnitTestStorage.StockageTestUnit.TestSerialisation
+  name: TestSerialisation()
+  href: api/UnitTestStorage.StockageTestUnit.html#UnitTestStorage_StockageTestUnit_TestSerialisation
+  commentId: M:UnitTestStorage.StockageTestUnit.TestSerialisation
+  fullName: UnitTestStorage.StockageTestUnit.TestSerialisation()
+  nameWithType: StockageTestUnit.TestSerialisation()
+- uid: UnitTestStorage.StockageTestUnit.TestSerialisation*
+  name: TestSerialisation
+  href: api/UnitTestStorage.StockageTestUnit.html#UnitTestStorage_StockageTestUnit_TestSerialisation_
+  commentId: Overload:UnitTestStorage.StockageTestUnit.TestSerialisation
+  isSpec: "True"
+  fullName: UnitTestStorage.StockageTestUnit.TestSerialisation
+  nameWithType: StockageTestUnit.TestSerialisation
