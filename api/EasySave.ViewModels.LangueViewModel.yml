@@ -18,11 +18,11 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/EasySave/ViewModels/LangueViewModel.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: LangueViewModel
-    path: EasySave/ViewModels/LangueViewModel.cs
-    startLine: 3
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/EasySave/ViewModels/LangueViewModel.cs
+    startLine: 4
   assemblies:
   - EasySave
   namespace: EasySave.ViewModels
@@ -58,11 +58,11 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/EasySave/ViewModels/LangueViewModel.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Langue
-    path: EasySave/ViewModels/LangueViewModel.cs
-    startLine: 6
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/EasySave/ViewModels/LangueViewModel.cs
+    startLine: 7
   assemblies:
   - EasySave
   namespace: EasySave.ViewModels
@@ -87,11 +87,11 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/EasySave/ViewModels/LangueViewModel.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: .ctor
-    path: EasySave/ViewModels/LangueViewModel.cs
-    startLine: 8
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/EasySave/ViewModels/LangueViewModel.cs
+    startLine: 9
   assemblies:
   - EasySave
   namespace: EasySave.ViewModels
@@ -116,26 +116,25 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/EasySave/ViewModels/LangueViewModel.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: SetLanguage
-    path: EasySave/ViewModels/LangueViewModel.cs
-    startLine: 17
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/EasySave/ViewModels/LangueViewModel.cs
+    startLine: 18
   assemblies:
   - EasySave
   namespace: EasySave.ViewModels
   summary: Set the current language
   example: []
   syntax:
-    content: public bool SetLanguage(string pLanguageChoice)
+    content: public bool SetLanguage(string pCultureInfo)
     parameters:
-    - id: pLanguageChoice
+    - id: pCultureInfo
       type: System.String
-      description: give a number
     return:
       type: System.Boolean
       description: true if the language was changed
-    content.vb: Public Function SetLanguage(pLanguageChoice As String) As Boolean
+    content.vb: Public Function SetLanguage(pCultureInfo As String) As Boolean
   overload: EasySave.ViewModels.LangueViewModel.SetLanguage*
   nameWithType.vb: LangueViewModel.SetLanguage(String)
   fullName.vb: EasySave.ViewModels.LangueViewModel.SetLanguage(String)

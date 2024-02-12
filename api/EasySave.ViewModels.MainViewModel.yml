@@ -18,10 +18,10 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/EasySave/ViewModels/MainViewModel.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: MainViewModel
-    path: EasySave/ViewModels/MainViewModel.cs
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/EasySave/ViewModels/MainViewModel.cs
     startLine: 2
   assemblies:
   - EasySave
@@ -53,11 +53,11 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/EasySave/ViewModels/MainViewModel.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: LangueVm
-    path: EasySave/ViewModels/MainViewModel.cs
-    startLine: 6
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/EasySave/ViewModels/MainViewModel.cs
+    startLine: 7
   assemblies:
   - EasySave
   namespace: EasySave.ViewModels
@@ -82,11 +82,11 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/EasySave/ViewModels/MainViewModel.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: JobVm
-    path: EasySave/ViewModels/MainViewModel.cs
-    startLine: 7
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/EasySave/ViewModels/MainViewModel.cs
+    startLine: 8
   assemblies:
   - EasySave
   namespace: EasySave.ViewModels
@@ -111,11 +111,11 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/EasySave/ViewModels/MainViewModel.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: .ctor
-    path: EasySave/ViewModels/MainViewModel.cs
-    startLine: 8
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/EasySave/ViewModels/MainViewModel.cs
+    startLine: 9
   assemblies:
   - EasySave
   namespace: EasySave.ViewModels

@@ -19,10 +19,10 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/Stockage/Logs/BaseLog.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: BaseLogger
-    path: Stockage/Logs/BaseLog.cs
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/Logs/BaseLog.cs
     startLine: 7
   assemblies:
   - Stockage
@@ -67,10 +67,10 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/Stockage/Logs/BaseLog.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Datas
-    path: Stockage/Logs/BaseLog.cs
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/Logs/BaseLog.cs
     startLine: 10
   assemblies:
   - Stockage
@@ -101,10 +101,10 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/Stockage/Logs/BaseLog.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: .ctor
-    path: Stockage/Logs/BaseLog.cs
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/Logs/BaseLog.cs
     startLine: 11
   assemblies:
   - Stockage
@@ -130,10 +130,10 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/Stockage/Logs/BaseLog.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Log
-    path: Stockage/Logs/BaseLog.cs
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/Logs/BaseLog.cs
     startLine: 22
   assemblies:
   - Stockage
@@ -176,10 +176,10 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/Stockage/Logs/BaseLog.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Clear
-    path: Stockage/Logs/BaseLog.cs
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/Logs/BaseLog.cs
     startLine: 36
   assemblies:
   - Stockage

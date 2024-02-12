@@ -89,7 +89,7 @@
 
 
   <h1 id="Models_CLangue" data-uid="Models.CLangue" class="text-break">
-Class CLangue  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-G4-FISA-24/Models/CLangue.cs&amp;version=GBissue/37-update-delete-jobs&amp;line=7"><i class="bi bi-code-slash"></i></a>
+Class CLangue  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-G4-FISA-24/Models/CLangue.cs&amp;version=GBdevelop-livrable-1&amp;line=9"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -102,7 +102,8 @@ Class CLangue  <a class="header-action link-secondary" title="View source" href=
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class CLangue</code></pre>
+    <pre><code class="lang-csharp hljs">[DataContract]
+public class CLangue</code></pre>
   </div>
 
 
@@ -157,7 +158,7 @@ Class CLangue  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Models_CLangue__ctor" data-uid="Models.CLangue.#ctor">
   CLangue()
-  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-G4-FISA-24/Models/CLangue.cs&amp;version=GBissue/37-update-delete-jobs&amp;line=14"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-G4-FISA-24/Models/CLangue.cs&amp;version=GBdevelop-livrable-1&amp;line=24"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Constructeur de la classe Clangue Init the language with the installed culture of the operating system</p>
@@ -188,10 +189,11 @@ Class CLangue  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Models_CLangue_Languages" data-uid="Models.CLangue.Languages">
   Languages
-  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-G4-FISA-24/Models/CLangue.cs&amp;version=GBissue/37-update-delete-jobs&amp;line=10"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-G4-FISA-24/Models/CLangue.cs&amp;version=GBdevelop-livrable-1&amp;line=18"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Dictionnaire de langues</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -215,6 +217,37 @@ Class CLangue  <a class="header-action link-secondary" title="View source" href=
 
 
 
+  <a id="Models_CLangue_SelectedCulture_" data-uid="Models.CLangue.SelectedCulture*"></a>
+
+  <h3 id="Models_CLangue_SelectedCulture" data-uid="Models.CLangue.SelectedCulture">
+  SelectedCulture
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-G4-FISA-24/Models/CLangue.cs&amp;version=GBdevelop-livrable-1&amp;line=19"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string SelectedCulture { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <h2 class="section" id="methods">Methods
 </h2>
 
@@ -223,22 +256,21 @@ Class CLangue  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Models_CLangue_SetLanguage_System_String_" data-uid="Models.CLangue.SetLanguage(System.String)">
   SetLanguage(string)
-  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-G4-FISA-24/Models/CLangue.cs&amp;version=GBissue/37-update-delete-jobs&amp;line=29"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-G4-FISA-24/Models/CLangue.cs&amp;version=GBdevelop-livrable-1&amp;line=39"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Set the language</p>
+  <div class="markdown level1 summary"><p>Set the current UI culture</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool SetLanguage(string pLanguageChoice)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool SetLanguage(string pCultureInfo)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>pLanguageChoice</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>give a number</p>
-</dd>
+    <dt><code>pCultureInfo</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
@@ -262,7 +294,7 @@ Class CLangue  <a class="header-action link-secondary" title="View source" href=
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-G4-FISA-24/Models/CLangue.cs&amp;version=GBissue/37-update-delete-jobs&amp;line=7" class="edit-link">Edit this page</a>
+          <a href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-G4-FISA-24/Models/CLangue.cs&amp;version=GBdevelop-livrable-1&amp;line=9" class="edit-link">Edit this page</a>
         </div>
 
 

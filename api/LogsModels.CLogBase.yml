@@ -21,10 +21,10 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/Logs/CLogBase.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: CLogBase
-    path: Logs/CLogBase.cs
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Logs/CLogBase.cs
     startLine: 3
   assemblies:
   - LogsModels
@@ -71,10 +71,10 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/Logs/CLogBase.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Name
-    path: Logs/CLogBase.cs
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Logs/CLogBase.cs
     startLine: 17
   assemblies:
   - LogsModels
@@ -100,10 +100,10 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/Logs/CLogBase.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Date
-    path: Logs/CLogBase.cs
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Logs/CLogBase.cs
     startLine: 18
   assemblies:
   - LogsModels
@@ -129,10 +129,10 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/Logs/CLogBase.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: TotalSize
-    path: Logs/CLogBase.cs
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Logs/CLogBase.cs
     startLine: 19
   assemblies:
   - LogsModels
@@ -158,10 +158,10 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/Logs/CLogBase.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: SourceDirectory
-    path: Logs/CLogBase.cs
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Logs/CLogBase.cs
     startLine: 20
   assemblies:
   - LogsModels
@@ -190,10 +190,10 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/Logs/CLogBase.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: TargetDirectory
-    path: Logs/CLogBase.cs
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Logs/CLogBase.cs
     startLine: 21
   assemblies:
   - LogsModels
@@ -222,10 +222,10 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/Logs/CLogBase.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: IsSummary
-    path: Logs/CLogBase.cs
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Logs/CLogBase.cs
     startLine: 22
   assemblies:
   - LogsModels

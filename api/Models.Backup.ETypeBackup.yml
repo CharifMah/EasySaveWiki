@@ -17,14 +17,16 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/Models/Backup/ETypeBackup.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: ETypeBackup
-    path: Models/Backup/ETypeBackup.cs
-    startLine: 2
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Backup/ETypeBackup.cs
+    startLine: 5
   assemblies:
   - Models
   namespace: Models.Backup
+  summary: Enumeration du type de backup
+  example: []
   syntax:
     content: public enum ETypeBackup
     content.vb: Public Enum ETypeBackup
@@ -42,11 +44,11 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/Models/Backup/ETypeBackup.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: COMPLET
-    path: Models/Backup/ETypeBackup.cs
-    startLine: 4
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Backup/ETypeBackup.cs
+    startLine: 7
   assemblies:
   - Models
   namespace: Models.Backup
@@ -68,11 +70,11 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/Models/Backup/ETypeBackup.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: DIFFERENTIEL
-    path: Models/Backup/ETypeBackup.cs
-    startLine: 5
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Backup/ETypeBackup.cs
+    startLine: 8
   assemblies:
   - Models
   namespace: Models.Backup

@@ -16,10 +16,10 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/Logs/CLogDaily.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: CLogDaily
-    path: Logs/CLogDaily.cs
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Logs/CLogDaily.cs
     startLine: 3
   assemblies:
   - LogsModels
@@ -60,10 +60,10 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/Logs/CLogDaily.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: TransfertTimeSecond
-    path: Logs/CLogDaily.cs
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Logs/CLogDaily.cs
     startLine: 7
   assemblies:
   - LogsModels

@@ -22,14 +22,16 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/Models/Backup/CJob.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: CJob
-    path: Models/Backup/CJob.cs
-    startLine: 6
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Backup/CJob.cs
+    startLine: 9
   assemblies:
   - Models
   namespace: Models.Backup
+  summary: ''
+  example: []
   syntax:
     content: >-
       [DataContract]
@@ -68,11 +70,11 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/Models/Backup/CJob.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Name
-    path: Models/Backup/CJob.cs
-    startLine: 21
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Backup/CJob.cs
+    startLine: 25
   assemblies:
   - Models
   namespace: Models.Backup
@@ -97,11 +99,11 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/Models/Backup/CJob.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: SourceDirectory
-    path: Models/Backup/CJob.cs
-    startLine: 22
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Backup/CJob.cs
+    startLine: 26
   assemblies:
   - Models
   namespace: Models.Backup
@@ -129,11 +131,11 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/Models/Backup/CJob.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: TargetDirectory
-    path: Models/Backup/CJob.cs
-    startLine: 23
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Backup/CJob.cs
+    startLine: 27
   assemblies:
   - Models
   namespace: Models.Backup
@@ -161,11 +163,11 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/Models/Backup/CJob.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: BackupType
-    path: Models/Backup/CJob.cs
-    startLine: 24
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Backup/CJob.cs
+    startLine: 28
   assemblies:
   - Models
   namespace: Models.Backup
@@ -190,11 +192,11 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/Models/Backup/CJob.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: .ctor
-    path: Models/Backup/CJob.cs
-    startLine: 35
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Backup/CJob.cs
+    startLine: 40
   assemblies:
   - Models
   namespace: Models.Backup
@@ -235,11 +237,11 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/Models/Backup/CJob.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Run
-    path: Models/Backup/CJob.cs
-    startLine: 45
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Backup/CJob.cs
+    startLine: 50
   assemblies:
   - Models
   namespace: Models.Backup
@@ -264,11 +266,11 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/Models/Backup/CJob.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Equals
-    path: Models/Backup/CJob.cs
-    startLine: 96
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Backup/CJob.cs
+    startLine: 101
   assemblies:
   - Models
   namespace: Models.Backup

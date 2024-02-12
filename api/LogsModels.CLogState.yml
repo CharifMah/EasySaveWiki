@@ -21,10 +21,10 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/Logs/CLogState.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: CLogState
-    path: Logs/CLogState.cs
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Logs/CLogState.cs
     startLine: 3
   assemblies:
   - LogsModels
@@ -74,10 +74,10 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/Logs/CLogState.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Name
-    path: Logs/CLogState.cs
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Logs/CLogState.cs
     startLine: 14
   assemblies:
   - LogsModels
@@ -105,10 +105,10 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/Logs/CLogState.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: RemainingFiles
-    path: Logs/CLogState.cs
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Logs/CLogState.cs
     startLine: 25
   assemblies:
   - LogsModels
@@ -134,10 +134,10 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/Logs/CLogState.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: EligibleFileCount
-    path: Logs/CLogState.cs
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Logs/CLogState.cs
     startLine: 26
   assemblies:
   - LogsModels
@@ -163,10 +163,10 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/Logs/CLogState.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: ElapsedMilisecond
-    path: Logs/CLogState.cs
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Logs/CLogState.cs
     startLine: 27
   assemblies:
   - LogsModels
@@ -192,10 +192,10 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/Logs/CLogState.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: IsActive
-    path: Logs/CLogState.cs
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Logs/CLogState.cs
     startLine: 28
   assemblies:
   - LogsModels
@@ -221,10 +221,10 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/Logs/CLogState.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: .ctor
-    path: Logs/CLogState.cs
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Logs/CLogState.cs
     startLine: 29
   assemblies:
   - LogsModels

@@ -19,10 +19,10 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/EasySave/Views/View.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: View
-    path: EasySave/Views/View.cs
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/EasySave/Views/View.cs
     startLine: 5
   assemblies:
   - EasySave
@@ -55,10 +55,10 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/EasySave/Views/View.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Title
-    path: EasySave/Views/View.cs
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/EasySave/Views/View.cs
     startLine: 10
   assemblies:
   - EasySave
@@ -86,10 +86,10 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/EasySave/Views/View.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Menu
-    path: EasySave/Views/View.cs
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/EasySave/Views/View.cs
     startLine: 11
   assemblies:
   - EasySave
@@ -115,10 +115,10 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/EasySave/Views/View.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: .ctor
-    path: EasySave/Views/View.cs
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/EasySave/Views/View.cs
     startLine: 21
   assemblies:
   - EasySave
@@ -144,10 +144,10 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/EasySave/Views/View.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Run
-    path: EasySave/Views/View.cs
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/EasySave/Views/View.cs
     startLine: 33
   assemblies:
   - EasySave

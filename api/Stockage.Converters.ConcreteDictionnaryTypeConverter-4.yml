@@ -18,10 +18,10 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/Stockage/Converters/ConcreteDictionnaryTypeConverter.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: ConcreteDictionnaryTypeConverter
-    path: Stockage/Converters/ConcreteDictionnaryTypeConverter.cs
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/Converters/ConcreteDictionnaryTypeConverter.cs
     startLine: 10
   assemblies:
   - Stockage
@@ -70,10 +70,10 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/Stockage/Converters/ConcreteDictionnaryTypeConverter.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: WriteJson
-    path: Stockage/Converters/ConcreteDictionnaryTypeConverter.cs
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/Converters/ConcreteDictionnaryTypeConverter.cs
     startLine: 18
   assemblies:
   - Stockage
@@ -112,10 +112,10 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/Stockage/Converters/ConcreteDictionnaryTypeConverter.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: ReadJson
-    path: Stockage/Converters/ConcreteDictionnaryTypeConverter.cs
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/Converters/ConcreteDictionnaryTypeConverter.cs
     startLine: 30
   assemblies:
   - Stockage
@@ -160,10 +160,10 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/Stockage/Converters/ConcreteDictionnaryTypeConverter.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: CanConvert
-    path: Stockage/Converters/ConcreteDictionnaryTypeConverter.cs
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/Converters/ConcreteDictionnaryTypeConverter.cs
     startLine: 48
   assemblies:
   - Stockage

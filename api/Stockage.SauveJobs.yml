@@ -20,10 +20,10 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/Stockage/SauveJobs.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: SauveJobs
-    path: Stockage/SauveJobs.cs
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/SauveJobs.cs
     startLine: 5
   assemblies:
   - Stockage
@@ -62,10 +62,10 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/Stockage/SauveJobs.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: TransferedFiles
-    path: Stockage/SauveJobs.cs
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/SauveJobs.cs
     startLine: 9
   assemblies:
   - Stockage
@@ -91,10 +91,10 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/Stockage/SauveJobs.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: .ctor
-    path: Stockage/SauveJobs.cs
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/SauveJobs.cs
     startLine: 10
   assemblies:
   - Stockage
@@ -123,10 +123,10 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/Stockage/SauveJobs.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: UpdateLog
-    path: Stockage/SauveJobs.cs
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/SauveJobs.cs
     startLine: 15
   assemblies:
   - Stockage
@@ -152,10 +152,10 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/Stockage/SauveJobs.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: CopyDirectory
-    path: Stockage/SauveJobs.cs
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/SauveJobs.cs
     startLine: 31
   assemblies:
   - Stockage
@@ -203,10 +203,10 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/Stockage/SauveJobs.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: GetDirSize
-    path: Stockage/SauveJobs.cs
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/SauveJobs.cs
     startLine: 79
   assemblies:
   - Stockage

@@ -1,5 +1,5 @@
 {
-  "source_base_path": "D:/Projet/Projet_CESI/ProgSys/G4-FISA-24/EasySave-G4-FISA-24",
+  "source_base_path": "D:/Projet/Projet_CESI/ProgSys/EasySaveWiki",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -206,6 +206,16 @@
       "output": {
         ".html": {
           "relative_path": "api/Models.CLangue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Models.Settings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Models.Settings.html"
         }
       },
       "version": ""

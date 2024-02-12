@@ -18,10 +18,10 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/Stockage/Logs/CLogger.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: CLogger
-    path: Stockage/Logs/CLogger.cs
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/Logs/CLogger.cs
     startLine: 2
   assemblies:
   - Stockage
@@ -58,10 +58,10 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/Stockage/Logs/CLogger.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: GenericLogger
-    path: Stockage/Logs/CLogger.cs
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/Logs/CLogger.cs
     startLine: 6
   assemblies:
   - Stockage
@@ -89,10 +89,10 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/Stockage/Logs/CLogger.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: StringLogger
-    path: Stockage/Logs/CLogger.cs
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/Logs/CLogger.cs
     startLine: 7
   assemblies:
   - Stockage
@@ -120,10 +120,10 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/Stockage/Logs/CLogger.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Clear
-    path: Stockage/Logs/CLogger.cs
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/Logs/CLogger.cs
     startLine: 8
   assemblies:
   - Stockage

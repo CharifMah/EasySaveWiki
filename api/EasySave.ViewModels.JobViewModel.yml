@@ -22,10 +22,10 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/EasySave/ViewModels/JobViewModel.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: JobViewModel
-    path: EasySave/ViewModels/JobViewModel.cs
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/EasySave/ViewModels/JobViewModel.cs
     startLine: 6
   assemblies:
   - EasySave
@@ -64,10 +64,10 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/EasySave/ViewModels/JobViewModel.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: JobManager
-    path: EasySave/ViewModels/JobViewModel.cs
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/EasySave/ViewModels/JobViewModel.cs
     startLine: 13
   assemblies:
   - EasySave
@@ -95,10 +95,10 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/EasySave/ViewModels/JobViewModel.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: .ctor
-    path: EasySave/ViewModels/JobViewModel.cs
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/EasySave/ViewModels/JobViewModel.cs
     startLine: 20
   assemblies:
   - EasySave
@@ -126,10 +126,10 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/EasySave/ViewModels/JobViewModel.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: RunJobs
-    path: EasySave/ViewModels/JobViewModel.cs
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/EasySave/ViewModels/JobViewModel.cs
     startLine: 31
   assemblies:
   - EasySave
@@ -163,10 +163,10 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/EasySave/ViewModels/JobViewModel.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: CreateBackupJob
-    path: EasySave/ViewModels/JobViewModel.cs
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/EasySave/ViewModels/JobViewModel.cs
     startLine: 43
   assemblies:
   - EasySave
@@ -197,10 +197,10 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/EasySave/ViewModels/JobViewModel.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: DeleteJobs
-    path: EasySave/ViewModels/JobViewModel.cs
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/EasySave/ViewModels/JobViewModel.cs
     startLine: 52
   assemblies:
   - EasySave
@@ -234,10 +234,10 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/EasySave/ViewModels/JobViewModel.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: SaveJobs
-    path: EasySave/ViewModels/JobViewModel.cs
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/EasySave/ViewModels/JobViewModel.cs
     startLine: 57
   assemblies:
   - EasySave
@@ -260,10 +260,10 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/EasySave/ViewModels/JobViewModel.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: LoadJobs
-    path: EasySave/ViewModels/JobViewModel.cs
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/EasySave/ViewModels/JobViewModel.cs
     startLine: 61
   assemblies:
   - EasySave

@@ -38,6 +38,8 @@ items:
   items:
   - uid: Models.CLangue
     name: CLangue
+  - uid: Models.Settings
+    name: Settings
 - uid: Models.Backup
   name: Models.Backup
   items:

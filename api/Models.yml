@@ -5,6 +5,7 @@ items:
   id: Models
   children:
   - Models.CLangue
+  - Models.Settings
   langs:
   - csharp
   - vb
@@ -22,6 +23,13 @@ references:
   name: CLangue
   nameWithType: CLangue
   fullName: Models.CLangue
+- uid: Models.Settings
+  commentId: T:Models.Settings
+  parent: Models
+  href: Models.Settings.html
+  name: Settings
+  nameWithType: Settings
+  fullName: Models.Settings
 - uid: Models
   commentId: N:Models
   href: Models.html

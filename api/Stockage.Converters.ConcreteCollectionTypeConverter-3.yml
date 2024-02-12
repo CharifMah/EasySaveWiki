@@ -18,10 +18,10 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/Stockage/Converters/ConcreteCollectionTypeConverter.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: ConcreteCollectionTypeConverter
-    path: Stockage/Converters/ConcreteCollectionTypeConverter.cs
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/Converters/ConcreteCollectionTypeConverter.cs
     startLine: 10
   assemblies:
   - Stockage
@@ -69,10 +69,10 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/Stockage/Converters/ConcreteCollectionTypeConverter.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: WriteJson
-    path: Stockage/Converters/ConcreteCollectionTypeConverter.cs
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/Converters/ConcreteCollectionTypeConverter.cs
     startLine: 12
   assemblies:
   - Stockage
@@ -111,10 +111,10 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/Stockage/Converters/ConcreteCollectionTypeConverter.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: ReadJson
-    path: Stockage/Converters/ConcreteCollectionTypeConverter.cs
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/Converters/ConcreteCollectionTypeConverter.cs
     startLine: 24
   assemblies:
   - Stockage
@@ -159,10 +159,10 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/Stockage/Converters/ConcreteCollectionTypeConverter.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: CanConvert
-    path: Stockage/Converters/ConcreteCollectionTypeConverter.cs
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/Converters/ConcreteCollectionTypeConverter.cs
     startLine: 42
   assemblies:
   - Stockage

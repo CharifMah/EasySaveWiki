@@ -17,10 +17,10 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/UnitTestJobs/JobsTestUnit.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: JobsTestUnit
-    path: UnitTestJobs/JobsTestUnit.cs
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/UnitTestJobs/JobsTestUnit.cs
     startLine: 3
   assemblies:
   - UnitTestJobs
@@ -52,10 +52,10 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/UnitTestJobs/JobsTestUnit.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: CreateJob
-    path: UnitTestJobs/JobsTestUnit.cs
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/UnitTestJobs/JobsTestUnit.cs
     startLine: 5
   assemblies:
   - UnitTestJobs
@@ -88,10 +88,10 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/UnitTestJobs/JobsTestUnit.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: SaveJobManager
-    path: UnitTestJobs/JobsTestUnit.cs
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/UnitTestJobs/JobsTestUnit.cs
     startLine: 18
   assemblies:
   - UnitTestJobs

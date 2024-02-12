@@ -5,6 +5,7 @@ items:
   id: ChargerCollection
   parent: Stockage
   children:
+  - Stockage.ChargerCollection.#ctor(System.String)
   - Stockage.ChargerCollection.Charger``1(System.String)
   langs:
   - csharp
@@ -16,10 +17,10 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/Stockage/ChargerCollection.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: ChargerCollection
-    path: Stockage/ChargerCollection.cs
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/ChargerCollection.cs
     startLine: 3
   assemblies:
   - Stockage
@@ -39,6 +40,41 @@ items:
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.ToString
+- uid: Stockage.ChargerCollection.#ctor(System.String)
+  commentId: M:Stockage.ChargerCollection.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: Stockage.ChargerCollection
+  langs:
+  - csharp
+  - vb
+  name: ChargerCollection(string)
+  nameWithType: ChargerCollection.ChargerCollection(string)
+  fullName: Stockage.ChargerCollection.ChargerCollection(string)
+  type: Constructor
+  source:
+    remote:
+      path: EasySave-G4-FISA-24/Stockage/ChargerCollection.cs
+      branch: develop-livrable-1
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: .ctor
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/ChargerCollection.cs
+    startLine: 14
+  assemblies:
+  - Stockage
+  namespace: Stockage
+  summary: Charger un object
+  example: []
+  syntax:
+    content: public ChargerCollection(string pPath)
+    parameters:
+    - id: pPath
+      type: System.String
+      description: Chemin du fichier
+    content.vb: Public Sub New(pPath As String)
+  overload: Stockage.ChargerCollection.#ctor*
+  nameWithType.vb: ChargerCollection.New(String)
+  fullName.vb: Stockage.ChargerCollection.New(String)
+  name.vb: New(String)
 - uid: Stockage.ChargerCollection.Charger``1(System.String)
   commentId: M:Stockage.ChargerCollection.Charger``1(System.String)
   id: Charger``1(System.String)
@@ -53,11 +89,11 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/Stockage/ChargerCollection.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Charger
-    path: Stockage/ChargerCollection.cs
-    startLine: 13
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/ChargerCollection.cs
+    startLine: 26
   assemblies:
   - Stockage
   namespace: Stockage
@@ -65,9 +101,9 @@ items:
   remarks: Mahmoud Charif - 31/12/2022 - Creation
   example: []
   syntax:
-    content: public T Charger<T>(string pPath)
+    content: public T Charger<T>(string pFileName)
     parameters:
-    - id: pPath
+    - id: pFileName
       type: System.String
       description: chemin du fichier
     typeParameters:
@@ -76,7 +112,7 @@ items:
     return:
       type: '{T}'
       description: Data Cast in Generic Type
-    content.vb: Public Function Charger(Of T)(pPath As String) As T
+    content.vb: Public Function Charger(Of T)(pFileName As String) As T
   overload: Stockage.ChargerCollection.Charger*
   implements:
   - Stockage.ICharge.Charger``1(System.String)
@@ -334,6 +370,26 @@ references:
   name: System
   nameWithType: System
   fullName: System
+- uid: Stockage.ChargerCollection.#ctor*
+  commentId: Overload:Stockage.ChargerCollection.#ctor
+  href: Stockage.ChargerCollection.html#Stockage_ChargerCollection__ctor_System_String_
+  name: ChargerCollection
+  nameWithType: ChargerCollection.ChargerCollection
+  fullName: Stockage.ChargerCollection.ChargerCollection
+  nameWithType.vb: ChargerCollection.New
+  fullName.vb: Stockage.ChargerCollection.New
+  name.vb: New
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: Stockage.ChargerCollection.Charger*
   commentId: Overload:Stockage.ChargerCollection.Charger
   href: Stockage.ChargerCollection.html#Stockage_ChargerCollection_Charger__1_System_String_
@@ -379,17 +435,6 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-- uid: System.String
-  commentId: T:System.String
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
 - uid: '{T}'
   commentId: '!:T'
   definition: T

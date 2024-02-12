@@ -20,10 +20,10 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/Stockage/Converters/ConcreteConverter.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: ConcreteConverter
-    path: Stockage/Converters/ConcreteConverter.cs
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/Converters/ConcreteConverter.cs
     startLine: 12
   assemblies:
   - Stockage
@@ -73,10 +73,10 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/Stockage/Converters/ConcreteConverter.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: CanConvert
-    path: Stockage/Converters/ConcreteConverter.cs
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/Converters/ConcreteConverter.cs
     startLine: 19
   assemblies:
   - Stockage
@@ -111,10 +111,10 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/Stockage/Converters/ConcreteConverter.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: CanRead
-    path: Stockage/Converters/ConcreteConverter.cs
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/Converters/ConcreteConverter.cs
     startLine: 26
   assemblies:
   - Stockage
@@ -145,10 +145,10 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/Stockage/Converters/ConcreteConverter.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: CanWrite
-    path: Stockage/Converters/ConcreteConverter.cs
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/Converters/ConcreteConverter.cs
     startLine: 37
   assemblies:
   - Stockage
@@ -182,10 +182,10 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/Stockage/Converters/ConcreteConverter.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: ReadJson
-    path: Stockage/Converters/ConcreteConverter.cs
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/Converters/ConcreteConverter.cs
     startLine: 52
   assemblies:
   - Stockage
@@ -230,10 +230,10 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/Stockage/Converters/ConcreteConverter.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: WriteJson
-    path: Stockage/Converters/ConcreteConverter.cs
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/Converters/ConcreteConverter.cs
     startLine: 82
   assemblies:
   - Stockage

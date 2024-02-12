@@ -6,7 +6,7 @@ items:
   parent: EasySave.Views
   children:
   - EasySave.Views.ConsoleExtention.Clear
-  - EasySave.Views.ConsoleExtention.ReadFile(System.String,System.Text.RegularExpressions.Regex)
+  - EasySave.Views.ConsoleExtention.ReadFile(System.String,System.Text.RegularExpressions.Regex,System.String)
   - EasySave.Views.ConsoleExtention.ReadFolder(System.String)
   - EasySave.Views.ConsoleExtention.ReadResponse(System.String,System.Text.RegularExpressions.Regex,System.Func{System.String,System.Boolean})
   - EasySave.Views.ConsoleExtention.WriteLineError(System.String)
@@ -26,10 +26,10 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/EasySave/Views/ConsoleExtention.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: ConsoleExtention
-    path: EasySave/Views/ConsoleExtention.cs
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/EasySave/Views/ConsoleExtention.cs
     startLine: 5
   assemblies:
   - EasySave
@@ -61,10 +61,10 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/EasySave/Views/ConsoleExtention.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: WriteLineError
-    path: EasySave/Views/ConsoleExtention.cs
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/EasySave/Views/ConsoleExtention.cs
     startLine: 12
   assemblies:
   - EasySave
@@ -96,10 +96,10 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/EasySave/Views/ConsoleExtention.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: WriteLineSucces
-    path: EasySave/Views/ConsoleExtention.cs
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/EasySave/Views/ConsoleExtention.cs
     startLine: 22
   assemblies:
   - EasySave
@@ -131,10 +131,10 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/EasySave/Views/ConsoleExtention.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: WriteLineWarning
-    path: EasySave/Views/ConsoleExtention.cs
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/EasySave/Views/ConsoleExtention.cs
     startLine: 32
   assemblies:
   - EasySave
@@ -166,10 +166,10 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/EasySave/Views/ConsoleExtention.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: WritePath
-    path: EasySave/Views/ConsoleExtention.cs
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/EasySave/Views/ConsoleExtention.cs
     startLine: 42
   assemblies:
   - EasySave
@@ -201,10 +201,10 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/EasySave/Views/ConsoleExtention.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: WriteLineSelected
-    path: EasySave/Views/ConsoleExtention.cs
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/EasySave/Views/ConsoleExtention.cs
     startLine: 52
   assemblies:
   - EasySave
@@ -236,10 +236,10 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/EasySave/Views/ConsoleExtention.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: WriteTitle
-    path: EasySave/Views/ConsoleExtention.cs
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/EasySave/Views/ConsoleExtention.cs
     startLine: 60
   assemblies:
   - EasySave
@@ -273,10 +273,10 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/EasySave/Views/ConsoleExtention.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: WriteSubtitle
-    path: EasySave/Views/ConsoleExtention.cs
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/EasySave/Views/ConsoleExtention.cs
     startLine: 82
   assemblies:
   - EasySave
@@ -311,10 +311,10 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/EasySave/Views/ConsoleExtention.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: ReadResponse
-    path: EasySave/Views/ConsoleExtention.cs
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/EasySave/Views/ConsoleExtention.cs
     startLine: 106
   assemblies:
   - EasySave
@@ -356,10 +356,10 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/EasySave/Views/ConsoleExtention.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Clear
-    path: EasySave/Views/ConsoleExtention.cs
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/EasySave/Views/ConsoleExtention.cs
     startLine: 165
   assemblies:
   - EasySave
@@ -384,10 +384,10 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/EasySave/Views/ConsoleExtention.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: ReadFolder
-    path: EasySave/Views/ConsoleExtention.cs
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/EasySave/Views/ConsoleExtention.cs
     startLine: 183
   assemblies:
   - EasySave
@@ -408,24 +408,24 @@ items:
   nameWithType.vb: ConsoleExtention.ReadFolder(String)
   fullName.vb: EasySave.Views.ConsoleExtention.ReadFolder(String)
   name.vb: ReadFolder(String)
-- uid: EasySave.Views.ConsoleExtention.ReadFile(System.String,System.Text.RegularExpressions.Regex)
-  commentId: M:EasySave.Views.ConsoleExtention.ReadFile(System.String,System.Text.RegularExpressions.Regex)
-  id: ReadFile(System.String,System.Text.RegularExpressions.Regex)
+- uid: EasySave.Views.ConsoleExtention.ReadFile(System.String,System.Text.RegularExpressions.Regex,System.String)
+  commentId: M:EasySave.Views.ConsoleExtention.ReadFile(System.String,System.Text.RegularExpressions.Regex,System.String)
+  id: ReadFile(System.String,System.Text.RegularExpressions.Regex,System.String)
   parent: EasySave.Views.ConsoleExtention
   langs:
   - csharp
   - vb
-  name: ReadFile(string, Regex)
-  nameWithType: ConsoleExtention.ReadFile(string, Regex)
-  fullName: EasySave.Views.ConsoleExtention.ReadFile(string, System.Text.RegularExpressions.Regex)
+  name: ReadFile(string, Regex, string)
+  nameWithType: ConsoleExtention.ReadFile(string, Regex, string)
+  fullName: EasySave.Views.ConsoleExtention.ReadFile(string, System.Text.RegularExpressions.Regex, string)
   type: Method
   source:
     remote:
       path: EasySave-G4-FISA-24/EasySave/Views/ConsoleExtention.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: ReadFile
-    path: EasySave/Views/ConsoleExtention.cs
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/EasySave/Views/ConsoleExtention.cs
     startLine: 226
   assemblies:
   - EasySave
@@ -433,21 +433,23 @@ items:
   summary: Read a file with GTK CrossPlatform interface if it fail open classic Console Interface
   example: []
   syntax:
-    content: public static string ReadFile(string pDescription, Regex pRegexExtentions = null)
+    content: public static string ReadFile(string pDescription, Regex pRegexExtentions = null, string pCurrentFolder = null)
     parameters:
     - id: pDescription
       type: System.String
       description: Description for the interface
     - id: pRegexExtentions
       type: System.Text.RegularExpressions.Regex
+    - id: pCurrentFolder
+      type: System.String
     return:
       type: System.String
       description: return the selected file full path
-    content.vb: Public Shared Function ReadFile(pDescription As String, pRegexExtentions As Regex = Nothing) As String
+    content.vb: Public Shared Function ReadFile(pDescription As String, pRegexExtentions As Regex = Nothing, pCurrentFolder As String = Nothing) As String
   overload: EasySave.Views.ConsoleExtention.ReadFile*
-  nameWithType.vb: ConsoleExtention.ReadFile(String, Regex)
-  fullName.vb: EasySave.Views.ConsoleExtention.ReadFile(String, System.Text.RegularExpressions.Regex)
-  name.vb: ReadFile(String, Regex)
+  nameWithType.vb: ConsoleExtention.ReadFile(String, Regex, String)
+  fullName.vb: EasySave.Views.ConsoleExtention.ReadFile(String, System.Text.RegularExpressions.Regex, String)
+  name.vb: ReadFile(String, Regex, String)
 references:
 - uid: EasySave.Views
   commentId: N:EasySave.Views
@@ -915,7 +917,7 @@ references:
   fullName: EasySave.Views.ConsoleExtention.ReadFolder
 - uid: EasySave.Views.ConsoleExtention.ReadFile*
   commentId: Overload:EasySave.Views.ConsoleExtention.ReadFile
-  href: EasySave.Views.ConsoleExtention.html#EasySave_Views_ConsoleExtention_ReadFile_System_String_System_Text_RegularExpressions_Regex_
+  href: EasySave.Views.ConsoleExtention.html#EasySave_Views_ConsoleExtention_ReadFile_System_String_System_Text_RegularExpressions_Regex_System_String_
   name: ReadFile
   nameWithType: ConsoleExtention.ReadFile
   fullName: EasySave.Views.ConsoleExtention.ReadFile

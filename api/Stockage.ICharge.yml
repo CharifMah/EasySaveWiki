@@ -16,10 +16,10 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/Stockage/ICharge.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: ICharge
-    path: Stockage/ICharge.cs
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/ICharge.cs
     startLine: 6
   assemblies:
   - Stockage
@@ -44,10 +44,10 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/Stockage/ICharge.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Charger
-    path: Stockage/ICharge.cs
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/ICharge.cs
     startLine: 14
   assemblies:
   - Stockage

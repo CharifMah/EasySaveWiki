@@ -309,15 +309,15 @@ references:
   isSpec: "True"
   fullName: EasySave.Views.ConsoleExtention.Clear
   nameWithType: ConsoleExtention.Clear
-- uid: EasySave.Views.ConsoleExtention.ReadFile(System.String,System.Text.RegularExpressions.Regex)
-  name: ReadFile(string, Regex)
-  href: api/EasySave.Views.ConsoleExtention.html#EasySave_Views_ConsoleExtention_ReadFile_System_String_System_Text_RegularExpressions_Regex_
-  commentId: M:EasySave.Views.ConsoleExtention.ReadFile(System.String,System.Text.RegularExpressions.Regex)
-  name.vb: ReadFile(String, Regex)
-  fullName: EasySave.Views.ConsoleExtention.ReadFile(string, System.Text.RegularExpressions.Regex)
-  fullName.vb: EasySave.Views.ConsoleExtention.ReadFile(String, System.Text.RegularExpressions.Regex)
-  nameWithType: ConsoleExtention.ReadFile(string, Regex)
-  nameWithType.vb: ConsoleExtention.ReadFile(String, Regex)
+- uid: EasySave.Views.ConsoleExtention.ReadFile(System.String,System.Text.RegularExpressions.Regex,System.String)
+  name: ReadFile(string, Regex, string)
+  href: api/EasySave.Views.ConsoleExtention.html#EasySave_Views_ConsoleExtention_ReadFile_System_String_System_Text_RegularExpressions_Regex_System_String_
+  commentId: M:EasySave.Views.ConsoleExtention.ReadFile(System.String,System.Text.RegularExpressions.Regex,System.String)
+  name.vb: ReadFile(String, Regex, String)
+  fullName: EasySave.Views.ConsoleExtention.ReadFile(string, System.Text.RegularExpressions.Regex, string)
+  fullName.vb: EasySave.Views.ConsoleExtention.ReadFile(String, System.Text.RegularExpressions.Regex, String)
+  nameWithType: ConsoleExtention.ReadFile(string, Regex, string)
+  nameWithType.vb: ConsoleExtention.ReadFile(String, Regex, String)
 - uid: EasySave.Views.ConsoleExtention.ReadFile*
   name: ReadFile
   href: api/EasySave.Views.ConsoleExtention.html#EasySave_Views_ConsoleExtention_ReadFile_
@@ -952,15 +952,15 @@ references:
   commentId: T:Models.Backup.CJobManager
   fullName: Models.Backup.CJobManager
   nameWithType: CJobManager
-- uid: Models.Backup.CJobManager.#ctor
-  name: CJobManager()
-  href: api/Models.Backup.CJobManager.html#Models_Backup_CJobManager__ctor
-  commentId: M:Models.Backup.CJobManager.#ctor
-  name.vb: New()
-  fullName: Models.Backup.CJobManager.CJobManager()
-  fullName.vb: Models.Backup.CJobManager.New()
-  nameWithType: CJobManager.CJobManager()
-  nameWithType.vb: CJobManager.New()
+- uid: Models.Backup.CJobManager.#ctor(System.String)
+  name: CJobManager(string)
+  href: api/Models.Backup.CJobManager.html#Models_Backup_CJobManager__ctor_System_String_
+  commentId: M:Models.Backup.CJobManager.#ctor(System.String)
+  name.vb: New(String)
+  fullName: Models.Backup.CJobManager.CJobManager(string)
+  fullName.vb: Models.Backup.CJobManager.New(String)
+  nameWithType: CJobManager.CJobManager(string)
+  nameWithType.vb: CJobManager.New(String)
 - uid: Models.Backup.CJobManager.#ctor*
   name: CJobManager
   href: api/Models.Backup.CJobManager.html#Models_Backup_CJobManager__ctor_
@@ -1140,6 +1140,19 @@ references:
   isSpec: "True"
   fullName: Models.CLangue.Languages
   nameWithType: CLangue.Languages
+- uid: Models.CLangue.SelectedCulture
+  name: SelectedCulture
+  href: api/Models.CLangue.html#Models_CLangue_SelectedCulture
+  commentId: P:Models.CLangue.SelectedCulture
+  fullName: Models.CLangue.SelectedCulture
+  nameWithType: CLangue.SelectedCulture
+- uid: Models.CLangue.SelectedCulture*
+  name: SelectedCulture
+  href: api/Models.CLangue.html#Models_CLangue_SelectedCulture_
+  commentId: Overload:Models.CLangue.SelectedCulture
+  isSpec: "True"
+  fullName: Models.CLangue.SelectedCulture
+  nameWithType: CLangue.SelectedCulture
 - uid: Models.CLangue.SetLanguage(System.String)
   name: SetLanguage(string)
   href: api/Models.CLangue.html#Models_CLangue_SetLanguage_System_String_
@@ -1156,6 +1169,93 @@ references:
   isSpec: "True"
   fullName: Models.CLangue.SetLanguage
   nameWithType: CLangue.SetLanguage
+- uid: Models.Settings
+  name: Settings
+  href: api/Models.Settings.html
+  commentId: T:Models.Settings
+  fullName: Models.Settings
+  nameWithType: Settings
+- uid: Models.Settings.Finalize
+  name: ~Settings()
+  href: api/Models.Settings.html#Models_Settings_Finalize
+  commentId: M:Models.Settings.Finalize
+  name.vb: ''
+  fullName: Models.Settings.~Settings()
+  fullName.vb: ''
+  nameWithType: Settings.~Settings()
+  nameWithType.vb: ''
+- uid: Models.Settings.Finalize*
+  name: ~Settings
+  href: api/Models.Settings.html#Models_Settings_Finalize_
+  commentId: Overload:Models.Settings.Finalize
+  isSpec: "True"
+  fullName: Models.Settings.~Settings
+  nameWithType: Settings.~Settings
+- uid: Models.Settings.Instance
+  name: Instance
+  href: api/Models.Settings.html#Models_Settings_Instance
+  commentId: P:Models.Settings.Instance
+  fullName: Models.Settings.Instance
+  nameWithType: Settings.Instance
+- uid: Models.Settings.Instance*
+  name: Instance
+  href: api/Models.Settings.html#Models_Settings_Instance_
+  commentId: Overload:Models.Settings.Instance
+  isSpec: "True"
+  fullName: Models.Settings.Instance
+  nameWithType: Settings.Instance
+- uid: Models.Settings.JobConfigPath
+  name: JobConfigPath
+  href: api/Models.Settings.html#Models_Settings_JobConfigPath
+  commentId: P:Models.Settings.JobConfigPath
+  fullName: Models.Settings.JobConfigPath
+  nameWithType: Settings.JobConfigPath
+- uid: Models.Settings.JobConfigPath*
+  name: JobConfigPath
+  href: api/Models.Settings.html#Models_Settings_JobConfigPath_
+  commentId: Overload:Models.Settings.JobConfigPath
+  isSpec: "True"
+  fullName: Models.Settings.JobConfigPath
+  nameWithType: Settings.JobConfigPath
+- uid: Models.Settings.Langue
+  name: Langue
+  href: api/Models.Settings.html#Models_Settings_Langue
+  commentId: P:Models.Settings.Langue
+  fullName: Models.Settings.Langue
+  nameWithType: Settings.Langue
+- uid: Models.Settings.Langue*
+  name: Langue
+  href: api/Models.Settings.html#Models_Settings_Langue_
+  commentId: Overload:Models.Settings.Langue
+  isSpec: "True"
+  fullName: Models.Settings.Langue
+  nameWithType: Settings.Langue
+- uid: Models.Settings.LoadSettings
+  name: LoadSettings()
+  href: api/Models.Settings.html#Models_Settings_LoadSettings
+  commentId: M:Models.Settings.LoadSettings
+  fullName: Models.Settings.LoadSettings()
+  nameWithType: Settings.LoadSettings()
+- uid: Models.Settings.LoadSettings*
+  name: LoadSettings
+  href: api/Models.Settings.html#Models_Settings_LoadSettings_
+  commentId: Overload:Models.Settings.LoadSettings
+  isSpec: "True"
+  fullName: Models.Settings.LoadSettings
+  nameWithType: Settings.LoadSettings
+- uid: Models.Settings.SaveSettings
+  name: SaveSettings()
+  href: api/Models.Settings.html#Models_Settings_SaveSettings
+  commentId: M:Models.Settings.SaveSettings
+  fullName: Models.Settings.SaveSettings()
+  nameWithType: Settings.SaveSettings()
+- uid: Models.Settings.SaveSettings*
+  name: SaveSettings
+  href: api/Models.Settings.html#Models_Settings_SaveSettings_
+  commentId: Overload:Models.Settings.SaveSettings
+  isSpec: "True"
+  fullName: Models.Settings.SaveSettings
+  nameWithType: Settings.SaveSettings
 - uid: Stockage
   name: Stockage
   href: api/Stockage.html
@@ -1260,6 +1360,25 @@ references:
   commentId: T:Stockage.ChargerCollection
   fullName: Stockage.ChargerCollection
   nameWithType: ChargerCollection
+- uid: Stockage.ChargerCollection.#ctor(System.String)
+  name: ChargerCollection(string)
+  href: api/Stockage.ChargerCollection.html#Stockage_ChargerCollection__ctor_System_String_
+  commentId: M:Stockage.ChargerCollection.#ctor(System.String)
+  name.vb: New(String)
+  fullName: Stockage.ChargerCollection.ChargerCollection(string)
+  fullName.vb: Stockage.ChargerCollection.New(String)
+  nameWithType: ChargerCollection.ChargerCollection(string)
+  nameWithType.vb: ChargerCollection.New(String)
+- uid: Stockage.ChargerCollection.#ctor*
+  name: ChargerCollection
+  href: api/Stockage.ChargerCollection.html#Stockage_ChargerCollection__ctor_
+  commentId: Overload:Stockage.ChargerCollection.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Stockage.ChargerCollection.ChargerCollection
+  fullName.vb: Stockage.ChargerCollection.New
+  nameWithType: ChargerCollection.ChargerCollection
+  nameWithType.vb: ChargerCollection.New
 - uid: Stockage.ChargerCollection.Charger*
   name: Charger
   href: api/Stockage.ChargerCollection.html#Stockage_ChargerCollection_Charger_

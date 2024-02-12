@@ -3,7 +3,7 @@
     {
       "src": [
         {
-          "src": "../.",
+          "src": "../G4-FISA-24/EasySave-G4-FISA-24",
           "files": [
             "**/*.csproj"
           ]

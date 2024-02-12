@@ -1,42 +1,45 @@
 ### YamlMime:ManagedReference
 items:
-- uid: EasySave.ViewModels.BaseViewModel
-  commentId: T:EasySave.ViewModels.BaseViewModel
-  id: BaseViewModel
-  parent: EasySave.ViewModels
+- uid: Models.Settings
+  commentId: T:Models.Settings
+  id: Settings
+  parent: Models
   children:
-  - EasySave.ViewModels.BaseViewModel.NotifyPropertyChanged(System.String)
-  - EasySave.ViewModels.BaseViewModel.PropertyChanged
+  - Models.Settings.Finalize
+  - Models.Settings.Instance
+  - Models.Settings.JobConfigPath
+  - Models.Settings.Langue
+  - Models.Settings.LoadSettings
+  - Models.Settings.SaveSettings
   langs:
   - csharp
   - vb
-  name: BaseViewModel
-  nameWithType: BaseViewModel
-  fullName: EasySave.ViewModels.BaseViewModel
+  name: Settings
+  nameWithType: Settings
+  fullName: Models.Settings
   type: Class
   source:
     remote:
-      path: EasySave-G4-FISA-24/EasySave/ViewModels/BaseViewModel.cs
+      path: EasySave-G4-FISA-24/Models/Settings.cs
       branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
-    id: BaseViewModel
-    path: ../G4-FISA-24/EasySave-G4-FISA-24/EasySave/ViewModels/BaseViewModel.cs
-    startLine: 7
+    id: Settings
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Settings.cs
+    startLine: 5
   assemblies:
-  - EasySave
-  namespace: EasySave.ViewModels
-  summary: Classe abstraite BaseViewModel
-  example: []
+  - Models
+  namespace: Models
   syntax:
-    content: 'public abstract class BaseViewModel : INotifyPropertyChanged'
-    content.vb: Public MustInherit Class BaseViewModel Implements INotifyPropertyChanged
+    content: >-
+      [DataContract]
+
+      public class Settings
+    content.vb: >-
+      <DataContract>
+
+      Public Class Settings
   inheritance:
   - System.Object
-  derivedClasses:
-  - EasySave.ViewModels.JobViewModel
-  - EasySave.ViewModels.LangueViewModel
-  implements:
-  - System.ComponentModel.INotifyPropertyChanged
   inheritedMembers:
   - System.Object.Equals(System.Object)
   - System.Object.Equals(System.Object,System.Object)
@@ -45,95 +48,189 @@ items:
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.ToString
-- uid: EasySave.ViewModels.BaseViewModel.PropertyChanged
-  commentId: E:EasySave.ViewModels.BaseViewModel.PropertyChanged
-  id: PropertyChanged
-  parent: EasySave.ViewModels.BaseViewModel
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+- uid: Models.Settings.Langue
+  commentId: P:Models.Settings.Langue
+  id: Langue
+  parent: Models.Settings
   langs:
   - csharp
   - vb
-  name: PropertyChanged
-  nameWithType: BaseViewModel.PropertyChanged
-  fullName: EasySave.ViewModels.BaseViewModel.PropertyChanged
-  type: Event
+  name: Langue
+  nameWithType: Settings.Langue
+  fullName: Models.Settings.Langue
+  type: Property
   source:
     remote:
-      path: EasySave-G4-FISA-24/EasySave/ViewModels/BaseViewModel.cs
+      path: EasySave-G4-FISA-24/Models/Settings.cs
       branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
-    id: PropertyChanged
-    path: ../G4-FISA-24/EasySave-G4-FISA-24/EasySave/ViewModels/BaseViewModel.cs
-    startLine: 10
+    id: Langue
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Settings.cs
+    startLine: 18
   assemblies:
-  - EasySave
-  namespace: EasySave.ViewModels
-  summary: Evénement de modification d'une property
-  example: []
+  - Models
+  namespace: Models
   syntax:
-    content: public event PropertyChangedEventHandler PropertyChanged
+    content: public CLangue Langue { get; set; }
+    parameters: []
     return:
-      type: System.ComponentModel.PropertyChangedEventHandler
-    content.vb: Public Event PropertyChanged As PropertyChangedEventHandler
-  implements:
-  - System.ComponentModel.INotifyPropertyChanged.PropertyChanged
-- uid: EasySave.ViewModels.BaseViewModel.NotifyPropertyChanged(System.String)
-  commentId: M:EasySave.ViewModels.BaseViewModel.NotifyPropertyChanged(System.String)
-  id: NotifyPropertyChanged(System.String)
-  parent: EasySave.ViewModels.BaseViewModel
+      type: Models.CLangue
+    content.vb: Public Property Langue As CLangue
+  overload: Models.Settings.Langue*
+- uid: Models.Settings.JobConfigPath
+  commentId: P:Models.Settings.JobConfigPath
+  id: JobConfigPath
+  parent: Models.Settings
   langs:
   - csharp
   - vb
-  name: NotifyPropertyChanged(string)
-  nameWithType: BaseViewModel.NotifyPropertyChanged(string)
-  fullName: EasySave.ViewModels.BaseViewModel.NotifyPropertyChanged(string)
+  name: JobConfigPath
+  nameWithType: Settings.JobConfigPath
+  fullName: Models.Settings.JobConfigPath
+  type: Property
+  source:
+    remote:
+      path: EasySave-G4-FISA-24/Models/Settings.cs
+      branch: develop-livrable-1
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: JobConfigPath
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Settings.cs
+    startLine: 19
+  assemblies:
+  - Models
+  namespace: Models
+  syntax:
+    content: public string JobConfigPath { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property JobConfigPath As String
+  overload: Models.Settings.JobConfigPath*
+- uid: Models.Settings.Instance
+  commentId: P:Models.Settings.Instance
+  id: Instance
+  parent: Models.Settings
+  langs:
+  - csharp
+  - vb
+  name: Instance
+  nameWithType: Settings.Instance
+  fullName: Models.Settings.Instance
+  type: Property
+  source:
+    remote:
+      path: EasySave-G4-FISA-24/Models/Settings.cs
+      branch: develop-livrable-1
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: Instance
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Settings.cs
+    startLine: 22
+  assemblies:
+  - Models
+  namespace: Models
+  syntax:
+    content: public static Settings Instance { get; }
+    parameters: []
+    return:
+      type: Models.Settings
+    content.vb: Public Shared ReadOnly Property Instance As Settings
+  overload: Models.Settings.Instance*
+- uid: Models.Settings.Finalize
+  commentId: M:Models.Settings.Finalize
+  id: Finalize
+  parent: Models.Settings
+  langs:
+  - csharp
+  - vb
+  name: ~Settings()
+  nameWithType: Settings.~Settings()
+  fullName: Models.Settings.~Settings()
   type: Method
   source:
     remote:
-      path: EasySave-G4-FISA-24/EasySave/ViewModels/BaseViewModel.cs
+      path: EasySave-G4-FISA-24/Models/Settings.cs
       branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
-    id: NotifyPropertyChanged
-    path: ../G4-FISA-24/EasySave-G4-FISA-24/EasySave/ViewModels/BaseViewModel.cs
-    startLine: 13
+    id: Finalize
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Settings.cs
+    startLine: 37
   assemblies:
-  - EasySave
-  namespace: EasySave.ViewModels
-  summary: Méthode à appler pour avertir d'une modification
+  - Models
+  namespace: Models
+  syntax:
+    content: protected ~Settings()
+    content.vb: 'Protected '
+  overload: Models.Settings.Finalize*
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: Models.Settings.SaveSettings
+  commentId: M:Models.Settings.SaveSettings
+  id: SaveSettings
+  parent: Models.Settings
+  langs:
+  - csharp
+  - vb
+  name: SaveSettings()
+  nameWithType: Settings.SaveSettings()
+  fullName: Models.Settings.SaveSettings()
+  type: Method
+  source:
+    remote:
+      path: EasySave-G4-FISA-24/Models/Settings.cs
+      branch: develop-livrable-1
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: SaveSettings
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Settings.cs
+    startLine: 49
+  assemblies:
+  - Models
+  namespace: Models
+  summary: Save Settings in a json file
   example: []
   syntax:
-    content: protected void NotifyPropertyChanged(string propertyName = "")
-    parameters:
-    - id: propertyName
-      type: System.String
-      description: Nom de la property modifiée (authomatiquement déterminé si appelé directement dans le setter une property)
-    content.vb: Protected Sub NotifyPropertyChanged(propertyName As String = "")
-  overload: EasySave.ViewModels.BaseViewModel.NotifyPropertyChanged*
-  nameWithType.vb: BaseViewModel.NotifyPropertyChanged(String)
-  fullName.vb: EasySave.ViewModels.BaseViewModel.NotifyPropertyChanged(String)
-  name.vb: NotifyPropertyChanged(String)
+    content: public void SaveSettings()
+    content.vb: Public Sub SaveSettings()
+  overload: Models.Settings.SaveSettings*
+- uid: Models.Settings.LoadSettings
+  commentId: M:Models.Settings.LoadSettings
+  id: LoadSettings
+  parent: Models.Settings
+  langs:
+  - csharp
+  - vb
+  name: LoadSettings()
+  nameWithType: Settings.LoadSettings()
+  fullName: Models.Settings.LoadSettings()
+  type: Method
+  source:
+    remote:
+      path: EasySave-G4-FISA-24/Models/Settings.cs
+      branch: develop-livrable-1
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: LoadSettings
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Settings.cs
+    startLine: 58
+  assemblies:
+  - Models
+  namespace: Models
+  summary: Load Settigns from json file
+  example: []
+  syntax:
+    content: public void LoadSettings()
+    content.vb: Public Sub LoadSettings()
+  overload: Models.Settings.LoadSettings*
 references:
-- uid: EasySave.ViewModels
-  commentId: N:EasySave.ViewModels
-  href: EasySave.html
-  name: EasySave.ViewModels
-  nameWithType: EasySave.ViewModels
-  fullName: EasySave.ViewModels
-  spec.csharp:
-  - uid: EasySave
-    name: EasySave
-    href: EasySave.html
-  - name: .
-  - uid: EasySave.ViewModels
-    name: ViewModels
-    href: EasySave.ViewModels.html
-  spec.vb:
-  - uid: EasySave
-    name: EasySave
-    href: EasySave.html
-  - name: .
-  - uid: EasySave.ViewModels
-    name: ViewModels
-    href: EasySave.ViewModels.html
+- uid: Models
+  commentId: N:Models
+  href: Models.html
+  name: Models
+  nameWithType: Models
+  fullName: Models
 - uid: System.Object
   commentId: T:System.Object
   parent: System
@@ -145,14 +242,6 @@ references:
   nameWithType.vb: Object
   fullName.vb: Object
   name.vb: Object
-- uid: System.ComponentModel.INotifyPropertyChanged
-  commentId: T:System.ComponentModel.INotifyPropertyChanged
-  parent: System.ComponentModel
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged
-  name: INotifyPropertyChanged
-  nameWithType: INotifyPropertyChanged
-  fullName: System.ComponentModel.INotifyPropertyChanged
 - uid: System.Object.Equals(System.Object)
   commentId: M:System.Object.Equals(System.Object)
   parent: System.Object
@@ -379,55 +468,25 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: System.ComponentModel
-  commentId: N:System.ComponentModel
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.ComponentModel
-  nameWithType: System.ComponentModel
-  fullName: System.ComponentModel
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.ComponentModel
-    name: ComponentModel
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.ComponentModel
-    name: ComponentModel
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
-- uid: System.ComponentModel.INotifyPropertyChanged.PropertyChanged
-  commentId: E:System.ComponentModel.INotifyPropertyChanged.PropertyChanged
-  parent: System.ComponentModel.INotifyPropertyChanged
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged.propertychanged
-  name: PropertyChanged
-  nameWithType: INotifyPropertyChanged.PropertyChanged
-  fullName: System.ComponentModel.INotifyPropertyChanged.PropertyChanged
-- uid: System.ComponentModel.PropertyChangedEventHandler
-  commentId: T:System.ComponentModel.PropertyChangedEventHandler
-  parent: System.ComponentModel
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventhandler
-  name: PropertyChangedEventHandler
-  nameWithType: PropertyChangedEventHandler
-  fullName: System.ComponentModel.PropertyChangedEventHandler
-- uid: EasySave.ViewModels.BaseViewModel.NotifyPropertyChanged*
-  commentId: Overload:EasySave.ViewModels.BaseViewModel.NotifyPropertyChanged
-  href: EasySave.ViewModels.BaseViewModel.html#EasySave_ViewModels_BaseViewModel_NotifyPropertyChanged_System_String_
-  name: NotifyPropertyChanged
-  nameWithType: BaseViewModel.NotifyPropertyChanged
-  fullName: EasySave.ViewModels.BaseViewModel.NotifyPropertyChanged
+- uid: Models.Settings.Langue*
+  commentId: Overload:Models.Settings.Langue
+  href: Models.Settings.html#Models_Settings_Langue
+  name: Langue
+  nameWithType: Settings.Langue
+  fullName: Models.Settings.Langue
+- uid: Models.CLangue
+  commentId: T:Models.CLangue
+  parent: Models
+  href: Models.CLangue.html
+  name: CLangue
+  nameWithType: CLangue
+  fullName: Models.CLangue
+- uid: Models.Settings.JobConfigPath*
+  commentId: Overload:Models.Settings.JobConfigPath
+  href: Models.Settings.html#Models_Settings_JobConfigPath
+  name: JobConfigPath
+  nameWithType: Settings.JobConfigPath
+  fullName: Models.Settings.JobConfigPath
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -439,3 +498,39 @@ references:
   nameWithType.vb: String
   fullName.vb: String
   name.vb: String
+- uid: Models.Settings.Instance*
+  commentId: Overload:Models.Settings.Instance
+  href: Models.Settings.html#Models_Settings_Instance
+  name: Instance
+  nameWithType: Settings.Instance
+  fullName: Models.Settings.Instance
+- uid: Models.Settings
+  commentId: T:Models.Settings
+  parent: Models
+  href: Models.Settings.html
+  name: Settings
+  nameWithType: Settings
+  fullName: Models.Settings
+- uid: Models.Settings.Finalize*
+  commentId: Overload:Models.Settings.Finalize
+  href: Models.Settings.html#Models_Settings_Finalize
+  name: ~Settings
+  nameWithType: Settings.~Settings
+  fullName: Models.Settings.~Settings
+  spec.csharp:
+  - name: "~"
+  - uid: Models.Settings.Finalize*
+    name: Settings
+    href: Models.Settings.html#Models_Settings_Finalize
+- uid: Models.Settings.SaveSettings*
+  commentId: Overload:Models.Settings.SaveSettings
+  href: Models.Settings.html#Models_Settings_SaveSettings
+  name: SaveSettings
+  nameWithType: Settings.SaveSettings
+  fullName: Models.Settings.SaveSettings
+- uid: Models.Settings.LoadSettings*
+  commentId: Overload:Models.Settings.LoadSettings
+  href: Models.Settings.html#Models_Settings_LoadSettings
+  name: LoadSettings
+  nameWithType: Settings.LoadSettings
+  fullName: Models.Settings.LoadSettings

@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class BaseView | EasySaveWiki </title>
+      <title>Class Settings | EasySaveWiki </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class BaseView | EasySaveWiki ">
+      <meta name="title" content="Class Settings | EasySaveWiki ">
       
       
       <link rel="icon" href="../favicon.ico">
@@ -84,24 +84,25 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="EasySave.Views.BaseView">
+        <article data-uid="Models.Settings">
 
 
 
-  <h1 id="EasySave_Views_BaseView" data-uid="EasySave.Views.BaseView" class="text-break">
-Class BaseView  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-G4-FISA-24/EasySave/Views/BaseView.cs&amp;version=GBdevelop-livrable-1&amp;line=3"><i class="bi bi-code-slash"></i></a>
+  <h1 id="Models_Settings" data-uid="Models.Settings" class="text-break">
+Class Settings  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-G4-FISA-24/Models/Settings.cs&amp;version=GBdevelop-livrable-1&amp;line=6"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="EasySave.html">EasySave</a>.<a class="xref" href="EasySave.Views.html">Views</a></dd></dl>
-  <dl><dt>Assembly</dt><dd>EasySave.dll</dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Models.html">Models</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Models.dll</dd></dl>
   </div>
 
   <div class="markdown summary"></div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class BaseView</code></pre>
+    <pre><code class="lang-csharp hljs">[DataContract]
+public class Settings</code></pre>
   </div>
 
 
@@ -111,18 +112,11 @@ Class BaseView  <a class="header-action link-secondary" title="View source" href
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">BaseView</span></div>
+      <div><span class="xref">Settings</span></div>
     </dd>
   </dl>
 
 
-  <dl class="typelist derived">
-    <dt>Derived</dt>
-    <dd>
-      <div><a class="xref" href="EasySave.Views.LangueView.html">LangueView</a></div>
-      <div><a class="xref" href="EasySave.Views.View.html">View</a></div>
-    </dd>
-  </dl>
 
   <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
@@ -159,18 +153,49 @@ Class BaseView  <a class="header-action link-secondary" title="View source" href
 </h2>
 
 
-  <a id="EasySave_Views_BaseView_Title_" data-uid="EasySave.Views.BaseView.Title*"></a>
+  <a id="Models_Settings_Instance_" data-uid="Models.Settings.Instance*"></a>
 
-  <h3 id="EasySave_Views_BaseView_Title" data-uid="EasySave.Views.BaseView.Title">
-  Title
-  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-G4-FISA-24/EasySave/Views/BaseView.cs&amp;version=GBdevelop-livrable-1&amp;line=5"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Models_Settings_Instance" data-uid="Models.Settings.Instance">
+  Instance
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-G4-FISA-24/Models/Settings.cs&amp;version=GBdevelop-livrable-1&amp;line=23"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract string Title { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static Settings Instance { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Models.Settings.html">Settings</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Models_Settings_JobConfigPath_" data-uid="Models.Settings.JobConfigPath*"></a>
+
+  <h3 id="Models_Settings_JobConfigPath" data-uid="Models.Settings.JobConfigPath">
+  JobConfigPath
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-G4-FISA-24/Models/Settings.cs&amp;version=GBdevelop-livrable-1&amp;line=20"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string JobConfigPath { get; set; }</code></pre>
   </div>
 
 
@@ -190,23 +215,107 @@ Class BaseView  <a class="header-action link-secondary" title="View source" href
 
 
 
+  <a id="Models_Settings_Langue_" data-uid="Models.Settings.Langue*"></a>
+
+  <h3 id="Models_Settings_Langue" data-uid="Models.Settings.Langue">
+  Langue
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-G4-FISA-24/Models/Settings.cs&amp;version=GBdevelop-livrable-1&amp;line=19"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CLangue Langue { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Models.CLangue.html">CLangue</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <h2 class="section" id="methods">Methods
 </h2>
 
 
-  <a id="EasySave_Views_BaseView_Run_" data-uid="EasySave.Views.BaseView.Run*"></a>
+  <a id="Models_Settings_Finalize_" data-uid="Models.Settings.Finalize*"></a>
 
-  <h3 id="EasySave_Views_BaseView_Run" data-uid="EasySave.Views.BaseView.Run">
-  Run()
-  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-G4-FISA-24/EasySave/Views/BaseView.cs&amp;version=GBdevelop-livrable-1&amp;line=9"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Models_Settings_Finalize" data-uid="Models.Settings.Finalize">
+  ~Settings()
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-G4-FISA-24/Models/Settings.cs&amp;version=GBdevelop-livrable-1&amp;line=38"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Lance le deroulement de la vue dans l'interface de maniere procedurale</p>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected ~Settings()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Models_Settings_LoadSettings_" data-uid="Models.Settings.LoadSettings*"></a>
+
+  <h3 id="Models_Settings_LoadSettings" data-uid="Models.Settings.LoadSettings">
+  LoadSettings()
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-G4-FISA-24/Models/Settings.cs&amp;version=GBdevelop-livrable-1&amp;line=59"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Load Settigns from json file</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract void Run()</code></pre>
+    <pre><code class="lang-csharp hljs">public void LoadSettings()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Models_Settings_SaveSettings_" data-uid="Models.Settings.SaveSettings*"></a>
+
+  <h3 id="Models_Settings_SaveSettings" data-uid="Models.Settings.SaveSettings">
+  SaveSettings()
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-G4-FISA-24/Models/Settings.cs&amp;version=GBdevelop-livrable-1&amp;line=50"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Save Settings in a json file</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SaveSettings()</code></pre>
   </div>
 
 
@@ -225,7 +334,7 @@ Class BaseView  <a class="header-action link-secondary" title="View source" href
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-G4-FISA-24/EasySave/Views/BaseView.cs&amp;version=GBdevelop-livrable-1&amp;line=3" class="edit-link">Edit this page</a>
+          <a href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-G4-FISA-24/Models/Settings.cs&amp;version=GBdevelop-livrable-1&amp;line=6" class="edit-link">Edit this page</a>
         </div>
 
 

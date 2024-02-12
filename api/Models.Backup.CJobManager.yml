@@ -5,7 +5,7 @@ items:
   id: CJobManager
   parent: Models.Backup
   children:
-  - Models.Backup.CJobManager.#ctor
+  - Models.Backup.CJobManager.#ctor(System.String)
   - Models.Backup.CJobManager.CreateBackupJob(Models.Backup.CJob)
   - Models.Backup.CJobManager.DeleteJobs(System.Collections.Generic.List{Models.Backup.CJob})
   - Models.Backup.CJobManager.Jobs
@@ -24,10 +24,10 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/Models/Backup/CJobManager.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: CJobManager
-    path: Models/Backup/CJobManager.cs
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Backup/CJobManager.cs
     startLine: 4
   assemblies:
   - Models
@@ -69,11 +69,11 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/Models/Backup/CJobManager.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Jobs
-    path: Models/Backup/CJobManager.cs
-    startLine: 17
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Backup/CJobManager.cs
+    startLine: 19
   assemblies:
   - Models
   namespace: Models.Backup
@@ -98,11 +98,11 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/Models/Backup/CJobManager.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Name
-    path: Models/Backup/CJobManager.cs
-    startLine: 18
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Backup/CJobManager.cs
+    startLine: 20
   assemblies:
   - Models
   namespace: Models.Backup
@@ -127,11 +127,11 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/Models/Backup/CJobManager.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: SauveCollection
-    path: Models/Backup/CJobManager.cs
-    startLine: 19
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Backup/CJobManager.cs
+    startLine: 21
   assemblies:
   - Models
   namespace: Models.Backup
@@ -142,37 +142,40 @@ items:
       type: Stockage.ISauve
     content.vb: Public Property SauveCollection As ISauve
   overload: Models.Backup.CJobManager.SauveCollection*
-- uid: Models.Backup.CJobManager.#ctor
-  commentId: M:Models.Backup.CJobManager.#ctor
-  id: '#ctor'
+- uid: Models.Backup.CJobManager.#ctor(System.String)
+  commentId: M:Models.Backup.CJobManager.#ctor(System.String)
+  id: '#ctor(System.String)'
   parent: Models.Backup.CJobManager
   langs:
   - csharp
   - vb
-  name: CJobManager()
-  nameWithType: CJobManager.CJobManager()
-  fullName: Models.Backup.CJobManager.CJobManager()
+  name: CJobManager(string)
+  nameWithType: CJobManager.CJobManager(string)
+  fullName: Models.Backup.CJobManager.CJobManager(string)
   type: Constructor
   source:
     remote:
       path: EasySave-G4-FISA-24/Models/Backup/CJobManager.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: .ctor
-    path: Models/Backup/CJobManager.cs
-    startLine: 25
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Backup/CJobManager.cs
+    startLine: 28
   assemblies:
   - Models
   namespace: Models.Backup
   summary: Contructeur de CJobManager initialise le chemin de sauvegarde
   example: []
   syntax:
-    content: public CJobManager()
-    content.vb: Public Sub New()
+    content: public CJobManager(string pConfigPath = "")
+    parameters:
+    - id: pConfigPath
+      type: System.String
+    content.vb: Public Sub New(pConfigPath As String = "")
   overload: Models.Backup.CJobManager.#ctor*
-  nameWithType.vb: CJobManager.New()
-  fullName.vb: Models.Backup.CJobManager.New()
-  name.vb: New()
+  nameWithType.vb: CJobManager.New(String)
+  fullName.vb: Models.Backup.CJobManager.New(String)
+  name.vb: New(String)
 - uid: Models.Backup.CJobManager.CreateBackupJob(Models.Backup.CJob)
   commentId: M:Models.Backup.CJobManager.CreateBackupJob(Models.Backup.CJob)
   id: CreateBackupJob(Models.Backup.CJob)
@@ -187,11 +190,11 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/Models/Backup/CJobManager.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: CreateBackupJob
-    path: Models/Backup/CJobManager.cs
-    startLine: 43
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Backup/CJobManager.cs
+    startLine: 51
   assemblies:
   - Models
   namespace: Models.Backup
@@ -222,11 +225,11 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/Models/Backup/CJobManager.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: DeleteJobs
-    path: Models/Backup/CJobManager.cs
-    startLine: 59
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Backup/CJobManager.cs
+    startLine: 67
   assemblies:
   - Models
   namespace: Models.Backup
@@ -260,11 +263,11 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/Models/Backup/CJobManager.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: RunJobs
-    path: Models/Backup/CJobManager.cs
-    startLine: 71
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Backup/CJobManager.cs
+    startLine: 79
   assemblies:
   - Models
   namespace: Models.Backup
@@ -296,11 +299,11 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/Models/Backup/CJobManager.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: SaveJobs
-    path: Models/Backup/CJobManager.cs
-    startLine: 86
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Backup/CJobManager.cs
+    startLine: 94
   assemblies:
   - Models
   namespace: Models.Backup
@@ -324,11 +327,11 @@ items:
   source:
     remote:
       path: EasySave-G4-FISA-24/Models/Backup/CJobManager.cs
-      branch: issue/37-update-delete-jobs
+      branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: LoadJobs
-    path: Models/Backup/CJobManager.cs
-    startLine: 95
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Backup/CJobManager.cs
+    startLine: 104
   assemblies:
   - Models
   namespace: Models.Backup
@@ -750,7 +753,7 @@ references:
   fullName: Stockage
 - uid: Models.Backup.CJobManager.#ctor*
   commentId: Overload:Models.Backup.CJobManager.#ctor
-  href: Models.Backup.CJobManager.html#Models_Backup_CJobManager__ctor
+  href: Models.Backup.CJobManager.html#Models_Backup_CJobManager__ctor_System_String_
   name: CJobManager
   nameWithType: CJobManager.CJobManager
   fullName: Models.Backup.CJobManager.CJobManager
