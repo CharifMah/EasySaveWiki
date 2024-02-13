@@ -907,11 +907,11 @@ references:
   isSpec: "True"
   fullName: Models.Backup.CJob.Name
   nameWithType: CJob.Name
-- uid: Models.Backup.CJob.Run(Stockage.SauveJobs)
+- uid: Models.Backup.CJob.Run(Stockage.Save.SauveJobs)
   name: Run(SauveJobs)
-  href: api/Models.Backup.CJob.html#Models_Backup_CJob_Run_Stockage_SauveJobs_
-  commentId: M:Models.Backup.CJob.Run(Stockage.SauveJobs)
-  fullName: Models.Backup.CJob.Run(Stockage.SauveJobs)
+  href: api/Models.Backup.CJob.html#Models_Backup_CJob_Run_Stockage_Save_SauveJobs_
+  commentId: M:Models.Backup.CJob.Run(Stockage.Save.SauveJobs)
+  fullName: Models.Backup.CJob.Run(Stockage.Save.SauveJobs)
   nameWithType: CJob.Run(SauveJobs)
 - uid: Models.Backup.CJob.Run*
   name: Run
@@ -952,15 +952,15 @@ references:
   commentId: T:Models.Backup.CJobManager
   fullName: Models.Backup.CJobManager
   nameWithType: CJobManager
-- uid: Models.Backup.CJobManager.#ctor(System.String)
-  name: CJobManager(string)
-  href: api/Models.Backup.CJobManager.html#Models_Backup_CJobManager__ctor_System_String_
-  commentId: M:Models.Backup.CJobManager.#ctor(System.String)
-  name.vb: New(String)
-  fullName: Models.Backup.CJobManager.CJobManager(string)
-  fullName.vb: Models.Backup.CJobManager.New(String)
-  nameWithType: CJobManager.CJobManager(string)
-  nameWithType.vb: CJobManager.New(String)
+- uid: Models.Backup.CJobManager.#ctor
+  name: CJobManager()
+  href: api/Models.Backup.CJobManager.html#Models_Backup_CJobManager__ctor
+  commentId: M:Models.Backup.CJobManager.#ctor
+  name.vb: New()
+  fullName: Models.Backup.CJobManager.CJobManager()
+  fullName.vb: Models.Backup.CJobManager.New()
+  nameWithType: CJobManager.CJobManager()
+  nameWithType.vb: CJobManager.New()
 - uid: Models.Backup.CJobManager.#ctor*
   name: CJobManager
   href: api/Models.Backup.CJobManager.html#Models_Backup_CJobManager__ctor_
@@ -1013,22 +1013,6 @@ references:
   isSpec: "True"
   fullName: Models.Backup.CJobManager.Jobs
   nameWithType: CJobManager.Jobs
-- uid: Models.Backup.CJobManager.LoadJobs(System.String)
-  name: LoadJobs(string)
-  href: api/Models.Backup.CJobManager.html#Models_Backup_CJobManager_LoadJobs_System_String_
-  commentId: M:Models.Backup.CJobManager.LoadJobs(System.String)
-  name.vb: LoadJobs(String)
-  fullName: Models.Backup.CJobManager.LoadJobs(string)
-  fullName.vb: Models.Backup.CJobManager.LoadJobs(String)
-  nameWithType: CJobManager.LoadJobs(string)
-  nameWithType.vb: CJobManager.LoadJobs(String)
-- uid: Models.Backup.CJobManager.LoadJobs*
-  name: LoadJobs
-  href: api/Models.Backup.CJobManager.html#Models_Backup_CJobManager_LoadJobs_
-  commentId: Overload:Models.Backup.CJobManager.LoadJobs
-  isSpec: "True"
-  fullName: Models.Backup.CJobManager.LoadJobs
-  nameWithType: CJobManager.LoadJobs
 - uid: Models.Backup.CJobManager.Name
   name: Name
   href: api/Models.Backup.CJobManager.html#Models_Backup_CJobManager_Name
@@ -1204,19 +1188,32 @@ references:
   isSpec: "True"
   fullName: Models.Settings.Instance
   nameWithType: Settings.Instance
-- uid: Models.Settings.JobConfigPath
-  name: JobConfigPath
-  href: api/Models.Settings.html#Models_Settings_JobConfigPath
-  commentId: P:Models.Settings.JobConfigPath
-  fullName: Models.Settings.JobConfigPath
-  nameWithType: Settings.JobConfigPath
-- uid: Models.Settings.JobConfigPath*
-  name: JobConfigPath
-  href: api/Models.Settings.html#Models_Settings_JobConfigPath_
-  commentId: Overload:Models.Settings.JobConfigPath
+- uid: Models.Settings.JobConfigFolderPath
+  name: JobConfigFolderPath
+  href: api/Models.Settings.html#Models_Settings_JobConfigFolderPath
+  commentId: P:Models.Settings.JobConfigFolderPath
+  fullName: Models.Settings.JobConfigFolderPath
+  nameWithType: Settings.JobConfigFolderPath
+- uid: Models.Settings.JobConfigFolderPath*
+  name: JobConfigFolderPath
+  href: api/Models.Settings.html#Models_Settings_JobConfigFolderPath_
+  commentId: Overload:Models.Settings.JobConfigFolderPath
   isSpec: "True"
-  fullName: Models.Settings.JobConfigPath
-  nameWithType: Settings.JobConfigPath
+  fullName: Models.Settings.JobConfigFolderPath
+  nameWithType: Settings.JobConfigFolderPath
+- uid: Models.Settings.JobDefaultConfigPath
+  name: JobDefaultConfigPath
+  href: api/Models.Settings.html#Models_Settings_JobDefaultConfigPath
+  commentId: P:Models.Settings.JobDefaultConfigPath
+  fullName: Models.Settings.JobDefaultConfigPath
+  nameWithType: Settings.JobDefaultConfigPath
+- uid: Models.Settings.JobDefaultConfigPath*
+  name: JobDefaultConfigPath
+  href: api/Models.Settings.html#Models_Settings_JobDefaultConfigPath_
+  commentId: Overload:Models.Settings.JobDefaultConfigPath
+  isSpec: "True"
+  fullName: Models.Settings.JobDefaultConfigPath
+  nameWithType: Settings.JobDefaultConfigPath
 - uid: Models.Settings.Langue
   name: Langue
   href: api/Models.Settings.html#Models_Settings_Langue
@@ -1230,6 +1227,22 @@ references:
   isSpec: "True"
   fullName: Models.Settings.Langue
   nameWithType: Settings.Langue
+- uid: Models.Settings.LoadJobsFile(System.String)
+  name: LoadJobsFile(string)
+  href: api/Models.Settings.html#Models_Settings_LoadJobsFile_System_String_
+  commentId: M:Models.Settings.LoadJobsFile(System.String)
+  name.vb: LoadJobsFile(String)
+  fullName: Models.Settings.LoadJobsFile(string)
+  fullName.vb: Models.Settings.LoadJobsFile(String)
+  nameWithType: Settings.LoadJobsFile(string)
+  nameWithType.vb: Settings.LoadJobsFile(String)
+- uid: Models.Settings.LoadJobsFile*
+  name: LoadJobsFile
+  href: api/Models.Settings.html#Models_Settings_LoadJobsFile_
+  commentId: Overload:Models.Settings.LoadJobsFile
+  isSpec: "True"
+  fullName: Models.Settings.LoadJobsFile
+  nameWithType: Settings.LoadJobsFile
 - uid: Models.Settings.LoadSettings
   name: LoadSettings()
   href: api/Models.Settings.html#Models_Settings_LoadSettings
@@ -1681,6 +1694,100 @@ references:
   fullName.vb: Stockage.ISauve.Sauver(Of T)(T, String, Boolean, String)
   nameWithType: ISauve.Sauver<T>(T, string, bool, string)
   nameWithType.vb: ISauve.Sauver(Of T)(T, String, Boolean, String)
+- uid: Stockage.Load
+  name: Stockage.Load
+  href: api/Stockage.Load.html
+  commentId: N:Stockage.Load
+  fullName: Stockage.Load
+  nameWithType: Stockage.Load
+- uid: Stockage.Load.BaseCharge
+  name: BaseCharge
+  href: api/Stockage.Load.BaseCharge.html
+  commentId: T:Stockage.Load.BaseCharge
+  fullName: Stockage.Load.BaseCharge
+  nameWithType: BaseCharge
+- uid: Stockage.Load.BaseCharge.#ctor(System.String)
+  name: BaseCharge(string)
+  href: api/Stockage.Load.BaseCharge.html#Stockage_Load_BaseCharge__ctor_System_String_
+  commentId: M:Stockage.Load.BaseCharge.#ctor(System.String)
+  name.vb: New(String)
+  fullName: Stockage.Load.BaseCharge.BaseCharge(string)
+  fullName.vb: Stockage.Load.BaseCharge.New(String)
+  nameWithType: BaseCharge.BaseCharge(string)
+  nameWithType.vb: BaseCharge.New(String)
+- uid: Stockage.Load.BaseCharge.#ctor*
+  name: BaseCharge
+  href: api/Stockage.Load.BaseCharge.html#Stockage_Load_BaseCharge__ctor_
+  commentId: Overload:Stockage.Load.BaseCharge.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Stockage.Load.BaseCharge.BaseCharge
+  fullName.vb: Stockage.Load.BaseCharge.New
+  nameWithType: BaseCharge.BaseCharge
+  nameWithType.vb: BaseCharge.New
+- uid: Stockage.Load.BaseCharge.Charger*
+  name: Charger
+  href: api/Stockage.Load.BaseCharge.html#Stockage_Load_BaseCharge_Charger_
+  commentId: Overload:Stockage.Load.BaseCharge.Charger
+  isSpec: "True"
+  fullName: Stockage.Load.BaseCharge.Charger
+  nameWithType: BaseCharge.Charger
+- uid: Stockage.Load.BaseCharge.Charger``1(System.String,System.Boolean)
+  name: Charger<T>(string, bool)
+  href: api/Stockage.Load.BaseCharge.html#Stockage_Load_BaseCharge_Charger__1_System_String_System_Boolean_
+  commentId: M:Stockage.Load.BaseCharge.Charger``1(System.String,System.Boolean)
+  name.vb: Charger(Of T)(String, Boolean)
+  fullName: Stockage.Load.BaseCharge.Charger<T>(string, bool)
+  fullName.vb: Stockage.Load.BaseCharge.Charger(Of T)(String, Boolean)
+  nameWithType: BaseCharge.Charger<T>(string, bool)
+  nameWithType.vb: BaseCharge.Charger(Of T)(String, Boolean)
+- uid: Stockage.Load.ChargerCollection
+  name: ChargerCollection
+  href: api/Stockage.Load.ChargerCollection.html
+  commentId: T:Stockage.Load.ChargerCollection
+  fullName: Stockage.Load.ChargerCollection
+  nameWithType: ChargerCollection
+- uid: Stockage.Load.ChargerCollection.#ctor(System.String)
+  name: ChargerCollection(string)
+  href: api/Stockage.Load.ChargerCollection.html#Stockage_Load_ChargerCollection__ctor_System_String_
+  commentId: M:Stockage.Load.ChargerCollection.#ctor(System.String)
+  name.vb: New(String)
+  fullName: Stockage.Load.ChargerCollection.ChargerCollection(string)
+  fullName.vb: Stockage.Load.ChargerCollection.New(String)
+  nameWithType: ChargerCollection.ChargerCollection(string)
+  nameWithType.vb: ChargerCollection.New(String)
+- uid: Stockage.Load.ChargerCollection.#ctor*
+  name: ChargerCollection
+  href: api/Stockage.Load.ChargerCollection.html#Stockage_Load_ChargerCollection__ctor_
+  commentId: Overload:Stockage.Load.ChargerCollection.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Stockage.Load.ChargerCollection.ChargerCollection
+  fullName.vb: Stockage.Load.ChargerCollection.New
+  nameWithType: ChargerCollection.ChargerCollection
+  nameWithType.vb: ChargerCollection.New
+- uid: Stockage.Load.ICharge
+  name: ICharge
+  href: api/Stockage.Load.ICharge.html
+  commentId: T:Stockage.Load.ICharge
+  fullName: Stockage.Load.ICharge
+  nameWithType: ICharge
+- uid: Stockage.Load.ICharge.Charger*
+  name: Charger
+  href: api/Stockage.Load.ICharge.html#Stockage_Load_ICharge_Charger_
+  commentId: Overload:Stockage.Load.ICharge.Charger
+  isSpec: "True"
+  fullName: Stockage.Load.ICharge.Charger
+  nameWithType: ICharge.Charger
+- uid: Stockage.Load.ICharge.Charger``1(System.String,System.Boolean)
+  name: Charger<T>(string, bool)
+  href: api/Stockage.Load.ICharge.html#Stockage_Load_ICharge_Charger__1_System_String_System_Boolean_
+  commentId: M:Stockage.Load.ICharge.Charger``1(System.String,System.Boolean)
+  name.vb: Charger(Of T)(String, Boolean)
+  fullName: Stockage.Load.ICharge.Charger<T>(string, bool)
+  fullName.vb: Stockage.Load.ICharge.Charger(Of T)(String, Boolean)
+  nameWithType: ICharge.Charger<T>(string, bool)
+  nameWithType.vb: ICharge.Charger(Of T)(String, Boolean)
 - uid: Stockage.Logs
   name: Stockage.Logs
   href: api/Stockage.Logs.html
@@ -1994,6 +2101,237 @@ references:
   isSpec: "True"
   fullName: Stockage.SauveJobs.UpdateLog
   nameWithType: SauveJobs.UpdateLog
+- uid: Stockage.Save
+  name: Stockage.Save
+  href: api/Stockage.Save.html
+  commentId: N:Stockage.Save
+  fullName: Stockage.Save
+  nameWithType: Stockage.Save
+- uid: Stockage.Save.BaseSave
+  name: BaseSave
+  href: api/Stockage.Save.BaseSave.html
+  commentId: T:Stockage.Save.BaseSave
+  fullName: Stockage.Save.BaseSave
+  nameWithType: BaseSave
+- uid: Stockage.Save.BaseSave.#ctor(System.String)
+  name: BaseSave(string)
+  href: api/Stockage.Save.BaseSave.html#Stockage_Save_BaseSave__ctor_System_String_
+  commentId: M:Stockage.Save.BaseSave.#ctor(System.String)
+  name.vb: New(String)
+  fullName: Stockage.Save.BaseSave.BaseSave(string)
+  fullName.vb: Stockage.Save.BaseSave.New(String)
+  nameWithType: BaseSave.BaseSave(string)
+  nameWithType.vb: BaseSave.New(String)
+- uid: Stockage.Save.BaseSave.#ctor*
+  name: BaseSave
+  href: api/Stockage.Save.BaseSave.html#Stockage_Save_BaseSave__ctor_
+  commentId: Overload:Stockage.Save.BaseSave.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Stockage.Save.BaseSave.BaseSave
+  fullName.vb: Stockage.Save.BaseSave.New
+  nameWithType: BaseSave.BaseSave
+  nameWithType.vb: BaseSave.New
+- uid: Stockage.Save.BaseSave.CopyDirectory(System.IO.DirectoryInfo,System.IO.DirectoryInfo,System.Boolean,LogsModels.CLogState@,System.Boolean)
+  name: CopyDirectory(DirectoryInfo, DirectoryInfo, bool, ref CLogState, bool)
+  href: api/Stockage.Save.BaseSave.html#Stockage_Save_BaseSave_CopyDirectory_System_IO_DirectoryInfo_System_IO_DirectoryInfo_System_Boolean_LogsModels_CLogState__System_Boolean_
+  commentId: M:Stockage.Save.BaseSave.CopyDirectory(System.IO.DirectoryInfo,System.IO.DirectoryInfo,System.Boolean,LogsModels.CLogState@,System.Boolean)
+  name.vb: CopyDirectory(DirectoryInfo, DirectoryInfo, Boolean, CLogState, Boolean)
+  fullName: Stockage.Save.BaseSave.CopyDirectory(System.IO.DirectoryInfo, System.IO.DirectoryInfo, bool, ref LogsModels.CLogState, bool)
+  fullName.vb: Stockage.Save.BaseSave.CopyDirectory(System.IO.DirectoryInfo, System.IO.DirectoryInfo, Boolean, LogsModels.CLogState, Boolean)
+  nameWithType: BaseSave.CopyDirectory(DirectoryInfo, DirectoryInfo, bool, ref CLogState, bool)
+  nameWithType.vb: BaseSave.CopyDirectory(DirectoryInfo, DirectoryInfo, Boolean, CLogState, Boolean)
+- uid: Stockage.Save.BaseSave.CopyDirectory(System.IO.DirectoryInfo,System.IO.DirectoryInfo,System.Boolean,System.Boolean)
+  name: CopyDirectory(DirectoryInfo, DirectoryInfo, bool, bool)
+  href: api/Stockage.Save.BaseSave.html#Stockage_Save_BaseSave_CopyDirectory_System_IO_DirectoryInfo_System_IO_DirectoryInfo_System_Boolean_System_Boolean_
+  commentId: M:Stockage.Save.BaseSave.CopyDirectory(System.IO.DirectoryInfo,System.IO.DirectoryInfo,System.Boolean,System.Boolean)
+  name.vb: CopyDirectory(DirectoryInfo, DirectoryInfo, Boolean, Boolean)
+  fullName: Stockage.Save.BaseSave.CopyDirectory(System.IO.DirectoryInfo, System.IO.DirectoryInfo, bool, bool)
+  fullName.vb: Stockage.Save.BaseSave.CopyDirectory(System.IO.DirectoryInfo, System.IO.DirectoryInfo, Boolean, Boolean)
+  nameWithType: BaseSave.CopyDirectory(DirectoryInfo, DirectoryInfo, bool, bool)
+  nameWithType.vb: BaseSave.CopyDirectory(DirectoryInfo, DirectoryInfo, Boolean, Boolean)
+- uid: Stockage.Save.BaseSave.CopyDirectory*
+  name: CopyDirectory
+  href: api/Stockage.Save.BaseSave.html#Stockage_Save_BaseSave_CopyDirectory_
+  commentId: Overload:Stockage.Save.BaseSave.CopyDirectory
+  isSpec: "True"
+  fullName: Stockage.Save.BaseSave.CopyDirectory
+  nameWithType: BaseSave.CopyDirectory
+- uid: Stockage.Save.BaseSave.Options
+  name: Options
+  href: api/Stockage.Save.BaseSave.html#Stockage_Save_BaseSave_Options
+  commentId: P:Stockage.Save.BaseSave.Options
+  fullName: Stockage.Save.BaseSave.Options
+  nameWithType: BaseSave.Options
+- uid: Stockage.Save.BaseSave.Options*
+  name: Options
+  href: api/Stockage.Save.BaseSave.html#Stockage_Save_BaseSave_Options_
+  commentId: Overload:Stockage.Save.BaseSave.Options
+  isSpec: "True"
+  fullName: Stockage.Save.BaseSave.Options
+  nameWithType: BaseSave.Options
+- uid: Stockage.Save.BaseSave.Sauver*
+  name: Sauver
+  href: api/Stockage.Save.BaseSave.html#Stockage_Save_BaseSave_Sauver_
+  commentId: Overload:Stockage.Save.BaseSave.Sauver
+  isSpec: "True"
+  fullName: Stockage.Save.BaseSave.Sauver
+  nameWithType: BaseSave.Sauver
+- uid: Stockage.Save.BaseSave.Sauver``1(``0,System.String,System.Boolean,System.String,System.Boolean)
+  name: Sauver<T>(T, string, bool, string, bool)
+  href: api/Stockage.Save.BaseSave.html#Stockage_Save_BaseSave_Sauver__1___0_System_String_System_Boolean_System_String_System_Boolean_
+  commentId: M:Stockage.Save.BaseSave.Sauver``1(``0,System.String,System.Boolean,System.String,System.Boolean)
+  name.vb: Sauver(Of T)(T, String, Boolean, String, Boolean)
+  fullName: Stockage.Save.BaseSave.Sauver<T>(T, string, bool, string, bool)
+  fullName.vb: Stockage.Save.BaseSave.Sauver(Of T)(T, String, Boolean, String, Boolean)
+  nameWithType: BaseSave.Sauver<T>(T, string, bool, string, bool)
+  nameWithType.vb: BaseSave.Sauver(Of T)(T, String, Boolean, String, Boolean)
+- uid: Stockage.Save.ISauve
+  name: ISauve
+  href: api/Stockage.Save.ISauve.html
+  commentId: T:Stockage.Save.ISauve
+  fullName: Stockage.Save.ISauve
+  nameWithType: ISauve
+- uid: Stockage.Save.ISauve.CopyDirectory(System.IO.DirectoryInfo,System.IO.DirectoryInfo,System.Boolean,System.Boolean)
+  name: CopyDirectory(DirectoryInfo, DirectoryInfo, bool, bool)
+  href: api/Stockage.Save.ISauve.html#Stockage_Save_ISauve_CopyDirectory_System_IO_DirectoryInfo_System_IO_DirectoryInfo_System_Boolean_System_Boolean_
+  commentId: M:Stockage.Save.ISauve.CopyDirectory(System.IO.DirectoryInfo,System.IO.DirectoryInfo,System.Boolean,System.Boolean)
+  name.vb: CopyDirectory(DirectoryInfo, DirectoryInfo, Boolean, Boolean)
+  fullName: Stockage.Save.ISauve.CopyDirectory(System.IO.DirectoryInfo, System.IO.DirectoryInfo, bool, bool)
+  fullName.vb: Stockage.Save.ISauve.CopyDirectory(System.IO.DirectoryInfo, System.IO.DirectoryInfo, Boolean, Boolean)
+  nameWithType: ISauve.CopyDirectory(DirectoryInfo, DirectoryInfo, bool, bool)
+  nameWithType.vb: ISauve.CopyDirectory(DirectoryInfo, DirectoryInfo, Boolean, Boolean)
+- uid: Stockage.Save.ISauve.CopyDirectory*
+  name: CopyDirectory
+  href: api/Stockage.Save.ISauve.html#Stockage_Save_ISauve_CopyDirectory_
+  commentId: Overload:Stockage.Save.ISauve.CopyDirectory
+  isSpec: "True"
+  fullName: Stockage.Save.ISauve.CopyDirectory
+  nameWithType: ISauve.CopyDirectory
+- uid: Stockage.Save.ISauve.Sauver*
+  name: Sauver
+  href: api/Stockage.Save.ISauve.html#Stockage_Save_ISauve_Sauver_
+  commentId: Overload:Stockage.Save.ISauve.Sauver
+  isSpec: "True"
+  fullName: Stockage.Save.ISauve.Sauver
+  nameWithType: ISauve.Sauver
+- uid: Stockage.Save.ISauve.Sauver``1(``0,System.String,System.Boolean,System.String,System.Boolean)
+  name: Sauver<T>(T, string, bool, string, bool)
+  href: api/Stockage.Save.ISauve.html#Stockage_Save_ISauve_Sauver__1___0_System_String_System_Boolean_System_String_System_Boolean_
+  commentId: M:Stockage.Save.ISauve.Sauver``1(``0,System.String,System.Boolean,System.String,System.Boolean)
+  name.vb: Sauver(Of T)(T, String, Boolean, String, Boolean)
+  fullName: Stockage.Save.ISauve.Sauver<T>(T, string, bool, string, bool)
+  fullName.vb: Stockage.Save.ISauve.Sauver(Of T)(T, String, Boolean, String, Boolean)
+  nameWithType: ISauve.Sauver<T>(T, string, bool, string, bool)
+  nameWithType.vb: ISauve.Sauver(Of T)(T, String, Boolean, String, Boolean)
+- uid: Stockage.Save.SauveCollection
+  name: SauveCollection
+  href: api/Stockage.Save.SauveCollection.html
+  commentId: T:Stockage.Save.SauveCollection
+  fullName: Stockage.Save.SauveCollection
+  nameWithType: SauveCollection
+- uid: Stockage.Save.SauveCollection.#ctor(System.String)
+  name: SauveCollection(string)
+  href: api/Stockage.Save.SauveCollection.html#Stockage_Save_SauveCollection__ctor_System_String_
+  commentId: M:Stockage.Save.SauveCollection.#ctor(System.String)
+  name.vb: New(String)
+  fullName: Stockage.Save.SauveCollection.SauveCollection(string)
+  fullName.vb: Stockage.Save.SauveCollection.New(String)
+  nameWithType: SauveCollection.SauveCollection(string)
+  nameWithType.vb: SauveCollection.New(String)
+- uid: Stockage.Save.SauveCollection.#ctor*
+  name: SauveCollection
+  href: api/Stockage.Save.SauveCollection.html#Stockage_Save_SauveCollection__ctor_
+  commentId: Overload:Stockage.Save.SauveCollection.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Stockage.Save.SauveCollection.SauveCollection
+  fullName.vb: Stockage.Save.SauveCollection.New
+  nameWithType: SauveCollection.SauveCollection
+  nameWithType.vb: SauveCollection.New
+- uid: Stockage.Save.SauveJobs
+  name: SauveJobs
+  href: api/Stockage.Save.SauveJobs.html
+  commentId: T:Stockage.Save.SauveJobs
+  fullName: Stockage.Save.SauveJobs
+  nameWithType: SauveJobs
+- uid: Stockage.Save.SauveJobs.#ctor(System.String)
+  name: SauveJobs(string)
+  href: api/Stockage.Save.SauveJobs.html#Stockage_Save_SauveJobs__ctor_System_String_
+  commentId: M:Stockage.Save.SauveJobs.#ctor(System.String)
+  name.vb: New(String)
+  fullName: Stockage.Save.SauveJobs.SauveJobs(string)
+  fullName.vb: Stockage.Save.SauveJobs.New(String)
+  nameWithType: SauveJobs.SauveJobs(string)
+  nameWithType.vb: SauveJobs.New(String)
+- uid: Stockage.Save.SauveJobs.#ctor*
+  name: SauveJobs
+  href: api/Stockage.Save.SauveJobs.html#Stockage_Save_SauveJobs__ctor_
+  commentId: Overload:Stockage.Save.SauveJobs.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Stockage.Save.SauveJobs.SauveJobs
+  fullName.vb: Stockage.Save.SauveJobs.New
+  nameWithType: SauveJobs.SauveJobs
+  nameWithType.vb: SauveJobs.New
+- uid: Stockage.Save.SauveJobs.CopyDirectory(System.IO.DirectoryInfo,System.IO.DirectoryInfo,System.Boolean,LogsModels.CLogState@,System.Boolean)
+  name: CopyDirectory(DirectoryInfo, DirectoryInfo, bool, ref CLogState, bool)
+  href: api/Stockage.Save.SauveJobs.html#Stockage_Save_SauveJobs_CopyDirectory_System_IO_DirectoryInfo_System_IO_DirectoryInfo_System_Boolean_LogsModels_CLogState__System_Boolean_
+  commentId: M:Stockage.Save.SauveJobs.CopyDirectory(System.IO.DirectoryInfo,System.IO.DirectoryInfo,System.Boolean,LogsModels.CLogState@,System.Boolean)
+  name.vb: CopyDirectory(DirectoryInfo, DirectoryInfo, Boolean, CLogState, Boolean)
+  fullName: Stockage.Save.SauveJobs.CopyDirectory(System.IO.DirectoryInfo, System.IO.DirectoryInfo, bool, ref LogsModels.CLogState, bool)
+  fullName.vb: Stockage.Save.SauveJobs.CopyDirectory(System.IO.DirectoryInfo, System.IO.DirectoryInfo, Boolean, LogsModels.CLogState, Boolean)
+  nameWithType: SauveJobs.CopyDirectory(DirectoryInfo, DirectoryInfo, bool, ref CLogState, bool)
+  nameWithType.vb: SauveJobs.CopyDirectory(DirectoryInfo, DirectoryInfo, Boolean, CLogState, Boolean)
+- uid: Stockage.Save.SauveJobs.CopyDirectory*
+  name: CopyDirectory
+  href: api/Stockage.Save.SauveJobs.html#Stockage_Save_SauveJobs_CopyDirectory_
+  commentId: Overload:Stockage.Save.SauveJobs.CopyDirectory
+  isSpec: "True"
+  fullName: Stockage.Save.SauveJobs.CopyDirectory
+  nameWithType: SauveJobs.CopyDirectory
+- uid: Stockage.Save.SauveJobs.GetDirSize(System.String)
+  name: GetDirSize(string)
+  href: api/Stockage.Save.SauveJobs.html#Stockage_Save_SauveJobs_GetDirSize_System_String_
+  commentId: M:Stockage.Save.SauveJobs.GetDirSize(System.String)
+  name.vb: GetDirSize(String)
+  fullName: Stockage.Save.SauveJobs.GetDirSize(string)
+  fullName.vb: Stockage.Save.SauveJobs.GetDirSize(String)
+  nameWithType: SauveJobs.GetDirSize(string)
+  nameWithType.vb: SauveJobs.GetDirSize(String)
+- uid: Stockage.Save.SauveJobs.GetDirSize*
+  name: GetDirSize
+  href: api/Stockage.Save.SauveJobs.html#Stockage_Save_SauveJobs_GetDirSize_
+  commentId: Overload:Stockage.Save.SauveJobs.GetDirSize
+  isSpec: "True"
+  fullName: Stockage.Save.SauveJobs.GetDirSize
+  nameWithType: SauveJobs.GetDirSize
+- uid: Stockage.Save.SauveJobs.TransferedFiles
+  name: TransferedFiles
+  href: api/Stockage.Save.SauveJobs.html#Stockage_Save_SauveJobs_TransferedFiles
+  commentId: P:Stockage.Save.SauveJobs.TransferedFiles
+  fullName: Stockage.Save.SauveJobs.TransferedFiles
+  nameWithType: SauveJobs.TransferedFiles
+- uid: Stockage.Save.SauveJobs.TransferedFiles*
+  name: TransferedFiles
+  href: api/Stockage.Save.SauveJobs.html#Stockage_Save_SauveJobs_TransferedFiles_
+  commentId: Overload:Stockage.Save.SauveJobs.TransferedFiles
+  isSpec: "True"
+  fullName: Stockage.Save.SauveJobs.TransferedFiles
+  nameWithType: SauveJobs.TransferedFiles
+- uid: Stockage.Save.SauveJobs.UpdateLog(LogsModels.CLogState)
+  name: UpdateLog(CLogState)
+  href: api/Stockage.Save.SauveJobs.html#Stockage_Save_SauveJobs_UpdateLog_LogsModels_CLogState_
+  commentId: M:Stockage.Save.SauveJobs.UpdateLog(LogsModels.CLogState)
+  fullName: Stockage.Save.SauveJobs.UpdateLog(LogsModels.CLogState)
+  nameWithType: SauveJobs.UpdateLog(CLogState)
+- uid: Stockage.Save.SauveJobs.UpdateLog*
+  name: UpdateLog
+  href: api/Stockage.Save.SauveJobs.html#Stockage_Save_SauveJobs_UpdateLog_
+  commentId: Overload:Stockage.Save.SauveJobs.UpdateLog
+  isSpec: "True"
+  fullName: Stockage.Save.SauveJobs.UpdateLog
+  nameWithType: SauveJobs.UpdateLog
 - uid: UnitTestJobs
   name: UnitTestJobs
   href: api/UnitTestJobs.html
@@ -2019,19 +2357,45 @@ references:
   isSpec: "True"
   fullName: UnitTestJobs.JobsTestUnit.CreateJob
   nameWithType: JobsTestUnit.CreateJob
-- uid: UnitTestJobs.JobsTestUnit.SaveJobManager
-  name: SaveJobManager()
-  href: api/UnitTestJobs.JobsTestUnit.html#UnitTestJobs_JobsTestUnit_SaveJobManager
-  commentId: M:UnitTestJobs.JobsTestUnit.SaveJobManager
-  fullName: UnitTestJobs.JobsTestUnit.SaveJobManager()
-  nameWithType: JobsTestUnit.SaveJobManager()
-- uid: UnitTestJobs.JobsTestUnit.SaveJobManager*
-  name: SaveJobManager
-  href: api/UnitTestJobs.JobsTestUnit.html#UnitTestJobs_JobsTestUnit_SaveJobManager_
-  commentId: Overload:UnitTestJobs.JobsTestUnit.SaveJobManager
+- uid: UnitTestJobs.JobsTestUnit.DeleteJob
+  name: DeleteJob()
+  href: api/UnitTestJobs.JobsTestUnit.html#UnitTestJobs_JobsTestUnit_DeleteJob
+  commentId: M:UnitTestJobs.JobsTestUnit.DeleteJob
+  fullName: UnitTestJobs.JobsTestUnit.DeleteJob()
+  nameWithType: JobsTestUnit.DeleteJob()
+- uid: UnitTestJobs.JobsTestUnit.DeleteJob*
+  name: DeleteJob
+  href: api/UnitTestJobs.JobsTestUnit.html#UnitTestJobs_JobsTestUnit_DeleteJob_
+  commentId: Overload:UnitTestJobs.JobsTestUnit.DeleteJob
   isSpec: "True"
-  fullName: UnitTestJobs.JobsTestUnit.SaveJobManager
-  nameWithType: JobsTestUnit.SaveJobManager
+  fullName: UnitTestJobs.JobsTestUnit.DeleteJob
+  nameWithType: JobsTestUnit.DeleteJob
+- uid: UnitTestJobs.JobsTestUnit.SaveLoadJobManager
+  name: SaveLoadJobManager()
+  href: api/UnitTestJobs.JobsTestUnit.html#UnitTestJobs_JobsTestUnit_SaveLoadJobManager
+  commentId: M:UnitTestJobs.JobsTestUnit.SaveLoadJobManager
+  fullName: UnitTestJobs.JobsTestUnit.SaveLoadJobManager()
+  nameWithType: JobsTestUnit.SaveLoadJobManager()
+- uid: UnitTestJobs.JobsTestUnit.SaveLoadJobManager*
+  name: SaveLoadJobManager
+  href: api/UnitTestJobs.JobsTestUnit.html#UnitTestJobs_JobsTestUnit_SaveLoadJobManager_
+  commentId: Overload:UnitTestJobs.JobsTestUnit.SaveLoadJobManager
+  isSpec: "True"
+  fullName: UnitTestJobs.JobsTestUnit.SaveLoadJobManager
+  nameWithType: JobsTestUnit.SaveLoadJobManager
+- uid: UnitTestJobs.JobsTestUnit.SaveLoadJobs
+  name: SaveLoadJobs()
+  href: api/UnitTestJobs.JobsTestUnit.html#UnitTestJobs_JobsTestUnit_SaveLoadJobs
+  commentId: M:UnitTestJobs.JobsTestUnit.SaveLoadJobs
+  fullName: UnitTestJobs.JobsTestUnit.SaveLoadJobs()
+  nameWithType: JobsTestUnit.SaveLoadJobs()
+- uid: UnitTestJobs.JobsTestUnit.SaveLoadJobs*
+  name: SaveLoadJobs
+  href: api/UnitTestJobs.JobsTestUnit.html#UnitTestJobs_JobsTestUnit_SaveLoadJobs_
+  commentId: Overload:UnitTestJobs.JobsTestUnit.SaveLoadJobs
+  isSpec: "True"
+  fullName: UnitTestJobs.JobsTestUnit.SaveLoadJobs
+  nameWithType: JobsTestUnit.SaveLoadJobs
 - uid: UnitTestStorage
   name: UnitTestStorage
   href: api/UnitTestStorage.html

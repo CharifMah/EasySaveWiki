@@ -1,37 +1,39 @@
 ### YamlMime:ManagedReference
 items:
-- uid: UnitTestJobs.JobsTestUnit
-  commentId: T:UnitTestJobs.JobsTestUnit
-  id: JobsTestUnit
-  parent: UnitTestJobs
+- uid: Stockage.Load.BaseCharge
+  commentId: T:Stockage.Load.BaseCharge
+  id: BaseCharge
+  parent: Stockage.Load
   children:
-  - UnitTestJobs.JobsTestUnit.CreateJob
-  - UnitTestJobs.JobsTestUnit.DeleteJob
-  - UnitTestJobs.JobsTestUnit.SaveLoadJobManager
-  - UnitTestJobs.JobsTestUnit.SaveLoadJobs
+  - Stockage.Load.BaseCharge.#ctor(System.String)
+  - Stockage.Load.BaseCharge.Charger``1(System.String,System.Boolean)
   langs:
   - csharp
   - vb
-  name: JobsTestUnit
-  nameWithType: JobsTestUnit
-  fullName: UnitTestJobs.JobsTestUnit
+  name: BaseCharge
+  nameWithType: BaseCharge
+  fullName: Stockage.Load.BaseCharge
   type: Class
   source:
     remote:
-      path: EasySave-G4-FISA-24/UnitTestJobs/JobsTestUnit.cs
+      path: EasySave-G4-FISA-24/Stockage/Load/BaseCharge.cs
       branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
-    id: JobsTestUnit
-    path: ../G4-FISA-24/EasySave-G4-FISA-24/UnitTestJobs/JobsTestUnit.cs
-    startLine: 3
+    id: BaseCharge
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/Load/BaseCharge.cs
+    startLine: 9
   assemblies:
-  - UnitTestJobs
-  namespace: UnitTestJobs
+  - Stockage
+  namespace: Stockage.Load
   syntax:
-    content: public class JobsTestUnit
-    content.vb: Public Class JobsTestUnit
+    content: 'public abstract class BaseCharge : ICharge'
+    content.vb: Public MustInherit Class BaseCharge Implements ICharge
   inheritance:
   - System.Object
+  derivedClasses:
+  - Stockage.Load.ChargerCollection
+  implements:
+  - Stockage.Load.ICharge
   inheritedMembers:
   - System.Object.Equals(System.Object)
   - System.Object.Equals(System.Object,System.Object)
@@ -40,157 +42,111 @@ items:
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.ToString
-- uid: UnitTestJobs.JobsTestUnit.CreateJob
-  commentId: M:UnitTestJobs.JobsTestUnit.CreateJob
-  id: CreateJob
-  parent: UnitTestJobs.JobsTestUnit
+- uid: Stockage.Load.BaseCharge.#ctor(System.String)
+  commentId: M:Stockage.Load.BaseCharge.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: Stockage.Load.BaseCharge
   langs:
   - csharp
   - vb
-  name: CreateJob()
-  nameWithType: JobsTestUnit.CreateJob()
-  fullName: UnitTestJobs.JobsTestUnit.CreateJob()
-  type: Method
+  name: BaseCharge(string)
+  nameWithType: BaseCharge.BaseCharge(string)
+  fullName: Stockage.Load.BaseCharge.BaseCharge(string)
+  type: Constructor
   source:
     remote:
-      path: EasySave-G4-FISA-24/UnitTestJobs/JobsTestUnit.cs
+      path: EasySave-G4-FISA-24/Stockage/Load/BaseCharge.cs
       branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
-    id: CreateJob
-    path: ../G4-FISA-24/EasySave-G4-FISA-24/UnitTestJobs/JobsTestUnit.cs
-    startLine: 5
+    id: .ctor
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/Load/BaseCharge.cs
+    startLine: 20
   assemblies:
-  - UnitTestJobs
-  namespace: UnitTestJobs
+  - Stockage
+  namespace: Stockage.Load
+  summary: Charger un object
+  example: []
   syntax:
-    content: >-
-      [Fact]
-
-      public void CreateJob()
-    content.vb: >-
-      <Fact>
-
-      Public Sub CreateJob()
-  overload: UnitTestJobs.JobsTestUnit.CreateJob*
-  attributes:
-  - type: Xunit.FactAttribute
-    ctor: Xunit.FactAttribute.#ctor
-    arguments: []
-- uid: UnitTestJobs.JobsTestUnit.SaveLoadJobManager
-  commentId: M:UnitTestJobs.JobsTestUnit.SaveLoadJobManager
-  id: SaveLoadJobManager
-  parent: UnitTestJobs.JobsTestUnit
+    content: public BaseCharge(string pPath)
+    parameters:
+    - id: pPath
+      type: System.String
+      description: Chemin du fichier
+    content.vb: Public Sub New(pPath As String)
+  overload: Stockage.Load.BaseCharge.#ctor*
+  nameWithType.vb: BaseCharge.New(String)
+  fullName.vb: Stockage.Load.BaseCharge.New(String)
+  name.vb: New(String)
+- uid: Stockage.Load.BaseCharge.Charger``1(System.String,System.Boolean)
+  commentId: M:Stockage.Load.BaseCharge.Charger``1(System.String,System.Boolean)
+  id: Charger``1(System.String,System.Boolean)
+  parent: Stockage.Load.BaseCharge
   langs:
   - csharp
   - vb
-  name: SaveLoadJobManager()
-  nameWithType: JobsTestUnit.SaveLoadJobManager()
-  fullName: UnitTestJobs.JobsTestUnit.SaveLoadJobManager()
+  name: Charger<T>(string, bool)
+  nameWithType: BaseCharge.Charger<T>(string, bool)
+  fullName: Stockage.Load.BaseCharge.Charger<T>(string, bool)
   type: Method
   source:
     remote:
-      path: EasySave-G4-FISA-24/UnitTestJobs/JobsTestUnit.cs
+      path: EasySave-G4-FISA-24/Stockage/Load/BaseCharge.cs
       branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
-    id: SaveLoadJobManager
-    path: ../G4-FISA-24/EasySave-G4-FISA-24/UnitTestJobs/JobsTestUnit.cs
-    startLine: 18
+    id: Charger
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/Load/BaseCharge.cs
+    startLine: 33
   assemblies:
-  - UnitTestJobs
-  namespace: UnitTestJobs
+  - Stockage
+  namespace: Stockage.Load
+  summary: Charger un fichier
+  remarks: Mahmoud Charif - 31/12/2022 - Creation
+  example: []
   syntax:
-    content: >-
-      [Fact]
-
-      public void SaveLoadJobManager()
-    content.vb: >-
-      <Fact>
-
-      Public Sub SaveLoadJobManager()
-  overload: UnitTestJobs.JobsTestUnit.SaveLoadJobManager*
-  attributes:
-  - type: Xunit.FactAttribute
-    ctor: Xunit.FactAttribute.#ctor
-    arguments: []
-- uid: UnitTestJobs.JobsTestUnit.SaveLoadJobs
-  commentId: M:UnitTestJobs.JobsTestUnit.SaveLoadJobs
-  id: SaveLoadJobs
-  parent: UnitTestJobs.JobsTestUnit
-  langs:
-  - csharp
-  - vb
-  name: SaveLoadJobs()
-  nameWithType: JobsTestUnit.SaveLoadJobs()
-  fullName: UnitTestJobs.JobsTestUnit.SaveLoadJobs()
-  type: Method
-  source:
-    remote:
-      path: EasySave-G4-FISA-24/UnitTestJobs/JobsTestUnit.cs
-      branch: develop-livrable-1
-      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
-    id: SaveLoadJobs
-    path: ../G4-FISA-24/EasySave-G4-FISA-24/UnitTestJobs/JobsTestUnit.cs
-    startLine: 35
-  assemblies:
-  - UnitTestJobs
-  namespace: UnitTestJobs
-  syntax:
-    content: >-
-      [Fact]
-
-      public void SaveLoadJobs()
-    content.vb: >-
-      <Fact>
-
-      Public Sub SaveLoadJobs()
-  overload: UnitTestJobs.JobsTestUnit.SaveLoadJobs*
-  attributes:
-  - type: Xunit.FactAttribute
-    ctor: Xunit.FactAttribute.#ctor
-    arguments: []
-- uid: UnitTestJobs.JobsTestUnit.DeleteJob
-  commentId: M:UnitTestJobs.JobsTestUnit.DeleteJob
-  id: DeleteJob
-  parent: UnitTestJobs.JobsTestUnit
-  langs:
-  - csharp
-  - vb
-  name: DeleteJob()
-  nameWithType: JobsTestUnit.DeleteJob()
-  fullName: UnitTestJobs.JobsTestUnit.DeleteJob()
-  type: Method
-  source:
-    remote:
-      path: EasySave-G4-FISA-24/UnitTestJobs/JobsTestUnit.cs
-      branch: develop-livrable-1
-      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
-    id: DeleteJob
-    path: ../G4-FISA-24/EasySave-G4-FISA-24/UnitTestJobs/JobsTestUnit.cs
-    startLine: 48
-  assemblies:
-  - UnitTestJobs
-  namespace: UnitTestJobs
-  syntax:
-    content: >-
-      [Fact]
-
-      public void DeleteJob()
-    content.vb: >-
-      <Fact>
-
-      Public Sub DeleteJob()
-  overload: UnitTestJobs.JobsTestUnit.DeleteJob*
-  attributes:
-  - type: Xunit.FactAttribute
-    ctor: Xunit.FactAttribute.#ctor
-    arguments: []
+    content: public virtual T Charger<T>(string pFileName, bool pIsFullPath = false)
+    parameters:
+    - id: pFileName
+      type: System.String
+      description: chemin du fichier or full path if the attribute _Path is not null
+    - id: pIsFullPath
+      type: System.Boolean
+      description: allow to put full path in the first param
+    typeParameters:
+    - id: T
+      description: Generic Type
+    return:
+      type: '{T}'
+      description: Data Cast in Generic Type
+    content.vb: Public Overridable Function Charger(Of T)(pFileName As String, pIsFullPath As Boolean = False) As T
+  overload: Stockage.Load.BaseCharge.Charger*
+  implements:
+  - Stockage.Load.ICharge.Charger``1(System.String,System.Boolean)
+  nameWithType.vb: BaseCharge.Charger(Of T)(String, Boolean)
+  fullName.vb: Stockage.Load.BaseCharge.Charger(Of T)(String, Boolean)
+  name.vb: Charger(Of T)(String, Boolean)
 references:
-- uid: UnitTestJobs
-  commentId: N:UnitTestJobs
-  href: UnitTestJobs.html
-  name: UnitTestJobs
-  nameWithType: UnitTestJobs
-  fullName: UnitTestJobs
+- uid: Stockage.Load
+  commentId: N:Stockage.Load
+  href: Stockage.html
+  name: Stockage.Load
+  nameWithType: Stockage.Load
+  fullName: Stockage.Load
+  spec.csharp:
+  - uid: Stockage
+    name: Stockage
+    href: Stockage.html
+  - name: .
+  - uid: Stockage.Load
+    name: Load
+    href: Stockage.Load.html
+  spec.vb:
+  - uid: Stockage
+    name: Stockage
+    href: Stockage.html
+  - name: .
+  - uid: Stockage.Load
+    name: Load
+    href: Stockage.Load.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
@@ -202,6 +158,13 @@ references:
   nameWithType.vb: Object
   fullName.vb: Object
   name.vb: Object
+- uid: Stockage.Load.ICharge
+  commentId: T:Stockage.Load.ICharge
+  parent: Stockage.Load
+  href: Stockage.Load.ICharge.html
+  name: ICharge
+  nameWithType: ICharge
+  fullName: Stockage.Load.ICharge
 - uid: System.Object.Equals(System.Object)
   commentId: M:System.Object.Equals(System.Object)
   parent: System.Object
@@ -428,27 +391,101 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: UnitTestJobs.JobsTestUnit.CreateJob*
-  commentId: Overload:UnitTestJobs.JobsTestUnit.CreateJob
-  href: UnitTestJobs.JobsTestUnit.html#UnitTestJobs_JobsTestUnit_CreateJob
-  name: CreateJob
-  nameWithType: JobsTestUnit.CreateJob
-  fullName: UnitTestJobs.JobsTestUnit.CreateJob
-- uid: UnitTestJobs.JobsTestUnit.SaveLoadJobManager*
-  commentId: Overload:UnitTestJobs.JobsTestUnit.SaveLoadJobManager
-  href: UnitTestJobs.JobsTestUnit.html#UnitTestJobs_JobsTestUnit_SaveLoadJobManager
-  name: SaveLoadJobManager
-  nameWithType: JobsTestUnit.SaveLoadJobManager
-  fullName: UnitTestJobs.JobsTestUnit.SaveLoadJobManager
-- uid: UnitTestJobs.JobsTestUnit.SaveLoadJobs*
-  commentId: Overload:UnitTestJobs.JobsTestUnit.SaveLoadJobs
-  href: UnitTestJobs.JobsTestUnit.html#UnitTestJobs_JobsTestUnit_SaveLoadJobs
-  name: SaveLoadJobs
-  nameWithType: JobsTestUnit.SaveLoadJobs
-  fullName: UnitTestJobs.JobsTestUnit.SaveLoadJobs
-- uid: UnitTestJobs.JobsTestUnit.DeleteJob*
-  commentId: Overload:UnitTestJobs.JobsTestUnit.DeleteJob
-  href: UnitTestJobs.JobsTestUnit.html#UnitTestJobs_JobsTestUnit_DeleteJob
-  name: DeleteJob
-  nameWithType: JobsTestUnit.DeleteJob
-  fullName: UnitTestJobs.JobsTestUnit.DeleteJob
+- uid: Stockage.Load.BaseCharge.#ctor*
+  commentId: Overload:Stockage.Load.BaseCharge.#ctor
+  href: Stockage.Load.BaseCharge.html#Stockage_Load_BaseCharge__ctor_System_String_
+  name: BaseCharge
+  nameWithType: BaseCharge.BaseCharge
+  fullName: Stockage.Load.BaseCharge.BaseCharge
+  nameWithType.vb: BaseCharge.New
+  fullName.vb: Stockage.Load.BaseCharge.New
+  name.vb: New
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Stockage.Load.BaseCharge.Charger*
+  commentId: Overload:Stockage.Load.BaseCharge.Charger
+  href: Stockage.Load.BaseCharge.html#Stockage_Load_BaseCharge_Charger__1_System_String_System_Boolean_
+  name: Charger
+  nameWithType: BaseCharge.Charger
+  fullName: Stockage.Load.BaseCharge.Charger
+- uid: Stockage.Load.ICharge.Charger``1(System.String,System.Boolean)
+  commentId: M:Stockage.Load.ICharge.Charger``1(System.String,System.Boolean)
+  parent: Stockage.Load.ICharge
+  isExternal: true
+  href: Stockage.Load.ICharge.html#Stockage_Load_ICharge_Charger__1_System_String_System_Boolean_
+  name: Charger<T>(string, bool)
+  nameWithType: ICharge.Charger<T>(string, bool)
+  fullName: Stockage.Load.ICharge.Charger<T>(string, bool)
+  nameWithType.vb: ICharge.Charger(Of T)(String, Boolean)
+  fullName.vb: Stockage.Load.ICharge.Charger(Of T)(String, Boolean)
+  name.vb: Charger(Of T)(String, Boolean)
+  spec.csharp:
+  - uid: Stockage.Load.ICharge.Charger``1(System.String,System.Boolean)
+    name: Charger
+    href: Stockage.Load.ICharge.html#Stockage_Load_ICharge_Charger__1_System_String_System_Boolean_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: Stockage.Load.ICharge.Charger``1(System.String,System.Boolean)
+    name: Charger
+    href: Stockage.Load.ICharge.html#Stockage_Load_ICharge_Charger__1_System_String_System_Boolean_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T

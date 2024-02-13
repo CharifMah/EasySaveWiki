@@ -130,7 +130,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: RunJobs
     path: ../G4-FISA-24/EasySave-G4-FISA-24/EasySave/ViewModels/JobViewModel.cs
-    startLine: 31
+    startLine: 32
   assemblies:
   - EasySave
   namespace: EasySave.ViewModels
@@ -168,7 +168,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: CreateBackupJob
     path: ../G4-FISA-24/EasySave-G4-FISA-24/EasySave/ViewModels/JobViewModel.cs
-    startLine: 41
+    startLine: 42
   assemblies:
   - EasySave
   namespace: EasySave.ViewModels
@@ -203,7 +203,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: DeleteJobs
     path: ../G4-FISA-24/EasySave-G4-FISA-24/EasySave/ViewModels/JobViewModel.cs
-    startLine: 51
+    startLine: 52
   assemblies:
   - EasySave
   namespace: EasySave.ViewModels
@@ -241,7 +241,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: SaveJobs
     path: ../G4-FISA-24/EasySave-G4-FISA-24/EasySave/ViewModels/JobViewModel.cs
-    startLine: 59
+    startLine: 60
   assemblies:
   - EasySave
   namespace: EasySave.ViewModels
@@ -269,14 +269,14 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: LoadJobs
     path: ../G4-FISA-24/EasySave-G4-FISA-24/EasySave/ViewModels/JobViewModel.cs
-    startLine: 69
+    startLine: 70
   assemblies:
   - EasySave
   namespace: EasySave.ViewModels
   summary: Charge la liste des jobs depuis un fichier
   example: []
   syntax:
-    content: public void LoadJobs(bool IsDefaultFile = true, string pPath = "")
+    content: public void LoadJobs(bool IsDefaultFile = true, string pPath = null)
     parameters:
     - id: IsDefaultFile
       type: System.Boolean
@@ -284,7 +284,7 @@ items:
     - id: pPath
       type: System.String
       description: Chemin du fichier à charger, vide pour le fichier par défaut
-    content.vb: Public Sub LoadJobs(IsDefaultFile As Boolean = True, pPath As String = "")
+    content.vb: Public Sub LoadJobs(IsDefaultFile As Boolean = True, pPath As String = Nothing)
   overload: EasySave.ViewModels.JobViewModel.LoadJobs*
   nameWithType.vb: JobViewModel.LoadJobs(Boolean, String)
   fullName.vb: EasySave.ViewModels.JobViewModel.LoadJobs(Boolean, String)

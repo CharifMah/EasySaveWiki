@@ -7,8 +7,10 @@ items:
   children:
   - Models.Settings.Finalize
   - Models.Settings.Instance
-  - Models.Settings.JobConfigPath
+  - Models.Settings.JobConfigFolderPath
+  - Models.Settings.JobDefaultConfigPath
   - Models.Settings.Langue
+  - Models.Settings.LoadJobsFile(System.String)
   - Models.Settings.LoadSettings
   - Models.Settings.SaveSettings
   langs:
@@ -25,7 +27,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Settings
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Settings.cs
-    startLine: 5
+    startLine: 8
   assemblies:
   - Models
   namespace: Models
@@ -70,7 +72,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Langue
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Settings.cs
-    startLine: 18
+    startLine: 23
   assemblies:
   - Models
   namespace: Models
@@ -81,35 +83,64 @@ items:
       type: Models.CLangue
     content.vb: Public Property Langue As CLangue
   overload: Models.Settings.Langue*
-- uid: Models.Settings.JobConfigPath
-  commentId: P:Models.Settings.JobConfigPath
-  id: JobConfigPath
+- uid: Models.Settings.JobConfigFolderPath
+  commentId: P:Models.Settings.JobConfigFolderPath
+  id: JobConfigFolderPath
   parent: Models.Settings
   langs:
   - csharp
   - vb
-  name: JobConfigPath
-  nameWithType: Settings.JobConfigPath
-  fullName: Models.Settings.JobConfigPath
+  name: JobConfigFolderPath
+  nameWithType: Settings.JobConfigFolderPath
+  fullName: Models.Settings.JobConfigFolderPath
   type: Property
   source:
     remote:
       path: EasySave-G4-FISA-24/Models/Settings.cs
       branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
-    id: JobConfigPath
+    id: JobConfigFolderPath
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Settings.cs
-    startLine: 19
+    startLine: 26
   assemblies:
   - Models
   namespace: Models
   syntax:
-    content: public string JobConfigPath { get; set; }
+    content: public string JobConfigFolderPath { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Property JobConfigPath As String
-  overload: Models.Settings.JobConfigPath*
+    content.vb: Public Property JobConfigFolderPath As String
+  overload: Models.Settings.JobConfigFolderPath*
+- uid: Models.Settings.JobDefaultConfigPath
+  commentId: P:Models.Settings.JobDefaultConfigPath
+  id: JobDefaultConfigPath
+  parent: Models.Settings
+  langs:
+  - csharp
+  - vb
+  name: JobDefaultConfigPath
+  nameWithType: Settings.JobDefaultConfigPath
+  fullName: Models.Settings.JobDefaultConfigPath
+  type: Property
+  source:
+    remote:
+      path: EasySave-G4-FISA-24/Models/Settings.cs
+      branch: develop-livrable-1
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: JobDefaultConfigPath
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Settings.cs
+    startLine: 35
+  assemblies:
+  - Models
+  namespace: Models
+  syntax:
+    content: public string JobDefaultConfigPath { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property JobDefaultConfigPath As String
+  overload: Models.Settings.JobDefaultConfigPath*
 - uid: Models.Settings.Instance
   commentId: P:Models.Settings.Instance
   id: Instance
@@ -128,7 +159,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Instance
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Settings.cs
-    startLine: 22
+    startLine: 40
   assemblies:
   - Models
   namespace: Models
@@ -157,7 +188,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Finalize
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Settings.cs
-    startLine: 37
+    startLine: 54
   assemblies:
   - Models
   namespace: Models
@@ -186,7 +217,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: SaveSettings
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Settings.cs
-    startLine: 49
+    startLine: 66
   assemblies:
   - Models
   namespace: Models
@@ -214,7 +245,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: LoadSettings
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Settings.cs
-    startLine: 58
+    startLine: 75
   assemblies:
   - Models
   namespace: Models
@@ -224,6 +255,44 @@ items:
     content: public void LoadSettings()
     content.vb: Public Sub LoadSettings()
   overload: Models.Settings.LoadSettings*
+- uid: Models.Settings.LoadJobsFile(System.String)
+  commentId: M:Models.Settings.LoadJobsFile(System.String)
+  id: LoadJobsFile(System.String)
+  parent: Models.Settings
+  langs:
+  - csharp
+  - vb
+  name: LoadJobsFile(string)
+  nameWithType: Settings.LoadJobsFile(string)
+  fullName: Models.Settings.LoadJobsFile(string)
+  type: Method
+  source:
+    remote:
+      path: EasySave-G4-FISA-24/Models/Settings.cs
+      branch: develop-livrable-1
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: LoadJobsFile
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Settings.cs
+    startLine: 95
+  assemblies:
+  - Models
+  namespace: Models
+  summary: Charge la liste des jobs depuis un fichier
+  example: []
+  syntax:
+    content: public CJobManager LoadJobsFile(string pPath = null)
+    parameters:
+    - id: pPath
+      type: System.String
+      description: Chemin du fichier de configuration. Null pour le fichier par défaut.
+    return:
+      type: Models.Backup.CJobManager
+      description: Instance du gestionnaire de jobs chargé
+    content.vb: Public Function LoadJobsFile(pPath As String = Nothing) As CJobManager
+  overload: Models.Settings.LoadJobsFile*
+  nameWithType.vb: Settings.LoadJobsFile(String)
+  fullName.vb: Models.Settings.LoadJobsFile(String)
+  name.vb: LoadJobsFile(String)
 references:
 - uid: Models
   commentId: N:Models
@@ -481,12 +550,12 @@ references:
   name: CLangue
   nameWithType: CLangue
   fullName: Models.CLangue
-- uid: Models.Settings.JobConfigPath*
-  commentId: Overload:Models.Settings.JobConfigPath
-  href: Models.Settings.html#Models_Settings_JobConfigPath
-  name: JobConfigPath
-  nameWithType: Settings.JobConfigPath
-  fullName: Models.Settings.JobConfigPath
+- uid: Models.Settings.JobConfigFolderPath*
+  commentId: Overload:Models.Settings.JobConfigFolderPath
+  href: Models.Settings.html#Models_Settings_JobConfigFolderPath
+  name: JobConfigFolderPath
+  nameWithType: Settings.JobConfigFolderPath
+  fullName: Models.Settings.JobConfigFolderPath
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -498,6 +567,12 @@ references:
   nameWithType.vb: String
   fullName.vb: String
   name.vb: String
+- uid: Models.Settings.JobDefaultConfigPath*
+  commentId: Overload:Models.Settings.JobDefaultConfigPath
+  href: Models.Settings.html#Models_Settings_JobDefaultConfigPath
+  name: JobDefaultConfigPath
+  nameWithType: Settings.JobDefaultConfigPath
+  fullName: Models.Settings.JobDefaultConfigPath
 - uid: Models.Settings.Instance*
   commentId: Overload:Models.Settings.Instance
   href: Models.Settings.html#Models_Settings_Instance
@@ -534,3 +609,38 @@ references:
   name: LoadSettings
   nameWithType: Settings.LoadSettings
   fullName: Models.Settings.LoadSettings
+- uid: Models.Settings.LoadJobsFile*
+  commentId: Overload:Models.Settings.LoadJobsFile
+  href: Models.Settings.html#Models_Settings_LoadJobsFile_System_String_
+  name: LoadJobsFile
+  nameWithType: Settings.LoadJobsFile
+  fullName: Models.Settings.LoadJobsFile
+- uid: Models.Backup.CJobManager
+  commentId: T:Models.Backup.CJobManager
+  parent: Models.Backup
+  href: Models.Backup.CJobManager.html
+  name: CJobManager
+  nameWithType: CJobManager
+  fullName: Models.Backup.CJobManager
+- uid: Models.Backup
+  commentId: N:Models.Backup
+  href: Models.html
+  name: Models.Backup
+  nameWithType: Models.Backup
+  fullName: Models.Backup
+  spec.csharp:
+  - uid: Models
+    name: Models
+    href: Models.html
+  - name: .
+  - uid: Models.Backup
+    name: Backup
+    href: Models.Backup.html
+  spec.vb:
+  - uid: Models
+    name: Models
+    href: Models.html
+  - name: .
+  - uid: Models.Backup
+    name: Backup
+    href: Models.Backup.html

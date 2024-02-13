@@ -322,6 +322,46 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Stockage.Load.BaseCharge.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Stockage.Load.BaseCharge.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Stockage.Load.ChargerCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Stockage.Load.ChargerCollection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Stockage.Load.ICharge.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Stockage.Load.ICharge.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Stockage.Load.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Stockage.Load.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Stockage.Logs.BaseLogger-1.yml",
       "output": {
         ".html": {
@@ -396,6 +436,56 @@
       "output": {
         ".html": {
           "relative_path": "api/Stockage.SauveJobs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Stockage.Save.BaseSave.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Stockage.Save.BaseSave.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Stockage.Save.ISauve.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Stockage.Save.ISauve.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Stockage.Save.SauveCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Stockage.Save.SauveCollection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Stockage.Save.SauveJobs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Stockage.Save.SauveJobs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Stockage.Save.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Stockage.Save.html"
         }
       },
       "version": ""
@@ -508,10 +598,23 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "releases/introduction.md",
+      "source_relative_path": "releases/release1.md",
       "output": {
         ".html": {
-          "relative_path": "releases/introduction.html"
+          "relative_path": "releases/release1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "releases/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "releases/toc.html"
+        },
+        ".json": {
+          "relative_path": "releases/toc.json"
         }
       },
       "version": ""

@@ -9,7 +9,7 @@ items:
   - Models.Backup.CJob.BackupType
   - Models.Backup.CJob.Equals(System.Object)
   - Models.Backup.CJob.Name
-  - Models.Backup.CJob.Run(Stockage.SauveJobs)
+  - Models.Backup.CJob.Run(Stockage.Save.SauveJobs)
   - Models.Backup.CJob.SourceDirectory
   - Models.Backup.CJob.TargetDirectory
   langs:
@@ -229,16 +229,16 @@ items:
   nameWithType.vb: CJob.New(String, String, String, ETypeBackup)
   fullName.vb: Models.Backup.CJob.New(String, String, String, Models.Backup.ETypeBackup)
   name.vb: New(String, String, String, ETypeBackup)
-- uid: Models.Backup.CJob.Run(Stockage.SauveJobs)
-  commentId: M:Models.Backup.CJob.Run(Stockage.SauveJobs)
-  id: Run(Stockage.SauveJobs)
+- uid: Models.Backup.CJob.Run(Stockage.Save.SauveJobs)
+  commentId: M:Models.Backup.CJob.Run(Stockage.Save.SauveJobs)
+  id: Run(Stockage.Save.SauveJobs)
   parent: Models.Backup.CJob
   langs:
   - csharp
   - vb
   name: Run(SauveJobs)
   nameWithType: CJob.Run(SauveJobs)
-  fullName: Models.Backup.CJob.Run(Stockage.SauveJobs)
+  fullName: Models.Backup.CJob.Run(Stockage.Save.SauveJobs)
   type: Method
   source:
     remote:
@@ -257,7 +257,7 @@ items:
     content: public void Run(SauveJobs pSauveJobs)
     parameters:
     - id: pSauveJobs
-      type: Stockage.SauveJobs
+      type: Stockage.Save.SauveJobs
       description: Objet de sauvegarde des données de jobs
     content.vb: Public Sub Run(pSauveJobs As SauveJobs)
   overload: Models.Backup.CJob.Run*
@@ -607,23 +607,39 @@ references:
   name.vb: New
 - uid: Models.Backup.CJob.Run*
   commentId: Overload:Models.Backup.CJob.Run
-  href: Models.Backup.CJob.html#Models_Backup_CJob_Run_Stockage_SauveJobs_
+  href: Models.Backup.CJob.html#Models_Backup_CJob_Run_Stockage_Save_SauveJobs_
   name: Run
   nameWithType: CJob.Run
   fullName: Models.Backup.CJob.Run
-- uid: Stockage.SauveJobs
-  commentId: T:Stockage.SauveJobs
-  parent: Stockage
-  href: Stockage.SauveJobs.html
+- uid: Stockage.Save.SauveJobs
+  commentId: T:Stockage.Save.SauveJobs
+  parent: Stockage.Save
+  href: Stockage.Save.SauveJobs.html
   name: SauveJobs
   nameWithType: SauveJobs
-  fullName: Stockage.SauveJobs
-- uid: Stockage
-  commentId: N:Stockage
+  fullName: Stockage.Save.SauveJobs
+- uid: Stockage.Save
+  commentId: N:Stockage.Save
   href: Stockage.html
-  name: Stockage
-  nameWithType: Stockage
-  fullName: Stockage
+  name: Stockage.Save
+  nameWithType: Stockage.Save
+  fullName: Stockage.Save
+  spec.csharp:
+  - uid: Stockage
+    name: Stockage
+    href: Stockage.html
+  - name: .
+  - uid: Stockage.Save
+    name: Save
+    href: Stockage.Save.html
+  spec.vb:
+  - uid: Stockage
+    name: Stockage
+    href: Stockage.html
+  - name: .
+  - uid: Stockage.Save
+    name: Save
+    href: Stockage.Save.html
 - uid: System.Object.Equals(System.Object)
   commentId: M:System.Object.Equals(System.Object)
   parent: System.Object

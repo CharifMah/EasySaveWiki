@@ -20,7 +20,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: StockageTestUnit
     path: ../G4-FISA-24/EasySave-G4-FISA-24/UnitTestStorage/StockageTestUnit.cs
-    startLine: 3
+    startLine: 6
   assemblies:
   - UnitTestStorage
   namespace: UnitTestStorage
@@ -55,7 +55,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: TestSerialisation
     path: ../G4-FISA-24/EasySave-G4-FISA-24/UnitTestStorage/StockageTestUnit.cs
-    startLine: 5
+    startLine: 8
   assemblies:
   - UnitTestStorage
   namespace: UnitTestStorage

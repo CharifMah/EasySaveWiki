@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class BaseLogger&lt;T&gt; | EasySaveWiki </title>
+      <title>Class SauveCollection | EasySaveWiki </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class BaseLogger&lt;T&gt; | EasySaveWiki ">
+      <meta name="title" content="Class SauveCollection | EasySaveWiki ">
       
-      <meta name="description" content="Classe de base abstraite pour les loggers.">
+      
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -84,62 +84,61 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="Stockage.Logs.BaseLogger`1">
+        <article data-uid="Stockage.Save.SauveCollection">
 
 
 
-  <h1 id="Stockage_Logs_BaseLogger_1" data-uid="Stockage.Logs.BaseLogger`1" class="text-break">
-Class BaseLogger&lt;T&gt;  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-G4-FISA-24/Stockage/Logs/BaseLog.cs&amp;version=GBdevelop-livrable-1&amp;line=10"><i class="bi bi-code-slash"></i></a>
+  <h1 id="Stockage_Save_SauveCollection" data-uid="Stockage.Save.SauveCollection" class="text-break">
+Class SauveCollection  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-G4-FISA-24/Stockage/Save/SauveCollection.cs&amp;version=GBdevelop-livrable-1&amp;line=3"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="Stockage.html">Stockage</a>.<a class="xref" href="Stockage.Logs.html">Logs</a></dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Stockage.html">Stockage</a>.<a class="xref" href="Stockage.Save.html">Save</a></dd></dl>
   <dl><dt>Assembly</dt><dd>Stockage.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Classe de base abstraite pour les loggers.</p>
-</div>
+  <div class="markdown summary"></div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class BaseLogger&lt;T&gt; : ILogger&lt;T&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public class SauveCollection : BaseSave, ISauve</code></pre>
   </div>
 
 
 
-  <h4 class="section">Type Parameters</h4>
-  <dl class="parameters">
-    <dt><code>T</code></dt>
-    <dd><p>Type des objets loggés</p>
-</dd>
-  </dl>
 
   <dl class="typelist inheritance">
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">BaseLogger&lt;T&gt;</span></div>
+      <div><a class="xref" href="Stockage.Save.BaseSave.html">BaseSave</a></div>
+      <div><span class="xref">SauveCollection</span></div>
     </dd>
   </dl>
 
   <dl class="typelist implements">
     <dt>Implements</dt>
     <dd>
-      <div><a class="xref" href="Stockage.Logs.ILogger-1.html">ILogger</a>&lt;T&gt;</div>
+      <div><a class="xref" href="Stockage.Save.ISauve.html">ISauve</a></div>
     </dd>
   </dl>
 
-  <dl class="typelist derived">
-    <dt>Derived</dt>
-    <dd>
-      <div><a class="xref" href="Stockage.Logs.CGenericLogger-1.html">CGenericLogger&lt;T&gt;</a></div>
-      <div><a class="xref" href="Stockage.Logs.CStringLogger.html">CStringLogger</a></div>
-    </dd>
-  </dl>
 
   <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
+    <div>
+      <a class="xref" href="Stockage.Save.BaseSave.html#Stockage_Save_BaseSave_Options">BaseSave.Options</a>
+    </div>
+    <div>
+      <a class="xref" href="Stockage.Save.BaseSave.html#Stockage_Save_BaseSave_Sauver__1___0_System_String_System_Boolean_System_String_System_Boolean_">BaseSave.Sauver&lt;T&gt;(T, string, bool, string, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="Stockage.Save.BaseSave.html#Stockage_Save_BaseSave_CopyDirectory_System_IO_DirectoryInfo_System_IO_DirectoryInfo_System_Boolean_System_Boolean_">BaseSave.CopyDirectory(DirectoryInfo, DirectoryInfo, bool, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="Stockage.Save.BaseSave.html#Stockage_Save_BaseSave_CopyDirectory_System_IO_DirectoryInfo_System_IO_DirectoryInfo_System_Boolean_LogsModels_CLogState__System_Boolean_">BaseSave.CopyDirectory(DirectoryInfo, DirectoryInfo, bool, ref CLogState, bool)</a>
+    </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
@@ -172,128 +171,24 @@ Class BaseLogger&lt;T&gt;  <a class="header-action link-secondary" title="View s
 </h2>
 
 
-  <a id="Stockage_Logs_BaseLogger_1__ctor_" data-uid="Stockage.Logs.BaseLogger`1.#ctor*"></a>
+  <a id="Stockage_Save_SauveCollection__ctor_" data-uid="Stockage.Save.SauveCollection.#ctor*"></a>
 
-  <h3 id="Stockage_Logs_BaseLogger_1__ctor" data-uid="Stockage.Logs.BaseLogger`1.#ctor">
-  BaseLogger()
-  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-G4-FISA-24/Stockage/Logs/BaseLog.cs&amp;version=GBdevelop-livrable-1&amp;line=17"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Stockage_Save_SauveCollection__ctor_System_String_" data-uid="Stockage.Save.SauveCollection.#ctor(System.String)">
+  SauveCollection(string)
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-G4-FISA-24/Stockage/Save/SauveCollection.cs&amp;version=GBdevelop-livrable-1&amp;line=5"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected BaseLogger()</code></pre>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <h2 class="section" id="properties">Properties
-</h2>
-
-
-  <a id="Stockage_Logs_BaseLogger_1_Datas_" data-uid="Stockage.Logs.BaseLogger`1.Datas*"></a>
-
-  <h3 id="Stockage_Logs_BaseLogger_1_Datas" data-uid="Stockage.Logs.BaseLogger`1.Datas">
-  Datas
-  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-G4-FISA-24/Stockage/Logs/BaseLog.cs&amp;version=GBdevelop-livrable-1&amp;line=16"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Collection de données observables</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ObservableCollection&lt;T&gt; Datas { get; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1">ObservableCollection</a>&lt;T&gt;</dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <h2 class="section" id="methods">Methods
-</h2>
-
-
-  <a id="Stockage_Logs_BaseLogger_1_Clear_" data-uid="Stockage.Logs.BaseLogger`1.Clear*"></a>
-
-  <h3 id="Stockage_Logs_BaseLogger_1_Clear" data-uid="Stockage.Logs.BaseLogger`1.Clear">
-  Clear()
-  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-G4-FISA-24/Stockage/Logs/BaseLog.cs&amp;version=GBdevelop-livrable-1&amp;line=42"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Vide la collection de données</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual void Clear()</code></pre>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <a id="Stockage_Logs_BaseLogger_1_Log_" data-uid="Stockage.Logs.BaseLogger`1.Log*"></a>
-
-  <h3 id="Stockage_Logs_BaseLogger_1_Log__0_System_Boolean_System_Boolean_System_String_" data-uid="Stockage.Logs.BaseLogger`1.Log(`0,System.Boolean,System.Boolean,System.String)">
-  Log(T, bool, bool, string)
-  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-G4-FISA-24/Stockage/Logs/BaseLog.cs&amp;version=GBdevelop-livrable-1&amp;line=28"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Méthode de logging des données</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual void Log(T pData, bool pSerialize = true, bool pAppend = true, string pFileName = &quot;Logs&quot;)</code></pre>
+    <pre><code class="lang-csharp hljs">public SauveCollection(string pPath)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>pData</code> <span class="xref">T</span></dt>
-    <dd><p>Données à logger</p>
-</dd>
-    <dt><code>pSerialize</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd><p>Indique si les données doivent être sérialisées avant d'être loggées</p>
-</dd>
-    <dt><code>pAppend</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd><p>Indique si on ajoute le logging au fichier existant ou si on recrée le fichier</p>
-</dd>
-    <dt><code>pFileName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>Nom du fichier où sont loggées les données</p>
-</dd>
+    <dt><code>pPath</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
   </dl>
 
 
@@ -311,7 +206,7 @@ Class BaseLogger&lt;T&gt;  <a class="header-action link-secondary" title="View s
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-G4-FISA-24/Stockage/Logs/BaseLog.cs&amp;version=GBdevelop-livrable-1&amp;line=10" class="edit-link">Edit this page</a>
+          <a href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-G4-FISA-24/Stockage/Save/SauveCollection.cs&amp;version=GBdevelop-livrable-1&amp;line=3" class="edit-link">Edit this page</a>
         </div>
 
 

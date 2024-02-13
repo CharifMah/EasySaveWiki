@@ -49,21 +49,6 @@ items:
     name: CJobManager
   - uid: Models.Backup.ETypeBackup
     name: ETypeBackup
-- uid: Stockage
-  name: Stockage
-  items:
-  - uid: Stockage.BaseSave
-    name: BaseSave
-  - uid: Stockage.ChargerCollection
-    name: ChargerCollection
-  - uid: Stockage.ICharge
-    name: ICharge
-  - uid: Stockage.ISauve
-    name: ISauve
-  - uid: Stockage.SauveCollection
-    name: SauveCollection
-  - uid: Stockage.SauveJobs
-    name: SauveJobs
 - uid: Stockage.Converters
   name: Stockage.Converters
   items:
@@ -73,6 +58,15 @@ items:
     name: ConcreteConverter<TInterface, TConcrete>
   - uid: Stockage.Converters.ConcreteDictionnaryTypeConverter`4
     name: ConcreteDictionnaryTypeConverter<TDictionary, TItem, TKey, TValue>
+- uid: Stockage.Load
+  name: Stockage.Load
+  items:
+  - uid: Stockage.Load.BaseCharge
+    name: BaseCharge
+  - uid: Stockage.Load.ChargerCollection
+    name: ChargerCollection
+  - uid: Stockage.Load.ICharge
+    name: ICharge
 - uid: Stockage.Logs
   name: Stockage.Logs
   items:
@@ -86,6 +80,17 @@ items:
     name: CStringLogger
   - uid: Stockage.Logs.ILogger`1
     name: ILogger<T>
+- uid: Stockage.Save
+  name: Stockage.Save
+  items:
+  - uid: Stockage.Save.BaseSave
+    name: BaseSave
+  - uid: Stockage.Save.ISauve
+    name: ISauve
+  - uid: Stockage.Save.SauveCollection
+    name: SauveCollection
+  - uid: Stockage.Save.SauveJobs
+    name: SauveJobs
 - uid: UnitTestJobs
   name: UnitTestJobs
   items:

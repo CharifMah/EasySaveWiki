@@ -5,11 +5,10 @@ items:
   id: CJobManager
   parent: Models.Backup
   children:
-  - Models.Backup.CJobManager.#ctor(System.String)
+  - Models.Backup.CJobManager.#ctor
   - Models.Backup.CJobManager.CreateBackupJob(Models.Backup.CJob)
   - Models.Backup.CJobManager.DeleteJobs(System.Collections.Generic.List{Models.Backup.CJob})
   - Models.Backup.CJobManager.Jobs
-  - Models.Backup.CJobManager.LoadJobs(System.String)
   - Models.Backup.CJobManager.Name
   - Models.Backup.CJobManager.RunJobs(System.Collections.Generic.List{Models.Backup.CJob})
   - Models.Backup.CJobManager.SauveCollection
@@ -28,7 +27,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: CJobManager
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Backup/CJobManager.cs
-    startLine: 7
+    startLine: 8
   assemblies:
   - Models
   namespace: Models.Backup
@@ -75,7 +74,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Jobs
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Backup/CJobManager.cs
-    startLine: 25
+    startLine: 27
   assemblies:
   - Models
   namespace: Models.Backup
@@ -106,7 +105,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Name
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Backup/CJobManager.cs
-    startLine: 30
+    startLine: 32
   assemblies:
   - Models
   namespace: Models.Backup
@@ -137,7 +136,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: SauveCollection
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Backup/CJobManager.cs
-    startLine: 35
+    startLine: 37
   assemblies:
   - Models
   namespace: Models.Backup
@@ -147,19 +146,19 @@ items:
     content: public ISauve SauveCollection { get; set; }
     parameters: []
     return:
-      type: Stockage.ISauve
+      type: Stockage.Save.ISauve
     content.vb: Public Property SauveCollection As ISauve
   overload: Models.Backup.CJobManager.SauveCollection*
-- uid: Models.Backup.CJobManager.#ctor(System.String)
-  commentId: M:Models.Backup.CJobManager.#ctor(System.String)
-  id: '#ctor(System.String)'
+- uid: Models.Backup.CJobManager.#ctor
+  commentId: M:Models.Backup.CJobManager.#ctor
+  id: '#ctor'
   parent: Models.Backup.CJobManager
   langs:
   - csharp
   - vb
-  name: CJobManager(string)
-  nameWithType: CJobManager.CJobManager(string)
-  fullName: Models.Backup.CJobManager.CJobManager(string)
+  name: CJobManager()
+  nameWithType: CJobManager.CJobManager()
+  fullName: Models.Backup.CJobManager.CJobManager()
   type: Constructor
   source:
     remote:
@@ -168,22 +167,19 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: .ctor
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Backup/CJobManager.cs
-    startLine: 43
+    startLine: 45
   assemblies:
   - Models
   namespace: Models.Backup
   summary: Contructeur de CJobManager initialise le chemin de sauvegarde
   example: []
   syntax:
-    content: public CJobManager(string pConfigPath = "")
-    parameters:
-    - id: pConfigPath
-      type: System.String
-    content.vb: Public Sub New(pConfigPath As String = "")
+    content: public CJobManager()
+    content.vb: Public Sub New()
   overload: Models.Backup.CJobManager.#ctor*
-  nameWithType.vb: CJobManager.New(String)
-  fullName.vb: Models.Backup.CJobManager.New(String)
-  name.vb: New(String)
+  nameWithType.vb: CJobManager.New()
+  fullName.vb: Models.Backup.CJobManager.New()
+  name.vb: New()
 - uid: Models.Backup.CJobManager.CreateBackupJob(Models.Backup.CJob)
   commentId: M:Models.Backup.CJobManager.CreateBackupJob(Models.Backup.CJob)
   id: CreateBackupJob(Models.Backup.CJob)
@@ -202,7 +198,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: CreateBackupJob
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Backup/CJobManager.cs
-    startLine: 64
+    startLine: 68
   assemblies:
   - Models
   namespace: Models.Backup
@@ -237,7 +233,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: DeleteJobs
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Backup/CJobManager.cs
-    startLine: 81
+    startLine: 85
   assemblies:
   - Models
   namespace: Models.Backup
@@ -276,7 +272,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: RunJobs
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Backup/CJobManager.cs
-    startLine: 97
+    startLine: 101
   assemblies:
   - Models
   namespace: Models.Backup
@@ -314,7 +310,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: SaveJobs
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Backup/CJobManager.cs
-    startLine: 112
+    startLine: 116
   assemblies:
   - Models
   namespace: Models.Backup
@@ -324,44 +320,6 @@ items:
     content: public void SaveJobs()
     content.vb: Public Sub SaveJobs()
   overload: Models.Backup.CJobManager.SaveJobs*
-- uid: Models.Backup.CJobManager.LoadJobs(System.String)
-  commentId: M:Models.Backup.CJobManager.LoadJobs(System.String)
-  id: LoadJobs(System.String)
-  parent: Models.Backup.CJobManager
-  langs:
-  - csharp
-  - vb
-  name: LoadJobs(string)
-  nameWithType: CJobManager.LoadJobs(string)
-  fullName: Models.Backup.CJobManager.LoadJobs(string)
-  type: Method
-  source:
-    remote:
-      path: EasySave-G4-FISA-24/Models/Backup/CJobManager.cs
-      branch: develop-livrable-1
-      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
-    id: LoadJobs
-    path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Backup/CJobManager.cs
-    startLine: 122
-  assemblies:
-  - Models
-  namespace: Models.Backup
-  summary: Charge la liste des jobs depuis un fichier
-  example: []
-  syntax:
-    content: public static CJobManager LoadJobs(string pPath = null)
-    parameters:
-    - id: pPath
-      type: System.String
-      description: Chemin du fichier de configuration. Null pour le fichier par défaut.
-    return:
-      type: Models.Backup.CJobManager
-      description: Instance du gestionnaire de jobs chargé
-    content.vb: Public Shared Function LoadJobs(pPath As String = Nothing) As CJobManager
-  overload: Models.Backup.CJobManager.LoadJobs*
-  nameWithType.vb: CJobManager.LoadJobs(String)
-  fullName.vb: Models.Backup.CJobManager.LoadJobs(String)
-  name.vb: LoadJobs(String)
 references:
 - uid: Models.Backup
   commentId: N:Models.Backup
@@ -749,22 +707,38 @@ references:
   name: SauveCollection
   nameWithType: CJobManager.SauveCollection
   fullName: Models.Backup.CJobManager.SauveCollection
-- uid: Stockage.ISauve
-  commentId: T:Stockage.ISauve
-  parent: Stockage
-  href: Stockage.ISauve.html
+- uid: Stockage.Save.ISauve
+  commentId: T:Stockage.Save.ISauve
+  parent: Stockage.Save
+  href: Stockage.Save.ISauve.html
   name: ISauve
   nameWithType: ISauve
-  fullName: Stockage.ISauve
-- uid: Stockage
-  commentId: N:Stockage
+  fullName: Stockage.Save.ISauve
+- uid: Stockage.Save
+  commentId: N:Stockage.Save
   href: Stockage.html
-  name: Stockage
-  nameWithType: Stockage
-  fullName: Stockage
+  name: Stockage.Save
+  nameWithType: Stockage.Save
+  fullName: Stockage.Save
+  spec.csharp:
+  - uid: Stockage
+    name: Stockage
+    href: Stockage.html
+  - name: .
+  - uid: Stockage.Save
+    name: Save
+    href: Stockage.Save.html
+  spec.vb:
+  - uid: Stockage
+    name: Stockage
+    href: Stockage.html
+  - name: .
+  - uid: Stockage.Save
+    name: Save
+    href: Stockage.Save.html
 - uid: Models.Backup.CJobManager.#ctor*
   commentId: Overload:Models.Backup.CJobManager.#ctor
-  href: Models.Backup.CJobManager.html#Models_Backup_CJobManager__ctor_System_String_
+  href: Models.Backup.CJobManager.html#Models_Backup_CJobManager__ctor
   name: CJobManager
   nameWithType: CJobManager.CJobManager
   fullName: Models.Backup.CJobManager.CJobManager
@@ -813,16 +787,3 @@ references:
   name: SaveJobs
   nameWithType: CJobManager.SaveJobs
   fullName: Models.Backup.CJobManager.SaveJobs
-- uid: Models.Backup.CJobManager.LoadJobs*
-  commentId: Overload:Models.Backup.CJobManager.LoadJobs
-  href: Models.Backup.CJobManager.html#Models_Backup_CJobManager_LoadJobs_System_String_
-  name: LoadJobs
-  nameWithType: CJobManager.LoadJobs
-  fullName: Models.Backup.CJobManager.LoadJobs
-- uid: Models.Backup.CJobManager
-  commentId: T:Models.Backup.CJobManager
-  parent: Models.Backup
-  href: Models.Backup.CJobManager.html
-  name: CJobManager
-  nameWithType: CJobManager
-  fullName: Models.Backup.CJobManager
