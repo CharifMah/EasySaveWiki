@@ -24,10 +24,12 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: BaseSave
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/Save/BaseSave.cs
-    startLine: 5
+    startLine: 8
   assemblies:
   - Stockage
   namespace: Stockage.Save
+  summary: Classe abstraite de base pour la sauvegrade d'un ficher ou le deplacement de Repertoire
+  example: []
   syntax:
     content: 'public abstract class BaseSave : ISauve'
     content.vb: Public MustInherit Class BaseSave Implements ISauve
@@ -64,7 +66,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Options
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/Save/BaseSave.cs
-    startLine: 11
+    startLine: 14
   assemblies:
   - Stockage
   namespace: Stockage.Save
@@ -93,7 +95,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: .ctor
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/Save/BaseSave.cs
-    startLine: 17
+    startLine: 20
   assemblies:
   - Stockage
   namespace: Stockage.Save
@@ -128,7 +130,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Sauver
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/Save/BaseSave.cs
-    startLine: 30
+    startLine: 33
   assemblies:
   - Stockage
   namespace: Stockage.Save
@@ -177,7 +179,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: CopyDirectory
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/Save/BaseSave.cs
-    startLine: 68
+    startLine: 71
   assemblies:
   - Stockage
   namespace: Stockage.Save
@@ -227,7 +229,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: CopyDirectory
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/Save/BaseSave.cs
-    startLine: 72
+    startLine: 75
   assemblies:
   - Stockage
   namespace: Stockage.Save

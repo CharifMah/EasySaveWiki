@@ -27,10 +27,12 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Settings
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Settings.cs
-    startLine: 8
+    startLine: 11
   assemblies:
   - Models
   namespace: Models
+  summary: Classe des settings de l'application permettant le chargement et la sauvegarde des parametres de l'utilisateur
+  example: []
   syntax:
     content: >-
       [DataContract]
@@ -72,10 +74,12 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Langue
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Settings.cs
-    startLine: 23
+    startLine: 30
   assemblies:
   - Models
   namespace: Models
+  summary: Langue préférer de l'utilisateur
+  example: []
   syntax:
     content: public CLangue Langue { get; set; }
     parameters: []
@@ -101,10 +105,12 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: JobConfigFolderPath
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Settings.cs
-    startLine: 26
+    startLine: 35
   assemblies:
   - Models
   namespace: Models
+  summary: Emplacement du répertoire dans lequel le fichier de configuration du travail est stocké
+  example: []
   syntax:
     content: public string JobConfigFolderPath { get; set; }
     parameters: []
@@ -130,10 +136,12 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: JobDefaultConfigPath
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Settings.cs
-    startLine: 35
+    startLine: 46
   assemblies:
   - Models
   namespace: Models
+  summary: Emplacement par défaut du répertoire dans lequel le fichier de configuration du travail est stocké
+  example: []
   syntax:
     content: public string JobDefaultConfigPath { get; set; }
     parameters: []
@@ -159,7 +167,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Instance
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Settings.cs
-    startLine: 40
+    startLine: 51
   assemblies:
   - Models
   namespace: Models
@@ -188,7 +196,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Finalize
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Settings.cs
-    startLine: 54
+    startLine: 67
   assemblies:
   - Models
   namespace: Models
@@ -217,11 +225,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: SaveSettings
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Settings.cs
-    startLine: 66
+    startLine: 79
   assemblies:
   - Models
   namespace: Models
-  summary: Save Settings in a json file
+  summary: Enregistrer les paramètres dans un fichier json
   example: []
   syntax:
     content: public void SaveSettings()
@@ -245,11 +253,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: LoadSettings
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Settings.cs
-    startLine: 75
+    startLine: 88
   assemblies:
   - Models
   namespace: Models
-  summary: Load Settigns from json file
+  summary: Chargement des paramètres à partir d'un fichier json
   example: []
   syntax:
     content: public void LoadSettings()
@@ -273,7 +281,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: LoadJobsFile
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Settings.cs
-    startLine: 95
+    startLine: 108
   assemblies:
   - Models
   namespace: Models

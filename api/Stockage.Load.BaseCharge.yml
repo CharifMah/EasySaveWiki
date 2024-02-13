@@ -21,10 +21,12 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: BaseCharge
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/Load/BaseCharge.cs
-    startLine: 9
+    startLine: 12
   assemblies:
   - Stockage
   namespace: Stockage.Load
+  summary: Classe abstraite de base pour le chargement d'un object
+  example: []
   syntax:
     content: 'public abstract class BaseCharge : ICharge'
     content.vb: Public MustInherit Class BaseCharge Implements ICharge
@@ -60,18 +62,19 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: .ctor
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/Load/BaseCharge.cs
-    startLine: 20
+    startLine: 23
   assemblies:
   - Stockage
   namespace: Stockage.Load
-  summary: Charger un object
+  summary: Constructeur
+  remarks: Mahmoud Charif - 13/02/2024 - Création
   example: []
   syntax:
     content: public BaseCharge(string pPath)
     parameters:
     - id: pPath
       type: System.String
-      description: Chemin du fichier
+      description: Chemin du dossier
     content.vb: Public Sub New(pPath As String)
   overload: Stockage.Load.BaseCharge.#ctor*
   nameWithType.vb: BaseCharge.New(String)
@@ -95,7 +98,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Charger
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/Load/BaseCharge.cs
-    startLine: 33
+    startLine: 36
   assemblies:
   - Stockage
   namespace: Stockage.Load
@@ -107,13 +110,13 @@ items:
     parameters:
     - id: pFileName
       type: System.String
-      description: chemin du fichier or full path if the attribute _Path is not null
+      description: Nom du fichier
     - id: pIsFullPath
       type: System.Boolean
-      description: allow to put full path in the first param
+      description: vrai si le premier parametre est un chemin complet et non le nom du fichier
     typeParameters:
     - id: T
-      description: Generic Type
+      description: Type du fichier à charger
     return:
       type: '{T}'
       description: Data Cast in Generic Type

@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class BaseCharge | EasySaveWiki ">
       
-      
+      <meta name="description" content="Classe abstraite de base pour le chargement d&#39;un object">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -89,7 +89,7 @@
 
 
   <h1 id="Stockage_Load_BaseCharge" data-uid="Stockage.Load.BaseCharge" class="text-break">
-Class BaseCharge  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-G4-FISA-24/Stockage/Load/BaseCharge.cs&amp;version=GBdevelop-livrable-1&amp;line=10"><i class="bi bi-code-slash"></i></a>
+Class BaseCharge  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-G4-FISA-24/Stockage/Load/BaseCharge.cs&amp;version=GBdevelop-livrable-1&amp;line=13"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,7 +97,8 @@ Class BaseCharge  <a class="header-action link-secondary" title="View source" hr
   <dl><dt>Assembly</dt><dd>Stockage.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"></div>
+  <div class="markdown summary"><p>Classe abstraite de base pour le chargement d'un object</p>
+</div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
@@ -168,10 +169,10 @@ Class BaseCharge  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="Stockage_Load_BaseCharge__ctor_System_String_" data-uid="Stockage.Load.BaseCharge.#ctor(System.String)">
   BaseCharge(string)
-  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-G4-FISA-24/Stockage/Load/BaseCharge.cs&amp;version=GBdevelop-livrable-1&amp;line=21"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-G4-FISA-24/Stockage/Load/BaseCharge.cs&amp;version=GBdevelop-livrable-1&amp;line=24"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Charger un object</p>
+  <div class="markdown level1 summary"><p>Constructeur</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -182,7 +183,7 @@ Class BaseCharge  <a class="header-action link-secondary" title="View source" hr
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>pPath</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>Chemin du fichier</p>
+    <dd><p>Chemin du dossier</p>
 </dd>
   </dl>
 
@@ -193,6 +194,9 @@ Class BaseCharge  <a class="header-action link-secondary" title="View source" hr
 
 
 
+  <h4 class="section" id="Stockage_Load_BaseCharge__ctor_System_String__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Mahmoud Charif - 13/02/2024 - Création</p>
+</div>
 
 
 
@@ -205,7 +209,7 @@ Class BaseCharge  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="Stockage_Load_BaseCharge_Charger__1_System_String_System_Boolean_" data-uid="Stockage.Load.BaseCharge.Charger``1(System.String,System.Boolean)">
   Charger&lt;T&gt;(string, bool)
-  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-G4-FISA-24/Stockage/Load/BaseCharge.cs&amp;version=GBdevelop-livrable-1&amp;line=34"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-G4-FISA-24/Stockage/Load/BaseCharge.cs&amp;version=GBdevelop-livrable-1&amp;line=37"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Charger un fichier</p>
@@ -219,10 +223,10 @@ Class BaseCharge  <a class="header-action link-secondary" title="View source" hr
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>pFileName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>chemin du fichier or full path if the attribute _Path is not null</p>
+    <dd><p>Nom du fichier</p>
 </dd>
     <dt><code>pIsFullPath</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd><p>allow to put full path in the first param</p>
+    <dd><p>vrai si le premier parametre est un chemin complet et non le nom du fichier</p>
 </dd>
   </dl>
 
@@ -236,7 +240,7 @@ Class BaseCharge  <a class="header-action link-secondary" title="View source" hr
   <h4 class="section">Type Parameters</h4>
   <dl class="parameters">
     <dt><code>T</code></dt>
-    <dd><p>Generic Type</p>
+    <dd><p>Type du fichier à charger</p>
 </dd>
   </dl>
 
@@ -256,7 +260,7 @@ Class BaseCharge  <a class="header-action link-secondary" title="View source" hr
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-G4-FISA-24/Stockage/Load/BaseCharge.cs&amp;version=GBdevelop-livrable-1&amp;line=10" class="edit-link">Edit this page</a>
+          <a href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-G4-FISA-24/Stockage/Load/BaseCharge.cs&amp;version=GBdevelop-livrable-1&amp;line=13" class="edit-link">Edit this page</a>
         </div>
 
 

@@ -27,7 +27,7 @@ items:
   assemblies:
   - Models
   namespace: Models
-  summary: Classe langue
+  summary: Classe de la langue de l'application
   example: []
   syntax:
     content: >-
@@ -74,7 +74,7 @@ items:
   assemblies:
   - Models
   namespace: Models
-  summary: Dictionnaire de langues
+  summary: Dictionnaire de langues disponnible dans l'application
   example: []
   syntax:
     content: public Dictionary<int, string> Languages { get; set; }

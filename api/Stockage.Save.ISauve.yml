@@ -49,11 +49,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Sauver
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/Save/ISauve.cs
-    startLine: 16
+    startLine: 17
   assemblies:
   - Stockage
   namespace: Stockage.Save
-  summary: Sauvagarde les data dans un fichier
+  summary: Sauvagarde les données dans un fichier
   remarks: Mahmoud Charif - 31/12/2022 - Création
   example: []
   syntax:
@@ -73,6 +73,7 @@ items:
       description: Extention
     - id: IsFullPath
       type: System.Boolean
+      description: vrai si pFileName est un chemin complet
     typeParameters:
     - id: T
     content.vb: Sub Sauver(Of T)(pData As T, pFileName As String, pAppend As Boolean = False, pExtention As String = "json", IsFullPath As Boolean = False)
@@ -98,7 +99,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: CopyDirectory
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/Save/ISauve.cs
-    startLine: 25
+    startLine: 26
   assemblies:
   - Stockage
   namespace: Stockage.Save

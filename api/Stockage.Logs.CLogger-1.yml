@@ -22,14 +22,17 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: CLogger
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/Logs/CLogger.cs
-    startLine: 2
+    startLine: 6
   assemblies:
   - Stockage
   namespace: Stockage.Logs
+  summary: Classe Logger permettant de Logger des objet et des string dans un fichier
+  example: []
   syntax:
     content: public static class CLogger<T>
     typeParameters:
     - id: T
+      description: ''
     content.vb: Public Module CLogger(Of T)
   inheritance:
   - System.Object
@@ -62,10 +65,12 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: GenericLogger
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/Logs/CLogger.cs
-    startLine: 6
+    startLine: 13
   assemblies:
   - Stockage
   namespace: Stockage.Logs
+  summary: Logger generic
+  example: []
   syntax:
     content: public static CGenericLogger<T> GenericLogger { get; }
     parameters: []
@@ -93,10 +98,12 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: StringLogger
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/Logs/CLogger.cs
-    startLine: 7
+    startLine: 17
   assemblies:
   - Stockage
   namespace: Stockage.Logs
+  summary: Logger de string
+  example: []
   syntax:
     content: public static CStringLogger StringLogger { get; }
     parameters: []
@@ -124,10 +131,12 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Clear
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/Logs/CLogger.cs
-    startLine: 8
+    startLine: 22
   assemblies:
   - Stockage
   namespace: Stockage.Logs
+  summary: Vide les Liste de logs
+  example: []
   syntax:
     content: public static void Clear()
     content.vb: Public Shared Sub Clear()

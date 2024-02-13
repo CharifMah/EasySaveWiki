@@ -24,7 +24,7 @@ items:
   assemblies:
   - Stockage
   namespace: Stockage.Load
-  summary: Interface sur un chargeur de dictionnaire
+  summary: Interface ICharge
   remarks: Mahmoud Charif - 31/12/2022- Création
   example: []
   syntax:
@@ -48,11 +48,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Charger
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/Load/ICharge.cs
-    startLine: 14
+    startLine: 17
   assemblies:
   - Stockage
   namespace: Stockage.Load
-  summary: Charge le dictionnaire
+  summary: Charger un fichier
   remarks: Mahmoud Charif - 31/12/2022 - Creation
   example: []
   syntax:
@@ -60,14 +60,15 @@ items:
     parameters:
     - id: pPath
       type: System.String
-      description: Complete path of the file with extention
     - id: pIsFullPath
       type: System.Boolean
+      description: vrai si le premier parametre est un chemin complet et non le nom du fichier
     typeParameters:
     - id: T
+      description: Type du fichier à charger
     return:
       type: '{T}'
-      description: Loaded file
+      description: Data Cast in Generic Type
     content.vb: Function Charger(Of T)(pPath As String, pIsFullPath As Boolean = False) As T
   overload: Stockage.Load.ICharge.Charger*
   nameWithType.vb: ICharge.Charger(Of T)(String, Boolean)

@@ -24,10 +24,12 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: SauveJobs
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/Save/SauveJobs.cs
-    startLine: 5
+    startLine: 8
   assemblies:
   - Stockage
   namespace: Stockage.Save
+  summary: Classe permettant de sauvegarder des jobs et de les logger
+  example: []
   syntax:
     content: 'public class SauveJobs : BaseSave, ISauve'
     content.vb: Public Class SauveJobs Inherits BaseSave Implements ISauve
@@ -65,7 +67,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: TransferedFiles
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/Save/SauveJobs.cs
-    startLine: 9
+    startLine: 12
   assemblies:
   - Stockage
   namespace: Stockage.Save
@@ -94,7 +96,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: .ctor
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/Save/SauveJobs.cs
-    startLine: 10
+    startLine: 13
   assemblies:
   - Stockage
   namespace: Stockage.Save
@@ -126,7 +128,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: UpdateLog
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/Save/SauveJobs.cs
-    startLine: 15
+    startLine: 18
   assemblies:
   - Stockage
   namespace: Stockage.Save
@@ -155,7 +157,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: CopyDirectory
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/Save/SauveJobs.cs
-    startLine: 31
+    startLine: 34
   assemblies:
   - Stockage
   namespace: Stockage.Save
@@ -206,17 +208,21 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: GetDirSize
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/Save/SauveJobs.cs
-    startLine: 79
+    startLine: 87
   assemblies:
   - Stockage
   namespace: Stockage.Save
+  summary: Calcule la taille d'un repertoire
+  example: []
   syntax:
     content: public long GetDirSize(string pPath)
     parameters:
     - id: pPath
       type: System.String
+      description: Chemin du repertoire
     return:
       type: System.Int64
+      description: la taille du repertoire en bytes
     content.vb: Public Function GetDirSize(pPath As String) As Long
   overload: Stockage.Save.SauveJobs.GetDirSize*
   nameWithType.vb: SauveJobs.GetDirSize(String)
