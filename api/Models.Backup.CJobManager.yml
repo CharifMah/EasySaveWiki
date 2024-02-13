@@ -28,10 +28,12 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: CJobManager
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Backup/CJobManager.cs
-    startLine: 4
+    startLine: 7
   assemblies:
   - Models
   namespace: Models.Backup
+  summary: Gestionnaire de jobs
+  example: []
   syntax:
     content: >-
       [DataContract]
@@ -73,10 +75,12 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Jobs
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Backup/CJobManager.cs
-    startLine: 19
+    startLine: 25
   assemblies:
   - Models
   namespace: Models.Backup
+  summary: Liste des jobs gérés
+  example: []
   syntax:
     content: public List<CJob> Jobs { get; }
     parameters: []
@@ -102,10 +106,12 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Name
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Backup/CJobManager.cs
-    startLine: 20
+    startLine: 30
   assemblies:
   - Models
   namespace: Models.Backup
+  summary: Nom du gestionnaire
+  example: []
   syntax:
     content: public string Name { get; set; }
     parameters: []
@@ -131,10 +137,12 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: SauveCollection
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Backup/CJobManager.cs
-    startLine: 21
+    startLine: 35
   assemblies:
   - Models
   namespace: Models.Backup
+  summary: Interface de sauvegarde des données
+  example: []
   syntax:
     content: public ISauve SauveCollection { get; set; }
     parameters: []
@@ -160,7 +168,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: .ctor
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Backup/CJobManager.cs
-    startLine: 28
+    startLine: 43
   assemblies:
   - Models
   namespace: Models.Backup
@@ -194,12 +202,12 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: CreateBackupJob
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Backup/CJobManager.cs
-    startLine: 51
+    startLine: 64
   assemblies:
   - Models
   namespace: Models.Backup
-  summary: Crée un job
-  remarks: Mehmeti faik - 06/02/2024 - fixbug
+  summary: Crée un nouveau job de sauvegarde
+  remarks: Created by Mehmeti Faik on 06/02/2024 Updated validation logic to handle null parameters
   example: []
   syntax:
     content: public bool CreateBackupJob(CJob lJob)
@@ -208,7 +216,7 @@ items:
       type: Models.Backup.CJob
     return:
       type: System.Boolean
-      description: true si reussi
+      description: True si le job a été créé avec succès, false sinon
     content.vb: Public Function CreateBackupJob(lJob As CJob) As Boolean
   overload: Models.Backup.CJobManager.CreateBackupJob*
 - uid: Models.Backup.CJobManager.DeleteJobs(System.Collections.Generic.List{Models.Backup.CJob})
@@ -229,11 +237,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: DeleteJobs
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Backup/CJobManager.cs
-    startLine: 67
+    startLine: 81
   assemblies:
   - Models
   namespace: Models.Backup
-  summary: Supprimé un job par son index
+  summary: Supprimé un job
   remarks: Mehmeti faik
   example: []
   syntax:
@@ -241,6 +249,7 @@ items:
     parameters:
     - id: pJobs
       type: System.Collections.Generic.List{Models.Backup.CJob}
+      description: List de jobs à supprimer
     return:
       type: System.Boolean
       description: true si reussi
@@ -267,17 +276,18 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: RunJobs
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Backup/CJobManager.cs
-    startLine: 79
+    startLine: 93
   assemblies:
   - Models
   namespace: Models.Backup
-  summary: Lance les jobs dans un interval d'index
+  summary: Lance les jobs
   example: []
   syntax:
     content: public List<CJob> RunJobs(List<CJob> pJobs)
     parameters:
     - id: pJobs
       type: System.Collections.Generic.List{Models.Backup.CJob}
+      description: Liste de jobs a lancée
     return:
       type: System.Collections.Generic.List{Models.Backup.CJob}
     content.vb: Public Function RunJobs(pJobs As List(Of CJob)) As List(Of CJob)
@@ -303,7 +313,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: SaveJobs
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Backup/CJobManager.cs
-    startLine: 94
+    startLine: 108
   assemblies:
   - Models
   namespace: Models.Backup
@@ -331,21 +341,21 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: LoadJobs
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Backup/CJobManager.cs
-    startLine: 104
+    startLine: 118
   assemblies:
   - Models
   namespace: Models.Backup
-  summary: Charge les Jobs
+  summary: Charge la liste des jobs depuis un fichier
   example: []
   syntax:
     content: public static CJobManager LoadJobs(string pPath = null)
     parameters:
     - id: pPath
       type: System.String
-      description: Absolute Path
+      description: Chemin du fichier de configuration. Null pour le fichier par défaut.
     return:
       type: Models.Backup.CJobManager
-      description: CJobManager
+      description: Instance du gestionnaire de jobs chargé
     content.vb: Public Shared Function LoadJobs(pPath As String = Nothing) As CJobManager
   overload: Models.Backup.CJobManager.LoadJobs*
   nameWithType.vb: CJobManager.LoadJobs(String)

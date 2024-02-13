@@ -19,10 +19,12 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: CStringLogger
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/Logs/CStringLogger.cs
-    startLine: 2
+    startLine: 5
   assemblies:
   - Stockage
   namespace: Stockage.Logs
+  summary: Logger spécialisé pour les chaines de caractères
+  example: []
   syntax:
     content: 'public class CStringLogger : BaseLogger<string>, ILogger<string>'
     content.vb: Public Class CStringLogger Inherits BaseLogger(Of String) Implements ILogger(Of String)

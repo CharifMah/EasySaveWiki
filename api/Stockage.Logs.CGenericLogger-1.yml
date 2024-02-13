@@ -19,14 +19,17 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: CGenericLogger
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/Logs/CGenericLogger.cs
-    startLine: 2
+    startLine: 6
   assemblies:
   - Stockage
   namespace: Stockage.Logs
+  summary: Classe de logger générique
+  example: []
   syntax:
     content: 'public class CGenericLogger<T> : BaseLogger<T>, ILogger<T>'
     typeParameters:
     - id: T
+      description: Type des objets loggés
     content.vb: Public Class CGenericLogger(Of T) Inherits BaseLogger(Of T) Implements ILogger(Of T)
   inheritance:
   - System.Object

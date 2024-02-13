@@ -115,7 +115,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: .ctor
     path: ../G4-FISA-24/EasySave-G4-FISA-24/EasySave/ViewModels/MainViewModel.cs
-    startLine: 9
+    startLine: 10
   assemblies:
   - EasySave
   namespace: EasySave.ViewModels

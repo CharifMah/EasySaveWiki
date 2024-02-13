@@ -21,10 +21,12 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: BaseView
     path: ../G4-FISA-24/EasySave-G4-FISA-24/EasySave/Views/BaseView.cs
-    startLine: 2
+    startLine: 5
   assemblies:
   - EasySave
   namespace: EasySave.Views
+  summary: Vue de l'application
+  example: []
   syntax:
     content: public abstract class BaseView
     content.vb: Public MustInherit Class BaseView
@@ -59,7 +61,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Title
     path: ../G4-FISA-24/EasySave-G4-FISA-24/EasySave/Views/BaseView.cs
-    startLine: 4
+    startLine: 7
   assemblies:
   - EasySave
   namespace: EasySave.Views
@@ -88,7 +90,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Run
     path: ../G4-FISA-24/EasySave-G4-FISA-24/EasySave/Views/BaseView.cs
-    startLine: 8
+    startLine: 11
   assemblies:
   - EasySave
   namespace: EasySave.Views

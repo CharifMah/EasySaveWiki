@@ -103,7 +103,7 @@ items:
   assemblies:
   - EasySave
   namespace: EasySave.ViewModels
-  summary: Initialise le JobManager
+  summary: Constructeur de JobViewModel initialise le JobManager
   example: []
   syntax:
     content: public JobViewModel()
@@ -134,16 +134,17 @@ items:
   assemblies:
   - EasySave
   namespace: EasySave.ViewModels
-  summary: Lance les jobs selectionnée
+  summary: Lance l'exécution des jobs sélectionnés
   example: []
   syntax:
     content: public List<CJob> RunJobs(List<CJob> pJobs)
     parameters:
     - id: pJobs
       type: System.Collections.Generic.List{Models.Backup.CJob}
+      description: Liste des jobs à lancer
     return:
       type: System.Collections.Generic.List{Models.Backup.CJob}
-      description: List de Job
+      description: Liste mise à jour des jobs avec leur état après exécution
     content.vb: Public Function RunJobs(pJobs As List(Of CJob)) As List(Of CJob)
   overload: EasySave.ViewModels.JobViewModel.RunJobs*
   nameWithType.vb: JobViewModel.RunJobs(List(Of CJob))
@@ -167,20 +168,21 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: CreateBackupJob
     path: ../G4-FISA-24/EasySave-G4-FISA-24/EasySave/ViewModels/JobViewModel.cs
-    startLine: 43
+    startLine: 41
   assemblies:
   - EasySave
   namespace: EasySave.ViewModels
-  summary: Crée un job
+  summary: Crée un nouveau job de sauvegarde
   example: []
   syntax:
     content: public bool CreateBackupJob(CJob lJob)
     parameters:
     - id: lJob
       type: Models.Backup.CJob
+      description: Job à créer
     return:
       type: System.Boolean
-      description: Vrai si le job a été crée
+      description: Succès de la création
     content.vb: Public Function CreateBackupJob(lJob As CJob) As Boolean
   overload: EasySave.ViewModels.JobViewModel.CreateBackupJob*
 - uid: EasySave.ViewModels.JobViewModel.DeleteJobs(System.Collections.Generic.List{Models.Backup.CJob})
@@ -201,7 +203,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: DeleteJobs
     path: ../G4-FISA-24/EasySave-G4-FISA-24/EasySave/ViewModels/JobViewModel.cs
-    startLine: 52
+    startLine: 51
   assemblies:
   - EasySave
   namespace: EasySave.ViewModels
@@ -212,9 +214,10 @@ items:
     parameters:
     - id: pJobs
       type: System.Collections.Generic.List{Models.Backup.CJob}
+      description: List de jobs a delete
     return:
       type: System.Boolean
-      description: ''
+      description: vrai si les jobs on été delete
     content.vb: Public Function DeleteJobs(pJobs As List(Of CJob)) As Boolean
   overload: EasySave.ViewModels.JobViewModel.DeleteJobs*
   nameWithType.vb: JobViewModel.DeleteJobs(List(Of CJob))
@@ -238,10 +241,12 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: SaveJobs
     path: ../G4-FISA-24/EasySave-G4-FISA-24/EasySave/ViewModels/JobViewModel.cs
-    startLine: 57
+    startLine: 59
   assemblies:
   - EasySave
   namespace: EasySave.ViewModels
+  summary: Sauvegarde la configuration des jobs
+  example: []
   syntax:
     content: public void SaveJobs()
     content.vb: Public Sub SaveJobs()
@@ -264,17 +269,21 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: LoadJobs
     path: ../G4-FISA-24/EasySave-G4-FISA-24/EasySave/ViewModels/JobViewModel.cs
-    startLine: 61
+    startLine: 69
   assemblies:
   - EasySave
   namespace: EasySave.ViewModels
+  summary: Charge la liste des jobs depuis un fichier
+  example: []
   syntax:
     content: public void LoadJobs(bool IsDefaultFile = true, string pPath = "")
     parameters:
     - id: IsDefaultFile
       type: System.Boolean
+      description: Indique si le fichier par défaut doit être chargé
     - id: pPath
       type: System.String
+      description: Chemin du fichier à charger, vide pour le fichier par défaut
     content.vb: Public Sub LoadJobs(IsDefaultFile As Boolean = True, pPath As String = "")
   overload: EasySave.ViewModels.JobViewModel.LoadJobs*
   nameWithType.vb: JobViewModel.LoadJobs(Boolean, String)

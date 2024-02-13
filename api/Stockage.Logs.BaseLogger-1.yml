@@ -27,13 +27,13 @@ items:
   assemblies:
   - Stockage
   namespace: Stockage.Logs
-  summary: BaseLogger
+  summary: Classe de base abstraite pour les loggers.
   example: []
   syntax:
     content: 'public abstract class BaseLogger<T> : ILogger<T>'
     typeParameters:
     - id: T
-      description: Type du Logger
+      description: Type des objets loggés
     content.vb: Public MustInherit Class BaseLogger(Of T) Implements ILogger(Of T)
   inheritance:
   - System.Object
@@ -71,10 +71,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Datas
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/Logs/BaseLog.cs
-    startLine: 10
+    startLine: 13
   assemblies:
   - Stockage
   namespace: Stockage.Logs
+  summary: Collection de données observables
   example: []
   syntax:
     content: public ObservableCollection<T> Datas { get; }
@@ -105,7 +106,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: .ctor
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/Logs/BaseLog.cs
-    startLine: 11
+    startLine: 14
   assemblies:
   - Stockage
   namespace: Stockage.Logs
@@ -134,27 +135,27 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Log
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/Logs/BaseLog.cs
-    startLine: 22
+    startLine: 25
   assemblies:
   - Stockage
   namespace: Stockage.Logs
-  summary: ''
+  summary: Méthode de logging des données
   example: []
   syntax:
     content: public virtual void Log(T pData, bool pSerialize = true, bool pAppend = true, string pFileName = "Logs")
     parameters:
     - id: pData
       type: '{T}'
-      description: ''
+      description: Données à logger
     - id: pSerialize
       type: System.Boolean
-      description: ''
+      description: Indique si les données doivent être sérialisées avant d'être loggées
     - id: pAppend
       type: System.Boolean
-      description: ''
+      description: Indique si on ajoute le logging au fichier existant ou si on recrée le fichier
     - id: pFileName
       type: System.String
-      description: ''
+      description: Nom du fichier où sont loggées les données
     content.vb: Public Overridable Sub Log(pData As T, pSerialize As Boolean = True, pAppend As Boolean = True, pFileName As String = "Logs")
   overload: Stockage.Logs.BaseLogger`1.Log*
   implements:
@@ -180,11 +181,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Clear
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/Logs/BaseLog.cs
-    startLine: 36
+    startLine: 39
   assemblies:
   - Stockage
   namespace: Stockage.Logs
-  summary: ''
+  summary: Vide la collection de données
   example: []
   syntax:
     content: public virtual void Clear()

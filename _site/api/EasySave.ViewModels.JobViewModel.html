@@ -173,7 +173,7 @@ Class JobViewModel  <a class="header-action link-secondary" title="View source" 
   <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-G4-FISA-24/EasySave/ViewModels/JobViewModel.cs&amp;version=GBdevelop-livrable-1&amp;line=21"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Initialise le JobManager</p>
+  <div class="markdown level1 summary"><p>Constructeur de JobViewModel initialise le JobManager</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -237,10 +237,10 @@ Class JobViewModel  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="EasySave_ViewModels_JobViewModel_CreateBackupJob_Models_Backup_CJob_" data-uid="EasySave.ViewModels.JobViewModel.CreateBackupJob(Models.Backup.CJob)">
   CreateBackupJob(CJob)
-  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-G4-FISA-24/EasySave/ViewModels/JobViewModel.cs&amp;version=GBdevelop-livrable-1&amp;line=44"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-G4-FISA-24/EasySave/ViewModels/JobViewModel.cs&amp;version=GBdevelop-livrable-1&amp;line=42"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Crée un job</p>
+  <div class="markdown level1 summary"><p>Crée un nouveau job de sauvegarde</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -251,13 +251,14 @@ Class JobViewModel  <a class="header-action link-secondary" title="View source" 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>lJob</code> <a class="xref" href="Models.Backup.CJob.html">CJob</a></dt>
-    <dd></dd>
+    <dd><p>Job à créer</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd><p>Vrai si le job a été crée</p>
+    <dd><p>Succès de la création</p>
 </dd>
   </dl>
 
@@ -275,7 +276,7 @@ Class JobViewModel  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="EasySave_ViewModels_JobViewModel_DeleteJobs_System_Collections_Generic_List_Models_Backup_CJob__" data-uid="EasySave.ViewModels.JobViewModel.DeleteJobs(System.Collections.Generic.List{Models.Backup.CJob})">
   DeleteJobs(List&lt;CJob&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-G4-FISA-24/EasySave/ViewModels/JobViewModel.cs&amp;version=GBdevelop-livrable-1&amp;line=53"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-G4-FISA-24/EasySave/ViewModels/JobViewModel.cs&amp;version=GBdevelop-livrable-1&amp;line=52"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Supprimer un ou plusieurs jobs</p>
@@ -289,13 +290,15 @@ Class JobViewModel  <a class="header-action link-secondary" title="View source" 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>pJobs</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="Models.Backup.CJob.html">CJob</a>&gt;</dt>
-    <dd></dd>
+    <dd><p>List de jobs a delete</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
+    <dd><p>vrai si les jobs on été delete</p>
+</dd>
   </dl>
 
 
@@ -312,10 +315,11 @@ Class JobViewModel  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="EasySave_ViewModels_JobViewModel_LoadJobs_System_Boolean_System_String_" data-uid="EasySave.ViewModels.JobViewModel.LoadJobs(System.Boolean,System.String)">
   LoadJobs(bool, string)
-  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-G4-FISA-24/EasySave/ViewModels/JobViewModel.cs&amp;version=GBdevelop-livrable-1&amp;line=62"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-G4-FISA-24/EasySave/ViewModels/JobViewModel.cs&amp;version=GBdevelop-livrable-1&amp;line=70"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Charge la liste des jobs depuis un fichier</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -325,9 +329,11 @@ Class JobViewModel  <a class="header-action link-secondary" title="View source" 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>IsDefaultFile</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
+    <dd><p>Indique si le fichier par défaut doit être chargé</p>
+</dd>
     <dt><code>pPath</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>Chemin du fichier à charger, vide pour le fichier par défaut</p>
+</dd>
   </dl>
 
 
@@ -348,7 +354,7 @@ Class JobViewModel  <a class="header-action link-secondary" title="View source" 
   <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-G4-FISA-24/EasySave/ViewModels/JobViewModel.cs&amp;version=GBdevelop-livrable-1&amp;line=32"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Lance les jobs selectionnée</p>
+  <div class="markdown level1 summary"><p>Lance l'exécution des jobs sélectionnés</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -359,13 +365,14 @@ Class JobViewModel  <a class="header-action link-secondary" title="View source" 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>pJobs</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="Models.Backup.CJob.html">CJob</a>&gt;</dt>
-    <dd></dd>
+    <dd><p>Liste des jobs à lancer</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="Models.Backup.CJob.html">CJob</a>&gt;</dt>
-    <dd><p>List de Job</p>
+    <dd><p>Liste mise à jour des jobs avec leur état après exécution</p>
 </dd>
   </dl>
 
@@ -383,10 +390,11 @@ Class JobViewModel  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="EasySave_ViewModels_JobViewModel_SaveJobs" data-uid="EasySave.ViewModels.JobViewModel.SaveJobs">
   SaveJobs()
-  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-G4-FISA-24/EasySave/ViewModels/JobViewModel.cs&amp;version=GBdevelop-livrable-1&amp;line=58"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-G4-FISA-24/EasySave/ViewModels/JobViewModel.cs&amp;version=GBdevelop-livrable-1&amp;line=60"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Sauvegarde la configuration des jobs</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">

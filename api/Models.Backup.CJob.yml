@@ -30,7 +30,7 @@ items:
   assemblies:
   - Models
   namespace: Models.Backup
-  summary: ''
+  summary: Représente un travail/tâche à exécuter
   example: []
   syntax:
     content: >-
@@ -74,10 +74,12 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Name
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Backup/CJob.cs
-    startLine: 25
+    startLine: 29
   assemblies:
   - Models
   namespace: Models.Backup
+  summary: Nom du job de sauvegarde
+  example: []
   syntax:
     content: public string Name { get; set; }
     parameters: []
@@ -103,10 +105,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: SourceDirectory
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Backup/CJob.cs
-    startLine: 26
+    startLine: 34
   assemblies:
   - Models
   namespace: Models.Backup
+  summary: Répertoire source à sauvegarder
   example: []
   syntax:
     content: public string SourceDirectory { get; set; }
@@ -135,10 +138,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: TargetDirectory
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Backup/CJob.cs
-    startLine: 27
+    startLine: 39
   assemblies:
   - Models
   namespace: Models.Backup
+  summary: Répertoire cible de la sauvegarde
   example: []
   syntax:
     content: public string TargetDirectory { get; set; }
@@ -167,10 +171,12 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: BackupType
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Backup/CJob.cs
-    startLine: 28
+    startLine: 44
   assemblies:
   - Models
   namespace: Models.Backup
+  summary: Type de sauvegarde
+  example: []
   syntax:
     content: public ETypeBackup BackupType { get; set; }
     parameters: []
@@ -196,7 +202,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: .ctor
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Backup/CJob.cs
-    startLine: 40
+    startLine: 57
   assemblies:
   - Models
   namespace: Models.Backup
@@ -241,15 +247,18 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Run
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Backup/CJob.cs
-    startLine: 50
+    startLine: 72
   assemblies:
   - Models
   namespace: Models.Backup
+  summary: Lance l'exécution du job de sauvegarde
+  example: []
   syntax:
     content: public void Run(SauveJobs pSauveJobs)
     parameters:
     - id: pSauveJobs
       type: Stockage.SauveJobs
+      description: Objet de sauvegarde des données de jobs
     content.vb: Public Sub Run(pSauveJobs As SauveJobs)
   overload: Models.Backup.CJob.Run*
 - uid: Models.Backup.CJob.Equals(System.Object)
@@ -270,7 +279,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Equals
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Backup/CJob.cs
-    startLine: 101
+    startLine: 129
   assemblies:
   - Models
   namespace: Models.Backup
