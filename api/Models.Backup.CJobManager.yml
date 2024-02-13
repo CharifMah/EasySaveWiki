@@ -276,20 +276,21 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: RunJobs
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Backup/CJobManager.cs
-    startLine: 93
+    startLine: 97
   assemblies:
   - Models
   namespace: Models.Backup
-  summary: Lance les jobs
+  summary: Lance l'exécution de la liste de jobs passée en paramètre
   example: []
   syntax:
     content: public List<CJob> RunJobs(List<CJob> pJobs)
     parameters:
     - id: pJobs
       type: System.Collections.Generic.List{Models.Backup.CJob}
-      description: Liste de jobs a lancée
+      description: Liste des jobs à exécuter
     return:
       type: System.Collections.Generic.List{Models.Backup.CJob}
+      description: La liste des jobs, mise à jour avec leur état après exécution
     content.vb: Public Function RunJobs(pJobs As List(Of CJob)) As List(Of CJob)
   overload: Models.Backup.CJobManager.RunJobs*
   nameWithType.vb: CJobManager.RunJobs(List(Of CJob))
@@ -313,7 +314,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: SaveJobs
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Backup/CJobManager.cs
-    startLine: 108
+    startLine: 112
   assemblies:
   - Models
   namespace: Models.Backup
@@ -341,7 +342,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: LoadJobs
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Backup/CJobManager.cs
-    startLine: 118
+    startLine: 122
   assemblies:
   - Models
   namespace: Models.Backup

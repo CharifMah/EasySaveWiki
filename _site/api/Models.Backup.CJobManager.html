@@ -377,7 +377,7 @@ public class CJobManager</code></pre>
 
   <h3 id="Models_Backup_CJobManager_LoadJobs_System_String_" data-uid="Models.Backup.CJobManager.LoadJobs(System.String)">
   LoadJobs(string)
-  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-G4-FISA-24/Models/Backup/CJobManager.cs&amp;version=GBdevelop-livrable-1&amp;line=119"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-G4-FISA-24/Models/Backup/CJobManager.cs&amp;version=GBdevelop-livrable-1&amp;line=123"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Charge la liste des jobs depuis un fichier</p>
@@ -416,10 +416,10 @@ public class CJobManager</code></pre>
 
   <h3 id="Models_Backup_CJobManager_RunJobs_System_Collections_Generic_List_Models_Backup_CJob__" data-uid="Models.Backup.CJobManager.RunJobs(System.Collections.Generic.List{Models.Backup.CJob})">
   RunJobs(List&lt;CJob&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-G4-FISA-24/Models/Backup/CJobManager.cs&amp;version=GBdevelop-livrable-1&amp;line=94"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-G4-FISA-24/Models/Backup/CJobManager.cs&amp;version=GBdevelop-livrable-1&amp;line=98"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Lance les jobs</p>
+  <div class="markdown level1 summary"><p>Lance l'exécution de la liste de jobs passée en paramètre</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -430,14 +430,15 @@ public class CJobManager</code></pre>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>pJobs</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="Models.Backup.CJob.html">CJob</a>&gt;</dt>
-    <dd><p>Liste de jobs a lancée</p>
+    <dd><p>Liste des jobs à exécuter</p>
 </dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="Models.Backup.CJob.html">CJob</a>&gt;</dt>
-    <dd></dd>
+    <dd><p>La liste des jobs, mise à jour avec leur état après exécution</p>
+</dd>
   </dl>
 
 
@@ -454,7 +455,7 @@ public class CJobManager</code></pre>
 
   <h3 id="Models_Backup_CJobManager_SaveJobs" data-uid="Models.Backup.CJobManager.SaveJobs">
   SaveJobs()
-  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-G4-FISA-24/Models/Backup/CJobManager.cs&amp;version=GBdevelop-livrable-1&amp;line=109"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-G4-FISA-24/Models/Backup/CJobManager.cs&amp;version=GBdevelop-livrable-1&amp;line=113"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Sauvegarde le JobManager</p>

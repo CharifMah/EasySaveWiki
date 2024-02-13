@@ -360,7 +360,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Clear
     path: ../G4-FISA-24/EasySave-G4-FISA-24/EasySave/Views/ConsoleExtention.cs
-    startLine: 165
+    startLine: 166
   assemblies:
   - EasySave
   namespace: EasySave.Views
@@ -388,7 +388,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: ReadFolder
     path: ../G4-FISA-24/EasySave-G4-FISA-24/EasySave/Views/ConsoleExtention.cs
-    startLine: 183
+    startLine: 184
   assemblies:
   - EasySave
   namespace: EasySave.Views
@@ -426,7 +426,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: ReadFile
     path: ../G4-FISA-24/EasySave-G4-FISA-24/EasySave/Views/ConsoleExtention.cs
-    startLine: 226
+    startLine: 227
   assemblies:
   - EasySave
   namespace: EasySave.Views
