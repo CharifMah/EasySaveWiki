@@ -6,6 +6,7 @@ items:
   children:
   - EasySave.Views.BaseView
   - EasySave.Views.ConsoleExtention
+  - EasySave.Views.JobView
   - EasySave.Views.LangueView
   - EasySave.Views.View
   langs:
@@ -31,6 +32,12 @@ references:
   name: ConsoleExtention
   nameWithType: ConsoleExtention
   fullName: EasySave.Views.ConsoleExtention
+- uid: EasySave.Views.JobView
+  commentId: T:EasySave.Views.JobView
+  href: EasySave.Views.JobView.html
+  name: JobView
+  nameWithType: JobView
+  fullName: EasySave.Views.JobView
 - uid: EasySave.Views.LangueView
   commentId: T:EasySave.Views.LangueView
   href: EasySave.Views.LangueView.html

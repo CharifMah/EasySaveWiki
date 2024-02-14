@@ -74,6 +74,36 @@
       "version": ""
     },
     {
+      "type": "Resource",
+      "source_relative_path": "_site/User-Guide/en/images/en-menu.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/User-Guide/en/images/en-menu.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/User-Guide/fr/images/fr-menu.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/User-Guide/fr/images/fr-menu.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/docs/Guide d'utilisation/images/menu.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/docs/Guide d'utilisation/images/menu.png"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "ManagedReference",
       "source_relative_path": "api/EasySave.ViewModels.BaseViewModel.yml",
       "output": {
@@ -139,6 +169,16 @@
       "output": {
         ".html": {
           "relative_path": "api/EasySave.Views.ConsoleExtention.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EasySave.Views.JobView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EasySave.Views.JobView.html"
         }
       },
       "version": ""
@@ -688,20 +728,10 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "docs/Guide d'utilisation/Guide d'utilisation.md",
+      "source_relative_path": "docs/Documentation Technique/fr/Documentation Technique.md",
       "output": {
         ".html": {
-          "relative_path": "docs/Guide d'utilisation/Guide d'utilisation.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docs/Guide d'utilisation/images/menu.png",
-      "output": {
-        "resource": {
-          "relative_path": "docs/Guide d'utilisation/images/menu.png"
+          "relative_path": "docs/Documentation Technique/fr/Documentation Technique.html"
         }
       },
       "version": ""

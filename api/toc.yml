@@ -7,6 +7,8 @@ items:
     name: BaseView
   - uid: EasySave.Views.ConsoleExtention
     name: ConsoleExtention
+  - uid: EasySave.Views.JobView
+    name: JobView
   - uid: EasySave.Views.LangueView
     name: LangueView
   - uid: EasySave.Views.View

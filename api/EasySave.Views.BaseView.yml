@@ -33,6 +33,7 @@ items:
   inheritance:
   - System.Object
   derivedClasses:
+  - EasySave.Views.JobView
   - EasySave.Views.LangueView
   - EasySave.Views.View
   inheritedMembers:
