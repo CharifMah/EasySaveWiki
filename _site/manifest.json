@@ -31,11 +31,11 @@
       "version": ""
     },
     {
-      "type": "Resource",
-      "source_relative_path": "TechnicalDocumentation/en/images/Package.png",
+      "type": "Conceptual",
+      "source_relative_path": "TechnicalDocumentation/en/TechnicalDocumentation.md",
       "output": {
-        "resource": {
-          "relative_path": "TechnicalDocumentation/en/images/Package.png"
+        ".html": {
+          "relative_path": "TechnicalDocumentation/en/TechnicalDocumentation.html"
         }
       },
       "version": ""
@@ -102,6 +102,16 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "TechnicalDocumentation/en/images/package.png",
+      "output": {
+        "resource": {
+          "relative_path": "TechnicalDocumentation/en/images/package.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "TechnicalDocumentation/en/images/releases-access.png",
       "output": {
         "resource": {
@@ -126,16 +136,6 @@
       "output": {
         ".html": {
           "relative_path": "TechnicalDocumentation/fr/Documentation Technique.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "TechnicalDocumentation/fr/images/Package.png",
-      "output": {
-        "resource": {
-          "relative_path": "TechnicalDocumentation/fr/images/Package.png"
         }
       },
       "version": ""
@@ -196,6 +196,16 @@
       "output": {
         "resource": {
           "relative_path": "TechnicalDocumentation/fr/images/integration-processus.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "TechnicalDocumentation/fr/images/package.png",
+      "output": {
+        "resource": {
+          "relative_path": "TechnicalDocumentation/fr/images/package.png"
         }
       },
       "version": ""
@@ -905,29 +915,6 @@
         },
         ".json": {
           "relative_path": "api/toc.json"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "docs/introduction.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/introduction.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "docs/toc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "docs/toc.html"
-        },
-        ".json": {
-          "relative_path": "docs/toc.json"
         }
       },
       "version": ""

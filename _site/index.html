@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>This is the HOMEPAGE. | EasySaveWiki </title>
+      <title>Introduction | EasySaveWiki </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="This is the HOMEPAGE. | EasySaveWiki ">
+      <meta name="title" content="Introduction | EasySaveWiki ">
       
       
       <link rel="icon" href="favicon.ico">
@@ -39,7 +39,7 @@
   </script>
 
 
-  <body class="tex2jax_ignore" data-layout="landing" data-yaml-mime="">
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
     <header class="bg-body border-bottom">
       <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
         <div class="container-xxl flex-nowrap">
@@ -85,13 +85,93 @@
         </div>
 
         <article data-uid="">
-<h1 id="this-is-the-homepage">This is the <strong>HOMEPAGE</strong>.</h1>
+<h1 id="introduction">Introduction</h1>
 
-<p>Refer to <a href="http://daringfireball.net/projects/markdown/">Markdown</a> for how to write markdown files.</p>
-<h2 id="quick-start-notes">Quick Start Notes:</h2>
+<p>La branche livrable-1 contient la première version fonctionnelle d'EasySave, conformément au cahier des charges de ProSoft.</p>
+<p>Cette version initie le développement d'une application console en .NET Core pour la gestion des travaux de sauvegarde.</p>
+<h1 id="prérequis">Prérequis</h1>
 <ol>
-<li>Add images to the <em>images</em> folder if the file is referencing an image.</li>
+<li>Installation process</li>
 </ol>
+<ul>
+<li>Clonez la branche livrable-1 et ouvrez le projet avec Visual Studio 2022.</li>
+<li>Assurez-vous que .NET Core 6.X est installé sur votre machine.</li>
+</ul>
+<ol start="2">
+<li>Software dependencies</li>
+</ol>
+<ul>
+<li>.NET Core 6.X</li>
+<li>Visual Studio 2022</li>
+</ul>
+<ol start="3">
+<li>Latest releases</li>
+</ol>
+<p>Veuillez consulter l'onglet Releases pour accéder à la dernière version du livrable 1 (Pipelines -&gt; Releases) :</p>
+<p><a href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_release?_a=releases&amp;view=mine&amp;definitionId=1">https://dev.azure.com/faikmehmeti/G4-FISA-24/_release?_a=releases&amp;view=mine&amp;definitionId=1</a></p>
+<h1 id="build-and-test">Build and Test</h1>
+<ul>
+<li>Un pull request vers la branche develop-livrable-1 entraîne automatiquement un processus de build et de tests (tests unitaires uniquement).</li>
+<li>Un pull request vers la branche livrable-1 entraîne automatiquement un processus d'intégration continue, allant du build, aux tests, jusqu'à la publication d'une release.</li>
+</ul>
+<p>Ces processus sont consultables via des pipelines : <a href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_build">https://dev.azure.com/faikmehmeti/G4-FISA-24/_build</a></p>
+<p>NOTES : Un seul agent pourra gérer l'éxécution d'un seul pipeline, le parallélisme n'étant pas possible.</p>
+<h1 id="contribute">Contribute</h1>
+<p>Pour contribuer à cette branche, voici le processus à suivre et les nommages à respecter :</p>
+<h2 id="depuis-boards-menu-latéral">Depuis Boards (Menu latéral)</h2>
+<ol>
+<li><p>Dans backlogs :</p>
+<ul>
+<li>Ajout d'un User Story (Fonctionnalité) -&gt; Button (New Work Item) -&gt; Title: description ...</li>
+<li>Ajout d'une tâche fixbug -&gt; Button (New Work Item) -&gt; Title: description...</li>
+</ul>
+</li>
+<li><p>Dans boards (Tableau Kanban) :</p>
+<ul>
+<li>Mettre à jour l'état de la tache -&gt; Boards (Tableau KanBan : To Do, Doing, Done)</li>
+<li>Active (Fonctionnalité en cours de développement), Closed (Fonctionnalité fini).</li>
+<li>Ne pas mettre la card sur l'état resolved pour garder une trace, sinon elle disparaîtra.</li>
+</ul>
+</li>
+<li><p>Work items :</p>
+<ul>
+<li>Aller : sur la tâche que vous voulez effectuer</li>
+<li>Pour associer : une branche à la tâche : create a branch</li>
+<li>Nom de la branche : feature/NumTache-description-courte ou fixbug/NumTache-description-courte</li>
+<li>Based on : Toujours tirer la branche depuis develop-livrable-1</li>
+</ul>
+</li>
+<li><p>Push/Pull Request/Merge Conflicts on Develop :</p>
+<ul>
+<li>Lors du push, notif : Create a pull request</li>
+<li>Into : develop-livrable-1</li>
+<li>Mettre une description détaillée</li>
+<li>Attente du merge conflicts + Pipeline Build &amp; Test</li>
+<li>Complete PR -&gt; Complete merge</li>
+</ul>
+</li>
+<li><p>Une fois la PR mergée sur Azure Devops, mettre à jour la branche livrable-1 si tout fonctionne</p>
+</li>
+</ol>
+<ul>
+<li><p>En local :</p>
+<ul>
+<li>git checkout develop-livrable-1</li>
+<li>git pull origin develop-livrable-1 (Pour récup les PR mergées)</li>
+<li>Tester sur l'application si tout marche</li>
+</ul>
+</li>
+</ul>
+<h2 id="depuis-repos-menu-latéral">Depuis Repos (Menu latéral)</h2>
+<ul>
+<li><p>Sur azure devops :</p>
+<ul>
+<li>Créer une nouvelle PR (onglet Pull requests) avec cette fois into livrable-1</li>
+<li>Attente du merge conflicts + Pipeline Build &amp; Test &amp; Push Release</li>
+<li>!!! Attention lors du merge validé, il faut décocher &quot;supprimer cette branche&quot; !!!</li>
+</ul>
+</li>
+</ul>
 
 </article>
 

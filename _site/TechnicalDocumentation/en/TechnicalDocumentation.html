@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/CharifMah/EasySaveWiki/blob/main/TechnicalDocumentation/fr/Documentation Technique.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/CharifMah/EasySaveWiki/blob/main/TechnicalDocumentation/en/TechnicalDocumentation.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -88,53 +88,53 @@
 <h1 id="easy-save">Easy Save</h1>
 
 <h2 id="introduction">Introduction</h2>
-<p>Le livrable 1 contient la première version fonctionnelle d'EasySave, conformément aux spécifications de ProSoft.</p>
-<p>Cette version initie le développement d'une application console .NET Core pour la gestion des tâches de sauvegarde.</p>
-<h3 id="prérequis">Prérequis</h3>
+<p>livrable 1 contains the first functional version of EasySave, as specified by ProSoft.</p>
+<p>This version initiates the development of a .NET Core console application for managing backup tasks.</p>
+<h3 id="prerequisites">Prerequisites</h3>
 <ol>
-<li>Processus d'installation</li>
+<li>Installation process</li>
 </ol>
 <ul>
-<li>Cloner la branche livrable-1 et ouvrir le projet avec Visual Studio 2022.</li>
-<li>Assurez-vous d'avoir installé .NET Core 6.0.</li>
+<li>Clone the livrable-1 branch and open the project with Visual Studio 2022.</li>
+<li>Make sure you have installed .NET Core 6.0.</li>
 </ul>
 <ol start="2">
-<li>Dépendances logicielles</li>
+<li>Software dependencies</li>
 </ol>
 <ul>
 <li>.NET Core 6.0</li>
 <li>Visual Studio 2022</li>
 </ul>
-<h2 id="executer-easy-save">Executer Easy Save</h2>
+<h2 id="execute-easy-save">Execute Easy Save</h2>
 <h4 id="windows">Windows</h4>
-<p>Lancer EasySave.exe dans le répertoire <code>../G4-FISA-24/EasySave-G4-FISA-24/EasySave/bin/Debug/net6.0/EasySave.exe</code>.</p>
+<p>Run EasySave.exe in directory <code>../G4-FISA-24/EasySave-G4-FISA-24/EasySave/bin/Debug/net6.0/EasySave.exe</code>.</p>
 <h4 id="linux">Linux</h4>
-<p>Exécutez <code>./EasySave</code> apres avoir fait la publication depuis visual studio.</p>
-<h2 id="publication-de-easysave">Publication de EasySave</h2>
+<p>Run <code>./EasySave</code> after publishing from visual studio.</p>
+<h2 id="publishing-easysave">Publishing EasySave</h2>
 <p><img src="images/image.png" alt="alt text"></p>
-<p>Il faut specifier le 'Target runtime' en fonction du système d'exploitation</p>
+<p>You need to specify the 'Target runtime' according to the operating system.</p>
 <p><img src="images/image-1.png" alt="alt text"></p>
 <h3 id="tests">Tests</h3>
-<p>Ouvrez l'explorateur de tests dans Visual Studio et exécutez les tests unitaires.</p>
+<p>Open the Test Explorer in Visual Studio and run the unit tests.</p>
 <p><img src="images/image-2.png" alt="alt text"></p>
 <p><img src="images/image-3.png" alt="alt text"></p>
-<p>Tous les tests sont testés pendant la phase CI/CD, mais il est préférable d'exécuter les tests avant de 'push'.</p>
-<h3 id="dernières-versions">Dernières versions</h3>
-<p>Veuillez consulter l'onglet &quot;releases&quot; pour accéder à la dernière version du livrable 1 (Pipelines -&gt; Releases) :</p>
+<p>All tests are tested during the CI/CD phase, but it's best to run the tests before pushing.</p>
+<h3 id="latest-versions">Latest versions</h3>
+<p>Please consult the &quot;releases&quot; tab to access the latest version of livrable 1 (Pipelines -&gt; Releases):</p>
 <p><a href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_release?_a=releases&amp;view=mine&amp;definitionId=1">https://dev.azure.com/faikmehmeti/G4-FISA-24/_release?_a=releases&amp;view=mine&amp;definitionId=1</a></p>
-<h3 id="fonctionnalités">Fonctionnalités</h3>
+<h3 id="features">Features</h3>
 <ul>
-<li>Sauvegarde séquentielle</li>
-<li>Journaux quotidiens</li>
-<li>Journaux d'état</li>
-<li>Choisir la langue</li>
-<li>Lister les jobs</li>
-<li>Charger une configuration de Jobs</li>
-<li>Créer un job</li>
-<li>Supprimer un job</li>
-<li>Lancer les jobs</li>
+<li>Sequential backup</li>
+<li>Daily logs</li>
+<li>Status logsv</li>
+<li>Select language</li>
+<li>List jobs</li>
+<li>Load job configuration</li>
+<li>Create a job</li>
+<li>Delete a job</li>
+<li>Launch jobs</li>
 </ul>
-<h3 id="point-dentrée-de-lapplication-console">Point d'entrée de l'application console</h3>
+<h3 id="console-application-entry-point">Console application entry point</h3>
 <pre><code class="lang-csharp">using View = EasySave.Views.View;
 namespace EasySave // Note: actual namespace depends on the project name.
 {
@@ -155,46 +155,46 @@ namespace EasySave // Note: actual namespace depends on the project name.
 </code></pre>
 <h3 id="architecture">Architecture</h3>
 <p><img src="images/package.png" alt="alt text"></p>
-<p>L'architecture est basée sur un modèle MVVM avec :</p>
+<p>The architecture is based on an MVVM model with :</p>
 <ul>
-<li><strong>Modèles</strong> : classes représentant les données (<a href="https://charifmah.github.io/EasySaveWiki/api/Models.Backup.CJob.html">CJob</a>, <a href="https://charifmah.github.io/EasySaveWiki/api/Models.Backup.CJobManager.html">CJobManager</a>, <a href="https://charifmah.github.io/EasySaveWiki/api/Models.CSettings.html">CSettings</a>, etc.)</li>
-<li><strong>Vues</strong> :  classes représentant les vues (<a href="https://charifmah.github.io/EasySaveWiki/api/EasySave.Views.BaseView.html">BaseView</a>, <a href="https://charifmah.github.io/EasySaveWiki/api/EasySave.Views.View.html">View</a>, <a href="https://charifmah.github.io/EasySaveWiki/api/EasySave.Views.JobView.html">JobView</a>, etc.)</li>
-<li><strong>ViewModels</strong> : classes faisant le lien entre modèles et vues.</li>
+<li><strong>Models</strong> : classes representing data (<a href="https://charifmah.github.io/EasySaveWiki/api/Models.Backup.CJob.html">CJob</a>, <a href="https://charifmah.github.io/EasySaveWiki/api/Models.Backup.CJobManager.html">CJobManager</a>, <a href="https://charifmah.github.io/EasySaveWiki/api/Models.CSettings.html">CSettings</a>, etc.)</li>
+<li><strong>Views</strong>: classes representing views (<a href="https://charifmah.github.io/EasySaveWiki/api/EasySave.Views.BaseView.html">BaseView</a>, <a href="https://charifmah.github.io/EasySaveWiki/api/EasySave.Views.View.html">View</a>, <a href="https://charifmah.github.io/EasySaveWiki/api/EasySave.Views.JobView.html">JobView</a>, etc.).</li>
+<li><strong>ViewModels</strong>: classes linking models and views.</li>
 </ul>
-<h3 id="systeme-de-log">Systeme de Log</h3>
-<p>Emplacement par defaut du <a href="https://charifmah.github.io/EasySaveWiki/api/Models.Backup.CJobManager.html">CJobManager</a> et <a href="https://charifmah.github.io/EasySaveWiki/api/Models.Backup.CJobManager.html">CSettings</a> et l'emplacement des <a href="https://charifmah.github.io/EasySaveWiki/api/LogsModels.html">modèle de logs</a> stockée grace aux classes de journalisation dans le package <a href="https://charifmah.github.io/EasySaveWiki/api/LogsModels.html">Logs</a></p>
-<p>L'emplacement actuel des journaux d'événements est stocké dans le dossier <code>Logs</code>.</p>
-<p>L'emplacement actuel des paramètres de l'utilisateur est stocké dans le répertoire racine <code>Settings.json</code>.</p>
-<p>L'emplacement des tâches de sauvegarde est stocké dans le dossier <code>Jobs</code>.</p>
-<p>Les logs dont le nom est formaté dans ce type <code>Logs - 2024-02-15</code> sont des logs journalier.</p>
-<p>Le fichier <code>Logs.json</code> est l'état du journal.</p>
-<h1 id="processus-dintégration-continue-ci-et-de-déploiement-continu-cd-utilisant-azure-devops">Processus d'intégration continue (CI) et de déploiement continu (CD) utilisant Azure DevOps</h1>
-<h2 id="configuration-de-lintégration-continue">Configuration de l'Intégration Continue</h2>
-<h3 id="déclenchement-des-pipelines">Déclenchement des Pipelines</h3>
-<p>Les pipelines d'intégration continue sont configurés pour se déclencher automatiquement lors d'un pull request vers la branche principale. La validation de l'intégration continue est un prérequis avant toute fusion de code.</p>
-<h3 id="processus-dintégration">Processus d'Intégration</h3>
+<h3 id="log-system">Log System</h3>
+<p>Default location of <a href="https://charifmah.github.io/EasySaveWiki/api/Models.Backup.CJobManager.html">CJobManager</a> and <a href="https://charifmah.github.io/EasySaveWiki/api/Models.Backup.CJobManager.html">CSettings</a> and location of <a href="https://charifmah.github.io/EasySaveWiki/api/LogsModels.html">log model</a> stored using the logging classes in the <a href="https://charifmah.github.io/EasySaveWiki/api/LogsModels.html">Logs</a> package.</p>
+<p>The current location of event logs is stored in the <code>Logs</code> folder.</p>
+<p>The current location of user settings is stored in the root directory <code>Settings.json</code>.</p>
+<p>The location of backup jobs is stored in the <code>Jobs</code> folder.</p>
+<p>Logs with names formatted as <code>Logs - 2024-02-15</code> are daily logs.</p>
+<p>The <code>Logs.json</code> file is the log status.</p>
+<h1 id="continuous-integration-ci-and-continuous-deployment-cd-processes-using-azure-devops">Continuous Integration (CI) and Continuous Deployment (CD) processes using Azure DevOps</h1>
+<h2 id="continuous-integration-configuration">Continuous Integration configuration</h2>
+<h3 id="triggering-pipelines">Triggering pipelines</h3>
+<p>Continuous integration pipelines are configured to trigger automatically when a pull request is made to the main branch. Continuous integration validation is a prerequisite for any code merge.</p>
+<h3 id="integration-process">Integration process</h3>
 <ul>
-<li>Build : Compilation du code source en un exécutable ou en un paquet déployable.</li>
-<li>Tests Automatisés : Exécution de tests pour vérifier la qualité et la fonctionnalité du code.</li>
-<li>Publication des Releases : Création et stockage des artefacts de release dans Azure DevOps.</li>
+<li>Build: Compilation of source code into an executable or deployable package.</li>
+<li>Automated Testing: Execution of tests to verify code quality and functionality.</li>
+<li>Release Publishing: Creation and storage of release artifacts in Azure DevOps.</li>
 </ul>
-<p><img src="images/integration-processus.png" alt="alt text"></p>
-<h2 id="gestion-du-déploiement-continu">Gestion du Déploiement Continu</h2>
-<p>Bien que l'intégration continue soit automatisée, le déploiement continu nécessite actuellement une intervention manuelle.</p>
-<h3 id="accès-aux-releases">Accès aux Releases</h3>
+<p><img src="images/integration-process.png" alt="alt text"></p>
+<h2 id="continuous-deployment-management">Continuous Deployment Management</h2>
+<p>Although continuous integration is automated, continuous deployment currently requires manual intervention.</p>
+<h3 id="access-to-releases">Access to Releases</h3>
 <p><a href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_release?_a=releases&amp;view=mine&amp;definitionId=1">https://dev.azure.com/faikmehmeti/G4-FISA-24/_release</a></p>
 <p><img src="images/releases-access.png" alt="alt text"></p>
-<p>Vous pourriez suivre ici l'état de déploiement pour chaque release</p>
-<p>Ce lien permet de suivre l'état de déploiement pour chaque release.</p>
+<p>Here you can track the deployment status of each release.</p>
+<p>This link allows you to follow the deployment status for each release.</p>
 <p><img src="images/releases-access2.png" alt="alt text"></p>
-<h3 id="gestion-du-déploiement">Gestion du Déploiement</h3>
-<p>En sélectionnant une release, vous serez dirigé vers une page où le déploiement continu peut être géré. Actuellement, les déploiements doivent être effectués manuellement pour chaque étape (Stages).</p>
+<h3 id="deployment-management">Deployment Management</h3>
+<p>By selecting a release, you will be taken to a page where continuous deployment can be managed. Currently, deployments must be performed manually for each stage.</p>
 <p><img src="images/deployment.png" alt="alt text"></p>
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/CharifMah/EasySaveWiki/blob/main/TechnicalDocumentation/fr/Documentation Technique.md/#L1" class="edit-link">Edit this page</a>
+          <a href="https://github.com/CharifMah/EasySaveWiki/blob/main/TechnicalDocumentation/en/TechnicalDocumentation.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>

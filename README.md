@@ -106,12 +106,3 @@ Then build a docset using:
 ```cs
 await Docfx.Docset.Build("docfx.json");
 ```
-
-See [API References](api/Docfx.yml) for additional APIs.
-
-## Next Steps
-
-- [Write Articles](docs/markdown.md)
-- [Organize Contents](docs/table-of-contents.md)
-- [Configure Website](docs/config.md)
-- [Add .NET API Docs](docs/dotnet-api-docs.md)
