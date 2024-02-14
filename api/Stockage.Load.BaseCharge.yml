@@ -21,7 +21,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: BaseCharge
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/Load/BaseCharge.cs
-    startLine: 12
+    startLine: 7
   assemblies:
   - Stockage
   namespace: Stockage.Load
@@ -62,7 +62,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: .ctor
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/Load/BaseCharge.cs
-    startLine: 23
+    startLine: 18
   assemblies:
   - Stockage
   namespace: Stockage.Load
@@ -98,7 +98,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Charger
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/Load/BaseCharge.cs
-    startLine: 36
+    startLine: 31
   assemblies:
   - Stockage
   namespace: Stockage.Load

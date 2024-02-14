@@ -222,6 +222,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Models.CSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Models.CSettings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Models.Settings.yml",
       "output": {
         ".html": {
@@ -236,6 +246,26 @@
       "output": {
         ".html": {
           "relative_path": "api/Models.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ressources.Strings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ressources.Strings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ressources.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ressources.html"
         }
       },
       "version": ""
@@ -536,6 +566,56 @@
       "output": {
         ".html": {
           "relative_path": "api/UnitTestStorage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ViewModels.BaseViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ViewModels.BaseViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ViewModels.JobViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ViewModels.JobViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ViewModels.LangueViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ViewModels.LangueViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ViewModels.MainViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ViewModels.MainViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ViewModels.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ViewModels.html"
         }
       },
       "version": ""

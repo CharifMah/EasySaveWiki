@@ -96,7 +96,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: .ctor
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/Save/SauveJobs.cs
-    startLine: 13
+    startLine: 14
   assemblies:
   - Stockage
   namespace: Stockage.Save
@@ -128,15 +128,18 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: UpdateLog
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/Save/SauveJobs.cs
-    startLine: 18
+    startLine: 24
   assemblies:
   - Stockage
   namespace: Stockage.Save
+  summary: UpdateLog
+  example: []
   syntax:
     content: public void UpdateLog(CLogState logState)
     parameters:
     - id: logState
       type: LogsModels.CLogState
+      description: Log a jour
     content.vb: Public Sub UpdateLog(logState As CLogState)
   overload: Stockage.Save.SauveJobs.UpdateLog*
 - uid: Stockage.Save.SauveJobs.CopyDirectory(System.IO.DirectoryInfo,System.IO.DirectoryInfo,System.Boolean,LogsModels.CLogState@,System.Boolean)
@@ -157,14 +160,14 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: CopyDirectory
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/Save/SauveJobs.cs
-    startLine: 34
+    startLine: 40
   assemblies:
   - Stockage
   namespace: Stockage.Save
   summary: Copy files and directory from the soruce path to the destinationPath
   example: []
   syntax:
-    content: public override void CopyDirectory(DirectoryInfo pSourceDir, DirectoryInfo pTargetDir, bool pRecursive, ref CLogState pLogState, bool pForce = false)
+    content: public override void CopyDirectory(DirectoryInfo pSourceDir, DirectoryInfo pTargetDir, bool pRecursive, ref CLogState pLogState, bool pDiffertielle = false)
     parameters:
     - id: pSourceDir
       type: System.IO.DirectoryInfo
@@ -177,10 +180,10 @@ items:
       description: True if recursive
     - id: pLogState
       type: LogsModels.CLogState
-    - id: pForce
+    - id: pDiffertielle
       type: System.Boolean
-      description: true if overwrite
-    content.vb: Public Overrides Sub CopyDirectory(pSourceDir As DirectoryInfo, pTargetDir As DirectoryInfo, pRecursive As Boolean, pLogState As CLogState, pForce As Boolean = False)
+      description: true if the backup is differentiel
+    content.vb: Public Overrides Sub CopyDirectory(pSourceDir As DirectoryInfo, pTargetDir As DirectoryInfo, pRecursive As Boolean, pLogState As CLogState, pDiffertielle As Boolean = False)
   overridden: Stockage.Save.BaseSave.CopyDirectory(System.IO.DirectoryInfo,System.IO.DirectoryInfo,System.Boolean,LogsModels.CLogState@,System.Boolean)
   overload: Stockage.Save.SauveJobs.CopyDirectory*
   exceptions:
@@ -208,7 +211,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: GetDirSize
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/Save/SauveJobs.cs
-    startLine: 87
+    startLine: 123
   assemblies:
   - Stockage
   namespace: Stockage.Save

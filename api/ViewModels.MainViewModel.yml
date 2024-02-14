@@ -1,32 +1,34 @@
 ### YamlMime:ManagedReference
 items:
-- uid: UnitTestStorage.StockageTestUnit
-  commentId: T:UnitTestStorage.StockageTestUnit
-  id: StockageTestUnit
-  parent: UnitTestStorage
+- uid: ViewModels.MainViewModel
+  commentId: T:ViewModels.MainViewModel
+  id: MainViewModel
+  parent: ViewModels
   children:
-  - UnitTestStorage.StockageTestUnit.TestSerialisation
+  - ViewModels.MainViewModel.#ctor
+  - ViewModels.MainViewModel.JobVm
+  - ViewModels.MainViewModel.LangueVm
   langs:
   - csharp
   - vb
-  name: StockageTestUnit
-  nameWithType: StockageTestUnit
-  fullName: UnitTestStorage.StockageTestUnit
+  name: MainViewModel
+  nameWithType: MainViewModel
+  fullName: ViewModels.MainViewModel
   type: Class
   source:
     remote:
-      path: EasySave-G4-FISA-24/UnitTestStorage/StockageTestUnit.cs
+      path: EasySave-G4-FISA-24/ViewModels/MainViewModel.cs
       branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
-    id: StockageTestUnit
-    path: ../G4-FISA-24/EasySave-G4-FISA-24/UnitTestStorage/StockageTestUnit.cs
-    startLine: 5
+    id: MainViewModel
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/ViewModels/MainViewModel.cs
+    startLine: 2
   assemblies:
-  - UnitTestStorage
-  namespace: UnitTestStorage
+  - ViewModels
+  namespace: ViewModels
   syntax:
-    content: public class StockageTestUnit
-    content.vb: Public Class StockageTestUnit
+    content: public class MainViewModel
+    content.vb: Public Class MainViewModel
   inheritance:
   - System.Object
   inheritedMembers:
@@ -37,49 +39,100 @@ items:
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.ToString
-- uid: UnitTestStorage.StockageTestUnit.TestSerialisation
-  commentId: M:UnitTestStorage.StockageTestUnit.TestSerialisation
-  id: TestSerialisation
-  parent: UnitTestStorage.StockageTestUnit
+- uid: ViewModels.MainViewModel.LangueVm
+  commentId: P:ViewModels.MainViewModel.LangueVm
+  id: LangueVm
+  parent: ViewModels.MainViewModel
   langs:
   - csharp
   - vb
-  name: TestSerialisation()
-  nameWithType: StockageTestUnit.TestSerialisation()
-  fullName: UnitTestStorage.StockageTestUnit.TestSerialisation()
-  type: Method
+  name: LangueVm
+  nameWithType: MainViewModel.LangueVm
+  fullName: ViewModels.MainViewModel.LangueVm
+  type: Property
   source:
     remote:
-      path: EasySave-G4-FISA-24/UnitTestStorage/StockageTestUnit.cs
+      path: EasySave-G4-FISA-24/ViewModels/MainViewModel.cs
       branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
-    id: TestSerialisation
-    path: ../G4-FISA-24/EasySave-G4-FISA-24/UnitTestStorage/StockageTestUnit.cs
+    id: LangueVm
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/ViewModels/MainViewModel.cs
     startLine: 7
   assemblies:
-  - UnitTestStorage
-  namespace: UnitTestStorage
+  - ViewModels
+  namespace: ViewModels
   syntax:
-    content: >-
-      [Fact]
-
-      public void TestSerialisation()
-    content.vb: >-
-      <Fact>
-
-      Public Sub TestSerialisation()
-  overload: UnitTestStorage.StockageTestUnit.TestSerialisation*
-  attributes:
-  - type: Xunit.FactAttribute
-    ctor: Xunit.FactAttribute.#ctor
-    arguments: []
+    content: public LangueViewModel LangueVm { get; set; }
+    parameters: []
+    return:
+      type: ViewModels.LangueViewModel
+    content.vb: Public Property LangueVm As LangueViewModel
+  overload: ViewModels.MainViewModel.LangueVm*
+- uid: ViewModels.MainViewModel.JobVm
+  commentId: P:ViewModels.MainViewModel.JobVm
+  id: JobVm
+  parent: ViewModels.MainViewModel
+  langs:
+  - csharp
+  - vb
+  name: JobVm
+  nameWithType: MainViewModel.JobVm
+  fullName: ViewModels.MainViewModel.JobVm
+  type: Property
+  source:
+    remote:
+      path: EasySave-G4-FISA-24/ViewModels/MainViewModel.cs
+      branch: develop-livrable-1
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: JobVm
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/ViewModels/MainViewModel.cs
+    startLine: 8
+  assemblies:
+  - ViewModels
+  namespace: ViewModels
+  syntax:
+    content: public JobViewModel JobVm { get; set; }
+    parameters: []
+    return:
+      type: ViewModels.JobViewModel
+    content.vb: Public Property JobVm As JobViewModel
+  overload: ViewModels.MainViewModel.JobVm*
+- uid: ViewModels.MainViewModel.#ctor
+  commentId: M:ViewModels.MainViewModel.#ctor
+  id: '#ctor'
+  parent: ViewModels.MainViewModel
+  langs:
+  - csharp
+  - vb
+  name: MainViewModel()
+  nameWithType: MainViewModel.MainViewModel()
+  fullName: ViewModels.MainViewModel.MainViewModel()
+  type: Constructor
+  source:
+    remote:
+      path: EasySave-G4-FISA-24/ViewModels/MainViewModel.cs
+      branch: develop-livrable-1
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: .ctor
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/ViewModels/MainViewModel.cs
+    startLine: 10
+  assemblies:
+  - ViewModels
+  namespace: ViewModels
+  syntax:
+    content: public MainViewModel()
+    content.vb: Public Sub New()
+  overload: ViewModels.MainViewModel.#ctor*
+  nameWithType.vb: MainViewModel.New()
+  fullName.vb: ViewModels.MainViewModel.New()
+  name.vb: New()
 references:
-- uid: UnitTestStorage
-  commentId: N:UnitTestStorage
-  href: UnitTestStorage.html
-  name: UnitTestStorage
-  nameWithType: UnitTestStorage
-  fullName: UnitTestStorage
+- uid: ViewModels
+  commentId: N:ViewModels
+  href: ViewModels.html
+  name: ViewModels
+  nameWithType: ViewModels
+  fullName: ViewModels
 - uid: System.Object
   commentId: T:System.Object
   parent: System
@@ -317,9 +370,38 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: UnitTestStorage.StockageTestUnit.TestSerialisation*
-  commentId: Overload:UnitTestStorage.StockageTestUnit.TestSerialisation
-  href: UnitTestStorage.StockageTestUnit.html#UnitTestStorage_StockageTestUnit_TestSerialisation
-  name: TestSerialisation
-  nameWithType: StockageTestUnit.TestSerialisation
-  fullName: UnitTestStorage.StockageTestUnit.TestSerialisation
+- uid: ViewModels.MainViewModel.LangueVm*
+  commentId: Overload:ViewModels.MainViewModel.LangueVm
+  href: ViewModels.MainViewModel.html#ViewModels_MainViewModel_LangueVm
+  name: LangueVm
+  nameWithType: MainViewModel.LangueVm
+  fullName: ViewModels.MainViewModel.LangueVm
+- uid: ViewModels.LangueViewModel
+  commentId: T:ViewModels.LangueViewModel
+  parent: ViewModels
+  href: ViewModels.LangueViewModel.html
+  name: LangueViewModel
+  nameWithType: LangueViewModel
+  fullName: ViewModels.LangueViewModel
+- uid: ViewModels.MainViewModel.JobVm*
+  commentId: Overload:ViewModels.MainViewModel.JobVm
+  href: ViewModels.MainViewModel.html#ViewModels_MainViewModel_JobVm
+  name: JobVm
+  nameWithType: MainViewModel.JobVm
+  fullName: ViewModels.MainViewModel.JobVm
+- uid: ViewModels.JobViewModel
+  commentId: T:ViewModels.JobViewModel
+  parent: ViewModels
+  href: ViewModels.JobViewModel.html
+  name: JobViewModel
+  nameWithType: JobViewModel
+  fullName: ViewModels.JobViewModel
+- uid: ViewModels.MainViewModel.#ctor*
+  commentId: Overload:ViewModels.MainViewModel.#ctor
+  href: ViewModels.MainViewModel.html#ViewModels_MainViewModel__ctor
+  name: MainViewModel
+  nameWithType: MainViewModel.MainViewModel
+  fullName: ViewModels.MainViewModel.MainViewModel
+  nameWithType.vb: MainViewModel.New
+  fullName.vb: ViewModels.MainViewModel.New
+  name.vb: New

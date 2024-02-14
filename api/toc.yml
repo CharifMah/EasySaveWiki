@@ -1,16 +1,5 @@
 ### YamlMime:TableOfContent
 items:
-- uid: EasySave.ViewModels
-  name: EasySave.ViewModels
-  items:
-  - uid: EasySave.ViewModels.BaseViewModel
-    name: BaseViewModel
-  - uid: EasySave.ViewModels.JobViewModel
-    name: JobViewModel
-  - uid: EasySave.ViewModels.LangueViewModel
-    name: LangueViewModel
-  - uid: EasySave.ViewModels.MainViewModel
-    name: MainViewModel
 - uid: EasySave.Views
   name: EasySave.Views
   items:
@@ -38,8 +27,8 @@ items:
   items:
   - uid: Models.CLangue
     name: CLangue
-  - uid: Models.Settings
-    name: Settings
+  - uid: Models.CSettings
+    name: CSettings
 - uid: Models.Backup
   name: Models.Backup
   items:
@@ -49,6 +38,11 @@ items:
     name: CJobManager
   - uid: Models.Backup.ETypeBackup
     name: ETypeBackup
+- uid: Ressources
+  name: Ressources
+  items:
+  - uid: Ressources.Strings
+    name: Strings
 - uid: Stockage.Converters
   name: Stockage.Converters
   items:
@@ -101,4 +95,15 @@ items:
   items:
   - uid: UnitTestStorage.StockageTestUnit
     name: StockageTestUnit
+- uid: ViewModels
+  name: ViewModels
+  items:
+  - uid: ViewModels.BaseViewModel
+    name: BaseViewModel
+  - uid: ViewModels.JobViewModel
+    name: JobViewModel
+  - uid: ViewModels.LangueViewModel
+    name: LangueViewModel
+  - uid: ViewModels.MainViewModel
+    name: MainViewModel
 memberLayout: SamePage

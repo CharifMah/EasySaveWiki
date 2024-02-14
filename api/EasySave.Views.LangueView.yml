@@ -5,7 +5,7 @@ items:
   id: LangueView
   parent: EasySave.Views
   children:
-  - EasySave.Views.LangueView.#ctor(EasySave.ViewModels.LangueViewModel)
+  - EasySave.Views.LangueView.#ctor(ViewModels.LangueViewModel)
   - EasySave.Views.LangueView.ListLanguage
   - EasySave.Views.LangueView.Run
   - EasySave.Views.LangueView.Title
@@ -23,7 +23,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: LangueView
     path: ../G4-FISA-24/EasySave-G4-FISA-24/EasySave/Views/LangueView.cs
-    startLine: 6
+    startLine: 5
   assemblies:
   - EasySave
   namespace: EasySave.Views
@@ -59,7 +59,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Title
     path: ../G4-FISA-24/EasySave-G4-FISA-24/EasySave/Views/LangueView.cs
-    startLine: 9
+    startLine: 8
   assemblies:
   - EasySave
   namespace: EasySave.Views
@@ -72,16 +72,16 @@ items:
     content.vb: Public Overrides ReadOnly Property Title As String
   overridden: EasySave.Views.BaseView.Title
   overload: EasySave.Views.LangueView.Title*
-- uid: EasySave.Views.LangueView.#ctor(EasySave.ViewModels.LangueViewModel)
-  commentId: M:EasySave.Views.LangueView.#ctor(EasySave.ViewModels.LangueViewModel)
-  id: '#ctor(EasySave.ViewModels.LangueViewModel)'
+- uid: EasySave.Views.LangueView.#ctor(ViewModels.LangueViewModel)
+  commentId: M:EasySave.Views.LangueView.#ctor(ViewModels.LangueViewModel)
+  id: '#ctor(ViewModels.LangueViewModel)'
   parent: EasySave.Views.LangueView
   langs:
   - csharp
   - vb
   name: LangueView(LangueViewModel)
   nameWithType: LangueView.LangueView(LangueViewModel)
-  fullName: EasySave.Views.LangueView.LangueView(EasySave.ViewModels.LangueViewModel)
+  fullName: EasySave.Views.LangueView.LangueView(ViewModels.LangueViewModel)
   type: Constructor
   source:
     remote:
@@ -90,7 +90,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: .ctor
     path: ../G4-FISA-24/EasySave-G4-FISA-24/EasySave/Views/LangueView.cs
-    startLine: 10
+    startLine: 9
   assemblies:
   - EasySave
   namespace: EasySave.Views
@@ -98,11 +98,11 @@ items:
     content: public LangueView(LangueViewModel pJobVm)
     parameters:
     - id: pJobVm
-      type: EasySave.ViewModels.LangueViewModel
+      type: ViewModels.LangueViewModel
     content.vb: Public Sub New(pJobVm As LangueViewModel)
   overload: EasySave.Views.LangueView.#ctor*
   nameWithType.vb: LangueView.New(LangueViewModel)
-  fullName.vb: EasySave.Views.LangueView.New(EasySave.ViewModels.LangueViewModel)
+  fullName.vb: EasySave.Views.LangueView.New(ViewModels.LangueViewModel)
   name.vb: New(LangueViewModel)
 - uid: EasySave.Views.LangueView.Run
   commentId: M:EasySave.Views.LangueView.Run
@@ -122,7 +122,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Run
     path: ../G4-FISA-24/EasySave-G4-FISA-24/EasySave/Views/LangueView.cs
-    startLine: 17
+    startLine: 16
   assemblies:
   - EasySave
   namespace: EasySave.Views
@@ -151,7 +151,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: ListLanguage
     path: ../G4-FISA-24/EasySave-G4-FISA-24/EasySave/Views/LangueView.cs
-    startLine: 36
+    startLine: 35
   assemblies:
   - EasySave
   namespace: EasySave.Views
@@ -454,42 +454,26 @@ references:
   name.vb: String
 - uid: EasySave.Views.LangueView.#ctor*
   commentId: Overload:EasySave.Views.LangueView.#ctor
-  href: EasySave.Views.LangueView.html#EasySave_Views_LangueView__ctor_EasySave_ViewModels_LangueViewModel_
+  href: EasySave.Views.LangueView.html#EasySave_Views_LangueView__ctor_ViewModels_LangueViewModel_
   name: LangueView
   nameWithType: LangueView.LangueView
   fullName: EasySave.Views.LangueView.LangueView
   nameWithType.vb: LangueView.New
   fullName.vb: EasySave.Views.LangueView.New
   name.vb: New
-- uid: EasySave.ViewModels.LangueViewModel
-  commentId: T:EasySave.ViewModels.LangueViewModel
-  parent: EasySave.ViewModels
-  href: EasySave.ViewModels.LangueViewModel.html
+- uid: ViewModels.LangueViewModel
+  commentId: T:ViewModels.LangueViewModel
+  parent: ViewModels
+  href: ViewModels.LangueViewModel.html
   name: LangueViewModel
   nameWithType: LangueViewModel
-  fullName: EasySave.ViewModels.LangueViewModel
-- uid: EasySave.ViewModels
-  commentId: N:EasySave.ViewModels
-  href: EasySave.html
-  name: EasySave.ViewModels
-  nameWithType: EasySave.ViewModels
-  fullName: EasySave.ViewModels
-  spec.csharp:
-  - uid: EasySave
-    name: EasySave
-    href: EasySave.html
-  - name: .
-  - uid: EasySave.ViewModels
-    name: ViewModels
-    href: EasySave.ViewModels.html
-  spec.vb:
-  - uid: EasySave
-    name: EasySave
-    href: EasySave.html
-  - name: .
-  - uid: EasySave.ViewModels
-    name: ViewModels
-    href: EasySave.ViewModels.html
+  fullName: ViewModels.LangueViewModel
+- uid: ViewModels
+  commentId: N:ViewModels
+  href: ViewModels.html
+  name: ViewModels
+  nameWithType: ViewModels
+  fullName: ViewModels
 - uid: EasySave.Views.BaseView.Run
   commentId: M:EasySave.Views.BaseView.Run
   parent: EasySave.Views.BaseView

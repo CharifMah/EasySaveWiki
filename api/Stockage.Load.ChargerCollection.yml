@@ -20,7 +20,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: ChargerCollection
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/Load/ChargerCollection.cs
-    startLine: 4
+    startLine: 2
   assemblies:
   - Stockage
   namespace: Stockage.Load
@@ -59,7 +59,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: .ctor
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/Load/ChargerCollection.cs
-    startLine: 6
+    startLine: 4
   assemblies:
   - Stockage
   namespace: Stockage.Load

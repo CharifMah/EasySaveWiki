@@ -1,50 +1,48 @@
 ### YamlMime:ManagedReference
 items:
-- uid: Models.Backup.CJobManager
-  commentId: T:Models.Backup.CJobManager
-  id: CJobManager
-  parent: Models.Backup
+- uid: ViewModels.JobViewModel
+  commentId: T:ViewModels.JobViewModel
+  id: JobViewModel
+  parent: ViewModels
   children:
-  - Models.Backup.CJobManager.#ctor
-  - Models.Backup.CJobManager.CreateBackupJob(Models.Backup.CJob)
-  - Models.Backup.CJobManager.DeleteJobs(System.Collections.Generic.List{Models.Backup.CJob})
-  - Models.Backup.CJobManager.Jobs
-  - Models.Backup.CJobManager.Name
-  - Models.Backup.CJobManager.RunJobs(System.Collections.Generic.List{Models.Backup.CJob})
-  - Models.Backup.CJobManager.SauveCollection
-  - Models.Backup.CJobManager.SaveJobs
+  - ViewModels.JobViewModel.#ctor
+  - ViewModels.JobViewModel.CreateBackupJob(Models.Backup.CJob)
+  - ViewModels.JobViewModel.DeleteJobs(System.Collections.Generic.List{Models.Backup.CJob})
+  - ViewModels.JobViewModel.JobManager
+  - ViewModels.JobViewModel.LoadJobs(System.Boolean,System.String)
+  - ViewModels.JobViewModel.RunJobs(System.Collections.Generic.List{Models.Backup.CJob})
+  - ViewModels.JobViewModel.SaveJobs
   langs:
   - csharp
   - vb
-  name: CJobManager
-  nameWithType: CJobManager
-  fullName: Models.Backup.CJobManager
+  name: JobViewModel
+  nameWithType: JobViewModel
+  fullName: ViewModels.JobViewModel
   type: Class
   source:
     remote:
-      path: EasySave-G4-FISA-24/Models/Backup/CJobManager.cs
+      path: EasySave-G4-FISA-24/ViewModels/JobViewModel.cs
       branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
-    id: CJobManager
-    path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Backup/CJobManager.cs
-    startLine: 7
+    id: JobViewModel
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/ViewModels/JobViewModel.cs
+    startLine: 6
   assemblies:
-  - Models
-  namespace: Models.Backup
-  summary: Gestionnaire de jobs
+  - ViewModels
+  namespace: ViewModels
+  summary: Classe JobViewModel
   example: []
   syntax:
-    content: >-
-      [DataContract]
-
-      public class CJobManager
-    content.vb: >-
-      <DataContract>
-
-      Public Class CJobManager
+    content: 'public class JobViewModel : BaseViewModel, INotifyPropertyChanged'
+    content.vb: Public Class JobViewModel Inherits BaseViewModel Implements INotifyPropertyChanged
   inheritance:
   - System.Object
+  - ViewModels.BaseViewModel
+  implements:
+  - System.ComponentModel.INotifyPropertyChanged
   inheritedMembers:
+  - ViewModels.BaseViewModel.PropertyChanged
+  - ViewModels.BaseViewModel.NotifyPropertyChanged(System.String)
   - System.Object.Equals(System.Object)
   - System.Object.Equals(System.Object,System.Object)
   - System.Object.GetHashCode
@@ -52,298 +50,252 @@ items:
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.ToString
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-- uid: Models.Backup.CJobManager.Jobs
-  commentId: P:Models.Backup.CJobManager.Jobs
-  id: Jobs
-  parent: Models.Backup.CJobManager
+- uid: ViewModels.JobViewModel.JobManager
+  commentId: P:ViewModels.JobViewModel.JobManager
+  id: JobManager
+  parent: ViewModels.JobViewModel
   langs:
   - csharp
   - vb
-  name: Jobs
-  nameWithType: CJobManager.Jobs
-  fullName: Models.Backup.CJobManager.Jobs
+  name: JobManager
+  nameWithType: JobViewModel.JobManager
+  fullName: ViewModels.JobViewModel.JobManager
   type: Property
   source:
     remote:
-      path: EasySave-G4-FISA-24/Models/Backup/CJobManager.cs
+      path: EasySave-G4-FISA-24/ViewModels/JobViewModel.cs
       branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
-    id: Jobs
-    path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Backup/CJobManager.cs
-    startLine: 26
+    id: JobManager
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/ViewModels/JobViewModel.cs
+    startLine: 13
   assemblies:
-  - Models
-  namespace: Models.Backup
-  summary: Liste des jobs gérés
+  - ViewModels
+  namespace: ViewModels
+  summary: JobManager
   example: []
   syntax:
-    content: public List<CJob> Jobs { get; }
+    content: public CJobManager JobManager { get; set; }
     parameters: []
     return:
-      type: System.Collections.Generic.List{Models.Backup.CJob}
-    content.vb: Public ReadOnly Property Jobs As List(Of CJob)
-  overload: Models.Backup.CJobManager.Jobs*
-- uid: Models.Backup.CJobManager.Name
-  commentId: P:Models.Backup.CJobManager.Name
-  id: Name
-  parent: Models.Backup.CJobManager
-  langs:
-  - csharp
-  - vb
-  name: Name
-  nameWithType: CJobManager.Name
-  fullName: Models.Backup.CJobManager.Name
-  type: Property
-  source:
-    remote:
-      path: EasySave-G4-FISA-24/Models/Backup/CJobManager.cs
-      branch: develop-livrable-1
-      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
-    id: Name
-    path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Backup/CJobManager.cs
-    startLine: 31
-  assemblies:
-  - Models
-  namespace: Models.Backup
-  summary: Nom du gestionnaire
-  example: []
-  syntax:
-    content: public string Name { get; set; }
-    parameters: []
-    return:
-      type: System.String
-    content.vb: Public Property Name As String
-  overload: Models.Backup.CJobManager.Name*
-- uid: Models.Backup.CJobManager.SauveCollection
-  commentId: P:Models.Backup.CJobManager.SauveCollection
-  id: SauveCollection
-  parent: Models.Backup.CJobManager
-  langs:
-  - csharp
-  - vb
-  name: SauveCollection
-  nameWithType: CJobManager.SauveCollection
-  fullName: Models.Backup.CJobManager.SauveCollection
-  type: Property
-  source:
-    remote:
-      path: EasySave-G4-FISA-24/Models/Backup/CJobManager.cs
-      branch: develop-livrable-1
-      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
-    id: SauveCollection
-    path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Backup/CJobManager.cs
-    startLine: 36
-  assemblies:
-  - Models
-  namespace: Models.Backup
-  summary: Interface de sauvegarde des données
-  example: []
-  syntax:
-    content: public ISauve SauveCollection { get; set; }
-    parameters: []
-    return:
-      type: Stockage.Save.ISauve
-    content.vb: Public Property SauveCollection As ISauve
-  overload: Models.Backup.CJobManager.SauveCollection*
-- uid: Models.Backup.CJobManager.#ctor
-  commentId: M:Models.Backup.CJobManager.#ctor
+      type: Models.Backup.CJobManager
+    content.vb: Public Property JobManager As CJobManager
+  overload: ViewModels.JobViewModel.JobManager*
+- uid: ViewModels.JobViewModel.#ctor
+  commentId: M:ViewModels.JobViewModel.#ctor
   id: '#ctor'
-  parent: Models.Backup.CJobManager
+  parent: ViewModels.JobViewModel
   langs:
   - csharp
   - vb
-  name: CJobManager()
-  nameWithType: CJobManager.CJobManager()
-  fullName: Models.Backup.CJobManager.CJobManager()
+  name: JobViewModel()
+  nameWithType: JobViewModel.JobViewModel()
+  fullName: ViewModels.JobViewModel.JobViewModel()
   type: Constructor
   source:
     remote:
-      path: EasySave-G4-FISA-24/Models/Backup/CJobManager.cs
+      path: EasySave-G4-FISA-24/ViewModels/JobViewModel.cs
       branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: .ctor
-    path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Backup/CJobManager.cs
-    startLine: 44
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/ViewModels/JobViewModel.cs
+    startLine: 20
   assemblies:
-  - Models
-  namespace: Models.Backup
-  summary: Contructeur de CJobManager initialise le chemin de sauvegarde
+  - ViewModels
+  namespace: ViewModels
+  summary: Constructeur de JobViewModel initialise le JobManager
   example: []
   syntax:
-    content: public CJobManager()
+    content: public JobViewModel()
     content.vb: Public Sub New()
-  overload: Models.Backup.CJobManager.#ctor*
-  nameWithType.vb: CJobManager.New()
-  fullName.vb: Models.Backup.CJobManager.New()
+  overload: ViewModels.JobViewModel.#ctor*
+  nameWithType.vb: JobViewModel.New()
+  fullName.vb: ViewModels.JobViewModel.New()
   name.vb: New()
-- uid: Models.Backup.CJobManager.CreateBackupJob(Models.Backup.CJob)
-  commentId: M:Models.Backup.CJobManager.CreateBackupJob(Models.Backup.CJob)
-  id: CreateBackupJob(Models.Backup.CJob)
-  parent: Models.Backup.CJobManager
-  langs:
-  - csharp
-  - vb
-  name: CreateBackupJob(CJob)
-  nameWithType: CJobManager.CreateBackupJob(CJob)
-  fullName: Models.Backup.CJobManager.CreateBackupJob(Models.Backup.CJob)
-  type: Method
-  source:
-    remote:
-      path: EasySave-G4-FISA-24/Models/Backup/CJobManager.cs
-      branch: develop-livrable-1
-      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
-    id: CreateBackupJob
-    path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Backup/CJobManager.cs
-    startLine: 67
-  assemblies:
-  - Models
-  namespace: Models.Backup
-  summary: Crée un nouveau job de sauvegarde
-  remarks: Created by Mehmeti Faik on 06/02/2024 Updated validation logic to handle null parameters
-  example: []
-  syntax:
-    content: public bool CreateBackupJob(CJob lJob)
-    parameters:
-    - id: lJob
-      type: Models.Backup.CJob
-      description: Objet représentant le job de sauvegarde à créer
-    return:
-      type: System.Boolean
-      description: True si le job a été créé avec succès, false sinon
-    content.vb: Public Function CreateBackupJob(lJob As CJob) As Boolean
-  overload: Models.Backup.CJobManager.CreateBackupJob*
-- uid: Models.Backup.CJobManager.DeleteJobs(System.Collections.Generic.List{Models.Backup.CJob})
-  commentId: M:Models.Backup.CJobManager.DeleteJobs(System.Collections.Generic.List{Models.Backup.CJob})
-  id: DeleteJobs(System.Collections.Generic.List{Models.Backup.CJob})
-  parent: Models.Backup.CJobManager
-  langs:
-  - csharp
-  - vb
-  name: DeleteJobs(List<CJob>)
-  nameWithType: CJobManager.DeleteJobs(List<CJob>)
-  fullName: Models.Backup.CJobManager.DeleteJobs(System.Collections.Generic.List<Models.Backup.CJob>)
-  type: Method
-  source:
-    remote:
-      path: EasySave-G4-FISA-24/Models/Backup/CJobManager.cs
-      branch: develop-livrable-1
-      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
-    id: DeleteJobs
-    path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Backup/CJobManager.cs
-    startLine: 84
-  assemblies:
-  - Models
-  namespace: Models.Backup
-  summary: Supprimé un job
-  remarks: Mehmeti faik
-  example: []
-  syntax:
-    content: public bool DeleteJobs(List<CJob> pJobs)
-    parameters:
-    - id: pJobs
-      type: System.Collections.Generic.List{Models.Backup.CJob}
-      description: List de jobs à supprimer
-    return:
-      type: System.Boolean
-      description: true si reussi
-    content.vb: Public Function DeleteJobs(pJobs As List(Of CJob)) As Boolean
-  overload: Models.Backup.CJobManager.DeleteJobs*
-  nameWithType.vb: CJobManager.DeleteJobs(List(Of CJob))
-  fullName.vb: Models.Backup.CJobManager.DeleteJobs(System.Collections.Generic.List(Of Models.Backup.CJob))
-  name.vb: DeleteJobs(List(Of CJob))
-- uid: Models.Backup.CJobManager.RunJobs(System.Collections.Generic.List{Models.Backup.CJob})
-  commentId: M:Models.Backup.CJobManager.RunJobs(System.Collections.Generic.List{Models.Backup.CJob})
+- uid: ViewModels.JobViewModel.RunJobs(System.Collections.Generic.List{Models.Backup.CJob})
+  commentId: M:ViewModels.JobViewModel.RunJobs(System.Collections.Generic.List{Models.Backup.CJob})
   id: RunJobs(System.Collections.Generic.List{Models.Backup.CJob})
-  parent: Models.Backup.CJobManager
+  parent: ViewModels.JobViewModel
   langs:
   - csharp
   - vb
   name: RunJobs(List<CJob>)
-  nameWithType: CJobManager.RunJobs(List<CJob>)
-  fullName: Models.Backup.CJobManager.RunJobs(System.Collections.Generic.List<Models.Backup.CJob>)
+  nameWithType: JobViewModel.RunJobs(List<CJob>)
+  fullName: ViewModels.JobViewModel.RunJobs(System.Collections.Generic.List<Models.Backup.CJob>)
   type: Method
   source:
     remote:
-      path: EasySave-G4-FISA-24/Models/Backup/CJobManager.cs
+      path: EasySave-G4-FISA-24/ViewModels/JobViewModel.cs
       branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: RunJobs
-    path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Backup/CJobManager.cs
-    startLine: 100
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/ViewModels/JobViewModel.cs
+    startLine: 38
   assemblies:
-  - Models
-  namespace: Models.Backup
-  summary: Lance l'exécution de la liste de jobs passée en paramètre
+  - ViewModels
+  namespace: ViewModels
+  summary: Lance l'exécution des jobs sélectionnés
   example: []
   syntax:
     content: public List<CJob> RunJobs(List<CJob> pJobs)
     parameters:
     - id: pJobs
       type: System.Collections.Generic.List{Models.Backup.CJob}
-      description: Liste des jobs à exécuter
+      description: Liste des jobs à lancer
     return:
       type: System.Collections.Generic.List{Models.Backup.CJob}
-      description: La liste des jobs, mise à jour avec leur état après exécution
+      description: Liste mise à jour des jobs avec leur état après exécution
     content.vb: Public Function RunJobs(pJobs As List(Of CJob)) As List(Of CJob)
-  overload: Models.Backup.CJobManager.RunJobs*
-  nameWithType.vb: CJobManager.RunJobs(List(Of CJob))
-  fullName.vb: Models.Backup.CJobManager.RunJobs(System.Collections.Generic.List(Of Models.Backup.CJob))
+  overload: ViewModels.JobViewModel.RunJobs*
+  nameWithType.vb: JobViewModel.RunJobs(List(Of CJob))
+  fullName.vb: ViewModels.JobViewModel.RunJobs(System.Collections.Generic.List(Of Models.Backup.CJob))
   name.vb: RunJobs(List(Of CJob))
-- uid: Models.Backup.CJobManager.SaveJobs
-  commentId: M:Models.Backup.CJobManager.SaveJobs
+- uid: ViewModels.JobViewModel.CreateBackupJob(Models.Backup.CJob)
+  commentId: M:ViewModels.JobViewModel.CreateBackupJob(Models.Backup.CJob)
+  id: CreateBackupJob(Models.Backup.CJob)
+  parent: ViewModels.JobViewModel
+  langs:
+  - csharp
+  - vb
+  name: CreateBackupJob(CJob)
+  nameWithType: JobViewModel.CreateBackupJob(CJob)
+  fullName: ViewModels.JobViewModel.CreateBackupJob(Models.Backup.CJob)
+  type: Method
+  source:
+    remote:
+      path: EasySave-G4-FISA-24/ViewModels/JobViewModel.cs
+      branch: develop-livrable-1
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: CreateBackupJob
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/ViewModels/JobViewModel.cs
+    startLine: 48
+  assemblies:
+  - ViewModels
+  namespace: ViewModels
+  summary: Crée un nouveau job de sauvegarde
+  example: []
+  syntax:
+    content: public bool CreateBackupJob(CJob lJob)
+    parameters:
+    - id: lJob
+      type: Models.Backup.CJob
+      description: Job à créer
+    return:
+      type: System.Boolean
+      description: Succès de la création
+    content.vb: Public Function CreateBackupJob(lJob As CJob) As Boolean
+  overload: ViewModels.JobViewModel.CreateBackupJob*
+- uid: ViewModels.JobViewModel.DeleteJobs(System.Collections.Generic.List{Models.Backup.CJob})
+  commentId: M:ViewModels.JobViewModel.DeleteJobs(System.Collections.Generic.List{Models.Backup.CJob})
+  id: DeleteJobs(System.Collections.Generic.List{Models.Backup.CJob})
+  parent: ViewModels.JobViewModel
+  langs:
+  - csharp
+  - vb
+  name: DeleteJobs(List<CJob>)
+  nameWithType: JobViewModel.DeleteJobs(List<CJob>)
+  fullName: ViewModels.JobViewModel.DeleteJobs(System.Collections.Generic.List<Models.Backup.CJob>)
+  type: Method
+  source:
+    remote:
+      path: EasySave-G4-FISA-24/ViewModels/JobViewModel.cs
+      branch: develop-livrable-1
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: DeleteJobs
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/ViewModels/JobViewModel.cs
+    startLine: 58
+  assemblies:
+  - ViewModels
+  namespace: ViewModels
+  summary: Supprimer un ou plusieurs jobs
+  example: []
+  syntax:
+    content: public bool DeleteJobs(List<CJob> pJobs)
+    parameters:
+    - id: pJobs
+      type: System.Collections.Generic.List{Models.Backup.CJob}
+      description: List de jobs a delete
+    return:
+      type: System.Boolean
+      description: vrai si les jobs on été delete
+    content.vb: Public Function DeleteJobs(pJobs As List(Of CJob)) As Boolean
+  overload: ViewModels.JobViewModel.DeleteJobs*
+  nameWithType.vb: JobViewModel.DeleteJobs(List(Of CJob))
+  fullName.vb: ViewModels.JobViewModel.DeleteJobs(System.Collections.Generic.List(Of Models.Backup.CJob))
+  name.vb: DeleteJobs(List(Of CJob))
+- uid: ViewModels.JobViewModel.SaveJobs
+  commentId: M:ViewModels.JobViewModel.SaveJobs
   id: SaveJobs
-  parent: Models.Backup.CJobManager
+  parent: ViewModels.JobViewModel
   langs:
   - csharp
   - vb
   name: SaveJobs()
-  nameWithType: CJobManager.SaveJobs()
-  fullName: Models.Backup.CJobManager.SaveJobs()
+  nameWithType: JobViewModel.SaveJobs()
+  fullName: ViewModels.JobViewModel.SaveJobs()
   type: Method
   source:
     remote:
-      path: EasySave-G4-FISA-24/Models/Backup/CJobManager.cs
+      path: EasySave-G4-FISA-24/ViewModels/JobViewModel.cs
       branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: SaveJobs
-    path: ../G4-FISA-24/EasySave-G4-FISA-24/Models/Backup/CJobManager.cs
-    startLine: 115
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/ViewModels/JobViewModel.cs
+    startLine: 66
   assemblies:
-  - Models
-  namespace: Models.Backup
-  summary: Sauvegarde le JobManager
+  - ViewModels
+  namespace: ViewModels
+  summary: Sauvegarde la configuration des jobs
   example: []
   syntax:
     content: public void SaveJobs()
     content.vb: Public Sub SaveJobs()
-  overload: Models.Backup.CJobManager.SaveJobs*
+  overload: ViewModels.JobViewModel.SaveJobs*
+- uid: ViewModels.JobViewModel.LoadJobs(System.Boolean,System.String)
+  commentId: M:ViewModels.JobViewModel.LoadJobs(System.Boolean,System.String)
+  id: LoadJobs(System.Boolean,System.String)
+  parent: ViewModels.JobViewModel
+  langs:
+  - csharp
+  - vb
+  name: LoadJobs(bool, string)
+  nameWithType: JobViewModel.LoadJobs(bool, string)
+  fullName: ViewModels.JobViewModel.LoadJobs(bool, string)
+  type: Method
+  source:
+    remote:
+      path: EasySave-G4-FISA-24/ViewModels/JobViewModel.cs
+      branch: develop-livrable-1
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: LoadJobs
+    path: ../G4-FISA-24/EasySave-G4-FISA-24/ViewModels/JobViewModel.cs
+    startLine: 76
+  assemblies:
+  - ViewModels
+  namespace: ViewModels
+  summary: Charge la liste des jobs depuis un fichier
+  example: []
+  syntax:
+    content: public void LoadJobs(bool IsDefaultFile = true, string pPath = null)
+    parameters:
+    - id: IsDefaultFile
+      type: System.Boolean
+      description: Indique si le fichier par défaut doit être chargé
+    - id: pPath
+      type: System.String
+      description: Chemin du fichier à charger, vide pour le fichier par défaut
+    content.vb: Public Sub LoadJobs(IsDefaultFile As Boolean = True, pPath As String = Nothing)
+  overload: ViewModels.JobViewModel.LoadJobs*
+  nameWithType.vb: JobViewModel.LoadJobs(Boolean, String)
+  fullName.vb: ViewModels.JobViewModel.LoadJobs(Boolean, String)
+  name.vb: LoadJobs(Boolean, String)
 references:
-- uid: Models.Backup
-  commentId: N:Models.Backup
-  href: Models.html
-  name: Models.Backup
-  nameWithType: Models.Backup
-  fullName: Models.Backup
-  spec.csharp:
-  - uid: Models
-    name: Models
-    href: Models.html
-  - name: .
-  - uid: Models.Backup
-    name: Backup
-    href: Models.Backup.html
-  spec.vb:
-  - uid: Models
-    name: Models
-    href: Models.html
-  - name: .
-  - uid: Models.Backup
-    name: Backup
-    href: Models.Backup.html
+- uid: ViewModels
+  commentId: N:ViewModels
+  href: ViewModels.html
+  name: ViewModels
+  nameWithType: ViewModels
+  fullName: ViewModels
 - uid: System.Object
   commentId: T:System.Object
   parent: System
@@ -355,6 +307,59 @@ references:
   nameWithType.vb: Object
   fullName.vb: Object
   name.vb: Object
+- uid: ViewModels.BaseViewModel
+  commentId: T:ViewModels.BaseViewModel
+  parent: ViewModels
+  href: ViewModels.BaseViewModel.html
+  name: BaseViewModel
+  nameWithType: BaseViewModel
+  fullName: ViewModels.BaseViewModel
+- uid: System.ComponentModel.INotifyPropertyChanged
+  commentId: T:System.ComponentModel.INotifyPropertyChanged
+  parent: System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged
+  name: INotifyPropertyChanged
+  nameWithType: INotifyPropertyChanged
+  fullName: System.ComponentModel.INotifyPropertyChanged
+- uid: ViewModels.BaseViewModel.PropertyChanged
+  commentId: E:ViewModels.BaseViewModel.PropertyChanged
+  parent: ViewModels.BaseViewModel
+  href: ViewModels.BaseViewModel.html#ViewModels_BaseViewModel_PropertyChanged
+  name: PropertyChanged
+  nameWithType: BaseViewModel.PropertyChanged
+  fullName: ViewModels.BaseViewModel.PropertyChanged
+- uid: ViewModels.BaseViewModel.NotifyPropertyChanged(System.String)
+  commentId: M:ViewModels.BaseViewModel.NotifyPropertyChanged(System.String)
+  parent: ViewModels.BaseViewModel
+  isExternal: true
+  href: ViewModels.BaseViewModel.html#ViewModels_BaseViewModel_NotifyPropertyChanged_System_String_
+  name: NotifyPropertyChanged(string)
+  nameWithType: BaseViewModel.NotifyPropertyChanged(string)
+  fullName: ViewModels.BaseViewModel.NotifyPropertyChanged(string)
+  nameWithType.vb: BaseViewModel.NotifyPropertyChanged(String)
+  fullName.vb: ViewModels.BaseViewModel.NotifyPropertyChanged(String)
+  name.vb: NotifyPropertyChanged(String)
+  spec.csharp:
+  - uid: ViewModels.BaseViewModel.NotifyPropertyChanged(System.String)
+    name: NotifyPropertyChanged
+    href: ViewModels.BaseViewModel.html#ViewModels_BaseViewModel_NotifyPropertyChanged_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: ViewModels.BaseViewModel.NotifyPropertyChanged(System.String)
+    name: NotifyPropertyChanged
+    href: ViewModels.BaseViewModel.html#ViewModels_BaseViewModel_NotifyPropertyChanged_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
 - uid: System.Object.Equals(System.Object)
   commentId: M:System.Object.Equals(System.Object)
   parent: System.Object
@@ -581,12 +586,83 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: Models.Backup.CJobManager.Jobs*
-  commentId: Overload:Models.Backup.CJobManager.Jobs
-  href: Models.Backup.CJobManager.html#Models_Backup_CJobManager_Jobs
-  name: Jobs
-  nameWithType: CJobManager.Jobs
-  fullName: Models.Backup.CJobManager.Jobs
+- uid: System.ComponentModel
+  commentId: N:System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.ComponentModel
+  nameWithType: System.ComponentModel
+  fullName: System.ComponentModel
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+- uid: ViewModels.JobViewModel.JobManager*
+  commentId: Overload:ViewModels.JobViewModel.JobManager
+  href: ViewModels.JobViewModel.html#ViewModels_JobViewModel_JobManager
+  name: JobManager
+  nameWithType: JobViewModel.JobManager
+  fullName: ViewModels.JobViewModel.JobManager
+- uid: Models.Backup.CJobManager
+  commentId: T:Models.Backup.CJobManager
+  parent: Models.Backup
+  href: Models.Backup.CJobManager.html
+  name: CJobManager
+  nameWithType: CJobManager
+  fullName: Models.Backup.CJobManager
+- uid: Models.Backup
+  commentId: N:Models.Backup
+  href: Models.html
+  name: Models.Backup
+  nameWithType: Models.Backup
+  fullName: Models.Backup
+  spec.csharp:
+  - uid: Models
+    name: Models
+    href: Models.html
+  - name: .
+  - uid: Models.Backup
+    name: Backup
+    href: Models.Backup.html
+  spec.vb:
+  - uid: Models
+    name: Models
+    href: Models.html
+  - name: .
+  - uid: Models.Backup
+    name: Backup
+    href: Models.Backup.html
+- uid: ViewModels.JobViewModel.#ctor*
+  commentId: Overload:ViewModels.JobViewModel.#ctor
+  href: ViewModels.JobViewModel.html#ViewModels_JobViewModel__ctor
+  name: JobViewModel
+  nameWithType: JobViewModel.JobViewModel
+  fullName: ViewModels.JobViewModel.JobViewModel
+  nameWithType.vb: JobViewModel.New
+  fullName.vb: ViewModels.JobViewModel.New
+  name.vb: New
+- uid: ViewModels.JobViewModel.RunJobs*
+  commentId: Overload:ViewModels.JobViewModel.RunJobs
+  href: ViewModels.JobViewModel.html#ViewModels_JobViewModel_RunJobs_System_Collections_Generic_List_Models_Backup_CJob__
+  name: RunJobs
+  nameWithType: JobViewModel.RunJobs
+  fullName: ViewModels.JobViewModel.RunJobs
 - uid: System.Collections.Generic.List{Models.Backup.CJob}
   commentId: T:System.Collections.Generic.List{Models.Backup.CJob}
   parent: System.Collections.Generic
@@ -685,73 +761,12 @@ references:
     name: Generic
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.collections.generic
-- uid: Models.Backup.CJobManager.Name*
-  commentId: Overload:Models.Backup.CJobManager.Name
-  href: Models.Backup.CJobManager.html#Models_Backup_CJobManager_Name
-  name: Name
-  nameWithType: CJobManager.Name
-  fullName: Models.Backup.CJobManager.Name
-- uid: System.String
-  commentId: T:System.String
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
-- uid: Models.Backup.CJobManager.SauveCollection*
-  commentId: Overload:Models.Backup.CJobManager.SauveCollection
-  href: Models.Backup.CJobManager.html#Models_Backup_CJobManager_SauveCollection
-  name: SauveCollection
-  nameWithType: CJobManager.SauveCollection
-  fullName: Models.Backup.CJobManager.SauveCollection
-- uid: Stockage.Save.ISauve
-  commentId: T:Stockage.Save.ISauve
-  parent: Stockage.Save
-  href: Stockage.Save.ISauve.html
-  name: ISauve
-  nameWithType: ISauve
-  fullName: Stockage.Save.ISauve
-- uid: Stockage.Save
-  commentId: N:Stockage.Save
-  href: Stockage.html
-  name: Stockage.Save
-  nameWithType: Stockage.Save
-  fullName: Stockage.Save
-  spec.csharp:
-  - uid: Stockage
-    name: Stockage
-    href: Stockage.html
-  - name: .
-  - uid: Stockage.Save
-    name: Save
-    href: Stockage.Save.html
-  spec.vb:
-  - uid: Stockage
-    name: Stockage
-    href: Stockage.html
-  - name: .
-  - uid: Stockage.Save
-    name: Save
-    href: Stockage.Save.html
-- uid: Models.Backup.CJobManager.#ctor*
-  commentId: Overload:Models.Backup.CJobManager.#ctor
-  href: Models.Backup.CJobManager.html#Models_Backup_CJobManager__ctor
-  name: CJobManager
-  nameWithType: CJobManager.CJobManager
-  fullName: Models.Backup.CJobManager.CJobManager
-  nameWithType.vb: CJobManager.New
-  fullName.vb: Models.Backup.CJobManager.New
-  name.vb: New
-- uid: Models.Backup.CJobManager.CreateBackupJob*
-  commentId: Overload:Models.Backup.CJobManager.CreateBackupJob
-  href: Models.Backup.CJobManager.html#Models_Backup_CJobManager_CreateBackupJob_Models_Backup_CJob_
+- uid: ViewModels.JobViewModel.CreateBackupJob*
+  commentId: Overload:ViewModels.JobViewModel.CreateBackupJob
+  href: ViewModels.JobViewModel.html#ViewModels_JobViewModel_CreateBackupJob_Models_Backup_CJob_
   name: CreateBackupJob
-  nameWithType: CJobManager.CreateBackupJob
-  fullName: Models.Backup.CJobManager.CreateBackupJob
+  nameWithType: JobViewModel.CreateBackupJob
+  fullName: ViewModels.JobViewModel.CreateBackupJob
 - uid: Models.Backup.CJob
   commentId: T:Models.Backup.CJob
   parent: Models.Backup
@@ -770,21 +785,32 @@ references:
   nameWithType.vb: Boolean
   fullName.vb: Boolean
   name.vb: Boolean
-- uid: Models.Backup.CJobManager.DeleteJobs*
-  commentId: Overload:Models.Backup.CJobManager.DeleteJobs
-  href: Models.Backup.CJobManager.html#Models_Backup_CJobManager_DeleteJobs_System_Collections_Generic_List_Models_Backup_CJob__
+- uid: ViewModels.JobViewModel.DeleteJobs*
+  commentId: Overload:ViewModels.JobViewModel.DeleteJobs
+  href: ViewModels.JobViewModel.html#ViewModels_JobViewModel_DeleteJobs_System_Collections_Generic_List_Models_Backup_CJob__
   name: DeleteJobs
-  nameWithType: CJobManager.DeleteJobs
-  fullName: Models.Backup.CJobManager.DeleteJobs
-- uid: Models.Backup.CJobManager.RunJobs*
-  commentId: Overload:Models.Backup.CJobManager.RunJobs
-  href: Models.Backup.CJobManager.html#Models_Backup_CJobManager_RunJobs_System_Collections_Generic_List_Models_Backup_CJob__
-  name: RunJobs
-  nameWithType: CJobManager.RunJobs
-  fullName: Models.Backup.CJobManager.RunJobs
-- uid: Models.Backup.CJobManager.SaveJobs*
-  commentId: Overload:Models.Backup.CJobManager.SaveJobs
-  href: Models.Backup.CJobManager.html#Models_Backup_CJobManager_SaveJobs
+  nameWithType: JobViewModel.DeleteJobs
+  fullName: ViewModels.JobViewModel.DeleteJobs
+- uid: ViewModels.JobViewModel.SaveJobs*
+  commentId: Overload:ViewModels.JobViewModel.SaveJobs
+  href: ViewModels.JobViewModel.html#ViewModels_JobViewModel_SaveJobs
   name: SaveJobs
-  nameWithType: CJobManager.SaveJobs
-  fullName: Models.Backup.CJobManager.SaveJobs
+  nameWithType: JobViewModel.SaveJobs
+  fullName: ViewModels.JobViewModel.SaveJobs
+- uid: ViewModels.JobViewModel.LoadJobs*
+  commentId: Overload:ViewModels.JobViewModel.LoadJobs
+  href: ViewModels.JobViewModel.html#ViewModels_JobViewModel_LoadJobs_System_Boolean_System_String_
+  name: LoadJobs
+  nameWithType: JobViewModel.LoadJobs
+  fullName: ViewModels.JobViewModel.LoadJobs
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

@@ -21,10 +21,12 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: IPath
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Logs/IPath.cs
-    startLine: 2
+    startLine: 5
   assemblies:
   - LogsModels
   namespace: LogsModels
+  summary: Interface IPath
+  example: []
   syntax:
     content: public interface IPath
     content.vb: Public Interface IPath
@@ -46,10 +48,12 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: SourceDirectory
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Logs/IPath.cs
-    startLine: 4
+    startLine: 10
   assemblies:
   - LogsModels
   namespace: LogsModels
+  summary: Répertoire source
+  example: []
   syntax:
     content: string SourceDirectory { get; set; }
     parameters: []
@@ -75,10 +79,12 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: TargetDirectory
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Logs/IPath.cs
-    startLine: 5
+    startLine: 15
   assemblies:
   - LogsModels
   namespace: LogsModels
+  summary: Répertoire cible
+  example: []
   syntax:
     content: string TargetDirectory { get; set; }
     parameters: []

@@ -6,7 +6,6 @@ items:
   parent: LogsModels
   children:
   - LogsModels.CLogBase.Date
-  - LogsModels.CLogBase.IsSummary
   - LogsModels.CLogBase.Name
   - LogsModels.CLogBase.SourceDirectory
   - LogsModels.CLogBase.TargetDirectory
@@ -166,6 +165,7 @@ items:
   assemblies:
   - LogsModels
   namespace: LogsModels
+  summary: Répertoire source
   example: []
   syntax:
     content: public virtual string SourceDirectory { get; set; }
@@ -198,6 +198,7 @@ items:
   assemblies:
   - LogsModels
   namespace: LogsModels
+  summary: Répertoire cible
   example: []
   syntax:
     content: public virtual string TargetDirectory { get; set; }
@@ -208,35 +209,6 @@ items:
   overload: LogsModels.CLogBase.TargetDirectory*
   implements:
   - LogsModels.IPath.TargetDirectory
-- uid: LogsModels.CLogBase.IsSummary
-  commentId: P:LogsModels.CLogBase.IsSummary
-  id: IsSummary
-  parent: LogsModels.CLogBase
-  langs:
-  - csharp
-  - vb
-  name: IsSummary
-  nameWithType: CLogBase.IsSummary
-  fullName: LogsModels.CLogBase.IsSummary
-  type: Property
-  source:
-    remote:
-      path: EasySave-G4-FISA-24/Logs/CLogBase.cs
-      branch: develop-livrable-1
-      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
-    id: IsSummary
-    path: ../G4-FISA-24/EasySave-G4-FISA-24/Logs/CLogBase.cs
-    startLine: 22
-  assemblies:
-  - LogsModels
-  namespace: LogsModels
-  syntax:
-    content: public virtual bool IsSummary { get; set; }
-    parameters: []
-    return:
-      type: System.Boolean
-    content.vb: Public Overridable Property IsSummary As Boolean
-  overload: LogsModels.CLogBase.IsSummary*
 references:
 - uid: LogsModels
   commentId: N:LogsModels
@@ -565,20 +537,3 @@ references:
   name: TargetDirectory
   nameWithType: IPath.TargetDirectory
   fullName: LogsModels.IPath.TargetDirectory
-- uid: LogsModels.CLogBase.IsSummary*
-  commentId: Overload:LogsModels.CLogBase.IsSummary
-  href: LogsModels.CLogBase.html#LogsModels_CLogBase_IsSummary
-  name: IsSummary
-  nameWithType: CLogBase.IsSummary
-  fullName: LogsModels.CLogBase.IsSummary
-- uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean

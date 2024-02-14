@@ -173,7 +173,7 @@ Class SauveJobs  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Stockage_Save_SauveJobs__ctor_System_String_" data-uid="Stockage.Save.SauveJobs.#ctor(System.String)">
   SauveJobs(string)
-  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-G4-FISA-24/Stockage/Save/SauveJobs.cs&amp;version=GBdevelop-livrable-1&amp;line=14"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-G4-FISA-24/Stockage/Save/SauveJobs.cs&amp;version=GBdevelop-livrable-1&amp;line=15"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -243,7 +243,7 @@ Class SauveJobs  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Stockage_Save_SauveJobs_CopyDirectory_System_IO_DirectoryInfo_System_IO_DirectoryInfo_System_Boolean_LogsModels_CLogState__System_Boolean_" data-uid="Stockage.Save.SauveJobs.CopyDirectory(System.IO.DirectoryInfo,System.IO.DirectoryInfo,System.Boolean,LogsModels.CLogState@,System.Boolean)">
   CopyDirectory(DirectoryInfo, DirectoryInfo, bool, ref CLogState, bool)
-  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-G4-FISA-24/Stockage/Save/SauveJobs.cs&amp;version=GBdevelop-livrable-1&amp;line=35"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-G4-FISA-24/Stockage/Save/SauveJobs.cs&amp;version=GBdevelop-livrable-1&amp;line=41"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Copy files and directory from the soruce path to the destinationPath</p>
@@ -251,7 +251,7 @@ Class SauveJobs  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void CopyDirectory(DirectoryInfo pSourceDir, DirectoryInfo pTargetDir, bool pRecursive, ref CLogState pLogState, bool pForce = false)</code></pre>
+    <pre><code class="lang-csharp hljs">public override void CopyDirectory(DirectoryInfo pSourceDir, DirectoryInfo pTargetDir, bool pRecursive, ref CLogState pLogState, bool pDiffertielle = false)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -267,8 +267,8 @@ Class SauveJobs  <a class="header-action link-secondary" title="View source" hre
 </dd>
     <dt><code>pLogState</code> <a class="xref" href="LogsModels.CLogState.html">CLogState</a></dt>
     <dd></dd>
-    <dt><code>pForce</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd><p>true if overwrite</p>
+    <dt><code>pDiffertielle</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>true if the backup is differentiel</p>
 </dd>
   </dl>
 
@@ -292,7 +292,7 @@ Class SauveJobs  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Stockage_Save_SauveJobs_GetDirSize_System_String_" data-uid="Stockage.Save.SauveJobs.GetDirSize(System.String)">
   GetDirSize(string)
-  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-G4-FISA-24/Stockage/Save/SauveJobs.cs&amp;version=GBdevelop-livrable-1&amp;line=88"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-G4-FISA-24/Stockage/Save/SauveJobs.cs&amp;version=GBdevelop-livrable-1&amp;line=124"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Calcule la taille d'un repertoire</p>
@@ -331,10 +331,11 @@ Class SauveJobs  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Stockage_Save_SauveJobs_UpdateLog_LogsModels_CLogState_" data-uid="Stockage.Save.SauveJobs.UpdateLog(LogsModels.CLogState)">
   UpdateLog(CLogState)
-  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-G4-FISA-24/Stockage/Save/SauveJobs.cs&amp;version=GBdevelop-livrable-1&amp;line=19"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-G4-FISA-24/Stockage/Save/SauveJobs.cs&amp;version=GBdevelop-livrable-1&amp;line=25"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>UpdateLog</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -344,7 +345,8 @@ Class SauveJobs  <a class="header-action link-secondary" title="View source" hre
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>logState</code> <a class="xref" href="LogsModels.CLogState.html">CLogState</a></dt>
-    <dd></dd>
+    <dd><p>Log a jour</p>
+</dd>
   </dl>
 
 

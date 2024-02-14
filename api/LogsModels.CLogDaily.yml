@@ -38,7 +38,6 @@ items:
   - LogsModels.CLogBase.TotalSize
   - LogsModels.CLogBase.SourceDirectory
   - LogsModels.CLogBase.TargetDirectory
-  - LogsModels.CLogBase.IsSummary
   - System.Object.Equals(System.Object)
   - System.Object.Equals(System.Object,System.Object)
   - System.Object.GetHashCode
@@ -64,7 +63,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: TransfertTimeSecond
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Logs/CLogDaily.cs
-    startLine: 7
+    startLine: 8
   assemblies:
   - LogsModels
   namespace: LogsModels
@@ -142,13 +141,6 @@ references:
   name: TargetDirectory
   nameWithType: CLogBase.TargetDirectory
   fullName: LogsModels.CLogBase.TargetDirectory
-- uid: LogsModels.CLogBase.IsSummary
-  commentId: P:LogsModels.CLogBase.IsSummary
-  parent: LogsModels.CLogBase
-  href: LogsModels.CLogBase.html#LogsModels_CLogBase_IsSummary
-  name: IsSummary
-  nameWithType: CLogBase.IsSummary
-  fullName: LogsModels.CLogBase.IsSummary
 - uid: System.Object.Equals(System.Object)
   commentId: M:System.Object.Equals(System.Object)
   parent: System.Object

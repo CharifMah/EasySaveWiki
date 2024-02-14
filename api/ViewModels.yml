@@ -1,0 +1,53 @@
+### YamlMime:ManagedReference
+items:
+- uid: ViewModels
+  commentId: N:ViewModels
+  id: ViewModels
+  children:
+  - ViewModels.BaseViewModel
+  - ViewModels.JobViewModel
+  - ViewModels.LangueViewModel
+  - ViewModels.MainViewModel
+  langs:
+  - csharp
+  - vb
+  name: ViewModels
+  nameWithType: ViewModels
+  fullName: ViewModels
+  type: Namespace
+  assemblies:
+  - ViewModels
+references:
+- uid: ViewModels.BaseViewModel
+  commentId: T:ViewModels.BaseViewModel
+  parent: ViewModels
+  href: ViewModels.BaseViewModel.html
+  name: BaseViewModel
+  nameWithType: BaseViewModel
+  fullName: ViewModels.BaseViewModel
+- uid: ViewModels.JobViewModel
+  commentId: T:ViewModels.JobViewModel
+  parent: ViewModels
+  href: ViewModels.JobViewModel.html
+  name: JobViewModel
+  nameWithType: JobViewModel
+  fullName: ViewModels.JobViewModel
+- uid: ViewModels.LangueViewModel
+  commentId: T:ViewModels.LangueViewModel
+  parent: ViewModels
+  href: ViewModels.LangueViewModel.html
+  name: LangueViewModel
+  nameWithType: LangueViewModel
+  fullName: ViewModels.LangueViewModel
+- uid: ViewModels.MainViewModel
+  commentId: T:ViewModels.MainViewModel
+  href: ViewModels.MainViewModel.html
+  name: MainViewModel
+  nameWithType: MainViewModel
+  fullName: ViewModels.MainViewModel
+- uid: ViewModels
+  commentId: N:ViewModels
+  href: ViewModels.html
+  name: ViewModels
+  nameWithType: ViewModels
+  fullName: ViewModels

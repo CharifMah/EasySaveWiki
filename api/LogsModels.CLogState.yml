@@ -25,10 +25,12 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: CLogState
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Logs/CLogState.cs
-    startLine: 3
+    startLine: 6
   assemblies:
   - LogsModels
   namespace: LogsModels
+  summary: Classe de journal d'état représentant l'état de transfert d'une liste de fichiers
+  example: []
   syntax:
     content: >-
       [DataContract]
@@ -48,7 +50,6 @@ items:
   - LogsModels.CLogBase.TotalSize
   - LogsModels.CLogBase.SourceDirectory
   - LogsModels.CLogBase.TargetDirectory
-  - LogsModels.CLogBase.IsSummary
   - System.Object.Equals(System.Object)
   - System.Object.Equals(System.Object,System.Object)
   - System.Object.GetHashCode
@@ -78,7 +79,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Name
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Logs/CLogState.cs
-    startLine: 14
+    startLine: 17
   assemblies:
   - LogsModels
   namespace: LogsModels
@@ -109,10 +110,12 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: RemainingFiles
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Logs/CLogState.cs
-    startLine: 25
+    startLine: 28
   assemblies:
   - LogsModels
   namespace: LogsModels
+  summary: Nombre de fichier restant
+  example: []
   syntax:
     content: public int RemainingFiles { get; set; }
     parameters: []
@@ -138,10 +141,12 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: EligibleFileCount
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Logs/CLogState.cs
-    startLine: 26
+    startLine: 32
   assemblies:
   - LogsModels
   namespace: LogsModels
+  summary: Nombre de fichier eligible au deplacement (Nombre de fichier Total)
+  example: []
   syntax:
     content: public int EligibleFileCount { get; set; }
     parameters: []
@@ -167,10 +172,12 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: ElapsedMilisecond
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Logs/CLogState.cs
-    startLine: 27
+    startLine: 36
   assemblies:
   - LogsModels
   namespace: LogsModels
+  summary: Nombre de millisecondes écoulées
+  example: []
   syntax:
     content: public long ElapsedMilisecond { get; set; }
     parameters: []
@@ -196,10 +203,12 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: IsActive
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Logs/CLogState.cs
-    startLine: 28
+    startLine: 40
   assemblies:
   - LogsModels
   namespace: LogsModels
+  summary: Indique si le job est actif ou non
+  example: []
   syntax:
     content: public bool IsActive { get; set; }
     parameters: []
@@ -225,10 +234,12 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: .ctor
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Logs/CLogState.cs
-    startLine: 29
+    startLine: 44
   assemblies:
   - LogsModels
   namespace: LogsModels
+  summary: Constructeur de CLogState
+  example: []
   syntax:
     content: public CLogState()
     content.vb: Public Sub New()
@@ -296,13 +307,6 @@ references:
   name: TargetDirectory
   nameWithType: CLogBase.TargetDirectory
   fullName: LogsModels.CLogBase.TargetDirectory
-- uid: LogsModels.CLogBase.IsSummary
-  commentId: P:LogsModels.CLogBase.IsSummary
-  parent: LogsModels.CLogBase
-  href: LogsModels.CLogBase.html#LogsModels_CLogBase_IsSummary
-  name: IsSummary
-  nameWithType: CLogBase.IsSummary
-  fullName: LogsModels.CLogBase.IsSummary
 - uid: System.Object.Equals(System.Object)
   commentId: M:System.Object.Equals(System.Object)
   parent: System.Object
