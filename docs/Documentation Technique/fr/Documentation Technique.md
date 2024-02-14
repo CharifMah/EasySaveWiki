@@ -33,17 +33,22 @@ Ces processus sont consultables via les pipelines : https://dev.azure.com/faikme
 
 NOTES : Un seul agent pourra gérer l'éxécution d'une unique pipeline, le paralélisme n'est pas possible.
 
-
-
 ### Fonctionnalités
 - Sauvegarde séquentielle
 - Journaux quotidiens
 - Journaux d'état
+- Choisir la langue
+- Lister les jobs
+- Charger une configuration de Jobs
+- Créer un job
+- Supprimer un job
+- Lancer les jobs
 
 ### Architecture
  L'architecture est basée sur un modèle MVVM avec :
 
-- **Modèles** : classes représentant les données (CJob, CJobManager, CSettings, etc.)
-- **Vues** :  classes représentant les vues ([BaseView](https://charifmah.github.io/EasySaveWiki/api/EasySave.Views.BaseView.html), [View](https://charifmah.github.io/EasySaveWiki/api/EasySave.Views.View.html), JobView, etc.)
+- **Modèles** : classes représentant les données ([CJob](https://charifmah.github.io/EasySaveWiki/api/Models.Backup.CJob.html), [CJobManager](https://charifmah.github.io/EasySaveWiki/api/Models.Backup.CJobManager.html), [CSettings](https://charifmah.github.io/EasySaveWiki/api/Models.CSettings.html), etc.)
+- **Vues** :  classes représentant les vues ([BaseView](https://charifmah.github.io/EasySaveWiki/api/EasySave.Views.BaseView.html), [View](https://charifmah.github.io/EasySaveWiki/api/EasySave.Views.View.html), [JobView](https://charifmah.github.io/EasySaveWiki/api/EasySave.Views.JobView.html), etc.)
 - **ViewModels** : classes faisant le lien entre modèles et vues.
+
 
