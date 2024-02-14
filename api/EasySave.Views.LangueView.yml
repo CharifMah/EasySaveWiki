@@ -92,15 +92,18 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: .ctor
     path: ../G4-FISA-24/EasySave-G4-FISA-24/EasySave/Views/LangueView.cs
-    startLine: 12
+    startLine: 16
   assemblies:
   - EasySave
   namespace: EasySave.Views
+  summary: Constructeur de la Vue de la langue
+  example: []
   syntax:
     content: public LangueView(LangueViewModel pJobVm)
     parameters:
     - id: pJobVm
       type: ViewModels.LangueViewModel
+      description: Le JobViewModel
     content.vb: Public Sub New(pJobVm As LangueViewModel)
   overload: EasySave.Views.LangueView.#ctor*
   nameWithType.vb: LangueView.New(LangueViewModel)
@@ -124,7 +127,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Run
     path: ../G4-FISA-24/EasySave-G4-FISA-24/EasySave/Views/LangueView.cs
-    startLine: 19
+    startLine: 23
   assemblies:
   - EasySave
   namespace: EasySave.Views
@@ -153,7 +156,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: ListLanguage
     path: ../G4-FISA-24/EasySave-G4-FISA-24/EasySave/Views/LangueView.cs
-    startLine: 38
+    startLine: 42
   assemblies:
   - EasySave
   namespace: EasySave.Views

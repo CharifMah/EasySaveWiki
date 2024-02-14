@@ -106,7 +106,7 @@ items:
   assemblies:
   - EasySave
   namespace: EasySave.Views
-  summary: Write line a succes in green
+  summary: Write line a success in green
   example: []
   syntax:
     content: public static void WriteLineSucces(string pMessage)
@@ -290,7 +290,7 @@ items:
     parameters:
     - id: pSubtitle
       type: System.String
-      description: subvtitle
+      description: subtitle
     - id: pColor
       type: System.ConsoleColor
       description: couleur du subtitle
@@ -335,7 +335,7 @@ items:
       description: Regex permettant de validée l'entrée utilisateur
     - id: pIsValid
       type: System.Func{System.String,System.Boolean}
-      description: Fonction qui prend un string en parametre et valide l'entrée utilisateur
+      description: Fonction qui prend un string en paramètre et valide l'entrée utilisateur
     return:
       type: System.String
       description: user input

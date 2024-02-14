@@ -67,10 +67,12 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: TransferedFiles
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/Save/SauveJobs.cs
-    startLine: 12
+    startLine: 15
   assemblies:
   - Stockage
   namespace: Stockage.Save
+  summary: Le nombre de fichier transférer
+  example: []
   syntax:
     content: public int TransferedFiles { get; set; }
     parameters: []
@@ -96,15 +98,18 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: .ctor
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/Save/SauveJobs.cs
-    startLine: 14
+    startLine: 20
   assemblies:
   - Stockage
   namespace: Stockage.Save
+  summary: Constructeur de SauveJobs
+  example: []
   syntax:
     content: public SauveJobs(string pPath = null)
     parameters:
     - id: pPath
       type: System.String
+      description: Le chemin du dossier
     content.vb: Public Sub New(pPath As String = Nothing)
   overload: Stockage.Save.SauveJobs.#ctor*
   nameWithType.vb: SauveJobs.New(String)
@@ -128,7 +133,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: UpdateLog
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/Save/SauveJobs.cs
-    startLine: 24
+    startLine: 30
   assemblies:
   - Stockage
   namespace: Stockage.Save
@@ -160,11 +165,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: CopyDirectory
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/Save/SauveJobs.cs
-    startLine: 40
+    startLine: 46
   assemblies:
   - Stockage
   namespace: Stockage.Save
-  summary: Copy files and directory from the soruce path to the destinationPath
+  summary: Copy files and directory from the source path to the destinationPath
   example: []
   syntax:
     content: public override void CopyDirectory(DirectoryInfo pSourceDir, DirectoryInfo pTargetDir, bool pRecursive, ref CLogState pLogState, bool pDiffertielle = false)
@@ -182,7 +187,7 @@ items:
       type: LogsModels.CLogState
     - id: pDiffertielle
       type: System.Boolean
-      description: true if the backup is differentiel
+      description: true if the backup is differential
     content.vb: Public Overrides Sub CopyDirectory(pSourceDir As DirectoryInfo, pTargetDir As DirectoryInfo, pRecursive As Boolean, pLogState As CLogState, pDiffertielle As Boolean = False)
   overridden: Stockage.Save.BaseSave.CopyDirectory(System.IO.DirectoryInfo,System.IO.DirectoryInfo,System.Boolean,LogsModels.CLogState@,System.Boolean)
   overload: Stockage.Save.SauveJobs.CopyDirectory*
@@ -211,7 +216,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: GetDirSize
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/Save/SauveJobs.cs
-    startLine: 123
+    startLine: 129
   assemblies:
   - Stockage
   namespace: Stockage.Save

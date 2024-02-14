@@ -22,20 +22,53 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "_site/_site/docs/Guide d'utilisation/images/menu.png",
+      "source_relative_path": "User-Guide/en/images/en-menu.png",
       "output": {
         "resource": {
-          "relative_path": "_site/_site/docs/Guide d'utilisation/images/menu.png"
+          "relative_path": "User-Guide/en/images/en-menu.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "User-Guide/en/user-guid.md",
+      "output": {
+        ".html": {
+          "relative_path": "User-Guide/en/user-guid.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "User-Guide/fr/guide-utilisation.md",
+      "output": {
+        ".html": {
+          "relative_path": "User-Guide/fr/guide-utilisation.html"
         }
       },
       "version": ""
     },
     {
       "type": "Resource",
-      "source_relative_path": "_site/docs/Guide d'utilisation/images/menu.png",
+      "source_relative_path": "User-Guide/fr/images/fr-menu.png",
       "output": {
         "resource": {
-          "relative_path": "_site/docs/Guide d'utilisation/images/menu.png"
+          "relative_path": "User-Guide/fr/images/fr-menu.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "User-Guide/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "User-Guide/toc.html"
+        },
+        ".json": {
+          "relative_path": "User-Guide/toc.json"
         }
       },
       "version": ""

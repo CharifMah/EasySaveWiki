@@ -249,7 +249,7 @@ items:
       description: List de jobs à supprimer
     return:
       type: System.Boolean
-      description: true si reussi
+      description: true si réussi
     content.vb: Public Function DeleteJobs(pJobs As List(Of CJob)) As Boolean
   overload: Models.Backup.CJobManager.DeleteJobs*
   nameWithType.vb: CJobManager.DeleteJobs(List(Of CJob))

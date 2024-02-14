@@ -99,7 +99,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: .ctor
     path: ../G4-FISA-24/EasySave-G4-FISA-24/ViewModels/JobViewModel.cs
-    startLine: 20
+    startLine: 21
   assemblies:
   - ViewModels
   namespace: ViewModels
@@ -130,7 +130,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: RunJobs
     path: ../G4-FISA-24/EasySave-G4-FISA-24/ViewModels/JobViewModel.cs
-    startLine: 38
+    startLine: 40
   assemblies:
   - ViewModels
   namespace: ViewModels
@@ -168,7 +168,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: CreateBackupJob
     path: ../G4-FISA-24/EasySave-G4-FISA-24/ViewModels/JobViewModel.cs
-    startLine: 48
+    startLine: 50
   assemblies:
   - ViewModels
   namespace: ViewModels
@@ -203,7 +203,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: DeleteJobs
     path: ../G4-FISA-24/EasySave-G4-FISA-24/ViewModels/JobViewModel.cs
-    startLine: 58
+    startLine: 60
   assemblies:
   - ViewModels
   namespace: ViewModels
@@ -241,7 +241,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: SaveJobs
     path: ../G4-FISA-24/EasySave-G4-FISA-24/ViewModels/JobViewModel.cs
-    startLine: 66
+    startLine: 68
   assemblies:
   - ViewModels
   namespace: ViewModels
@@ -269,7 +269,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: LoadJobs
     path: ../G4-FISA-24/EasySave-G4-FISA-24/ViewModels/JobViewModel.cs
-    startLine: 76
+    startLine: 78
   assemblies:
   - ViewModels
   namespace: ViewModels

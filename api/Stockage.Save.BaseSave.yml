@@ -28,7 +28,7 @@ items:
   assemblies:
   - Stockage
   namespace: Stockage.Save
-  summary: Classe abstraite de base pour la sauvegrade d'un ficher ou le deplacement de Repertoire
+  summary: Classe abstraite de base pour la sauvegarde d'un ficher ou le déplacement de Repertoire
   example: []
   syntax:
     content: 'public abstract class BaseSave : ISauve'
@@ -99,7 +99,7 @@ items:
   assemblies:
   - Stockage
   namespace: Stockage.Save
-  summary: Sauvgarde
+  summary: Sauvegarde
   example: []
   syntax:
     content: public BaseSave(string pPath)
@@ -141,7 +141,7 @@ items:
     parameters:
     - id: pData
       type: '{T}'
-      description: Data a sauvgarde
+      description: Data a sauvegarde
     - id: pFileName
       type: System.String
       description: Name of the file
@@ -149,7 +149,7 @@ items:
       type: System.Boolean
     - id: pExtention
       type: System.String
-      description: Extention of the file can be null
+      description: Extension of the file can be null
     - id: IsFullPath
       type: System.Boolean
     typeParameters:
@@ -183,7 +183,7 @@ items:
   assemblies:
   - Stockage
   namespace: Stockage.Save
-  summary: Copy files and directory from the soruce path to the destinationPath
+  summary: Copy files and directory from the source path to the destinationPath
   example: []
   syntax:
     content: public virtual void CopyDirectory(DirectoryInfo pSourceDir, DirectoryInfo pTargetDir, bool pRecursive, bool pForce = false)

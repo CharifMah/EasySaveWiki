@@ -67,7 +67,7 @@ items:
   assemblies:
   - ViewModels
   namespace: ViewModels
-  summary: Evénement de modification d'une property
+  summary: Événement de modification d'une property
   example: []
   syntax:
     content: public event PropertyChangedEventHandler PropertyChanged
@@ -98,14 +98,14 @@ items:
   assemblies:
   - ViewModels
   namespace: ViewModels
-  summary: Méthode à appler pour avertir d'une modification
+  summary: Méthode à appeler pour avertir d'une modification
   example: []
   syntax:
     content: protected void NotifyPropertyChanged(string propertyName = "")
     parameters:
     - id: propertyName
       type: System.String
-      description: Nom de la property modifiée (authomatiquement déterminé si appelé directement dans le setter une property)
+      description: Nom de la property modifiée (automatiquement déterminé si appelé directement dans le setter une property)
     content.vb: Protected Sub NotifyPropertyChanged(propertyName As String = "")
   overload: ViewModels.BaseViewModel.NotifyPropertyChanged*
   nameWithType.vb: BaseViewModel.NotifyPropertyChanged(String)

@@ -94,7 +94,7 @@ items:
   assemblies:
   - EasySave
   namespace: EasySave.Views
-  summary: Lance le deroulement de la vue dans l'interface de maniere procedurale
+  summary: Lance le déroulement de la vue dans l'interface de manière procedural
   example: []
   syntax:
     content: public abstract void Run()

@@ -74,7 +74,7 @@ items:
   assemblies:
   - Models
   namespace: Models
-  summary: Dictionnaire de langues disponnible dans l'application
+  summary: Dictionnaire de langues disponible dans l'application
   example: []
   syntax:
     content: public Dictionary<int, string> Languages { get; set; }
@@ -134,7 +134,7 @@ items:
   assemblies:
   - Models
   namespace: Models
-  summary: Constructeur de la classe Clangue Init the language with the installed culture of the operating system
+  summary: Initialize the language with the installed culture of the operating system
   example: []
   syntax:
     content: public CLangue()

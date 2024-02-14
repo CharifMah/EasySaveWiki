@@ -69,7 +69,7 @@ items:
   assemblies:
   - LogsModels
   namespace: LogsModels
-  summary: Temps de transfert en miliseconde
+  summary: Temps de transfert en milliseconde
   example: []
   syntax:
     content: public double TransfertTime { get; set; }

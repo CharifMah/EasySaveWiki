@@ -53,7 +53,7 @@ items:
   assemblies:
   - Stockage
   namespace: Stockage.Save
-  summary: Sauvagarde les données dans un fichier
+  summary: Sauvegarde les données dans un fichier
   remarks: Mahmoud Charif - 31/12/2022 - Création
   example: []
   syntax:
@@ -70,7 +70,7 @@ items:
       description: True si on veux append sur le fichier
     - id: pExtention
       type: System.String
-      description: Extention
+      description: Extension
     - id: IsFullPath
       type: System.Boolean
       description: vrai si pFileName est un chemin complet
@@ -103,7 +103,7 @@ items:
   assemblies:
   - Stockage
   namespace: Stockage.Save
-  summary: Copy files and directory from the soruce path to the destinationPath
+  summary: Copy files and directory from the source path to the destinationPath
   example: []
   syntax:
     content: void CopyDirectory(DirectoryInfo pSourceDir, DirectoryInfo pTargetDir, bool pRecursive, bool pForce = false)

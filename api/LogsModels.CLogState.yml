@@ -146,7 +146,7 @@ items:
   assemblies:
   - LogsModels
   namespace: LogsModels
-  summary: Nombre de fichier eligible au deplacement (Nombre de fichier Total)
+  summary: Nombre de fichier eligible au déplacement (Nombre de fichier Total)
   example: []
   syntax:
     content: public int EligibleFileCount { get; set; }
