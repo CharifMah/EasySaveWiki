@@ -1,2 +1,4 @@
-- name: Releases
-  href: release1.md
+- name: Releases-v1-0-en
+  href: Releases-v1-0/en/release-notes-en-1.0.0.md
+- name: Releases-v1-0-fr
+  href: Releases-v1-0/fr/release-notes-fr-1.0.0.md

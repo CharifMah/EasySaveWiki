@@ -21,6 +21,219 @@
       "version": ""
     },
     {
+      "type": "Conceptual",
+      "source_relative_path": "TechnicalDocumentation/en/Technical Documentation.md",
+      "output": {
+        ".html": {
+          "relative_path": "TechnicalDocumentation/en/Technical Documentation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "TechnicalDocumentation/en/images/Package.png",
+      "output": {
+        "resource": {
+          "relative_path": "TechnicalDocumentation/en/images/Package.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "TechnicalDocumentation/en/images/deployment.png",
+      "output": {
+        "resource": {
+          "relative_path": "TechnicalDocumentation/en/images/deployment.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "TechnicalDocumentation/en/images/image-1.png",
+      "output": {
+        "resource": {
+          "relative_path": "TechnicalDocumentation/en/images/image-1.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "TechnicalDocumentation/en/images/image-2.png",
+      "output": {
+        "resource": {
+          "relative_path": "TechnicalDocumentation/en/images/image-2.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "TechnicalDocumentation/en/images/image-3.png",
+      "output": {
+        "resource": {
+          "relative_path": "TechnicalDocumentation/en/images/image-3.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "TechnicalDocumentation/en/images/image.png",
+      "output": {
+        "resource": {
+          "relative_path": "TechnicalDocumentation/en/images/image.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "TechnicalDocumentation/en/images/integration-process.png",
+      "output": {
+        "resource": {
+          "relative_path": "TechnicalDocumentation/en/images/integration-process.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "TechnicalDocumentation/en/images/releases-access.png",
+      "output": {
+        "resource": {
+          "relative_path": "TechnicalDocumentation/en/images/releases-access.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "TechnicalDocumentation/en/images/releases-access2.png",
+      "output": {
+        "resource": {
+          "relative_path": "TechnicalDocumentation/en/images/releases-access2.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "TechnicalDocumentation/fr/Documentation Technique.md",
+      "output": {
+        ".html": {
+          "relative_path": "TechnicalDocumentation/fr/Documentation Technique.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "TechnicalDocumentation/fr/images/Package.png",
+      "output": {
+        "resource": {
+          "relative_path": "TechnicalDocumentation/fr/images/Package.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "TechnicalDocumentation/fr/images/deployment.png",
+      "output": {
+        "resource": {
+          "relative_path": "TechnicalDocumentation/fr/images/deployment.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "TechnicalDocumentation/fr/images/image-1.png",
+      "output": {
+        "resource": {
+          "relative_path": "TechnicalDocumentation/fr/images/image-1.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "TechnicalDocumentation/fr/images/image-2.png",
+      "output": {
+        "resource": {
+          "relative_path": "TechnicalDocumentation/fr/images/image-2.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "TechnicalDocumentation/fr/images/image-3.png",
+      "output": {
+        "resource": {
+          "relative_path": "TechnicalDocumentation/fr/images/image-3.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "TechnicalDocumentation/fr/images/image.png",
+      "output": {
+        "resource": {
+          "relative_path": "TechnicalDocumentation/fr/images/image.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "TechnicalDocumentation/fr/images/integration-processus.png",
+      "output": {
+        "resource": {
+          "relative_path": "TechnicalDocumentation/fr/images/integration-processus.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "TechnicalDocumentation/fr/images/releases-access.png",
+      "output": {
+        "resource": {
+          "relative_path": "TechnicalDocumentation/fr/images/releases-access.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "TechnicalDocumentation/fr/images/releases-access2.png",
+      "output": {
+        "resource": {
+          "relative_path": "TechnicalDocumentation/fr/images/releases-access2.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "TechnicalDocumentation/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "TechnicalDocumentation/toc.html"
+        },
+        ".json": {
+          "relative_path": "TechnicalDocumentation/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Resource",
       "source_relative_path": "User-Guide/en/images/en-menu.png",
       "output": {
@@ -69,36 +282,6 @@
         },
         ".json": {
           "relative_path": "User-Guide/toc.json"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "_site/User-Guide/en/images/en-menu.png",
-      "output": {
-        "resource": {
-          "relative_path": "_site/User-Guide/en/images/en-menu.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "_site/User-Guide/fr/images/fr-menu.png",
-      "output": {
-        "resource": {
-          "relative_path": "_site/User-Guide/fr/images/fr-menu.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "_site/docs/Guide d'utilisation/images/menu.png",
-      "output": {
-        "resource": {
-          "relative_path": "_site/docs/Guide d'utilisation/images/menu.png"
         }
       },
       "version": ""
@@ -728,16 +911,6 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "docs/Documentation Technique/fr/Documentation Technique.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/Documentation Technique/fr/Documentation Technique.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
       "source_relative_path": "docs/introduction.md",
       "output": {
         ".html": {
@@ -770,11 +943,141 @@
       "version": ""
     },
     {
+      "type": "Resource",
+      "source_relative_path": "releases/Releases-v1-0/en/images/en-create-job.png",
+      "output": {
+        "resource": {
+          "relative_path": "releases/Releases-v1-0/en/images/en-create-job.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "releases/Releases-v1-0/en/images/en-delete-jobs.png",
+      "output": {
+        "resource": {
+          "relative_path": "releases/Releases-v1-0/en/images/en-delete-jobs.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "releases/Releases-v1-0/en/images/en-jobs-list.png",
+      "output": {
+        "resource": {
+          "relative_path": "releases/Releases-v1-0/en/images/en-jobs-list.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "releases/Releases-v1-0/en/images/en-language-select.png",
+      "output": {
+        "resource": {
+          "relative_path": "releases/Releases-v1-0/en/images/en-language-select.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "releases/Releases-v1-0/en/images/en-main-menu.png",
+      "output": {
+        "resource": {
+          "relative_path": "releases/Releases-v1-0/en/images/en-main-menu.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "releases/Releases-v1-0/en/images/en-run-jobs.png",
+      "output": {
+        "resource": {
+          "relative_path": "releases/Releases-v1-0/en/images/en-run-jobs.png"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Conceptual",
-      "source_relative_path": "releases/release1.md",
+      "source_relative_path": "releases/Releases-v1-0/en/release-notes-en-1.0.0.md",
       "output": {
         ".html": {
-          "relative_path": "releases/release1.html"
+          "relative_path": "releases/Releases-v1-0/en/release-notes-en-1.0.0.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "releases/Releases-v1-0/fr/images/fr-create-job.png",
+      "output": {
+        "resource": {
+          "relative_path": "releases/Releases-v1-0/fr/images/fr-create-job.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "releases/Releases-v1-0/fr/images/fr-delete-jobs.png",
+      "output": {
+        "resource": {
+          "relative_path": "releases/Releases-v1-0/fr/images/fr-delete-jobs.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "releases/Releases-v1-0/fr/images/fr-jobs-list.png",
+      "output": {
+        "resource": {
+          "relative_path": "releases/Releases-v1-0/fr/images/fr-jobs-list.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "releases/Releases-v1-0/fr/images/fr-language-select.png",
+      "output": {
+        "resource": {
+          "relative_path": "releases/Releases-v1-0/fr/images/fr-language-select.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "releases/Releases-v1-0/fr/images/fr-main-menu.png",
+      "output": {
+        "resource": {
+          "relative_path": "releases/Releases-v1-0/fr/images/fr-main-menu.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "releases/Releases-v1-0/fr/images/fr-run-jobs.png",
+      "output": {
+        "resource": {
+          "relative_path": "releases/Releases-v1-0/fr/images/fr-run-jobs.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "releases/Releases-v1-0/fr/release-notes-fr-1.0.0.md",
+      "output": {
+        ".html": {
+          "relative_path": "releases/Releases-v1-0/fr/release-notes-fr-1.0.0.html"
         }
       },
       "version": ""

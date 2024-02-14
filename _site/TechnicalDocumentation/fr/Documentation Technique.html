@@ -1,0 +1,228 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Easy Save | EasySaveWiki </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Easy Save | EasySaveWiki ">
+      
+      
+      <link rel="icon" href="../../favicon.ico">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../toc.html">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/CharifMah/EasySaveWiki/blob/main/TechnicalDocumentation/fr/Documentation Technique.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../logo.svg" alt="EasySaveWiki">
+            EasySaveWiki
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="easy-save">Easy Save</h1>
+
+<h2 id="introduction">Introduction</h2>
+<p>Le livrable 1 contient la première version fonctionnelle d'EasySave, conformément aux spécifications de ProSoft.</p>
+<p>Cette version initie le développement d'une application console .NET Core pour la gestion des tâches de sauvegarde.</p>
+<h3 id="prérequis">Prérequis</h3>
+<ol>
+<li>Processus d'installation</li>
+</ol>
+<ul>
+<li>Cloner la branche livrable-1 et ouvrir le projet avec Visual Studio 2022.</li>
+<li>Assurez-vous d'avoir installé .NET Core 6.0.</li>
+</ul>
+<ol start="2">
+<li>Dépendances logicielles</li>
+</ol>
+<ul>
+<li>.NET Core 6.0</li>
+<li>Visual Studio 2022</li>
+</ul>
+<h2 id="executer-easy-save">Executer Easy Save</h2>
+<h4 id="windows">Windows</h4>
+<p>Lancer EasySave.exe dans le répertoire <code>../G4-FISA-24/EasySave-G4-FISA-24/EasySave/bin/Debug/net6.0/EasySave.exe</code>.</p>
+<h4 id="linux">Linux</h4>
+<p>Exécutez <code>./EasySave</code> apres avoir fait la publication depuis visual studio.</p>
+<h2 id="publication-de-easysave">Publication de EasySave</h2>
+<p><img src="images/image.png" alt="alt text"></p>
+<p>Il faut specifier le 'Target runtime' en fonction du système d'exploitation</p>
+<p><img src="images/image-1.png" alt="alt text"></p>
+<h3 id="tests">Tests</h3>
+<p>Ouvrez l'explorateur de tests dans Visual Studio et exécutez les tests unitaires.</p>
+<p><img src="images/image-2.png" alt="alt text"></p>
+<p><img src="images/image-3.png" alt="alt text"></p>
+<p>Tous les tests sont testés pendant la phase CI/CD, mais il est préférable d'exécuter les tests avant de 'push'.</p>
+<h3 id="dernières-versions">Dernières versions</h3>
+<p>Veuillez consulter l'onglet &quot;releases&quot; pour accéder à la dernière version du livrable 1 (Pipelines -&gt; Releases) :</p>
+<p><a href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_release?_a=releases&amp;view=mine&amp;definitionId=1">https://dev.azure.com/faikmehmeti/G4-FISA-24/_release?_a=releases&amp;view=mine&amp;definitionId=1</a></p>
+<h3 id="construction-et-test">Construction et test</h3>
+<ul>
+<li><p>Une demande de téléchargement vers la branche develop-livrable-1 déclenche automatiquement un processus de construction et de test (tests unitaires uniquement).</p>
+</li>
+<li><p>Une demande d'extraction vers la branche livrable-1 déclenche automatiquement un processus d'intégration continue, depuis la construction et les tests jusqu'à la publication.</p>
+</li>
+</ul>
+<p>Ces processus peuvent être visualisés via les pipelines : <a href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_build">https://dev.azure.com/faikmehmeti/G4-FISA-24/_build</a></p>
+<p>NOTES : Un seul agent peut gérer l'exécution d'un seul pipeline ; le parallélisme n'est pas possible.</p>
+<h3 id="fonctionnalités">Fonctionnalités</h3>
+<ul>
+<li>Sauvegarde séquentielle</li>
+<li>Journaux quotidiens</li>
+<li>Journaux d'état</li>
+<li>Choisir la langue</li>
+<li>Lister les jobs</li>
+<li>Charger une configuration de Jobs</li>
+<li>Créer un job</li>
+<li>Supprimer un job</li>
+<li>Lancer les jobs</li>
+</ul>
+<h3 id="point-dentrée-de-lapplication-console">Point d'entrée de l'application console</h3>
+<pre><code class="lang-csharp">using View = EasySave.Views.View;
+namespace EasySave // Note: actual namespace depends on the project name.
+{
+    /// &lt;summary&gt;
+    /// Application entry point
+    /// &lt;/summary&gt;
+    internal class Program
+    {
+        [STAThread]
+        static void Main(string[] args)
+        {
+            View pView = new View();
+            //Lance le program principale
+            pView.Run();
+        }
+    }
+}
+</code></pre>
+<h3 id="architecture">Architecture</h3>
+<p><img src="images/Package.png" alt="alt text"></p>
+<p>L'architecture est basée sur un modèle MVVM avec :</p>
+<ul>
+<li><strong>Modèles</strong> : classes représentant les données (<a href="https://charifmah.github.io/EasySaveWiki/api/Models.Backup.CJob.html">CJob</a>, <a href="https://charifmah.github.io/EasySaveWiki/api/Models.Backup.CJobManager.html">CJobManager</a>, <a href="https://charifmah.github.io/EasySaveWiki/api/Models.CSettings.html">CSettings</a>, etc.)</li>
+<li><strong>Vues</strong> :  classes représentant les vues (<a href="https://charifmah.github.io/EasySaveWiki/api/EasySave.Views.BaseView.html">BaseView</a>, <a href="https://charifmah.github.io/EasySaveWiki/api/EasySave.Views.View.html">View</a>, <a href="https://charifmah.github.io/EasySaveWiki/api/EasySave.Views.JobView.html">JobView</a>, etc.)</li>
+<li><strong>ViewModels</strong> : classes faisant le lien entre modèles et vues.</li>
+</ul>
+<h3 id="systeme-de-log">Systeme de Log</h3>
+<p>Emplacement par defaut du <a href="https://charifmah.github.io/EasySaveWiki/api/Models.Backup.CJobManager.html">CJobManager</a> et <a href="https://charifmah.github.io/EasySaveWiki/api/Models.Backup.CJobManager.html">CSettings</a> et l'emplacement des <a href="https://charifmah.github.io/EasySaveWiki/api/LogsModels.html">modèle de logs</a> stockée grace aux classes de journalisation dans le package <a href="https://charifmah.github.io/EasySaveWiki/api/LogsModels.html">Logs</a></p>
+<p>L'emplacement actuel des journaux d'événements est stocké dans le dossier <code>Logs</code>.</p>
+<p>L'emplacement actuel des paramètres de l'utilisateur est stocké dans le répertoire racine <code>Settings.json</code>.</p>
+<p>L'emplacement des tâches de sauvegarde est stocké dans le dossier <code>Jobs</code>.</p>
+<p>Les logs dont le nom est formaté dans ce type <code>Logs - 2024-02-15</code> sont des logs journalier.</p>
+<p>Le fichier <code>Logs.json</code> est l'état du journal.</p>
+<h1 id="processus-dintégration-continue-ci-et-de-déploiement-continu-cd-utilisant-azure-devops">Processus d'intégration continue (CI) et de déploiement continu (CD) utilisant Azure DevOps</h1>
+<h2 id="configuration-de-lintégration-continue">Configuration de l'Intégration Continue</h2>
+<h3 id="déclenchement-des-pipelines">Déclenchement des Pipelines</h3>
+<p>Les pipelines d'intégration continue sont configurés pour se déclencher automatiquement lors d'un pull request vers la branche principale. La validation de l'intégration continue est un prérequis avant toute fusion de code.</p>
+<h3 id="processus-dintégration">Processus d'Intégration</h3>
+<ul>
+<li>Build : Compilation du code source en un exécutable ou en un paquet déployable.</li>
+<li>Tests Automatisés : Exécution de tests pour vérifier la qualité et la fonctionnalité du code.</li>
+<li>Publication des Releases : Création et stockage des artefacts de release dans Azure DevOps.</li>
+</ul>
+<p><img src="images/integration-processus.png" alt="alt text"></p>
+<h2 id="gestion-du-déploiement-continu">Gestion du Déploiement Continu</h2>
+<p>Bien que l'intégration continue soit automatisée, le déploiement continu nécessite actuellement une intervention manuelle.</p>
+<h3 id="accès-aux-releases">Accès aux Releases</h3>
+<p><a href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_release?_a=releases&amp;view=mine&amp;definitionId=1">https://dev.azure.com/faikmehmeti/G4-FISA-24/_release</a></p>
+<p><img src="images/releases-access.png" alt="alt text"></p>
+<p>Vous pourriez suivre ici l'état de déploiement pour chaque release</p>
+<p>Ce lien permet de suivre l'état de déploiement pour chaque release.</p>
+<p><img src="images/releases-access2.png" alt="alt text"></p>
+<h3 id="gestion-du-déploiement">Gestion du Déploiement</h3>
+<p>En sélectionnant une release, vous serez dirigé vers une page où le déploiement continu peut être géré. Actuellement, les déploiements doivent être effectués manuellement pour chaque étape (Stages).</p>
+<p><img src="images/deployment.png" alt="alt text"></p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/CharifMah/EasySaveWiki/blob/main/TechnicalDocumentation/fr/Documentation Technique.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
