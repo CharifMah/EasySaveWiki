@@ -83,6 +83,7 @@ items:
   assemblies:
   - LogsModels
   namespace: LogsModels
+  summary: Name of the Log
   example: []
   syntax:
     content: public override string Name { get; set; }
@@ -110,7 +111,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: RemainingFiles
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Logs/CLogState.cs
-    startLine: 28
+    startLine: 29
   assemblies:
   - LogsModels
   namespace: LogsModels
@@ -141,7 +142,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: EligibleFileCount
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Logs/CLogState.cs
-    startLine: 32
+    startLine: 34
   assemblies:
   - LogsModels
   namespace: LogsModels
@@ -172,7 +173,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: ElapsedMilisecond
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Logs/CLogState.cs
-    startLine: 36
+    startLine: 39
   assemblies:
   - LogsModels
   namespace: LogsModels
@@ -203,7 +204,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: IsActive
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Logs/CLogState.cs
-    startLine: 40
+    startLine: 44
   assemblies:
   - LogsModels
   namespace: LogsModels
@@ -234,7 +235,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: .ctor
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Logs/CLogState.cs
-    startLine: 44
+    startLine: 48
   assemblies:
   - LogsModels
   namespace: LogsModels

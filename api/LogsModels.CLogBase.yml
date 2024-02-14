@@ -24,10 +24,12 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: CLogBase
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Logs/CLogBase.cs
-    startLine: 3
+    startLine: 6
   assemblies:
   - LogsModels
   namespace: LogsModels
+  summary: Log de base
+  example: []
   syntax:
     content: >-
       [DataContract]
@@ -74,10 +76,12 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Name
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Logs/CLogBase.cs
-    startLine: 17
+    startLine: 23
   assemblies:
   - LogsModels
   namespace: LogsModels
+  summary: Name of the Log
+  example: []
   syntax:
     content: public virtual string Name { get; set; }
     parameters: []
@@ -103,10 +107,12 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Date
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Logs/CLogBase.cs
-    startLine: 18
+    startLine: 27
   assemblies:
   - LogsModels
   namespace: LogsModels
+  summary: Date of the log
+  example: []
   syntax:
     content: public virtual DateTime Date { get; set; }
     parameters: []
@@ -132,10 +138,12 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: TotalSize
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Logs/CLogBase.cs
-    startLine: 19
+    startLine: 31
   assemblies:
   - LogsModels
   namespace: LogsModels
+  summary: Total transfer file size
+  example: []
   syntax:
     content: public virtual double TotalSize { get; set; }
     parameters: []
@@ -161,11 +169,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: SourceDirectory
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Logs/CLogBase.cs
-    startLine: 20
+    startLine: 35
   assemblies:
   - LogsModels
   namespace: LogsModels
-  summary: Répertoire source
+  summary: Source directory
   example: []
   syntax:
     content: public virtual string SourceDirectory { get; set; }
@@ -194,11 +202,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: TargetDirectory
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Logs/CLogBase.cs
-    startLine: 21
+    startLine: 39
   assemblies:
   - LogsModels
   namespace: LogsModels
-  summary: Répertoire cible
+  summary: Target directory
   example: []
   syntax:
     content: public virtual string TargetDirectory { get; set; }

@@ -33,7 +33,7 @@
   "LogsModels.CLogBase.TargetDirectory": "LogsModels.CLogBase.yml",
   "LogsModels.CLogBase.TotalSize": "LogsModels.CLogBase.yml",
   "LogsModels.CLogDaily": "LogsModels.CLogDaily.yml",
-  "LogsModels.CLogDaily.TransfertTimeSecond": "LogsModels.CLogDaily.yml",
+  "LogsModels.CLogDaily.TransfertTime": "LogsModels.CLogDaily.yml",
   "LogsModels.CLogState": "LogsModels.CLogState.yml",
   "LogsModels.CLogState.#ctor": "LogsModels.CLogState.yml",
   "LogsModels.CLogState.ElapsedMilisecond": "LogsModels.CLogState.yml",

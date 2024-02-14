@@ -20,10 +20,12 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: SauveCollection
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/Save/SauveCollection.cs
-    startLine: 2
+    startLine: 5
   assemblies:
   - Stockage
   namespace: Stockage.Save
+  summary: Classe permettant la sauvegarde d'un objet
+  example: []
   syntax:
     content: 'public class SauveCollection : BaseSave, ISauve'
     content.vb: Public Class SauveCollection Inherits BaseSave Implements ISauve
@@ -62,7 +64,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: .ctor
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/Save/SauveCollection.cs
-    startLine: 4
+    startLine: 7
   assemblies:
   - Stockage
   namespace: Stockage.Save

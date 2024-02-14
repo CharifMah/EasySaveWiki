@@ -23,10 +23,12 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: LangueView
     path: ../G4-FISA-24/EasySave-G4-FISA-24/EasySave/Views/LangueView.cs
-    startLine: 5
+    startLine: 8
   assemblies:
   - EasySave
   namespace: EasySave.Views
+  summary: Vue des langues
+  example: []
   syntax:
     content: 'public class LangueView : BaseView'
     content.vb: Public Class LangueView Inherits BaseView
@@ -59,7 +61,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Title
     path: ../G4-FISA-24/EasySave-G4-FISA-24/EasySave/Views/LangueView.cs
-    startLine: 8
+    startLine: 11
   assemblies:
   - EasySave
   namespace: EasySave.Views
@@ -90,7 +92,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: .ctor
     path: ../G4-FISA-24/EasySave-G4-FISA-24/EasySave/Views/LangueView.cs
-    startLine: 9
+    startLine: 12
   assemblies:
   - EasySave
   namespace: EasySave.Views
@@ -122,7 +124,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Run
     path: ../G4-FISA-24/EasySave-G4-FISA-24/EasySave/Views/LangueView.cs
-    startLine: 16
+    startLine: 19
   assemblies:
   - EasySave
   namespace: EasySave.Views
@@ -151,7 +153,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: ListLanguage
     path: ../G4-FISA-24/EasySave-G4-FISA-24/EasySave/Views/LangueView.cs
-    startLine: 35
+    startLine: 38
   assemblies:
   - EasySave
   namespace: EasySave.Views

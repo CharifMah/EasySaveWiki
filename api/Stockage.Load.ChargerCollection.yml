@@ -20,10 +20,12 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: ChargerCollection
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/Load/ChargerCollection.cs
-    startLine: 2
+    startLine: 5
   assemblies:
   - Stockage
   namespace: Stockage.Load
+  summary: Classe pour le chargement et la désérialisation d'un fichier
+  example: []
   syntax:
     content: 'public class ChargerCollection : BaseCharge, ICharge'
     content.vb: Public Class ChargerCollection Inherits BaseCharge Implements ICharge
@@ -59,7 +61,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: .ctor
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/Load/ChargerCollection.cs
-    startLine: 4
+    startLine: 7
   assemblies:
   - Stockage
   namespace: Stockage.Load

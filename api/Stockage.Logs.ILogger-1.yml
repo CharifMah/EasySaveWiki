@@ -21,14 +21,17 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: ILogger
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/Logs/ILogger.cs
-    startLine: 3
+    startLine: 7
   assemblies:
   - Stockage
   namespace: Stockage.Logs
+  summary: Interface ILogger
+  example: []
   syntax:
     content: public interface ILogger<T>
     typeParameters:
     - id: T
+      description: ''
     content.vb: Public Interface ILogger(Of T)
   nameWithType.vb: ILogger(Of T)
   fullName.vb: Stockage.Logs.ILogger(Of T)
@@ -51,10 +54,12 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Datas
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/Logs/ILogger.cs
-    startLine: 5
+    startLine: 12
   assemblies:
   - Stockage
   namespace: Stockage.Logs
+  summary: Collection de données observables
+  example: []
   syntax:
     content: ObservableCollection<T> Datas { get; }
     parameters: []
@@ -82,21 +87,28 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Log
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Stockage/Logs/ILogger.cs
-    startLine: 6
+    startLine: 22
   assemblies:
   - Stockage
   namespace: Stockage.Logs
+  summary: Méthode de logging des données
+  remarks: Mahmoud Charif - 10/02/2024 - Création
+  example: []
   syntax:
     content: void Log(T pData, bool pSerialize, bool pAppend = true, string pFileName = "Logs")
     parameters:
     - id: pData
       type: '{T}'
+      description: Données à logger
     - id: pSerialize
       type: System.Boolean
+      description: Indique si les données doivent être sérialisées avant d'être loggées
     - id: pAppend
       type: System.Boolean
+      description: Indique si on ajoute le logging au fichier existant ou si on recrée le fichier
     - id: pFileName
       type: System.String
+      description: Nom du fichier où sont loggées les données
     content.vb: Sub Log(pData As T, pSerialize As Boolean, pAppend As Boolean = True, pFileName As String = "Logs")
   overload: Stockage.Logs.ILogger`1.Log*
   nameWithType.vb: ILogger(Of T).Log(T, Boolean, Boolean, String)

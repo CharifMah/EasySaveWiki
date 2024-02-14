@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Interface ILogger&lt;T&gt; | EasySaveWiki ">
       
-      
+      <meta name="description" content="Interface ILogger">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -89,7 +89,7 @@
 
 
   <h1 id="Stockage_Logs_ILogger_1" data-uid="Stockage.Logs.ILogger`1" class="text-break">
-Interface ILogger&lt;T&gt;  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-G4-FISA-24/Stockage/Logs/ILogger.cs&amp;version=GBdevelop-livrable-1&amp;line=4"><i class="bi bi-code-slash"></i></a>
+Interface ILogger&lt;T&gt;  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-G4-FISA-24/Stockage/Logs/ILogger.cs&amp;version=GBdevelop-livrable-1&amp;line=8"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,7 +97,8 @@ Interface ILogger&lt;T&gt;  <a class="header-action link-secondary" title="View 
   <dl><dt>Assembly</dt><dd>Stockage.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"></div>
+  <div class="markdown summary"><p>Interface ILogger</p>
+</div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
@@ -129,10 +130,11 @@ Interface ILogger&lt;T&gt;  <a class="header-action link-secondary" title="View 
 
   <h3 id="Stockage_Logs_ILogger_1_Datas" data-uid="Stockage.Logs.ILogger`1.Datas">
   Datas
-  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-G4-FISA-24/Stockage/Logs/ILogger.cs&amp;version=GBdevelop-livrable-1&amp;line=6"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-G4-FISA-24/Stockage/Logs/ILogger.cs&amp;version=GBdevelop-livrable-1&amp;line=13"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Collection de données observables</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -164,10 +166,11 @@ Interface ILogger&lt;T&gt;  <a class="header-action link-secondary" title="View 
 
   <h3 id="Stockage_Logs_ILogger_1_Log__0_System_Boolean_System_Boolean_System_String_" data-uid="Stockage.Logs.ILogger`1.Log(`0,System.Boolean,System.Boolean,System.String)">
   Log(T, bool, bool, string)
-  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-G4-FISA-24/Stockage/Logs/ILogger.cs&amp;version=GBdevelop-livrable-1&amp;line=7"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-G4-FISA-24/Stockage/Logs/ILogger.cs&amp;version=GBdevelop-livrable-1&amp;line=23"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Méthode de logging des données</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -177,13 +180,17 @@ Interface ILogger&lt;T&gt;  <a class="header-action link-secondary" title="View 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>pData</code> <span class="xref">T</span></dt>
-    <dd></dd>
+    <dd><p>Données à logger</p>
+</dd>
     <dt><code>pSerialize</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
+    <dd><p>Indique si les données doivent être sérialisées avant d'être loggées</p>
+</dd>
     <dt><code>pAppend</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
+    <dd><p>Indique si on ajoute le logging au fichier existant ou si on recrée le fichier</p>
+</dd>
     <dt><code>pFileName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>Nom du fichier où sont loggées les données</p>
+</dd>
   </dl>
 
 
@@ -193,6 +200,9 @@ Interface ILogger&lt;T&gt;  <a class="header-action link-secondary" title="View 
 
 
 
+  <h4 class="section" id="Stockage_Logs_ILogger_1_Log__0_System_Boolean_System_Boolean_System_String__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Mahmoud Charif - 10/02/2024 - Création</p>
+</div>
 
 
 
@@ -201,7 +211,7 @@ Interface ILogger&lt;T&gt;  <a class="header-action link-secondary" title="View 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-G4-FISA-24/Stockage/Logs/ILogger.cs&amp;version=GBdevelop-livrable-1&amp;line=4" class="edit-link">Edit this page</a>
+          <a href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-G4-FISA-24/Stockage/Logs/ILogger.cs&amp;version=GBdevelop-livrable-1&amp;line=8" class="edit-link">Edit this page</a>
         </div>
 
 

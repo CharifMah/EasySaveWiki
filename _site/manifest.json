@@ -21,6 +21,106 @@
       "version": ""
     },
     {
+      "type": "Resource",
+      "source_relative_path": "_site/_site/_site/_site/_site/_site/images/menu.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/_site/_site/_site/_site/images/menu.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/_site/_site/_site/_site/images/menu.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/_site/_site/_site/images/menu.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/_site/_site/_site/docs/Guide d'utilisation/images/menu.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/_site/_site/docs/Guide d'utilisation/images/menu.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/_site/_site/_site/images/menu.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/_site/_site/images/menu.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/_site/_site/docs/Guide d'utilisation/images/menu.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/_site/docs/Guide d'utilisation/images/menu.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/_site/_site/images/menu.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/_site/images/menu.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/_site/docs/Guide d'utilisation/images/menu.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/docs/Guide d'utilisation/images/menu.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/_site/images/menu.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/menu.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/docs/Guide d'utilisation/images/menu.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/docs/Guide d'utilisation/images/menu.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/menu.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/menu.png"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "ManagedReference",
       "source_relative_path": "api/EasySave.ViewModels.BaseViewModel.yml",
       "output": {
@@ -635,10 +735,20 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "docs/getting-started.md",
+      "source_relative_path": "docs/Guide d'utilisation/Guide d'utilisation.md",
       "output": {
         ".html": {
-          "relative_path": "docs/getting-started.html"
+          "relative_path": "docs/Guide d'utilisation/Guide d'utilisation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/Guide d'utilisation/images/menu.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/Guide d'utilisation/images/menu.png"
         }
       },
       "version": ""

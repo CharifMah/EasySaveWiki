@@ -22,10 +22,12 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: LangueViewModel
     path: ../G4-FISA-24/EasySave-G4-FISA-24/ViewModels/LangueViewModel.cs
-    startLine: 4
+    startLine: 7
   assemblies:
   - ViewModels
   namespace: ViewModels
+  summary: Classe View Model de la langue
+  example: []
   syntax:
     content: 'public class LangueViewModel : BaseViewModel, INotifyPropertyChanged'
     content.vb: Public Class LangueViewModel Inherits BaseViewModel Implements INotifyPropertyChanged
@@ -62,10 +64,12 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Langue
     path: ../G4-FISA-24/EasySave-G4-FISA-24/ViewModels/LangueViewModel.cs
-    startLine: 7
+    startLine: 13
   assemblies:
   - ViewModels
   namespace: ViewModels
+  summary: Classe model de la langue
+  example: []
   syntax:
     content: public CLangue Langue { get; set; }
     parameters: []
@@ -91,10 +95,12 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: .ctor
     path: ../G4-FISA-24/EasySave-G4-FISA-24/ViewModels/LangueViewModel.cs
-    startLine: 9
+    startLine: 17
   assemblies:
   - ViewModels
   namespace: ViewModels
+  summary: Constructeur de la LangueViewModel
+  example: []
   syntax:
     content: public LangueViewModel()
     content.vb: Public Sub New()
@@ -120,7 +126,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: SetLanguage
     path: ../G4-FISA-24/EasySave-G4-FISA-24/ViewModels/LangueViewModel.cs
-    startLine: 19
+    startLine: 27
   assemblies:
   - ViewModels
   namespace: ViewModels

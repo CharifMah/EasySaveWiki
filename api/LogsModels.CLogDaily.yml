@@ -5,7 +5,7 @@ items:
   id: CLogDaily
   parent: LogsModels
   children:
-  - LogsModels.CLogDaily.TransfertTimeSecond
+  - LogsModels.CLogDaily.TransfertTime
   langs:
   - csharp
   - vb
@@ -20,10 +20,12 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: CLogDaily
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Logs/CLogDaily.cs
-    startLine: 3
+    startLine: 6
   assemblies:
   - LogsModels
   namespace: LogsModels
+  summary: Classe de log journalier
+  example: []
   syntax:
     content: 'public class CLogDaily : CLogBase, IPath'
     content.vb: Public Class CLogDaily Inherits CLogBase Implements IPath
@@ -45,35 +47,37 @@ items:
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.ToString
-- uid: LogsModels.CLogDaily.TransfertTimeSecond
-  commentId: P:LogsModels.CLogDaily.TransfertTimeSecond
-  id: TransfertTimeSecond
+- uid: LogsModels.CLogDaily.TransfertTime
+  commentId: P:LogsModels.CLogDaily.TransfertTime
+  id: TransfertTime
   parent: LogsModels.CLogDaily
   langs:
   - csharp
   - vb
-  name: TransfertTimeSecond
-  nameWithType: CLogDaily.TransfertTimeSecond
-  fullName: LogsModels.CLogDaily.TransfertTimeSecond
+  name: TransfertTime
+  nameWithType: CLogDaily.TransfertTime
+  fullName: LogsModels.CLogDaily.TransfertTime
   type: Property
   source:
     remote:
       path: EasySave-G4-FISA-24/Logs/CLogDaily.cs
       branch: develop-livrable-1
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
-    id: TransfertTimeSecond
+    id: TransfertTime
     path: ../G4-FISA-24/EasySave-G4-FISA-24/Logs/CLogDaily.cs
-    startLine: 8
+    startLine: 13
   assemblies:
   - LogsModels
   namespace: LogsModels
+  summary: Temps de transfert en miliseconde
+  example: []
   syntax:
-    content: public double TransfertTimeSecond { get; set; }
+    content: public double TransfertTime { get; set; }
     parameters: []
     return:
       type: System.Double
-    content.vb: Public Property TransfertTimeSecond As Double
-  overload: LogsModels.CLogDaily.TransfertTimeSecond*
+    content.vb: Public Property TransfertTime As Double
+  overload: LogsModels.CLogDaily.TransfertTime*
 references:
 - uid: LogsModels
   commentId: N:LogsModels
@@ -367,12 +371,12 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: LogsModels.CLogDaily.TransfertTimeSecond*
-  commentId: Overload:LogsModels.CLogDaily.TransfertTimeSecond
-  href: LogsModels.CLogDaily.html#LogsModels_CLogDaily_TransfertTimeSecond
-  name: TransfertTimeSecond
-  nameWithType: CLogDaily.TransfertTimeSecond
-  fullName: LogsModels.CLogDaily.TransfertTimeSecond
+- uid: LogsModels.CLogDaily.TransfertTime*
+  commentId: Overload:LogsModels.CLogDaily.TransfertTime
+  href: LogsModels.CLogDaily.html#LogsModels_CLogDaily_TransfertTime
+  name: TransfertTime
+  nameWithType: CLogDaily.TransfertTime
+  fullName: LogsModels.CLogDaily.TransfertTime
 - uid: System.Double
   commentId: T:System.Double
   parent: System

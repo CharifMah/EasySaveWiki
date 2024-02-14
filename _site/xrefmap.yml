@@ -680,19 +680,19 @@ references:
   commentId: T:LogsModels.CLogDaily
   fullName: LogsModels.CLogDaily
   nameWithType: CLogDaily
-- uid: LogsModels.CLogDaily.TransfertTimeSecond
-  name: TransfertTimeSecond
-  href: api/LogsModels.CLogDaily.html#LogsModels_CLogDaily_TransfertTimeSecond
-  commentId: P:LogsModels.CLogDaily.TransfertTimeSecond
-  fullName: LogsModels.CLogDaily.TransfertTimeSecond
-  nameWithType: CLogDaily.TransfertTimeSecond
-- uid: LogsModels.CLogDaily.TransfertTimeSecond*
-  name: TransfertTimeSecond
-  href: api/LogsModels.CLogDaily.html#LogsModels_CLogDaily_TransfertTimeSecond_
-  commentId: Overload:LogsModels.CLogDaily.TransfertTimeSecond
+- uid: LogsModels.CLogDaily.TransfertTime
+  name: TransfertTime
+  href: api/LogsModels.CLogDaily.html#LogsModels_CLogDaily_TransfertTime
+  commentId: P:LogsModels.CLogDaily.TransfertTime
+  fullName: LogsModels.CLogDaily.TransfertTime
+  nameWithType: CLogDaily.TransfertTime
+- uid: LogsModels.CLogDaily.TransfertTime*
+  name: TransfertTime
+  href: api/LogsModels.CLogDaily.html#LogsModels_CLogDaily_TransfertTime_
+  commentId: Overload:LogsModels.CLogDaily.TransfertTime
   isSpec: "True"
-  fullName: LogsModels.CLogDaily.TransfertTimeSecond
-  nameWithType: CLogDaily.TransfertTimeSecond
+  fullName: LogsModels.CLogDaily.TransfertTime
+  nameWithType: CLogDaily.TransfertTime
 - uid: LogsModels.CLogState
   name: CLogState
   href: api/LogsModels.CLogState.html

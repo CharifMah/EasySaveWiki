@@ -22,10 +22,12 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: MainViewModel
     path: ../G4-FISA-24/EasySave-G4-FISA-24/ViewModels/MainViewModel.cs
-    startLine: 2
+    startLine: 5
   assemblies:
   - ViewModels
   namespace: ViewModels
+  summary: Modèle de vue principal regroupant les différents modèles de vue
+  example: []
   syntax:
     content: public class MainViewModel
     content.vb: Public Class MainViewModel
@@ -57,10 +59,12 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: LangueVm
     path: ../G4-FISA-24/EasySave-G4-FISA-24/ViewModels/MainViewModel.cs
-    startLine: 7
+    startLine: 12
   assemblies:
   - ViewModels
   namespace: ViewModels
+  summary: View Model de la langue
+  example: []
   syntax:
     content: public LangueViewModel LangueVm { get; set; }
     parameters: []
@@ -86,10 +90,12 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: JobVm
     path: ../G4-FISA-24/EasySave-G4-FISA-24/ViewModels/MainViewModel.cs
-    startLine: 8
+    startLine: 16
   assemblies:
   - ViewModels
   namespace: ViewModels
+  summary: View model des jobs
+  example: []
   syntax:
     content: public JobViewModel JobVm { get; set; }
     parameters: []
@@ -115,10 +121,12 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: .ctor
     path: ../G4-FISA-24/EasySave-G4-FISA-24/ViewModels/MainViewModel.cs
-    startLine: 10
+    startLine: 20
   assemblies:
   - ViewModels
   namespace: ViewModels
+  summary: Le constructeur MainViewModel initialise les modèles de vue et charge les paramètres de l'utilisateur
+  example: []
   syntax:
     content: public MainViewModel()
     content.vb: Public Sub New()
