@@ -1,4 +1,11 @@
-- name: Technical Documentation
-  href: en/Technical Documentation.md
-- name: Documentation Technique
-  href: fr/Documentation Technique.md
+### YamlMime:TableOfContent
+items:
+- name: English
+  items:
+  - name: Technical Documentation
+    href: en/Technical Documentation.md
+- name: Français
+  items:
+  - name: Documentation Technique
+    href: fr/Documentation Technique.md
+memberLayout: SamePage
