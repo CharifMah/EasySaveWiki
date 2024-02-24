@@ -3,17 +3,6 @@
     {
       "src": [
         {
-          "src": "../G4-FISA-24/EasySave-2.0/EasySave-1.0/",
-          "files": [
-            "**/*.csproj"
-          ]
-        }
-      ],
-      "dest": "api/v1"
-    },  
-    {
-      "src": [
-        {
           "src": "../G4-FISA-24/EasySave-2.0/EasySaveGUI/",
           "files": [
             "**/*.csproj"
@@ -21,7 +10,18 @@
         }
       ],
       "dest": "api/v2"
-    }
+    },
+    {
+      "src": [
+        {
+          "src": "../G4-FISA-24/EasySave-2.0/EasySave-1.0/",
+          "files": [
+            "**/*.csproj"
+          ]
+        }
+      ],
+      "dest": "api/v1"
+    }     
   ],
   "build": {
     "content": [

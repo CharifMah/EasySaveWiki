@@ -34,7 +34,6 @@ items:
   - System.Object
   derivedClasses:
   - Stockage.Load.ChargerCollection
-  - Stockage.Load.ChargerCollection
   implements:
   - Stockage.Load.ICharge
   inheritedMembers:

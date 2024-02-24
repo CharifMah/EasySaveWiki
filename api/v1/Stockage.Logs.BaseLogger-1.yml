@@ -39,6 +39,8 @@ items:
   - System.Object
   derivedClasses:
   - Stockage.Logs.CGenericLogger`1
+  - Stockage.Logs.CGenericLogger`1
+  - Stockage.Logs.CStringLogger
   - Stockage.Logs.CStringLogger
   implements:
   - Stockage.Logs.ILogger{{T}}

@@ -43,6 +43,8 @@ items:
   - System.Object
   derivedClasses:
   - LogsModels.CLogDaily
+  - LogsModels.CLogDaily
+  - LogsModels.CLogState
   - LogsModels.CLogState
   implements:
   - LogsModels.IPath

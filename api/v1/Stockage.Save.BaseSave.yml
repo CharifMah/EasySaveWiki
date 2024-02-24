@@ -38,7 +38,10 @@ items:
   - System.Object
   derivedClasses:
   - Stockage.Save.SauveCollection
+  - Stockage.Save.SauveCollection
   - Stockage.Save.SauveJobs
+  - Stockage.Save.SauveJobs
+  - Stockage.Save.SauveJobsAsync
   - Stockage.Save.SauveJobsAsync
   implements:
   - Stockage.Save.ISauve
