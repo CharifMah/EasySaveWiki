@@ -1,0 +1,61 @@
+### YamlMime:ManagedReference
+items:
+- uid: Stockage.Load
+  commentId: N:Stockage.Load
+  id: Stockage.Load
+  children:
+  - Stockage.Load.BaseCharge
+  - Stockage.Load.ChargerCollection
+  - Stockage.Load.ICharge
+  langs:
+  - csharp
+  - vb
+  name: Stockage.Load
+  nameWithType: Stockage.Load
+  fullName: Stockage.Load
+  type: Namespace
+  assemblies:
+  - Stockage
+references:
+- uid: Stockage.Load.BaseCharge
+  commentId: T:Stockage.Load.BaseCharge
+  parent: Stockage.Load
+  href: Stockage.Load.BaseCharge.html
+  name: BaseCharge
+  nameWithType: BaseCharge
+  fullName: Stockage.Load.BaseCharge
+- uid: Stockage.Load.ChargerCollection
+  commentId: T:Stockage.Load.ChargerCollection
+  href: Stockage.Load.ChargerCollection.html
+  name: ChargerCollection
+  nameWithType: ChargerCollection
+  fullName: Stockage.Load.ChargerCollection
+- uid: Stockage.Load.ICharge
+  commentId: T:Stockage.Load.ICharge
+  parent: Stockage.Load
+  href: Stockage.Load.ICharge.html
+  name: ICharge
+  nameWithType: ICharge
+  fullName: Stockage.Load.ICharge
+- uid: Stockage.Load
+  commentId: N:Stockage.Load
+  href: Stockage.html
+  name: Stockage.Load
+  nameWithType: Stockage.Load
+  fullName: Stockage.Load
+  spec.csharp:
+  - uid: Stockage
+    name: Stockage
+    href: Stockage.html
+  - name: .
+  - uid: Stockage.Load
+    name: Load
+    href: Stockage.Load.html
+  spec.vb:
+  - uid: Stockage
+    name: Stockage
+    href: Stockage.html
+  - name: .
+  - uid: Stockage.Load
+    name: Load
+    href: Stockage.Load.html

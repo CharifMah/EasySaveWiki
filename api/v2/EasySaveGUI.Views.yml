@@ -1,0 +1,46 @@
+### YamlMime:ManagedReference
+items:
+- uid: EasySaveGUI.Views
+  commentId: N:EasySaveGUI.Views
+  id: EasySaveGUI.Views
+  children:
+  - EasySaveGUI.Views.MenuPage
+  langs:
+  - csharp
+  - vb
+  name: EasySaveGUI.Views
+  nameWithType: EasySaveGUI.Views
+  fullName: EasySaveGUI.Views
+  type: Namespace
+  assemblies:
+  - EasySaveGUI
+references:
+- uid: EasySaveGUI.Views.MenuPage
+  commentId: T:EasySaveGUI.Views.MenuPage
+  parent: EasySaveGUI.Views
+  href: EasySaveGUI.Views.MenuPage.html
+  name: MenuPage
+  nameWithType: MenuPage
+  fullName: EasySaveGUI.Views.MenuPage
+- uid: EasySaveGUI.Views
+  commentId: N:EasySaveGUI.Views
+  href: EasySaveGUI.html
+  name: EasySaveGUI.Views
+  nameWithType: EasySaveGUI.Views
+  fullName: EasySaveGUI.Views
+  spec.csharp:
+  - uid: EasySaveGUI
+    name: EasySaveGUI
+    href: EasySaveGUI.html
+  - name: .
+  - uid: EasySaveGUI.Views
+    name: Views
+    href: EasySaveGUI.Views.html
+  spec.vb:
+  - uid: EasySaveGUI
+    name: EasySaveGUI
+    href: EasySaveGUI.html
+  - name: .
+  - uid: EasySaveGUI.Views
+    name: Views
+    href: EasySaveGUI.Views.html

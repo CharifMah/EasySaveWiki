@@ -1,0 +1,123 @@
+### YamlMime:ManagedReference
+items:
+- uid: Models.ETheme
+  commentId: T:Models.ETheme
+  id: ETheme
+  parent: Models
+  children:
+  - Models.ETheme.BLUE
+  - Models.ETheme.DARK
+  - Models.ETheme.LIGHT
+  langs:
+  - csharp
+  - vb
+  name: ETheme
+  nameWithType: ETheme
+  fullName: Models.ETheme
+  type: Enum
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Models/ETheme.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: ETheme
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Models/ETheme.cs
+    startLine: 2
+  assemblies:
+  - Models
+  namespace: Models
+  syntax:
+    content: public enum ETheme
+    content.vb: Public Enum ETheme
+- uid: Models.ETheme.LIGHT
+  commentId: F:Models.ETheme.LIGHT
+  id: LIGHT
+  parent: Models.ETheme
+  langs:
+  - csharp
+  - vb
+  name: LIGHT
+  nameWithType: ETheme.LIGHT
+  fullName: Models.ETheme.LIGHT
+  type: Field
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Models/ETheme.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: LIGHT
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Models/ETheme.cs
+    startLine: 4
+  assemblies:
+  - Models
+  namespace: Models
+  syntax:
+    content: LIGHT = 0
+    return:
+      type: Models.ETheme
+- uid: Models.ETheme.DARK
+  commentId: F:Models.ETheme.DARK
+  id: DARK
+  parent: Models.ETheme
+  langs:
+  - csharp
+  - vb
+  name: DARK
+  nameWithType: ETheme.DARK
+  fullName: Models.ETheme.DARK
+  type: Field
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Models/ETheme.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: DARK
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Models/ETheme.cs
+    startLine: 5
+  assemblies:
+  - Models
+  namespace: Models
+  syntax:
+    content: DARK = 1
+    return:
+      type: Models.ETheme
+- uid: Models.ETheme.BLUE
+  commentId: F:Models.ETheme.BLUE
+  id: BLUE
+  parent: Models.ETheme
+  langs:
+  - csharp
+  - vb
+  name: BLUE
+  nameWithType: ETheme.BLUE
+  fullName: Models.ETheme.BLUE
+  type: Field
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Models/ETheme.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: BLUE
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Models/ETheme.cs
+    startLine: 6
+  assemblies:
+  - Models
+  namespace: Models
+  syntax:
+    content: BLUE = 2
+    return:
+      type: Models.ETheme
+references:
+- uid: Models
+  commentId: N:Models
+  href: Models.html
+  name: Models
+  nameWithType: Models
+  fullName: Models
+- uid: Models.ETheme
+  commentId: T:Models.ETheme
+  parent: Models
+  href: Models.ETheme.html
+  name: ETheme
+  nameWithType: ETheme
+  fullName: Models.ETheme

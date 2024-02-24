@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: EasySaveGUI
+  commentId: N:EasySaveGUI
+  id: EasySaveGUI
+  children:
+  - EasySaveGUI.App
+  - EasySaveGUI.MainWindow
+  langs:
+  - csharp
+  - vb
+  name: EasySaveGUI
+  nameWithType: EasySaveGUI
+  fullName: EasySaveGUI
+  type: Namespace
+  assemblies:
+  - EasySaveGUI
+references:
+- uid: EasySaveGUI.App
+  commentId: T:EasySaveGUI.App
+  href: EasySaveGUI.App.html
+  name: App
+  nameWithType: App
+  fullName: EasySaveGUI.App
+- uid: EasySaveGUI.MainWindow
+  commentId: T:EasySaveGUI.MainWindow
+  href: EasySaveGUI.MainWindow.html
+  name: MainWindow
+  nameWithType: MainWindow
+  fullName: EasySaveGUI.MainWindow

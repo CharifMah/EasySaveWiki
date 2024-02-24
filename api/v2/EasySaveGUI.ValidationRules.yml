@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: EasySaveGUI.ValidationRules
+  commentId: N:EasySaveGUI.ValidationRules
+  id: EasySaveGUI.ValidationRules
+  children:
+  - EasySaveGUI.ValidationRules.FolderPathValidator
+  langs:
+  - csharp
+  - vb
+  name: EasySaveGUI.ValidationRules
+  nameWithType: EasySaveGUI.ValidationRules
+  fullName: EasySaveGUI.ValidationRules
+  type: Namespace
+  assemblies:
+  - EasySaveGUI
+references:
+- uid: EasySaveGUI.ValidationRules.FolderPathValidator
+  commentId: T:EasySaveGUI.ValidationRules.FolderPathValidator
+  href: EasySaveGUI.ValidationRules.FolderPathValidator.html
+  name: FolderPathValidator
+  nameWithType: FolderPathValidator
+  fullName: EasySaveGUI.ValidationRules.FolderPathValidator

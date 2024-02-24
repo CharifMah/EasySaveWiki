@@ -1,0 +1,131 @@
+### YamlMime:ManagedReference
+items:
+- uid: LogsModels.IPath
+  commentId: T:LogsModels.IPath
+  id: IPath
+  parent: LogsModels
+  children:
+  - LogsModels.IPath.SourceDirectory
+  - LogsModels.IPath.TargetDirectory
+  langs:
+  - csharp
+  - vb
+  name: IPath
+  nameWithType: IPath
+  fullName: LogsModels.IPath
+  type: Interface
+  source:
+    remote:
+      path: EasySave-2.0/EasySave-1.0/LogsModels/IPath.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: IPath
+    path: ../G4-FISA-24/EasySave-2.0/EasySave-1.0/LogsModels/IPath.cs
+    startLine: 5
+  assemblies:
+  - LogsModels
+  namespace: LogsModels
+  summary: Interface IPath
+  example: []
+  syntax:
+    content: public interface IPath
+    content.vb: Public Interface IPath
+- uid: LogsModels.IPath.SourceDirectory
+  commentId: P:LogsModels.IPath.SourceDirectory
+  id: SourceDirectory
+  parent: LogsModels.IPath
+  langs:
+  - csharp
+  - vb
+  name: SourceDirectory
+  nameWithType: IPath.SourceDirectory
+  fullName: LogsModels.IPath.SourceDirectory
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySave-1.0/LogsModels/IPath.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: SourceDirectory
+    path: ../G4-FISA-24/EasySave-2.0/EasySave-1.0/LogsModels/IPath.cs
+    startLine: 10
+  assemblies:
+  - LogsModels
+  namespace: LogsModels
+  summary: Répertoire source
+  example: []
+  syntax:
+    content: string SourceDirectory { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property SourceDirectory As String
+  overload: LogsModels.IPath.SourceDirectory*
+- uid: LogsModels.IPath.TargetDirectory
+  commentId: P:LogsModels.IPath.TargetDirectory
+  id: TargetDirectory
+  parent: LogsModels.IPath
+  langs:
+  - csharp
+  - vb
+  name: TargetDirectory
+  nameWithType: IPath.TargetDirectory
+  fullName: LogsModels.IPath.TargetDirectory
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySave-1.0/LogsModels/IPath.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: TargetDirectory
+    path: ../G4-FISA-24/EasySave-2.0/EasySave-1.0/LogsModels/IPath.cs
+    startLine: 15
+  assemblies:
+  - LogsModels
+  namespace: LogsModels
+  summary: Répertoire cible
+  example: []
+  syntax:
+    content: string TargetDirectory { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property TargetDirectory As String
+  overload: LogsModels.IPath.TargetDirectory*
+references:
+- uid: LogsModels
+  commentId: N:LogsModels
+  href: LogsModels.html
+  name: LogsModels
+  nameWithType: LogsModels
+  fullName: LogsModels
+- uid: LogsModels.IPath.SourceDirectory*
+  commentId: Overload:LogsModels.IPath.SourceDirectory
+  href: LogsModels.IPath.html#LogsModels_IPath_SourceDirectory
+  name: SourceDirectory
+  nameWithType: IPath.SourceDirectory
+  fullName: LogsModels.IPath.SourceDirectory
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: LogsModels.IPath.TargetDirectory*
+  commentId: Overload:LogsModels.IPath.TargetDirectory
+  href: LogsModels.IPath.html#LogsModels_IPath_TargetDirectory
+  name: TargetDirectory
+  nameWithType: IPath.TargetDirectory
+  fullName: LogsModels.IPath.TargetDirectory

@@ -1,0 +1,540 @@
+### YamlMime:ManagedReference
+items:
+- uid: EasySaveGUI.ViewModels.FormatLogViewModel
+  commentId: T:EasySaveGUI.ViewModels.FormatLogViewModel
+  id: FormatLogViewModel
+  parent: EasySaveGUI.ViewModels
+  children:
+  - EasySaveGUI.ViewModels.FormatLogViewModel.#ctor
+  - EasySaveGUI.ViewModels.FormatLogViewModel.FormatLog
+  - EasySaveGUI.ViewModels.FormatLogViewModel.SetFormatLog(System.String)
+  langs:
+  - csharp
+  - vb
+  name: FormatLogViewModel
+  nameWithType: FormatLogViewModel
+  fullName: EasySaveGUI.ViewModels.FormatLogViewModel
+  type: Class
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/FormatLogViewModel.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: FormatLogViewModel
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/FormatLogViewModel.cs
+    startLine: 4
+  assemblies:
+  - EasySaveGUI
+  namespace: EasySaveGUI.ViewModels
+  syntax:
+    content: 'public class FormatLogViewModel : BaseViewModel, INotifyPropertyChanged'
+    content.vb: Public Class FormatLogViewModel Inherits BaseViewModel Implements INotifyPropertyChanged
+  inheritance:
+  - System.Object
+  - EasySaveGUI.ViewModels.BaseViewModel
+  implements:
+  - System.ComponentModel.INotifyPropertyChanged
+  inheritedMembers:
+  - EasySaveGUI.ViewModels.BaseViewModel.PropertyChanged
+  - EasySaveGUI.ViewModels.BaseViewModel.NotifyPropertyChanged(System.String)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: EasySaveGUI.ViewModels.FormatLogViewModel.FormatLog
+  commentId: P:EasySaveGUI.ViewModels.FormatLogViewModel.FormatLog
+  id: FormatLog
+  parent: EasySaveGUI.ViewModels.FormatLogViewModel
+  langs:
+  - csharp
+  - vb
+  name: FormatLog
+  nameWithType: FormatLogViewModel.FormatLog
+  fullName: EasySaveGUI.ViewModels.FormatLogViewModel.FormatLog
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/FormatLogViewModel.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: FormatLog
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/FormatLogViewModel.cs
+    startLine: 11
+  assemblies:
+  - EasySaveGUI
+  namespace: EasySaveGUI.ViewModels
+  summary: Classe model FormatLog
+  example: []
+  syntax:
+    content: public CFormatLog FormatLog { get; set; }
+    parameters: []
+    return:
+      type: Models.CFormatLog
+    content.vb: Public Property FormatLog As CFormatLog
+  overload: EasySaveGUI.ViewModels.FormatLogViewModel.FormatLog*
+- uid: EasySaveGUI.ViewModels.FormatLogViewModel.#ctor
+  commentId: M:EasySaveGUI.ViewModels.FormatLogViewModel.#ctor
+  id: '#ctor'
+  parent: EasySaveGUI.ViewModels.FormatLogViewModel
+  langs:
+  - csharp
+  - vb
+  name: FormatLogViewModel()
+  nameWithType: FormatLogViewModel.FormatLogViewModel()
+  fullName: EasySaveGUI.ViewModels.FormatLogViewModel.FormatLogViewModel()
+  type: Constructor
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/FormatLogViewModel.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: .ctor
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/FormatLogViewModel.cs
+    startLine: 17
+  assemblies:
+  - EasySaveGUI
+  namespace: EasySaveGUI.ViewModels
+  syntax:
+    content: public FormatLogViewModel()
+    content.vb: Public Sub New()
+  overload: EasySaveGUI.ViewModels.FormatLogViewModel.#ctor*
+  nameWithType.vb: FormatLogViewModel.New()
+  fullName.vb: EasySaveGUI.ViewModels.FormatLogViewModel.New()
+  name.vb: New()
+- uid: EasySaveGUI.ViewModels.FormatLogViewModel.SetFormatLog(System.String)
+  commentId: M:EasySaveGUI.ViewModels.FormatLogViewModel.SetFormatLog(System.String)
+  id: SetFormatLog(System.String)
+  parent: EasySaveGUI.ViewModels.FormatLogViewModel
+  langs:
+  - csharp
+  - vb
+  name: SetFormatLog(string)
+  nameWithType: FormatLogViewModel.SetFormatLog(string)
+  fullName: EasySaveGUI.ViewModels.FormatLogViewModel.SetFormatLog(string)
+  type: Method
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/FormatLogViewModel.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: SetFormatLog
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/FormatLogViewModel.cs
+    startLine: 29
+  assemblies:
+  - EasySaveGUI
+  namespace: EasySaveGUI.ViewModels
+  summary: ''
+  example: []
+  syntax:
+    content: public bool SetFormatLog(string pFormatLogInfo)
+    parameters:
+    - id: pFormatLogInfo
+      type: System.String
+      description: ''
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Public Function SetFormatLog(pFormatLogInfo As String) As Boolean
+  overload: EasySaveGUI.ViewModels.FormatLogViewModel.SetFormatLog*
+  nameWithType.vb: FormatLogViewModel.SetFormatLog(String)
+  fullName.vb: EasySaveGUI.ViewModels.FormatLogViewModel.SetFormatLog(String)
+  name.vb: SetFormatLog(String)
+references:
+- uid: EasySaveGUI.ViewModels
+  commentId: N:EasySaveGUI.ViewModels
+  href: EasySaveGUI.html
+  name: EasySaveGUI.ViewModels
+  nameWithType: EasySaveGUI.ViewModels
+  fullName: EasySaveGUI.ViewModels
+  spec.csharp:
+  - uid: EasySaveGUI
+    name: EasySaveGUI
+    href: EasySaveGUI.html
+  - name: .
+  - uid: EasySaveGUI.ViewModels
+    name: ViewModels
+    href: EasySaveGUI.ViewModels.html
+  spec.vb:
+  - uid: EasySaveGUI
+    name: EasySaveGUI
+    href: EasySaveGUI.html
+  - name: .
+  - uid: EasySaveGUI.ViewModels
+    name: ViewModels
+    href: EasySaveGUI.ViewModels.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: EasySaveGUI.ViewModels.BaseViewModel
+  commentId: T:EasySaveGUI.ViewModels.BaseViewModel
+  parent: EasySaveGUI.ViewModels
+  href: EasySaveGUI.ViewModels.BaseViewModel.html
+  name: BaseViewModel
+  nameWithType: BaseViewModel
+  fullName: EasySaveGUI.ViewModels.BaseViewModel
+- uid: System.ComponentModel.INotifyPropertyChanged
+  commentId: T:System.ComponentModel.INotifyPropertyChanged
+  parent: System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged
+  name: INotifyPropertyChanged
+  nameWithType: INotifyPropertyChanged
+  fullName: System.ComponentModel.INotifyPropertyChanged
+- uid: EasySaveGUI.ViewModels.BaseViewModel.PropertyChanged
+  commentId: E:EasySaveGUI.ViewModels.BaseViewModel.PropertyChanged
+  parent: EasySaveGUI.ViewModels.BaseViewModel
+  href: EasySaveGUI.ViewModels.BaseViewModel.html#EasySaveGUI_ViewModels_BaseViewModel_PropertyChanged
+  name: PropertyChanged
+  nameWithType: BaseViewModel.PropertyChanged
+  fullName: EasySaveGUI.ViewModels.BaseViewModel.PropertyChanged
+- uid: EasySaveGUI.ViewModels.BaseViewModel.NotifyPropertyChanged(System.String)
+  commentId: M:EasySaveGUI.ViewModels.BaseViewModel.NotifyPropertyChanged(System.String)
+  parent: EasySaveGUI.ViewModels.BaseViewModel
+  isExternal: true
+  href: EasySaveGUI.ViewModels.BaseViewModel.html#EasySaveGUI_ViewModels_BaseViewModel_NotifyPropertyChanged_System_String_
+  name: NotifyPropertyChanged(string)
+  nameWithType: BaseViewModel.NotifyPropertyChanged(string)
+  fullName: EasySaveGUI.ViewModels.BaseViewModel.NotifyPropertyChanged(string)
+  nameWithType.vb: BaseViewModel.NotifyPropertyChanged(String)
+  fullName.vb: EasySaveGUI.ViewModels.BaseViewModel.NotifyPropertyChanged(String)
+  name.vb: NotifyPropertyChanged(String)
+  spec.csharp:
+  - uid: EasySaveGUI.ViewModels.BaseViewModel.NotifyPropertyChanged(System.String)
+    name: NotifyPropertyChanged
+    href: EasySaveGUI.ViewModels.BaseViewModel.html#EasySaveGUI_ViewModels_BaseViewModel_NotifyPropertyChanged_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: EasySaveGUI.ViewModels.BaseViewModel.NotifyPropertyChanged(System.String)
+    name: NotifyPropertyChanged
+    href: EasySaveGUI.ViewModels.BaseViewModel.html#EasySaveGUI_ViewModels_BaseViewModel_NotifyPropertyChanged_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.ComponentModel
+  commentId: N:System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.ComponentModel
+  nameWithType: System.ComponentModel
+  fullName: System.ComponentModel
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+- uid: EasySaveGUI.ViewModels.FormatLogViewModel.FormatLog*
+  commentId: Overload:EasySaveGUI.ViewModels.FormatLogViewModel.FormatLog
+  href: EasySaveGUI.ViewModels.FormatLogViewModel.html#EasySaveGUI_ViewModels_FormatLogViewModel_FormatLog
+  name: FormatLog
+  nameWithType: FormatLogViewModel.FormatLog
+  fullName: EasySaveGUI.ViewModels.FormatLogViewModel.FormatLog
+- uid: Models.CFormatLog
+  commentId: T:Models.CFormatLog
+  parent: Models
+  href: Models.CFormatLog.html
+  name: CFormatLog
+  nameWithType: CFormatLog
+  fullName: Models.CFormatLog
+- uid: Models
+  commentId: N:Models
+  href: Models.html
+  name: Models
+  nameWithType: Models
+  fullName: Models
+- uid: EasySaveGUI.ViewModels.FormatLogViewModel.#ctor*
+  commentId: Overload:EasySaveGUI.ViewModels.FormatLogViewModel.#ctor
+  href: EasySaveGUI.ViewModels.FormatLogViewModel.html#EasySaveGUI_ViewModels_FormatLogViewModel__ctor
+  name: FormatLogViewModel
+  nameWithType: FormatLogViewModel.FormatLogViewModel
+  fullName: EasySaveGUI.ViewModels.FormatLogViewModel.FormatLogViewModel
+  nameWithType.vb: FormatLogViewModel.New
+  fullName.vb: EasySaveGUI.ViewModels.FormatLogViewModel.New
+  name.vb: New
+- uid: EasySaveGUI.ViewModels.FormatLogViewModel.SetFormatLog*
+  commentId: Overload:EasySaveGUI.ViewModels.FormatLogViewModel.SetFormatLog
+  href: EasySaveGUI.ViewModels.FormatLogViewModel.html#EasySaveGUI_ViewModels_FormatLogViewModel_SetFormatLog_System_String_
+  name: SetFormatLog
+  nameWithType: FormatLogViewModel.SetFormatLog
+  fullName: EasySaveGUI.ViewModels.FormatLogViewModel.SetFormatLog
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean

@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenDialog
+  commentId: N:OpenDialog
+  id: OpenDialog
+  children:
+  - OpenDialog.CDialog
+  langs:
+  - csharp
+  - vb
+  name: OpenDialog
+  nameWithType: OpenDialog
+  fullName: OpenDialog
+  type: Namespace
+  assemblies:
+  - OpenDialog
+references:
+- uid: OpenDialog.CDialog
+  commentId: T:OpenDialog.CDialog
+  href: OpenDialog.CDialog.html
+  name: CDialog
+  nameWithType: CDialog
+  fullName: OpenDialog.CDialog

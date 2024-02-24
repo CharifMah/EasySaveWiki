@@ -1,0 +1,3674 @@
+### YamlMime:ManagedReference
+items:
+- uid: Ressources.Strings
+  commentId: T:Ressources.Strings
+  id: Strings
+  parent: Ressources
+  children:
+  - Ressources.Strings.AdditionalJobs
+  - Ressources.Strings.ApplyDefaultStyle
+  - Ressources.Strings.BackupTypeEmpty
+  - Ressources.Strings.ByteCopied
+  - Ressources.Strings.Cancel
+  - Ressources.Strings.ChangeFormatLogs
+  - Ressources.Strings.ChooseLang
+  - Ressources.Strings.ClearConsole
+  - Ressources.Strings.Close
+  - Ressources.Strings.CombineIndexes
+  - Ressources.Strings.Config
+  - Ressources.Strings.Confirm
+  - Ressources.Strings.CopyEnd
+  - Ressources.Strings.CountLogs
+  - Ressources.Strings.CreateJob
+  - Ressources.Strings.Culture
+  - Ressources.Strings.CurrentFormat
+  - Ressources.Strings.DailyLogs
+  - Ressources.Strings.Date
+  - Ressources.Strings.DefaultFile
+  - Ressources.Strings.DeleteJob
+  - Ressources.Strings.DeletingJobs
+  - Ressources.Strings.EnterFilePath
+  - Ressources.Strings.EnterFolderPath
+  - Ressources.Strings.Error
+  - Ressources.Strings.FormatLogs
+  - Ressources.Strings.IndividualIndex
+  - Ressources.Strings.Info
+  - Ressources.Strings.InputFormat
+  - Ressources.Strings.InvalidIndexRange
+  - Ressources.Strings.InvalidIndice
+  - Ressources.Strings.InvalideSelection
+  - Ressources.Strings.IsActive
+  - Ressources.Strings.JobCreated
+  - Ressources.Strings.JobCreation
+  - Ressources.Strings.JobDeleteError
+  - Ressources.Strings.JobNotCreated
+  - Ressources.Strings.Jobs
+  - Ressources.Strings.JobsDeleted
+  - Ressources.Strings.Lang
+  - Ressources.Strings.ListJobs
+  - Ressources.Strings.LoadDefaultFile
+  - Ressources.Strings.LoadJobConfig
+  - Ressources.Strings.LoadJobs
+  - Ressources.Strings.Loaded
+  - Ressources.Strings.LogState
+  - Ressources.Strings.MultipleIndexes
+  - Ressources.Strings.Name
+  - Ressources.Strings.NoJobCreated
+  - Ressources.Strings.Open
+  - Ressources.Strings.OtherFile
+  - Ressources.Strings.OtherLogs
+  - Ressources.Strings.PasteClipboard
+  - Ressources.Strings.PathNotReachable
+  - Ressources.Strings.PossibleTypeBackup
+  - Ressources.Strings.Progress
+  - Ressources.Strings.Property
+  - Ressources.Strings.Quit
+  - Ressources.Strings.RangeIndexes
+  - Ressources.Strings.ResourceManager
+  - Ressources.Strings.RunJobs
+  - Ressources.Strings.SamePath
+  - Ressources.Strings.SaveConf
+  - Ressources.Strings.SaveLayout
+  - Ressources.Strings.Saved
+  - Ressources.Strings.Select
+  - Ressources.Strings.SelectChoice
+  - Ressources.Strings.SelectConfigurationFile
+  - Ressources.Strings.SelectRangeJobs
+  - Ressources.Strings.SelectedFormatLogs
+  - Ressources.Strings.SelectedLanguage
+  - Ressources.Strings.Settings
+  - Ressources.Strings.SingleIndex
+  - Ressources.Strings.Size
+  - Ressources.Strings.SourceDir
+  - Ressources.Strings.SourceDirectory
+  - Ressources.Strings.StartIndex
+  - Ressources.Strings.Summary
+  - Ressources.Strings.TargetDir
+  - Ressources.Strings.TargetDirectory
+  - Ressources.Strings.TimeElapsed
+  - Ressources.Strings.TotalSize
+  - Ressources.Strings.TransfertTime
+  - Ressources.Strings.Type
+  - Ressources.Strings.WithoutJobLoaded
+  - Ressources.Strings.YouSelected
+  - Ressources.Strings.bytes
+  langs:
+  - csharp
+  - vb
+  name: Strings
+  nameWithType: Strings
+  fullName: Ressources.Strings
+  type: Class
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: Strings
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 21
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: A strongly-typed resource class, for looking up localized strings, etc.
+  example: []
+  syntax:
+    content: public class Strings
+    content.vb: Public Class Strings
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Ressources.Strings.ResourceManager
+  commentId: P:Ressources.Strings.ResourceManager
+  id: ResourceManager
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: ResourceManager
+  nameWithType: Strings.ResourceManager
+  fullName: Ressources.Strings.ResourceManager
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: ResourceManager
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 37
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Returns the cached ResourceManager instance used by this class.
+  example: []
+  syntax:
+    content: public static ResourceManager ResourceManager { get; }
+    parameters: []
+    return:
+      type: System.Resources.ResourceManager
+    content.vb: Public Shared ReadOnly Property ResourceManager As ResourceManager
+  overload: Ressources.Strings.ResourceManager*
+- uid: Ressources.Strings.Culture
+  commentId: P:Ressources.Strings.Culture
+  id: Culture
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: Culture
+  nameWithType: Strings.Culture
+  fullName: Ressources.Strings.Culture
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: Culture
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 52
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: >-
+    Overrides the current thread's CurrentUICulture property for all
+
+    resource lookups using this strongly typed resource class.
+  example: []
+  syntax:
+    content: public static CultureInfo Culture { get; set; }
+    parameters: []
+    return:
+      type: System.Globalization.CultureInfo
+    content.vb: Public Shared Property Culture As CultureInfo
+  overload: Ressources.Strings.Culture*
+- uid: Ressources.Strings.AdditionalJobs
+  commentId: P:Ressources.Strings.AdditionalJobs
+  id: AdditionalJobs
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: AdditionalJobs
+  nameWithType: Strings.AdditionalJobs
+  fullName: Ressources.Strings.AdditionalJobs
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: AdditionalJobs
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 65
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string AdditionalJobs { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property AdditionalJobs As String
+  overload: Ressources.Strings.AdditionalJobs*
+- uid: Ressources.Strings.ApplyDefaultStyle
+  commentId: P:Ressources.Strings.ApplyDefaultStyle
+  id: ApplyDefaultStyle
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: ApplyDefaultStyle
+  nameWithType: Strings.ApplyDefaultStyle
+  fullName: Ressources.Strings.ApplyDefaultStyle
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: ApplyDefaultStyle
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 74
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string ApplyDefaultStyle { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property ApplyDefaultStyle As String
+  overload: Ressources.Strings.ApplyDefaultStyle*
+- uid: Ressources.Strings.BackupTypeEmpty
+  commentId: P:Ressources.Strings.BackupTypeEmpty
+  id: BackupTypeEmpty
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: BackupTypeEmpty
+  nameWithType: Strings.BackupTypeEmpty
+  fullName: Ressources.Strings.BackupTypeEmpty
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: BackupTypeEmpty
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 83
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string BackupTypeEmpty { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property BackupTypeEmpty As String
+  overload: Ressources.Strings.BackupTypeEmpty*
+- uid: Ressources.Strings.ByteCopied
+  commentId: P:Ressources.Strings.ByteCopied
+  id: ByteCopied
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: ByteCopied
+  nameWithType: Strings.ByteCopied
+  fullName: Ressources.Strings.ByteCopied
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: ByteCopied
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 92
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string ByteCopied { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property ByteCopied As String
+  overload: Ressources.Strings.ByteCopied*
+- uid: Ressources.Strings.bytes
+  commentId: P:Ressources.Strings.bytes
+  id: bytes
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: bytes
+  nameWithType: Strings.bytes
+  fullName: Ressources.Strings.bytes
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: bytes
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 101
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string bytes { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property bytes As String
+  overload: Ressources.Strings.bytes*
+- uid: Ressources.Strings.Cancel
+  commentId: P:Ressources.Strings.Cancel
+  id: Cancel
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: Cancel
+  nameWithType: Strings.Cancel
+  fullName: Ressources.Strings.Cancel
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: Cancel
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 110
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string Cancel { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Cancel As String
+  overload: Ressources.Strings.Cancel*
+- uid: Ressources.Strings.ChangeFormatLogs
+  commentId: P:Ressources.Strings.ChangeFormatLogs
+  id: ChangeFormatLogs
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: ChangeFormatLogs
+  nameWithType: Strings.ChangeFormatLogs
+  fullName: Ressources.Strings.ChangeFormatLogs
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: ChangeFormatLogs
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 119
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string ChangeFormatLogs { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property ChangeFormatLogs As String
+  overload: Ressources.Strings.ChangeFormatLogs*
+- uid: Ressources.Strings.ChooseLang
+  commentId: P:Ressources.Strings.ChooseLang
+  id: ChooseLang
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: ChooseLang
+  nameWithType: Strings.ChooseLang
+  fullName: Ressources.Strings.ChooseLang
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: ChooseLang
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 128
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string ChooseLang { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property ChooseLang As String
+  overload: Ressources.Strings.ChooseLang*
+- uid: Ressources.Strings.ClearConsole
+  commentId: P:Ressources.Strings.ClearConsole
+  id: ClearConsole
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: ClearConsole
+  nameWithType: Strings.ClearConsole
+  fullName: Ressources.Strings.ClearConsole
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: ClearConsole
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 137
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string ClearConsole { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property ClearConsole As String
+  overload: Ressources.Strings.ClearConsole*
+- uid: Ressources.Strings.Close
+  commentId: P:Ressources.Strings.Close
+  id: Close
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: Close
+  nameWithType: Strings.Close
+  fullName: Ressources.Strings.Close
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: Close
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 146
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string Close { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Close As String
+  overload: Ressources.Strings.Close*
+- uid: Ressources.Strings.CombineIndexes
+  commentId: P:Ressources.Strings.CombineIndexes
+  id: CombineIndexes
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: CombineIndexes
+  nameWithType: Strings.CombineIndexes
+  fullName: Ressources.Strings.CombineIndexes
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: CombineIndexes
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 155
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string CombineIndexes { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property CombineIndexes As String
+  overload: Ressources.Strings.CombineIndexes*
+- uid: Ressources.Strings.Config
+  commentId: P:Ressources.Strings.Config
+  id: Config
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: Config
+  nameWithType: Strings.Config
+  fullName: Ressources.Strings.Config
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: Config
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 164
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string Config { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Config As String
+  overload: Ressources.Strings.Config*
+- uid: Ressources.Strings.Confirm
+  commentId: P:Ressources.Strings.Confirm
+  id: Confirm
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: Confirm
+  nameWithType: Strings.Confirm
+  fullName: Ressources.Strings.Confirm
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: Confirm
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 173
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string Confirm { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Confirm As String
+  overload: Ressources.Strings.Confirm*
+- uid: Ressources.Strings.CopyEnd
+  commentId: P:Ressources.Strings.CopyEnd
+  id: CopyEnd
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: CopyEnd
+  nameWithType: Strings.CopyEnd
+  fullName: Ressources.Strings.CopyEnd
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: CopyEnd
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 182
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string CopyEnd { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property CopyEnd As String
+  overload: Ressources.Strings.CopyEnd*
+- uid: Ressources.Strings.CountLogs
+  commentId: P:Ressources.Strings.CountLogs
+  id: CountLogs
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: CountLogs
+  nameWithType: Strings.CountLogs
+  fullName: Ressources.Strings.CountLogs
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: CountLogs
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 191
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string CountLogs { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property CountLogs As String
+  overload: Ressources.Strings.CountLogs*
+- uid: Ressources.Strings.CreateJob
+  commentId: P:Ressources.Strings.CreateJob
+  id: CreateJob
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: CreateJob
+  nameWithType: Strings.CreateJob
+  fullName: Ressources.Strings.CreateJob
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: CreateJob
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 200
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string CreateJob { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property CreateJob As String
+  overload: Ressources.Strings.CreateJob*
+- uid: Ressources.Strings.CurrentFormat
+  commentId: P:Ressources.Strings.CurrentFormat
+  id: CurrentFormat
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: CurrentFormat
+  nameWithType: Strings.CurrentFormat
+  fullName: Ressources.Strings.CurrentFormat
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: CurrentFormat
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 209
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string CurrentFormat { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property CurrentFormat As String
+  overload: Ressources.Strings.CurrentFormat*
+- uid: Ressources.Strings.DailyLogs
+  commentId: P:Ressources.Strings.DailyLogs
+  id: DailyLogs
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: DailyLogs
+  nameWithType: Strings.DailyLogs
+  fullName: Ressources.Strings.DailyLogs
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: DailyLogs
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 218
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string DailyLogs { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property DailyLogs As String
+  overload: Ressources.Strings.DailyLogs*
+- uid: Ressources.Strings.Date
+  commentId: P:Ressources.Strings.Date
+  id: Date
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: Date
+  nameWithType: Strings.Date
+  fullName: Ressources.Strings.Date
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: Date
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 227
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string Date { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property [Date] As String
+  overload: Ressources.Strings.Date*
+- uid: Ressources.Strings.DefaultFile
+  commentId: P:Ressources.Strings.DefaultFile
+  id: DefaultFile
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: DefaultFile
+  nameWithType: Strings.DefaultFile
+  fullName: Ressources.Strings.DefaultFile
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: DefaultFile
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 236
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string DefaultFile { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property DefaultFile As String
+  overload: Ressources.Strings.DefaultFile*
+- uid: Ressources.Strings.DeleteJob
+  commentId: P:Ressources.Strings.DeleteJob
+  id: DeleteJob
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: DeleteJob
+  nameWithType: Strings.DeleteJob
+  fullName: Ressources.Strings.DeleteJob
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: DeleteJob
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 245
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string DeleteJob { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property DeleteJob As String
+  overload: Ressources.Strings.DeleteJob*
+- uid: Ressources.Strings.DeletingJobs
+  commentId: P:Ressources.Strings.DeletingJobs
+  id: DeletingJobs
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: DeletingJobs
+  nameWithType: Strings.DeletingJobs
+  fullName: Ressources.Strings.DeletingJobs
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: DeletingJobs
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 254
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string DeletingJobs { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property DeletingJobs As String
+  overload: Ressources.Strings.DeletingJobs*
+- uid: Ressources.Strings.EnterFilePath
+  commentId: P:Ressources.Strings.EnterFilePath
+  id: EnterFilePath
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: EnterFilePath
+  nameWithType: Strings.EnterFilePath
+  fullName: Ressources.Strings.EnterFilePath
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: EnterFilePath
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 263
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string EnterFilePath { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property EnterFilePath As String
+  overload: Ressources.Strings.EnterFilePath*
+- uid: Ressources.Strings.EnterFolderPath
+  commentId: P:Ressources.Strings.EnterFolderPath
+  id: EnterFolderPath
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: EnterFolderPath
+  nameWithType: Strings.EnterFolderPath
+  fullName: Ressources.Strings.EnterFolderPath
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: EnterFolderPath
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 272
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string EnterFolderPath { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property EnterFolderPath As String
+  overload: Ressources.Strings.EnterFolderPath*
+- uid: Ressources.Strings.Error
+  commentId: P:Ressources.Strings.Error
+  id: Error
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: Error
+  nameWithType: Strings.Error
+  fullName: Ressources.Strings.Error
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: Error
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 281
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string Error { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property [Error] As String
+  overload: Ressources.Strings.Error*
+- uid: Ressources.Strings.FormatLogs
+  commentId: P:Ressources.Strings.FormatLogs
+  id: FormatLogs
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: FormatLogs
+  nameWithType: Strings.FormatLogs
+  fullName: Ressources.Strings.FormatLogs
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: FormatLogs
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 290
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string FormatLogs { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property FormatLogs As String
+  overload: Ressources.Strings.FormatLogs*
+- uid: Ressources.Strings.IndividualIndex
+  commentId: P:Ressources.Strings.IndividualIndex
+  id: IndividualIndex
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: IndividualIndex
+  nameWithType: Strings.IndividualIndex
+  fullName: Ressources.Strings.IndividualIndex
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: IndividualIndex
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 299
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string IndividualIndex { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property IndividualIndex As String
+  overload: Ressources.Strings.IndividualIndex*
+- uid: Ressources.Strings.Info
+  commentId: P:Ressources.Strings.Info
+  id: Info
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: Info
+  nameWithType: Strings.Info
+  fullName: Ressources.Strings.Info
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: Info
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 308
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string Info { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Info As String
+  overload: Ressources.Strings.Info*
+- uid: Ressources.Strings.InputFormat
+  commentId: P:Ressources.Strings.InputFormat
+  id: InputFormat
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: InputFormat
+  nameWithType: Strings.InputFormat
+  fullName: Ressources.Strings.InputFormat
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: InputFormat
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 317
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string InputFormat { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property InputFormat As String
+  overload: Ressources.Strings.InputFormat*
+- uid: Ressources.Strings.InvalideSelection
+  commentId: P:Ressources.Strings.InvalideSelection
+  id: InvalideSelection
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: InvalideSelection
+  nameWithType: Strings.InvalideSelection
+  fullName: Ressources.Strings.InvalideSelection
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: InvalideSelection
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 326
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string InvalideSelection { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property InvalideSelection As String
+  overload: Ressources.Strings.InvalideSelection*
+- uid: Ressources.Strings.InvalidIndexRange
+  commentId: P:Ressources.Strings.InvalidIndexRange
+  id: InvalidIndexRange
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: InvalidIndexRange
+  nameWithType: Strings.InvalidIndexRange
+  fullName: Ressources.Strings.InvalidIndexRange
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: InvalidIndexRange
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 335
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string InvalidIndexRange { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property InvalidIndexRange As String
+  overload: Ressources.Strings.InvalidIndexRange*
+- uid: Ressources.Strings.InvalidIndice
+  commentId: P:Ressources.Strings.InvalidIndice
+  id: InvalidIndice
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: InvalidIndice
+  nameWithType: Strings.InvalidIndice
+  fullName: Ressources.Strings.InvalidIndice
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: InvalidIndice
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 344
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string InvalidIndice { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property InvalidIndice As String
+  overload: Ressources.Strings.InvalidIndice*
+- uid: Ressources.Strings.IsActive
+  commentId: P:Ressources.Strings.IsActive
+  id: IsActive
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: IsActive
+  nameWithType: Strings.IsActive
+  fullName: Ressources.Strings.IsActive
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: IsActive
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 353
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string IsActive { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property IsActive As String
+  overload: Ressources.Strings.IsActive*
+- uid: Ressources.Strings.JobCreated
+  commentId: P:Ressources.Strings.JobCreated
+  id: JobCreated
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: JobCreated
+  nameWithType: Strings.JobCreated
+  fullName: Ressources.Strings.JobCreated
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: JobCreated
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 362
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string JobCreated { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property JobCreated As String
+  overload: Ressources.Strings.JobCreated*
+- uid: Ressources.Strings.JobCreation
+  commentId: P:Ressources.Strings.JobCreation
+  id: JobCreation
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: JobCreation
+  nameWithType: Strings.JobCreation
+  fullName: Ressources.Strings.JobCreation
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: JobCreation
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 371
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string JobCreation { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property JobCreation As String
+  overload: Ressources.Strings.JobCreation*
+- uid: Ressources.Strings.JobDeleteError
+  commentId: P:Ressources.Strings.JobDeleteError
+  id: JobDeleteError
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: JobDeleteError
+  nameWithType: Strings.JobDeleteError
+  fullName: Ressources.Strings.JobDeleteError
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: JobDeleteError
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 380
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string JobDeleteError { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property JobDeleteError As String
+  overload: Ressources.Strings.JobDeleteError*
+- uid: Ressources.Strings.JobNotCreated
+  commentId: P:Ressources.Strings.JobNotCreated
+  id: JobNotCreated
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: JobNotCreated
+  nameWithType: Strings.JobNotCreated
+  fullName: Ressources.Strings.JobNotCreated
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: JobNotCreated
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 389
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string JobNotCreated { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property JobNotCreated As String
+  overload: Ressources.Strings.JobNotCreated*
+- uid: Ressources.Strings.Jobs
+  commentId: P:Ressources.Strings.Jobs
+  id: Jobs
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: Jobs
+  nameWithType: Strings.Jobs
+  fullName: Ressources.Strings.Jobs
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: Jobs
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 398
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string Jobs { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Jobs As String
+  overload: Ressources.Strings.Jobs*
+- uid: Ressources.Strings.JobsDeleted
+  commentId: P:Ressources.Strings.JobsDeleted
+  id: JobsDeleted
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: JobsDeleted
+  nameWithType: Strings.JobsDeleted
+  fullName: Ressources.Strings.JobsDeleted
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: JobsDeleted
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 407
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string JobsDeleted { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property JobsDeleted As String
+  overload: Ressources.Strings.JobsDeleted*
+- uid: Ressources.Strings.Lang
+  commentId: P:Ressources.Strings.Lang
+  id: Lang
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: Lang
+  nameWithType: Strings.Lang
+  fullName: Ressources.Strings.Lang
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: Lang
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 416
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string Lang { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Lang As String
+  overload: Ressources.Strings.Lang*
+- uid: Ressources.Strings.ListJobs
+  commentId: P:Ressources.Strings.ListJobs
+  id: ListJobs
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: ListJobs
+  nameWithType: Strings.ListJobs
+  fullName: Ressources.Strings.ListJobs
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: ListJobs
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 425
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string ListJobs { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property ListJobs As String
+  overload: Ressources.Strings.ListJobs*
+- uid: Ressources.Strings.LoadDefaultFile
+  commentId: P:Ressources.Strings.LoadDefaultFile
+  id: LoadDefaultFile
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: LoadDefaultFile
+  nameWithType: Strings.LoadDefaultFile
+  fullName: Ressources.Strings.LoadDefaultFile
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: LoadDefaultFile
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 434
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string LoadDefaultFile { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property LoadDefaultFile As String
+  overload: Ressources.Strings.LoadDefaultFile*
+- uid: Ressources.Strings.Loaded
+  commentId: P:Ressources.Strings.Loaded
+  id: Loaded
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: Loaded
+  nameWithType: Strings.Loaded
+  fullName: Ressources.Strings.Loaded
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: Loaded
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 443
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string Loaded { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Loaded As String
+  overload: Ressources.Strings.Loaded*
+- uid: Ressources.Strings.LoadJobConfig
+  commentId: P:Ressources.Strings.LoadJobConfig
+  id: LoadJobConfig
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: LoadJobConfig
+  nameWithType: Strings.LoadJobConfig
+  fullName: Ressources.Strings.LoadJobConfig
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: LoadJobConfig
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 452
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string LoadJobConfig { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property LoadJobConfig As String
+  overload: Ressources.Strings.LoadJobConfig*
+- uid: Ressources.Strings.LoadJobs
+  commentId: P:Ressources.Strings.LoadJobs
+  id: LoadJobs
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: LoadJobs
+  nameWithType: Strings.LoadJobs
+  fullName: Ressources.Strings.LoadJobs
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: LoadJobs
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 461
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string LoadJobs { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property LoadJobs As String
+  overload: Ressources.Strings.LoadJobs*
+- uid: Ressources.Strings.LogState
+  commentId: P:Ressources.Strings.LogState
+  id: LogState
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: LogState
+  nameWithType: Strings.LogState
+  fullName: Ressources.Strings.LogState
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: LogState
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 470
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string LogState { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property LogState As String
+  overload: Ressources.Strings.LogState*
+- uid: Ressources.Strings.MultipleIndexes
+  commentId: P:Ressources.Strings.MultipleIndexes
+  id: MultipleIndexes
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: MultipleIndexes
+  nameWithType: Strings.MultipleIndexes
+  fullName: Ressources.Strings.MultipleIndexes
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: MultipleIndexes
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 479
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string MultipleIndexes { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property MultipleIndexes As String
+  overload: Ressources.Strings.MultipleIndexes*
+- uid: Ressources.Strings.Name
+  commentId: P:Ressources.Strings.Name
+  id: Name
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: Strings.Name
+  fullName: Ressources.Strings.Name
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: Name
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 488
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Name As String
+  overload: Ressources.Strings.Name*
+- uid: Ressources.Strings.NoJobCreated
+  commentId: P:Ressources.Strings.NoJobCreated
+  id: NoJobCreated
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: NoJobCreated
+  nameWithType: Strings.NoJobCreated
+  fullName: Ressources.Strings.NoJobCreated
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: NoJobCreated
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 497
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string NoJobCreated { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property NoJobCreated As String
+  overload: Ressources.Strings.NoJobCreated*
+- uid: Ressources.Strings.Open
+  commentId: P:Ressources.Strings.Open
+  id: Open
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: Open
+  nameWithType: Strings.Open
+  fullName: Ressources.Strings.Open
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: Open
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 506
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string Open { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Open As String
+  overload: Ressources.Strings.Open*
+- uid: Ressources.Strings.OtherFile
+  commentId: P:Ressources.Strings.OtherFile
+  id: OtherFile
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: OtherFile
+  nameWithType: Strings.OtherFile
+  fullName: Ressources.Strings.OtherFile
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: OtherFile
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 515
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string OtherFile { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property OtherFile As String
+  overload: Ressources.Strings.OtherFile*
+- uid: Ressources.Strings.OtherLogs
+  commentId: P:Ressources.Strings.OtherLogs
+  id: OtherLogs
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: OtherLogs
+  nameWithType: Strings.OtherLogs
+  fullName: Ressources.Strings.OtherLogs
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: OtherLogs
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 524
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string OtherLogs { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property OtherLogs As String
+  overload: Ressources.Strings.OtherLogs*
+- uid: Ressources.Strings.PasteClipboard
+  commentId: P:Ressources.Strings.PasteClipboard
+  id: PasteClipboard
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: PasteClipboard
+  nameWithType: Strings.PasteClipboard
+  fullName: Ressources.Strings.PasteClipboard
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: PasteClipboard
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 533
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string PasteClipboard { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property PasteClipboard As String
+  overload: Ressources.Strings.PasteClipboard*
+- uid: Ressources.Strings.PathNotReachable
+  commentId: P:Ressources.Strings.PathNotReachable
+  id: PathNotReachable
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: PathNotReachable
+  nameWithType: Strings.PathNotReachable
+  fullName: Ressources.Strings.PathNotReachable
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: PathNotReachable
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 542
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string PathNotReachable { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property PathNotReachable As String
+  overload: Ressources.Strings.PathNotReachable*
+- uid: Ressources.Strings.PossibleTypeBackup
+  commentId: P:Ressources.Strings.PossibleTypeBackup
+  id: PossibleTypeBackup
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: PossibleTypeBackup
+  nameWithType: Strings.PossibleTypeBackup
+  fullName: Ressources.Strings.PossibleTypeBackup
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: PossibleTypeBackup
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 551
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string PossibleTypeBackup { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property PossibleTypeBackup As String
+  overload: Ressources.Strings.PossibleTypeBackup*
+- uid: Ressources.Strings.Progress
+  commentId: P:Ressources.Strings.Progress
+  id: Progress
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: Progress
+  nameWithType: Strings.Progress
+  fullName: Ressources.Strings.Progress
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: Progress
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 560
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string Progress { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Progress As String
+  overload: Ressources.Strings.Progress*
+- uid: Ressources.Strings.Property
+  commentId: P:Ressources.Strings.Property
+  id: Property
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: Property
+  nameWithType: Strings.Property
+  fullName: Ressources.Strings.Property
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: Property
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 569
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string Property { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property [Property] As String
+  overload: Ressources.Strings.Property*
+- uid: Ressources.Strings.Quit
+  commentId: P:Ressources.Strings.Quit
+  id: Quit
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: Quit
+  nameWithType: Strings.Quit
+  fullName: Ressources.Strings.Quit
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: Quit
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 578
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string Quit { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Quit As String
+  overload: Ressources.Strings.Quit*
+- uid: Ressources.Strings.RangeIndexes
+  commentId: P:Ressources.Strings.RangeIndexes
+  id: RangeIndexes
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: RangeIndexes
+  nameWithType: Strings.RangeIndexes
+  fullName: Ressources.Strings.RangeIndexes
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: RangeIndexes
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 587
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string RangeIndexes { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property RangeIndexes As String
+  overload: Ressources.Strings.RangeIndexes*
+- uid: Ressources.Strings.RunJobs
+  commentId: P:Ressources.Strings.RunJobs
+  id: RunJobs
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: RunJobs
+  nameWithType: Strings.RunJobs
+  fullName: Ressources.Strings.RunJobs
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: RunJobs
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 596
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string RunJobs { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property RunJobs As String
+  overload: Ressources.Strings.RunJobs*
+- uid: Ressources.Strings.SamePath
+  commentId: P:Ressources.Strings.SamePath
+  id: SamePath
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: SamePath
+  nameWithType: Strings.SamePath
+  fullName: Ressources.Strings.SamePath
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: SamePath
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 605
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string SamePath { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property SamePath As String
+  overload: Ressources.Strings.SamePath*
+- uid: Ressources.Strings.SaveConf
+  commentId: P:Ressources.Strings.SaveConf
+  id: SaveConf
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: SaveConf
+  nameWithType: Strings.SaveConf
+  fullName: Ressources.Strings.SaveConf
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: SaveConf
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 614
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string SaveConf { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property SaveConf As String
+  overload: Ressources.Strings.SaveConf*
+- uid: Ressources.Strings.Saved
+  commentId: P:Ressources.Strings.Saved
+  id: Saved
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: Saved
+  nameWithType: Strings.Saved
+  fullName: Ressources.Strings.Saved
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: Saved
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 623
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string Saved { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Saved As String
+  overload: Ressources.Strings.Saved*
+- uid: Ressources.Strings.SaveLayout
+  commentId: P:Ressources.Strings.SaveLayout
+  id: SaveLayout
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: SaveLayout
+  nameWithType: Strings.SaveLayout
+  fullName: Ressources.Strings.SaveLayout
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: SaveLayout
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 632
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string SaveLayout { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property SaveLayout As String
+  overload: Ressources.Strings.SaveLayout*
+- uid: Ressources.Strings.Select
+  commentId: P:Ressources.Strings.Select
+  id: Select
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: Select
+  nameWithType: Strings.Select
+  fullName: Ressources.Strings.Select
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: Select
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 641
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string Select { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property [Select] As String
+  overload: Ressources.Strings.Select*
+- uid: Ressources.Strings.SelectChoice
+  commentId: P:Ressources.Strings.SelectChoice
+  id: SelectChoice
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: SelectChoice
+  nameWithType: Strings.SelectChoice
+  fullName: Ressources.Strings.SelectChoice
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: SelectChoice
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 650
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string SelectChoice { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property SelectChoice As String
+  overload: Ressources.Strings.SelectChoice*
+- uid: Ressources.Strings.SelectConfigurationFile
+  commentId: P:Ressources.Strings.SelectConfigurationFile
+  id: SelectConfigurationFile
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: SelectConfigurationFile
+  nameWithType: Strings.SelectConfigurationFile
+  fullName: Ressources.Strings.SelectConfigurationFile
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: SelectConfigurationFile
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 659
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string SelectConfigurationFile { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property SelectConfigurationFile As String
+  overload: Ressources.Strings.SelectConfigurationFile*
+- uid: Ressources.Strings.SelectedFormatLogs
+  commentId: P:Ressources.Strings.SelectedFormatLogs
+  id: SelectedFormatLogs
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: SelectedFormatLogs
+  nameWithType: Strings.SelectedFormatLogs
+  fullName: Ressources.Strings.SelectedFormatLogs
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: SelectedFormatLogs
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 668
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string SelectedFormatLogs { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property SelectedFormatLogs As String
+  overload: Ressources.Strings.SelectedFormatLogs*
+- uid: Ressources.Strings.SelectedLanguage
+  commentId: P:Ressources.Strings.SelectedLanguage
+  id: SelectedLanguage
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: SelectedLanguage
+  nameWithType: Strings.SelectedLanguage
+  fullName: Ressources.Strings.SelectedLanguage
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: SelectedLanguage
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 677
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string SelectedLanguage { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property SelectedLanguage As String
+  overload: Ressources.Strings.SelectedLanguage*
+- uid: Ressources.Strings.SelectRangeJobs
+  commentId: P:Ressources.Strings.SelectRangeJobs
+  id: SelectRangeJobs
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: SelectRangeJobs
+  nameWithType: Strings.SelectRangeJobs
+  fullName: Ressources.Strings.SelectRangeJobs
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: SelectRangeJobs
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 686
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string SelectRangeJobs { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property SelectRangeJobs As String
+  overload: Ressources.Strings.SelectRangeJobs*
+- uid: Ressources.Strings.Settings
+  commentId: P:Ressources.Strings.Settings
+  id: Settings
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: Settings
+  nameWithType: Strings.Settings
+  fullName: Ressources.Strings.Settings
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: Settings
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 695
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string Settings { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Settings As String
+  overload: Ressources.Strings.Settings*
+- uid: Ressources.Strings.SingleIndex
+  commentId: P:Ressources.Strings.SingleIndex
+  id: SingleIndex
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: SingleIndex
+  nameWithType: Strings.SingleIndex
+  fullName: Ressources.Strings.SingleIndex
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: SingleIndex
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 704
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string SingleIndex { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property SingleIndex As String
+  overload: Ressources.Strings.SingleIndex*
+- uid: Ressources.Strings.Size
+  commentId: P:Ressources.Strings.Size
+  id: Size
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: Size
+  nameWithType: Strings.Size
+  fullName: Ressources.Strings.Size
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: Size
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 713
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string Size { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Size As String
+  overload: Ressources.Strings.Size*
+- uid: Ressources.Strings.SourceDir
+  commentId: P:Ressources.Strings.SourceDir
+  id: SourceDir
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: SourceDir
+  nameWithType: Strings.SourceDir
+  fullName: Ressources.Strings.SourceDir
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: SourceDir
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 722
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string SourceDir { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property SourceDir As String
+  overload: Ressources.Strings.SourceDir*
+- uid: Ressources.Strings.SourceDirectory
+  commentId: P:Ressources.Strings.SourceDirectory
+  id: SourceDirectory
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: SourceDirectory
+  nameWithType: Strings.SourceDirectory
+  fullName: Ressources.Strings.SourceDirectory
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: SourceDirectory
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 731
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string SourceDirectory { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property SourceDirectory As String
+  overload: Ressources.Strings.SourceDirectory*
+- uid: Ressources.Strings.StartIndex
+  commentId: P:Ressources.Strings.StartIndex
+  id: StartIndex
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: StartIndex
+  nameWithType: Strings.StartIndex
+  fullName: Ressources.Strings.StartIndex
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: StartIndex
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 740
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string StartIndex { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property StartIndex As String
+  overload: Ressources.Strings.StartIndex*
+- uid: Ressources.Strings.Summary
+  commentId: P:Ressources.Strings.Summary
+  id: Summary
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: Summary
+  nameWithType: Strings.Summary
+  fullName: Ressources.Strings.Summary
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: Summary
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 749
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string Summary { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Summary As String
+  overload: Ressources.Strings.Summary*
+- uid: Ressources.Strings.TargetDir
+  commentId: P:Ressources.Strings.TargetDir
+  id: TargetDir
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: TargetDir
+  nameWithType: Strings.TargetDir
+  fullName: Ressources.Strings.TargetDir
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: TargetDir
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 758
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string TargetDir { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property TargetDir As String
+  overload: Ressources.Strings.TargetDir*
+- uid: Ressources.Strings.TargetDirectory
+  commentId: P:Ressources.Strings.TargetDirectory
+  id: TargetDirectory
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: TargetDirectory
+  nameWithType: Strings.TargetDirectory
+  fullName: Ressources.Strings.TargetDirectory
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: TargetDirectory
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 767
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string TargetDirectory { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property TargetDirectory As String
+  overload: Ressources.Strings.TargetDirectory*
+- uid: Ressources.Strings.TimeElapsed
+  commentId: P:Ressources.Strings.TimeElapsed
+  id: TimeElapsed
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: TimeElapsed
+  nameWithType: Strings.TimeElapsed
+  fullName: Ressources.Strings.TimeElapsed
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: TimeElapsed
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 776
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string TimeElapsed { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property TimeElapsed As String
+  overload: Ressources.Strings.TimeElapsed*
+- uid: Ressources.Strings.TotalSize
+  commentId: P:Ressources.Strings.TotalSize
+  id: TotalSize
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: TotalSize
+  nameWithType: Strings.TotalSize
+  fullName: Ressources.Strings.TotalSize
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: TotalSize
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 785
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string TotalSize { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property TotalSize As String
+  overload: Ressources.Strings.TotalSize*
+- uid: Ressources.Strings.TransfertTime
+  commentId: P:Ressources.Strings.TransfertTime
+  id: TransfertTime
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: TransfertTime
+  nameWithType: Strings.TransfertTime
+  fullName: Ressources.Strings.TransfertTime
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: TransfertTime
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 794
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string TransfertTime { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property TransfertTime As String
+  overload: Ressources.Strings.TransfertTime*
+- uid: Ressources.Strings.Type
+  commentId: P:Ressources.Strings.Type
+  id: Type
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: Strings.Type
+  fullName: Ressources.Strings.Type
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: Type
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 803
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string Type { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Type As String
+  overload: Ressources.Strings.Type*
+- uid: Ressources.Strings.WithoutJobLoaded
+  commentId: P:Ressources.Strings.WithoutJobLoaded
+  id: WithoutJobLoaded
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: WithoutJobLoaded
+  nameWithType: Strings.WithoutJobLoaded
+  fullName: Ressources.Strings.WithoutJobLoaded
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: WithoutJobLoaded
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 812
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string WithoutJobLoaded { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property WithoutJobLoaded As String
+  overload: Ressources.Strings.WithoutJobLoaded*
+- uid: Ressources.Strings.YouSelected
+  commentId: P:Ressources.Strings.YouSelected
+  id: YouSelected
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: YouSelected
+  nameWithType: Strings.YouSelected
+  fullName: Ressources.Strings.YouSelected
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: YouSelected
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 821
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Looks up a localized string similar to .
+  example: []
+  syntax:
+    content: public static string YouSelected { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property YouSelected As String
+  overload: Ressources.Strings.YouSelected*
+references:
+- uid: Ressources
+  commentId: N:Ressources
+  href: Ressources.html
+  name: Ressources
+  nameWithType: Ressources
+  fullName: Ressources
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Ressources.Strings.ResourceManager*
+  commentId: Overload:Ressources.Strings.ResourceManager
+  href: Ressources.Strings.html#Ressources_Strings_ResourceManager
+  name: ResourceManager
+  nameWithType: Strings.ResourceManager
+  fullName: Ressources.Strings.ResourceManager
+- uid: System.Resources.ResourceManager
+  commentId: T:System.Resources.ResourceManager
+  parent: System.Resources
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.resources.resourcemanager
+  name: ResourceManager
+  nameWithType: ResourceManager
+  fullName: System.Resources.ResourceManager
+- uid: System.Resources
+  commentId: N:System.Resources
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Resources
+  nameWithType: System.Resources
+  fullName: System.Resources
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Resources
+    name: Resources
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.resources
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Resources
+    name: Resources
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.resources
+- uid: Ressources.Strings.Culture*
+  commentId: Overload:Ressources.Strings.Culture
+  href: Ressources.Strings.html#Ressources_Strings_Culture
+  name: Culture
+  nameWithType: Strings.Culture
+  fullName: Ressources.Strings.Culture
+- uid: System.Globalization.CultureInfo
+  commentId: T:System.Globalization.CultureInfo
+  parent: System.Globalization
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.globalization.cultureinfo
+  name: CultureInfo
+  nameWithType: CultureInfo
+  fullName: System.Globalization.CultureInfo
+- uid: System.Globalization
+  commentId: N:System.Globalization
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Globalization
+  nameWithType: System.Globalization
+  fullName: System.Globalization
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Globalization
+    name: Globalization
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.globalization
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Globalization
+    name: Globalization
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.globalization
+- uid: Ressources.Strings.AdditionalJobs*
+  commentId: Overload:Ressources.Strings.AdditionalJobs
+  href: Ressources.Strings.html#Ressources_Strings_AdditionalJobs
+  name: AdditionalJobs
+  nameWithType: Strings.AdditionalJobs
+  fullName: Ressources.Strings.AdditionalJobs
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Ressources.Strings.ApplyDefaultStyle*
+  commentId: Overload:Ressources.Strings.ApplyDefaultStyle
+  href: Ressources.Strings.html#Ressources_Strings_ApplyDefaultStyle
+  name: ApplyDefaultStyle
+  nameWithType: Strings.ApplyDefaultStyle
+  fullName: Ressources.Strings.ApplyDefaultStyle
+- uid: Ressources.Strings.BackupTypeEmpty*
+  commentId: Overload:Ressources.Strings.BackupTypeEmpty
+  href: Ressources.Strings.html#Ressources_Strings_BackupTypeEmpty
+  name: BackupTypeEmpty
+  nameWithType: Strings.BackupTypeEmpty
+  fullName: Ressources.Strings.BackupTypeEmpty
+- uid: Ressources.Strings.ByteCopied*
+  commentId: Overload:Ressources.Strings.ByteCopied
+  href: Ressources.Strings.html#Ressources_Strings_ByteCopied
+  name: ByteCopied
+  nameWithType: Strings.ByteCopied
+  fullName: Ressources.Strings.ByteCopied
+- uid: Ressources.Strings.bytes*
+  commentId: Overload:Ressources.Strings.bytes
+  href: Ressources.Strings.html#Ressources_Strings_bytes
+  name: bytes
+  nameWithType: Strings.bytes
+  fullName: Ressources.Strings.bytes
+- uid: Ressources.Strings.Cancel*
+  commentId: Overload:Ressources.Strings.Cancel
+  href: Ressources.Strings.html#Ressources_Strings_Cancel
+  name: Cancel
+  nameWithType: Strings.Cancel
+  fullName: Ressources.Strings.Cancel
+- uid: Ressources.Strings.ChangeFormatLogs*
+  commentId: Overload:Ressources.Strings.ChangeFormatLogs
+  href: Ressources.Strings.html#Ressources_Strings_ChangeFormatLogs
+  name: ChangeFormatLogs
+  nameWithType: Strings.ChangeFormatLogs
+  fullName: Ressources.Strings.ChangeFormatLogs
+- uid: Ressources.Strings.ChooseLang*
+  commentId: Overload:Ressources.Strings.ChooseLang
+  href: Ressources.Strings.html#Ressources_Strings_ChooseLang
+  name: ChooseLang
+  nameWithType: Strings.ChooseLang
+  fullName: Ressources.Strings.ChooseLang
+- uid: Ressources.Strings.ClearConsole*
+  commentId: Overload:Ressources.Strings.ClearConsole
+  href: Ressources.Strings.html#Ressources_Strings_ClearConsole
+  name: ClearConsole
+  nameWithType: Strings.ClearConsole
+  fullName: Ressources.Strings.ClearConsole
+- uid: Ressources.Strings.Close*
+  commentId: Overload:Ressources.Strings.Close
+  href: Ressources.Strings.html#Ressources_Strings_Close
+  name: Close
+  nameWithType: Strings.Close
+  fullName: Ressources.Strings.Close
+- uid: Ressources.Strings.CombineIndexes*
+  commentId: Overload:Ressources.Strings.CombineIndexes
+  href: Ressources.Strings.html#Ressources_Strings_CombineIndexes
+  name: CombineIndexes
+  nameWithType: Strings.CombineIndexes
+  fullName: Ressources.Strings.CombineIndexes
+- uid: Ressources.Strings.Config*
+  commentId: Overload:Ressources.Strings.Config
+  href: Ressources.Strings.html#Ressources_Strings_Config
+  name: Config
+  nameWithType: Strings.Config
+  fullName: Ressources.Strings.Config
+- uid: Ressources.Strings.Confirm*
+  commentId: Overload:Ressources.Strings.Confirm
+  href: Ressources.Strings.html#Ressources_Strings_Confirm
+  name: Confirm
+  nameWithType: Strings.Confirm
+  fullName: Ressources.Strings.Confirm
+- uid: Ressources.Strings.CopyEnd*
+  commentId: Overload:Ressources.Strings.CopyEnd
+  href: Ressources.Strings.html#Ressources_Strings_CopyEnd
+  name: CopyEnd
+  nameWithType: Strings.CopyEnd
+  fullName: Ressources.Strings.CopyEnd
+- uid: Ressources.Strings.CountLogs*
+  commentId: Overload:Ressources.Strings.CountLogs
+  href: Ressources.Strings.html#Ressources_Strings_CountLogs
+  name: CountLogs
+  nameWithType: Strings.CountLogs
+  fullName: Ressources.Strings.CountLogs
+- uid: Ressources.Strings.CreateJob*
+  commentId: Overload:Ressources.Strings.CreateJob
+  href: Ressources.Strings.html#Ressources_Strings_CreateJob
+  name: CreateJob
+  nameWithType: Strings.CreateJob
+  fullName: Ressources.Strings.CreateJob
+- uid: Ressources.Strings.CurrentFormat*
+  commentId: Overload:Ressources.Strings.CurrentFormat
+  href: Ressources.Strings.html#Ressources_Strings_CurrentFormat
+  name: CurrentFormat
+  nameWithType: Strings.CurrentFormat
+  fullName: Ressources.Strings.CurrentFormat
+- uid: Ressources.Strings.DailyLogs*
+  commentId: Overload:Ressources.Strings.DailyLogs
+  href: Ressources.Strings.html#Ressources_Strings_DailyLogs
+  name: DailyLogs
+  nameWithType: Strings.DailyLogs
+  fullName: Ressources.Strings.DailyLogs
+- uid: Ressources.Strings.Date*
+  commentId: Overload:Ressources.Strings.Date
+  href: Ressources.Strings.html#Ressources_Strings_Date
+  name: Date
+  nameWithType: Strings.Date
+  fullName: Ressources.Strings.Date
+- uid: Ressources.Strings.DefaultFile*
+  commentId: Overload:Ressources.Strings.DefaultFile
+  href: Ressources.Strings.html#Ressources_Strings_DefaultFile
+  name: DefaultFile
+  nameWithType: Strings.DefaultFile
+  fullName: Ressources.Strings.DefaultFile
+- uid: Ressources.Strings.DeleteJob*
+  commentId: Overload:Ressources.Strings.DeleteJob
+  href: Ressources.Strings.html#Ressources_Strings_DeleteJob
+  name: DeleteJob
+  nameWithType: Strings.DeleteJob
+  fullName: Ressources.Strings.DeleteJob
+- uid: Ressources.Strings.DeletingJobs*
+  commentId: Overload:Ressources.Strings.DeletingJobs
+  href: Ressources.Strings.html#Ressources_Strings_DeletingJobs
+  name: DeletingJobs
+  nameWithType: Strings.DeletingJobs
+  fullName: Ressources.Strings.DeletingJobs
+- uid: Ressources.Strings.EnterFilePath*
+  commentId: Overload:Ressources.Strings.EnterFilePath
+  href: Ressources.Strings.html#Ressources_Strings_EnterFilePath
+  name: EnterFilePath
+  nameWithType: Strings.EnterFilePath
+  fullName: Ressources.Strings.EnterFilePath
+- uid: Ressources.Strings.EnterFolderPath*
+  commentId: Overload:Ressources.Strings.EnterFolderPath
+  href: Ressources.Strings.html#Ressources_Strings_EnterFolderPath
+  name: EnterFolderPath
+  nameWithType: Strings.EnterFolderPath
+  fullName: Ressources.Strings.EnterFolderPath
+- uid: Ressources.Strings.Error*
+  commentId: Overload:Ressources.Strings.Error
+  href: Ressources.Strings.html#Ressources_Strings_Error
+  name: Error
+  nameWithType: Strings.Error
+  fullName: Ressources.Strings.Error
+- uid: Ressources.Strings.FormatLogs*
+  commentId: Overload:Ressources.Strings.FormatLogs
+  href: Ressources.Strings.html#Ressources_Strings_FormatLogs
+  name: FormatLogs
+  nameWithType: Strings.FormatLogs
+  fullName: Ressources.Strings.FormatLogs
+- uid: Ressources.Strings.IndividualIndex*
+  commentId: Overload:Ressources.Strings.IndividualIndex
+  href: Ressources.Strings.html#Ressources_Strings_IndividualIndex
+  name: IndividualIndex
+  nameWithType: Strings.IndividualIndex
+  fullName: Ressources.Strings.IndividualIndex
+- uid: Ressources.Strings.Info*
+  commentId: Overload:Ressources.Strings.Info
+  href: Ressources.Strings.html#Ressources_Strings_Info
+  name: Info
+  nameWithType: Strings.Info
+  fullName: Ressources.Strings.Info
+- uid: Ressources.Strings.InputFormat*
+  commentId: Overload:Ressources.Strings.InputFormat
+  href: Ressources.Strings.html#Ressources_Strings_InputFormat
+  name: InputFormat
+  nameWithType: Strings.InputFormat
+  fullName: Ressources.Strings.InputFormat
+- uid: Ressources.Strings.InvalideSelection*
+  commentId: Overload:Ressources.Strings.InvalideSelection
+  href: Ressources.Strings.html#Ressources_Strings_InvalideSelection
+  name: InvalideSelection
+  nameWithType: Strings.InvalideSelection
+  fullName: Ressources.Strings.InvalideSelection
+- uid: Ressources.Strings.InvalidIndexRange*
+  commentId: Overload:Ressources.Strings.InvalidIndexRange
+  href: Ressources.Strings.html#Ressources_Strings_InvalidIndexRange
+  name: InvalidIndexRange
+  nameWithType: Strings.InvalidIndexRange
+  fullName: Ressources.Strings.InvalidIndexRange
+- uid: Ressources.Strings.InvalidIndice*
+  commentId: Overload:Ressources.Strings.InvalidIndice
+  href: Ressources.Strings.html#Ressources_Strings_InvalidIndice
+  name: InvalidIndice
+  nameWithType: Strings.InvalidIndice
+  fullName: Ressources.Strings.InvalidIndice
+- uid: Ressources.Strings.IsActive*
+  commentId: Overload:Ressources.Strings.IsActive
+  href: Ressources.Strings.html#Ressources_Strings_IsActive
+  name: IsActive
+  nameWithType: Strings.IsActive
+  fullName: Ressources.Strings.IsActive
+- uid: Ressources.Strings.JobCreated*
+  commentId: Overload:Ressources.Strings.JobCreated
+  href: Ressources.Strings.html#Ressources_Strings_JobCreated
+  name: JobCreated
+  nameWithType: Strings.JobCreated
+  fullName: Ressources.Strings.JobCreated
+- uid: Ressources.Strings.JobCreation*
+  commentId: Overload:Ressources.Strings.JobCreation
+  href: Ressources.Strings.html#Ressources_Strings_JobCreation
+  name: JobCreation
+  nameWithType: Strings.JobCreation
+  fullName: Ressources.Strings.JobCreation
+- uid: Ressources.Strings.JobDeleteError*
+  commentId: Overload:Ressources.Strings.JobDeleteError
+  href: Ressources.Strings.html#Ressources_Strings_JobDeleteError
+  name: JobDeleteError
+  nameWithType: Strings.JobDeleteError
+  fullName: Ressources.Strings.JobDeleteError
+- uid: Ressources.Strings.JobNotCreated*
+  commentId: Overload:Ressources.Strings.JobNotCreated
+  href: Ressources.Strings.html#Ressources_Strings_JobNotCreated
+  name: JobNotCreated
+  nameWithType: Strings.JobNotCreated
+  fullName: Ressources.Strings.JobNotCreated
+- uid: Ressources.Strings.Jobs*
+  commentId: Overload:Ressources.Strings.Jobs
+  href: Ressources.Strings.html#Ressources_Strings_Jobs
+  name: Jobs
+  nameWithType: Strings.Jobs
+  fullName: Ressources.Strings.Jobs
+- uid: Ressources.Strings.JobsDeleted*
+  commentId: Overload:Ressources.Strings.JobsDeleted
+  href: Ressources.Strings.html#Ressources_Strings_JobsDeleted
+  name: JobsDeleted
+  nameWithType: Strings.JobsDeleted
+  fullName: Ressources.Strings.JobsDeleted
+- uid: Ressources.Strings.Lang*
+  commentId: Overload:Ressources.Strings.Lang
+  href: Ressources.Strings.html#Ressources_Strings_Lang
+  name: Lang
+  nameWithType: Strings.Lang
+  fullName: Ressources.Strings.Lang
+- uid: Ressources.Strings.ListJobs*
+  commentId: Overload:Ressources.Strings.ListJobs
+  href: Ressources.Strings.html#Ressources_Strings_ListJobs
+  name: ListJobs
+  nameWithType: Strings.ListJobs
+  fullName: Ressources.Strings.ListJobs
+- uid: Ressources.Strings.LoadDefaultFile*
+  commentId: Overload:Ressources.Strings.LoadDefaultFile
+  href: Ressources.Strings.html#Ressources_Strings_LoadDefaultFile
+  name: LoadDefaultFile
+  nameWithType: Strings.LoadDefaultFile
+  fullName: Ressources.Strings.LoadDefaultFile
+- uid: Ressources.Strings.Loaded*
+  commentId: Overload:Ressources.Strings.Loaded
+  href: Ressources.Strings.html#Ressources_Strings_Loaded
+  name: Loaded
+  nameWithType: Strings.Loaded
+  fullName: Ressources.Strings.Loaded
+- uid: Ressources.Strings.LoadJobConfig*
+  commentId: Overload:Ressources.Strings.LoadJobConfig
+  href: Ressources.Strings.html#Ressources_Strings_LoadJobConfig
+  name: LoadJobConfig
+  nameWithType: Strings.LoadJobConfig
+  fullName: Ressources.Strings.LoadJobConfig
+- uid: Ressources.Strings.LoadJobs*
+  commentId: Overload:Ressources.Strings.LoadJobs
+  href: Ressources.Strings.html#Ressources_Strings_LoadJobs
+  name: LoadJobs
+  nameWithType: Strings.LoadJobs
+  fullName: Ressources.Strings.LoadJobs
+- uid: Ressources.Strings.LogState*
+  commentId: Overload:Ressources.Strings.LogState
+  href: Ressources.Strings.html#Ressources_Strings_LogState
+  name: LogState
+  nameWithType: Strings.LogState
+  fullName: Ressources.Strings.LogState
+- uid: Ressources.Strings.MultipleIndexes*
+  commentId: Overload:Ressources.Strings.MultipleIndexes
+  href: Ressources.Strings.html#Ressources_Strings_MultipleIndexes
+  name: MultipleIndexes
+  nameWithType: Strings.MultipleIndexes
+  fullName: Ressources.Strings.MultipleIndexes
+- uid: Ressources.Strings.Name*
+  commentId: Overload:Ressources.Strings.Name
+  href: Ressources.Strings.html#Ressources_Strings_Name
+  name: Name
+  nameWithType: Strings.Name
+  fullName: Ressources.Strings.Name
+- uid: Ressources.Strings.NoJobCreated*
+  commentId: Overload:Ressources.Strings.NoJobCreated
+  href: Ressources.Strings.html#Ressources_Strings_NoJobCreated
+  name: NoJobCreated
+  nameWithType: Strings.NoJobCreated
+  fullName: Ressources.Strings.NoJobCreated
+- uid: Ressources.Strings.Open*
+  commentId: Overload:Ressources.Strings.Open
+  href: Ressources.Strings.html#Ressources_Strings_Open
+  name: Open
+  nameWithType: Strings.Open
+  fullName: Ressources.Strings.Open
+- uid: Ressources.Strings.OtherFile*
+  commentId: Overload:Ressources.Strings.OtherFile
+  href: Ressources.Strings.html#Ressources_Strings_OtherFile
+  name: OtherFile
+  nameWithType: Strings.OtherFile
+  fullName: Ressources.Strings.OtherFile
+- uid: Ressources.Strings.OtherLogs*
+  commentId: Overload:Ressources.Strings.OtherLogs
+  href: Ressources.Strings.html#Ressources_Strings_OtherLogs
+  name: OtherLogs
+  nameWithType: Strings.OtherLogs
+  fullName: Ressources.Strings.OtherLogs
+- uid: Ressources.Strings.PasteClipboard*
+  commentId: Overload:Ressources.Strings.PasteClipboard
+  href: Ressources.Strings.html#Ressources_Strings_PasteClipboard
+  name: PasteClipboard
+  nameWithType: Strings.PasteClipboard
+  fullName: Ressources.Strings.PasteClipboard
+- uid: Ressources.Strings.PathNotReachable*
+  commentId: Overload:Ressources.Strings.PathNotReachable
+  href: Ressources.Strings.html#Ressources_Strings_PathNotReachable
+  name: PathNotReachable
+  nameWithType: Strings.PathNotReachable
+  fullName: Ressources.Strings.PathNotReachable
+- uid: Ressources.Strings.PossibleTypeBackup*
+  commentId: Overload:Ressources.Strings.PossibleTypeBackup
+  href: Ressources.Strings.html#Ressources_Strings_PossibleTypeBackup
+  name: PossibleTypeBackup
+  nameWithType: Strings.PossibleTypeBackup
+  fullName: Ressources.Strings.PossibleTypeBackup
+- uid: Ressources.Strings.Progress*
+  commentId: Overload:Ressources.Strings.Progress
+  href: Ressources.Strings.html#Ressources_Strings_Progress
+  name: Progress
+  nameWithType: Strings.Progress
+  fullName: Ressources.Strings.Progress
+- uid: Ressources.Strings.Property*
+  commentId: Overload:Ressources.Strings.Property
+  href: Ressources.Strings.html#Ressources_Strings_Property
+  name: Property
+  nameWithType: Strings.Property
+  fullName: Ressources.Strings.Property
+- uid: Ressources.Strings.Quit*
+  commentId: Overload:Ressources.Strings.Quit
+  href: Ressources.Strings.html#Ressources_Strings_Quit
+  name: Quit
+  nameWithType: Strings.Quit
+  fullName: Ressources.Strings.Quit
+- uid: Ressources.Strings.RangeIndexes*
+  commentId: Overload:Ressources.Strings.RangeIndexes
+  href: Ressources.Strings.html#Ressources_Strings_RangeIndexes
+  name: RangeIndexes
+  nameWithType: Strings.RangeIndexes
+  fullName: Ressources.Strings.RangeIndexes
+- uid: Ressources.Strings.RunJobs*
+  commentId: Overload:Ressources.Strings.RunJobs
+  href: Ressources.Strings.html#Ressources_Strings_RunJobs
+  name: RunJobs
+  nameWithType: Strings.RunJobs
+  fullName: Ressources.Strings.RunJobs
+- uid: Ressources.Strings.SamePath*
+  commentId: Overload:Ressources.Strings.SamePath
+  href: Ressources.Strings.html#Ressources_Strings_SamePath
+  name: SamePath
+  nameWithType: Strings.SamePath
+  fullName: Ressources.Strings.SamePath
+- uid: Ressources.Strings.SaveConf*
+  commentId: Overload:Ressources.Strings.SaveConf
+  href: Ressources.Strings.html#Ressources_Strings_SaveConf
+  name: SaveConf
+  nameWithType: Strings.SaveConf
+  fullName: Ressources.Strings.SaveConf
+- uid: Ressources.Strings.Saved*
+  commentId: Overload:Ressources.Strings.Saved
+  href: Ressources.Strings.html#Ressources_Strings_Saved
+  name: Saved
+  nameWithType: Strings.Saved
+  fullName: Ressources.Strings.Saved
+- uid: Ressources.Strings.SaveLayout*
+  commentId: Overload:Ressources.Strings.SaveLayout
+  href: Ressources.Strings.html#Ressources_Strings_SaveLayout
+  name: SaveLayout
+  nameWithType: Strings.SaveLayout
+  fullName: Ressources.Strings.SaveLayout
+- uid: Ressources.Strings.Select*
+  commentId: Overload:Ressources.Strings.Select
+  href: Ressources.Strings.html#Ressources_Strings_Select
+  name: Select
+  nameWithType: Strings.Select
+  fullName: Ressources.Strings.Select
+- uid: Ressources.Strings.SelectChoice*
+  commentId: Overload:Ressources.Strings.SelectChoice
+  href: Ressources.Strings.html#Ressources_Strings_SelectChoice
+  name: SelectChoice
+  nameWithType: Strings.SelectChoice
+  fullName: Ressources.Strings.SelectChoice
+- uid: Ressources.Strings.SelectConfigurationFile*
+  commentId: Overload:Ressources.Strings.SelectConfigurationFile
+  href: Ressources.Strings.html#Ressources_Strings_SelectConfigurationFile
+  name: SelectConfigurationFile
+  nameWithType: Strings.SelectConfigurationFile
+  fullName: Ressources.Strings.SelectConfigurationFile
+- uid: Ressources.Strings.SelectedFormatLogs*
+  commentId: Overload:Ressources.Strings.SelectedFormatLogs
+  href: Ressources.Strings.html#Ressources_Strings_SelectedFormatLogs
+  name: SelectedFormatLogs
+  nameWithType: Strings.SelectedFormatLogs
+  fullName: Ressources.Strings.SelectedFormatLogs
+- uid: Ressources.Strings.SelectedLanguage*
+  commentId: Overload:Ressources.Strings.SelectedLanguage
+  href: Ressources.Strings.html#Ressources_Strings_SelectedLanguage
+  name: SelectedLanguage
+  nameWithType: Strings.SelectedLanguage
+  fullName: Ressources.Strings.SelectedLanguage
+- uid: Ressources.Strings.SelectRangeJobs*
+  commentId: Overload:Ressources.Strings.SelectRangeJobs
+  href: Ressources.Strings.html#Ressources_Strings_SelectRangeJobs
+  name: SelectRangeJobs
+  nameWithType: Strings.SelectRangeJobs
+  fullName: Ressources.Strings.SelectRangeJobs
+- uid: Ressources.Strings.Settings*
+  commentId: Overload:Ressources.Strings.Settings
+  href: Ressources.Strings.html#Ressources_Strings_Settings
+  name: Settings
+  nameWithType: Strings.Settings
+  fullName: Ressources.Strings.Settings
+- uid: Ressources.Strings.SingleIndex*
+  commentId: Overload:Ressources.Strings.SingleIndex
+  href: Ressources.Strings.html#Ressources_Strings_SingleIndex
+  name: SingleIndex
+  nameWithType: Strings.SingleIndex
+  fullName: Ressources.Strings.SingleIndex
+- uid: Ressources.Strings.Size*
+  commentId: Overload:Ressources.Strings.Size
+  href: Ressources.Strings.html#Ressources_Strings_Size
+  name: Size
+  nameWithType: Strings.Size
+  fullName: Ressources.Strings.Size
+- uid: Ressources.Strings.SourceDir*
+  commentId: Overload:Ressources.Strings.SourceDir
+  href: Ressources.Strings.html#Ressources_Strings_SourceDir
+  name: SourceDir
+  nameWithType: Strings.SourceDir
+  fullName: Ressources.Strings.SourceDir
+- uid: Ressources.Strings.SourceDirectory*
+  commentId: Overload:Ressources.Strings.SourceDirectory
+  href: Ressources.Strings.html#Ressources_Strings_SourceDirectory
+  name: SourceDirectory
+  nameWithType: Strings.SourceDirectory
+  fullName: Ressources.Strings.SourceDirectory
+- uid: Ressources.Strings.StartIndex*
+  commentId: Overload:Ressources.Strings.StartIndex
+  href: Ressources.Strings.html#Ressources_Strings_StartIndex
+  name: StartIndex
+  nameWithType: Strings.StartIndex
+  fullName: Ressources.Strings.StartIndex
+- uid: Ressources.Strings.Summary*
+  commentId: Overload:Ressources.Strings.Summary
+  href: Ressources.Strings.html#Ressources_Strings_Summary
+  name: Summary
+  nameWithType: Strings.Summary
+  fullName: Ressources.Strings.Summary
+- uid: Ressources.Strings.TargetDir*
+  commentId: Overload:Ressources.Strings.TargetDir
+  href: Ressources.Strings.html#Ressources_Strings_TargetDir
+  name: TargetDir
+  nameWithType: Strings.TargetDir
+  fullName: Ressources.Strings.TargetDir
+- uid: Ressources.Strings.TargetDirectory*
+  commentId: Overload:Ressources.Strings.TargetDirectory
+  href: Ressources.Strings.html#Ressources_Strings_TargetDirectory
+  name: TargetDirectory
+  nameWithType: Strings.TargetDirectory
+  fullName: Ressources.Strings.TargetDirectory
+- uid: Ressources.Strings.TimeElapsed*
+  commentId: Overload:Ressources.Strings.TimeElapsed
+  href: Ressources.Strings.html#Ressources_Strings_TimeElapsed
+  name: TimeElapsed
+  nameWithType: Strings.TimeElapsed
+  fullName: Ressources.Strings.TimeElapsed
+- uid: Ressources.Strings.TotalSize*
+  commentId: Overload:Ressources.Strings.TotalSize
+  href: Ressources.Strings.html#Ressources_Strings_TotalSize
+  name: TotalSize
+  nameWithType: Strings.TotalSize
+  fullName: Ressources.Strings.TotalSize
+- uid: Ressources.Strings.TransfertTime*
+  commentId: Overload:Ressources.Strings.TransfertTime
+  href: Ressources.Strings.html#Ressources_Strings_TransfertTime
+  name: TransfertTime
+  nameWithType: Strings.TransfertTime
+  fullName: Ressources.Strings.TransfertTime
+- uid: Ressources.Strings.Type*
+  commentId: Overload:Ressources.Strings.Type
+  href: Ressources.Strings.html#Ressources_Strings_Type
+  name: Type
+  nameWithType: Strings.Type
+  fullName: Ressources.Strings.Type
+- uid: Ressources.Strings.WithoutJobLoaded*
+  commentId: Overload:Ressources.Strings.WithoutJobLoaded
+  href: Ressources.Strings.html#Ressources_Strings_WithoutJobLoaded
+  name: WithoutJobLoaded
+  nameWithType: Strings.WithoutJobLoaded
+  fullName: Ressources.Strings.WithoutJobLoaded
+- uid: Ressources.Strings.YouSelected*
+  commentId: Overload:Ressources.Strings.YouSelected
+  href: Ressources.Strings.html#Ressources_Strings_YouSelected
+  name: YouSelected
+  nameWithType: Strings.YouSelected
+  fullName: Ressources.Strings.YouSelected

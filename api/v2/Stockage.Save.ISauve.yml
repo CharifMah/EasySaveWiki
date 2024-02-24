@@ -1,0 +1,262 @@
+### YamlMime:ManagedReference
+items:
+- uid: Stockage.Save.ISauve
+  commentId: T:Stockage.Save.ISauve
+  id: ISauve
+  parent: Stockage.Save
+  children:
+  - Stockage.Save.ISauve.CopyDirectory(System.IO.DirectoryInfo,System.IO.DirectoryInfo,System.Boolean,LogsModels.CLogState@,System.Boolean)
+  - Stockage.Save.ISauve.Sauver``1(``0,System.String,System.Boolean,System.String,System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: ISauve
+  nameWithType: ISauve
+  fullName: Stockage.Save.ISauve
+  type: Interface
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Stockage/Save/ISauve.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: ISauve
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Stockage/Save/ISauve.cs
+    startLine: 8
+  assemblies:
+  - Stockage
+  namespace: Stockage.Save
+  summary: Interface ISauve
+  remarks: Mahmoud Charif - 31/12/2022 - Création
+  example: []
+  syntax:
+    content: public interface ISauve
+    content.vb: Public Interface ISauve
+- uid: Stockage.Save.ISauve.Sauver``1(``0,System.String,System.Boolean,System.String,System.Boolean)
+  commentId: M:Stockage.Save.ISauve.Sauver``1(``0,System.String,System.Boolean,System.String,System.Boolean)
+  id: Sauver``1(``0,System.String,System.Boolean,System.String,System.Boolean)
+  parent: Stockage.Save.ISauve
+  langs:
+  - csharp
+  - vb
+  name: Sauver<T>(T, string, bool, string, bool)
+  nameWithType: ISauve.Sauver<T>(T, string, bool, string, bool)
+  fullName: Stockage.Save.ISauve.Sauver<T>(T, string, bool, string, bool)
+  type: Method
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Stockage/Save/ISauve.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: Sauver
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Stockage/Save/ISauve.cs
+    startLine: 19
+  assemblies:
+  - Stockage
+  namespace: Stockage.Save
+  summary: Sauvegarde les données dans un fichier
+  remarks: Mahmoud Charif - 31/12/2022 - Création
+  example: []
+  syntax:
+    content: void Sauver<T>(T pData, string pFileName, bool pAppend = false, string pExtention = "json", bool IsFullPath = false)
+    parameters:
+    - id: pData
+      type: '{T}'
+      description: Data to serialize
+    - id: pFileName
+      type: System.String
+      description: File name
+    - id: pAppend
+      type: System.Boolean
+      description: True si on veux append sur le fichier
+    - id: pExtention
+      type: System.String
+      description: Extension
+    - id: IsFullPath
+      type: System.Boolean
+      description: vrai si pFileName est un chemin complet
+    typeParameters:
+    - id: T
+    content.vb: Sub Sauver(Of T)(pData As T, pFileName As String, pAppend As Boolean = False, pExtention As String = "json", IsFullPath As Boolean = False)
+  overload: Stockage.Save.ISauve.Sauver*
+  nameWithType.vb: ISauve.Sauver(Of T)(T, String, Boolean, String, Boolean)
+  fullName.vb: Stockage.Save.ISauve.Sauver(Of T)(T, String, Boolean, String, Boolean)
+  name.vb: Sauver(Of T)(T, String, Boolean, String, Boolean)
+- uid: Stockage.Save.ISauve.CopyDirectory(System.IO.DirectoryInfo,System.IO.DirectoryInfo,System.Boolean,LogsModels.CLogState@,System.Boolean)
+  commentId: M:Stockage.Save.ISauve.CopyDirectory(System.IO.DirectoryInfo,System.IO.DirectoryInfo,System.Boolean,LogsModels.CLogState@,System.Boolean)
+  id: CopyDirectory(System.IO.DirectoryInfo,System.IO.DirectoryInfo,System.Boolean,LogsModels.CLogState@,System.Boolean)
+  parent: Stockage.Save.ISauve
+  langs:
+  - csharp
+  - vb
+  name: CopyDirectory(DirectoryInfo, DirectoryInfo, bool, ref CLogState, bool)
+  nameWithType: ISauve.CopyDirectory(DirectoryInfo, DirectoryInfo, bool, ref CLogState, bool)
+  fullName: Stockage.Save.ISauve.CopyDirectory(System.IO.DirectoryInfo, System.IO.DirectoryInfo, bool, ref LogsModels.CLogState, bool)
+  type: Method
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Stockage/Save/ISauve.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: CopyDirectory
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Stockage/Save/ISauve.cs
+    startLine: 28
+  assemblies:
+  - Stockage
+  namespace: Stockage.Save
+  summary: Copy files and directory from the source path to the destinationPath
+  example: []
+  syntax:
+    content: void CopyDirectory(DirectoryInfo pSourceDir, DirectoryInfo pTargetDir, bool pRecursive, ref CLogState pLogState, bool pDiffertielle = false)
+    parameters:
+    - id: pSourceDir
+      type: System.IO.DirectoryInfo
+      description: Path of the directory you want tot copy
+    - id: pTargetDir
+      type: System.IO.DirectoryInfo
+      description: Path of the target directory
+    - id: pRecursive
+      type: System.Boolean
+      description: True if recursive
+    - id: pLogState
+      type: LogsModels.CLogState
+    - id: pDiffertielle
+      type: System.Boolean
+      description: true if differential
+    content.vb: Sub CopyDirectory(pSourceDir As DirectoryInfo, pTargetDir As DirectoryInfo, pRecursive As Boolean, pLogState As CLogState, pDiffertielle As Boolean = False)
+  overload: Stockage.Save.ISauve.CopyDirectory*
+  exceptions:
+  - type: System.IO.DirectoryNotFoundException
+    commentId: T:System.IO.DirectoryNotFoundException
+    description: ''
+  nameWithType.vb: ISauve.CopyDirectory(DirectoryInfo, DirectoryInfo, Boolean, CLogState, Boolean)
+  fullName.vb: Stockage.Save.ISauve.CopyDirectory(System.IO.DirectoryInfo, System.IO.DirectoryInfo, Boolean, LogsModels.CLogState, Boolean)
+  name.vb: CopyDirectory(DirectoryInfo, DirectoryInfo, Boolean, CLogState, Boolean)
+references:
+- uid: Stockage.Save
+  commentId: N:Stockage.Save
+  href: Stockage.html
+  name: Stockage.Save
+  nameWithType: Stockage.Save
+  fullName: Stockage.Save
+  spec.csharp:
+  - uid: Stockage
+    name: Stockage
+    href: Stockage.html
+  - name: .
+  - uid: Stockage.Save
+    name: Save
+    href: Stockage.Save.html
+  spec.vb:
+  - uid: Stockage
+    name: Stockage
+    href: Stockage.html
+  - name: .
+  - uid: Stockage.Save
+    name: Save
+    href: Stockage.Save.html
+- uid: Stockage.Save.ISauve.Sauver*
+  commentId: Overload:Stockage.Save.ISauve.Sauver
+  href: Stockage.Save.ISauve.html#Stockage_Save_ISauve_Sauver__1___0_System_String_System_Boolean_System_String_System_Boolean_
+  name: Sauver
+  nameWithType: ISauve.Sauver
+  fullName: Stockage.Save.ISauve.Sauver
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IO.DirectoryNotFoundException
+  commentId: T:System.IO.DirectoryNotFoundException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.io.directorynotfoundexception
+  name: DirectoryNotFoundException
+  nameWithType: DirectoryNotFoundException
+  fullName: System.IO.DirectoryNotFoundException
+- uid: Stockage.Save.ISauve.CopyDirectory*
+  commentId: Overload:Stockage.Save.ISauve.CopyDirectory
+  href: Stockage.Save.ISauve.html#Stockage_Save_ISauve_CopyDirectory_System_IO_DirectoryInfo_System_IO_DirectoryInfo_System_Boolean_LogsModels_CLogState__System_Boolean_
+  name: CopyDirectory
+  nameWithType: ISauve.CopyDirectory
+  fullName: Stockage.Save.ISauve.CopyDirectory
+- uid: System.IO.DirectoryInfo
+  commentId: T:System.IO.DirectoryInfo
+  parent: System.IO
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.io.directoryinfo
+  name: DirectoryInfo
+  nameWithType: DirectoryInfo
+  fullName: System.IO.DirectoryInfo
+- uid: LogsModels.CLogState
+  commentId: T:LogsModels.CLogState
+  parent: LogsModels
+  href: LogsModels.CLogState.html
+  name: CLogState
+  nameWithType: CLogState
+  fullName: LogsModels.CLogState
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.IO
+    name: IO
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.IO
+    name: IO
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io
+- uid: LogsModels
+  commentId: N:LogsModels
+  href: LogsModels.html
+  name: LogsModels
+  nameWithType: LogsModels
+  fullName: LogsModels

@@ -1,0 +1,144 @@
+### YamlMime:ManagedReference
+items:
+- uid: Stockage.Load.ICharge
+  commentId: T:Stockage.Load.ICharge
+  id: ICharge
+  parent: Stockage.Load
+  children:
+  - Stockage.Load.ICharge.Charger``1(System.String,System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: ICharge
+  nameWithType: ICharge
+  fullName: Stockage.Load.ICharge
+  type: Interface
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Stockage/Load/ICharge.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: ICharge
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Stockage/Load/ICharge.cs
+    startLine: 6
+  assemblies:
+  - Stockage
+  namespace: Stockage.Load
+  summary: Interface ICharge
+  remarks: Mahmoud Charif - 31/12/2022- Création
+  example: []
+  syntax:
+    content: public interface ICharge
+    content.vb: Public Interface ICharge
+- uid: Stockage.Load.ICharge.Charger``1(System.String,System.Boolean)
+  commentId: M:Stockage.Load.ICharge.Charger``1(System.String,System.Boolean)
+  id: Charger``1(System.String,System.Boolean)
+  parent: Stockage.Load.ICharge
+  langs:
+  - csharp
+  - vb
+  name: Charger<T>(string, bool)
+  nameWithType: ICharge.Charger<T>(string, bool)
+  fullName: Stockage.Load.ICharge.Charger<T>(string, bool)
+  type: Method
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Stockage/Load/ICharge.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: Charger
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Stockage/Load/ICharge.cs
+    startLine: 17
+  assemblies:
+  - Stockage
+  namespace: Stockage.Load
+  summary: Charger un fichier
+  remarks: Mahmoud Charif - 31/12/2022 - Creation
+  example: []
+  syntax:
+    content: T Charger<T>(string pPath, bool pIsFullPath = false)
+    parameters:
+    - id: pPath
+      type: System.String
+    - id: pIsFullPath
+      type: System.Boolean
+      description: vrai si le premier parametre est un chemin complet et non le nom du fichier
+    typeParameters:
+    - id: T
+      description: Type du fichier à charger
+    return:
+      type: '{T}'
+      description: Data Cast in Generic Type
+    content.vb: Function Charger(Of T)(pPath As String, pIsFullPath As Boolean = False) As T
+  overload: Stockage.Load.ICharge.Charger*
+  nameWithType.vb: ICharge.Charger(Of T)(String, Boolean)
+  fullName.vb: Stockage.Load.ICharge.Charger(Of T)(String, Boolean)
+  name.vb: Charger(Of T)(String, Boolean)
+references:
+- uid: Stockage.Load
+  commentId: N:Stockage.Load
+  href: Stockage.html
+  name: Stockage.Load
+  nameWithType: Stockage.Load
+  fullName: Stockage.Load
+  spec.csharp:
+  - uid: Stockage
+    name: Stockage
+    href: Stockage.html
+  - name: .
+  - uid: Stockage.Load
+    name: Load
+    href: Stockage.Load.html
+  spec.vb:
+  - uid: Stockage
+    name: Stockage
+    href: Stockage.html
+  - name: .
+  - uid: Stockage.Load
+    name: Load
+    href: Stockage.Load.html
+- uid: Stockage.Load.ICharge.Charger*
+  commentId: Overload:Stockage.Load.ICharge.Charger
+  href: Stockage.Load.ICharge.html#Stockage_Load_ICharge_Charger__1_System_String_System_Boolean_
+  name: Charger
+  nameWithType: ICharge.Charger
+  fullName: Stockage.Load.ICharge.Charger
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T

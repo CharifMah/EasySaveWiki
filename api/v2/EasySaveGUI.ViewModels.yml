@@ -1,0 +1,102 @@
+### YamlMime:ManagedReference
+items:
+- uid: EasySaveGUI.ViewModels
+  commentId: N:EasySaveGUI.ViewModels
+  id: EasySaveGUI.ViewModels
+  children:
+  - EasySaveGUI.ViewModels.BaseViewModel
+  - EasySaveGUI.ViewModels.FormatLogViewModel
+  - EasySaveGUI.ViewModels.JobViewModel
+  - EasySaveGUI.ViewModels.LangueViewModel
+  - EasySaveGUI.ViewModels.LayoutViewModel
+  - EasySaveGUI.ViewModels.MainViewModel
+  - EasySaveGUI.ViewModels.PopupViewModel
+  - EasySaveGUI.ViewModels.SettingsViewModel
+  langs:
+  - csharp
+  - vb
+  name: EasySaveGUI.ViewModels
+  nameWithType: EasySaveGUI.ViewModels
+  fullName: EasySaveGUI.ViewModels
+  type: Namespace
+  assemblies:
+  - EasySaveGUI
+references:
+- uid: EasySaveGUI.ViewModels.BaseViewModel
+  commentId: T:EasySaveGUI.ViewModels.BaseViewModel
+  parent: EasySaveGUI.ViewModels
+  href: EasySaveGUI.ViewModels.BaseViewModel.html
+  name: BaseViewModel
+  nameWithType: BaseViewModel
+  fullName: EasySaveGUI.ViewModels.BaseViewModel
+- uid: EasySaveGUI.ViewModels.FormatLogViewModel
+  commentId: T:EasySaveGUI.ViewModels.FormatLogViewModel
+  parent: EasySaveGUI.ViewModels
+  href: EasySaveGUI.ViewModels.FormatLogViewModel.html
+  name: FormatLogViewModel
+  nameWithType: FormatLogViewModel
+  fullName: EasySaveGUI.ViewModels.FormatLogViewModel
+- uid: EasySaveGUI.ViewModels.JobViewModel
+  commentId: T:EasySaveGUI.ViewModels.JobViewModel
+  parent: EasySaveGUI.ViewModels
+  href: EasySaveGUI.ViewModels.JobViewModel.html
+  name: JobViewModel
+  nameWithType: JobViewModel
+  fullName: EasySaveGUI.ViewModels.JobViewModel
+- uid: EasySaveGUI.ViewModels.LangueViewModel
+  commentId: T:EasySaveGUI.ViewModels.LangueViewModel
+  parent: EasySaveGUI.ViewModels
+  href: EasySaveGUI.ViewModels.LangueViewModel.html
+  name: LangueViewModel
+  nameWithType: LangueViewModel
+  fullName: EasySaveGUI.ViewModels.LangueViewModel
+- uid: EasySaveGUI.ViewModels.LayoutViewModel
+  commentId: T:EasySaveGUI.ViewModels.LayoutViewModel
+  parent: EasySaveGUI.ViewModels
+  href: EasySaveGUI.ViewModels.LayoutViewModel.html
+  name: LayoutViewModel
+  nameWithType: LayoutViewModel
+  fullName: EasySaveGUI.ViewModels.LayoutViewModel
+- uid: EasySaveGUI.ViewModels.MainViewModel
+  commentId: T:EasySaveGUI.ViewModels.MainViewModel
+  parent: EasySaveGUI.ViewModels
+  href: EasySaveGUI.ViewModels.MainViewModel.html
+  name: MainViewModel
+  nameWithType: MainViewModel
+  fullName: EasySaveGUI.ViewModels.MainViewModel
+- uid: EasySaveGUI.ViewModels.PopupViewModel
+  commentId: T:EasySaveGUI.ViewModels.PopupViewModel
+  parent: EasySaveGUI.ViewModels
+  href: EasySaveGUI.ViewModels.PopupViewModel.html
+  name: PopupViewModel
+  nameWithType: PopupViewModel
+  fullName: EasySaveGUI.ViewModels.PopupViewModel
+- uid: EasySaveGUI.ViewModels.SettingsViewModel
+  commentId: T:EasySaveGUI.ViewModels.SettingsViewModel
+  parent: EasySaveGUI.ViewModels
+  href: EasySaveGUI.ViewModels.SettingsViewModel.html
+  name: SettingsViewModel
+  nameWithType: SettingsViewModel
+  fullName: EasySaveGUI.ViewModels.SettingsViewModel
+- uid: EasySaveGUI.ViewModels
+  commentId: N:EasySaveGUI.ViewModels
+  href: EasySaveGUI.html
+  name: EasySaveGUI.ViewModels
+  nameWithType: EasySaveGUI.ViewModels
+  fullName: EasySaveGUI.ViewModels
+  spec.csharp:
+  - uid: EasySaveGUI
+    name: EasySaveGUI
+    href: EasySaveGUI.html
+  - name: .
+  - uid: EasySaveGUI.ViewModels
+    name: ViewModels
+    href: EasySaveGUI.ViewModels.html
+  spec.vb:
+  - uid: EasySaveGUI
+    name: EasySaveGUI
+    href: EasySaveGUI.html
+  - name: .
+  - uid: EasySaveGUI.ViewModels
+    name: ViewModels
+    href: EasySaveGUI.ViewModels.html

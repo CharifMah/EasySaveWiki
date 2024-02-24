@@ -1,0 +1,985 @@
+### YamlMime:ManagedReference
+items:
+- uid: Stockage.Save.BaseSave
+  commentId: T:Stockage.Save.BaseSave
+  id: BaseSave
+  parent: Stockage.Save
+  children:
+  - Stockage.Save.BaseSave.#ctor(System.String)
+  - Stockage.Save.BaseSave.CopyDirectory(System.IO.DirectoryInfo,System.IO.DirectoryInfo,System.Boolean,LogsModels.CLogState@,System.Boolean)
+  - Stockage.Save.BaseSave.CopyDirectory(System.IO.DirectoryInfo,System.IO.DirectoryInfo,System.Boolean,System.Boolean)
+  - Stockage.Save.BaseSave.CopyDirectoryAsync(System.IO.DirectoryInfo,System.IO.DirectoryInfo,System.Boolean,System.Boolean)
+  - Stockage.Save.BaseSave.Options
+  - Stockage.Save.BaseSave.Sauver``1(``0,System.String,System.Boolean,System.String,System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: BaseSave
+  nameWithType: BaseSave
+  fullName: Stockage.Save.BaseSave
+  type: Class
+  source:
+    remote:
+      path: EasySave-2.0/EasySave-1.0/Stockage/Save/BaseSave.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: BaseSave
+    path: ../G4-FISA-24/EasySave-2.0/EasySave-1.0/Stockage/Save/BaseSave.cs
+    startLine: 9
+  assemblies:
+  - Stockage
+  namespace: Stockage.Save
+  summary: Classe abstraite de base pour la sauvegarde d'un ficher ou le déplacement de Repertoire
+  example: []
+  syntax:
+    content: 'public abstract class BaseSave : ISauve'
+    content.vb: Public MustInherit Class BaseSave Implements ISauve
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - Stockage.Save.SauveCollection
+  - Stockage.Save.SauveJobs
+  - Stockage.Save.SauveJobsAsync
+  implements:
+  - Stockage.Save.ISauve
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Stockage.Save.BaseSave.Options
+  commentId: P:Stockage.Save.BaseSave.Options
+  id: Options
+  parent: Stockage.Save.BaseSave
+  langs:
+  - csharp
+  - vb
+  name: Options
+  nameWithType: BaseSave.Options
+  fullName: Stockage.Save.BaseSave.Options
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySave-1.0/Stockage/Save/BaseSave.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: Options
+    path: ../G4-FISA-24/EasySave-2.0/EasySave-1.0/Stockage/Save/BaseSave.cs
+    startLine: 15
+  assemblies:
+  - Stockage
+  namespace: Stockage.Save
+  syntax:
+    content: public JsonSerializerSettings Options { get; }
+    parameters: []
+    return:
+      type: Newtonsoft.Json.JsonSerializerSettings
+    content.vb: Public ReadOnly Property Options As JsonSerializerSettings
+  overload: Stockage.Save.BaseSave.Options*
+- uid: Stockage.Save.BaseSave.#ctor(System.String)
+  commentId: M:Stockage.Save.BaseSave.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: Stockage.Save.BaseSave
+  langs:
+  - csharp
+  - vb
+  name: BaseSave(string)
+  nameWithType: BaseSave.BaseSave(string)
+  fullName: Stockage.Save.BaseSave.BaseSave(string)
+  type: Constructor
+  source:
+    remote:
+      path: EasySave-2.0/EasySave-1.0/Stockage/Save/BaseSave.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: .ctor
+    path: ../G4-FISA-24/EasySave-2.0/EasySave-1.0/Stockage/Save/BaseSave.cs
+    startLine: 21
+  assemblies:
+  - Stockage
+  namespace: Stockage.Save
+  summary: Sauvegarde
+  example: []
+  syntax:
+    content: public BaseSave(string pPath)
+    parameters:
+    - id: pPath
+      type: System.String
+      description: Directory Path
+    content.vb: Public Sub New(pPath As String)
+  overload: Stockage.Save.BaseSave.#ctor*
+  nameWithType.vb: BaseSave.New(String)
+  fullName.vb: Stockage.Save.BaseSave.New(String)
+  name.vb: New(String)
+- uid: Stockage.Save.BaseSave.Sauver``1(``0,System.String,System.Boolean,System.String,System.Boolean)
+  commentId: M:Stockage.Save.BaseSave.Sauver``1(``0,System.String,System.Boolean,System.String,System.Boolean)
+  id: Sauver``1(``0,System.String,System.Boolean,System.String,System.Boolean)
+  parent: Stockage.Save.BaseSave
+  langs:
+  - csharp
+  - vb
+  name: Sauver<T>(T, string, bool, string, bool)
+  nameWithType: BaseSave.Sauver<T>(T, string, bool, string, bool)
+  fullName: Stockage.Save.BaseSave.Sauver<T>(T, string, bool, string, bool)
+  type: Method
+  source:
+    remote:
+      path: EasySave-2.0/EasySave-1.0/Stockage/Save/BaseSave.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: Sauver
+    path: ../G4-FISA-24/EasySave-2.0/EasySave-1.0/Stockage/Save/BaseSave.cs
+    startLine: 35
+  assemblies:
+  - Stockage
+  namespace: Stockage.Save
+  summary: Crée un fichier Json par default avec les Settings
+  example: []
+  syntax:
+    content: public virtual void Sauver<T>(T pData, string pFileName, bool pAppend = false, string pExtention = "json", bool pIsFullPath = false)
+    parameters:
+    - id: pData
+      type: '{T}'
+      description: Data a sauvegarde
+    - id: pFileName
+      type: System.String
+      description: Name of the file
+    - id: pAppend
+      type: System.Boolean
+    - id: pExtention
+      type: System.String
+      description: Extension of the file can be null
+    - id: pIsFullPath
+      type: System.Boolean
+      description: vrai si le premier parametre est un chemin complet et non le nom du fichier
+    typeParameters:
+    - id: T
+    content.vb: Public Overridable Sub Sauver(Of T)(pData As T, pFileName As String, pAppend As Boolean = False, pExtention As String = "json", pIsFullPath As Boolean = False)
+  overload: Stockage.Save.BaseSave.Sauver*
+  implements:
+  - Stockage.Save.ISauve.Sauver``1({T},System.String,System.Boolean,System.String,System.Boolean)
+  nameWithType.vb: BaseSave.Sauver(Of T)(T, String, Boolean, String, Boolean)
+  fullName.vb: Stockage.Save.BaseSave.Sauver(Of T)(T, String, Boolean, String, Boolean)
+  name.vb: Sauver(Of T)(T, String, Boolean, String, Boolean)
+- uid: Stockage.Save.BaseSave.CopyDirectory(System.IO.DirectoryInfo,System.IO.DirectoryInfo,System.Boolean,System.Boolean)
+  commentId: M:Stockage.Save.BaseSave.CopyDirectory(System.IO.DirectoryInfo,System.IO.DirectoryInfo,System.Boolean,System.Boolean)
+  id: CopyDirectory(System.IO.DirectoryInfo,System.IO.DirectoryInfo,System.Boolean,System.Boolean)
+  parent: Stockage.Save.BaseSave
+  langs:
+  - csharp
+  - vb
+  name: CopyDirectory(DirectoryInfo, DirectoryInfo, bool, bool)
+  nameWithType: BaseSave.CopyDirectory(DirectoryInfo, DirectoryInfo, bool, bool)
+  fullName: Stockage.Save.BaseSave.CopyDirectory(System.IO.DirectoryInfo, System.IO.DirectoryInfo, bool, bool)
+  type: Method
+  source:
+    remote:
+      path: EasySave-2.0/EasySave-1.0/Stockage/Save/BaseSave.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: CopyDirectory
+    path: ../G4-FISA-24/EasySave-2.0/EasySave-1.0/Stockage/Save/BaseSave.cs
+    startLine: 86
+  assemblies:
+  - Stockage
+  namespace: Stockage.Save
+  summary: Copy files and directory from the source path to the destinationPath
+  example: []
+  syntax:
+    content: public virtual void CopyDirectory(DirectoryInfo pSourceDir, DirectoryInfo pTargetDir, bool pRecursive, bool pForce = false)
+    parameters:
+    - id: pSourceDir
+      type: System.IO.DirectoryInfo
+      description: Path of the directory you want tot copy
+    - id: pTargetDir
+      type: System.IO.DirectoryInfo
+      description: Path of the target directory
+    - id: pRecursive
+      type: System.Boolean
+      description: True if recursive
+    - id: pForce
+      type: System.Boolean
+      description: true if overwrite
+    content.vb: Public Overridable Sub CopyDirectory(pSourceDir As DirectoryInfo, pTargetDir As DirectoryInfo, pRecursive As Boolean, pForce As Boolean = False)
+  overload: Stockage.Save.BaseSave.CopyDirectory*
+  exceptions:
+  - type: System.IO.DirectoryNotFoundException
+    commentId: T:System.IO.DirectoryNotFoundException
+    description: ''
+  implements:
+  - Stockage.Save.ISauve.CopyDirectory(System.IO.DirectoryInfo,System.IO.DirectoryInfo,System.Boolean,System.Boolean)
+  nameWithType.vb: BaseSave.CopyDirectory(DirectoryInfo, DirectoryInfo, Boolean, Boolean)
+  fullName.vb: Stockage.Save.BaseSave.CopyDirectory(System.IO.DirectoryInfo, System.IO.DirectoryInfo, Boolean, Boolean)
+  name.vb: CopyDirectory(DirectoryInfo, DirectoryInfo, Boolean, Boolean)
+- uid: Stockage.Save.BaseSave.CopyDirectory(System.IO.DirectoryInfo,System.IO.DirectoryInfo,System.Boolean,LogsModels.CLogState@,System.Boolean)
+  commentId: M:Stockage.Save.BaseSave.CopyDirectory(System.IO.DirectoryInfo,System.IO.DirectoryInfo,System.Boolean,LogsModels.CLogState@,System.Boolean)
+  id: CopyDirectory(System.IO.DirectoryInfo,System.IO.DirectoryInfo,System.Boolean,LogsModels.CLogState@,System.Boolean)
+  parent: Stockage.Save.BaseSave
+  langs:
+  - csharp
+  - vb
+  name: CopyDirectory(DirectoryInfo, DirectoryInfo, bool, ref CLogState, bool)
+  nameWithType: BaseSave.CopyDirectory(DirectoryInfo, DirectoryInfo, bool, ref CLogState, bool)
+  fullName: Stockage.Save.BaseSave.CopyDirectory(System.IO.DirectoryInfo, System.IO.DirectoryInfo, bool, ref LogsModels.CLogState, bool)
+  type: Method
+  source:
+    remote:
+      path: EasySave-2.0/EasySave-1.0/Stockage/Save/BaseSave.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: CopyDirectory
+    path: ../G4-FISA-24/EasySave-2.0/EasySave-1.0/Stockage/Save/BaseSave.cs
+    startLine: 91
+  assemblies:
+  - Stockage
+  namespace: Stockage.Save
+  syntax:
+    content: public virtual void CopyDirectory(DirectoryInfo pSourceDir, DirectoryInfo pTargetDir, bool pRecursive, ref CLogState pLogState, bool pDiffertielle = false)
+    parameters:
+    - id: pSourceDir
+      type: System.IO.DirectoryInfo
+    - id: pTargetDir
+      type: System.IO.DirectoryInfo
+    - id: pRecursive
+      type: System.Boolean
+    - id: pLogState
+      type: LogsModels.CLogState
+    - id: pDiffertielle
+      type: System.Boolean
+    content.vb: Public Overridable Sub CopyDirectory(pSourceDir As DirectoryInfo, pTargetDir As DirectoryInfo, pRecursive As Boolean, pLogState As CLogState, pDiffertielle As Boolean = False)
+  overload: Stockage.Save.BaseSave.CopyDirectory*
+  nameWithType.vb: BaseSave.CopyDirectory(DirectoryInfo, DirectoryInfo, Boolean, CLogState, Boolean)
+  fullName.vb: Stockage.Save.BaseSave.CopyDirectory(System.IO.DirectoryInfo, System.IO.DirectoryInfo, Boolean, LogsModels.CLogState, Boolean)
+  name.vb: CopyDirectory(DirectoryInfo, DirectoryInfo, Boolean, CLogState, Boolean)
+- uid: Stockage.Save.BaseSave.CopyDirectoryAsync(System.IO.DirectoryInfo,System.IO.DirectoryInfo,System.Boolean,System.Boolean)
+  commentId: M:Stockage.Save.BaseSave.CopyDirectoryAsync(System.IO.DirectoryInfo,System.IO.DirectoryInfo,System.Boolean,System.Boolean)
+  id: CopyDirectoryAsync(System.IO.DirectoryInfo,System.IO.DirectoryInfo,System.Boolean,System.Boolean)
+  parent: Stockage.Save.BaseSave
+  langs:
+  - csharp
+  - vb
+  name: CopyDirectoryAsync(DirectoryInfo, DirectoryInfo, bool, bool)
+  nameWithType: BaseSave.CopyDirectoryAsync(DirectoryInfo, DirectoryInfo, bool, bool)
+  fullName: Stockage.Save.BaseSave.CopyDirectoryAsync(System.IO.DirectoryInfo, System.IO.DirectoryInfo, bool, bool)
+  type: Method
+  source:
+    remote:
+      path: EasySave-2.0/EasySave-1.0/Stockage/Save/BaseSave.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: CopyDirectoryAsync
+    path: ../G4-FISA-24/EasySave-2.0/EasySave-1.0/Stockage/Save/BaseSave.cs
+    startLine: 95
+  assemblies:
+  - Stockage
+  namespace: Stockage.Save
+  syntax:
+    content: public virtual Task CopyDirectoryAsync(DirectoryInfo pSourceDir, DirectoryInfo pTargetDir, bool pRecursive, bool pDiffertielle = false)
+    parameters:
+    - id: pSourceDir
+      type: System.IO.DirectoryInfo
+    - id: pTargetDir
+      type: System.IO.DirectoryInfo
+    - id: pRecursive
+      type: System.Boolean
+    - id: pDiffertielle
+      type: System.Boolean
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Overridable Function CopyDirectoryAsync(pSourceDir As DirectoryInfo, pTargetDir As DirectoryInfo, pRecursive As Boolean, pDiffertielle As Boolean = False) As Task
+  overload: Stockage.Save.BaseSave.CopyDirectoryAsync*
+  nameWithType.vb: BaseSave.CopyDirectoryAsync(DirectoryInfo, DirectoryInfo, Boolean, Boolean)
+  fullName.vb: Stockage.Save.BaseSave.CopyDirectoryAsync(System.IO.DirectoryInfo, System.IO.DirectoryInfo, Boolean, Boolean)
+  name.vb: CopyDirectoryAsync(DirectoryInfo, DirectoryInfo, Boolean, Boolean)
+references:
+- uid: Stockage.Save
+  commentId: N:Stockage.Save
+  href: Stockage.html
+  name: Stockage.Save
+  nameWithType: Stockage.Save
+  fullName: Stockage.Save
+  spec.csharp:
+  - uid: Stockage
+    name: Stockage
+    href: Stockage.html
+  - name: .
+  - uid: Stockage.Save
+    name: Save
+    href: Stockage.Save.html
+  spec.vb:
+  - uid: Stockage
+    name: Stockage
+    href: Stockage.html
+  - name: .
+  - uid: Stockage.Save
+    name: Save
+    href: Stockage.Save.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Stockage.Save.ISauve
+  commentId: T:Stockage.Save.ISauve
+  parent: Stockage.Save
+  href: Stockage.Save.ISauve.html
+  name: ISauve
+  nameWithType: ISauve
+  fullName: Stockage.Save.ISauve
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Stockage.Save.BaseSave.Options*
+  commentId: Overload:Stockage.Save.BaseSave.Options
+  href: Stockage.Save.BaseSave.html#Stockage_Save_BaseSave_Options
+  name: Options
+  nameWithType: BaseSave.Options
+  fullName: Stockage.Save.BaseSave.Options
+- uid: Newtonsoft.Json.JsonSerializerSettings
+  commentId: T:Newtonsoft.Json.JsonSerializerSettings
+  parent: Newtonsoft.Json
+  isExternal: true
+  name: JsonSerializerSettings
+  nameWithType: JsonSerializerSettings
+  fullName: Newtonsoft.Json.JsonSerializerSettings
+- uid: Newtonsoft.Json
+  commentId: N:Newtonsoft.Json
+  isExternal: true
+  name: Newtonsoft.Json
+  nameWithType: Newtonsoft.Json
+  fullName: Newtonsoft.Json
+  spec.csharp:
+  - uid: Newtonsoft
+    name: Newtonsoft
+    isExternal: true
+  - name: .
+  - uid: Newtonsoft.Json
+    name: Json
+    isExternal: true
+  spec.vb:
+  - uid: Newtonsoft
+    name: Newtonsoft
+    isExternal: true
+  - name: .
+  - uid: Newtonsoft.Json
+    name: Json
+    isExternal: true
+- uid: Stockage.Save.BaseSave.#ctor*
+  commentId: Overload:Stockage.Save.BaseSave.#ctor
+  href: Stockage.Save.BaseSave.html#Stockage_Save_BaseSave__ctor_System_String_
+  name: BaseSave
+  nameWithType: BaseSave.BaseSave
+  fullName: Stockage.Save.BaseSave.BaseSave
+  nameWithType.vb: BaseSave.New
+  fullName.vb: Stockage.Save.BaseSave.New
+  name.vb: New
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Stockage.Save.BaseSave.Sauver*
+  commentId: Overload:Stockage.Save.BaseSave.Sauver
+  href: Stockage.Save.BaseSave.html#Stockage_Save_BaseSave_Sauver__1___0_System_String_System_Boolean_System_String_System_Boolean_
+  name: Sauver
+  nameWithType: BaseSave.Sauver
+  fullName: Stockage.Save.BaseSave.Sauver
+- uid: Stockage.Save.ISauve.Sauver``1({T},System.String,System.Boolean,System.String,System.Boolean)
+  commentId: M:Stockage.Save.ISauve.Sauver``1(``0,System.String,System.Boolean,System.String,System.Boolean)
+  parent: Stockage.Save.ISauve
+  definition: Stockage.Save.ISauve.Sauver``1(``0,System.String,System.Boolean,System.String,System.Boolean)
+  href: Stockage.Save.ISauve.html#Stockage_Save_ISauve_Sauver__1___0_System_String_System_Boolean_System_String_System_Boolean_
+  name: Sauver<T>(T, string, bool, string, bool)
+  nameWithType: ISauve.Sauver<T>(T, string, bool, string, bool)
+  fullName: Stockage.Save.ISauve.Sauver<T>(T, string, bool, string, bool)
+  nameWithType.vb: ISauve.Sauver(Of T)(T, String, Boolean, String, Boolean)
+  fullName.vb: Stockage.Save.ISauve.Sauver(Of T)(T, String, Boolean, String, Boolean)
+  name.vb: Sauver(Of T)(T, String, Boolean, String, Boolean)
+  spec.csharp:
+  - uid: Stockage.Save.ISauve.Sauver``1(``0,System.String,System.Boolean,System.String,System.Boolean)
+    name: Sauver
+    href: Stockage.Save.ISauve.html#Stockage_Save_ISauve_Sauver__1___0_System_String_System_Boolean_System_String_System_Boolean_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: Stockage.Save.ISauve.Sauver``1(``0,System.String,System.Boolean,System.String,System.Boolean)
+    name: Sauver
+    href: Stockage.Save.ISauve.html#Stockage_Save_ISauve_Sauver__1___0_System_String_System_Boolean_System_String_System_Boolean_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Stockage.Save.ISauve.Sauver``1(``0,System.String,System.Boolean,System.String,System.Boolean)
+  commentId: M:Stockage.Save.ISauve.Sauver``1(``0,System.String,System.Boolean,System.String,System.Boolean)
+  isExternal: true
+  href: Stockage.Save.ISauve.html#Stockage_Save_ISauve_Sauver__1___0_System_String_System_Boolean_System_String_System_Boolean_
+  name: Sauver<T>(T, string, bool, string, bool)
+  nameWithType: ISauve.Sauver<T>(T, string, bool, string, bool)
+  fullName: Stockage.Save.ISauve.Sauver<T>(T, string, bool, string, bool)
+  nameWithType.vb: ISauve.Sauver(Of T)(T, String, Boolean, String, Boolean)
+  fullName.vb: Stockage.Save.ISauve.Sauver(Of T)(T, String, Boolean, String, Boolean)
+  name.vb: Sauver(Of T)(T, String, Boolean, String, Boolean)
+  spec.csharp:
+  - uid: Stockage.Save.ISauve.Sauver``1(``0,System.String,System.Boolean,System.String,System.Boolean)
+    name: Sauver
+    href: Stockage.Save.ISauve.html#Stockage_Save_ISauve_Sauver__1___0_System_String_System_Boolean_System_String_System_Boolean_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: Stockage.Save.ISauve.Sauver``1(``0,System.String,System.Boolean,System.String,System.Boolean)
+    name: Sauver
+    href: Stockage.Save.ISauve.html#Stockage_Save_ISauve_Sauver__1___0_System_String_System_Boolean_System_String_System_Boolean_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.IO.DirectoryNotFoundException
+  commentId: T:System.IO.DirectoryNotFoundException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.io.directorynotfoundexception
+  name: DirectoryNotFoundException
+  nameWithType: DirectoryNotFoundException
+  fullName: System.IO.DirectoryNotFoundException
+- uid: Stockage.Save.BaseSave.CopyDirectory*
+  commentId: Overload:Stockage.Save.BaseSave.CopyDirectory
+  href: Stockage.Save.BaseSave.html#Stockage_Save_BaseSave_CopyDirectory_System_IO_DirectoryInfo_System_IO_DirectoryInfo_System_Boolean_System_Boolean_
+  name: CopyDirectory
+  nameWithType: BaseSave.CopyDirectory
+  fullName: Stockage.Save.BaseSave.CopyDirectory
+- uid: Stockage.Save.ISauve.CopyDirectory(System.IO.DirectoryInfo,System.IO.DirectoryInfo,System.Boolean,System.Boolean)
+  commentId: M:Stockage.Save.ISauve.CopyDirectory(System.IO.DirectoryInfo,System.IO.DirectoryInfo,System.Boolean,System.Boolean)
+  parent: Stockage.Save.ISauve
+  isExternal: true
+  href: Stockage.Save.ISauve.html#Stockage_Save_ISauve_CopyDirectory_System_IO_DirectoryInfo_System_IO_DirectoryInfo_System_Boolean_System_Boolean_
+  name: CopyDirectory(DirectoryInfo, DirectoryInfo, bool, bool)
+  nameWithType: ISauve.CopyDirectory(DirectoryInfo, DirectoryInfo, bool, bool)
+  fullName: Stockage.Save.ISauve.CopyDirectory(System.IO.DirectoryInfo, System.IO.DirectoryInfo, bool, bool)
+  nameWithType.vb: ISauve.CopyDirectory(DirectoryInfo, DirectoryInfo, Boolean, Boolean)
+  fullName.vb: Stockage.Save.ISauve.CopyDirectory(System.IO.DirectoryInfo, System.IO.DirectoryInfo, Boolean, Boolean)
+  name.vb: CopyDirectory(DirectoryInfo, DirectoryInfo, Boolean, Boolean)
+  spec.csharp:
+  - uid: Stockage.Save.ISauve.CopyDirectory(System.IO.DirectoryInfo,System.IO.DirectoryInfo,System.Boolean,System.Boolean)
+    name: CopyDirectory
+    href: Stockage.Save.ISauve.html#Stockage_Save_ISauve_CopyDirectory_System_IO_DirectoryInfo_System_IO_DirectoryInfo_System_Boolean_System_Boolean_
+  - name: (
+  - uid: System.IO.DirectoryInfo
+    name: DirectoryInfo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.directoryinfo
+  - name: ','
+  - name: " "
+  - uid: System.IO.DirectoryInfo
+    name: DirectoryInfo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.directoryinfo
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: Stockage.Save.ISauve.CopyDirectory(System.IO.DirectoryInfo,System.IO.DirectoryInfo,System.Boolean,System.Boolean)
+    name: CopyDirectory
+    href: Stockage.Save.ISauve.html#Stockage_Save_ISauve_CopyDirectory_System_IO_DirectoryInfo_System_IO_DirectoryInfo_System_Boolean_System_Boolean_
+  - name: (
+  - uid: System.IO.DirectoryInfo
+    name: DirectoryInfo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.directoryinfo
+  - name: ','
+  - name: " "
+  - uid: System.IO.DirectoryInfo
+    name: DirectoryInfo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.directoryinfo
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: System.IO.DirectoryInfo
+  commentId: T:System.IO.DirectoryInfo
+  parent: System.IO
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.io.directoryinfo
+  name: DirectoryInfo
+  nameWithType: DirectoryInfo
+  fullName: System.IO.DirectoryInfo
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.IO
+    name: IO
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.IO
+    name: IO
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io
+- uid: LogsModels.CLogState
+  commentId: T:LogsModels.CLogState
+  parent: LogsModels
+  href: LogsModels.CLogState.html
+  name: CLogState
+  nameWithType: CLogState
+  fullName: LogsModels.CLogState
+- uid: LogsModels
+  commentId: N:LogsModels
+  href: LogsModels.html
+  name: LogsModels
+  nameWithType: LogsModels
+  fullName: LogsModels
+- uid: Stockage.Save.BaseSave.CopyDirectoryAsync*
+  commentId: Overload:Stockage.Save.BaseSave.CopyDirectoryAsync
+  href: Stockage.Save.BaseSave.html#Stockage_Save_BaseSave_CopyDirectoryAsync_System_IO_DirectoryInfo_System_IO_DirectoryInfo_System_Boolean_System_Boolean_
+  name: CopyDirectoryAsync
+  nameWithType: BaseSave.CopyDirectoryAsync
+  fullName: Stockage.Save.BaseSave.CopyDirectoryAsync
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks

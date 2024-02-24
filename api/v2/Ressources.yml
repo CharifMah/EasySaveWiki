@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Ressources
+  commentId: N:Ressources
+  id: Ressources
+  children:
+  - Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: Ressources
+  nameWithType: Ressources
+  fullName: Ressources
+  type: Namespace
+  assemblies:
+  - Ressources
+references:
+- uid: Ressources.Strings
+  commentId: T:Ressources.Strings
+  href: Ressources.Strings.html
+  name: Strings
+  nameWithType: Strings
+  fullName: Ressources.Strings

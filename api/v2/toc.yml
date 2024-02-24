@@ -1,0 +1,172 @@
+### YamlMime:TableOfContent
+items:
+- uid: EasySaveGUI
+  name: EasySaveGUI
+  items:
+  - uid: EasySaveGUI.App
+    name: App
+  - uid: EasySaveGUI.MainWindow
+    name: MainWindow
+- uid: EasySaveGUI.Converters
+  name: EasySaveGUI.Converters
+  items:
+  - uid: EasySaveGUI.Converters.BytesValueConverter
+    name: BytesValueConverter
+  - uid: EasySaveGUI.Converters.ETypeBackupConverter
+    name: ETypeBackupConverter
+  - uid: EasySaveGUI.Converters.FormatLogConvert
+    name: FormatLogConvert
+  - uid: EasySaveGUI.Converters.LangueConvert
+    name: LangueConvert
+  - uid: EasySaveGUI.Converters.PourcentConverter
+    name: PourcentConverter
+  - uid: EasySaveGUI.Converters.SecondConverter
+    name: SecondConverter
+- uid: EasySaveGUI.UserControls
+  name: EasySaveGUI.UserControls
+  items:
+  - uid: EasySaveGUI.UserControls.ConfigInfoControl
+    name: ConfigInfoControl
+  - uid: EasySaveGUI.UserControls.ConfigMenuControl
+    name: ConfigMenuControl
+  - uid: EasySaveGUI.UserControls.CreateJobControl
+    name: CreateJobControl
+  - uid: EasySaveGUI.UserControls.JobListControl
+    name: JobListControl
+  - uid: EasySaveGUI.UserControls.JobMenuControl
+    name: JobMenuControl
+  - uid: EasySaveGUI.UserControls.JobPropertyControl
+    name: JobPropertyControl
+  - uid: EasySaveGUI.UserControls.MenuControl
+    name: MenuControl
+  - uid: EasySaveGUI.UserControls.OptionsMenuControl
+    name: OptionsMenuControl
+  - uid: EasySaveGUI.UserControls.ValidationPopupControl
+    name: ValidationPopupControl
+- uid: EasySaveGUI.ValidationRules
+  name: EasySaveGUI.ValidationRules
+  items:
+  - uid: EasySaveGUI.ValidationRules.FolderPathValidator
+    name: FolderPathValidator
+- uid: EasySaveGUI.ViewModels
+  name: EasySaveGUI.ViewModels
+  items:
+  - uid: EasySaveGUI.ViewModels.BaseViewModel
+    name: BaseViewModel
+  - uid: EasySaveGUI.ViewModels.FormatLogViewModel
+    name: FormatLogViewModel
+  - uid: EasySaveGUI.ViewModels.JobViewModel
+    name: JobViewModel
+  - uid: EasySaveGUI.ViewModels.LangueViewModel
+    name: LangueViewModel
+  - uid: EasySaveGUI.ViewModels.LayoutViewModel
+    name: LayoutViewModel
+  - uid: EasySaveGUI.ViewModels.MainViewModel
+    name: MainViewModel
+  - uid: EasySaveGUI.ViewModels.PopupViewModel
+    name: PopupViewModel
+  - uid: EasySaveGUI.ViewModels.SettingsViewModel
+    name: SettingsViewModel
+- uid: EasySaveGUI.Views
+  name: EasySaveGUI.Views
+  items:
+  - uid: EasySaveGUI.Views.MenuPage
+    name: MenuPage
+- uid: LogsModels
+  name: LogsModels
+  items:
+  - uid: LogsModels.CLogBase
+    name: CLogBase
+  - uid: LogsModels.CLogDaily
+    name: CLogDaily
+  - uid: LogsModels.CLogState
+    name: CLogState
+  - uid: LogsModels.IPath
+    name: IPath
+- uid: Models
+  name: Models
+  items:
+  - uid: Models.CFormatLog
+    name: CFormatLog
+  - uid: Models.CLangue
+    name: CLangue
+  - uid: Models.CSettings
+    name: CSettings
+  - uid: Models.CTheme
+    name: CTheme
+  - uid: Models.ETheme
+    name: ETheme
+- uid: Models.Backup
+  name: Models.Backup
+  items:
+  - uid: Models.Backup.CJob
+    name: CJob
+  - uid: Models.Backup.CJobManager
+    name: CJobManager
+  - uid: Models.Backup.ETypeBackup
+    name: ETypeBackup
+- uid: OpenDialog
+  name: OpenDialog
+  items:
+  - uid: OpenDialog.CDialog
+    name: CDialog
+- uid: Ressources
+  name: Ressources
+  items:
+  - uid: Ressources.Strings
+    name: Strings
+- uid: Stockage.Converters
+  name: Stockage.Converters
+  items:
+  - uid: Stockage.Converters.ConcreteCollectionTypeConverter`3
+    name: ConcreteCollectionTypeConverter<TCollection, TItem, TBaseItem>
+  - uid: Stockage.Converters.ConcreteConverter`2
+    name: ConcreteConverter<TInterface, TConcrete>
+  - uid: Stockage.Converters.ConcreteDictionnaryTypeConverter`4
+    name: ConcreteDictionnaryTypeConverter<TDictionary, TItem, TKey, TValue>
+- uid: Stockage.Load
+  name: Stockage.Load
+  items:
+  - uid: Stockage.Load.BaseCharge
+    name: BaseCharge
+  - uid: Stockage.Load.ChargerCollection
+    name: ChargerCollection
+  - uid: Stockage.Load.ICharge
+    name: ICharge
+- uid: Stockage.Logs
+  name: Stockage.Logs
+  items:
+  - uid: Stockage.Logs.BaseLogger`1
+    name: BaseLogger<T>
+  - uid: Stockage.Logs.CGenericLogger`1
+    name: CGenericLogger<T>
+  - uid: Stockage.Logs.CLogger`1
+    name: CLogger<T>
+  - uid: Stockage.Logs.CStringLogger
+    name: CStringLogger
+  - uid: Stockage.Logs.ILogger`1
+    name: ILogger<T>
+- uid: Stockage.Save
+  name: Stockage.Save
+  items:
+  - uid: Stockage.Save.BaseSave
+    name: BaseSave
+  - uid: Stockage.Save.ISauve
+    name: ISauve
+  - uid: Stockage.Save.SauveCollection
+    name: SauveCollection
+  - uid: Stockage.Save.SauveJobs
+    name: SauveJobs
+  - uid: Stockage.Save.SauveJobsAsync
+    name: SauveJobsAsync
+- uid: UnitTestJobs
+  name: UnitTestJobs
+  items:
+  - uid: UnitTestJobs.JobsTestUnit
+    name: JobsTestUnit
+- uid: UnitTestStorage
+  name: UnitTestStorage
+  items:
+  - uid: UnitTestStorage.StockageTestUnit
+    name: StockageTestUnit
+memberLayout: SamePage

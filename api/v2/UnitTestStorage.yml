@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: UnitTestStorage
+  commentId: N:UnitTestStorage
+  id: UnitTestStorage
+  children:
+  - UnitTestStorage.StockageTestUnit
+  langs:
+  - csharp
+  - vb
+  name: UnitTestStorage
+  nameWithType: UnitTestStorage
+  fullName: UnitTestStorage
+  type: Namespace
+  assemblies:
+  - UnitTestStorage
+references:
+- uid: UnitTestStorage.StockageTestUnit
+  commentId: T:UnitTestStorage.StockageTestUnit
+  href: UnitTestStorage.StockageTestUnit.html
+  name: StockageTestUnit
+  nameWithType: StockageTestUnit
+  fullName: UnitTestStorage.StockageTestUnit

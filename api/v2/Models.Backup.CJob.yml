@@ -1,0 +1,875 @@
+### YamlMime:ManagedReference
+items:
+- uid: Models.Backup.CJob
+  commentId: T:Models.Backup.CJob
+  id: CJob
+  parent: Models.Backup
+  children:
+  - Models.Backup.CJob.#ctor(System.String,System.String,System.String,Models.Backup.ETypeBackup)
+  - Models.Backup.CJob.BackupType
+  - Models.Backup.CJob.Equals(System.Object)
+  - Models.Backup.CJob.Name
+  - Models.Backup.CJob.Run(System.Collections.Generic.List{LogsModels.CLogState})
+  - Models.Backup.CJob.SauveJobs
+  - Models.Backup.CJob.SourceDirectory
+  - Models.Backup.CJob.TargetDirectory
+  langs:
+  - csharp
+  - vb
+  name: CJob
+  nameWithType: CJob
+  fullName: Models.Backup.CJob
+  type: Class
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Models/Backup/CJob.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: CJob
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Models/Backup/CJob.cs
+    startLine: 9
+  assemblies:
+  - Models
+  namespace: Models.Backup
+  summary: Représente un travail/tâche à exécuter
+  example: []
+  syntax:
+    content: >-
+      [DataContract]
+
+      public class CJob : IPath
+    content.vb: >-
+      <DataContract>
+
+      Public Class CJob Implements IPath
+  inheritance:
+  - System.Object
+  implements:
+  - LogsModels.IPath
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+- uid: Models.Backup.CJob.Name
+  commentId: P:Models.Backup.CJob.Name
+  id: Name
+  parent: Models.Backup.CJob
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: CJob.Name
+  fullName: Models.Backup.CJob.Name
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Models/Backup/CJob.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: Name
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Models/Backup/CJob.cs
+    startLine: 28
+  assemblies:
+  - Models
+  namespace: Models.Backup
+  summary: Nom du job de sauvegarde
+  example: []
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: Models.Backup.CJob.Name*
+- uid: Models.Backup.CJob.SourceDirectory
+  commentId: P:Models.Backup.CJob.SourceDirectory
+  id: SourceDirectory
+  parent: Models.Backup.CJob
+  langs:
+  - csharp
+  - vb
+  name: SourceDirectory
+  nameWithType: CJob.SourceDirectory
+  fullName: Models.Backup.CJob.SourceDirectory
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Models/Backup/CJob.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: SourceDirectory
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Models/Backup/CJob.cs
+    startLine: 33
+  assemblies:
+  - Models
+  namespace: Models.Backup
+  summary: Répertoire source à sauvegarder
+  example: []
+  syntax:
+    content: public string SourceDirectory { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SourceDirectory As String
+  overload: Models.Backup.CJob.SourceDirectory*
+  implements:
+  - LogsModels.IPath.SourceDirectory
+- uid: Models.Backup.CJob.TargetDirectory
+  commentId: P:Models.Backup.CJob.TargetDirectory
+  id: TargetDirectory
+  parent: Models.Backup.CJob
+  langs:
+  - csharp
+  - vb
+  name: TargetDirectory
+  nameWithType: CJob.TargetDirectory
+  fullName: Models.Backup.CJob.TargetDirectory
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Models/Backup/CJob.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: TargetDirectory
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Models/Backup/CJob.cs
+    startLine: 38
+  assemblies:
+  - Models
+  namespace: Models.Backup
+  summary: Répertoire cible de la sauvegarde
+  example: []
+  syntax:
+    content: public string TargetDirectory { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TargetDirectory As String
+  overload: Models.Backup.CJob.TargetDirectory*
+  implements:
+  - LogsModels.IPath.TargetDirectory
+- uid: Models.Backup.CJob.BackupType
+  commentId: P:Models.Backup.CJob.BackupType
+  id: BackupType
+  parent: Models.Backup.CJob
+  langs:
+  - csharp
+  - vb
+  name: BackupType
+  nameWithType: CJob.BackupType
+  fullName: Models.Backup.CJob.BackupType
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Models/Backup/CJob.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: BackupType
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Models/Backup/CJob.cs
+    startLine: 43
+  assemblies:
+  - Models
+  namespace: Models.Backup
+  summary: Type de sauvegarde
+  example: []
+  syntax:
+    content: public ETypeBackup BackupType { get; set; }
+    parameters: []
+    return:
+      type: Models.Backup.ETypeBackup
+    content.vb: Public Property BackupType As ETypeBackup
+  overload: Models.Backup.CJob.BackupType*
+- uid: Models.Backup.CJob.SauveJobs
+  commentId: P:Models.Backup.CJob.SauveJobs
+  id: SauveJobs
+  parent: Models.Backup.CJob
+  langs:
+  - csharp
+  - vb
+  name: SauveJobs
+  nameWithType: CJob.SauveJobs
+  fullName: Models.Backup.CJob.SauveJobs
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Models/Backup/CJob.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: SauveJobs
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Models/Backup/CJob.cs
+    startLine: 44
+  assemblies:
+  - Models
+  namespace: Models.Backup
+  syntax:
+    content: public SauveJobsAsync SauveJobs { get; set; }
+    parameters: []
+    return:
+      type: Stockage.Save.SauveJobsAsync
+    content.vb: Public Property SauveJobs As SauveJobsAsync
+  overload: Models.Backup.CJob.SauveJobs*
+- uid: Models.Backup.CJob.#ctor(System.String,System.String,System.String,Models.Backup.ETypeBackup)
+  commentId: M:Models.Backup.CJob.#ctor(System.String,System.String,System.String,Models.Backup.ETypeBackup)
+  id: '#ctor(System.String,System.String,System.String,Models.Backup.ETypeBackup)'
+  parent: Models.Backup.CJob
+  langs:
+  - csharp
+  - vb
+  name: CJob(string, string, string, ETypeBackup)
+  nameWithType: CJob.CJob(string, string, string, ETypeBackup)
+  fullName: Models.Backup.CJob.CJob(string, string, string, Models.Backup.ETypeBackup)
+  type: Constructor
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Models/Backup/CJob.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: .ctor
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Models/Backup/CJob.cs
+    startLine: 59
+  assemblies:
+  - Models
+  namespace: Models.Backup
+  summary: Constructeur de job
+  remarks: Mahmoud Charif - 30/01/2024 - Création
+  example: []
+  syntax:
+    content: public CJob(string pName, string pSourceDirectory, string pTargetDirectory, ETypeBackup pTypeBackup)
+    parameters:
+    - id: pName
+      type: System.String
+      description: Nom du job
+    - id: pSourceDirectory
+      type: System.String
+      description: Chemin source
+    - id: pTargetDirectory
+      type: System.String
+      description: Chemin destination
+    - id: pTypeBackup
+      type: Models.Backup.ETypeBackup
+      description: Type de sauvegarde
+    content.vb: Public Sub New(pName As String, pSourceDirectory As String, pTargetDirectory As String, pTypeBackup As ETypeBackup)
+  overload: Models.Backup.CJob.#ctor*
+  nameWithType.vb: CJob.New(String, String, String, ETypeBackup)
+  fullName.vb: Models.Backup.CJob.New(String, String, String, Models.Backup.ETypeBackup)
+  name.vb: New(String, String, String, ETypeBackup)
+- uid: Models.Backup.CJob.Run(System.Collections.Generic.List{LogsModels.CLogState})
+  commentId: M:Models.Backup.CJob.Run(System.Collections.Generic.List{LogsModels.CLogState})
+  id: Run(System.Collections.Generic.List{LogsModels.CLogState})
+  parent: Models.Backup.CJob
+  langs:
+  - csharp
+  - vb
+  name: Run(List<CLogState>)
+  nameWithType: CJob.Run(List<CLogState>)
+  fullName: Models.Backup.CJob.Run(System.Collections.Generic.List<LogsModels.CLogState>)
+  type: Method
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Models/Backup/CJob.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: Run
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Models/Backup/CJob.cs
+    startLine: 74
+  assemblies:
+  - Models
+  namespace: Models.Backup
+  summary: Lance l'exécution du job de sauvegarde
+  example: []
+  syntax:
+    content: public Task Run(List<CLogState> pLogState)
+    parameters:
+    - id: pLogState
+      type: System.Collections.Generic.List{LogsModels.CLogState}
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function Run(pLogState As List(Of CLogState)) As Task
+  overload: Models.Backup.CJob.Run*
+  nameWithType.vb: CJob.Run(List(Of CLogState))
+  fullName.vb: Models.Backup.CJob.Run(System.Collections.Generic.List(Of LogsModels.CLogState))
+  name.vb: Run(List(Of CLogState))
+- uid: Models.Backup.CJob.Equals(System.Object)
+  commentId: M:Models.Backup.CJob.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: Models.Backup.CJob
+  langs:
+  - csharp
+  - vb
+  name: Equals(object?)
+  nameWithType: CJob.Equals(object?)
+  fullName: Models.Backup.CJob.Equals(object?)
+  type: Method
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Models/Backup/CJob.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: Equals
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Models/Backup/CJob.cs
+    startLine: 113
+  assemblies:
+  - Models
+  namespace: Models.Backup
+  summary: Determines whether the specified object is equal to the current object.
+  example: []
+  syntax:
+    content: public override bool Equals(object? obj)
+    parameters:
+    - id: obj
+      type: System.Object
+      description: The object to compare with the current object.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the specified object  is equal to the current object; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: Models.Backup.CJob.Equals*
+  nameWithType.vb: CJob.Equals(Object)
+  fullName.vb: Models.Backup.CJob.Equals(Object)
+  name.vb: Equals(Object)
+references:
+- uid: Models.Backup
+  commentId: N:Models.Backup
+  href: Models.html
+  name: Models.Backup
+  nameWithType: Models.Backup
+  fullName: Models.Backup
+  spec.csharp:
+  - uid: Models
+    name: Models
+    href: Models.html
+  - name: .
+  - uid: Models.Backup
+    name: Backup
+    href: Models.Backup.html
+  spec.vb:
+  - uid: Models
+    name: Models
+    href: Models.html
+  - name: .
+  - uid: Models.Backup
+    name: Backup
+    href: Models.Backup.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: LogsModels.IPath
+  commentId: T:LogsModels.IPath
+  parent: LogsModels
+  href: LogsModels.IPath.html
+  name: IPath
+  nameWithType: IPath
+  fullName: LogsModels.IPath
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: LogsModels
+  commentId: N:LogsModels
+  href: LogsModels.html
+  name: LogsModels
+  nameWithType: LogsModels
+  fullName: LogsModels
+- uid: Models.Backup.CJob.Name*
+  commentId: Overload:Models.Backup.CJob.Name
+  href: Models.Backup.CJob.html#Models_Backup_CJob_Name
+  name: Name
+  nameWithType: CJob.Name
+  fullName: Models.Backup.CJob.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Models.Backup.CJob.SourceDirectory*
+  commentId: Overload:Models.Backup.CJob.SourceDirectory
+  href: Models.Backup.CJob.html#Models_Backup_CJob_SourceDirectory
+  name: SourceDirectory
+  nameWithType: CJob.SourceDirectory
+  fullName: Models.Backup.CJob.SourceDirectory
+- uid: LogsModels.IPath.SourceDirectory
+  commentId: P:LogsModels.IPath.SourceDirectory
+  parent: LogsModels.IPath
+  href: LogsModels.IPath.html#LogsModels_IPath_SourceDirectory
+  name: SourceDirectory
+  nameWithType: IPath.SourceDirectory
+  fullName: LogsModels.IPath.SourceDirectory
+- uid: Models.Backup.CJob.TargetDirectory*
+  commentId: Overload:Models.Backup.CJob.TargetDirectory
+  href: Models.Backup.CJob.html#Models_Backup_CJob_TargetDirectory
+  name: TargetDirectory
+  nameWithType: CJob.TargetDirectory
+  fullName: Models.Backup.CJob.TargetDirectory
+- uid: LogsModels.IPath.TargetDirectory
+  commentId: P:LogsModels.IPath.TargetDirectory
+  parent: LogsModels.IPath
+  href: LogsModels.IPath.html#LogsModels_IPath_TargetDirectory
+  name: TargetDirectory
+  nameWithType: IPath.TargetDirectory
+  fullName: LogsModels.IPath.TargetDirectory
+- uid: Models.Backup.CJob.BackupType*
+  commentId: Overload:Models.Backup.CJob.BackupType
+  href: Models.Backup.CJob.html#Models_Backup_CJob_BackupType
+  name: BackupType
+  nameWithType: CJob.BackupType
+  fullName: Models.Backup.CJob.BackupType
+- uid: Models.Backup.ETypeBackup
+  commentId: T:Models.Backup.ETypeBackup
+  parent: Models.Backup
+  href: Models.Backup.ETypeBackup.html
+  name: ETypeBackup
+  nameWithType: ETypeBackup
+  fullName: Models.Backup.ETypeBackup
+- uid: Models.Backup.CJob.SauveJobs*
+  commentId: Overload:Models.Backup.CJob.SauveJobs
+  href: Models.Backup.CJob.html#Models_Backup_CJob_SauveJobs
+  name: SauveJobs
+  nameWithType: CJob.SauveJobs
+  fullName: Models.Backup.CJob.SauveJobs
+- uid: Stockage.Save.SauveJobsAsync
+  commentId: T:Stockage.Save.SauveJobsAsync
+  parent: Stockage.Save
+  href: Stockage.Save.SauveJobsAsync.html
+  name: SauveJobsAsync
+  nameWithType: SauveJobsAsync
+  fullName: Stockage.Save.SauveJobsAsync
+- uid: Stockage.Save
+  commentId: N:Stockage.Save
+  href: Stockage.html
+  name: Stockage.Save
+  nameWithType: Stockage.Save
+  fullName: Stockage.Save
+  spec.csharp:
+  - uid: Stockage
+    name: Stockage
+    href: Stockage.html
+  - name: .
+  - uid: Stockage.Save
+    name: Save
+    href: Stockage.Save.html
+  spec.vb:
+  - uid: Stockage
+    name: Stockage
+    href: Stockage.html
+  - name: .
+  - uid: Stockage.Save
+    name: Save
+    href: Stockage.Save.html
+- uid: Models.Backup.CJob.#ctor*
+  commentId: Overload:Models.Backup.CJob.#ctor
+  href: Models.Backup.CJob.html#Models_Backup_CJob__ctor_System_String_System_String_System_String_Models_Backup_ETypeBackup_
+  name: CJob
+  nameWithType: CJob.CJob
+  fullName: Models.Backup.CJob.CJob
+  nameWithType.vb: CJob.New
+  fullName.vb: Models.Backup.CJob.New
+  name.vb: New
+- uid: Models.Backup.CJob.Run*
+  commentId: Overload:Models.Backup.CJob.Run
+  href: Models.Backup.CJob.html#Models_Backup_CJob_Run_System_Collections_Generic_List_LogsModels_CLogState__
+  name: Run
+  nameWithType: CJob.Run
+  fullName: Models.Backup.CJob.Run
+- uid: System.Collections.Generic.List{LogsModels.CLogState}
+  commentId: T:System.Collections.Generic.List{LogsModels.CLogState}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<CLogState>
+  nameWithType: List<CLogState>
+  fullName: System.Collections.Generic.List<LogsModels.CLogState>
+  nameWithType.vb: List(Of CLogState)
+  fullName.vb: System.Collections.Generic.List(Of LogsModels.CLogState)
+  name.vb: List(Of CLogState)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: LogsModels.CLogState
+    name: CLogState
+    href: LogsModels.CLogState.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LogsModels.CLogState
+    name: CLogState
+    href: LogsModels.CLogState.html
+  - name: )
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Models.Backup.CJob.Equals*
+  commentId: Overload:Models.Backup.CJob.Equals
+  href: Models.Backup.CJob.html#Models_Backup_CJob_Equals_System_Object_
+  name: Equals
+  nameWithType: CJob.Equals
+  fullName: Models.Backup.CJob.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean

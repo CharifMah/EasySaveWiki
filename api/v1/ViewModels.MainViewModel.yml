@@ -1,0 +1,415 @@
+### YamlMime:ManagedReference
+items:
+- uid: ViewModels.MainViewModel
+  commentId: T:ViewModels.MainViewModel
+  id: MainViewModel
+  parent: ViewModels
+  children:
+  - ViewModels.MainViewModel.#ctor
+  - ViewModels.MainViewModel.JobVm
+  - ViewModels.MainViewModel.LangueVm
+  langs:
+  - csharp
+  - vb
+  name: MainViewModel
+  nameWithType: MainViewModel
+  fullName: ViewModels.MainViewModel
+  type: Class
+  source:
+    remote:
+      path: EasySave-2.0/EasySave-1.0/ViewModels/MainViewModel.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: MainViewModel
+    path: ../G4-FISA-24/EasySave-2.0/EasySave-1.0/ViewModels/MainViewModel.cs
+    startLine: 5
+  assemblies:
+  - ViewModels
+  namespace: ViewModels
+  summary: Modèle de vue principal regroupant les différents modèles de vue
+  example: []
+  syntax:
+    content: public class MainViewModel
+    content.vb: Public Class MainViewModel
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: ViewModels.MainViewModel.LangueVm
+  commentId: P:ViewModels.MainViewModel.LangueVm
+  id: LangueVm
+  parent: ViewModels.MainViewModel
+  langs:
+  - csharp
+  - vb
+  name: LangueVm
+  nameWithType: MainViewModel.LangueVm
+  fullName: ViewModels.MainViewModel.LangueVm
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySave-1.0/ViewModels/MainViewModel.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: LangueVm
+    path: ../G4-FISA-24/EasySave-2.0/EasySave-1.0/ViewModels/MainViewModel.cs
+    startLine: 12
+  assemblies:
+  - ViewModels
+  namespace: ViewModels
+  summary: View Model de la langue
+  example: []
+  syntax:
+    content: public LangueViewModel LangueVm { get; set; }
+    parameters: []
+    return:
+      type: ViewModels.LangueViewModel
+    content.vb: Public Property LangueVm As LangueViewModel
+  overload: ViewModels.MainViewModel.LangueVm*
+- uid: ViewModels.MainViewModel.JobVm
+  commentId: P:ViewModels.MainViewModel.JobVm
+  id: JobVm
+  parent: ViewModels.MainViewModel
+  langs:
+  - csharp
+  - vb
+  name: JobVm
+  nameWithType: MainViewModel.JobVm
+  fullName: ViewModels.MainViewModel.JobVm
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySave-1.0/ViewModels/MainViewModel.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: JobVm
+    path: ../G4-FISA-24/EasySave-2.0/EasySave-1.0/ViewModels/MainViewModel.cs
+    startLine: 16
+  assemblies:
+  - ViewModels
+  namespace: ViewModels
+  summary: View model des jobs
+  example: []
+  syntax:
+    content: public JobViewModel JobVm { get; set; }
+    parameters: []
+    return:
+      type: ViewModels.JobViewModel
+    content.vb: Public Property JobVm As JobViewModel
+  overload: ViewModels.MainViewModel.JobVm*
+- uid: ViewModels.MainViewModel.#ctor
+  commentId: M:ViewModels.MainViewModel.#ctor
+  id: '#ctor'
+  parent: ViewModels.MainViewModel
+  langs:
+  - csharp
+  - vb
+  name: MainViewModel()
+  nameWithType: MainViewModel.MainViewModel()
+  fullName: ViewModels.MainViewModel.MainViewModel()
+  type: Constructor
+  source:
+    remote:
+      path: EasySave-2.0/EasySave-1.0/ViewModels/MainViewModel.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: .ctor
+    path: ../G4-FISA-24/EasySave-2.0/EasySave-1.0/ViewModels/MainViewModel.cs
+    startLine: 20
+  assemblies:
+  - ViewModels
+  namespace: ViewModels
+  summary: Le constructeur MainViewModel initialise les modèles de vue et charge les paramètres de l'utilisateur
+  example: []
+  syntax:
+    content: public MainViewModel()
+    content.vb: Public Sub New()
+  overload: ViewModels.MainViewModel.#ctor*
+  nameWithType.vb: MainViewModel.New()
+  fullName.vb: ViewModels.MainViewModel.New()
+  name.vb: New()
+references:
+- uid: ViewModels
+  commentId: N:ViewModels
+  href: ViewModels.html
+  name: ViewModels
+  nameWithType: ViewModels
+  fullName: ViewModels
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ViewModels.MainViewModel.LangueVm*
+  commentId: Overload:ViewModels.MainViewModel.LangueVm
+  href: ViewModels.MainViewModel.html#ViewModels_MainViewModel_LangueVm
+  name: LangueVm
+  nameWithType: MainViewModel.LangueVm
+  fullName: ViewModels.MainViewModel.LangueVm
+- uid: ViewModels.LangueViewModel
+  commentId: T:ViewModels.LangueViewModel
+  parent: ViewModels
+  href: ViewModels.LangueViewModel.html
+  name: LangueViewModel
+  nameWithType: LangueViewModel
+  fullName: ViewModels.LangueViewModel
+- uid: ViewModels.MainViewModel.JobVm*
+  commentId: Overload:ViewModels.MainViewModel.JobVm
+  href: ViewModels.MainViewModel.html#ViewModels_MainViewModel_JobVm
+  name: JobVm
+  nameWithType: MainViewModel.JobVm
+  fullName: ViewModels.MainViewModel.JobVm
+- uid: ViewModels.JobViewModel
+  commentId: T:ViewModels.JobViewModel
+  parent: ViewModels
+  href: ViewModels.JobViewModel.html
+  name: JobViewModel
+  nameWithType: JobViewModel
+  fullName: ViewModels.JobViewModel
+- uid: ViewModels.MainViewModel.#ctor*
+  commentId: Overload:ViewModels.MainViewModel.#ctor
+  href: ViewModels.MainViewModel.html#ViewModels_MainViewModel__ctor
+  name: MainViewModel
+  nameWithType: MainViewModel.MainViewModel
+  fullName: ViewModels.MainViewModel.MainViewModel
+  nameWithType.vb: MainViewModel.New
+  fullName.vb: ViewModels.MainViewModel.New
+  name.vb: New

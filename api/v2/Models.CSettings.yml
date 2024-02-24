@@ -1,0 +1,845 @@
+### YamlMime:ManagedReference
+items:
+- uid: Models.CSettings
+  commentId: T:Models.CSettings
+  id: CSettings
+  parent: Models
+  children:
+  - Models.CSettings.FormatLog
+  - Models.CSettings.Instance
+  - Models.CSettings.JobConfigFolderPath
+  - Models.CSettings.JobDefaultConfigPath
+  - Models.CSettings.Langue
+  - Models.CSettings.LayoutDefaultFolderPath
+  - Models.CSettings.LoadJobsFile(System.String)
+  - Models.CSettings.LoadSettings
+  - Models.CSettings.LogDefaultFolderPath
+  - Models.CSettings.ResetJobConfigPath
+  - Models.CSettings.SaveSettings
+  - Models.CSettings.SetJobConfigPath(System.String)
+  - Models.CSettings.Theme
+  langs:
+  - csharp
+  - vb
+  name: CSettings
+  nameWithType: CSettings
+  fullName: Models.CSettings
+  type: Class
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Models/CSettings.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: CSettings
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Models/CSettings.cs
+    startLine: 10
+  assemblies:
+  - Models
+  namespace: Models
+  summary: Classe des settings de l'application permettant le chargement et la sauvegarde des paramètres de l'utilisateur
+  example: []
+  syntax:
+    content: >-
+      [DataContract]
+
+      public class CSettings
+    content.vb: >-
+      <DataContract>
+
+      Public Class CSettings
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+- uid: Models.CSettings.Langue
+  commentId: P:Models.CSettings.Langue
+  id: Langue
+  parent: Models.CSettings
+  langs:
+  - csharp
+  - vb
+  name: Langue
+  nameWithType: CSettings.Langue
+  fullName: Models.CSettings.Langue
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Models/CSettings.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: Langue
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Models/CSettings.cs
+    startLine: 35
+  assemblies:
+  - Models
+  namespace: Models
+  summary: Langue préférer de l'utilisateur
+  example: []
+  syntax:
+    content: public CLangue Langue { get; set; }
+    parameters: []
+    return:
+      type: Models.CLangue
+    content.vb: Public Property Langue As CLangue
+  overload: Models.CSettings.Langue*
+- uid: Models.CSettings.FormatLog
+  commentId: P:Models.CSettings.FormatLog
+  id: FormatLog
+  parent: Models.CSettings
+  langs:
+  - csharp
+  - vb
+  name: FormatLog
+  nameWithType: CSettings.FormatLog
+  fullName: Models.CSettings.FormatLog
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Models/CSettings.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: FormatLog
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Models/CSettings.cs
+    startLine: 40
+  assemblies:
+  - Models
+  namespace: Models
+  summary: Format de logs
+  example: []
+  syntax:
+    content: public CFormatLog FormatLog { get; set; }
+    parameters: []
+    return:
+      type: Models.CFormatLog
+    content.vb: Public Property FormatLog As CFormatLog
+  overload: Models.CSettings.FormatLog*
+- uid: Models.CSettings.JobConfigFolderPath
+  commentId: P:Models.CSettings.JobConfigFolderPath
+  id: JobConfigFolderPath
+  parent: Models.CSettings
+  langs:
+  - csharp
+  - vb
+  name: JobConfigFolderPath
+  nameWithType: CSettings.JobConfigFolderPath
+  fullName: Models.CSettings.JobConfigFolderPath
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Models/CSettings.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: JobConfigFolderPath
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Models/CSettings.cs
+    startLine: 45
+  assemblies:
+  - Models
+  namespace: Models
+  summary: Emplacement du répertoire dans lequel le fichier de configuration du travail est stocké
+  example: []
+  syntax:
+    content: public string JobConfigFolderPath { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property JobConfigFolderPath As String
+  overload: Models.CSettings.JobConfigFolderPath*
+- uid: Models.CSettings.JobDefaultConfigPath
+  commentId: P:Models.CSettings.JobDefaultConfigPath
+  id: JobDefaultConfigPath
+  parent: Models.CSettings
+  langs:
+  - csharp
+  - vb
+  name: JobDefaultConfigPath
+  nameWithType: CSettings.JobDefaultConfigPath
+  fullName: Models.CSettings.JobDefaultConfigPath
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Models/CSettings.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: JobDefaultConfigPath
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Models/CSettings.cs
+    startLine: 56
+  assemblies:
+  - Models
+  namespace: Models
+  summary: Emplacement par défaut du répertoire dans lequel le fichier de configuration du travail est stocké
+  example: []
+  syntax:
+    content: public string JobDefaultConfigPath { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property JobDefaultConfigPath As String
+  overload: Models.CSettings.JobDefaultConfigPath*
+- uid: Models.CSettings.LogDefaultFolderPath
+  commentId: P:Models.CSettings.LogDefaultFolderPath
+  id: LogDefaultFolderPath
+  parent: Models.CSettings
+  langs:
+  - csharp
+  - vb
+  name: LogDefaultFolderPath
+  nameWithType: CSettings.LogDefaultFolderPath
+  fullName: Models.CSettings.LogDefaultFolderPath
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Models/CSettings.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: LogDefaultFolderPath
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Models/CSettings.cs
+    startLine: 57
+  assemblies:
+  - Models
+  namespace: Models
+  syntax:
+    content: public string LogDefaultFolderPath { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property LogDefaultFolderPath As String
+  overload: Models.CSettings.LogDefaultFolderPath*
+- uid: Models.CSettings.LayoutDefaultFolderPath
+  commentId: P:Models.CSettings.LayoutDefaultFolderPath
+  id: LayoutDefaultFolderPath
+  parent: Models.CSettings
+  langs:
+  - csharp
+  - vb
+  name: LayoutDefaultFolderPath
+  nameWithType: CSettings.LayoutDefaultFolderPath
+  fullName: Models.CSettings.LayoutDefaultFolderPath
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Models/CSettings.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: LayoutDefaultFolderPath
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Models/CSettings.cs
+    startLine: 58
+  assemblies:
+  - Models
+  namespace: Models
+  syntax:
+    content: public string LayoutDefaultFolderPath { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property LayoutDefaultFolderPath As String
+  overload: Models.CSettings.LayoutDefaultFolderPath*
+- uid: Models.CSettings.Theme
+  commentId: P:Models.CSettings.Theme
+  id: Theme
+  parent: Models.CSettings
+  langs:
+  - csharp
+  - vb
+  name: Theme
+  nameWithType: CSettings.Theme
+  fullName: Models.CSettings.Theme
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Models/CSettings.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: Theme
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Models/CSettings.cs
+    startLine: 59
+  assemblies:
+  - Models
+  namespace: Models
+  syntax:
+    content: public CTheme Theme { get; set; }
+    parameters: []
+    return:
+      type: Models.CTheme
+    content.vb: Public Property Theme As CTheme
+  overload: Models.CSettings.Theme*
+- uid: Models.CSettings.Instance
+  commentId: P:Models.CSettings.Instance
+  id: Instance
+  parent: Models.CSettings
+  langs:
+  - csharp
+  - vb
+  name: Instance
+  nameWithType: CSettings.Instance
+  fullName: Models.CSettings.Instance
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Models/CSettings.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: Instance
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Models/CSettings.cs
+    startLine: 61
+  assemblies:
+  - Models
+  namespace: Models
+  syntax:
+    content: public static CSettings Instance { get; }
+    parameters: []
+    return:
+      type: Models.CSettings
+    content.vb: Public Shared ReadOnly Property Instance As CSettings
+  overload: Models.CSettings.Instance*
+- uid: Models.CSettings.SaveSettings
+  commentId: M:Models.CSettings.SaveSettings
+  id: SaveSettings
+  parent: Models.CSettings
+  langs:
+  - csharp
+  - vb
+  name: SaveSettings()
+  nameWithType: CSettings.SaveSettings()
+  fullName: Models.CSettings.SaveSettings()
+  type: Method
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Models/CSettings.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: SaveSettings
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Models/CSettings.cs
+    startLine: 93
+  assemblies:
+  - Models
+  namespace: Models
+  summary: Enregistrer les paramètres dans un fichier json
+  example: []
+  syntax:
+    content: public void SaveSettings()
+    content.vb: Public Sub SaveSettings()
+  overload: Models.CSettings.SaveSettings*
+- uid: Models.CSettings.LoadSettings
+  commentId: M:Models.CSettings.LoadSettings
+  id: LoadSettings
+  parent: Models.CSettings
+  langs:
+  - csharp
+  - vb
+  name: LoadSettings()
+  nameWithType: CSettings.LoadSettings()
+  fullName: Models.CSettings.LoadSettings()
+  type: Method
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Models/CSettings.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: LoadSettings
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Models/CSettings.cs
+    startLine: 102
+  assemblies:
+  - Models
+  namespace: Models
+  summary: Chargement des paramètres à partir d'un fichier json
+  example: []
+  syntax:
+    content: public void LoadSettings()
+    content.vb: Public Sub LoadSettings()
+  overload: Models.CSettings.LoadSettings*
+- uid: Models.CSettings.LoadJobsFile(System.String)
+  commentId: M:Models.CSettings.LoadJobsFile(System.String)
+  id: LoadJobsFile(System.String)
+  parent: Models.CSettings
+  langs:
+  - csharp
+  - vb
+  name: LoadJobsFile(string)
+  nameWithType: CSettings.LoadJobsFile(string)
+  fullName: Models.CSettings.LoadJobsFile(string)
+  type: Method
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Models/CSettings.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: LoadJobsFile
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Models/CSettings.cs
+    startLine: 128
+  assemblies:
+  - Models
+  namespace: Models
+  summary: Charge la liste des jobs depuis un fichier
+  example: []
+  syntax:
+    content: public CJobManager LoadJobsFile(string pPath = null)
+    parameters:
+    - id: pPath
+      type: System.String
+      description: Chemin du fichier de configuration. Null pour le fichier par défaut.
+    return:
+      type: Models.Backup.CJobManager
+      description: Instance du gestionnaire de jobs chargé
+    content.vb: Public Function LoadJobsFile(pPath As String = Nothing) As CJobManager
+  overload: Models.CSettings.LoadJobsFile*
+  nameWithType.vb: CSettings.LoadJobsFile(String)
+  fullName.vb: Models.CSettings.LoadJobsFile(String)
+  name.vb: LoadJobsFile(String)
+- uid: Models.CSettings.ResetJobConfigPath
+  commentId: M:Models.CSettings.ResetJobConfigPath
+  id: ResetJobConfigPath
+  parent: Models.CSettings
+  langs:
+  - csharp
+  - vb
+  name: ResetJobConfigPath()
+  nameWithType: CSettings.ResetJobConfigPath()
+  fullName: Models.CSettings.ResetJobConfigPath()
+  type: Method
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Models/CSettings.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: ResetJobConfigPath
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Models/CSettings.cs
+    startLine: 153
+  assemblies:
+  - Models
+  namespace: Models
+  syntax:
+    content: public void ResetJobConfigPath()
+    content.vb: Public Sub ResetJobConfigPath()
+  overload: Models.CSettings.ResetJobConfigPath*
+- uid: Models.CSettings.SetJobConfigPath(System.String)
+  commentId: M:Models.CSettings.SetJobConfigPath(System.String)
+  id: SetJobConfigPath(System.String)
+  parent: Models.CSettings
+  langs:
+  - csharp
+  - vb
+  name: SetJobConfigPath(string)
+  nameWithType: CSettings.SetJobConfigPath(string)
+  fullName: Models.CSettings.SetJobConfigPath(string)
+  type: Method
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Models/CSettings.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: SetJobConfigPath
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Models/CSettings.cs
+    startLine: 158
+  assemblies:
+  - Models
+  namespace: Models
+  syntax:
+    content: public void SetJobConfigPath(string pFullPath)
+    parameters:
+    - id: pFullPath
+      type: System.String
+    content.vb: Public Sub SetJobConfigPath(pFullPath As String)
+  overload: Models.CSettings.SetJobConfigPath*
+  nameWithType.vb: CSettings.SetJobConfigPath(String)
+  fullName.vb: Models.CSettings.SetJobConfigPath(String)
+  name.vb: SetJobConfigPath(String)
+references:
+- uid: Models
+  commentId: N:Models
+  href: Models.html
+  name: Models
+  nameWithType: Models
+  fullName: Models
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Models.CSettings.Langue*
+  commentId: Overload:Models.CSettings.Langue
+  href: Models.CSettings.html#Models_CSettings_Langue
+  name: Langue
+  nameWithType: CSettings.Langue
+  fullName: Models.CSettings.Langue
+- uid: Models.CLangue
+  commentId: T:Models.CLangue
+  parent: Models
+  href: Models.CLangue.html
+  name: CLangue
+  nameWithType: CLangue
+  fullName: Models.CLangue
+- uid: Models.CSettings.FormatLog*
+  commentId: Overload:Models.CSettings.FormatLog
+  href: Models.CSettings.html#Models_CSettings_FormatLog
+  name: FormatLog
+  nameWithType: CSettings.FormatLog
+  fullName: Models.CSettings.FormatLog
+- uid: Models.CFormatLog
+  commentId: T:Models.CFormatLog
+  parent: Models
+  href: Models.CFormatLog.html
+  name: CFormatLog
+  nameWithType: CFormatLog
+  fullName: Models.CFormatLog
+- uid: Models.CSettings.JobConfigFolderPath*
+  commentId: Overload:Models.CSettings.JobConfigFolderPath
+  href: Models.CSettings.html#Models_CSettings_JobConfigFolderPath
+  name: JobConfigFolderPath
+  nameWithType: CSettings.JobConfigFolderPath
+  fullName: Models.CSettings.JobConfigFolderPath
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Models.CSettings.JobDefaultConfigPath*
+  commentId: Overload:Models.CSettings.JobDefaultConfigPath
+  href: Models.CSettings.html#Models_CSettings_JobDefaultConfigPath
+  name: JobDefaultConfigPath
+  nameWithType: CSettings.JobDefaultConfigPath
+  fullName: Models.CSettings.JobDefaultConfigPath
+- uid: Models.CSettings.LogDefaultFolderPath*
+  commentId: Overload:Models.CSettings.LogDefaultFolderPath
+  href: Models.CSettings.html#Models_CSettings_LogDefaultFolderPath
+  name: LogDefaultFolderPath
+  nameWithType: CSettings.LogDefaultFolderPath
+  fullName: Models.CSettings.LogDefaultFolderPath
+- uid: Models.CSettings.LayoutDefaultFolderPath*
+  commentId: Overload:Models.CSettings.LayoutDefaultFolderPath
+  href: Models.CSettings.html#Models_CSettings_LayoutDefaultFolderPath
+  name: LayoutDefaultFolderPath
+  nameWithType: CSettings.LayoutDefaultFolderPath
+  fullName: Models.CSettings.LayoutDefaultFolderPath
+- uid: Models.CSettings.Theme*
+  commentId: Overload:Models.CSettings.Theme
+  href: Models.CSettings.html#Models_CSettings_Theme
+  name: Theme
+  nameWithType: CSettings.Theme
+  fullName: Models.CSettings.Theme
+- uid: Models.CTheme
+  commentId: T:Models.CTheme
+  parent: Models
+  href: Models.CTheme.html
+  name: CTheme
+  nameWithType: CTheme
+  fullName: Models.CTheme
+- uid: Models.CSettings.Instance*
+  commentId: Overload:Models.CSettings.Instance
+  href: Models.CSettings.html#Models_CSettings_Instance
+  name: Instance
+  nameWithType: CSettings.Instance
+  fullName: Models.CSettings.Instance
+- uid: Models.CSettings
+  commentId: T:Models.CSettings
+  parent: Models
+  href: Models.CSettings.html
+  name: CSettings
+  nameWithType: CSettings
+  fullName: Models.CSettings
+- uid: Models.CSettings.SaveSettings*
+  commentId: Overload:Models.CSettings.SaveSettings
+  href: Models.CSettings.html#Models_CSettings_SaveSettings
+  name: SaveSettings
+  nameWithType: CSettings.SaveSettings
+  fullName: Models.CSettings.SaveSettings
+- uid: Models.CSettings.LoadSettings*
+  commentId: Overload:Models.CSettings.LoadSettings
+  href: Models.CSettings.html#Models_CSettings_LoadSettings
+  name: LoadSettings
+  nameWithType: CSettings.LoadSettings
+  fullName: Models.CSettings.LoadSettings
+- uid: Models.CSettings.LoadJobsFile*
+  commentId: Overload:Models.CSettings.LoadJobsFile
+  href: Models.CSettings.html#Models_CSettings_LoadJobsFile_System_String_
+  name: LoadJobsFile
+  nameWithType: CSettings.LoadJobsFile
+  fullName: Models.CSettings.LoadJobsFile
+- uid: Models.Backup.CJobManager
+  commentId: T:Models.Backup.CJobManager
+  parent: Models.Backup
+  href: Models.Backup.CJobManager.html
+  name: CJobManager
+  nameWithType: CJobManager
+  fullName: Models.Backup.CJobManager
+- uid: Models.Backup
+  commentId: N:Models.Backup
+  href: Models.html
+  name: Models.Backup
+  nameWithType: Models.Backup
+  fullName: Models.Backup
+  spec.csharp:
+  - uid: Models
+    name: Models
+    href: Models.html
+  - name: .
+  - uid: Models.Backup
+    name: Backup
+    href: Models.Backup.html
+  spec.vb:
+  - uid: Models
+    name: Models
+    href: Models.html
+  - name: .
+  - uid: Models.Backup
+    name: Backup
+    href: Models.Backup.html
+- uid: Models.CSettings.ResetJobConfigPath*
+  commentId: Overload:Models.CSettings.ResetJobConfigPath
+  href: Models.CSettings.html#Models_CSettings_ResetJobConfigPath
+  name: ResetJobConfigPath
+  nameWithType: CSettings.ResetJobConfigPath
+  fullName: Models.CSettings.ResetJobConfigPath
+- uid: Models.CSettings.SetJobConfigPath*
+  commentId: Overload:Models.CSettings.SetJobConfigPath
+  href: Models.CSettings.html#Models_CSettings_SetJobConfigPath_System_String_
+  name: SetJobConfigPath
+  nameWithType: CSettings.SetJobConfigPath
+  fullName: Models.CSettings.SetJobConfigPath

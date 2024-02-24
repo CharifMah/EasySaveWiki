@@ -1,0 +1,58 @@
+### YamlMime:ManagedReference
+items:
+- uid: EasySaveGUI.Converters
+  commentId: N:EasySaveGUI.Converters
+  id: EasySaveGUI.Converters
+  children:
+  - EasySaveGUI.Converters.BytesValueConverter
+  - EasySaveGUI.Converters.ETypeBackupConverter
+  - EasySaveGUI.Converters.FormatLogConvert
+  - EasySaveGUI.Converters.LangueConvert
+  - EasySaveGUI.Converters.PourcentConverter
+  - EasySaveGUI.Converters.SecondConverter
+  langs:
+  - csharp
+  - vb
+  name: EasySaveGUI.Converters
+  nameWithType: EasySaveGUI.Converters
+  fullName: EasySaveGUI.Converters
+  type: Namespace
+  assemblies:
+  - EasySaveGUI
+references:
+- uid: EasySaveGUI.Converters.BytesValueConverter
+  commentId: T:EasySaveGUI.Converters.BytesValueConverter
+  href: EasySaveGUI.Converters.BytesValueConverter.html
+  name: BytesValueConverter
+  nameWithType: BytesValueConverter
+  fullName: EasySaveGUI.Converters.BytesValueConverter
+- uid: EasySaveGUI.Converters.ETypeBackupConverter
+  commentId: T:EasySaveGUI.Converters.ETypeBackupConverter
+  href: EasySaveGUI.Converters.ETypeBackupConverter.html
+  name: ETypeBackupConverter
+  nameWithType: ETypeBackupConverter
+  fullName: EasySaveGUI.Converters.ETypeBackupConverter
+- uid: EasySaveGUI.Converters.FormatLogConvert
+  commentId: T:EasySaveGUI.Converters.FormatLogConvert
+  href: EasySaveGUI.Converters.FormatLogConvert.html
+  name: FormatLogConvert
+  nameWithType: FormatLogConvert
+  fullName: EasySaveGUI.Converters.FormatLogConvert
+- uid: EasySaveGUI.Converters.LangueConvert
+  commentId: T:EasySaveGUI.Converters.LangueConvert
+  href: EasySaveGUI.Converters.LangueConvert.html
+  name: LangueConvert
+  nameWithType: LangueConvert
+  fullName: EasySaveGUI.Converters.LangueConvert
+- uid: EasySaveGUI.Converters.PourcentConverter
+  commentId: T:EasySaveGUI.Converters.PourcentConverter
+  href: EasySaveGUI.Converters.PourcentConverter.html
+  name: PourcentConverter
+  nameWithType: PourcentConverter
+  fullName: EasySaveGUI.Converters.PourcentConverter
+- uid: EasySaveGUI.Converters.SecondConverter
+  commentId: T:EasySaveGUI.Converters.SecondConverter
+  href: EasySaveGUI.Converters.SecondConverter.html
+  name: SecondConverter
+  nameWithType: SecondConverter
+  fullName: EasySaveGUI.Converters.SecondConverter

@@ -1,5 +1,7 @@
-- name: API
-  href: api/
+- name: API1.0
+  href: api/v1/
+- name: API2.0
+  href: api/v2/
 - name: Releases
   href: releases/
 - name: Technical Documentation

@@ -288,623 +288,1296 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/EasySave.ViewModels.BaseViewModel.yml",
+      "source_relative_path": "api/v1/EasySave.Views.BaseView.yml",
       "output": {
         ".html": {
-          "relative_path": "api/EasySave.ViewModels.BaseViewModel.html"
+          "relative_path": "api/v1/EasySave.Views.BaseView.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/EasySave.ViewModels.JobViewModel.yml",
+      "source_relative_path": "api/v1/EasySave.Views.ConsoleExtention.yml",
       "output": {
         ".html": {
-          "relative_path": "api/EasySave.ViewModels.JobViewModel.html"
+          "relative_path": "api/v1/EasySave.Views.ConsoleExtention.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/EasySave.ViewModels.LangueViewModel.yml",
+      "source_relative_path": "api/v1/EasySave.Views.JobView.yml",
       "output": {
         ".html": {
-          "relative_path": "api/EasySave.ViewModels.LangueViewModel.html"
+          "relative_path": "api/v1/EasySave.Views.JobView.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/EasySave.ViewModels.MainViewModel.yml",
+      "source_relative_path": "api/v1/EasySave.Views.LangueView.yml",
       "output": {
         ".html": {
-          "relative_path": "api/EasySave.ViewModels.MainViewModel.html"
+          "relative_path": "api/v1/EasySave.Views.LangueView.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/EasySave.ViewModels.yml",
+      "source_relative_path": "api/v1/EasySave.Views.View.yml",
       "output": {
         ".html": {
-          "relative_path": "api/EasySave.ViewModels.html"
+          "relative_path": "api/v1/EasySave.Views.View.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/EasySave.Views.BaseView.yml",
+      "source_relative_path": "api/v1/EasySave.Views.yml",
       "output": {
         ".html": {
-          "relative_path": "api/EasySave.Views.BaseView.html"
+          "relative_path": "api/v1/EasySave.Views.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/EasySave.Views.ConsoleExtention.yml",
+      "source_relative_path": "api/v1/LogsModels.CLogBase.yml",
       "output": {
         ".html": {
-          "relative_path": "api/EasySave.Views.ConsoleExtention.html"
+          "relative_path": "api/v1/LogsModels.CLogBase.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/EasySave.Views.JobView.yml",
+      "source_relative_path": "api/v1/LogsModels.CLogDaily.yml",
       "output": {
         ".html": {
-          "relative_path": "api/EasySave.Views.JobView.html"
+          "relative_path": "api/v1/LogsModels.CLogDaily.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/EasySave.Views.LangueView.yml",
+      "source_relative_path": "api/v1/LogsModels.CLogState.yml",
       "output": {
         ".html": {
-          "relative_path": "api/EasySave.Views.LangueView.html"
+          "relative_path": "api/v1/LogsModels.CLogState.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/EasySave.Views.View.yml",
+      "source_relative_path": "api/v1/LogsModels.IPath.yml",
       "output": {
         ".html": {
-          "relative_path": "api/EasySave.Views.View.html"
+          "relative_path": "api/v1/LogsModels.IPath.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/EasySave.Views.yml",
+      "source_relative_path": "api/v1/LogsModels.yml",
       "output": {
         ".html": {
-          "relative_path": "api/EasySave.Views.html"
+          "relative_path": "api/v1/LogsModels.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/LogsModels.CLogBase.yml",
+      "source_relative_path": "api/v1/Models.Backup.CJob.yml",
       "output": {
         ".html": {
-          "relative_path": "api/LogsModels.CLogBase.html"
+          "relative_path": "api/v1/Models.Backup.CJob.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/LogsModels.CLogDaily.yml",
+      "source_relative_path": "api/v1/Models.Backup.CJobManager.yml",
       "output": {
         ".html": {
-          "relative_path": "api/LogsModels.CLogDaily.html"
+          "relative_path": "api/v1/Models.Backup.CJobManager.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/LogsModels.CLogState.yml",
+      "source_relative_path": "api/v1/Models.Backup.ETypeBackup.yml",
       "output": {
         ".html": {
-          "relative_path": "api/LogsModels.CLogState.html"
+          "relative_path": "api/v1/Models.Backup.ETypeBackup.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/LogsModels.IPath.yml",
+      "source_relative_path": "api/v1/Models.Backup.yml",
       "output": {
         ".html": {
-          "relative_path": "api/LogsModels.IPath.html"
+          "relative_path": "api/v1/Models.Backup.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/LogsModels.yml",
+      "source_relative_path": "api/v1/Models.CLangue.yml",
       "output": {
         ".html": {
-          "relative_path": "api/LogsModels.html"
+          "relative_path": "api/v1/Models.CLangue.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Models.Backup.CJob.yml",
+      "source_relative_path": "api/v1/Models.CSettings.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Models.Backup.CJob.html"
+          "relative_path": "api/v1/Models.CSettings.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Models.Backup.CJobManager.yml",
+      "source_relative_path": "api/v1/Models.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Models.Backup.CJobManager.html"
+          "relative_path": "api/v1/Models.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Models.Backup.ETypeBackup.yml",
+      "source_relative_path": "api/v1/OpenDialog.CDialog.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Models.Backup.ETypeBackup.html"
+          "relative_path": "api/v1/OpenDialog.CDialog.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Models.Backup.yml",
+      "source_relative_path": "api/v1/OpenDialog.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Models.Backup.html"
+          "relative_path": "api/v1/OpenDialog.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Models.CLangue.yml",
+      "source_relative_path": "api/v1/Ressources.Strings.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Models.CLangue.html"
+          "relative_path": "api/v1/Ressources.Strings.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Models.CSettings.yml",
+      "source_relative_path": "api/v1/Ressources.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Models.CSettings.html"
+          "relative_path": "api/v1/Ressources.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Models.Settings.yml",
+      "source_relative_path": "api/v1/Stockage.Converters.ConcreteCollectionTypeConverter-3.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Models.Settings.html"
+          "relative_path": "api/v1/Stockage.Converters.ConcreteCollectionTypeConverter-3.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Models.yml",
+      "source_relative_path": "api/v1/Stockage.Converters.ConcreteConverter-2.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Models.html"
+          "relative_path": "api/v1/Stockage.Converters.ConcreteConverter-2.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Ressources.Strings.yml",
+      "source_relative_path": "api/v1/Stockage.Converters.ConcreteDictionnaryTypeConverter-4.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Ressources.Strings.html"
+          "relative_path": "api/v1/Stockage.Converters.ConcreteDictionnaryTypeConverter-4.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Ressources.yml",
+      "source_relative_path": "api/v1/Stockage.Converters.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Ressources.html"
+          "relative_path": "api/v1/Stockage.Converters.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Stockage.BaseSave.yml",
+      "source_relative_path": "api/v1/Stockage.Load.BaseCharge.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Stockage.BaseSave.html"
+          "relative_path": "api/v1/Stockage.Load.BaseCharge.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Stockage.ChargerCollection.yml",
+      "source_relative_path": "api/v1/Stockage.Load.ChargerCollection.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Stockage.ChargerCollection.html"
+          "relative_path": "api/v1/Stockage.Load.ChargerCollection.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Stockage.Converters.ConcreteCollectionTypeConverter-3.yml",
+      "source_relative_path": "api/v1/Stockage.Load.ICharge.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Stockage.Converters.ConcreteCollectionTypeConverter-3.html"
+          "relative_path": "api/v1/Stockage.Load.ICharge.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Stockage.Converters.ConcreteConverter-2.yml",
+      "source_relative_path": "api/v1/Stockage.Load.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Stockage.Converters.ConcreteConverter-2.html"
+          "relative_path": "api/v1/Stockage.Load.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Stockage.Converters.ConcreteDictionnaryTypeConverter-4.yml",
+      "source_relative_path": "api/v1/Stockage.Logs.BaseLogger-1.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Stockage.Converters.ConcreteDictionnaryTypeConverter-4.html"
+          "relative_path": "api/v1/Stockage.Logs.BaseLogger-1.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Stockage.Converters.yml",
+      "source_relative_path": "api/v1/Stockage.Logs.CGenericLogger-1.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Stockage.Converters.html"
+          "relative_path": "api/v1/Stockage.Logs.CGenericLogger-1.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Stockage.ICharge.yml",
+      "source_relative_path": "api/v1/Stockage.Logs.CLogger-1.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Stockage.ICharge.html"
+          "relative_path": "api/v1/Stockage.Logs.CLogger-1.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Stockage.ISauve.yml",
+      "source_relative_path": "api/v1/Stockage.Logs.CStringLogger.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Stockage.ISauve.html"
+          "relative_path": "api/v1/Stockage.Logs.CStringLogger.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Stockage.Load.BaseCharge.yml",
+      "source_relative_path": "api/v1/Stockage.Logs.ILogger-1.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Stockage.Load.BaseCharge.html"
+          "relative_path": "api/v1/Stockage.Logs.ILogger-1.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Stockage.Load.ChargerCollection.yml",
+      "source_relative_path": "api/v1/Stockage.Logs.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Stockage.Load.ChargerCollection.html"
+          "relative_path": "api/v1/Stockage.Logs.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Stockage.Load.ICharge.yml",
+      "source_relative_path": "api/v1/Stockage.Save.BaseSave.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Stockage.Load.ICharge.html"
+          "relative_path": "api/v1/Stockage.Save.BaseSave.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Stockage.Load.yml",
+      "source_relative_path": "api/v1/Stockage.Save.ISauve.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Stockage.Load.html"
+          "relative_path": "api/v1/Stockage.Save.ISauve.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Stockage.Logs.BaseLogger-1.yml",
+      "source_relative_path": "api/v1/Stockage.Save.SauveCollection.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Stockage.Logs.BaseLogger-1.html"
+          "relative_path": "api/v1/Stockage.Save.SauveCollection.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Stockage.Logs.CGenericLogger-1.yml",
+      "source_relative_path": "api/v1/Stockage.Save.SauveJobs.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Stockage.Logs.CGenericLogger-1.html"
+          "relative_path": "api/v1/Stockage.Save.SauveJobs.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Stockage.Logs.CLogger-1.yml",
+      "source_relative_path": "api/v1/Stockage.Save.SauveJobsAsync.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Stockage.Logs.CLogger-1.html"
+          "relative_path": "api/v1/Stockage.Save.SauveJobsAsync.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Stockage.Logs.CStringLogger.yml",
+      "source_relative_path": "api/v1/Stockage.Save.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Stockage.Logs.CStringLogger.html"
+          "relative_path": "api/v1/Stockage.Save.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Stockage.Logs.ILogger-1.yml",
+      "source_relative_path": "api/v1/UnitTestJobs.JobsTestUnit.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Stockage.Logs.ILogger-1.html"
+          "relative_path": "api/v1/UnitTestJobs.JobsTestUnit.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Stockage.Logs.yml",
+      "source_relative_path": "api/v1/UnitTestJobs.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Stockage.Logs.html"
+          "relative_path": "api/v1/UnitTestJobs.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Stockage.SauveCollection.yml",
+      "source_relative_path": "api/v1/UnitTestStorage.StockageTestUnit.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Stockage.SauveCollection.html"
+          "relative_path": "api/v1/UnitTestStorage.StockageTestUnit.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Stockage.SauveJobs.yml",
+      "source_relative_path": "api/v1/UnitTestStorage.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Stockage.SauveJobs.html"
+          "relative_path": "api/v1/UnitTestStorage.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Stockage.Save.BaseSave.yml",
+      "source_relative_path": "api/v1/ViewModels.BaseViewModel.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Stockage.Save.BaseSave.html"
+          "relative_path": "api/v1/ViewModels.BaseViewModel.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Stockage.Save.ISauve.yml",
+      "source_relative_path": "api/v1/ViewModels.JobViewModel.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Stockage.Save.ISauve.html"
+          "relative_path": "api/v1/ViewModels.JobViewModel.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Stockage.Save.SauveCollection.yml",
+      "source_relative_path": "api/v1/ViewModels.LangueViewModel.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Stockage.Save.SauveCollection.html"
+          "relative_path": "api/v1/ViewModels.LangueViewModel.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Stockage.Save.SauveJobs.yml",
+      "source_relative_path": "api/v1/ViewModels.MainViewModel.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Stockage.Save.SauveJobs.html"
+          "relative_path": "api/v1/ViewModels.MainViewModel.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Stockage.Save.yml",
+      "source_relative_path": "api/v1/ViewModels.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Stockage.Save.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Stockage.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Stockage.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/UnitTestJobs.JobsTestUnit.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/UnitTestJobs.JobsTestUnit.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/UnitTestJobs.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/UnitTestJobs.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/UnitTestStorage.StockageTestUnit.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/UnitTestStorage.StockageTestUnit.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/UnitTestStorage.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/UnitTestStorage.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ViewModels.BaseViewModel.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ViewModels.BaseViewModel.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ViewModels.JobViewModel.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ViewModels.JobViewModel.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ViewModels.LangueViewModel.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ViewModels.LangueViewModel.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ViewModels.MainViewModel.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ViewModels.MainViewModel.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ViewModels.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ViewModels.html"
+          "relative_path": "api/v1/ViewModels.html"
         }
       },
       "version": ""
     },
     {
       "type": "Toc",
-      "source_relative_path": "api/toc.yml",
+      "source_relative_path": "api/v1/toc.yml",
       "output": {
         ".html": {
-          "relative_path": "api/toc.html"
+          "relative_path": "api/v1/toc.html"
         },
         ".json": {
-          "relative_path": "api/toc.json"
+          "relative_path": "api/v1/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/EasySaveGUI.App.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/EasySaveGUI.App.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/EasySaveGUI.Converters.BytesValueConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/EasySaveGUI.Converters.BytesValueConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/EasySaveGUI.Converters.ETypeBackupConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/EasySaveGUI.Converters.ETypeBackupConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/EasySaveGUI.Converters.FormatLogConvert.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/EasySaveGUI.Converters.FormatLogConvert.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/EasySaveGUI.Converters.LangueConvert.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/EasySaveGUI.Converters.LangueConvert.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/EasySaveGUI.Converters.PourcentConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/EasySaveGUI.Converters.PourcentConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/EasySaveGUI.Converters.SecondConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/EasySaveGUI.Converters.SecondConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/EasySaveGUI.Converters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/EasySaveGUI.Converters.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/EasySaveGUI.MainWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/EasySaveGUI.MainWindow.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/EasySaveGUI.UserControls.ConfigInfoControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/EasySaveGUI.UserControls.ConfigInfoControl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/EasySaveGUI.UserControls.ConfigMenuControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/EasySaveGUI.UserControls.ConfigMenuControl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/EasySaveGUI.UserControls.CreateJobControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/EasySaveGUI.UserControls.CreateJobControl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/EasySaveGUI.UserControls.JobListControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/EasySaveGUI.UserControls.JobListControl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/EasySaveGUI.UserControls.JobMenuControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/EasySaveGUI.UserControls.JobMenuControl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/EasySaveGUI.UserControls.JobPropertyControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/EasySaveGUI.UserControls.JobPropertyControl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/EasySaveGUI.UserControls.MenuControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/EasySaveGUI.UserControls.MenuControl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/EasySaveGUI.UserControls.OptionsMenuControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/EasySaveGUI.UserControls.OptionsMenuControl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/EasySaveGUI.UserControls.ValidationPopupControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/EasySaveGUI.UserControls.ValidationPopupControl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/EasySaveGUI.UserControls.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/EasySaveGUI.UserControls.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/EasySaveGUI.ValidationRules.FolderPathValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/EasySaveGUI.ValidationRules.FolderPathValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/EasySaveGUI.ValidationRules.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/EasySaveGUI.ValidationRules.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/EasySaveGUI.ViewModels.BaseViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/EasySaveGUI.ViewModels.BaseViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/EasySaveGUI.ViewModels.FormatLogViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/EasySaveGUI.ViewModels.FormatLogViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/EasySaveGUI.ViewModels.JobViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/EasySaveGUI.ViewModels.JobViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/EasySaveGUI.ViewModels.LangueViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/EasySaveGUI.ViewModels.LangueViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/EasySaveGUI.ViewModels.LayoutViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/EasySaveGUI.ViewModels.LayoutViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/EasySaveGUI.ViewModels.MainViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/EasySaveGUI.ViewModels.MainViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/EasySaveGUI.ViewModels.PopupViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/EasySaveGUI.ViewModels.PopupViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/EasySaveGUI.ViewModels.SettingsViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/EasySaveGUI.ViewModels.SettingsViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/EasySaveGUI.ViewModels.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/EasySaveGUI.ViewModels.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/EasySaveGUI.Views.MenuPage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/EasySaveGUI.Views.MenuPage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/EasySaveGUI.Views.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/EasySaveGUI.Views.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/EasySaveGUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/EasySaveGUI.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/LogsModels.CLogBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/LogsModels.CLogBase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/LogsModels.CLogDaily.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/LogsModels.CLogDaily.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/LogsModels.CLogState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/LogsModels.CLogState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/LogsModels.IPath.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/LogsModels.IPath.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/LogsModels.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/LogsModels.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/Models.Backup.CJob.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/Models.Backup.CJob.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/Models.Backup.CJobManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/Models.Backup.CJobManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/Models.Backup.ETypeBackup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/Models.Backup.ETypeBackup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/Models.Backup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/Models.Backup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/Models.CFormatLog.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/Models.CFormatLog.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/Models.CLangue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/Models.CLangue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/Models.CSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/Models.CSettings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/Models.CTheme.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/Models.CTheme.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/Models.ETheme.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/Models.ETheme.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/Models.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/OpenDialog.CDialog.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/OpenDialog.CDialog.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/OpenDialog.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/OpenDialog.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/Ressources.Strings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/Ressources.Strings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/Ressources.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/Ressources.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/Stockage.Converters.ConcreteCollectionTypeConverter-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/Stockage.Converters.ConcreteCollectionTypeConverter-3.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/Stockage.Converters.ConcreteConverter-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/Stockage.Converters.ConcreteConverter-2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/Stockage.Converters.ConcreteDictionnaryTypeConverter-4.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/Stockage.Converters.ConcreteDictionnaryTypeConverter-4.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/Stockage.Converters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/Stockage.Converters.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/Stockage.Load.BaseCharge.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/Stockage.Load.BaseCharge.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/Stockage.Load.ChargerCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/Stockage.Load.ChargerCollection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/Stockage.Load.ICharge.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/Stockage.Load.ICharge.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/Stockage.Load.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/Stockage.Load.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/Stockage.Logs.BaseLogger-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/Stockage.Logs.BaseLogger-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/Stockage.Logs.CGenericLogger-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/Stockage.Logs.CGenericLogger-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/Stockage.Logs.CLogger-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/Stockage.Logs.CLogger-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/Stockage.Logs.CStringLogger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/Stockage.Logs.CStringLogger.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/Stockage.Logs.ILogger-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/Stockage.Logs.ILogger-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/Stockage.Logs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/Stockage.Logs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/Stockage.Save.BaseSave.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/Stockage.Save.BaseSave.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/Stockage.Save.ISauve.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/Stockage.Save.ISauve.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/Stockage.Save.SauveCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/Stockage.Save.SauveCollection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/Stockage.Save.SauveJobs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/Stockage.Save.SauveJobs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/Stockage.Save.SauveJobsAsync.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/Stockage.Save.SauveJobsAsync.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/Stockage.Save.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/Stockage.Save.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/UnitTestJobs.JobsTestUnit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/UnitTestJobs.JobsTestUnit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/UnitTestJobs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/UnitTestJobs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/UnitTestStorage.StockageTestUnit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/UnitTestStorage.StockageTestUnit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/UnitTestStorage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/UnitTestStorage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/v2/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/v2/toc.json"
         }
       },
       "version": ""

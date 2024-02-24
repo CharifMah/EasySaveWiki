@@ -1,0 +1,1083 @@
+### YamlMime:ManagedReference
+items:
+- uid: EasySaveGUI.ViewModels.JobViewModel
+  commentId: T:EasySaveGUI.ViewModels.JobViewModel
+  id: JobViewModel
+  parent: EasySaveGUI.ViewModels
+  children:
+  - EasySaveGUI.ViewModels.JobViewModel.#ctor
+  - EasySaveGUI.ViewModels.JobViewModel.CreateBackupJob(Models.Backup.CJob)
+  - EasySaveGUI.ViewModels.JobViewModel.DeleteJobs(System.Collections.Generic.List{Models.Backup.CJob})
+  - EasySaveGUI.ViewModels.JobViewModel.JobManager
+  - EasySaveGUI.ViewModels.JobViewModel.Jobs
+  - EasySaveGUI.ViewModels.JobViewModel.JobsRunning
+  - EasySaveGUI.ViewModels.JobViewModel.LoadJobs(System.Boolean,System.String)
+  - EasySaveGUI.ViewModels.JobViewModel.RunJobs(System.Collections.Generic.List{Models.Backup.CJob})
+  - EasySaveGUI.ViewModels.JobViewModel.SaveJobs
+  - EasySaveGUI.ViewModels.JobViewModel.SelectedJob
+  langs:
+  - csharp
+  - vb
+  name: JobViewModel
+  nameWithType: JobViewModel
+  fullName: EasySaveGUI.ViewModels.JobViewModel
+  type: Class
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/JobViewModel.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: JobViewModel
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/JobViewModel.cs
+    startLine: 11
+  assemblies:
+  - EasySaveGUI
+  namespace: EasySaveGUI.ViewModels
+  summary: Classe JobViewModel
+  example: []
+  syntax:
+    content: 'public class JobViewModel : BaseViewModel, INotifyPropertyChanged'
+    content.vb: Public Class JobViewModel Inherits BaseViewModel Implements INotifyPropertyChanged
+  inheritance:
+  - System.Object
+  - EasySaveGUI.ViewModels.BaseViewModel
+  implements:
+  - System.ComponentModel.INotifyPropertyChanged
+  inheritedMembers:
+  - EasySaveGUI.ViewModels.BaseViewModel.PropertyChanged
+  - EasySaveGUI.ViewModels.BaseViewModel.NotifyPropertyChanged(System.String)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: EasySaveGUI.ViewModels.JobViewModel.JobManager
+  commentId: P:EasySaveGUI.ViewModels.JobViewModel.JobManager
+  id: JobManager
+  parent: EasySaveGUI.ViewModels.JobViewModel
+  langs:
+  - csharp
+  - vb
+  name: JobManager
+  nameWithType: JobViewModel.JobManager
+  fullName: EasySaveGUI.ViewModels.JobViewModel.JobManager
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/JobViewModel.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: JobManager
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/JobViewModel.cs
+    startLine: 22
+  assemblies:
+  - EasySaveGUI
+  namespace: EasySaveGUI.ViewModels
+  summary: JobManager
+  example: []
+  syntax:
+    content: public CJobManager JobManager { get; set; }
+    parameters: []
+    return:
+      type: Models.Backup.CJobManager
+    content.vb: Public Property JobManager As CJobManager
+  overload: EasySaveGUI.ViewModels.JobViewModel.JobManager*
+- uid: EasySaveGUI.ViewModels.JobViewModel.SelectedJob
+  commentId: P:EasySaveGUI.ViewModels.JobViewModel.SelectedJob
+  id: SelectedJob
+  parent: EasySaveGUI.ViewModels.JobViewModel
+  langs:
+  - csharp
+  - vb
+  name: SelectedJob
+  nameWithType: JobViewModel.SelectedJob
+  fullName: EasySaveGUI.ViewModels.JobViewModel.SelectedJob
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/JobViewModel.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: SelectedJob
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/JobViewModel.cs
+    startLine: 32
+  assemblies:
+  - EasySaveGUI
+  namespace: EasySaveGUI.ViewModels
+  syntax:
+    content: public CJob SelectedJob { get; set; }
+    parameters: []
+    return:
+      type: Models.Backup.CJob
+    content.vb: Public Property SelectedJob As CJob
+  overload: EasySaveGUI.ViewModels.JobViewModel.SelectedJob*
+- uid: EasySaveGUI.ViewModels.JobViewModel.Jobs
+  commentId: P:EasySaveGUI.ViewModels.JobViewModel.Jobs
+  id: Jobs
+  parent: EasySaveGUI.ViewModels.JobViewModel
+  langs:
+  - csharp
+  - vb
+  name: Jobs
+  nameWithType: JobViewModel.Jobs
+  fullName: EasySaveGUI.ViewModels.JobViewModel.Jobs
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/JobViewModel.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: Jobs
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/JobViewModel.cs
+    startLine: 42
+  assemblies:
+  - EasySaveGUI
+  namespace: EasySaveGUI.ViewModels
+  syntax:
+    content: public ObservableCollection<CJob> Jobs { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.ObjectModel.ObservableCollection{Models.Backup.CJob}
+    content.vb: Public Property Jobs As ObservableCollection(Of CJob)
+  overload: EasySaveGUI.ViewModels.JobViewModel.Jobs*
+- uid: EasySaveGUI.ViewModels.JobViewModel.JobsRunning
+  commentId: P:EasySaveGUI.ViewModels.JobViewModel.JobsRunning
+  id: JobsRunning
+  parent: EasySaveGUI.ViewModels.JobViewModel
+  langs:
+  - csharp
+  - vb
+  name: JobsRunning
+  nameWithType: JobViewModel.JobsRunning
+  fullName: EasySaveGUI.ViewModels.JobViewModel.JobsRunning
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/JobViewModel.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: JobsRunning
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/JobViewModel.cs
+    startLine: 54
+  assemblies:
+  - EasySaveGUI
+  namespace: EasySaveGUI.ViewModels
+  syntax:
+    content: public ObservableCollection<CJob> JobsRunning { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.ObjectModel.ObservableCollection{Models.Backup.CJob}
+    content.vb: Public Property JobsRunning As ObservableCollection(Of CJob)
+  overload: EasySaveGUI.ViewModels.JobViewModel.JobsRunning*
+- uid: EasySaveGUI.ViewModels.JobViewModel.#ctor
+  commentId: M:EasySaveGUI.ViewModels.JobViewModel.#ctor
+  id: '#ctor'
+  parent: EasySaveGUI.ViewModels.JobViewModel
+  langs:
+  - csharp
+  - vb
+  name: JobViewModel()
+  nameWithType: JobViewModel.JobViewModel()
+  fullName: EasySaveGUI.ViewModels.JobViewModel.JobViewModel()
+  type: Constructor
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/JobViewModel.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: .ctor
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/JobViewModel.cs
+    startLine: 62
+  assemblies:
+  - EasySaveGUI
+  namespace: EasySaveGUI.ViewModels
+  summary: Constructeur de JobViewModel initialise le JobManager
+  example: []
+  syntax:
+    content: public JobViewModel()
+    content.vb: Public Sub New()
+  overload: EasySaveGUI.ViewModels.JobViewModel.#ctor*
+  nameWithType.vb: JobViewModel.New()
+  fullName.vb: EasySaveGUI.ViewModels.JobViewModel.New()
+  name.vb: New()
+- uid: EasySaveGUI.ViewModels.JobViewModel.RunJobs(System.Collections.Generic.List{Models.Backup.CJob})
+  commentId: M:EasySaveGUI.ViewModels.JobViewModel.RunJobs(System.Collections.Generic.List{Models.Backup.CJob})
+  id: RunJobs(System.Collections.Generic.List{Models.Backup.CJob})
+  parent: EasySaveGUI.ViewModels.JobViewModel
+  langs:
+  - csharp
+  - vb
+  name: RunJobs(List<CJob>)
+  nameWithType: JobViewModel.RunJobs(List<CJob>)
+  fullName: EasySaveGUI.ViewModels.JobViewModel.RunJobs(System.Collections.Generic.List<Models.Backup.CJob>)
+  type: Method
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/JobViewModel.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: RunJobs
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/JobViewModel.cs
+    startLine: 81
+  assemblies:
+  - EasySaveGUI
+  namespace: EasySaveGUI.ViewModels
+  summary: Lance l'exécution des jobs sélectionnés
+  example: []
+  syntax:
+    content: public Task RunJobs(List<CJob> pJobs)
+    parameters:
+    - id: pJobs
+      type: System.Collections.Generic.List{Models.Backup.CJob}
+      description: Liste des jobs à lancer
+    return:
+      type: System.Threading.Tasks.Task
+      description: Liste mise à jour des jobs avec leur état après exécution
+    content.vb: Public Function RunJobs(pJobs As List(Of CJob)) As Task
+  overload: EasySaveGUI.ViewModels.JobViewModel.RunJobs*
+  nameWithType.vb: JobViewModel.RunJobs(List(Of CJob))
+  fullName.vb: EasySaveGUI.ViewModels.JobViewModel.RunJobs(System.Collections.Generic.List(Of Models.Backup.CJob))
+  name.vb: RunJobs(List(Of CJob))
+- uid: EasySaveGUI.ViewModels.JobViewModel.CreateBackupJob(Models.Backup.CJob)
+  commentId: M:EasySaveGUI.ViewModels.JobViewModel.CreateBackupJob(Models.Backup.CJob)
+  id: CreateBackupJob(Models.Backup.CJob)
+  parent: EasySaveGUI.ViewModels.JobViewModel
+  langs:
+  - csharp
+  - vb
+  name: CreateBackupJob(CJob)
+  nameWithType: JobViewModel.CreateBackupJob(CJob)
+  fullName: EasySaveGUI.ViewModels.JobViewModel.CreateBackupJob(Models.Backup.CJob)
+  type: Method
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/JobViewModel.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: CreateBackupJob
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/JobViewModel.cs
+    startLine: 93
+  assemblies:
+  - EasySaveGUI
+  namespace: EasySaveGUI.ViewModels
+  summary: Crée un nouveau job de sauvegarde
+  example: []
+  syntax:
+    content: public bool CreateBackupJob(CJob lJob)
+    parameters:
+    - id: lJob
+      type: Models.Backup.CJob
+      description: Job à créer
+    return:
+      type: System.Boolean
+      description: Succès de la création
+    content.vb: Public Function CreateBackupJob(lJob As CJob) As Boolean
+  overload: EasySaveGUI.ViewModels.JobViewModel.CreateBackupJob*
+- uid: EasySaveGUI.ViewModels.JobViewModel.DeleteJobs(System.Collections.Generic.List{Models.Backup.CJob})
+  commentId: M:EasySaveGUI.ViewModels.JobViewModel.DeleteJobs(System.Collections.Generic.List{Models.Backup.CJob})
+  id: DeleteJobs(System.Collections.Generic.List{Models.Backup.CJob})
+  parent: EasySaveGUI.ViewModels.JobViewModel
+  langs:
+  - csharp
+  - vb
+  name: DeleteJobs(List<CJob>)
+  nameWithType: JobViewModel.DeleteJobs(List<CJob>)
+  fullName: EasySaveGUI.ViewModels.JobViewModel.DeleteJobs(System.Collections.Generic.List<Models.Backup.CJob>)
+  type: Method
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/JobViewModel.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: DeleteJobs
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/JobViewModel.cs
+    startLine: 106
+  assemblies:
+  - EasySaveGUI
+  namespace: EasySaveGUI.ViewModels
+  summary: Supprimer un ou plusieurs jobs
+  example: []
+  syntax:
+    content: public bool DeleteJobs(List<CJob> pJobs)
+    parameters:
+    - id: pJobs
+      type: System.Collections.Generic.List{Models.Backup.CJob}
+      description: List de jobs a delete
+    return:
+      type: System.Boolean
+      description: vrai si les jobs on été delete
+    content.vb: Public Function DeleteJobs(pJobs As List(Of CJob)) As Boolean
+  overload: EasySaveGUI.ViewModels.JobViewModel.DeleteJobs*
+  nameWithType.vb: JobViewModel.DeleteJobs(List(Of CJob))
+  fullName.vb: EasySaveGUI.ViewModels.JobViewModel.DeleteJobs(System.Collections.Generic.List(Of Models.Backup.CJob))
+  name.vb: DeleteJobs(List(Of CJob))
+- uid: EasySaveGUI.ViewModels.JobViewModel.SaveJobs
+  commentId: M:EasySaveGUI.ViewModels.JobViewModel.SaveJobs
+  id: SaveJobs
+  parent: EasySaveGUI.ViewModels.JobViewModel
+  langs:
+  - csharp
+  - vb
+  name: SaveJobs()
+  nameWithType: JobViewModel.SaveJobs()
+  fullName: EasySaveGUI.ViewModels.JobViewModel.SaveJobs()
+  type: Method
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/JobViewModel.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: SaveJobs
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/JobViewModel.cs
+    startLine: 114
+  assemblies:
+  - EasySaveGUI
+  namespace: EasySaveGUI.ViewModels
+  summary: Sauvegarde la configuration des jobs
+  example: []
+  syntax:
+    content: public void SaveJobs()
+    content.vb: Public Sub SaveJobs()
+  overload: EasySaveGUI.ViewModels.JobViewModel.SaveJobs*
+- uid: EasySaveGUI.ViewModels.JobViewModel.LoadJobs(System.Boolean,System.String)
+  commentId: M:EasySaveGUI.ViewModels.JobViewModel.LoadJobs(System.Boolean,System.String)
+  id: LoadJobs(System.Boolean,System.String)
+  parent: EasySaveGUI.ViewModels.JobViewModel
+  langs:
+  - csharp
+  - vb
+  name: LoadJobs(bool, string)
+  nameWithType: JobViewModel.LoadJobs(bool, string)
+  fullName: EasySaveGUI.ViewModels.JobViewModel.LoadJobs(bool, string)
+  type: Method
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/JobViewModel.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: LoadJobs
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/JobViewModel.cs
+    startLine: 127
+  assemblies:
+  - EasySaveGUI
+  namespace: EasySaveGUI.ViewModels
+  summary: Charge la liste des jobs depuis un fichier
+  example: []
+  syntax:
+    content: public void LoadJobs(bool IsDefaultFile = true, string pPath = null)
+    parameters:
+    - id: IsDefaultFile
+      type: System.Boolean
+      description: Indique si le fichier par défaut doit être chargé
+    - id: pPath
+      type: System.String
+      description: Chemin du fichier à charger, vide pour le fichier par défaut
+    content.vb: Public Sub LoadJobs(IsDefaultFile As Boolean = True, pPath As String = Nothing)
+  overload: EasySaveGUI.ViewModels.JobViewModel.LoadJobs*
+  nameWithType.vb: JobViewModel.LoadJobs(Boolean, String)
+  fullName.vb: EasySaveGUI.ViewModels.JobViewModel.LoadJobs(Boolean, String)
+  name.vb: LoadJobs(Boolean, String)
+references:
+- uid: EasySaveGUI.ViewModels
+  commentId: N:EasySaveGUI.ViewModels
+  href: EasySaveGUI.html
+  name: EasySaveGUI.ViewModels
+  nameWithType: EasySaveGUI.ViewModels
+  fullName: EasySaveGUI.ViewModels
+  spec.csharp:
+  - uid: EasySaveGUI
+    name: EasySaveGUI
+    href: EasySaveGUI.html
+  - name: .
+  - uid: EasySaveGUI.ViewModels
+    name: ViewModels
+    href: EasySaveGUI.ViewModels.html
+  spec.vb:
+  - uid: EasySaveGUI
+    name: EasySaveGUI
+    href: EasySaveGUI.html
+  - name: .
+  - uid: EasySaveGUI.ViewModels
+    name: ViewModels
+    href: EasySaveGUI.ViewModels.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: EasySaveGUI.ViewModels.BaseViewModel
+  commentId: T:EasySaveGUI.ViewModels.BaseViewModel
+  parent: EasySaveGUI.ViewModels
+  href: EasySaveGUI.ViewModels.BaseViewModel.html
+  name: BaseViewModel
+  nameWithType: BaseViewModel
+  fullName: EasySaveGUI.ViewModels.BaseViewModel
+- uid: System.ComponentModel.INotifyPropertyChanged
+  commentId: T:System.ComponentModel.INotifyPropertyChanged
+  parent: System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged
+  name: INotifyPropertyChanged
+  nameWithType: INotifyPropertyChanged
+  fullName: System.ComponentModel.INotifyPropertyChanged
+- uid: EasySaveGUI.ViewModels.BaseViewModel.PropertyChanged
+  commentId: E:EasySaveGUI.ViewModels.BaseViewModel.PropertyChanged
+  parent: EasySaveGUI.ViewModels.BaseViewModel
+  href: EasySaveGUI.ViewModels.BaseViewModel.html#EasySaveGUI_ViewModels_BaseViewModel_PropertyChanged
+  name: PropertyChanged
+  nameWithType: BaseViewModel.PropertyChanged
+  fullName: EasySaveGUI.ViewModels.BaseViewModel.PropertyChanged
+- uid: EasySaveGUI.ViewModels.BaseViewModel.NotifyPropertyChanged(System.String)
+  commentId: M:EasySaveGUI.ViewModels.BaseViewModel.NotifyPropertyChanged(System.String)
+  parent: EasySaveGUI.ViewModels.BaseViewModel
+  isExternal: true
+  href: EasySaveGUI.ViewModels.BaseViewModel.html#EasySaveGUI_ViewModels_BaseViewModel_NotifyPropertyChanged_System_String_
+  name: NotifyPropertyChanged(string)
+  nameWithType: BaseViewModel.NotifyPropertyChanged(string)
+  fullName: EasySaveGUI.ViewModels.BaseViewModel.NotifyPropertyChanged(string)
+  nameWithType.vb: BaseViewModel.NotifyPropertyChanged(String)
+  fullName.vb: EasySaveGUI.ViewModels.BaseViewModel.NotifyPropertyChanged(String)
+  name.vb: NotifyPropertyChanged(String)
+  spec.csharp:
+  - uid: EasySaveGUI.ViewModels.BaseViewModel.NotifyPropertyChanged(System.String)
+    name: NotifyPropertyChanged
+    href: EasySaveGUI.ViewModels.BaseViewModel.html#EasySaveGUI_ViewModels_BaseViewModel_NotifyPropertyChanged_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: EasySaveGUI.ViewModels.BaseViewModel.NotifyPropertyChanged(System.String)
+    name: NotifyPropertyChanged
+    href: EasySaveGUI.ViewModels.BaseViewModel.html#EasySaveGUI_ViewModels_BaseViewModel_NotifyPropertyChanged_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.ComponentModel
+  commentId: N:System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.ComponentModel
+  nameWithType: System.ComponentModel
+  fullName: System.ComponentModel
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+- uid: EasySaveGUI.ViewModels.JobViewModel.JobManager*
+  commentId: Overload:EasySaveGUI.ViewModels.JobViewModel.JobManager
+  href: EasySaveGUI.ViewModels.JobViewModel.html#EasySaveGUI_ViewModels_JobViewModel_JobManager
+  name: JobManager
+  nameWithType: JobViewModel.JobManager
+  fullName: EasySaveGUI.ViewModels.JobViewModel.JobManager
+- uid: Models.Backup.CJobManager
+  commentId: T:Models.Backup.CJobManager
+  parent: Models.Backup
+  href: Models.Backup.CJobManager.html
+  name: CJobManager
+  nameWithType: CJobManager
+  fullName: Models.Backup.CJobManager
+- uid: Models.Backup
+  commentId: N:Models.Backup
+  href: Models.html
+  name: Models.Backup
+  nameWithType: Models.Backup
+  fullName: Models.Backup
+  spec.csharp:
+  - uid: Models
+    name: Models
+    href: Models.html
+  - name: .
+  - uid: Models.Backup
+    name: Backup
+    href: Models.Backup.html
+  spec.vb:
+  - uid: Models
+    name: Models
+    href: Models.html
+  - name: .
+  - uid: Models.Backup
+    name: Backup
+    href: Models.Backup.html
+- uid: EasySaveGUI.ViewModels.JobViewModel.SelectedJob*
+  commentId: Overload:EasySaveGUI.ViewModels.JobViewModel.SelectedJob
+  href: EasySaveGUI.ViewModels.JobViewModel.html#EasySaveGUI_ViewModels_JobViewModel_SelectedJob
+  name: SelectedJob
+  nameWithType: JobViewModel.SelectedJob
+  fullName: EasySaveGUI.ViewModels.JobViewModel.SelectedJob
+- uid: Models.Backup.CJob
+  commentId: T:Models.Backup.CJob
+  parent: Models.Backup
+  href: Models.Backup.CJob.html
+  name: CJob
+  nameWithType: CJob
+  fullName: Models.Backup.CJob
+- uid: EasySaveGUI.ViewModels.JobViewModel.Jobs*
+  commentId: Overload:EasySaveGUI.ViewModels.JobViewModel.Jobs
+  href: EasySaveGUI.ViewModels.JobViewModel.html#EasySaveGUI_ViewModels_JobViewModel_Jobs
+  name: Jobs
+  nameWithType: JobViewModel.Jobs
+  fullName: EasySaveGUI.ViewModels.JobViewModel.Jobs
+- uid: System.Collections.ObjectModel.ObservableCollection{Models.Backup.CJob}
+  commentId: T:System.Collections.ObjectModel.ObservableCollection{Models.Backup.CJob}
+  parent: System.Collections.ObjectModel
+  definition: System.Collections.ObjectModel.ObservableCollection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  name: ObservableCollection<CJob>
+  nameWithType: ObservableCollection<CJob>
+  fullName: System.Collections.ObjectModel.ObservableCollection<Models.Backup.CJob>
+  nameWithType.vb: ObservableCollection(Of CJob)
+  fullName.vb: System.Collections.ObjectModel.ObservableCollection(Of Models.Backup.CJob)
+  name.vb: ObservableCollection(Of CJob)
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  - name: <
+  - uid: Models.Backup.CJob
+    name: CJob
+    href: Models.Backup.CJob.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Models.Backup.CJob
+    name: CJob
+    href: Models.Backup.CJob.html
+  - name: )
+- uid: System.Collections.ObjectModel.ObservableCollection`1
+  commentId: T:System.Collections.ObjectModel.ObservableCollection`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  name: ObservableCollection<T>
+  nameWithType: ObservableCollection<T>
+  fullName: System.Collections.ObjectModel.ObservableCollection<T>
+  nameWithType.vb: ObservableCollection(Of T)
+  fullName.vb: System.Collections.ObjectModel.ObservableCollection(Of T)
+  name.vb: ObservableCollection(Of T)
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.ObjectModel
+  commentId: N:System.Collections.ObjectModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.ObjectModel
+  nameWithType: System.Collections.ObjectModel
+  fullName: System.Collections.ObjectModel
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.ObjectModel
+    name: ObjectModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.ObjectModel
+    name: ObjectModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel
+- uid: EasySaveGUI.ViewModels.JobViewModel.JobsRunning*
+  commentId: Overload:EasySaveGUI.ViewModels.JobViewModel.JobsRunning
+  href: EasySaveGUI.ViewModels.JobViewModel.html#EasySaveGUI_ViewModels_JobViewModel_JobsRunning
+  name: JobsRunning
+  nameWithType: JobViewModel.JobsRunning
+  fullName: EasySaveGUI.ViewModels.JobViewModel.JobsRunning
+- uid: EasySaveGUI.ViewModels.JobViewModel.#ctor*
+  commentId: Overload:EasySaveGUI.ViewModels.JobViewModel.#ctor
+  href: EasySaveGUI.ViewModels.JobViewModel.html#EasySaveGUI_ViewModels_JobViewModel__ctor
+  name: JobViewModel
+  nameWithType: JobViewModel.JobViewModel
+  fullName: EasySaveGUI.ViewModels.JobViewModel.JobViewModel
+  nameWithType.vb: JobViewModel.New
+  fullName.vb: EasySaveGUI.ViewModels.JobViewModel.New
+  name.vb: New
+- uid: EasySaveGUI.ViewModels.JobViewModel.RunJobs*
+  commentId: Overload:EasySaveGUI.ViewModels.JobViewModel.RunJobs
+  href: EasySaveGUI.ViewModels.JobViewModel.html#EasySaveGUI_ViewModels_JobViewModel_RunJobs_System_Collections_Generic_List_Models_Backup_CJob__
+  name: RunJobs
+  nameWithType: JobViewModel.RunJobs
+  fullName: EasySaveGUI.ViewModels.JobViewModel.RunJobs
+- uid: System.Collections.Generic.List{Models.Backup.CJob}
+  commentId: T:System.Collections.Generic.List{Models.Backup.CJob}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<CJob>
+  nameWithType: List<CJob>
+  fullName: System.Collections.Generic.List<Models.Backup.CJob>
+  nameWithType.vb: List(Of CJob)
+  fullName.vb: System.Collections.Generic.List(Of Models.Backup.CJob)
+  name.vb: List(Of CJob)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: Models.Backup.CJob
+    name: CJob
+    href: Models.Backup.CJob.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Models.Backup.CJob
+    name: CJob
+    href: Models.Backup.CJob.html
+  - name: )
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: EasySaveGUI.ViewModels.JobViewModel.CreateBackupJob*
+  commentId: Overload:EasySaveGUI.ViewModels.JobViewModel.CreateBackupJob
+  href: EasySaveGUI.ViewModels.JobViewModel.html#EasySaveGUI_ViewModels_JobViewModel_CreateBackupJob_Models_Backup_CJob_
+  name: CreateBackupJob
+  nameWithType: JobViewModel.CreateBackupJob
+  fullName: EasySaveGUI.ViewModels.JobViewModel.CreateBackupJob
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: EasySaveGUI.ViewModels.JobViewModel.DeleteJobs*
+  commentId: Overload:EasySaveGUI.ViewModels.JobViewModel.DeleteJobs
+  href: EasySaveGUI.ViewModels.JobViewModel.html#EasySaveGUI_ViewModels_JobViewModel_DeleteJobs_System_Collections_Generic_List_Models_Backup_CJob__
+  name: DeleteJobs
+  nameWithType: JobViewModel.DeleteJobs
+  fullName: EasySaveGUI.ViewModels.JobViewModel.DeleteJobs
+- uid: EasySaveGUI.ViewModels.JobViewModel.SaveJobs*
+  commentId: Overload:EasySaveGUI.ViewModels.JobViewModel.SaveJobs
+  href: EasySaveGUI.ViewModels.JobViewModel.html#EasySaveGUI_ViewModels_JobViewModel_SaveJobs
+  name: SaveJobs
+  nameWithType: JobViewModel.SaveJobs
+  fullName: EasySaveGUI.ViewModels.JobViewModel.SaveJobs
+- uid: EasySaveGUI.ViewModels.JobViewModel.LoadJobs*
+  commentId: Overload:EasySaveGUI.ViewModels.JobViewModel.LoadJobs
+  href: EasySaveGUI.ViewModels.JobViewModel.html#EasySaveGUI_ViewModels_JobViewModel_LoadJobs_System_Boolean_System_String_
+  name: LoadJobs
+  nameWithType: JobViewModel.LoadJobs
+  fullName: EasySaveGUI.ViewModels.JobViewModel.LoadJobs
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

@@ -1,0 +1,62 @@
+### YamlMime:ManagedReference
+items:
+- uid: Models
+  commentId: N:Models
+  id: Models
+  children:
+  - Models.CFormatLog
+  - Models.CLangue
+  - Models.CSettings
+  - Models.CTheme
+  - Models.ETheme
+  langs:
+  - csharp
+  - vb
+  name: Models
+  nameWithType: Models
+  fullName: Models
+  type: Namespace
+  assemblies:
+  - Models
+references:
+- uid: Models.CFormatLog
+  commentId: T:Models.CFormatLog
+  parent: Models
+  href: Models.CFormatLog.html
+  name: CFormatLog
+  nameWithType: CFormatLog
+  fullName: Models.CFormatLog
+- uid: Models.CLangue
+  commentId: T:Models.CLangue
+  parent: Models
+  href: Models.CLangue.html
+  name: CLangue
+  nameWithType: CLangue
+  fullName: Models.CLangue
+- uid: Models.CSettings
+  commentId: T:Models.CSettings
+  parent: Models
+  href: Models.CSettings.html
+  name: CSettings
+  nameWithType: CSettings
+  fullName: Models.CSettings
+- uid: Models.CTheme
+  commentId: T:Models.CTheme
+  parent: Models
+  href: Models.CTheme.html
+  name: CTheme
+  nameWithType: CTheme
+  fullName: Models.CTheme
+- uid: Models.ETheme
+  commentId: T:Models.ETheme
+  parent: Models
+  href: Models.ETheme.html
+  name: ETheme
+  nameWithType: ETheme
+  fullName: Models.ETheme
+- uid: Models
+  commentId: N:Models
+  href: Models.html
+  name: Models
+  nameWithType: Models
+  fullName: Models

@@ -1,0 +1,760 @@
+### YamlMime:ManagedReference
+items:
+- uid: EasySaveGUI.ViewModels.LayoutViewModel
+  commentId: T:EasySaveGUI.ViewModels.LayoutViewModel
+  id: LayoutViewModel
+  parent: EasySaveGUI.ViewModels
+  children:
+  - EasySaveGUI.ViewModels.LayoutViewModel.#ctor
+  - EasySaveGUI.ViewModels.LayoutViewModel.ElementsContent
+  - EasySaveGUI.ViewModels.LayoutViewModel.LayoutNames
+  - EasySaveGUI.ViewModels.LayoutViewModel.LoadLayout(AvalonDock.DockingManager,System.String)
+  - EasySaveGUI.ViewModels.LayoutViewModel.SaveLayout(AvalonDock.DockingManager,Models.ETheme,System.String)
+  langs:
+  - csharp
+  - vb
+  name: LayoutViewModel
+  nameWithType: LayoutViewModel
+  fullName: EasySaveGUI.ViewModels.LayoutViewModel
+  type: Class
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/LayoutViewModel.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: LayoutViewModel
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/LayoutViewModel.cs
+    startLine: 13
+  assemblies:
+  - EasySaveGUI
+  namespace: EasySaveGUI.ViewModels
+  syntax:
+    content: 'public class LayoutViewModel : BaseViewModel, INotifyPropertyChanged'
+    content.vb: Public Class LayoutViewModel Inherits BaseViewModel Implements INotifyPropertyChanged
+  inheritance:
+  - System.Object
+  - EasySaveGUI.ViewModels.BaseViewModel
+  implements:
+  - System.ComponentModel.INotifyPropertyChanged
+  inheritedMembers:
+  - EasySaveGUI.ViewModels.BaseViewModel.PropertyChanged
+  - EasySaveGUI.ViewModels.BaseViewModel.NotifyPropertyChanged(System.String)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: EasySaveGUI.ViewModels.LayoutViewModel.LayoutNames
+  commentId: P:EasySaveGUI.ViewModels.LayoutViewModel.LayoutNames
+  id: LayoutNames
+  parent: EasySaveGUI.ViewModels.LayoutViewModel
+  langs:
+  - csharp
+  - vb
+  name: LayoutNames
+  nameWithType: LayoutViewModel.LayoutNames
+  fullName: EasySaveGUI.ViewModels.LayoutViewModel.LayoutNames
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/LayoutViewModel.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: LayoutNames
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/LayoutViewModel.cs
+    startLine: 17
+  assemblies:
+  - EasySaveGUI
+  namespace: EasySaveGUI.ViewModels
+  syntax:
+    content: public ObservableCollection<string> LayoutNames { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.ObjectModel.ObservableCollection{System.String}
+    content.vb: Public Property LayoutNames As ObservableCollection(Of String)
+  overload: EasySaveGUI.ViewModels.LayoutViewModel.LayoutNames*
+- uid: EasySaveGUI.ViewModels.LayoutViewModel.ElementsContent
+  commentId: P:EasySaveGUI.ViewModels.LayoutViewModel.ElementsContent
+  id: ElementsContent
+  parent: EasySaveGUI.ViewModels.LayoutViewModel
+  langs:
+  - csharp
+  - vb
+  name: ElementsContent
+  nameWithType: LayoutViewModel.ElementsContent
+  fullName: EasySaveGUI.ViewModels.LayoutViewModel.ElementsContent
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/LayoutViewModel.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: ElementsContent
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/LayoutViewModel.cs
+    startLine: 18
+  assemblies:
+  - EasySaveGUI
+  namespace: EasySaveGUI.ViewModels
+  syntax:
+    content: public ContentControl ElementsContent { get; set; }
+    parameters: []
+    return:
+      type: System.Windows.Controls.ContentControl
+    content.vb: Public Property ElementsContent As ContentControl
+  overload: EasySaveGUI.ViewModels.LayoutViewModel.ElementsContent*
+- uid: EasySaveGUI.ViewModels.LayoutViewModel.#ctor
+  commentId: M:EasySaveGUI.ViewModels.LayoutViewModel.#ctor
+  id: '#ctor'
+  parent: EasySaveGUI.ViewModels.LayoutViewModel
+  langs:
+  - csharp
+  - vb
+  name: LayoutViewModel()
+  nameWithType: LayoutViewModel.LayoutViewModel()
+  fullName: EasySaveGUI.ViewModels.LayoutViewModel.LayoutViewModel()
+  type: Constructor
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/LayoutViewModel.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: .ctor
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/LayoutViewModel.cs
+    startLine: 21
+  assemblies:
+  - EasySaveGUI
+  namespace: EasySaveGUI.ViewModels
+  syntax:
+    content: public LayoutViewModel()
+    content.vb: Public Sub New()
+  overload: EasySaveGUI.ViewModels.LayoutViewModel.#ctor*
+  nameWithType.vb: LayoutViewModel.New()
+  fullName.vb: EasySaveGUI.ViewModels.LayoutViewModel.New()
+  name.vb: New()
+- uid: EasySaveGUI.ViewModels.LayoutViewModel.SaveLayout(AvalonDock.DockingManager,Models.ETheme,System.String)
+  commentId: M:EasySaveGUI.ViewModels.LayoutViewModel.SaveLayout(AvalonDock.DockingManager,Models.ETheme,System.String)
+  id: SaveLayout(AvalonDock.DockingManager,Models.ETheme,System.String)
+  parent: EasySaveGUI.ViewModels.LayoutViewModel
+  langs:
+  - csharp
+  - vb
+  name: SaveLayout(DockingManager, ETheme, string)
+  nameWithType: LayoutViewModel.SaveLayout(DockingManager, ETheme, string)
+  fullName: EasySaveGUI.ViewModels.LayoutViewModel.SaveLayout(AvalonDock.DockingManager, Models.ETheme, string)
+  type: Method
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/LayoutViewModel.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: SaveLayout
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/LayoutViewModel.cs
+    startLine: 38
+  assemblies:
+  - EasySaveGUI
+  namespace: EasySaveGUI.ViewModels
+  syntax:
+    content: public void SaveLayout(DockingManager pDock, ETheme pTheme, string pLayoutName = "Layout")
+    parameters:
+    - id: pDock
+      type: AvalonDock.DockingManager
+    - id: pTheme
+      type: Models.ETheme
+    - id: pLayoutName
+      type: System.String
+    content.vb: Public Sub SaveLayout(pDock As DockingManager, pTheme As ETheme, pLayoutName As String = "Layout")
+  overload: EasySaveGUI.ViewModels.LayoutViewModel.SaveLayout*
+  nameWithType.vb: LayoutViewModel.SaveLayout(DockingManager, ETheme, String)
+  fullName.vb: EasySaveGUI.ViewModels.LayoutViewModel.SaveLayout(AvalonDock.DockingManager, Models.ETheme, String)
+  name.vb: SaveLayout(DockingManager, ETheme, String)
+- uid: EasySaveGUI.ViewModels.LayoutViewModel.LoadLayout(AvalonDock.DockingManager,System.String)
+  commentId: M:EasySaveGUI.ViewModels.LayoutViewModel.LoadLayout(AvalonDock.DockingManager,System.String)
+  id: LoadLayout(AvalonDock.DockingManager,System.String)
+  parent: EasySaveGUI.ViewModels.LayoutViewModel
+  langs:
+  - csharp
+  - vb
+  name: LoadLayout(DockingManager, string)
+  nameWithType: LayoutViewModel.LoadLayout(DockingManager, string)
+  fullName: EasySaveGUI.ViewModels.LayoutViewModel.LoadLayout(AvalonDock.DockingManager, string)
+  type: Method
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/LayoutViewModel.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: LoadLayout
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/LayoutViewModel.cs
+    startLine: 58
+  assemblies:
+  - EasySaveGUI
+  namespace: EasySaveGUI.ViewModels
+  syntax:
+    content: public void LoadLayout(DockingManager pDock, string pLayoutName = "Layout")
+    parameters:
+    - id: pDock
+      type: AvalonDock.DockingManager
+    - id: pLayoutName
+      type: System.String
+    content.vb: Public Sub LoadLayout(pDock As DockingManager, pLayoutName As String = "Layout")
+  overload: EasySaveGUI.ViewModels.LayoutViewModel.LoadLayout*
+  nameWithType.vb: LayoutViewModel.LoadLayout(DockingManager, String)
+  fullName.vb: EasySaveGUI.ViewModels.LayoutViewModel.LoadLayout(AvalonDock.DockingManager, String)
+  name.vb: LoadLayout(DockingManager, String)
+references:
+- uid: EasySaveGUI.ViewModels
+  commentId: N:EasySaveGUI.ViewModels
+  href: EasySaveGUI.html
+  name: EasySaveGUI.ViewModels
+  nameWithType: EasySaveGUI.ViewModels
+  fullName: EasySaveGUI.ViewModels
+  spec.csharp:
+  - uid: EasySaveGUI
+    name: EasySaveGUI
+    href: EasySaveGUI.html
+  - name: .
+  - uid: EasySaveGUI.ViewModels
+    name: ViewModels
+    href: EasySaveGUI.ViewModels.html
+  spec.vb:
+  - uid: EasySaveGUI
+    name: EasySaveGUI
+    href: EasySaveGUI.html
+  - name: .
+  - uid: EasySaveGUI.ViewModels
+    name: ViewModels
+    href: EasySaveGUI.ViewModels.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: EasySaveGUI.ViewModels.BaseViewModel
+  commentId: T:EasySaveGUI.ViewModels.BaseViewModel
+  parent: EasySaveGUI.ViewModels
+  href: EasySaveGUI.ViewModels.BaseViewModel.html
+  name: BaseViewModel
+  nameWithType: BaseViewModel
+  fullName: EasySaveGUI.ViewModels.BaseViewModel
+- uid: System.ComponentModel.INotifyPropertyChanged
+  commentId: T:System.ComponentModel.INotifyPropertyChanged
+  parent: System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged
+  name: INotifyPropertyChanged
+  nameWithType: INotifyPropertyChanged
+  fullName: System.ComponentModel.INotifyPropertyChanged
+- uid: EasySaveGUI.ViewModels.BaseViewModel.PropertyChanged
+  commentId: E:EasySaveGUI.ViewModels.BaseViewModel.PropertyChanged
+  parent: EasySaveGUI.ViewModels.BaseViewModel
+  href: EasySaveGUI.ViewModels.BaseViewModel.html#EasySaveGUI_ViewModels_BaseViewModel_PropertyChanged
+  name: PropertyChanged
+  nameWithType: BaseViewModel.PropertyChanged
+  fullName: EasySaveGUI.ViewModels.BaseViewModel.PropertyChanged
+- uid: EasySaveGUI.ViewModels.BaseViewModel.NotifyPropertyChanged(System.String)
+  commentId: M:EasySaveGUI.ViewModels.BaseViewModel.NotifyPropertyChanged(System.String)
+  parent: EasySaveGUI.ViewModels.BaseViewModel
+  isExternal: true
+  href: EasySaveGUI.ViewModels.BaseViewModel.html#EasySaveGUI_ViewModels_BaseViewModel_NotifyPropertyChanged_System_String_
+  name: NotifyPropertyChanged(string)
+  nameWithType: BaseViewModel.NotifyPropertyChanged(string)
+  fullName: EasySaveGUI.ViewModels.BaseViewModel.NotifyPropertyChanged(string)
+  nameWithType.vb: BaseViewModel.NotifyPropertyChanged(String)
+  fullName.vb: EasySaveGUI.ViewModels.BaseViewModel.NotifyPropertyChanged(String)
+  name.vb: NotifyPropertyChanged(String)
+  spec.csharp:
+  - uid: EasySaveGUI.ViewModels.BaseViewModel.NotifyPropertyChanged(System.String)
+    name: NotifyPropertyChanged
+    href: EasySaveGUI.ViewModels.BaseViewModel.html#EasySaveGUI_ViewModels_BaseViewModel_NotifyPropertyChanged_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: EasySaveGUI.ViewModels.BaseViewModel.NotifyPropertyChanged(System.String)
+    name: NotifyPropertyChanged
+    href: EasySaveGUI.ViewModels.BaseViewModel.html#EasySaveGUI_ViewModels_BaseViewModel_NotifyPropertyChanged_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.ComponentModel
+  commentId: N:System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.ComponentModel
+  nameWithType: System.ComponentModel
+  fullName: System.ComponentModel
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+- uid: EasySaveGUI.ViewModels.LayoutViewModel.LayoutNames*
+  commentId: Overload:EasySaveGUI.ViewModels.LayoutViewModel.LayoutNames
+  href: EasySaveGUI.ViewModels.LayoutViewModel.html#EasySaveGUI_ViewModels_LayoutViewModel_LayoutNames
+  name: LayoutNames
+  nameWithType: LayoutViewModel.LayoutNames
+  fullName: EasySaveGUI.ViewModels.LayoutViewModel.LayoutNames
+- uid: System.Collections.ObjectModel.ObservableCollection{System.String}
+  commentId: T:System.Collections.ObjectModel.ObservableCollection{System.String}
+  parent: System.Collections.ObjectModel
+  definition: System.Collections.ObjectModel.ObservableCollection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  name: ObservableCollection<string>
+  nameWithType: ObservableCollection<string>
+  fullName: System.Collections.ObjectModel.ObservableCollection<string>
+  nameWithType.vb: ObservableCollection(Of String)
+  fullName.vb: System.Collections.ObjectModel.ObservableCollection(Of String)
+  name.vb: ObservableCollection(Of String)
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Collections.ObjectModel.ObservableCollection`1
+  commentId: T:System.Collections.ObjectModel.ObservableCollection`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  name: ObservableCollection<T>
+  nameWithType: ObservableCollection<T>
+  fullName: System.Collections.ObjectModel.ObservableCollection<T>
+  nameWithType.vb: ObservableCollection(Of T)
+  fullName.vb: System.Collections.ObjectModel.ObservableCollection(Of T)
+  name.vb: ObservableCollection(Of T)
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.ObjectModel
+  commentId: N:System.Collections.ObjectModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.ObjectModel
+  nameWithType: System.Collections.ObjectModel
+  fullName: System.Collections.ObjectModel
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.ObjectModel
+    name: ObjectModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.ObjectModel
+    name: ObjectModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel
+- uid: EasySaveGUI.ViewModels.LayoutViewModel.ElementsContent*
+  commentId: Overload:EasySaveGUI.ViewModels.LayoutViewModel.ElementsContent
+  href: EasySaveGUI.ViewModels.LayoutViewModel.html#EasySaveGUI_ViewModels_LayoutViewModel_ElementsContent
+  name: ElementsContent
+  nameWithType: LayoutViewModel.ElementsContent
+  fullName: EasySaveGUI.ViewModels.LayoutViewModel.ElementsContent
+- uid: System.Windows.Controls.ContentControl
+  commentId: T:System.Windows.Controls.ContentControl
+  parent: System.Windows.Controls
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol
+  name: ContentControl
+  nameWithType: ContentControl
+  fullName: System.Windows.Controls.ContentControl
+- uid: System.Windows.Controls
+  commentId: N:System.Windows.Controls
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows.Controls
+  nameWithType: System.Windows.Controls
+  fullName: System.Windows.Controls
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Controls
+    name: Controls
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.controls
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Controls
+    name: Controls
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.controls
+- uid: EasySaveGUI.ViewModels.LayoutViewModel.#ctor*
+  commentId: Overload:EasySaveGUI.ViewModels.LayoutViewModel.#ctor
+  href: EasySaveGUI.ViewModels.LayoutViewModel.html#EasySaveGUI_ViewModels_LayoutViewModel__ctor
+  name: LayoutViewModel
+  nameWithType: LayoutViewModel.LayoutViewModel
+  fullName: EasySaveGUI.ViewModels.LayoutViewModel.LayoutViewModel
+  nameWithType.vb: LayoutViewModel.New
+  fullName.vb: EasySaveGUI.ViewModels.LayoutViewModel.New
+  name.vb: New
+- uid: EasySaveGUI.ViewModels.LayoutViewModel.SaveLayout*
+  commentId: Overload:EasySaveGUI.ViewModels.LayoutViewModel.SaveLayout
+  href: EasySaveGUI.ViewModels.LayoutViewModel.html#EasySaveGUI_ViewModels_LayoutViewModel_SaveLayout_AvalonDock_DockingManager_Models_ETheme_System_String_
+  name: SaveLayout
+  nameWithType: LayoutViewModel.SaveLayout
+  fullName: EasySaveGUI.ViewModels.LayoutViewModel.SaveLayout
+- uid: AvalonDock.DockingManager
+  commentId: T:AvalonDock.DockingManager
+  parent: AvalonDock
+  isExternal: true
+  name: DockingManager
+  nameWithType: DockingManager
+  fullName: AvalonDock.DockingManager
+- uid: Models.ETheme
+  commentId: T:Models.ETheme
+  parent: Models
+  href: Models.ETheme.html
+  name: ETheme
+  nameWithType: ETheme
+  fullName: Models.ETheme
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: AvalonDock
+  commentId: N:AvalonDock
+  isExternal: true
+  name: AvalonDock
+  nameWithType: AvalonDock
+  fullName: AvalonDock
+- uid: Models
+  commentId: N:Models
+  href: Models.html
+  name: Models
+  nameWithType: Models
+  fullName: Models
+- uid: EasySaveGUI.ViewModels.LayoutViewModel.LoadLayout*
+  commentId: Overload:EasySaveGUI.ViewModels.LayoutViewModel.LoadLayout
+  href: EasySaveGUI.ViewModels.LayoutViewModel.html#EasySaveGUI_ViewModels_LayoutViewModel_LoadLayout_AvalonDock_DockingManager_System_String_
+  name: LoadLayout
+  nameWithType: LayoutViewModel.LoadLayout
+  fullName: EasySaveGUI.ViewModels.LayoutViewModel.LoadLayout
