@@ -811,6 +811,36 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/v2/CryptoSoft.BaseChiffrement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/CryptoSoft.BaseChiffrement.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/CryptoSoft.CXorChiffrement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/CryptoSoft.CXorChiffrement.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/CryptoSoft.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/CryptoSoft.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/v2/EasySaveGUI.App.yml",
       "output": {
         ".html": {
@@ -961,6 +991,26 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/v2/EasySaveGUI.UserControls.JobRunningControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/EasySaveGUI.UserControls.JobRunningControl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/EasySaveGUI.UserControls.LoadingAnimationControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/EasySaveGUI.UserControls.LoadingAnimationControl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/v2/EasySaveGUI.UserControls.MenuControl.yml",
       "output": {
         ".html": {
@@ -975,6 +1025,16 @@
       "output": {
         ".html": {
           "relative_path": "api/v2/EasySaveGUI.UserControls.OptionsMenuControl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/EasySaveGUI.UserControls.ValidationAnimationControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/EasySaveGUI.UserControls.ValidationAnimationControl.html"
         }
       },
       "version": ""
@@ -1025,6 +1085,26 @@
       "output": {
         ".html": {
           "relative_path": "api/v2/EasySaveGUI.ViewModels.BaseViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/EasySaveGUI.ViewModels.BusinessSoftwareViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/EasySaveGUI.ViewModels.BusinessSoftwareViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/EasySaveGUI.ViewModels.FileExtensionViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/EasySaveGUI.ViewModels.FileExtensionViewModel.html"
         }
       },
       "version": ""
@@ -1231,6 +1311,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/v2/Models.BaseModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/Models.BaseModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/v2/Models.CFormatLog.yml",
       "output": {
         ".html": {
@@ -1275,6 +1365,86 @@
       "output": {
         ".html": {
           "relative_path": "api/v2/Models.ETheme.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/Models.Langue.CLangue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/Models.Langue.CLangue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/Models.Langue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/Models.Langue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/Models.Settings.CFormatLog.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/Models.Settings.CFormatLog.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/Models.Settings.CSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/Models.Settings.CSettings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/Models.Settings.Theme.CTheme.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/Models.Settings.Theme.CTheme.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/Models.Settings.Theme.ETheme.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/Models.Settings.Theme.ETheme.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/Models.Settings.Theme.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/Models.Settings.Theme.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/Models.Settings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/Models.Settings.html"
         }
       },
       "version": ""
@@ -1451,6 +1621,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/v2/Stockage.Logs.ILogger-1.UpdateLogDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/Stockage.Logs.ILogger-1.UpdateLogDelegate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/v2/Stockage.Logs.ILogger-1.yml",
       "output": {
         ".html": {
@@ -1525,6 +1705,26 @@
       "output": {
         ".html": {
           "relative_path": "api/v2/Stockage.Save.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/UnitTestCryptoSoft.EncryptDecryptTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/UnitTestCryptoSoft.EncryptDecryptTest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/v2/UnitTestCryptoSoft.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/v2/UnitTestCryptoSoft.html"
         }
       },
       "version": ""

@@ -1,0 +1,37 @@
+### YamlMime:ManagedReference
+items:
+- uid: CryptoSoft
+  commentId: N:CryptoSoft
+  id: CryptoSoft
+  children:
+  - CryptoSoft.BaseChiffrement
+  - CryptoSoft.CXorChiffrement
+  langs:
+  - csharp
+  - vb
+  name: CryptoSoft
+  nameWithType: CryptoSoft
+  fullName: CryptoSoft
+  type: Namespace
+  assemblies:
+  - CryptoSoft
+references:
+- uid: CryptoSoft.BaseChiffrement
+  commentId: T:CryptoSoft.BaseChiffrement
+  parent: CryptoSoft
+  href: CryptoSoft.BaseChiffrement.html
+  name: BaseChiffrement
+  nameWithType: BaseChiffrement
+  fullName: CryptoSoft.BaseChiffrement
+- uid: CryptoSoft.CXorChiffrement
+  commentId: T:CryptoSoft.CXorChiffrement
+  href: CryptoSoft.CXorChiffrement.html
+  name: CXorChiffrement
+  nameWithType: CXorChiffrement
+  fullName: CryptoSoft.CXorChiffrement
+- uid: CryptoSoft
+  commentId: N:CryptoSoft
+  href: CryptoSoft.html
+  name: CryptoSoft
+  nameWithType: CryptoSoft
+  fullName: CryptoSoft

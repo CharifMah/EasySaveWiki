@@ -89,7 +89,7 @@
 
 
   <h1 id="EasySaveGUI_ViewModels_MainViewModel" data-uid="EasySaveGUI.ViewModels.MainViewModel" class="text-break">
-Class MainViewModel  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/MainViewModel.cs&amp;version=GBdevelop-livrable-2&amp;line=6"><i class="bi bi-code-slash"></i></a>
+Class MainViewModel  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/MainViewModel.cs&amp;version=GBdevelop-livrable-2&amp;line=10"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -102,7 +102,7 @@ Class MainViewModel  <a class="header-action link-secondary" title="View source"
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class MainViewModel</code></pre>
+    <pre><code class="lang-csharp hljs">public class MainViewModel : BaseViewModel, INotifyPropertyChanged</code></pre>
   </div>
 
 
@@ -112,15 +112,28 @@ Class MainViewModel  <a class="header-action link-secondary" title="View source"
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="EasySaveGUI.ViewModels.BaseViewModel.html">BaseViewModel</a></div>
       <div><span class="xref">MainViewModel</span></div>
     </dd>
   </dl>
 
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged">INotifyPropertyChanged</a></div>
+    </dd>
+  </dl>
 
 
   <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
+    <div>
+      <a class="xref" href="EasySaveGUI.ViewModels.BaseViewModel.html#EasySaveGUI_ViewModels_BaseViewModel_PropertyChanged">BaseViewModel.PropertyChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="EasySaveGUI.ViewModels.BaseViewModel.html#EasySaveGUI_ViewModels_BaseViewModel_NotifyPropertyChanged_System_String_">BaseViewModel.NotifyPropertyChanged(string)</a>
+    </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
@@ -157,7 +170,7 @@ Class MainViewModel  <a class="header-action link-secondary" title="View source"
 
   <h3 id="EasySaveGUI_ViewModels_MainViewModel__ctor" data-uid="EasySaveGUI.ViewModels.MainViewModel.#ctor">
   MainViewModel()
-  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/MainViewModel.cs&amp;version=GBdevelop-livrable-2&amp;line=35"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/MainViewModel.cs&amp;version=GBdevelop-livrable-2&amp;line=54"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Le constructeur MainViewModel initialise les modèles de vue et charge les paramètres de l'utilisateur</p>
@@ -184,11 +197,74 @@ Class MainViewModel  <a class="header-action link-secondary" title="View source"
 </h2>
 
 
+  <a id="EasySaveGUI_ViewModels_MainViewModel_BusinessSoftwareVm_" data-uid="EasySaveGUI.ViewModels.MainViewModel.BusinessSoftwareVm*"></a>
+
+  <h3 id="EasySaveGUI_ViewModels_MainViewModel_BusinessSoftwareVm" data-uid="EasySaveGUI.ViewModels.MainViewModel.BusinessSoftwareVm">
+  BusinessSoftwareVm
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/MainViewModel.cs&amp;version=GBdevelop-livrable-2&amp;line=39"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>View Model pour la gestion des logiciels métiers</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BusinessSoftwareViewModel BusinessSoftwareVm { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="EasySaveGUI.ViewModels.BusinessSoftwareViewModel.html">BusinessSoftwareViewModel</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="EasySaveGUI_ViewModels_MainViewModel_FileExtensionVm_" data-uid="EasySaveGUI.ViewModels.MainViewModel.FileExtensionVm*"></a>
+
+  <h3 id="EasySaveGUI_ViewModels_MainViewModel_FileExtensionVm" data-uid="EasySaveGUI.ViewModels.MainViewModel.FileExtensionVm">
+  FileExtensionVm
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/MainViewModel.cs&amp;version=GBdevelop-livrable-2&amp;line=45"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FileExtensionViewModel FileExtensionVm { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="EasySaveGUI.ViewModels.FileExtensionViewModel.html">FileExtensionViewModel</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="EasySaveGUI_ViewModels_MainViewModel_FormatLogVm_" data-uid="EasySaveGUI.ViewModels.MainViewModel.FormatLogVm*"></a>
 
   <h3 id="EasySaveGUI_ViewModels_MainViewModel_FormatLogVm" data-uid="EasySaveGUI.ViewModels.MainViewModel.FormatLogVm">
   FormatLogVm
-  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/MainViewModel.cs&amp;version=GBdevelop-livrable-2&amp;line=21"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/MainViewModel.cs&amp;version=GBdevelop-livrable-2&amp;line=27"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Format Log View Model</p>
@@ -220,7 +296,7 @@ Class MainViewModel  <a class="header-action link-secondary" title="View source"
 
   <h3 id="EasySaveGUI_ViewModels_MainViewModel_JobVm" data-uid="EasySaveGUI.ViewModels.MainViewModel.JobVm">
   JobVm
-  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/MainViewModel.cs&amp;version=GBdevelop-livrable-2&amp;line=25"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/MainViewModel.cs&amp;version=GBdevelop-livrable-2&amp;line=31"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>View model des jobs</p>
@@ -252,7 +328,7 @@ Class MainViewModel  <a class="header-action link-secondary" title="View source"
 
   <h3 id="EasySaveGUI_ViewModels_MainViewModel_LangueVm" data-uid="EasySaveGUI.ViewModels.MainViewModel.LangueVm">
   LangueVm
-  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/MainViewModel.cs&amp;version=GBdevelop-livrable-2&amp;line=17"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/MainViewModel.cs&amp;version=GBdevelop-livrable-2&amp;line=23"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>View Model de la langue</p>
@@ -284,7 +360,7 @@ Class MainViewModel  <a class="header-action link-secondary" title="View source"
 
   <h3 id="EasySaveGUI_ViewModels_MainViewModel_LayoutVm" data-uid="EasySaveGUI.ViewModels.MainViewModel.LayoutVm">
   LayoutVm
-  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/MainViewModel.cs&amp;version=GBdevelop-livrable-2&amp;line=28"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/MainViewModel.cs&amp;version=GBdevelop-livrable-2&amp;line=34"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -315,7 +391,7 @@ Class MainViewModel  <a class="header-action link-secondary" title="View source"
 
   <h3 id="EasySaveGUI_ViewModels_MainViewModel_PopupVm" data-uid="EasySaveGUI.ViewModels.MainViewModel.PopupVm">
   PopupVm
-  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/MainViewModel.cs&amp;version=GBdevelop-livrable-2&amp;line=26"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/MainViewModel.cs&amp;version=GBdevelop-livrable-2&amp;line=32"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -346,7 +422,7 @@ Class MainViewModel  <a class="header-action link-secondary" title="View source"
 
   <h3 id="EasySaveGUI_ViewModels_MainViewModel_SettingsVm" data-uid="EasySaveGUI.ViewModels.MainViewModel.SettingsVm">
   SettingsVm
-  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/MainViewModel.cs&amp;version=GBdevelop-livrable-2&amp;line=27"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/MainViewModel.cs&amp;version=GBdevelop-livrable-2&amp;line=33"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -373,11 +449,90 @@ Class MainViewModel  <a class="header-action link-secondary" title="View source"
 
 
 
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="EasySaveGUI_ViewModels_MainViewModel_LoadJobs_" data-uid="EasySaveGUI.ViewModels.MainViewModel.LoadJobs*"></a>
+
+  <h3 id="EasySaveGUI_ViewModels_MainViewModel_LoadJobs_System_Boolean_System_String_" data-uid="EasySaveGUI.ViewModels.MainViewModel.LoadJobs(System.Boolean,System.String)">
+  LoadJobs(bool, string?)
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/MainViewModel.cs&amp;version=GBdevelop-livrable-2&amp;line=112"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Charge la liste des jobs depuis un fichier</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void LoadJobs(bool IsDefaultFile = true, string? pPath = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>IsDefaultFile</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Indique si le fichier par défaut doit être chargé</p>
+</dd>
+    <dt><code>pPath</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Chemin du fichier à charger, vide pour le fichier par défaut</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="EasySaveGUI_ViewModels_MainViewModel_LoadJobsFile_" data-uid="EasySaveGUI.ViewModels.MainViewModel.LoadJobsFile*"></a>
+
+  <h3 id="EasySaveGUI_ViewModels_MainViewModel_LoadJobsFile_System_String_" data-uid="EasySaveGUI.ViewModels.MainViewModel.LoadJobsFile(System.String)">
+  LoadJobsFile(string)
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/MainViewModel.cs&amp;version=GBdevelop-livrable-2&amp;line=82"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Charge la liste des jobs depuis un fichier</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public JobViewModel LoadJobsFile(string pPath = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>pPath</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Chemin du fichier de configuration. Null pour le fichier par défaut.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="EasySaveGUI.ViewModels.JobViewModel.html">JobViewModel</a></dt>
+    <dd><p>Instance du gestionnaire de jobs chargé</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/MainViewModel.cs&amp;version=GBdevelop-livrable-2&amp;line=6" class="edit-link">Edit this page</a>
+          <a href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/MainViewModel.cs&amp;version=GBdevelop-livrable-2&amp;line=10" class="edit-link">Edit this page</a>
         </div>
 
 

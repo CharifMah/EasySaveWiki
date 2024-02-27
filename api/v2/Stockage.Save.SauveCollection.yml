@@ -35,12 +35,11 @@ items:
   implements:
   - Stockage.Save.ISauve
   inheritedMembers:
-  - Stockage.Save.BaseSave._path
   - Stockage.Save.BaseSave.Options
+  - Stockage.Save.BaseSave.FolderPath
   - Stockage.Save.BaseSave.Sauver``1({T},System.String,System.Boolean,System.String,System.Boolean)
   - Stockage.Save.BaseSave.CopyDirectory(System.IO.DirectoryInfo,System.IO.DirectoryInfo,System.Boolean,LogsModels.CLogState@,System.Boolean)
-  - Stockage.Save.BaseSave.CopyDirectoryAsync(System.IO.DirectoryInfo,System.IO.DirectoryInfo,System.Boolean,System.Collections.Generic.List{LogsModels.CLogState},System.Boolean)
-  - Stockage.Save.BaseSave.CopyDirectoryAsync(System.IO.DirectoryInfo,System.IO.DirectoryInfo,System.Boolean,System.Boolean)
+  - Stockage.Save.BaseSave.CopyDirectoryAsync(System.IO.DirectoryInfo,System.IO.DirectoryInfo,Stockage.Logs.ILogger{System.UInt32}.UpdateLogDelegate,System.Boolean,System.Boolean)
   - System.Object.Equals(System.Object)
   - System.Object.Equals(System.Object,System.Object)
   - System.Object.GetHashCode
@@ -128,13 +127,6 @@ references:
   name: ISauve
   nameWithType: ISauve
   fullName: Stockage.Save.ISauve
-- uid: Stockage.Save.BaseSave._path
-  commentId: F:Stockage.Save.BaseSave._path
-  parent: Stockage.Save.BaseSave
-  href: Stockage.Save.BaseSave.html#Stockage_Save_BaseSave__path
-  name: _path
-  nameWithType: BaseSave._path
-  fullName: Stockage.Save.BaseSave._path
 - uid: Stockage.Save.BaseSave.Options
   commentId: P:Stockage.Save.BaseSave.Options
   parent: Stockage.Save.BaseSave
@@ -142,6 +134,13 @@ references:
   name: Options
   nameWithType: BaseSave.Options
   fullName: Stockage.Save.BaseSave.Options
+- uid: Stockage.Save.BaseSave.FolderPath
+  commentId: P:Stockage.Save.BaseSave.FolderPath
+  parent: Stockage.Save.BaseSave
+  href: Stockage.Save.BaseSave.html#Stockage_Save_BaseSave_FolderPath
+  name: FolderPath
+  nameWithType: BaseSave.FolderPath
+  fullName: Stockage.Save.BaseSave.FolderPath
 - uid: Stockage.Save.BaseSave.Sauver``1({T},System.String,System.Boolean,System.String,System.Boolean)
   commentId: M:Stockage.Save.BaseSave.Sauver``1(``0,System.String,System.Boolean,System.String,System.Boolean)
   parent: Stockage.Save.BaseSave
@@ -302,21 +301,21 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.boolean
   - name: )
-- uid: Stockage.Save.BaseSave.CopyDirectoryAsync(System.IO.DirectoryInfo,System.IO.DirectoryInfo,System.Boolean,System.Collections.Generic.List{LogsModels.CLogState},System.Boolean)
-  commentId: M:Stockage.Save.BaseSave.CopyDirectoryAsync(System.IO.DirectoryInfo,System.IO.DirectoryInfo,System.Boolean,System.Collections.Generic.List{LogsModels.CLogState},System.Boolean)
+- uid: Stockage.Save.BaseSave.CopyDirectoryAsync(System.IO.DirectoryInfo,System.IO.DirectoryInfo,Stockage.Logs.ILogger{System.UInt32}.UpdateLogDelegate,System.Boolean,System.Boolean)
+  commentId: M:Stockage.Save.BaseSave.CopyDirectoryAsync(System.IO.DirectoryInfo,System.IO.DirectoryInfo,Stockage.Logs.ILogger{System.UInt32}.UpdateLogDelegate,System.Boolean,System.Boolean)
   parent: Stockage.Save.BaseSave
   isExternal: true
-  href: Stockage.Save.BaseSave.html#Stockage_Save_BaseSave_CopyDirectoryAsync_System_IO_DirectoryInfo_System_IO_DirectoryInfo_System_Boolean_System_Collections_Generic_List_LogsModels_CLogState__System_Boolean_
-  name: CopyDirectoryAsync(DirectoryInfo, DirectoryInfo, bool, List<CLogState>, bool)
-  nameWithType: BaseSave.CopyDirectoryAsync(DirectoryInfo, DirectoryInfo, bool, List<CLogState>, bool)
-  fullName: Stockage.Save.BaseSave.CopyDirectoryAsync(System.IO.DirectoryInfo, System.IO.DirectoryInfo, bool, System.Collections.Generic.List<LogsModels.CLogState>, bool)
-  nameWithType.vb: BaseSave.CopyDirectoryAsync(DirectoryInfo, DirectoryInfo, Boolean, List(Of CLogState), Boolean)
-  fullName.vb: Stockage.Save.BaseSave.CopyDirectoryAsync(System.IO.DirectoryInfo, System.IO.DirectoryInfo, Boolean, System.Collections.Generic.List(Of LogsModels.CLogState), Boolean)
-  name.vb: CopyDirectoryAsync(DirectoryInfo, DirectoryInfo, Boolean, List(Of CLogState), Boolean)
+  href: Stockage.Save.BaseSave.html#Stockage_Save_BaseSave_CopyDirectoryAsync_System_IO_DirectoryInfo_System_IO_DirectoryInfo_Stockage_Logs_ILogger_System_UInt32__UpdateLogDelegate_System_Boolean_System_Boolean_
+  name: CopyDirectoryAsync(DirectoryInfo, DirectoryInfo, UpdateLogDelegate, bool, bool)
+  nameWithType: BaseSave.CopyDirectoryAsync(DirectoryInfo, DirectoryInfo, ILogger<uint>.UpdateLogDelegate, bool, bool)
+  fullName: Stockage.Save.BaseSave.CopyDirectoryAsync(System.IO.DirectoryInfo, System.IO.DirectoryInfo, Stockage.Logs.ILogger<uint>.UpdateLogDelegate, bool, bool)
+  nameWithType.vb: BaseSave.CopyDirectoryAsync(DirectoryInfo, DirectoryInfo, ILogger(Of UInteger).UpdateLogDelegate, Boolean, Boolean)
+  fullName.vb: Stockage.Save.BaseSave.CopyDirectoryAsync(System.IO.DirectoryInfo, System.IO.DirectoryInfo, Stockage.Logs.ILogger(Of UInteger).UpdateLogDelegate, Boolean, Boolean)
+  name.vb: CopyDirectoryAsync(DirectoryInfo, DirectoryInfo, UpdateLogDelegate, Boolean, Boolean)
   spec.csharp:
-  - uid: Stockage.Save.BaseSave.CopyDirectoryAsync(System.IO.DirectoryInfo,System.IO.DirectoryInfo,System.Boolean,System.Collections.Generic.List{LogsModels.CLogState},System.Boolean)
+  - uid: Stockage.Save.BaseSave.CopyDirectoryAsync(System.IO.DirectoryInfo,System.IO.DirectoryInfo,Stockage.Logs.ILogger{System.UInt32}.UpdateLogDelegate,System.Boolean,System.Boolean)
     name: CopyDirectoryAsync
-    href: Stockage.Save.BaseSave.html#Stockage_Save_BaseSave_CopyDirectoryAsync_System_IO_DirectoryInfo_System_IO_DirectoryInfo_System_Boolean_System_Collections_Generic_List_LogsModels_CLogState__System_Boolean_
+    href: Stockage.Save.BaseSave.html#Stockage_Save_BaseSave_CopyDirectoryAsync_System_IO_DirectoryInfo_System_IO_DirectoryInfo_Stockage_Logs_ILogger_System_UInt32__UpdateLogDelegate_System_Boolean_System_Boolean_
   - name: (
   - uid: System.IO.DirectoryInfo
     name: DirectoryInfo
@@ -330,95 +329,9 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.io.directoryinfo
   - name: ','
   - name: " "
-  - uid: System.Boolean
-    name: bool
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: ','
-  - name: " "
-  - uid: System.Collections.Generic.List`1
-    name: List
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
-  - name: <
-  - uid: LogsModels.CLogState
-    name: CLogState
-    href: LogsModels.CLogState.html
-  - name: '>'
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: bool
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-  spec.vb:
-  - uid: Stockage.Save.BaseSave.CopyDirectoryAsync(System.IO.DirectoryInfo,System.IO.DirectoryInfo,System.Boolean,System.Collections.Generic.List{LogsModels.CLogState},System.Boolean)
-    name: CopyDirectoryAsync
-    href: Stockage.Save.BaseSave.html#Stockage_Save_BaseSave_CopyDirectoryAsync_System_IO_DirectoryInfo_System_IO_DirectoryInfo_System_Boolean_System_Collections_Generic_List_LogsModels_CLogState__System_Boolean_
-  - name: (
-  - uid: System.IO.DirectoryInfo
-    name: DirectoryInfo
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.directoryinfo
-  - name: ','
-  - name: " "
-  - uid: System.IO.DirectoryInfo
-    name: DirectoryInfo
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.directoryinfo
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: Boolean
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: ','
-  - name: " "
-  - uid: System.Collections.Generic.List`1
-    name: List
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: LogsModels.CLogState
-    name: CLogState
-    href: LogsModels.CLogState.html
-  - name: )
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: Boolean
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-- uid: Stockage.Save.BaseSave.CopyDirectoryAsync(System.IO.DirectoryInfo,System.IO.DirectoryInfo,System.Boolean,System.Boolean)
-  commentId: M:Stockage.Save.BaseSave.CopyDirectoryAsync(System.IO.DirectoryInfo,System.IO.DirectoryInfo,System.Boolean,System.Boolean)
-  parent: Stockage.Save.BaseSave
-  isExternal: true
-  href: Stockage.Save.BaseSave.html#Stockage_Save_BaseSave_CopyDirectoryAsync_System_IO_DirectoryInfo_System_IO_DirectoryInfo_System_Boolean_System_Boolean_
-  name: CopyDirectoryAsync(DirectoryInfo, DirectoryInfo, bool, bool)
-  nameWithType: BaseSave.CopyDirectoryAsync(DirectoryInfo, DirectoryInfo, bool, bool)
-  fullName: Stockage.Save.BaseSave.CopyDirectoryAsync(System.IO.DirectoryInfo, System.IO.DirectoryInfo, bool, bool)
-  nameWithType.vb: BaseSave.CopyDirectoryAsync(DirectoryInfo, DirectoryInfo, Boolean, Boolean)
-  fullName.vb: Stockage.Save.BaseSave.CopyDirectoryAsync(System.IO.DirectoryInfo, System.IO.DirectoryInfo, Boolean, Boolean)
-  name.vb: CopyDirectoryAsync(DirectoryInfo, DirectoryInfo, Boolean, Boolean)
-  spec.csharp:
-  - uid: Stockage.Save.BaseSave.CopyDirectoryAsync(System.IO.DirectoryInfo,System.IO.DirectoryInfo,System.Boolean,System.Boolean)
-    name: CopyDirectoryAsync
-    href: Stockage.Save.BaseSave.html#Stockage_Save_BaseSave_CopyDirectoryAsync_System_IO_DirectoryInfo_System_IO_DirectoryInfo_System_Boolean_System_Boolean_
-  - name: (
-  - uid: System.IO.DirectoryInfo
-    name: DirectoryInfo
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.directoryinfo
-  - name: ','
-  - name: " "
-  - uid: System.IO.DirectoryInfo
-    name: DirectoryInfo
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.directoryinfo
+  - uid: Stockage.Logs.ILogger{System.UInt32}.UpdateLogDelegate
+    name: UpdateLogDelegate
+    href: Stockage.Logs.ILogger-1.UpdateLogDelegate.html
   - name: ','
   - name: " "
   - uid: System.Boolean
@@ -433,9 +346,9 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.boolean
   - name: )
   spec.vb:
-  - uid: Stockage.Save.BaseSave.CopyDirectoryAsync(System.IO.DirectoryInfo,System.IO.DirectoryInfo,System.Boolean,System.Boolean)
+  - uid: Stockage.Save.BaseSave.CopyDirectoryAsync(System.IO.DirectoryInfo,System.IO.DirectoryInfo,Stockage.Logs.ILogger{System.UInt32}.UpdateLogDelegate,System.Boolean,System.Boolean)
     name: CopyDirectoryAsync
-    href: Stockage.Save.BaseSave.html#Stockage_Save_BaseSave_CopyDirectoryAsync_System_IO_DirectoryInfo_System_IO_DirectoryInfo_System_Boolean_System_Boolean_
+    href: Stockage.Save.BaseSave.html#Stockage_Save_BaseSave_CopyDirectoryAsync_System_IO_DirectoryInfo_System_IO_DirectoryInfo_Stockage_Logs_ILogger_System_UInt32__UpdateLogDelegate_System_Boolean_System_Boolean_
   - name: (
   - uid: System.IO.DirectoryInfo
     name: DirectoryInfo
@@ -447,6 +360,11 @@ references:
     name: DirectoryInfo
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.io.directoryinfo
+  - name: ','
+  - name: " "
+  - uid: Stockage.Logs.ILogger{System.UInt32}.UpdateLogDelegate
+    name: UpdateLogDelegate
+    href: Stockage.Logs.ILogger-1.UpdateLogDelegate.html
   - name: ','
   - name: " "
   - uid: System.Boolean

@@ -103,7 +103,7 @@ Class CLogState  <a class="header-action link-secondary" title="View source" hre
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[DataContract]
-public class CLogState : CLogBase, IPath, INotifyPropertyChanged</code></pre>
+public class CLogState : CLogBase, IPath, INotifyPropertyChanged, IDisposable</code></pre>
   </div>
 
 
@@ -123,6 +123,7 @@ public class CLogState : CLogBase, IPath, INotifyPropertyChanged</code></pre>
     <dd>
       <div><a class="xref" href="../v1/LogsModels.IPath.html">IPath</a></div>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged">INotifyPropertyChanged</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
     </dd>
   </dl>
 
@@ -130,6 +131,9 @@ public class CLogState : CLogBase, IPath, INotifyPropertyChanged</code></pre>
   <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
+    <div>
+      <a class="xref" href="LogsModels.CLogBase.html#LogsModels_CLogBase_Progress">CLogBase.Progress</a>
+    </div>
     <div>
       <a class="xref" href="../v1/LogsModels.CLogBase.html#LogsModels_CLogBase_Date">CLogBase.Date</a>
     </div>
@@ -143,7 +147,10 @@ public class CLogState : CLogBase, IPath, INotifyPropertyChanged</code></pre>
       <a class="xref" href="../v1/LogsModels.CLogBase.html#LogsModels_CLogBase_TargetDirectory">CLogBase.TargetDirectory</a>
     </div>
     <div>
-      <a class="xref" href="LogsModels.CLogBase.html#LogsModels_CLogBase_PropertyChanged">CLogBase.PropertyChanged</a>
+      <a class="xref" href="LogsModels.CLogBase.html#LogsModels_CLogBase_FormatLog">CLogBase.FormatLog</a>
+    </div>
+    <div>
+      <a class="xref" href="LogsModels.CLogBase.html#LogsModels_CLogBase_EncryptTime">CLogBase.EncryptTime</a>
     </div>
     <div>
       <a class="xref" href="LogsModels.CLogBase.html#LogsModels_CLogBase_Equals_System_Object_">CLogBase.Equals(object)</a>
@@ -152,7 +159,13 @@ public class CLogState : CLogBase, IPath, INotifyPropertyChanged</code></pre>
       <a class="xref" href="LogsModels.CLogBase.html#LogsModels_CLogBase_GetHashCode">CLogBase.GetHashCode()</a>
     </div>
     <div>
+      <a class="xref" href="LogsModels.CLogBase.html#LogsModels_CLogBase_PropertyChanged">CLogBase.PropertyChanged</a>
+    </div>
+    <div>
       <a class="xref" href="LogsModels.CLogBase.html#LogsModels_CLogBase_NotifyPropertyChanged_System_String_">CLogBase.NotifyPropertyChanged(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="LogsModels.CLogBase.html#LogsModels_CLogBase_Dispose">CLogBase.Dispose()</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
@@ -184,7 +197,7 @@ public class CLogState : CLogBase, IPath, INotifyPropertyChanged</code></pre>
 
   <h3 id="LogsModels_CLogState__ctor" data-uid="LogsModels.CLogState.#ctor">
   CLogState()
-  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Logs/CLogState.cs&amp;version=GBdevelop-livrable-2&amp;line=89"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Logs/CLogState.cs&amp;version=GBdevelop-livrable-2&amp;line=78"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Constructeur de CLogState</p>
@@ -215,7 +228,7 @@ public class CLogState : CLogBase, IPath, INotifyPropertyChanged</code></pre>
 
   <h3 id="LogsModels_CLogState_BytesCopied" data-uid="LogsModels.CLogState.BytesCopied">
   BytesCopied
-  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Logs/CLogState.cs&amp;version=GBdevelop-livrable-2&amp;line=80"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Logs/CLogState.cs&amp;version=GBdevelop-livrable-2&amp;line=67"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -246,7 +259,7 @@ public class CLogState : CLogBase, IPath, INotifyPropertyChanged</code></pre>
 
   <h3 id="LogsModels_CLogState_ElapsedMilisecond" data-uid="LogsModels.CLogState.ElapsedMilisecond">
   ElapsedMilisecond
-  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Logs/CLogState.cs&amp;version=GBdevelop-livrable-2&amp;line=53"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Logs/CLogState.cs&amp;version=GBdevelop-livrable-2&amp;line=54"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Nombre de millisecondes écoulées</p>
@@ -278,7 +291,7 @@ public class CLogState : CLogBase, IPath, INotifyPropertyChanged</code></pre>
 
   <h3 id="LogsModels_CLogState_EligibleFileCount" data-uid="LogsModels.CLogState.EligibleFileCount">
   EligibleFileCount
-  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Logs/CLogState.cs&amp;version=GBdevelop-livrable-2&amp;line=45"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Logs/CLogState.cs&amp;version=GBdevelop-livrable-2&amp;line=46"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Nombre de fichier eligible au déplacement (Nombre de fichier Total)</p>
@@ -310,7 +323,7 @@ public class CLogState : CLogBase, IPath, INotifyPropertyChanged</code></pre>
 
   <h3 id="LogsModels_CLogState_IsActive" data-uid="LogsModels.CLogState.IsActive">
   IsActive
-  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Logs/CLogState.cs&amp;version=GBdevelop-livrable-2&amp;line=61"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Logs/CLogState.cs&amp;version=GBdevelop-livrable-2&amp;line=62"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Indique si le job est actif ou non</p>
@@ -342,7 +355,7 @@ public class CLogState : CLogBase, IPath, INotifyPropertyChanged</code></pre>
 
   <h3 id="LogsModels_CLogState_Name" data-uid="LogsModels.CLogState.Name">
   Name
-  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Logs/CLogState.cs&amp;version=GBdevelop-livrable-2&amp;line=25"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Logs/CLogState.cs&amp;version=GBdevelop-livrable-2&amp;line=24"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Name of the Log</p>
@@ -370,42 +383,11 @@ public class CLogState : CLogBase, IPath, INotifyPropertyChanged</code></pre>
 
 
 
-  <a id="LogsModels_CLogState_Progress_" data-uid="LogsModels.CLogState.Progress*"></a>
-
-  <h3 id="LogsModels_CLogState_Progress" data-uid="LogsModels.CLogState.Progress">
-  Progress
-  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Logs/CLogState.cs&amp;version=GBdevelop-livrable-2&amp;line=66"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public double Progress { get; set; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
   <a id="LogsModels_CLogState_RemainingFiles_" data-uid="LogsModels.CLogState.RemainingFiles*"></a>
 
   <h3 id="LogsModels_CLogState_RemainingFiles" data-uid="LogsModels.CLogState.RemainingFiles">
   RemainingFiles
-  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Logs/CLogState.cs&amp;version=GBdevelop-livrable-2&amp;line=37"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Logs/CLogState.cs&amp;version=GBdevelop-livrable-2&amp;line=38"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Nombre de fichier restant</p>
@@ -437,7 +419,7 @@ public class CLogState : CLogBase, IPath, INotifyPropertyChanged</code></pre>
 
   <h3 id="LogsModels_CLogState_TotalTransferedFile" data-uid="LogsModels.CLogState.TotalTransferedFile">
   TotalTransferedFile
-  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Logs/CLogState.cs&amp;version=GBdevelop-livrable-2&amp;line=84"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Logs/CLogState.cs&amp;version=GBdevelop-livrable-2&amp;line=71"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Le nombre de fichier transférer</p>

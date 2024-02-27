@@ -22,10 +22,12 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: FormatLogViewModel
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/FormatLogViewModel.cs
-    startLine: 4
+    startLine: 7
   assemblies:
   - EasySaveGUI
   namespace: EasySaveGUI.ViewModels
+  summary: View model des format de log
+  example: []
   syntax:
     content: 'public class FormatLogViewModel : BaseViewModel, INotifyPropertyChanged'
     content.vb: Public Class FormatLogViewModel Inherits BaseViewModel Implements INotifyPropertyChanged
@@ -62,7 +64,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: FormatLog
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/FormatLogViewModel.cs
-    startLine: 11
+    startLine: 14
   assemblies:
   - EasySaveGUI
   namespace: EasySaveGUI.ViewModels
@@ -72,7 +74,7 @@ items:
     content: public CFormatLog FormatLog { get; set; }
     parameters: []
     return:
-      type: Models.CFormatLog
+      type: Models.Settings.CFormatLog
     content.vb: Public Property FormatLog As CFormatLog
   overload: EasySaveGUI.ViewModels.FormatLogViewModel.FormatLog*
 - uid: EasySaveGUI.ViewModels.FormatLogViewModel.#ctor
@@ -93,7 +95,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: .ctor
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/FormatLogViewModel.cs
-    startLine: 17
+    startLine: 20
   assemblies:
   - EasySaveGUI
   namespace: EasySaveGUI.ViewModels
@@ -122,7 +124,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: SetFormatLog
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/FormatLogViewModel.cs
-    startLine: 29
+    startLine: 32
   assemblies:
   - EasySaveGUI
   namespace: EasySaveGUI.ViewModels
@@ -488,19 +490,35 @@ references:
   name: FormatLog
   nameWithType: FormatLogViewModel.FormatLog
   fullName: EasySaveGUI.ViewModels.FormatLogViewModel.FormatLog
-- uid: Models.CFormatLog
-  commentId: T:Models.CFormatLog
-  parent: Models
-  href: Models.CFormatLog.html
+- uid: Models.Settings.CFormatLog
+  commentId: T:Models.Settings.CFormatLog
+  parent: Models.Settings
+  href: Models.Settings.CFormatLog.html
   name: CFormatLog
   nameWithType: CFormatLog
-  fullName: Models.CFormatLog
-- uid: Models
-  commentId: N:Models
+  fullName: Models.Settings.CFormatLog
+- uid: Models.Settings
+  commentId: N:Models.Settings
   href: Models.html
-  name: Models
-  nameWithType: Models
-  fullName: Models
+  name: Models.Settings
+  nameWithType: Models.Settings
+  fullName: Models.Settings
+  spec.csharp:
+  - uid: Models
+    name: Models
+    href: Models.html
+  - name: .
+  - uid: Models.Settings
+    name: Settings
+    href: Models.Settings.html
+  spec.vb:
+  - uid: Models
+    name: Models
+    href: Models.html
+  - name: .
+  - uid: Models.Settings
+    name: Settings
+    href: Models.Settings.html
 - uid: EasySaveGUI.ViewModels.FormatLogViewModel.#ctor*
   commentId: Overload:EasySaveGUI.ViewModels.FormatLogViewModel.#ctor
   href: EasySaveGUI.ViewModels.FormatLogViewModel.html#EasySaveGUI_ViewModels_FormatLogViewModel__ctor

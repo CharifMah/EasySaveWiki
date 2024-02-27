@@ -89,7 +89,7 @@
 
 
   <h1 id="Stockage_Save_SauveJobsAsync" data-uid="Stockage.Save.SauveJobsAsync" class="text-break">
-Class SauveJobsAsync  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Stockage/Save/SauveJobsAsync.cs&amp;version=GBdevelop-livrable-2&amp;line=10"><i class="bi bi-code-slash"></i></a>
+Class SauveJobsAsync  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Stockage/Save/SauveJobsAsync.cs&amp;version=GBdevelop-livrable-2&amp;line=12"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -102,7 +102,7 @@ Class SauveJobsAsync  <a class="header-action link-secondary" title="View source
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class SauveJobsAsync : BaseSave, ISauve</code></pre>
+    <pre><code class="lang-csharp hljs">public class SauveJobsAsync : BaseSave, ISauve, IDisposable</code></pre>
   </div>
 
 
@@ -121,6 +121,7 @@ Class SauveJobsAsync  <a class="header-action link-secondary" title="View source
     <dt>Implements</dt>
     <dd>
       <div><a class="xref" href="../v1/Stockage.Save.ISauve.html">ISauve</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
     </dd>
   </dl>
 
@@ -129,19 +130,16 @@ Class SauveJobsAsync  <a class="header-action link-secondary" title="View source
     <dt>Inherited Members</dt>
     <dd>
     <div>
-      <a class="xref" href="Stockage.Save.BaseSave.html#Stockage_Save_BaseSave__path">BaseSave._path</a>
+      <a class="xref" href="../v1/Stockage.Save.BaseSave.html#Stockage_Save_BaseSave_Options">BaseSave.Options</a>
     </div>
     <div>
-      <a class="xref" href="../v1/Stockage.Save.BaseSave.html#Stockage_Save_BaseSave_Options">BaseSave.Options</a>
+      <a class="xref" href="Stockage.Save.BaseSave.html#Stockage_Save_BaseSave_FolderPath">BaseSave.FolderPath</a>
     </div>
     <div>
       <a class="xref" href="../v1/Stockage.Save.BaseSave.html#Stockage_Save_BaseSave_Sauver__1___0_System_String_System_Boolean_System_String_System_Boolean_">BaseSave.Sauver&lt;T&gt;(T, string, bool, string, bool)</a>
     </div>
     <div>
       <a class="xref" href="../v1/Stockage.Save.BaseSave.html#Stockage_Save_BaseSave_CopyDirectory_System_IO_DirectoryInfo_System_IO_DirectoryInfo_System_Boolean_LogsModels_CLogState__System_Boolean_">BaseSave.CopyDirectory(DirectoryInfo, DirectoryInfo, bool, ref CLogState, bool)</a>
-    </div>
-    <div>
-      <a class="xref" href="../v1/Stockage.Save.BaseSave.html#Stockage_Save_BaseSave_CopyDirectoryAsync_System_IO_DirectoryInfo_System_IO_DirectoryInfo_System_Boolean_System_Boolean_">BaseSave.CopyDirectoryAsync(DirectoryInfo, DirectoryInfo, bool, bool)</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
@@ -177,9 +175,9 @@ Class SauveJobsAsync  <a class="header-action link-secondary" title="View source
 
   <a id="Stockage_Save_SauveJobsAsync__ctor_" data-uid="Stockage.Save.SauveJobsAsync.#ctor*"></a>
 
-  <h3 id="Stockage_Save_SauveJobsAsync__ctor_System_String_System_String_System_Diagnostics_Stopwatch_" data-uid="Stockage.Save.SauveJobsAsync.#ctor(System.String,System.String,System.Diagnostics.Stopwatch)">
-  SauveJobsAsync(string, string, Stopwatch)
-  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Stockage/Save/SauveJobsAsync.cs&amp;version=GBdevelop-livrable-2&amp;line=23"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Stockage_Save_SauveJobsAsync__ctor_System_Collections_Generic_List_System_String__System_String_System_String_System_Diagnostics_Stopwatch_" data-uid="Stockage.Save.SauveJobsAsync.#ctor(System.Collections.Generic.List{System.String},System.String,System.String,System.Diagnostics.Stopwatch)">
+  SauveJobsAsync(List&lt;string&gt;, string?, string, Stopwatch?)
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Stockage/Save/SauveJobsAsync.cs&amp;version=GBdevelop-livrable-2&amp;line=35"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Constructeur de SauveJobs</p>
@@ -187,11 +185,13 @@ Class SauveJobsAsync  <a class="header-action link-secondary" title="View source
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SauveJobsAsync(string pPath = null, string pFormatLog = &quot;json&quot;, Stopwatch pStopwatch = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public SauveJobsAsync(List&lt;string&gt; pBlackList, string? pPath = null, string pFormatLog = &quot;json&quot;, Stopwatch? pStopwatch = null)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
+    <dt><code>pBlackList</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
     <dt><code>pPath</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd><p>Le chemin du dossier</p>
 </dd>
@@ -216,11 +216,42 @@ Class SauveJobsAsync  <a class="header-action link-secondary" title="View source
 </h2>
 
 
+  <a id="Stockage_Save_SauveJobsAsync_Errors_" data-uid="Stockage.Save.SauveJobsAsync.Errors*"></a>
+
+  <h3 id="Stockage_Save_SauveJobsAsync_Errors" data-uid="Stockage.Save.SauveJobsAsync.Errors">
+  Errors
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Stockage/Save/SauveJobsAsync.cs&amp;version=GBdevelop-livrable-2&amp;line=26"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Errors { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="Stockage_Save_SauveJobsAsync_LogState_" data-uid="Stockage.Save.SauveJobsAsync.LogState*"></a>
 
   <h3 id="Stockage_Save_SauveJobsAsync_LogState" data-uid="Stockage.Save.SauveJobsAsync.LogState">
   LogState
-  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Stockage/Save/SauveJobsAsync.cs&amp;version=GBdevelop-livrable-2&amp;line=16"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Stockage/Save/SauveJobsAsync.cs&amp;version=GBdevelop-livrable-2&amp;line=24"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -251,7 +282,7 @@ Class SauveJobsAsync  <a class="header-action link-secondary" title="View source
 
   <h3 id="Stockage_Save_SauveJobsAsync_StopWatch" data-uid="Stockage.Save.SauveJobsAsync.StopWatch">
   StopWatch
-  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Stockage/Save/SauveJobsAsync.cs&amp;version=GBdevelop-livrable-2&amp;line=17"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Stockage/Save/SauveJobsAsync.cs&amp;version=GBdevelop-livrable-2&amp;line=25"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -284,9 +315,9 @@ Class SauveJobsAsync  <a class="header-action link-secondary" title="View source
 
   <a id="Stockage_Save_SauveJobsAsync_CopyDirectoryAsync_" data-uid="Stockage.Save.SauveJobsAsync.CopyDirectoryAsync*"></a>
 
-  <h3 id="Stockage_Save_SauveJobsAsync_CopyDirectoryAsync_System_IO_DirectoryInfo_System_IO_DirectoryInfo_System_Boolean_System_Collections_Generic_List_LogsModels_CLogState__System_Boolean_" data-uid="Stockage.Save.SauveJobsAsync.CopyDirectoryAsync(System.IO.DirectoryInfo,System.IO.DirectoryInfo,System.Boolean,System.Collections.Generic.List{LogsModels.CLogState},System.Boolean)">
-  CopyDirectoryAsync(DirectoryInfo, DirectoryInfo, bool, List&lt;CLogState&gt;, bool)
-  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Stockage/Save/SauveJobsAsync.cs&amp;version=GBdevelop-livrable-2&amp;line=43"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Stockage_Save_SauveJobsAsync_CopyDirectoryAsync_System_IO_DirectoryInfo_System_IO_DirectoryInfo_Stockage_Logs_ILogger_System_UInt32__UpdateLogDelegate_System_Boolean_System_Boolean_" data-uid="Stockage.Save.SauveJobsAsync.CopyDirectoryAsync(System.IO.DirectoryInfo,System.IO.DirectoryInfo,Stockage.Logs.ILogger{System.UInt32}.UpdateLogDelegate,System.Boolean,System.Boolean)">
+  CopyDirectoryAsync(DirectoryInfo, DirectoryInfo, UpdateLogDelegate, bool, bool)
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Stockage/Save/SauveJobsAsync.cs&amp;version=GBdevelop-livrable-2&amp;line=63"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Copy files and directory from the source path to the destinationPath</p>
@@ -294,7 +325,7 @@ Class SauveJobsAsync  <a class="header-action link-secondary" title="View source
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override Task CopyDirectoryAsync(DirectoryInfo pSourceDir, DirectoryInfo pTargetDir, bool pRecursive, List&lt;CLogState&gt; pLogStates, bool pDiffertielle = false)</code></pre>
+    <pre><code class="lang-csharp hljs">public override void CopyDirectoryAsync(DirectoryInfo pSourceDir, DirectoryInfo pTargetDir, ILogger&lt;uint&gt;.UpdateLogDelegate pUpdateLog, bool pRecursive, bool pDiffertielle = false)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -305,21 +336,16 @@ Class SauveJobsAsync  <a class="header-action link-secondary" title="View source
     <dt><code>pTargetDir</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.directoryinfo">DirectoryInfo</a></dt>
     <dd><p>Path of the target directory</p>
 </dd>
+    <dt><code>pUpdateLog</code> <a class="xref" href="Stockage.Logs.ILogger-1.html">ILogger</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a>&gt;.<a class="xref" href="Stockage.Logs.ILogger-1.UpdateLogDelegate.html">UpdateLogDelegate</a></dt>
+    <dd></dd>
     <dt><code>pRecursive</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
     <dd><p>True if recursive</p>
 </dd>
-    <dt><code>pLogStates</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="LogsModels.CLogState.html">CLogState</a>&gt;</dt>
-    <dd></dd>
     <dt><code>pDiffertielle</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
     <dd><p>true if the backup is differential</p>
 </dd>
   </dl>
 
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
-    <dd></dd>
-  </dl>
 
 
 
@@ -338,70 +364,84 @@ Class SauveJobsAsync  <a class="header-action link-secondary" title="View source
 
   <a id="Stockage_Save_SauveJobsAsync_CopyFileAsync_" data-uid="Stockage.Save.SauveJobsAsync.CopyFileAsync*"></a>
 
-  <h3 id="Stockage_Save_SauveJobsAsync_CopyFileAsync_System_String_System_String_" data-uid="Stockage.Save.SauveJobsAsync.CopyFileAsync(System.String,System.String)">
-  CopyFileAsync(string, string)
-  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Stockage/Save/SauveJobsAsync.cs&amp;version=GBdevelop-livrable-2&amp;line=125"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Stockage_Save_SauveJobsAsync_CopyFileAsync_System_IO_FileInfo_System_String_LogsModels_CLogState_" data-uid="Stockage.Save.SauveJobsAsync.CopyFileAsync(System.IO.FileInfo,System.String,LogsModels.CLogState)">
+  CopyFileAsync(FileInfo, string, CLogState)
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Stockage/Save/SauveJobsAsync.cs&amp;version=GBdevelop-livrable-2&amp;line=133"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Copie une fichier de maniere asychrone et chiffre le fichier si il sont blacklister</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void CopyFileAsync(FileInfo pSourcePath, string pDestinationPath, CLogState pLogState)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>pSourcePath</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.fileinfo">FileInfo</a></dt>
+    <dd><p>chemin source</p>
+</dd>
+    <dt><code>pDestinationPath</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>chemin cible</p>
+</dd>
+    <dt><code>pLogState</code> <a class="xref" href="../v1/LogsModels.CLogState.html">CLogState</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Stockage_Save_SauveJobsAsync_Dispose_" data-uid="Stockage.Save.SauveJobsAsync.Dispose*"></a>
+
+  <h3 id="Stockage_Save_SauveJobsAsync_Dispose" data-uid="Stockage.Save.SauveJobsAsync.Dispose">
+  Dispose()
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Stockage/Save/SauveJobsAsync.cs&amp;version=GBdevelop-livrable-2&amp;line=174"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Stockage_Save_SauveJobsAsync_Finalize_" data-uid="Stockage.Save.SauveJobsAsync.Finalize*"></a>
+
+  <h3 id="Stockage_Save_SauveJobsAsync_Finalize" data-uid="Stockage.Save.SauveJobsAsync.Finalize">
+  ~SauveJobsAsync()
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Stockage/Save/SauveJobsAsync.cs&amp;version=GBdevelop-livrable-2&amp;line=48"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task CopyFileAsync(string sourcePath, string destinationPath)</code></pre>
+    <pre><code class="lang-csharp hljs">protected ~SauveJobsAsync()</code></pre>
   </div>
 
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>sourcePath</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
-    <dt><code>destinationPath</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
-  </dl>
 
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-  <a id="Stockage_Save_SauveJobsAsync_GetDirSize_" data-uid="Stockage.Save.SauveJobsAsync.GetDirSize*"></a>
-
-  <h3 id="Stockage_Save_SauveJobsAsync_GetDirSize_System_String_" data-uid="Stockage.Save.SauveJobsAsync.GetDirSize(System.String)">
-  GetDirSize(string)
-  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Stockage/Save/SauveJobsAsync.cs&amp;version=GBdevelop-livrable-2&amp;line=137"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Calcule la taille d'un repertoire</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public long GetDirSize(string pPath)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>pPath</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>Chemin du repertoire</p>
-</dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
-    <dd><p>la taille du repertoire en bytes</p>
-</dd>
-  </dl>
 
 
 
@@ -417,7 +457,7 @@ Class SauveJobsAsync  <a class="header-action link-secondary" title="View source
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Stockage/Save/SauveJobsAsync.cs&amp;version=GBdevelop-livrable-2&amp;line=10" class="edit-link">Edit this page</a>
+          <a href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Stockage/Save/SauveJobsAsync.cs&amp;version=GBdevelop-livrable-2&amp;line=12" class="edit-link">Edit this page</a>
         </div>
 
 

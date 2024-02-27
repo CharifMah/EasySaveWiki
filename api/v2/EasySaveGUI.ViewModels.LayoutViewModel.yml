@@ -9,7 +9,7 @@ items:
   - EasySaveGUI.ViewModels.LayoutViewModel.ElementsContent
   - EasySaveGUI.ViewModels.LayoutViewModel.LayoutNames
   - EasySaveGUI.ViewModels.LayoutViewModel.LoadLayout(AvalonDock.DockingManager,System.String)
-  - EasySaveGUI.ViewModels.LayoutViewModel.SaveLayout(AvalonDock.DockingManager,Models.ETheme,System.String)
+  - EasySaveGUI.ViewModels.LayoutViewModel.SaveLayout(AvalonDock.DockingManager,Models.Settings.Theme.ETheme,System.String)
   langs:
   - csharp
   - vb
@@ -24,10 +24,12 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: LayoutViewModel
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/LayoutViewModel.cs
-    startLine: 13
+    startLine: 16
   assemblies:
   - EasySaveGUI
   namespace: EasySaveGUI.ViewModels
+  summary: View model du layout de l'application
+  example: []
   syntax:
     content: 'public class LayoutViewModel : BaseViewModel, INotifyPropertyChanged'
     content.vb: Public Class LayoutViewModel Inherits BaseViewModel Implements INotifyPropertyChanged
@@ -64,7 +66,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: LayoutNames
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/LayoutViewModel.cs
-    startLine: 17
+    startLine: 20
   assemblies:
   - EasySaveGUI
   namespace: EasySaveGUI.ViewModels
@@ -93,7 +95,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: ElementsContent
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/LayoutViewModel.cs
-    startLine: 18
+    startLine: 21
   assemblies:
   - EasySaveGUI
   namespace: EasySaveGUI.ViewModels
@@ -122,10 +124,12 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: .ctor
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/LayoutViewModel.cs
-    startLine: 21
+    startLine: 26
   assemblies:
   - EasySaveGUI
   namespace: EasySaveGUI.ViewModels
+  summary: Constructeur du layout view model charge les layout disponibles
+  example: []
   syntax:
     content: public LayoutViewModel()
     content.vb: Public Sub New()
@@ -133,16 +137,16 @@ items:
   nameWithType.vb: LayoutViewModel.New()
   fullName.vb: EasySaveGUI.ViewModels.LayoutViewModel.New()
   name.vb: New()
-- uid: EasySaveGUI.ViewModels.LayoutViewModel.SaveLayout(AvalonDock.DockingManager,Models.ETheme,System.String)
-  commentId: M:EasySaveGUI.ViewModels.LayoutViewModel.SaveLayout(AvalonDock.DockingManager,Models.ETheme,System.String)
-  id: SaveLayout(AvalonDock.DockingManager,Models.ETheme,System.String)
+- uid: EasySaveGUI.ViewModels.LayoutViewModel.SaveLayout(AvalonDock.DockingManager,Models.Settings.Theme.ETheme,System.String)
+  commentId: M:EasySaveGUI.ViewModels.LayoutViewModel.SaveLayout(AvalonDock.DockingManager,Models.Settings.Theme.ETheme,System.String)
+  id: SaveLayout(AvalonDock.DockingManager,Models.Settings.Theme.ETheme,System.String)
   parent: EasySaveGUI.ViewModels.LayoutViewModel
   langs:
   - csharp
   - vb
   name: SaveLayout(DockingManager, ETheme, string)
   nameWithType: LayoutViewModel.SaveLayout(DockingManager, ETheme, string)
-  fullName: EasySaveGUI.ViewModels.LayoutViewModel.SaveLayout(AvalonDock.DockingManager, Models.ETheme, string)
+  fullName: EasySaveGUI.ViewModels.LayoutViewModel.SaveLayout(AvalonDock.DockingManager, Models.Settings.Theme.ETheme, string)
   type: Method
   source:
     remote:
@@ -151,23 +155,28 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: SaveLayout
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/LayoutViewModel.cs
-    startLine: 38
+    startLine: 47
   assemblies:
   - EasySaveGUI
   namespace: EasySaveGUI.ViewModels
+  summary: Sauvegarde le layout
+  example: []
   syntax:
     content: public void SaveLayout(DockingManager pDock, ETheme pTheme, string pLayoutName = "Layout")
     parameters:
     - id: pDock
       type: AvalonDock.DockingManager
+      description: layout a sauvegarder
     - id: pTheme
-      type: Models.ETheme
+      type: Models.Settings.Theme.ETheme
+      description: theme a sauvegarder
     - id: pLayoutName
       type: System.String
+      description: nom du layout
     content.vb: Public Sub SaveLayout(pDock As DockingManager, pTheme As ETheme, pLayoutName As String = "Layout")
   overload: EasySaveGUI.ViewModels.LayoutViewModel.SaveLayout*
   nameWithType.vb: LayoutViewModel.SaveLayout(DockingManager, ETheme, String)
-  fullName.vb: EasySaveGUI.ViewModels.LayoutViewModel.SaveLayout(AvalonDock.DockingManager, Models.ETheme, String)
+  fullName.vb: EasySaveGUI.ViewModels.LayoutViewModel.SaveLayout(AvalonDock.DockingManager, Models.Settings.Theme.ETheme, String)
   name.vb: SaveLayout(DockingManager, ETheme, String)
 - uid: EasySaveGUI.ViewModels.LayoutViewModel.LoadLayout(AvalonDock.DockingManager,System.String)
   commentId: M:EasySaveGUI.ViewModels.LayoutViewModel.LoadLayout(AvalonDock.DockingManager,System.String)
@@ -187,17 +196,21 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: LoadLayout
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/LayoutViewModel.cs
-    startLine: 58
+    startLine: 70
   assemblies:
   - EasySaveGUI
   namespace: EasySaveGUI.ViewModels
+  summary: Charge le layout
+  example: []
   syntax:
     content: public void LoadLayout(DockingManager pDock, string pLayoutName = "Layout")
     parameters:
     - id: pDock
       type: AvalonDock.DockingManager
+      description: Dockmanager a mettre a jour
     - id: pLayoutName
       type: System.String
+      description: Nom du layout a charger
     content.vb: Public Sub LoadLayout(pDock As DockingManager, pLayoutName As String = "Layout")
   overload: EasySaveGUI.ViewModels.LayoutViewModel.LoadLayout*
   nameWithType.vb: LayoutViewModel.LoadLayout(DockingManager, String)
@@ -711,7 +724,7 @@ references:
   name.vb: New
 - uid: EasySaveGUI.ViewModels.LayoutViewModel.SaveLayout*
   commentId: Overload:EasySaveGUI.ViewModels.LayoutViewModel.SaveLayout
-  href: EasySaveGUI.ViewModels.LayoutViewModel.html#EasySaveGUI_ViewModels_LayoutViewModel_SaveLayout_AvalonDock_DockingManager_Models_ETheme_System_String_
+  href: EasySaveGUI.ViewModels.LayoutViewModel.html#EasySaveGUI_ViewModels_LayoutViewModel_SaveLayout_AvalonDock_DockingManager_Models_Settings_Theme_ETheme_System_String_
   name: SaveLayout
   nameWithType: LayoutViewModel.SaveLayout
   fullName: EasySaveGUI.ViewModels.LayoutViewModel.SaveLayout
@@ -722,13 +735,13 @@ references:
   name: DockingManager
   nameWithType: DockingManager
   fullName: AvalonDock.DockingManager
-- uid: Models.ETheme
-  commentId: T:Models.ETheme
-  parent: Models
-  href: Models.ETheme.html
+- uid: Models.Settings.Theme.ETheme
+  commentId: T:Models.Settings.Theme.ETheme
+  parent: Models.Settings.Theme
+  href: Models.Settings.Theme.ETheme.html
   name: ETheme
   nameWithType: ETheme
-  fullName: Models.ETheme
+  fullName: Models.Settings.Theme.ETheme
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -746,12 +759,36 @@ references:
   name: AvalonDock
   nameWithType: AvalonDock
   fullName: AvalonDock
-- uid: Models
-  commentId: N:Models
+- uid: Models.Settings.Theme
+  commentId: N:Models.Settings.Theme
   href: Models.html
-  name: Models
-  nameWithType: Models
-  fullName: Models
+  name: Models.Settings.Theme
+  nameWithType: Models.Settings.Theme
+  fullName: Models.Settings.Theme
+  spec.csharp:
+  - uid: Models
+    name: Models
+    href: Models.html
+  - name: .
+  - uid: Models.Settings
+    name: Settings
+    href: Models.Settings.html
+  - name: .
+  - uid: Models.Settings.Theme
+    name: Theme
+    href: Models.Settings.Theme.html
+  spec.vb:
+  - uid: Models
+    name: Models
+    href: Models.html
+  - name: .
+  - uid: Models.Settings
+    name: Settings
+    href: Models.Settings.html
+  - name: .
+  - uid: Models.Settings.Theme
+    name: Theme
+    href: Models.Settings.Theme.html
 - uid: EasySaveGUI.ViewModels.LayoutViewModel.LoadLayout*
   commentId: Overload:EasySaveGUI.ViewModels.LayoutViewModel.LoadLayout
   href: EasySaveGUI.ViewModels.LayoutViewModel.html#EasySaveGUI_ViewModels_LayoutViewModel_LoadLayout_AvalonDock_DockingManager_System_String_

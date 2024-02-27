@@ -6,7 +6,11 @@ items:
   parent: EasySaveGUI.ViewModels
   children:
   - EasySaveGUI.ViewModels.SettingsViewModel.#ctor
+  - EasySaveGUI.ViewModels.SettingsViewModel.BusinessSoftwareVm
+  - EasySaveGUI.ViewModels.SettingsViewModel.CurrentLayout
+  - EasySaveGUI.ViewModels.SettingsViewModel.FileExtensionVm
   - EasySaveGUI.ViewModels.SettingsViewModel.LogVm
+  - EasySaveGUI.ViewModels.SettingsViewModel.ResetCurrentLayout
   - EasySaveGUI.ViewModels.SettingsViewModel.Settings
   langs:
   - csharp
@@ -22,7 +26,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: SettingsViewModel
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/SettingsViewModel.cs
-    startLine: 4
+    startLine: 5
   assemblies:
   - EasySaveGUI
   namespace: EasySaveGUI.ViewModels
@@ -62,17 +66,50 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Settings
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/SettingsViewModel.cs
-    startLine: 7
+    startLine: 18
   assemblies:
   - EasySaveGUI
   namespace: EasySaveGUI.ViewModels
+  summary: Les parameter global pour le binding
+  example: []
   syntax:
     content: public CSettings Settings { get; }
     parameters: []
     return:
-      type: Models.CSettings
+      type: Models.Settings.CSettings
     content.vb: Public ReadOnly Property Settings As CSettings
   overload: EasySaveGUI.ViewModels.SettingsViewModel.Settings*
+- uid: EasySaveGUI.ViewModels.SettingsViewModel.CurrentLayout
+  commentId: P:EasySaveGUI.ViewModels.SettingsViewModel.CurrentLayout
+  id: CurrentLayout
+  parent: EasySaveGUI.ViewModels.SettingsViewModel
+  langs:
+  - csharp
+  - vb
+  name: CurrentLayout
+  nameWithType: SettingsViewModel.CurrentLayout
+  fullName: EasySaveGUI.ViewModels.SettingsViewModel.CurrentLayout
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/SettingsViewModel.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: CurrentLayout
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/SettingsViewModel.cs
+    startLine: 28
+  assemblies:
+  - EasySaveGUI
+  namespace: EasySaveGUI.ViewModels
+  summary: Layout actuel
+  example: []
+  syntax:
+    content: public string CurrentLayout { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CurrentLayout As String
+  overload: EasySaveGUI.ViewModels.SettingsViewModel.CurrentLayout*
 - uid: EasySaveGUI.ViewModels.SettingsViewModel.LogVm
   commentId: P:EasySaveGUI.ViewModels.SettingsViewModel.LogVm
   id: LogVm
@@ -91,10 +128,12 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: LogVm
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/SettingsViewModel.cs
-    startLine: 15
+    startLine: 44
   assemblies:
   - EasySaveGUI
   namespace: EasySaveGUI.ViewModels
+  summary: Format de log view model
+  example: []
   syntax:
     content: public FormatLogViewModel LogVm { get; set; }
     parameters: []
@@ -102,6 +141,64 @@ items:
       type: EasySaveGUI.ViewModels.FormatLogViewModel
     content.vb: Public Property LogVm As FormatLogViewModel
   overload: EasySaveGUI.ViewModels.SettingsViewModel.LogVm*
+- uid: EasySaveGUI.ViewModels.SettingsViewModel.BusinessSoftwareVm
+  commentId: P:EasySaveGUI.ViewModels.SettingsViewModel.BusinessSoftwareVm
+  id: BusinessSoftwareVm
+  parent: EasySaveGUI.ViewModels.SettingsViewModel
+  langs:
+  - csharp
+  - vb
+  name: BusinessSoftwareVm
+  nameWithType: SettingsViewModel.BusinessSoftwareVm
+  fullName: EasySaveGUI.ViewModels.SettingsViewModel.BusinessSoftwareVm
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/SettingsViewModel.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: BusinessSoftwareVm
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/SettingsViewModel.cs
+    startLine: 47
+  assemblies:
+  - EasySaveGUI
+  namespace: EasySaveGUI.ViewModels
+  syntax:
+    content: public BusinessSoftwareViewModel BusinessSoftwareVm { get; set; }
+    parameters: []
+    return:
+      type: EasySaveGUI.ViewModels.BusinessSoftwareViewModel
+    content.vb: Public Property BusinessSoftwareVm As BusinessSoftwareViewModel
+  overload: EasySaveGUI.ViewModels.SettingsViewModel.BusinessSoftwareVm*
+- uid: EasySaveGUI.ViewModels.SettingsViewModel.FileExtensionVm
+  commentId: P:EasySaveGUI.ViewModels.SettingsViewModel.FileExtensionVm
+  id: FileExtensionVm
+  parent: EasySaveGUI.ViewModels.SettingsViewModel
+  langs:
+  - csharp
+  - vb
+  name: FileExtensionVm
+  nameWithType: SettingsViewModel.FileExtensionVm
+  fullName: EasySaveGUI.ViewModels.SettingsViewModel.FileExtensionVm
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/SettingsViewModel.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: FileExtensionVm
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/SettingsViewModel.cs
+    startLine: 49
+  assemblies:
+  - EasySaveGUI
+  namespace: EasySaveGUI.ViewModels
+  syntax:
+    content: public FileExtensionViewModel FileExtensionVm { get; set; }
+    parameters: []
+    return:
+      type: EasySaveGUI.ViewModels.FileExtensionViewModel
+    content.vb: Public Property FileExtensionVm As FileExtensionViewModel
+  overload: EasySaveGUI.ViewModels.SettingsViewModel.FileExtensionVm*
 - uid: EasySaveGUI.ViewModels.SettingsViewModel.#ctor
   commentId: M:EasySaveGUI.ViewModels.SettingsViewModel.#ctor
   id: '#ctor'
@@ -120,10 +217,12 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: .ctor
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/SettingsViewModel.cs
-    startLine: 17
+    startLine: 55
   assemblies:
   - EasySaveGUI
   namespace: EasySaveGUI.ViewModels
+  summary: Constructeur du settings view model
+  example: []
   syntax:
     content: public SettingsViewModel()
     content.vb: Public Sub New()
@@ -131,6 +230,32 @@ items:
   nameWithType.vb: SettingsViewModel.New()
   fullName.vb: EasySaveGUI.ViewModels.SettingsViewModel.New()
   name.vb: New()
+- uid: EasySaveGUI.ViewModels.SettingsViewModel.ResetCurrentLayout
+  commentId: M:EasySaveGUI.ViewModels.SettingsViewModel.ResetCurrentLayout
+  id: ResetCurrentLayout
+  parent: EasySaveGUI.ViewModels.SettingsViewModel
+  langs:
+  - csharp
+  - vb
+  name: ResetCurrentLayout()
+  nameWithType: SettingsViewModel.ResetCurrentLayout()
+  fullName: EasySaveGUI.ViewModels.SettingsViewModel.ResetCurrentLayout()
+  type: Method
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/SettingsViewModel.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: ResetCurrentLayout
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/SettingsViewModel.cs
+    startLine: 70
+  assemblies:
+  - EasySaveGUI
+  namespace: EasySaveGUI.ViewModels
+  syntax:
+    content: public void ResetCurrentLayout()
+    content.vb: Public Sub ResetCurrentLayout()
+  overload: EasySaveGUI.ViewModels.SettingsViewModel.ResetCurrentLayout*
 references:
 - uid: EasySaveGUI.ViewModels
   commentId: N:EasySaveGUI.ViewModels
@@ -477,19 +602,52 @@ references:
   name: Settings
   nameWithType: SettingsViewModel.Settings
   fullName: EasySaveGUI.ViewModels.SettingsViewModel.Settings
-- uid: Models.CSettings
-  commentId: T:Models.CSettings
-  parent: Models
-  href: Models.CSettings.html
+- uid: Models.Settings.CSettings
+  commentId: T:Models.Settings.CSettings
+  parent: Models.Settings
+  href: Models.Settings.CSettings.html
   name: CSettings
   nameWithType: CSettings
-  fullName: Models.CSettings
-- uid: Models
-  commentId: N:Models
+  fullName: Models.Settings.CSettings
+- uid: Models.Settings
+  commentId: N:Models.Settings
   href: Models.html
-  name: Models
-  nameWithType: Models
-  fullName: Models
+  name: Models.Settings
+  nameWithType: Models.Settings
+  fullName: Models.Settings
+  spec.csharp:
+  - uid: Models
+    name: Models
+    href: Models.html
+  - name: .
+  - uid: Models.Settings
+    name: Settings
+    href: Models.Settings.html
+  spec.vb:
+  - uid: Models
+    name: Models
+    href: Models.html
+  - name: .
+  - uid: Models.Settings
+    name: Settings
+    href: Models.Settings.html
+- uid: EasySaveGUI.ViewModels.SettingsViewModel.CurrentLayout*
+  commentId: Overload:EasySaveGUI.ViewModels.SettingsViewModel.CurrentLayout
+  href: EasySaveGUI.ViewModels.SettingsViewModel.html#EasySaveGUI_ViewModels_SettingsViewModel_CurrentLayout
+  name: CurrentLayout
+  nameWithType: SettingsViewModel.CurrentLayout
+  fullName: EasySaveGUI.ViewModels.SettingsViewModel.CurrentLayout
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: EasySaveGUI.ViewModels.SettingsViewModel.LogVm*
   commentId: Overload:EasySaveGUI.ViewModels.SettingsViewModel.LogVm
   href: EasySaveGUI.ViewModels.SettingsViewModel.html#EasySaveGUI_ViewModels_SettingsViewModel_LogVm
@@ -503,6 +661,32 @@ references:
   name: FormatLogViewModel
   nameWithType: FormatLogViewModel
   fullName: EasySaveGUI.ViewModels.FormatLogViewModel
+- uid: EasySaveGUI.ViewModels.SettingsViewModel.BusinessSoftwareVm*
+  commentId: Overload:EasySaveGUI.ViewModels.SettingsViewModel.BusinessSoftwareVm
+  href: EasySaveGUI.ViewModels.SettingsViewModel.html#EasySaveGUI_ViewModels_SettingsViewModel_BusinessSoftwareVm
+  name: BusinessSoftwareVm
+  nameWithType: SettingsViewModel.BusinessSoftwareVm
+  fullName: EasySaveGUI.ViewModels.SettingsViewModel.BusinessSoftwareVm
+- uid: EasySaveGUI.ViewModels.BusinessSoftwareViewModel
+  commentId: T:EasySaveGUI.ViewModels.BusinessSoftwareViewModel
+  parent: EasySaveGUI.ViewModels
+  href: EasySaveGUI.ViewModels.BusinessSoftwareViewModel.html
+  name: BusinessSoftwareViewModel
+  nameWithType: BusinessSoftwareViewModel
+  fullName: EasySaveGUI.ViewModels.BusinessSoftwareViewModel
+- uid: EasySaveGUI.ViewModels.SettingsViewModel.FileExtensionVm*
+  commentId: Overload:EasySaveGUI.ViewModels.SettingsViewModel.FileExtensionVm
+  href: EasySaveGUI.ViewModels.SettingsViewModel.html#EasySaveGUI_ViewModels_SettingsViewModel_FileExtensionVm
+  name: FileExtensionVm
+  nameWithType: SettingsViewModel.FileExtensionVm
+  fullName: EasySaveGUI.ViewModels.SettingsViewModel.FileExtensionVm
+- uid: EasySaveGUI.ViewModels.FileExtensionViewModel
+  commentId: T:EasySaveGUI.ViewModels.FileExtensionViewModel
+  parent: EasySaveGUI.ViewModels
+  href: EasySaveGUI.ViewModels.FileExtensionViewModel.html
+  name: FileExtensionViewModel
+  nameWithType: FileExtensionViewModel
+  fullName: EasySaveGUI.ViewModels.FileExtensionViewModel
 - uid: EasySaveGUI.ViewModels.SettingsViewModel.#ctor*
   commentId: Overload:EasySaveGUI.ViewModels.SettingsViewModel.#ctor
   href: EasySaveGUI.ViewModels.SettingsViewModel.html#EasySaveGUI_ViewModels_SettingsViewModel__ctor
@@ -512,3 +696,9 @@ references:
   nameWithType.vb: SettingsViewModel.New
   fullName.vb: EasySaveGUI.ViewModels.SettingsViewModel.New
   name.vb: New
+- uid: EasySaveGUI.ViewModels.SettingsViewModel.ResetCurrentLayout*
+  commentId: Overload:EasySaveGUI.ViewModels.SettingsViewModel.ResetCurrentLayout
+  href: EasySaveGUI.ViewModels.SettingsViewModel.html#EasySaveGUI_ViewModels_SettingsViewModel_ResetCurrentLayout
+  name: ResetCurrentLayout
+  nameWithType: SettingsViewModel.ResetCurrentLayout
+  fullName: EasySaveGUI.ViewModels.SettingsViewModel.ResetCurrentLayout

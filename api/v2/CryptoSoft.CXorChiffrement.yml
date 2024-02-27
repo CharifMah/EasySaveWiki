@@ -1,0 +1,527 @@
+### YamlMime:ManagedReference
+items:
+- uid: CryptoSoft.CXorChiffrement
+  commentId: T:CryptoSoft.CXorChiffrement
+  id: CXorChiffrement
+  parent: CryptoSoft
+  children:
+  - CryptoSoft.CXorChiffrement.Decrypt(System.Byte[],System.Byte[])
+  - CryptoSoft.CXorChiffrement.Encrypt(System.Byte[],System.Byte[])
+  langs:
+  - csharp
+  - vb
+  name: CXorChiffrement
+  nameWithType: CXorChiffrement
+  fullName: CryptoSoft.CXorChiffrement
+  type: Class
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/CryptoSoft/CXorChiffrement.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: CXorChiffrement
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/CryptoSoft/CXorChiffrement.cs
+    startLine: 7
+  assemblies:
+  - CryptoSoft
+  namespace: CryptoSoft
+  summary: Classe concrete de chiffrement XOR
+  example: []
+  syntax:
+    content: 'public class CXorChiffrement : BaseChiffrement'
+    content.vb: Public Class CXorChiffrement Inherits BaseChiffrement
+  inheritance:
+  - System.Object
+  - CryptoSoft.BaseChiffrement
+  inheritedMembers:
+  - CryptoSoft.BaseChiffrement.EncryptTime
+  - CryptoSoft.BaseChiffrement.DecryptTime
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: CryptoSoft.CXorChiffrement.Encrypt(System.Byte[],System.Byte[])
+  commentId: M:CryptoSoft.CXorChiffrement.Encrypt(System.Byte[],System.Byte[])
+  id: Encrypt(System.Byte[],System.Byte[])
+  parent: CryptoSoft.CXorChiffrement
+  langs:
+  - csharp
+  - vb
+  name: Encrypt(byte[], byte[])
+  nameWithType: CXorChiffrement.Encrypt(byte[], byte[])
+  fullName: CryptoSoft.CXorChiffrement.Encrypt(byte[], byte[])
+  type: Method
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/CryptoSoft/CXorChiffrement.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: Encrypt
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/CryptoSoft/CXorChiffrement.cs
+    startLine: 9
+  assemblies:
+  - CryptoSoft
+  namespace: CryptoSoft
+  summary: Chiffre les données
+  example: []
+  syntax:
+    content: public override byte[] Encrypt(byte[] pData, byte[] pKey)
+    parameters:
+    - id: pData
+      type: System.Byte[]
+    - id: pKey
+      type: System.Byte[]
+    return:
+      type: System.Byte[]
+      description: tableau d'octet
+    content.vb: Public Overrides Function Encrypt(pData As Byte(), pKey As Byte()) As Byte()
+  overridden: CryptoSoft.BaseChiffrement.Encrypt(System.Byte[],System.Byte[])
+  overload: CryptoSoft.CXorChiffrement.Encrypt*
+  nameWithType.vb: CXorChiffrement.Encrypt(Byte(), Byte())
+  fullName.vb: CryptoSoft.CXorChiffrement.Encrypt(Byte(), Byte())
+  name.vb: Encrypt(Byte(), Byte())
+- uid: CryptoSoft.CXorChiffrement.Decrypt(System.Byte[],System.Byte[])
+  commentId: M:CryptoSoft.CXorChiffrement.Decrypt(System.Byte[],System.Byte[])
+  id: Decrypt(System.Byte[],System.Byte[])
+  parent: CryptoSoft.CXorChiffrement
+  langs:
+  - csharp
+  - vb
+  name: Decrypt(byte[], byte[])
+  nameWithType: CXorChiffrement.Decrypt(byte[], byte[])
+  fullName: CryptoSoft.CXorChiffrement.Decrypt(byte[], byte[])
+  type: Method
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/CryptoSoft/CXorChiffrement.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: Decrypt
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/CryptoSoft/CXorChiffrement.cs
+    startLine: 22
+  assemblies:
+  - CryptoSoft
+  namespace: CryptoSoft
+  summary: Déchiffre les données
+  example: []
+  syntax:
+    content: public override byte[] Decrypt(byte[] pData, byte[] pKey)
+    parameters:
+    - id: pData
+      type: System.Byte[]
+    - id: pKey
+      type: System.Byte[]
+    return:
+      type: System.Byte[]
+      description: tableau d'octet
+    content.vb: Public Overrides Function Decrypt(pData As Byte(), pKey As Byte()) As Byte()
+  overridden: CryptoSoft.BaseChiffrement.Decrypt(System.Byte[],System.Byte[])
+  overload: CryptoSoft.CXorChiffrement.Decrypt*
+  nameWithType.vb: CXorChiffrement.Decrypt(Byte(), Byte())
+  fullName.vb: CryptoSoft.CXorChiffrement.Decrypt(Byte(), Byte())
+  name.vb: Decrypt(Byte(), Byte())
+references:
+- uid: CryptoSoft
+  commentId: N:CryptoSoft
+  href: CryptoSoft.html
+  name: CryptoSoft
+  nameWithType: CryptoSoft
+  fullName: CryptoSoft
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: CryptoSoft.BaseChiffrement
+  commentId: T:CryptoSoft.BaseChiffrement
+  parent: CryptoSoft
+  href: CryptoSoft.BaseChiffrement.html
+  name: BaseChiffrement
+  nameWithType: BaseChiffrement
+  fullName: CryptoSoft.BaseChiffrement
+- uid: CryptoSoft.BaseChiffrement.EncryptTime
+  commentId: P:CryptoSoft.BaseChiffrement.EncryptTime
+  parent: CryptoSoft.BaseChiffrement
+  href: CryptoSoft.BaseChiffrement.html#CryptoSoft_BaseChiffrement_EncryptTime
+  name: EncryptTime
+  nameWithType: BaseChiffrement.EncryptTime
+  fullName: CryptoSoft.BaseChiffrement.EncryptTime
+- uid: CryptoSoft.BaseChiffrement.DecryptTime
+  commentId: P:CryptoSoft.BaseChiffrement.DecryptTime
+  parent: CryptoSoft.BaseChiffrement
+  href: CryptoSoft.BaseChiffrement.html#CryptoSoft_BaseChiffrement_DecryptTime
+  name: DecryptTime
+  nameWithType: BaseChiffrement.DecryptTime
+  fullName: CryptoSoft.BaseChiffrement.DecryptTime
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CryptoSoft.BaseChiffrement.Encrypt(System.Byte[],System.Byte[])
+  commentId: M:CryptoSoft.BaseChiffrement.Encrypt(System.Byte[],System.Byte[])
+  parent: CryptoSoft.BaseChiffrement
+  isExternal: true
+  href: CryptoSoft.BaseChiffrement.html#CryptoSoft_BaseChiffrement_Encrypt_System_Byte___System_Byte___
+  name: Encrypt(byte[], byte[])
+  nameWithType: BaseChiffrement.Encrypt(byte[], byte[])
+  fullName: CryptoSoft.BaseChiffrement.Encrypt(byte[], byte[])
+  nameWithType.vb: BaseChiffrement.Encrypt(Byte(), Byte())
+  fullName.vb: CryptoSoft.BaseChiffrement.Encrypt(Byte(), Byte())
+  name.vb: Encrypt(Byte(), Byte())
+  spec.csharp:
+  - uid: CryptoSoft.BaseChiffrement.Encrypt(System.Byte[],System.Byte[])
+    name: Encrypt
+    href: CryptoSoft.BaseChiffrement.html#CryptoSoft_BaseChiffrement_Encrypt_System_Byte___System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: CryptoSoft.BaseChiffrement.Encrypt(System.Byte[],System.Byte[])
+    name: Encrypt
+    href: CryptoSoft.BaseChiffrement.html#CryptoSoft_BaseChiffrement_Encrypt_System_Byte___System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+  - name: )
+- uid: CryptoSoft.CXorChiffrement.Encrypt*
+  commentId: Overload:CryptoSoft.CXorChiffrement.Encrypt
+  href: CryptoSoft.CXorChiffrement.html#CryptoSoft_CXorChiffrement_Encrypt_System_Byte___System_Byte___
+  name: Encrypt
+  nameWithType: CXorChiffrement.Encrypt
+  fullName: CryptoSoft.CXorChiffrement.Encrypt
+- uid: System.Byte[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+- uid: CryptoSoft.BaseChiffrement.Decrypt(System.Byte[],System.Byte[])
+  commentId: M:CryptoSoft.BaseChiffrement.Decrypt(System.Byte[],System.Byte[])
+  parent: CryptoSoft.BaseChiffrement
+  isExternal: true
+  href: CryptoSoft.BaseChiffrement.html#CryptoSoft_BaseChiffrement_Decrypt_System_Byte___System_Byte___
+  name: Decrypt(byte[], byte[])
+  nameWithType: BaseChiffrement.Decrypt(byte[], byte[])
+  fullName: CryptoSoft.BaseChiffrement.Decrypt(byte[], byte[])
+  nameWithType.vb: BaseChiffrement.Decrypt(Byte(), Byte())
+  fullName.vb: CryptoSoft.BaseChiffrement.Decrypt(Byte(), Byte())
+  name.vb: Decrypt(Byte(), Byte())
+  spec.csharp:
+  - uid: CryptoSoft.BaseChiffrement.Decrypt(System.Byte[],System.Byte[])
+    name: Decrypt
+    href: CryptoSoft.BaseChiffrement.html#CryptoSoft_BaseChiffrement_Decrypt_System_Byte___System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: CryptoSoft.BaseChiffrement.Decrypt(System.Byte[],System.Byte[])
+    name: Decrypt
+    href: CryptoSoft.BaseChiffrement.html#CryptoSoft_BaseChiffrement_Decrypt_System_Byte___System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+  - name: )
+- uid: CryptoSoft.CXorChiffrement.Decrypt*
+  commentId: Overload:CryptoSoft.CXorChiffrement.Decrypt
+  href: CryptoSoft.CXorChiffrement.html#CryptoSoft_CXorChiffrement_Decrypt_System_Byte___System_Byte___
+  name: Decrypt
+  nameWithType: CXorChiffrement.Decrypt
+  fullName: CryptoSoft.CXorChiffrement.Decrypt

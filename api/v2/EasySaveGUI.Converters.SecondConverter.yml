@@ -107,7 +107,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: ConvertBack
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/EasySaveGUI/Converters/SecondConverter.cs
-    startLine: 40
+    startLine: 61
   assemblies:
   - EasySaveGUI
   namespace: EasySaveGUI.Converters

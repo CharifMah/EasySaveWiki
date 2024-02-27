@@ -9,6 +9,7 @@ items:
   - Stockage.Logs.CLogger`1
   - Stockage.Logs.CStringLogger
   - Stockage.Logs.ILogger`1
+  - Stockage.Logs.ILogger`1.UpdateLogDelegate
   langs:
   - csharp
   - vb
@@ -127,6 +128,39 @@ references:
   - name: " "
   - name: T
   - name: )
+- uid: Stockage.Logs.ILogger`1.UpdateLogDelegate
+  commentId: T:Stockage.Logs.ILogger`1.UpdateLogDelegate
+  href: Stockage.Logs.ILogger-1.html
+  name: ILogger<T>.UpdateLogDelegate
+  nameWithType: ILogger<T>.UpdateLogDelegate
+  fullName: Stockage.Logs.ILogger<T>.UpdateLogDelegate
+  nameWithType.vb: ILogger(Of T).UpdateLogDelegate
+  fullName.vb: Stockage.Logs.ILogger(Of T).UpdateLogDelegate
+  name.vb: ILogger(Of T).UpdateLogDelegate
+  spec.csharp:
+  - uid: Stockage.Logs.ILogger`1
+    name: ILogger
+    href: Stockage.Logs.ILogger-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  - name: .
+  - uid: Stockage.Logs.ILogger`1.UpdateLogDelegate
+    name: UpdateLogDelegate
+    href: Stockage.Logs.ILogger-1.UpdateLogDelegate.html
+  spec.vb:
+  - uid: Stockage.Logs.ILogger`1
+    name: ILogger
+    href: Stockage.Logs.ILogger-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: .
+  - uid: Stockage.Logs.ILogger`1.UpdateLogDelegate
+    name: UpdateLogDelegate
+    href: Stockage.Logs.ILogger-1.UpdateLogDelegate.html
 - uid: Stockage.Logs
   commentId: N:Stockage.Logs
   href: Stockage.html

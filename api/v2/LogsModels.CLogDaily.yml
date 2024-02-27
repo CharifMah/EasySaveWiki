@@ -27,24 +27,29 @@ items:
   summary: Classe de log journalier
   example: []
   syntax:
-    content: 'public class CLogDaily : CLogBase, IPath, INotifyPropertyChanged'
-    content.vb: Public Class CLogDaily Inherits CLogBase Implements IPath, INotifyPropertyChanged
+    content: 'public class CLogDaily : CLogBase, IPath, INotifyPropertyChanged, IDisposable'
+    content.vb: Public Class CLogDaily Inherits CLogBase Implements IPath, INotifyPropertyChanged, IDisposable
   inheritance:
   - System.Object
   - LogsModels.CLogBase
   implements:
   - LogsModels.IPath
   - System.ComponentModel.INotifyPropertyChanged
+  - System.IDisposable
   inheritedMembers:
+  - LogsModels.CLogBase.Progress
   - LogsModels.CLogBase.Name
   - LogsModels.CLogBase.Date
   - LogsModels.CLogBase.TotalSize
   - LogsModels.CLogBase.SourceDirectory
   - LogsModels.CLogBase.TargetDirectory
-  - LogsModels.CLogBase.PropertyChanged
+  - LogsModels.CLogBase.FormatLog
+  - LogsModels.CLogBase.EncryptTime
   - LogsModels.CLogBase.Equals(System.Object)
   - LogsModels.CLogBase.GetHashCode
+  - LogsModels.CLogBase.PropertyChanged
   - LogsModels.CLogBase.NotifyPropertyChanged(System.String)
+  - LogsModels.CLogBase.Dispose
   - System.Object.Equals(System.Object,System.Object)
   - System.Object.GetType
   - System.Object.MemberwiseClone
@@ -68,7 +73,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: TransfertTime
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Logs/CLogDaily.cs
-    startLine: 13
+    startLine: 14
   assemblies:
   - LogsModels
   namespace: LogsModels
@@ -121,6 +126,21 @@ references:
   name: INotifyPropertyChanged
   nameWithType: INotifyPropertyChanged
   fullName: System.ComponentModel.INotifyPropertyChanged
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: LogsModels.CLogBase.Progress
+  commentId: P:LogsModels.CLogBase.Progress
+  parent: LogsModels.CLogBase
+  href: LogsModels.CLogBase.html#LogsModels_CLogBase_Progress
+  name: Progress
+  nameWithType: CLogBase.Progress
+  fullName: LogsModels.CLogBase.Progress
 - uid: LogsModels.CLogBase.Name
   commentId: P:LogsModels.CLogBase.Name
   parent: LogsModels.CLogBase
@@ -156,13 +176,20 @@ references:
   name: TargetDirectory
   nameWithType: CLogBase.TargetDirectory
   fullName: LogsModels.CLogBase.TargetDirectory
-- uid: LogsModels.CLogBase.PropertyChanged
-  commentId: E:LogsModels.CLogBase.PropertyChanged
+- uid: LogsModels.CLogBase.FormatLog
+  commentId: P:LogsModels.CLogBase.FormatLog
   parent: LogsModels.CLogBase
-  href: LogsModels.CLogBase.html#LogsModels_CLogBase_PropertyChanged
-  name: PropertyChanged
-  nameWithType: CLogBase.PropertyChanged
-  fullName: LogsModels.CLogBase.PropertyChanged
+  href: LogsModels.CLogBase.html#LogsModels_CLogBase_FormatLog
+  name: FormatLog
+  nameWithType: CLogBase.FormatLog
+  fullName: LogsModels.CLogBase.FormatLog
+- uid: LogsModels.CLogBase.EncryptTime
+  commentId: P:LogsModels.CLogBase.EncryptTime
+  parent: LogsModels.CLogBase
+  href: LogsModels.CLogBase.html#LogsModels_CLogBase_EncryptTime
+  name: EncryptTime
+  nameWithType: CLogBase.EncryptTime
+  fullName: LogsModels.CLogBase.EncryptTime
 - uid: LogsModels.CLogBase.Equals(System.Object)
   commentId: M:LogsModels.CLogBase.Equals(System.Object)
   parent: LogsModels.CLogBase
@@ -213,6 +240,13 @@ references:
     href: LogsModels.CLogBase.html#LogsModels_CLogBase_GetHashCode
   - name: (
   - name: )
+- uid: LogsModels.CLogBase.PropertyChanged
+  commentId: E:LogsModels.CLogBase.PropertyChanged
+  parent: LogsModels.CLogBase
+  href: LogsModels.CLogBase.html#LogsModels_CLogBase_PropertyChanged
+  name: PropertyChanged
+  nameWithType: CLogBase.PropertyChanged
+  fullName: LogsModels.CLogBase.PropertyChanged
 - uid: LogsModels.CLogBase.NotifyPropertyChanged(System.String)
   commentId: M:LogsModels.CLogBase.NotifyPropertyChanged(System.String)
   parent: LogsModels.CLogBase
@@ -243,6 +277,25 @@ references:
     name: String
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: LogsModels.CLogBase.Dispose
+  commentId: M:LogsModels.CLogBase.Dispose
+  parent: LogsModels.CLogBase
+  href: LogsModels.CLogBase.html#LogsModels_CLogBase_Dispose
+  name: Dispose()
+  nameWithType: CLogBase.Dispose()
+  fullName: LogsModels.CLogBase.Dispose()
+  spec.csharp:
+  - uid: LogsModels.CLogBase.Dispose
+    name: Dispose
+    href: LogsModels.CLogBase.html#LogsModels_CLogBase_Dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: LogsModels.CLogBase.Dispose
+    name: Dispose
+    href: LogsModels.CLogBase.html#LogsModels_CLogBase_Dispose
+  - name: (
   - name: )
 - uid: System.Object.Equals(System.Object,System.Object)
   commentId: M:System.Object.Equals(System.Object,System.Object)

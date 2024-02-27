@@ -22,7 +22,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: LangueViewModel
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/LangueViewModel.cs
-    startLine: 7
+    startLine: 8
   assemblies:
   - EasySaveGUI
   namespace: EasySaveGUI.ViewModels
@@ -64,7 +64,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Langue
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/LangueViewModel.cs
-    startLine: 13
+    startLine: 14
   assemblies:
   - EasySaveGUI
   namespace: EasySaveGUI.ViewModels
@@ -74,7 +74,7 @@ items:
     content: public CLangue Langue { get; set; }
     parameters: []
     return:
-      type: Models.CLangue
+      type: Models.Langue.CLangue
     content.vb: Public Property Langue As CLangue
   overload: EasySaveGUI.ViewModels.LangueViewModel.Langue*
 - uid: EasySaveGUI.ViewModels.LangueViewModel.#ctor
@@ -95,7 +95,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: .ctor
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/LangueViewModel.cs
-    startLine: 21
+    startLine: 22
   assemblies:
   - EasySaveGUI
   namespace: EasySaveGUI.ViewModels
@@ -126,7 +126,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: SetLanguage
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/LangueViewModel.cs
-    startLine: 32
+    startLine: 33
   assemblies:
   - EasySaveGUI
   namespace: EasySaveGUI.ViewModels
@@ -492,19 +492,35 @@ references:
   name: Langue
   nameWithType: LangueViewModel.Langue
   fullName: EasySaveGUI.ViewModels.LangueViewModel.Langue
-- uid: Models.CLangue
-  commentId: T:Models.CLangue
-  parent: Models
-  href: Models.CLangue.html
+- uid: Models.Langue.CLangue
+  commentId: T:Models.Langue.CLangue
+  parent: Models.Langue
+  href: Models.Langue.CLangue.html
   name: CLangue
   nameWithType: CLangue
-  fullName: Models.CLangue
-- uid: Models
-  commentId: N:Models
+  fullName: Models.Langue.CLangue
+- uid: Models.Langue
+  commentId: N:Models.Langue
   href: Models.html
-  name: Models
-  nameWithType: Models
-  fullName: Models
+  name: Models.Langue
+  nameWithType: Models.Langue
+  fullName: Models.Langue
+  spec.csharp:
+  - uid: Models
+    name: Models
+    href: Models.html
+  - name: .
+  - uid: Models.Langue
+    name: Langue
+    href: Models.Langue.html
+  spec.vb:
+  - uid: Models
+    name: Models
+    href: Models.html
+  - name: .
+  - uid: Models.Langue
+    name: Langue
+    href: Models.Langue.html
 - uid: EasySaveGUI.ViewModels.LangueViewModel.#ctor*
   commentId: Overload:EasySaveGUI.ViewModels.LangueViewModel.#ctor
   href: EasySaveGUI.ViewModels.LangueViewModel.html#EasySaveGUI_ViewModels_LangueViewModel__ctor

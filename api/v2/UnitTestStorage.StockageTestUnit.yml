@@ -5,8 +5,8 @@ items:
   id: StockageTestUnit
   parent: UnitTestStorage
   children:
-  - UnitTestStorage.StockageTestUnit.TestExtensionSerialisation
-  - UnitTestStorage.StockageTestUnit.TestSerialisation
+  - UnitTestStorage.StockageTestUnit.TestExtensionSerialization
+  - UnitTestStorage.StockageTestUnit.TestSerialization
   langs:
   - csharp
   - vb
@@ -38,23 +38,23 @@ items:
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.ToString
-- uid: UnitTestStorage.StockageTestUnit.TestSerialisation
-  commentId: M:UnitTestStorage.StockageTestUnit.TestSerialisation
-  id: TestSerialisation
+- uid: UnitTestStorage.StockageTestUnit.TestSerialization
+  commentId: M:UnitTestStorage.StockageTestUnit.TestSerialization
+  id: TestSerialization
   parent: UnitTestStorage.StockageTestUnit
   langs:
   - csharp
   - vb
-  name: TestSerialisation()
-  nameWithType: StockageTestUnit.TestSerialisation()
-  fullName: UnitTestStorage.StockageTestUnit.TestSerialisation()
+  name: TestSerialization()
+  nameWithType: StockageTestUnit.TestSerialization()
+  fullName: UnitTestStorage.StockageTestUnit.TestSerialization()
   type: Method
   source:
     remote:
       path: EasySave-2.0/EasySaveGUI/UnitTestStorage/StockageTestUnit.cs
       branch: develop-livrable-2
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
-    id: TestSerialisation
+    id: TestSerialization
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/UnitTestStorage/StockageTestUnit.cs
     startLine: 7
   assemblies:
@@ -64,33 +64,33 @@ items:
     content: >-
       [Fact]
 
-      public void TestSerialisation()
+      public void TestSerialization()
     content.vb: >-
       <Fact>
 
-      Public Sub TestSerialisation()
-  overload: UnitTestStorage.StockageTestUnit.TestSerialisation*
+      Public Sub TestSerialization()
+  overload: UnitTestStorage.StockageTestUnit.TestSerialization*
   attributes:
   - type: Xunit.FactAttribute
     ctor: Xunit.FactAttribute.#ctor
     arguments: []
-- uid: UnitTestStorage.StockageTestUnit.TestExtensionSerialisation
-  commentId: M:UnitTestStorage.StockageTestUnit.TestExtensionSerialisation
-  id: TestExtensionSerialisation
+- uid: UnitTestStorage.StockageTestUnit.TestExtensionSerialization
+  commentId: M:UnitTestStorage.StockageTestUnit.TestExtensionSerialization
+  id: TestExtensionSerialization
   parent: UnitTestStorage.StockageTestUnit
   langs:
   - csharp
   - vb
-  name: TestExtensionSerialisation()
-  nameWithType: StockageTestUnit.TestExtensionSerialisation()
-  fullName: UnitTestStorage.StockageTestUnit.TestExtensionSerialisation()
+  name: TestExtensionSerialization()
+  nameWithType: StockageTestUnit.TestExtensionSerialization()
+  fullName: UnitTestStorage.StockageTestUnit.TestExtensionSerialization()
   type: Method
   source:
     remote:
       path: EasySave-2.0/EasySaveGUI/UnitTestStorage/StockageTestUnit.cs
       branch: develop-livrable-2
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
-    id: TestExtensionSerialisation
+    id: TestExtensionSerialization
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/UnitTestStorage/StockageTestUnit.cs
     startLine: 24
   assemblies:
@@ -100,12 +100,12 @@ items:
     content: >-
       [Fact]
 
-      public void TestExtensionSerialisation()
+      public void TestExtensionSerialization()
     content.vb: >-
       <Fact>
 
-      Public Sub TestExtensionSerialisation()
-  overload: UnitTestStorage.StockageTestUnit.TestExtensionSerialisation*
+      Public Sub TestExtensionSerialization()
+  overload: UnitTestStorage.StockageTestUnit.TestExtensionSerialization*
   attributes:
   - type: Xunit.FactAttribute
     ctor: Xunit.FactAttribute.#ctor
@@ -354,15 +354,15 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: UnitTestStorage.StockageTestUnit.TestSerialisation*
-  commentId: Overload:UnitTestStorage.StockageTestUnit.TestSerialisation
-  href: UnitTestStorage.StockageTestUnit.html#UnitTestStorage_StockageTestUnit_TestSerialisation
-  name: TestSerialisation
-  nameWithType: StockageTestUnit.TestSerialisation
-  fullName: UnitTestStorage.StockageTestUnit.TestSerialisation
-- uid: UnitTestStorage.StockageTestUnit.TestExtensionSerialisation*
-  commentId: Overload:UnitTestStorage.StockageTestUnit.TestExtensionSerialisation
-  href: UnitTestStorage.StockageTestUnit.html#UnitTestStorage_StockageTestUnit_TestExtensionSerialisation
-  name: TestExtensionSerialisation
-  nameWithType: StockageTestUnit.TestExtensionSerialisation
-  fullName: UnitTestStorage.StockageTestUnit.TestExtensionSerialisation
+- uid: UnitTestStorage.StockageTestUnit.TestSerialization*
+  commentId: Overload:UnitTestStorage.StockageTestUnit.TestSerialization
+  href: UnitTestStorage.StockageTestUnit.html#UnitTestStorage_StockageTestUnit_TestSerialization
+  name: TestSerialization
+  nameWithType: StockageTestUnit.TestSerialization
+  fullName: UnitTestStorage.StockageTestUnit.TestSerialization
+- uid: UnitTestStorage.StockageTestUnit.TestExtensionSerialization*
+  commentId: Overload:UnitTestStorage.StockageTestUnit.TestExtensionSerialization
+  href: UnitTestStorage.StockageTestUnit.html#UnitTestStorage_StockageTestUnit_TestExtensionSerialization
+  name: TestExtensionSerialization
+  nameWithType: StockageTestUnit.TestExtensionSerialization
+  fullName: UnitTestStorage.StockageTestUnit.TestExtensionSerialization

@@ -7,6 +7,7 @@ items:
   children:
   - EasySaveGUI.Views.MenuPage.#ctor(EasySaveGUI.ViewModels.MainViewModel)
   - EasySaveGUI.Views.MenuPage.ClearLists
+  - EasySaveGUI.Views.MenuPage.ShowValidation
   langs:
   - csharp
   - vb
@@ -684,7 +685,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: ClearLists
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/EasySaveGUI/Views/MenuPage.xaml.cs
-    startLine: 35
+    startLine: 34
   assemblies:
   - EasySaveGUI
   namespace: EasySaveGUI.Views
@@ -692,6 +693,32 @@ items:
     content: public void ClearLists()
     content.vb: Public Sub ClearLists()
   overload: EasySaveGUI.Views.MenuPage.ClearLists*
+- uid: EasySaveGUI.Views.MenuPage.ShowValidation
+  commentId: M:EasySaveGUI.Views.MenuPage.ShowValidation
+  id: ShowValidation
+  parent: EasySaveGUI.Views.MenuPage
+  langs:
+  - csharp
+  - vb
+  name: ShowValidation()
+  nameWithType: MenuPage.ShowValidation()
+  fullName: EasySaveGUI.Views.MenuPage.ShowValidation()
+  type: Method
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/EasySaveGUI/Views/MenuPage.xaml.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: ShowValidation
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/EasySaveGUI/Views/MenuPage.xaml.cs
+    startLine: 57
+  assemblies:
+  - EasySaveGUI
+  namespace: EasySaveGUI.Views
+  syntax:
+    content: public void ShowValidation()
+    content.vb: Public Sub ShowValidation()
+  overload: EasySaveGUI.Views.MenuPage.ShowValidation*
 references:
 - uid: EasySaveGUI.Views
   commentId: N:EasySaveGUI.Views
@@ -10409,3 +10436,9 @@ references:
   name: ClearLists
   nameWithType: MenuPage.ClearLists
   fullName: EasySaveGUI.Views.MenuPage.ClearLists
+- uid: EasySaveGUI.Views.MenuPage.ShowValidation*
+  commentId: Overload:EasySaveGUI.Views.MenuPage.ShowValidation
+  href: EasySaveGUI.Views.MenuPage.html#EasySaveGUI_Views_MenuPage_ShowValidation
+  name: ShowValidation
+  nameWithType: MenuPage.ShowValidation
+  fullName: EasySaveGUI.Views.MenuPage.ShowValidation

@@ -20,7 +20,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: JobMenuControl
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/EasySaveGUI/UserControls/JobMenuControl.xaml.cs
-    startLine: 11
+    startLine: 12
   assemblies:
   - EasySaveGUI
   namespace: EasySaveGUI.UserControls
@@ -685,7 +685,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: .ctor
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/EasySaveGUI/UserControls/JobMenuControl.xaml.cs
-    startLine: 14
+    startLine: 16
   assemblies:
   - EasySaveGUI
   namespace: EasySaveGUI.UserControls

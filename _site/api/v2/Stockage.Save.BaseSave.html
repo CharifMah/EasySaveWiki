@@ -89,7 +89,7 @@
 
 
   <h1 id="Stockage_Save_BaseSave" data-uid="Stockage.Save.BaseSave" class="text-break">
-Class BaseSave  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Stockage/Save/BaseSave.cs&amp;version=GBdevelop-livrable-2&amp;line=11"><i class="bi bi-code-slash"></i></a>
+Class BaseSave  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Stockage/Save/BaseSave.cs&amp;version=GBdevelop-livrable-2&amp;line=12"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -127,7 +127,6 @@ Class BaseSave  <a class="header-action link-secondary" title="View source" href
     <dt>Derived</dt>
     <dd>
       <div><a class="xref" href="../v1/Stockage.Save.SauveCollection.html">SauveCollection</a></div>
-      <div><a class="xref" href="../v1/Stockage.Save.SauveJobs.html">SauveJobs</a></div>
       <div><a class="xref" href="../v1/Stockage.Save.SauveJobsAsync.html">SauveJobsAsync</a></div>
     </dd>
   </dl>
@@ -171,7 +170,7 @@ Class BaseSave  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="Stockage_Save_BaseSave__ctor_System_String_" data-uid="Stockage.Save.BaseSave.#ctor(System.String)">
   BaseSave(string)
-  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Stockage/Save/BaseSave.cs&amp;version=GBdevelop-livrable-2&amp;line=23"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Stockage/Save/BaseSave.cs&amp;version=GBdevelop-livrable-2&amp;line=32"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Sauvegarde</p>
@@ -200,27 +199,29 @@ Class BaseSave  <a class="header-action link-secondary" title="View source" href
 
 
 
-  <h2 class="section" id="fields">Fields
+  <h2 class="section" id="properties">Properties
 </h2>
 
 
+  <a id="Stockage_Save_BaseSave_FolderPath_" data-uid="Stockage.Save.BaseSave.FolderPath*"></a>
 
-  <h3 id="Stockage_Save_BaseSave__path" data-uid="Stockage.Save.BaseSave._path">
-  _path
-  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Stockage/Save/BaseSave.cs&amp;version=GBdevelop-livrable-2&amp;line=13"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Stockage_Save_BaseSave_FolderPath" data-uid="Stockage.Save.BaseSave.FolderPath">
+  FolderPath
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Stockage/Save/BaseSave.cs&amp;version=GBdevelop-livrable-2&amp;line=24"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected string _path</code></pre>
+    <pre><code class="lang-csharp hljs">public string FolderPath { get; set; }</code></pre>
   </div>
 
 
 
 
-  <h4 class="section">Field Value</h4>
+
+  <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd></dd>
@@ -233,16 +234,11 @@ Class BaseSave  <a class="header-action link-secondary" title="View source" href
 
 
 
-
-  <h2 class="section" id="properties">Properties
-</h2>
-
-
   <a id="Stockage_Save_BaseSave_Options_" data-uid="Stockage.Save.BaseSave.Options*"></a>
 
   <h3 id="Stockage_Save_BaseSave_Options" data-uid="Stockage.Save.BaseSave.Options">
   Options
-  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Stockage/Save/BaseSave.cs&amp;version=GBdevelop-livrable-2&amp;line=17"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Stockage/Save/BaseSave.cs&amp;version=GBdevelop-livrable-2&amp;line=22"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -277,7 +273,7 @@ Class BaseSave  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="Stockage_Save_BaseSave_CopyDirectory_System_IO_DirectoryInfo_System_IO_DirectoryInfo_System_Boolean_LogsModels_CLogState__System_Boolean_" data-uid="Stockage.Save.BaseSave.CopyDirectory(System.IO.DirectoryInfo,System.IO.DirectoryInfo,System.Boolean,LogsModels.CLogState@,System.Boolean)">
   CopyDirectory(DirectoryInfo, DirectoryInfo, bool, ref CLogState, bool)
-  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Stockage/Save/BaseSave.cs&amp;version=GBdevelop-livrable-2&amp;line=88"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Stockage/Save/BaseSave.cs&amp;version=GBdevelop-livrable-2&amp;line=99"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Copy files and directory from the source path to the destinationPath</p>
@@ -324,16 +320,16 @@ Class BaseSave  <a class="header-action link-secondary" title="View source" href
 
   <a id="Stockage_Save_BaseSave_CopyDirectoryAsync_" data-uid="Stockage.Save.BaseSave.CopyDirectoryAsync*"></a>
 
-  <h3 id="Stockage_Save_BaseSave_CopyDirectoryAsync_System_IO_DirectoryInfo_System_IO_DirectoryInfo_System_Boolean_System_Boolean_" data-uid="Stockage.Save.BaseSave.CopyDirectoryAsync(System.IO.DirectoryInfo,System.IO.DirectoryInfo,System.Boolean,System.Boolean)">
-  CopyDirectoryAsync(DirectoryInfo, DirectoryInfo, bool, bool)
-  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Stockage/Save/BaseSave.cs&amp;version=GBdevelop-livrable-2&amp;line=97"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Stockage_Save_BaseSave_CopyDirectoryAsync_System_IO_DirectoryInfo_System_IO_DirectoryInfo_Stockage_Logs_ILogger_System_UInt32__UpdateLogDelegate_System_Boolean_System_Boolean_" data-uid="Stockage.Save.BaseSave.CopyDirectoryAsync(System.IO.DirectoryInfo,System.IO.DirectoryInfo,Stockage.Logs.ILogger{System.UInt32}.UpdateLogDelegate,System.Boolean,System.Boolean)">
+  CopyDirectoryAsync(DirectoryInfo, DirectoryInfo, UpdateLogDelegate, bool, bool)
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Stockage/Save/BaseSave.cs&amp;version=GBdevelop-livrable-2&amp;line=103"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual Task CopyDirectoryAsync(DirectoryInfo pSourceDir, DirectoryInfo pTargetDir, bool pRecursive, bool pDiffertielle = false)</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual void CopyDirectoryAsync(DirectoryInfo pSourceDir, DirectoryInfo pTargetDir, ILogger&lt;uint&gt;.UpdateLogDelegate pUpdateLog, bool pRecursive, bool pDiffertielle = false)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -342,61 +338,14 @@ Class BaseSave  <a class="header-action link-secondary" title="View source" href
     <dd></dd>
     <dt><code>pTargetDir</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.directoryinfo">DirectoryInfo</a></dt>
     <dd></dd>
+    <dt><code>pUpdateLog</code> <a class="xref" href="Stockage.Logs.ILogger-1.html">ILogger</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a>&gt;.<a class="xref" href="Stockage.Logs.ILogger-1.UpdateLogDelegate.html">UpdateLogDelegate</a></dt>
+    <dd></dd>
     <dt><code>pRecursive</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
     <dd></dd>
     <dt><code>pDiffertielle</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
     <dd></dd>
   </dl>
 
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-  <a id="Stockage_Save_BaseSave_CopyDirectoryAsync_" data-uid="Stockage.Save.BaseSave.CopyDirectoryAsync*"></a>
-
-  <h3 id="Stockage_Save_BaseSave_CopyDirectoryAsync_System_IO_DirectoryInfo_System_IO_DirectoryInfo_System_Boolean_System_Collections_Generic_List_LogsModels_CLogState__System_Boolean_" data-uid="Stockage.Save.BaseSave.CopyDirectoryAsync(System.IO.DirectoryInfo,System.IO.DirectoryInfo,System.Boolean,System.Collections.Generic.List{LogsModels.CLogState},System.Boolean)">
-  CopyDirectoryAsync(DirectoryInfo, DirectoryInfo, bool, List&lt;CLogState&gt;, bool)
-  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Stockage/Save/BaseSave.cs&amp;version=GBdevelop-livrable-2&amp;line=93"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual Task CopyDirectoryAsync(DirectoryInfo pSourceDir, DirectoryInfo pTargetDir, bool pRecursive, List&lt;CLogState&gt; pLogState, bool pDiffertielle = false)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>pSourceDir</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.directoryinfo">DirectoryInfo</a></dt>
-    <dd></dd>
-    <dt><code>pTargetDir</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.directoryinfo">DirectoryInfo</a></dt>
-    <dd></dd>
-    <dt><code>pRecursive</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
-    <dt><code>pLogState</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="LogsModels.CLogState.html">CLogState</a>&gt;</dt>
-    <dd></dd>
-    <dt><code>pDiffertielle</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
-    <dd></dd>
-  </dl>
 
 
 
@@ -412,7 +361,7 @@ Class BaseSave  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="Stockage_Save_BaseSave_Sauver__1___0_System_String_System_Boolean_System_String_System_Boolean_" data-uid="Stockage.Save.BaseSave.Sauver``1(``0,System.String,System.Boolean,System.String,System.Boolean)">
   Sauver&lt;T&gt;(T, string, bool, string, bool)
-  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Stockage/Save/BaseSave.cs&amp;version=GBdevelop-livrable-2&amp;line=37"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Stockage/Save/BaseSave.cs&amp;version=GBdevelop-livrable-2&amp;line=51"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Crée un fichier Json par default avec les Settings</p>
@@ -461,7 +410,7 @@ Class BaseSave  <a class="header-action link-secondary" title="View source" href
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Stockage/Save/BaseSave.cs&amp;version=GBdevelop-livrable-2&amp;line=11" class="edit-link">Edit this page</a>
+          <a href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Stockage/Save/BaseSave.cs&amp;version=GBdevelop-livrable-2&amp;line=12" class="edit-link">Edit this page</a>
         </div>
 
 

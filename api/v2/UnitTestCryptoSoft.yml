@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: UnitTestCryptoSoft
+  commentId: N:UnitTestCryptoSoft
+  id: UnitTestCryptoSoft
+  children:
+  - UnitTestCryptoSoft.EncryptDecryptTest
+  langs:
+  - csharp
+  - vb
+  name: UnitTestCryptoSoft
+  nameWithType: UnitTestCryptoSoft
+  fullName: UnitTestCryptoSoft
+  type: Namespace
+  assemblies:
+  - UnitTestCryptoSoft
+references:
+- uid: UnitTestCryptoSoft.EncryptDecryptTest
+  commentId: T:UnitTestCryptoSoft.EncryptDecryptTest
+  href: UnitTestCryptoSoft.EncryptDecryptTest.html
+  name: EncryptDecryptTest
+  nameWithType: EncryptDecryptTest
+  fullName: UnitTestCryptoSoft.EncryptDecryptTest

@@ -8,13 +8,15 @@ items:
   - EasySaveGUI.ViewModels.JobViewModel.#ctor
   - EasySaveGUI.ViewModels.JobViewModel.CreateBackupJob(Models.Backup.CJob)
   - EasySaveGUI.ViewModels.JobViewModel.DeleteJobs(System.Collections.Generic.List{Models.Backup.CJob})
-  - EasySaveGUI.ViewModels.JobViewModel.JobManager
   - EasySaveGUI.ViewModels.JobViewModel.Jobs
   - EasySaveGUI.ViewModels.JobViewModel.JobsRunning
-  - EasySaveGUI.ViewModels.JobViewModel.LoadJobs(System.Boolean,System.String)
+  - EasySaveGUI.ViewModels.JobViewModel.Name
+  - EasySaveGUI.ViewModels.JobViewModel.OnBusinessSoftwareDetected
   - EasySaveGUI.ViewModels.JobViewModel.RunJobs(System.Collections.Generic.List{Models.Backup.CJob})
+  - EasySaveGUI.ViewModels.JobViewModel.SauveCollection
   - EasySaveGUI.ViewModels.JobViewModel.SaveJobs
   - EasySaveGUI.ViewModels.JobViewModel.SelectedJob
+  - EasySaveGUI.ViewModels.JobViewModel.Stop
   langs:
   - csharp
   - vb
@@ -29,15 +31,19 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: JobViewModel
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/JobViewModel.cs
-    startLine: 11
+    startLine: 19
   assemblies:
   - EasySaveGUI
   namespace: EasySaveGUI.ViewModels
-  summary: Classe JobViewModel
-  example: []
   syntax:
-    content: 'public class JobViewModel : BaseViewModel, INotifyPropertyChanged'
-    content.vb: Public Class JobViewModel Inherits BaseViewModel Implements INotifyPropertyChanged
+    content: >-
+      [DataContract]
+
+      public class JobViewModel : BaseViewModel, INotifyPropertyChanged
+    content.vb: >-
+      <DataContract>
+
+      Public Class JobViewModel Inherits BaseViewModel Implements INotifyPropertyChanged
   inheritance:
   - System.Object
   - EasySaveGUI.ViewModels.BaseViewModel
@@ -53,37 +59,37 @@ items:
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.ToString
-- uid: EasySaveGUI.ViewModels.JobViewModel.JobManager
-  commentId: P:EasySaveGUI.ViewModels.JobViewModel.JobManager
-  id: JobManager
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+- uid: EasySaveGUI.ViewModels.JobViewModel.OnBusinessSoftwareDetected
+  commentId: E:EasySaveGUI.ViewModels.JobViewModel.OnBusinessSoftwareDetected
+  id: OnBusinessSoftwareDetected
   parent: EasySaveGUI.ViewModels.JobViewModel
   langs:
   - csharp
   - vb
-  name: JobManager
-  nameWithType: JobViewModel.JobManager
-  fullName: EasySaveGUI.ViewModels.JobViewModel.JobManager
-  type: Property
+  name: OnBusinessSoftwareDetected
+  nameWithType: JobViewModel.OnBusinessSoftwareDetected
+  fullName: EasySaveGUI.ViewModels.JobViewModel.OnBusinessSoftwareDetected
+  type: Event
   source:
     remote:
       path: EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/JobViewModel.cs
       branch: develop-livrable-2
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
-    id: JobManager
+    id: OnBusinessSoftwareDetected
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/JobViewModel.cs
-    startLine: 22
+    startLine: 35
   assemblies:
   - EasySaveGUI
   namespace: EasySaveGUI.ViewModels
-  summary: JobManager
-  example: []
   syntax:
-    content: public CJobManager JobManager { get; set; }
-    parameters: []
+    content: public event Action<string> OnBusinessSoftwareDetected
     return:
-      type: Models.Backup.CJobManager
-    content.vb: Public Property JobManager As CJobManager
-  overload: EasySaveGUI.ViewModels.JobViewModel.JobManager*
+      type: System.Action{System.String}
+    content.vb: Public Event OnBusinessSoftwareDetected As Action(Of String)
 - uid: EasySaveGUI.ViewModels.JobViewModel.SelectedJob
   commentId: P:EasySaveGUI.ViewModels.JobViewModel.SelectedJob
   id: SelectedJob
@@ -102,10 +108,12 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: SelectedJob
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/JobViewModel.cs
-    startLine: 32
+    startLine: 44
   assemblies:
   - EasySaveGUI
   namespace: EasySaveGUI.ViewModels
+  summary: Job selectionnée par l'utilisateur
+  example: []
   syntax:
     content: public CJob SelectedJob { get; set; }
     parameters: []
@@ -131,10 +139,12 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Jobs
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/JobViewModel.cs
-    startLine: 42
+    startLine: 57
   assemblies:
   - EasySaveGUI
   namespace: EasySaveGUI.ViewModels
+  summary: Liste des jobs gérés
+  example: []
   syntax:
     content: public ObservableCollection<CJob> Jobs { get; set; }
     parameters: []
@@ -142,6 +152,68 @@ items:
       type: System.Collections.ObjectModel.ObservableCollection{Models.Backup.CJob}
     content.vb: Public Property Jobs As ObservableCollection(Of CJob)
   overload: EasySaveGUI.ViewModels.JobViewModel.Jobs*
+- uid: EasySaveGUI.ViewModels.JobViewModel.Name
+  commentId: P:EasySaveGUI.ViewModels.JobViewModel.Name
+  id: Name
+  parent: EasySaveGUI.ViewModels.JobViewModel
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: JobViewModel.Name
+  fullName: EasySaveGUI.ViewModels.JobViewModel.Name
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/JobViewModel.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: Name
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/JobViewModel.cs
+    startLine: 62
+  assemblies:
+  - EasySaveGUI
+  namespace: EasySaveGUI.ViewModels
+  summary: Nom du gestionnaire
+  example: []
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: EasySaveGUI.ViewModels.JobViewModel.Name*
+- uid: EasySaveGUI.ViewModels.JobViewModel.SauveCollection
+  commentId: P:EasySaveGUI.ViewModels.JobViewModel.SauveCollection
+  id: SauveCollection
+  parent: EasySaveGUI.ViewModels.JobViewModel
+  langs:
+  - csharp
+  - vb
+  name: SauveCollection
+  nameWithType: JobViewModel.SauveCollection
+  fullName: EasySaveGUI.ViewModels.JobViewModel.SauveCollection
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/JobViewModel.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: SauveCollection
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/JobViewModel.cs
+    startLine: 67
+  assemblies:
+  - EasySaveGUI
+  namespace: EasySaveGUI.ViewModels
+  summary: Interface de sauvegarde des données
+  example: []
+  syntax:
+    content: public ISauve SauveCollection { get; set; }
+    parameters: []
+    return:
+      type: Stockage.Save.ISauve
+    content.vb: Public Property SauveCollection As ISauve
+  overload: EasySaveGUI.ViewModels.JobViewModel.SauveCollection*
 - uid: EasySaveGUI.ViewModels.JobViewModel.JobsRunning
   commentId: P:EasySaveGUI.ViewModels.JobViewModel.JobsRunning
   id: JobsRunning
@@ -160,10 +232,12 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: JobsRunning
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/JobViewModel.cs
-    startLine: 54
+    startLine: 71
   assemblies:
   - EasySaveGUI
   namespace: EasySaveGUI.ViewModels
+  summary: Les jobs en cours d’exécution
+  example: []
   syntax:
     content: public ObservableCollection<CJob> JobsRunning { get; set; }
     parameters: []
@@ -189,11 +263,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: .ctor
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/JobViewModel.cs
-    startLine: 62
+    startLine: 80
   assemblies:
   - EasySaveGUI
   namespace: EasySaveGUI.ViewModels
-  summary: Constructeur de JobViewModel initialise le JobManager
+  summary: Constructeur de JobViewModel initialise le chemin de sauvegarde
   example: []
   syntax:
     content: public JobViewModel()
@@ -220,7 +294,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: RunJobs
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/JobViewModel.cs
-    startLine: 81
+    startLine: 103
   assemblies:
   - EasySaveGUI
   namespace: EasySaveGUI.ViewModels
@@ -240,6 +314,32 @@ items:
   nameWithType.vb: JobViewModel.RunJobs(List(Of CJob))
   fullName.vb: EasySaveGUI.ViewModels.JobViewModel.RunJobs(System.Collections.Generic.List(Of Models.Backup.CJob))
   name.vb: RunJobs(List(Of CJob))
+- uid: EasySaveGUI.ViewModels.JobViewModel.Stop
+  commentId: M:EasySaveGUI.ViewModels.JobViewModel.Stop
+  id: Stop
+  parent: EasySaveGUI.ViewModels.JobViewModel
+  langs:
+  - csharp
+  - vb
+  name: Stop()
+  nameWithType: JobViewModel.Stop()
+  fullName: EasySaveGUI.ViewModels.JobViewModel.Stop()
+  type: Method
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/JobViewModel.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: Stop
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/JobViewModel.cs
+    startLine: 221
+  assemblies:
+  - EasySaveGUI
+  namespace: EasySaveGUI.ViewModels
+  syntax:
+    content: public void Stop()
+    content.vb: Public Sub [Stop]()
+  overload: EasySaveGUI.ViewModels.JobViewModel.Stop*
 - uid: EasySaveGUI.ViewModels.JobViewModel.CreateBackupJob(Models.Backup.CJob)
   commentId: M:EasySaveGUI.ViewModels.JobViewModel.CreateBackupJob(Models.Backup.CJob)
   id: CreateBackupJob(Models.Backup.CJob)
@@ -258,21 +358,22 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: CreateBackupJob
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/JobViewModel.cs
-    startLine: 93
+    startLine: 260
   assemblies:
   - EasySaveGUI
   namespace: EasySaveGUI.ViewModels
   summary: Crée un nouveau job de sauvegarde
+  remarks: Created by Mehmeti Faik on 06/02/2024 Updated validation logic to handle null parameters
   example: []
   syntax:
     content: public bool CreateBackupJob(CJob lJob)
     parameters:
     - id: lJob
       type: Models.Backup.CJob
-      description: Job à créer
+      description: Objet représentant le job de sauvegarde à créer
     return:
       type: System.Boolean
-      description: Succès de la création
+      description: True si le job a été créé avec succès, false sinon
     content.vb: Public Function CreateBackupJob(lJob As CJob) As Boolean
   overload: EasySaveGUI.ViewModels.JobViewModel.CreateBackupJob*
 - uid: EasySaveGUI.ViewModels.JobViewModel.DeleteJobs(System.Collections.Generic.List{Models.Backup.CJob})
@@ -293,21 +394,22 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: DeleteJobs
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/JobViewModel.cs
-    startLine: 106
+    startLine: 277
   assemblies:
   - EasySaveGUI
   namespace: EasySaveGUI.ViewModels
-  summary: Supprimer un ou plusieurs jobs
+  summary: Supprimé un job
+  remarks: Mehmeti faik
   example: []
   syntax:
     content: public bool DeleteJobs(List<CJob> pJobs)
     parameters:
     - id: pJobs
       type: System.Collections.Generic.List{Models.Backup.CJob}
-      description: List de jobs a delete
+      description: List de jobs à supprimer
     return:
       type: System.Boolean
-      description: vrai si les jobs on été delete
+      description: true si réussi
     content.vb: Public Function DeleteJobs(pJobs As List(Of CJob)) As Boolean
   overload: EasySaveGUI.ViewModels.JobViewModel.DeleteJobs*
   nameWithType.vb: JobViewModel.DeleteJobs(List(Of CJob))
@@ -331,54 +433,16 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: SaveJobs
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/JobViewModel.cs
-    startLine: 114
+    startLine: 289
   assemblies:
   - EasySaveGUI
   namespace: EasySaveGUI.ViewModels
-  summary: Sauvegarde la configuration des jobs
+  summary: Sauvegarde le JobViewModel
   example: []
   syntax:
     content: public void SaveJobs()
     content.vb: Public Sub SaveJobs()
   overload: EasySaveGUI.ViewModels.JobViewModel.SaveJobs*
-- uid: EasySaveGUI.ViewModels.JobViewModel.LoadJobs(System.Boolean,System.String)
-  commentId: M:EasySaveGUI.ViewModels.JobViewModel.LoadJobs(System.Boolean,System.String)
-  id: LoadJobs(System.Boolean,System.String)
-  parent: EasySaveGUI.ViewModels.JobViewModel
-  langs:
-  - csharp
-  - vb
-  name: LoadJobs(bool, string)
-  nameWithType: JobViewModel.LoadJobs(bool, string)
-  fullName: EasySaveGUI.ViewModels.JobViewModel.LoadJobs(bool, string)
-  type: Method
-  source:
-    remote:
-      path: EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/JobViewModel.cs
-      branch: develop-livrable-2
-      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
-    id: LoadJobs
-    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/JobViewModel.cs
-    startLine: 127
-  assemblies:
-  - EasySaveGUI
-  namespace: EasySaveGUI.ViewModels
-  summary: Charge la liste des jobs depuis un fichier
-  example: []
-  syntax:
-    content: public void LoadJobs(bool IsDefaultFile = true, string pPath = null)
-    parameters:
-    - id: IsDefaultFile
-      type: System.Boolean
-      description: Indique si le fichier par défaut doit être chargé
-    - id: pPath
-      type: System.String
-      description: Chemin du fichier à charger, vide pour le fichier par défaut
-    content.vb: Public Sub LoadJobs(IsDefaultFile As Boolean = True, pPath As String = Nothing)
-  overload: EasySaveGUI.ViewModels.JobViewModel.LoadJobs*
-  nameWithType.vb: JobViewModel.LoadJobs(Boolean, String)
-  fullName.vb: EasySaveGUI.ViewModels.JobViewModel.LoadJobs(Boolean, String)
-  name.vb: LoadJobs(Boolean, String)
 references:
 - uid: EasySaveGUI.ViewModels
   commentId: N:EasySaveGUI.ViewModels
@@ -719,19 +783,82 @@ references:
     name: ComponentModel
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.componentmodel
-- uid: EasySaveGUI.ViewModels.JobViewModel.JobManager*
-  commentId: Overload:EasySaveGUI.ViewModels.JobViewModel.JobManager
-  href: EasySaveGUI.ViewModels.JobViewModel.html#EasySaveGUI_ViewModels_JobViewModel_JobManager
-  name: JobManager
-  nameWithType: JobViewModel.JobManager
-  fullName: EasySaveGUI.ViewModels.JobViewModel.JobManager
-- uid: Models.Backup.CJobManager
-  commentId: T:Models.Backup.CJobManager
+- uid: System.Action{System.String}
+  commentId: T:System.Action{System.String}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<string>
+  nameWithType: Action<string>
+  fullName: System.Action<string>
+  nameWithType.vb: Action(Of String)
+  fullName.vb: System.Action(Of String)
+  name.vb: Action(Of String)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: EasySaveGUI.ViewModels.JobViewModel.SelectedJob*
+  commentId: Overload:EasySaveGUI.ViewModels.JobViewModel.SelectedJob
+  href: EasySaveGUI.ViewModels.JobViewModel.html#EasySaveGUI_ViewModels_JobViewModel_SelectedJob
+  name: SelectedJob
+  nameWithType: JobViewModel.SelectedJob
+  fullName: EasySaveGUI.ViewModels.JobViewModel.SelectedJob
+- uid: Models.Backup.CJob
+  commentId: T:Models.Backup.CJob
   parent: Models.Backup
-  href: Models.Backup.CJobManager.html
-  name: CJobManager
-  nameWithType: CJobManager
-  fullName: Models.Backup.CJobManager
+  href: Models.Backup.CJob.html
+  name: CJob
+  nameWithType: CJob
+  fullName: Models.Backup.CJob
 - uid: Models.Backup
   commentId: N:Models.Backup
   href: Models.html
@@ -754,19 +881,6 @@ references:
   - uid: Models.Backup
     name: Backup
     href: Models.Backup.html
-- uid: EasySaveGUI.ViewModels.JobViewModel.SelectedJob*
-  commentId: Overload:EasySaveGUI.ViewModels.JobViewModel.SelectedJob
-  href: EasySaveGUI.ViewModels.JobViewModel.html#EasySaveGUI_ViewModels_JobViewModel_SelectedJob
-  name: SelectedJob
-  nameWithType: JobViewModel.SelectedJob
-  fullName: EasySaveGUI.ViewModels.JobViewModel.SelectedJob
-- uid: Models.Backup.CJob
-  commentId: T:Models.Backup.CJob
-  parent: Models.Backup
-  href: Models.Backup.CJob.html
-  name: CJob
-  nameWithType: CJob
-  fullName: Models.Backup.CJob
 - uid: EasySaveGUI.ViewModels.JobViewModel.Jobs*
   commentId: Overload:EasySaveGUI.ViewModels.JobViewModel.Jobs
   href: EasySaveGUI.ViewModels.JobViewModel.html#EasySaveGUI_ViewModels_JobViewModel_Jobs
@@ -792,7 +906,6 @@ references:
   - name: <
   - uid: Models.Backup.CJob
     name: CJob
-    href: Models.Backup.CJob.html
   - name: '>'
   spec.vb:
   - uid: System.Collections.ObjectModel.ObservableCollection`1
@@ -804,7 +917,6 @@ references:
   - name: " "
   - uid: Models.Backup.CJob
     name: CJob
-    href: Models.Backup.CJob.html
   - name: )
 - uid: System.Collections.ObjectModel.ObservableCollection`1
   commentId: T:System.Collections.ObjectModel.ObservableCollection`1
@@ -871,6 +983,58 @@ references:
     name: ObjectModel
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel
+- uid: EasySaveGUI.ViewModels.JobViewModel.Name*
+  commentId: Overload:EasySaveGUI.ViewModels.JobViewModel.Name
+  href: EasySaveGUI.ViewModels.JobViewModel.html#EasySaveGUI_ViewModels_JobViewModel_Name
+  name: Name
+  nameWithType: JobViewModel.Name
+  fullName: EasySaveGUI.ViewModels.JobViewModel.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: EasySaveGUI.ViewModels.JobViewModel.SauveCollection*
+  commentId: Overload:EasySaveGUI.ViewModels.JobViewModel.SauveCollection
+  href: EasySaveGUI.ViewModels.JobViewModel.html#EasySaveGUI_ViewModels_JobViewModel_SauveCollection
+  name: SauveCollection
+  nameWithType: JobViewModel.SauveCollection
+  fullName: EasySaveGUI.ViewModels.JobViewModel.SauveCollection
+- uid: Stockage.Save.ISauve
+  commentId: T:Stockage.Save.ISauve
+  parent: Stockage.Save
+  href: Stockage.Save.ISauve.html
+  name: ISauve
+  nameWithType: ISauve
+  fullName: Stockage.Save.ISauve
+- uid: Stockage.Save
+  commentId: N:Stockage.Save
+  href: Stockage.html
+  name: Stockage.Save
+  nameWithType: Stockage.Save
+  fullName: Stockage.Save
+  spec.csharp:
+  - uid: Stockage
+    name: Stockage
+    href: Stockage.html
+  - name: .
+  - uid: Stockage.Save
+    name: Save
+    href: Stockage.Save.html
+  spec.vb:
+  - uid: Stockage
+    name: Stockage
+    href: Stockage.html
+  - name: .
+  - uid: Stockage.Save
+    name: Save
+    href: Stockage.Save.html
 - uid: EasySaveGUI.ViewModels.JobViewModel.JobsRunning*
   commentId: Overload:EasySaveGUI.ViewModels.JobViewModel.JobsRunning
   href: EasySaveGUI.ViewModels.JobViewModel.html#EasySaveGUI_ViewModels_JobViewModel_JobsRunning
@@ -911,7 +1075,6 @@ references:
   - name: <
   - uid: Models.Backup.CJob
     name: CJob
-    href: Models.Backup.CJob.html
   - name: '>'
   spec.vb:
   - uid: System.Collections.Generic.List`1
@@ -923,7 +1086,6 @@ references:
   - name: " "
   - uid: Models.Backup.CJob
     name: CJob
-    href: Models.Backup.CJob.html
   - name: )
 - uid: System.Threading.Tasks.Task
   commentId: T:System.Threading.Tasks.Task
@@ -1035,6 +1197,12 @@ references:
     name: Tasks
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: EasySaveGUI.ViewModels.JobViewModel.Stop*
+  commentId: Overload:EasySaveGUI.ViewModels.JobViewModel.Stop
+  href: EasySaveGUI.ViewModels.JobViewModel.html#EasySaveGUI_ViewModels_JobViewModel_Stop
+  name: Stop
+  nameWithType: JobViewModel.Stop
+  fullName: EasySaveGUI.ViewModels.JobViewModel.Stop
 - uid: EasySaveGUI.ViewModels.JobViewModel.CreateBackupJob*
   commentId: Overload:EasySaveGUI.ViewModels.JobViewModel.CreateBackupJob
   href: EasySaveGUI.ViewModels.JobViewModel.html#EasySaveGUI_ViewModels_JobViewModel_CreateBackupJob_Models_Backup_CJob_
@@ -1064,20 +1232,3 @@ references:
   name: SaveJobs
   nameWithType: JobViewModel.SaveJobs
   fullName: EasySaveGUI.ViewModels.JobViewModel.SaveJobs
-- uid: EasySaveGUI.ViewModels.JobViewModel.LoadJobs*
-  commentId: Overload:EasySaveGUI.ViewModels.JobViewModel.LoadJobs
-  href: EasySaveGUI.ViewModels.JobViewModel.html#EasySaveGUI_ViewModels_JobViewModel_LoadJobs_System_Boolean_System_String_
-  name: LoadJobs
-  nameWithType: JobViewModel.LoadJobs
-  fullName: EasySaveGUI.ViewModels.JobViewModel.LoadJobs
-- uid: System.String
-  commentId: T:System.String
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String

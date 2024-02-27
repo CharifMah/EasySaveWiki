@@ -1,5 +1,12 @@
 ### YamlMime:TableOfContent
 items:
+- uid: CryptoSoft
+  name: CryptoSoft
+  items:
+  - uid: CryptoSoft.BaseChiffrement
+    name: BaseChiffrement
+  - uid: CryptoSoft.CXorChiffrement
+    name: CXorChiffrement
 - uid: EasySaveGUI
   name: EasySaveGUI
   items:
@@ -37,10 +44,16 @@ items:
     name: JobMenuControl
   - uid: EasySaveGUI.UserControls.JobPropertyControl
     name: JobPropertyControl
+  - uid: EasySaveGUI.UserControls.JobRunningControl
+    name: JobRunningControl
+  - uid: EasySaveGUI.UserControls.LoadingAnimationControl
+    name: LoadingAnimationControl
   - uid: EasySaveGUI.UserControls.MenuControl
     name: MenuControl
   - uid: EasySaveGUI.UserControls.OptionsMenuControl
     name: OptionsMenuControl
+  - uid: EasySaveGUI.UserControls.ValidationAnimationControl
+    name: ValidationAnimationControl
   - uid: EasySaveGUI.UserControls.ValidationPopupControl
     name: ValidationPopupControl
 - uid: EasySaveGUI.ValidationRules
@@ -53,6 +66,10 @@ items:
   items:
   - uid: EasySaveGUI.ViewModels.BaseViewModel
     name: BaseViewModel
+  - uid: EasySaveGUI.ViewModels.BusinessSoftwareViewModel
+    name: BusinessSoftwareViewModel
+  - uid: EasySaveGUI.ViewModels.FileExtensionViewModel
+    name: FileExtensionViewModel
   - uid: EasySaveGUI.ViewModels.FormatLogViewModel
     name: FormatLogViewModel
   - uid: EasySaveGUI.ViewModels.JobViewModel
@@ -86,25 +103,34 @@ items:
 - uid: Models
   name: Models
   items:
-  - uid: Models.CFormatLog
-    name: CFormatLog
-  - uid: Models.CLangue
-    name: CLangue
-  - uid: Models.CSettings
-    name: CSettings
-  - uid: Models.CTheme
-    name: CTheme
-  - uid: Models.ETheme
-    name: ETheme
+  - uid: Models.BaseModel
+    name: BaseModel
 - uid: Models.Backup
   name: Models.Backup
   items:
   - uid: Models.Backup.CJob
     name: CJob
-  - uid: Models.Backup.CJobManager
-    name: CJobManager
   - uid: Models.Backup.ETypeBackup
     name: ETypeBackup
+- uid: Models.Langue
+  name: Models.Langue
+  items:
+  - uid: Models.Langue.CLangue
+    name: CLangue
+- uid: Models.Settings
+  name: Models.Settings
+  items:
+  - uid: Models.Settings.CFormatLog
+    name: CFormatLog
+  - uid: Models.Settings.CSettings
+    name: CSettings
+- uid: Models.Settings.Theme
+  name: Models.Settings.Theme
+  items:
+  - uid: Models.Settings.Theme.CTheme
+    name: CTheme
+  - uid: Models.Settings.Theme.ETheme
+    name: ETheme
 - uid: OpenDialog
   name: OpenDialog
   items:
@@ -146,6 +172,8 @@ items:
     name: CStringLogger
   - uid: Stockage.Logs.ILogger`1
     name: ILogger<T>
+  - uid: Stockage.Logs.ILogger`1.UpdateLogDelegate
+    name: ILogger<T>.UpdateLogDelegate
 - uid: Stockage.Save
   name: Stockage.Save
   items:
@@ -155,15 +183,13 @@ items:
     name: ISauve
   - uid: Stockage.Save.SauveCollection
     name: SauveCollection
-  - uid: Stockage.Save.SauveJobs
-    name: SauveJobs
   - uid: Stockage.Save.SauveJobsAsync
     name: SauveJobsAsync
-- uid: UnitTestJobs
-  name: UnitTestJobs
+- uid: UnitTestCryptoSoft
+  name: UnitTestCryptoSoft
   items:
-  - uid: UnitTestJobs.JobsTestUnit
-    name: JobsTestUnit
+  - uid: UnitTestCryptoSoft.EncryptDecryptTest
+    name: EncryptDecryptTest
 - uid: UnitTestStorage
   name: UnitTestStorage
   items:

@@ -33,10 +33,13 @@ items:
   inheritance:
   - System.Object
   derivedClasses:
+  - EasySaveGUI.ViewModels.BusinessSoftwareViewModel
+  - EasySaveGUI.ViewModels.FileExtensionViewModel
   - EasySaveGUI.ViewModels.FormatLogViewModel
   - EasySaveGUI.ViewModels.JobViewModel
   - EasySaveGUI.ViewModels.LangueViewModel
   - EasySaveGUI.ViewModels.LayoutViewModel
+  - EasySaveGUI.ViewModels.MainViewModel
   - EasySaveGUI.ViewModels.PopupViewModel
   - EasySaveGUI.ViewModels.SettingsViewModel
   implements:
@@ -74,7 +77,7 @@ items:
   summary: Événement de modification d'une property
   example: []
   syntax:
-    content: public event PropertyChangedEventHandler PropertyChanged
+    content: public event PropertyChangedEventHandler? PropertyChanged
     return:
       type: System.ComponentModel.PropertyChangedEventHandler
     content.vb: Public Event PropertyChanged As PropertyChangedEventHandler

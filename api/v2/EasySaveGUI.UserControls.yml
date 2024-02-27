@@ -10,8 +10,11 @@ items:
   - EasySaveGUI.UserControls.JobListControl
   - EasySaveGUI.UserControls.JobMenuControl
   - EasySaveGUI.UserControls.JobPropertyControl
+  - EasySaveGUI.UserControls.JobRunningControl
+  - EasySaveGUI.UserControls.LoadingAnimationControl
   - EasySaveGUI.UserControls.MenuControl
   - EasySaveGUI.UserControls.OptionsMenuControl
+  - EasySaveGUI.UserControls.ValidationAnimationControl
   - EasySaveGUI.UserControls.ValidationPopupControl
   langs:
   - csharp
@@ -59,6 +62,18 @@ references:
   name: JobPropertyControl
   nameWithType: JobPropertyControl
   fullName: EasySaveGUI.UserControls.JobPropertyControl
+- uid: EasySaveGUI.UserControls.JobRunningControl
+  commentId: T:EasySaveGUI.UserControls.JobRunningControl
+  href: EasySaveGUI.UserControls.JobRunningControl.html
+  name: JobRunningControl
+  nameWithType: JobRunningControl
+  fullName: EasySaveGUI.UserControls.JobRunningControl
+- uid: EasySaveGUI.UserControls.LoadingAnimationControl
+  commentId: T:EasySaveGUI.UserControls.LoadingAnimationControl
+  href: EasySaveGUI.UserControls.LoadingAnimationControl.html
+  name: LoadingAnimationControl
+  nameWithType: LoadingAnimationControl
+  fullName: EasySaveGUI.UserControls.LoadingAnimationControl
 - uid: EasySaveGUI.UserControls.MenuControl
   commentId: T:EasySaveGUI.UserControls.MenuControl
   href: EasySaveGUI.UserControls.MenuControl.html
@@ -71,6 +86,12 @@ references:
   name: OptionsMenuControl
   nameWithType: OptionsMenuControl
   fullName: EasySaveGUI.UserControls.OptionsMenuControl
+- uid: EasySaveGUI.UserControls.ValidationAnimationControl
+  commentId: T:EasySaveGUI.UserControls.ValidationAnimationControl
+  href: EasySaveGUI.UserControls.ValidationAnimationControl.html
+  name: ValidationAnimationControl
+  nameWithType: ValidationAnimationControl
+  fullName: EasySaveGUI.UserControls.ValidationAnimationControl
 - uid: EasySaveGUI.UserControls.ValidationPopupControl
   commentId: T:EasySaveGUI.UserControls.ValidationPopupControl
   href: EasySaveGUI.UserControls.ValidationPopupControl.html

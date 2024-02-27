@@ -62,9 +62,9 @@ items:
   langs:
   - csharp
   - vb
-  name: WriteJson(JsonWriter, object, JsonSerializer)
-  nameWithType: ConcreteCollectionTypeConverter<TCollection, TItem, TBaseItem>.WriteJson(JsonWriter, object, JsonSerializer)
-  fullName: Stockage.Converters.ConcreteCollectionTypeConverter<TCollection, TItem, TBaseItem>.WriteJson(Newtonsoft.Json.JsonWriter, object, Newtonsoft.Json.JsonSerializer)
+  name: WriteJson(JsonWriter, object?, JsonSerializer)
+  nameWithType: ConcreteCollectionTypeConverter<TCollection, TItem, TBaseItem>.WriteJson(JsonWriter, object?, JsonSerializer)
+  fullName: Stockage.Converters.ConcreteCollectionTypeConverter<TCollection, TItem, TBaseItem>.WriteJson(Newtonsoft.Json.JsonWriter, object?, Newtonsoft.Json.JsonSerializer)
   type: Method
   source:
     remote:
@@ -80,7 +80,7 @@ items:
   summary: Writes the JSON representation of the object.
   example: []
   syntax:
-    content: public override void WriteJson(JsonWriter writer, object value, JsonSerializer serializer)
+    content: public override void WriteJson(JsonWriter writer, object? value, JsonSerializer serializer)
     parameters:
     - id: writer
       type: Newtonsoft.Json.JsonWriter
@@ -104,9 +104,9 @@ items:
   langs:
   - csharp
   - vb
-  name: ReadJson(JsonReader, Type, object, JsonSerializer)
-  nameWithType: ConcreteCollectionTypeConverter<TCollection, TItem, TBaseItem>.ReadJson(JsonReader, Type, object, JsonSerializer)
-  fullName: Stockage.Converters.ConcreteCollectionTypeConverter<TCollection, TItem, TBaseItem>.ReadJson(Newtonsoft.Json.JsonReader, System.Type, object, Newtonsoft.Json.JsonSerializer)
+  name: ReadJson(JsonReader, Type?, object?, JsonSerializer)
+  nameWithType: ConcreteCollectionTypeConverter<TCollection, TItem, TBaseItem>.ReadJson(JsonReader, Type?, object?, JsonSerializer)
+  fullName: Stockage.Converters.ConcreteCollectionTypeConverter<TCollection, TItem, TBaseItem>.ReadJson(Newtonsoft.Json.JsonReader, System.Type?, object?, Newtonsoft.Json.JsonSerializer)
   type: Method
   source:
     remote:
@@ -122,7 +122,7 @@ items:
   summary: ReadJson
   example: []
   syntax:
-    content: public override object ReadJson(JsonReader reader, Type objectType, object existingValue, JsonSerializer serializer)
+    content: public override object ReadJson(JsonReader reader, Type? objectType, object? existingValue, JsonSerializer serializer)
     parameters:
     - id: reader
       type: Newtonsoft.Json.JsonReader
@@ -152,9 +152,9 @@ items:
   langs:
   - csharp
   - vb
-  name: CanConvert(Type)
-  nameWithType: ConcreteCollectionTypeConverter<TCollection, TItem, TBaseItem>.CanConvert(Type)
-  fullName: Stockage.Converters.ConcreteCollectionTypeConverter<TCollection, TItem, TBaseItem>.CanConvert(System.Type)
+  name: CanConvert(Type?)
+  nameWithType: ConcreteCollectionTypeConverter<TCollection, TItem, TBaseItem>.CanConvert(Type?)
+  fullName: Stockage.Converters.ConcreteCollectionTypeConverter<TCollection, TItem, TBaseItem>.CanConvert(System.Type?)
   type: Method
   source:
     remote:
@@ -170,7 +170,7 @@ items:
   summary: Can convert
   example: []
   syntax:
-    content: public override bool CanConvert(Type objectType)
+    content: public override bool CanConvert(Type? objectType)
     parameters:
     - id: objectType
       type: System.Type
@@ -183,6 +183,7 @@ items:
   overload: Stockage.Converters.ConcreteCollectionTypeConverter`3.CanConvert*
   nameWithType.vb: ConcreteCollectionTypeConverter(Of TCollection, TItem, TBaseItem).CanConvert(Type)
   fullName.vb: Stockage.Converters.ConcreteCollectionTypeConverter(Of TCollection, TItem, TBaseItem).CanConvert(System.Type)
+  name.vb: CanConvert(Type)
 references:
 - uid: Stockage.Converters
   commentId: N:Stockage.Converters

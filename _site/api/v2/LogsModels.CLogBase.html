@@ -103,7 +103,7 @@ Class CLogBase  <a class="header-action link-secondary" title="View source" href
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[DataContract]
-public abstract class CLogBase : IPath, INotifyPropertyChanged</code></pre>
+public abstract class CLogBase : IPath, INotifyPropertyChanged, IDisposable</code></pre>
   </div>
 
 
@@ -122,6 +122,7 @@ public abstract class CLogBase : IPath, INotifyPropertyChanged</code></pre>
     <dd>
       <div><a class="xref" href="../v1/LogsModels.IPath.html">IPath</a></div>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged">INotifyPropertyChanged</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
     </dd>
   </dl>
 
@@ -166,7 +167,7 @@ public abstract class CLogBase : IPath, INotifyPropertyChanged</code></pre>
 
   <h3 id="LogsModels_CLogBase_Date" data-uid="LogsModels.CLogBase.Date">
   Date
-  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Logs/CLogBase.cs&amp;version=GBdevelop-livrable-2&amp;line=33"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Logs/CLogBase.cs&amp;version=GBdevelop-livrable-2&amp;line=52"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Date of the log</p>
@@ -194,11 +195,75 @@ public abstract class CLogBase : IPath, INotifyPropertyChanged</code></pre>
 
 
 
+  <a id="LogsModels_CLogBase_EncryptTime_" data-uid="LogsModels.CLogBase.EncryptTime*"></a>
+
+  <h3 id="LogsModels_CLogBase_EncryptTime" data-uid="LogsModels.CLogBase.EncryptTime">
+  EncryptTime
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Logs/CLogBase.cs&amp;version=GBdevelop-livrable-2&amp;line=85"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Temps de chiffrement</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TimeSpan EncryptTime { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.timespan">TimeSpan</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LogsModels_CLogBase_FormatLog_" data-uid="LogsModels.CLogBase.FormatLog*"></a>
+
+  <h3 id="LogsModels_CLogBase_FormatLog" data-uid="LogsModels.CLogBase.FormatLog">
+  FormatLog
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Logs/CLogBase.cs&amp;version=GBdevelop-livrable-2&amp;line=81"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Format de log</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string FormatLog { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="LogsModels_CLogBase_Name_" data-uid="LogsModels.CLogBase.Name*"></a>
 
   <h3 id="LogsModels_CLogBase_Name" data-uid="LogsModels.CLogBase.Name">
   Name
-  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Logs/CLogBase.cs&amp;version=GBdevelop-livrable-2&amp;line=26"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Logs/CLogBase.cs&amp;version=GBdevelop-livrable-2&amp;line=45"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Name of the Log</p>
@@ -226,11 +291,42 @@ public abstract class CLogBase : IPath, INotifyPropertyChanged</code></pre>
 
 
 
+  <a id="LogsModels_CLogBase_Progress_" data-uid="LogsModels.CLogBase.Progress*"></a>
+
+  <h3 id="LogsModels_CLogBase_Progress" data-uid="LogsModels.CLogBase.Progress">
+  Progress
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Logs/CLogBase.cs&amp;version=GBdevelop-livrable-2&amp;line=30"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double Progress { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="LogsModels_CLogBase_SourceDirectory_" data-uid="LogsModels.CLogBase.SourceDirectory*"></a>
 
   <h3 id="LogsModels_CLogBase_SourceDirectory" data-uid="LogsModels.CLogBase.SourceDirectory">
   SourceDirectory
-  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Logs/CLogBase.cs&amp;version=GBdevelop-livrable-2&amp;line=47"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Logs/CLogBase.cs&amp;version=GBdevelop-livrable-2&amp;line=66"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Source directory</p>
@@ -262,7 +358,7 @@ public abstract class CLogBase : IPath, INotifyPropertyChanged</code></pre>
 
   <h3 id="LogsModels_CLogBase_TargetDirectory" data-uid="LogsModels.CLogBase.TargetDirectory">
   TargetDirectory
-  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Logs/CLogBase.cs&amp;version=GBdevelop-livrable-2&amp;line=55"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Logs/CLogBase.cs&amp;version=GBdevelop-livrable-2&amp;line=74"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Target directory</p>
@@ -294,7 +390,7 @@ public abstract class CLogBase : IPath, INotifyPropertyChanged</code></pre>
 
   <h3 id="LogsModels_CLogBase_TotalSize" data-uid="LogsModels.CLogBase.TotalSize">
   TotalSize
-  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Logs/CLogBase.cs&amp;version=GBdevelop-livrable-2&amp;line=40"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Logs/CLogBase.cs&amp;version=GBdevelop-livrable-2&amp;line=59"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Total transfer file size</p>
@@ -326,11 +422,38 @@ public abstract class CLogBase : IPath, INotifyPropertyChanged</code></pre>
 </h2>
 
 
+  <a id="LogsModels_CLogBase_Dispose_" data-uid="LogsModels.CLogBase.Dispose*"></a>
+
+  <h3 id="LogsModels_CLogBase_Dispose" data-uid="LogsModels.CLogBase.Dispose">
+  Dispose()
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Logs/CLogBase.cs&amp;version=GBdevelop-livrable-2&amp;line=117"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
   <a id="LogsModels_CLogBase_Equals_" data-uid="LogsModels.CLogBase.Equals*"></a>
 
   <h3 id="LogsModels_CLogBase_Equals_System_Object_" data-uid="LogsModels.CLogBase.Equals(System.Object)">
   Equals(object?)
-  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Logs/CLogBase.cs&amp;version=GBdevelop-livrable-2&amp;line=63"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Logs/CLogBase.cs&amp;version=GBdevelop-livrable-2&amp;line=97"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Determines whether the specified object is equal to the current object.</p>
@@ -365,11 +488,37 @@ public abstract class CLogBase : IPath, INotifyPropertyChanged</code></pre>
 
 
 
+  <a id="LogsModels_CLogBase_Finalize_" data-uid="LogsModels.CLogBase.Finalize*"></a>
+
+  <h3 id="LogsModels_CLogBase_Finalize" data-uid="LogsModels.CLogBase.Finalize">
+  ~CLogBase()
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Logs/CLogBase.cs&amp;version=GBdevelop-livrable-2&amp;line=93"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected ~CLogBase()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
   <a id="LogsModels_CLogBase_GetHashCode_" data-uid="LogsModels.CLogBase.GetHashCode*"></a>
 
   <h3 id="LogsModels_CLogBase_GetHashCode" data-uid="LogsModels.CLogBase.GetHashCode">
   GetHashCode()
-  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Logs/CLogBase.cs&amp;version=GBdevelop-livrable-2&amp;line=69"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Logs/CLogBase.cs&amp;version=GBdevelop-livrable-2&amp;line=103"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Serves as the default hash function.</p>
@@ -402,7 +551,7 @@ public abstract class CLogBase : IPath, INotifyPropertyChanged</code></pre>
 
   <h3 id="LogsModels_CLogBase_NotifyPropertyChanged_System_String_" data-uid="LogsModels.CLogBase.NotifyPropertyChanged(System.String)">
   NotifyPropertyChanged(string)
-  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Logs/CLogBase.cs&amp;version=GBdevelop-livrable-2&amp;line=76"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Logs/CLogBase.cs&amp;version=GBdevelop-livrable-2&amp;line=112"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Méthode à appeler pour avertir d'une modification</p>
@@ -438,7 +587,7 @@ public abstract class CLogBase : IPath, INotifyPropertyChanged</code></pre>
 
   <h3 id="LogsModels_CLogBase_PropertyChanged" data-uid="LogsModels.CLogBase.PropertyChanged">
   PropertyChanged
-  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Logs/CLogBase.cs&amp;version=GBdevelop-livrable-2&amp;line=61"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Logs/CLogBase.cs&amp;version=GBdevelop-livrable-2&amp;line=109"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Événement de modification d'une property</p>
@@ -446,7 +595,7 @@ public abstract class CLogBase : IPath, INotifyPropertyChanged</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public event PropertyChangedEventHandler PropertyChanged</code></pre>
+    <pre><code class="lang-csharp hljs">public event PropertyChangedEventHandler? PropertyChanged</code></pre>
   </div>
 
 

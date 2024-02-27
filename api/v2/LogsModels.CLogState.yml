@@ -11,7 +11,6 @@ items:
   - LogsModels.CLogState.EligibleFileCount
   - LogsModels.CLogState.IsActive
   - LogsModels.CLogState.Name
-  - LogsModels.CLogState.Progress
   - LogsModels.CLogState.RemainingFiles
   - LogsModels.CLogState.TotalTransferedFile
   langs:
@@ -38,26 +37,31 @@ items:
     content: >-
       [DataContract]
 
-      public class CLogState : CLogBase, IPath, INotifyPropertyChanged
+      public class CLogState : CLogBase, IPath, INotifyPropertyChanged, IDisposable
     content.vb: >-
       <DataContract>
 
-      Public Class CLogState Inherits CLogBase Implements IPath, INotifyPropertyChanged
+      Public Class CLogState Inherits CLogBase Implements IPath, INotifyPropertyChanged, IDisposable
   inheritance:
   - System.Object
   - LogsModels.CLogBase
   implements:
   - LogsModels.IPath
   - System.ComponentModel.INotifyPropertyChanged
+  - System.IDisposable
   inheritedMembers:
+  - LogsModels.CLogBase.Progress
   - LogsModels.CLogBase.Date
   - LogsModels.CLogBase.TotalSize
   - LogsModels.CLogBase.SourceDirectory
   - LogsModels.CLogBase.TargetDirectory
-  - LogsModels.CLogBase.PropertyChanged
+  - LogsModels.CLogBase.FormatLog
+  - LogsModels.CLogBase.EncryptTime
   - LogsModels.CLogBase.Equals(System.Object)
   - LogsModels.CLogBase.GetHashCode
+  - LogsModels.CLogBase.PropertyChanged
   - LogsModels.CLogBase.NotifyPropertyChanged(System.String)
+  - LogsModels.CLogBase.Dispose
   - System.Object.Equals(System.Object,System.Object)
   - System.Object.GetType
   - System.Object.MemberwiseClone
@@ -85,7 +89,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Name
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Logs/CLogState.cs
-    startLine: 24
+    startLine: 23
   assemblies:
   - LogsModels
   namespace: LogsModels
@@ -117,7 +121,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: RemainingFiles
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Logs/CLogState.cs
-    startLine: 36
+    startLine: 37
   assemblies:
   - LogsModels
   namespace: LogsModels
@@ -148,7 +152,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: EligibleFileCount
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Logs/CLogState.cs
-    startLine: 44
+    startLine: 45
   assemblies:
   - LogsModels
   namespace: LogsModels
@@ -179,7 +183,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: ElapsedMilisecond
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Logs/CLogState.cs
-    startLine: 52
+    startLine: 53
   assemblies:
   - LogsModels
   namespace: LogsModels
@@ -210,7 +214,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: IsActive
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Logs/CLogState.cs
-    startLine: 60
+    startLine: 61
   assemblies:
   - LogsModels
   namespace: LogsModels
@@ -223,35 +227,6 @@ items:
       type: System.Boolean
     content.vb: Public Property IsActive As Boolean
   overload: LogsModels.CLogState.IsActive*
-- uid: LogsModels.CLogState.Progress
-  commentId: P:LogsModels.CLogState.Progress
-  id: Progress
-  parent: LogsModels.CLogState
-  langs:
-  - csharp
-  - vb
-  name: Progress
-  nameWithType: CLogState.Progress
-  fullName: LogsModels.CLogState.Progress
-  type: Property
-  source:
-    remote:
-      path: EasySave-2.0/EasySaveGUI/Logs/CLogState.cs
-      branch: develop-livrable-2
-      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
-    id: Progress
-    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Logs/CLogState.cs
-    startLine: 65
-  assemblies:
-  - LogsModels
-  namespace: LogsModels
-  syntax:
-    content: public double Progress { get; set; }
-    parameters: []
-    return:
-      type: System.Double
-    content.vb: Public Property Progress As Double
-  overload: LogsModels.CLogState.Progress*
 - uid: LogsModels.CLogState.BytesCopied
   commentId: P:LogsModels.CLogState.BytesCopied
   id: BytesCopied
@@ -270,7 +245,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: BytesCopied
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Logs/CLogState.cs
-    startLine: 79
+    startLine: 66
   assemblies:
   - LogsModels
   namespace: LogsModels
@@ -299,7 +274,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: TotalTransferedFile
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Logs/CLogState.cs
-    startLine: 83
+    startLine: 70
   assemblies:
   - LogsModels
   namespace: LogsModels
@@ -330,7 +305,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: .ctor
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Logs/CLogState.cs
-    startLine: 88
+    startLine: 77
   assemblies:
   - LogsModels
   namespace: LogsModels
@@ -383,6 +358,21 @@ references:
   name: INotifyPropertyChanged
   nameWithType: INotifyPropertyChanged
   fullName: System.ComponentModel.INotifyPropertyChanged
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: LogsModels.CLogBase.Progress
+  commentId: P:LogsModels.CLogBase.Progress
+  parent: LogsModels.CLogBase
+  href: LogsModels.CLogBase.html#LogsModels_CLogBase_Progress
+  name: Progress
+  nameWithType: CLogBase.Progress
+  fullName: LogsModels.CLogBase.Progress
 - uid: LogsModels.CLogBase.Date
   commentId: P:LogsModels.CLogBase.Date
   parent: LogsModels.CLogBase
@@ -411,13 +401,20 @@ references:
   name: TargetDirectory
   nameWithType: CLogBase.TargetDirectory
   fullName: LogsModels.CLogBase.TargetDirectory
-- uid: LogsModels.CLogBase.PropertyChanged
-  commentId: E:LogsModels.CLogBase.PropertyChanged
+- uid: LogsModels.CLogBase.FormatLog
+  commentId: P:LogsModels.CLogBase.FormatLog
   parent: LogsModels.CLogBase
-  href: LogsModels.CLogBase.html#LogsModels_CLogBase_PropertyChanged
-  name: PropertyChanged
-  nameWithType: CLogBase.PropertyChanged
-  fullName: LogsModels.CLogBase.PropertyChanged
+  href: LogsModels.CLogBase.html#LogsModels_CLogBase_FormatLog
+  name: FormatLog
+  nameWithType: CLogBase.FormatLog
+  fullName: LogsModels.CLogBase.FormatLog
+- uid: LogsModels.CLogBase.EncryptTime
+  commentId: P:LogsModels.CLogBase.EncryptTime
+  parent: LogsModels.CLogBase
+  href: LogsModels.CLogBase.html#LogsModels_CLogBase_EncryptTime
+  name: EncryptTime
+  nameWithType: CLogBase.EncryptTime
+  fullName: LogsModels.CLogBase.EncryptTime
 - uid: LogsModels.CLogBase.Equals(System.Object)
   commentId: M:LogsModels.CLogBase.Equals(System.Object)
   parent: LogsModels.CLogBase
@@ -468,6 +465,13 @@ references:
     href: LogsModels.CLogBase.html#LogsModels_CLogBase_GetHashCode
   - name: (
   - name: )
+- uid: LogsModels.CLogBase.PropertyChanged
+  commentId: E:LogsModels.CLogBase.PropertyChanged
+  parent: LogsModels.CLogBase
+  href: LogsModels.CLogBase.html#LogsModels_CLogBase_PropertyChanged
+  name: PropertyChanged
+  nameWithType: CLogBase.PropertyChanged
+  fullName: LogsModels.CLogBase.PropertyChanged
 - uid: LogsModels.CLogBase.NotifyPropertyChanged(System.String)
   commentId: M:LogsModels.CLogBase.NotifyPropertyChanged(System.String)
   parent: LogsModels.CLogBase
@@ -498,6 +502,25 @@ references:
     name: String
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: LogsModels.CLogBase.Dispose
+  commentId: M:LogsModels.CLogBase.Dispose
+  parent: LogsModels.CLogBase
+  href: LogsModels.CLogBase.html#LogsModels_CLogBase_Dispose
+  name: Dispose()
+  nameWithType: CLogBase.Dispose()
+  fullName: LogsModels.CLogBase.Dispose()
+  spec.csharp:
+  - uid: LogsModels.CLogBase.Dispose
+    name: Dispose
+    href: LogsModels.CLogBase.html#LogsModels_CLogBase_Dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: LogsModels.CLogBase.Dispose
+    name: Dispose
+    href: LogsModels.CLogBase.html#LogsModels_CLogBase_Dispose
+  - name: (
   - name: )
 - uid: System.Object.Equals(System.Object,System.Object)
   commentId: M:System.Object.Equals(System.Object,System.Object)
@@ -776,12 +799,12 @@ references:
   nameWithType.vb: Boolean
   fullName.vb: Boolean
   name.vb: Boolean
-- uid: LogsModels.CLogState.Progress*
-  commentId: Overload:LogsModels.CLogState.Progress
-  href: LogsModels.CLogState.html#LogsModels_CLogState_Progress
-  name: Progress
-  nameWithType: CLogState.Progress
-  fullName: LogsModels.CLogState.Progress
+- uid: LogsModels.CLogState.BytesCopied*
+  commentId: Overload:LogsModels.CLogState.BytesCopied
+  href: LogsModels.CLogState.html#LogsModels_CLogState_BytesCopied
+  name: BytesCopied
+  nameWithType: CLogState.BytesCopied
+  fullName: LogsModels.CLogState.BytesCopied
 - uid: System.Double
   commentId: T:System.Double
   parent: System
@@ -793,12 +816,6 @@ references:
   nameWithType.vb: Double
   fullName.vb: Double
   name.vb: Double
-- uid: LogsModels.CLogState.BytesCopied*
-  commentId: Overload:LogsModels.CLogState.BytesCopied
-  href: LogsModels.CLogState.html#LogsModels_CLogState_BytesCopied
-  name: BytesCopied
-  nameWithType: CLogState.BytesCopied
-  fullName: LogsModels.CLogState.BytesCopied
 - uid: LogsModels.CLogState.TotalTransferedFile*
   commentId: Overload:LogsModels.CLogState.TotalTransferedFile
   href: LogsModels.CLogState.html#LogsModels_CLogState_TotalTransferedFile

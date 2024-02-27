@@ -106,9 +106,9 @@ items:
   langs:
   - csharp
   - vb
-  name: ReadJson(JsonReader, Type, object?, JsonSerializer)
-  nameWithType: ConcreteDictionnaryTypeConverter<TDictionary, TItem, TKey, TValue>.ReadJson(JsonReader, Type, object?, JsonSerializer)
-  fullName: Stockage.Converters.ConcreteDictionnaryTypeConverter<TDictionary, TItem, TKey, TValue>.ReadJson(Newtonsoft.Json.JsonReader, System.Type, object?, Newtonsoft.Json.JsonSerializer)
+  name: ReadJson(JsonReader, Type?, object?, JsonSerializer)
+  nameWithType: ConcreteDictionnaryTypeConverter<TDictionary, TItem, TKey, TValue>.ReadJson(JsonReader, Type?, object?, JsonSerializer)
+  fullName: Stockage.Converters.ConcreteDictionnaryTypeConverter<TDictionary, TItem, TKey, TValue>.ReadJson(Newtonsoft.Json.JsonReader, System.Type?, object?, Newtonsoft.Json.JsonSerializer)
   type: Method
   source:
     remote:
@@ -124,7 +124,7 @@ items:
   summary: ReadJson
   example: []
   syntax:
-    content: public override object ReadJson(JsonReader reader, Type objectType, object? existingValue, JsonSerializer serializer)
+    content: public override object ReadJson(JsonReader reader, Type? objectType, object? existingValue, JsonSerializer serializer)
     parameters:
     - id: reader
       type: Newtonsoft.Json.JsonReader
@@ -154,9 +154,9 @@ items:
   langs:
   - csharp
   - vb
-  name: CanConvert(Type)
-  nameWithType: ConcreteDictionnaryTypeConverter<TDictionary, TItem, TKey, TValue>.CanConvert(Type)
-  fullName: Stockage.Converters.ConcreteDictionnaryTypeConverter<TDictionary, TItem, TKey, TValue>.CanConvert(System.Type)
+  name: CanConvert(Type?)
+  nameWithType: ConcreteDictionnaryTypeConverter<TDictionary, TItem, TKey, TValue>.CanConvert(Type?)
+  fullName: Stockage.Converters.ConcreteDictionnaryTypeConverter<TDictionary, TItem, TKey, TValue>.CanConvert(System.Type?)
   type: Method
   source:
     remote:
@@ -172,7 +172,7 @@ items:
   summary: CanConvert
   example: []
   syntax:
-    content: public override bool CanConvert(Type objectType)
+    content: public override bool CanConvert(Type? objectType)
     parameters:
     - id: objectType
       type: System.Type
@@ -185,6 +185,7 @@ items:
   overload: Stockage.Converters.ConcreteDictionnaryTypeConverter`4.CanConvert*
   nameWithType.vb: ConcreteDictionnaryTypeConverter(Of TDictionary, TItem, TKey, TValue).CanConvert(Type)
   fullName.vb: Stockage.Converters.ConcreteDictionnaryTypeConverter(Of TDictionary, TItem, TKey, TValue).CanConvert(System.Type)
+  name.vb: CanConvert(Type)
 references:
 - uid: Stockage.Converters
   commentId: N:Stockage.Converters

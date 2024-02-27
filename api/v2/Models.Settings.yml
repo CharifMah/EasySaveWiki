@@ -1,0 +1,54 @@
+### YamlMime:ManagedReference
+items:
+- uid: Models.Settings
+  commentId: N:Models.Settings
+  id: Models.Settings
+  children:
+  - Models.Settings.CFormatLog
+  - Models.Settings.CSettings
+  langs:
+  - csharp
+  - vb
+  name: Models.Settings
+  nameWithType: Models.Settings
+  fullName: Models.Settings
+  type: Namespace
+  assemblies:
+  - Models
+references:
+- uid: Models.Settings.CFormatLog
+  commentId: T:Models.Settings.CFormatLog
+  parent: Models.Settings
+  href: Models.Settings.CFormatLog.html
+  name: CFormatLog
+  nameWithType: CFormatLog
+  fullName: Models.Settings.CFormatLog
+- uid: Models.Settings.CSettings
+  commentId: T:Models.Settings.CSettings
+  parent: Models.Settings
+  href: Models.Settings.CSettings.html
+  name: CSettings
+  nameWithType: CSettings
+  fullName: Models.Settings.CSettings
+- uid: Models.Settings
+  commentId: N:Models.Settings
+  href: Models.html
+  name: Models.Settings
+  nameWithType: Models.Settings
+  fullName: Models.Settings
+  spec.csharp:
+  - uid: Models
+    name: Models
+    href: Models.html
+  - name: .
+  - uid: Models.Settings
+    name: Settings
+    href: Models.Settings.html
+  spec.vb:
+  - uid: Models
+    name: Models
+    href: Models.html
+  - name: .
+  - uid: Models.Settings
+    name: Settings
+    href: Models.Settings.html

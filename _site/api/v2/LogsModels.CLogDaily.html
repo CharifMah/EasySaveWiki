@@ -102,7 +102,7 @@ Class CLogDaily  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class CLogDaily : CLogBase, IPath, INotifyPropertyChanged</code></pre>
+    <pre><code class="lang-csharp hljs">public class CLogDaily : CLogBase, IPath, INotifyPropertyChanged, IDisposable</code></pre>
   </div>
 
 
@@ -122,6 +122,7 @@ Class CLogDaily  <a class="header-action link-secondary" title="View source" hre
     <dd>
       <div><a class="xref" href="../v1/LogsModels.IPath.html">IPath</a></div>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged">INotifyPropertyChanged</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
     </dd>
   </dl>
 
@@ -129,6 +130,9 @@ Class CLogDaily  <a class="header-action link-secondary" title="View source" hre
   <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
+    <div>
+      <a class="xref" href="LogsModels.CLogBase.html#LogsModels_CLogBase_Progress">CLogBase.Progress</a>
+    </div>
     <div>
       <a class="xref" href="../v1/LogsModels.CLogBase.html#LogsModels_CLogBase_Name">CLogBase.Name</a>
     </div>
@@ -145,7 +149,10 @@ Class CLogDaily  <a class="header-action link-secondary" title="View source" hre
       <a class="xref" href="../v1/LogsModels.CLogBase.html#LogsModels_CLogBase_TargetDirectory">CLogBase.TargetDirectory</a>
     </div>
     <div>
-      <a class="xref" href="LogsModels.CLogBase.html#LogsModels_CLogBase_PropertyChanged">CLogBase.PropertyChanged</a>
+      <a class="xref" href="LogsModels.CLogBase.html#LogsModels_CLogBase_FormatLog">CLogBase.FormatLog</a>
+    </div>
+    <div>
+      <a class="xref" href="LogsModels.CLogBase.html#LogsModels_CLogBase_EncryptTime">CLogBase.EncryptTime</a>
     </div>
     <div>
       <a class="xref" href="LogsModels.CLogBase.html#LogsModels_CLogBase_Equals_System_Object_">CLogBase.Equals(object)</a>
@@ -154,7 +161,13 @@ Class CLogDaily  <a class="header-action link-secondary" title="View source" hre
       <a class="xref" href="LogsModels.CLogBase.html#LogsModels_CLogBase_GetHashCode">CLogBase.GetHashCode()</a>
     </div>
     <div>
+      <a class="xref" href="LogsModels.CLogBase.html#LogsModels_CLogBase_PropertyChanged">CLogBase.PropertyChanged</a>
+    </div>
+    <div>
       <a class="xref" href="LogsModels.CLogBase.html#LogsModels_CLogBase_NotifyPropertyChanged_System_String_">CLogBase.NotifyPropertyChanged(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="LogsModels.CLogBase.html#LogsModels_CLogBase_Dispose">CLogBase.Dispose()</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
@@ -186,7 +199,7 @@ Class CLogDaily  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="LogsModels_CLogDaily_TransfertTime" data-uid="LogsModels.CLogDaily.TransfertTime">
   TransfertTime
-  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Logs/CLogDaily.cs&amp;version=GBdevelop-livrable-2&amp;line=14"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Logs/CLogDaily.cs&amp;version=GBdevelop-livrable-2&amp;line=15"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Temps de transfert en milliseconde</p>

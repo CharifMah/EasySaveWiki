@@ -5,7 +5,6 @@ items:
   id: Models.Backup
   children:
   - Models.Backup.CJob
-  - Models.Backup.CJobManager
   - Models.Backup.ETypeBackup
   langs:
   - csharp
@@ -24,13 +23,6 @@ references:
   name: CJob
   nameWithType: CJob
   fullName: Models.Backup.CJob
-- uid: Models.Backup.CJobManager
-  commentId: T:Models.Backup.CJobManager
-  parent: Models.Backup
-  href: Models.Backup.CJobManager.html
-  name: CJobManager
-  nameWithType: CJobManager
-  fullName: Models.Backup.CJobManager
 - uid: Models.Backup.ETypeBackup
   commentId: T:Models.Backup.ETypeBackup
   parent: Models.Backup

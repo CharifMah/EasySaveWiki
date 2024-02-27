@@ -188,7 +188,7 @@ Class CDialog  <a class="header-action link-secondary" title="View source" href=
   <a id="OpenDialog_CDialog_ReadFile_" data-uid="OpenDialog.CDialog.ReadFile*"></a>
 
   <h3 id="OpenDialog_CDialog_ReadFile_System_String_System_Text_RegularExpressions_Regex_System_String_System_Boolean_" data-uid="OpenDialog.CDialog.ReadFile(System.String,System.Text.RegularExpressions.Regex,System.String,System.Boolean)">
-  ReadFile(string, Regex, string, bool)
+  ReadFile(string, Regex?, string?, bool)
   <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/OpenDialog/CDialog.cs&amp;version=GBdevelop-livrable-2&amp;line=17"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -197,7 +197,7 @@ Class CDialog  <a class="header-action link-secondary" title="View source" href=
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string ReadFile(string pDescription, Regex pRegexExtentions = null, string pCurrentFolder = null, bool pOpenFile = false)</code></pre>
+    <pre><code class="lang-csharp hljs">public static string ReadFile(string pDescription, Regex? pRegexExtensions = null, string? pCurrentFolder = null, bool pOpenFile = false)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -205,7 +205,7 @@ Class CDialog  <a class="header-action link-secondary" title="View source" href=
     <dt><code>pDescription</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd><p>Description for the interface</p>
 </dd>
-    <dt><code>pRegexExtentions</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.text.regularexpressions.regex">Regex</a></dt>
+    <dt><code>pRegexExtensions</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.text.regularexpressions.regex">Regex</a></dt>
     <dd></dd>
     <dt><code>pCurrentFolder</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd></dd>
@@ -233,7 +233,7 @@ Class CDialog  <a class="header-action link-secondary" title="View source" href=
   <a id="OpenDialog_CDialog_ReadFolder_" data-uid="OpenDialog.CDialog.ReadFolder*"></a>
 
   <h3 id="OpenDialog_CDialog_ReadFolder_System_String_System_String_" data-uid="OpenDialog.CDialog.ReadFolder(System.String,System.String)">
-  ReadFolder(string, string)
+  ReadFolder(string, string?)
   <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/OpenDialog/CDialog.cs&amp;version=GBdevelop-livrable-2&amp;line=72"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -241,7 +241,7 @@ Class CDialog  <a class="header-action link-secondary" title="View source" href=
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string ReadFolder(string pDescription = &quot;&quot;, string pPath = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public static string ReadFolder(string pDescription = &quot;&quot;, string? pPath = null)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>

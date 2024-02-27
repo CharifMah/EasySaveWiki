@@ -25,7 +25,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: MainWindow
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/EasySaveGUI/Views/MainWindow.xaml.cs
-    startLine: 17
+    startLine: 19
   assemblies:
   - EasySaveGUI
   namespace: EasySaveGUI
@@ -737,15 +737,15 @@ items:
   langs:
   - csharp
   - vb
-  name: SendMessage(IntPtr, int, int, int)
-  nameWithType: MainWindow.SendMessage(IntPtr, int, int, int)
-  fullName: EasySaveGUI.MainWindow.SendMessage(System.IntPtr, int, int, int)
+  name: SendMessage(nint, int, int, int)
+  nameWithType: MainWindow.SendMessage(nint, int, int, int)
+  fullName: EasySaveGUI.MainWindow.SendMessage(nint, int, int, int)
   type: Method
   assemblies:
   - EasySaveGUI
   namespace: EasySaveGUI
   syntax:
-    content: public static extern IntPtr SendMessage(IntPtr hWnd, int msg, int wParam, int lParam)
+    content: public static extern nint SendMessage(nint hWnd, int msg, int wParam, int lParam)
     parameters:
     - id: hWnd
       type: System.IntPtr
@@ -800,7 +800,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: MainVm
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/EasySaveGUI/Views/MainWindow.xaml.cs
-    startLine: 29
+    startLine: 35
   assemblies:
   - EasySaveGUI
   namespace: EasySaveGUI
@@ -829,7 +829,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: MenuPage
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/EasySaveGUI/Views/MainWindow.xaml.cs
-    startLine: 30
+    startLine: 36
   assemblies:
   - EasySaveGUI
   namespace: EasySaveGUI
@@ -858,7 +858,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: .ctor
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/EasySaveGUI/Views/MainWindow.xaml.cs
-    startLine: 32
+    startLine: 40
   assemblies:
   - EasySaveGUI
   namespace: EasySaveGUI
@@ -887,15 +887,18 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: RefreshMenu
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/EasySaveGUI/Views/MainWindow.xaml.cs
-    startLine: 140
+    startLine: 55
   assemblies:
   - EasySaveGUI
   namespace: EasySaveGUI
+  summary: Rafraîchie le menu avec le layout sélectionnée
+  example: []
   syntax:
     content: public void RefreshMenu(bool pSetLayout = true)
     parameters:
     - id: pSetLayout
       type: System.Boolean
+      description: false pour reset le layout
     content.vb: Public Sub RefreshMenu(pSetLayout As Boolean = True)
   overload: EasySaveGUI.MainWindow.RefreshMenu*
   nameWithType.vb: MainWindow.RefreshMenu(Boolean)
@@ -11822,9 +11825,12 @@ references:
   parent: System
   isExternal: true
   href: https://learn.microsoft.com/dotnet/api/system.intptr
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System

@@ -21,7 +21,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: ILogger
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Stockage/Logs/ILogger.cs
-    startLine: 7
+    startLine: 9
   assemblies:
   - Stockage
   namespace: Stockage.Logs
@@ -54,7 +54,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Datas
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Stockage/Logs/ILogger.cs
-    startLine: 12
+    startLine: 14
   assemblies:
   - Stockage
   namespace: Stockage.Logs
@@ -87,7 +87,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Log
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Stockage/Logs/ILogger.cs
-    startLine: 25
+    startLine: 27
   assemblies:
   - Stockage
   namespace: Stockage.Logs

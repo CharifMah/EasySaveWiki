@@ -1,0 +1,149 @@
+### YamlMime:ManagedReference
+items:
+- uid: Models.Settings.Theme.ETheme
+  commentId: T:Models.Settings.Theme.ETheme
+  id: ETheme
+  parent: Models.Settings.Theme
+  children:
+  - Models.Settings.Theme.ETheme.BLUE
+  - Models.Settings.Theme.ETheme.DARK
+  - Models.Settings.Theme.ETheme.LIGHT
+  langs:
+  - csharp
+  - vb
+  name: ETheme
+  nameWithType: ETheme
+  fullName: Models.Settings.Theme.ETheme
+  type: Enum
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Models/Settings/Theme/ETheme.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: ETheme
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Models/Settings/Theme/ETheme.cs
+    startLine: 5
+  assemblies:
+  - Models
+  namespace: Models.Settings.Theme
+  summary: Enumeration des theme de l'application
+  example: []
+  syntax:
+    content: public enum ETheme
+    content.vb: Public Enum ETheme
+- uid: Models.Settings.Theme.ETheme.LIGHT
+  commentId: F:Models.Settings.Theme.ETheme.LIGHT
+  id: LIGHT
+  parent: Models.Settings.Theme.ETheme
+  langs:
+  - csharp
+  - vb
+  name: LIGHT
+  nameWithType: ETheme.LIGHT
+  fullName: Models.Settings.Theme.ETheme.LIGHT
+  type: Field
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Models/Settings/Theme/ETheme.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: LIGHT
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Models/Settings/Theme/ETheme.cs
+    startLine: 7
+  assemblies:
+  - Models
+  namespace: Models.Settings.Theme
+  syntax:
+    content: LIGHT = 0
+    return:
+      type: Models.Settings.Theme.ETheme
+- uid: Models.Settings.Theme.ETheme.DARK
+  commentId: F:Models.Settings.Theme.ETheme.DARK
+  id: DARK
+  parent: Models.Settings.Theme.ETheme
+  langs:
+  - csharp
+  - vb
+  name: DARK
+  nameWithType: ETheme.DARK
+  fullName: Models.Settings.Theme.ETheme.DARK
+  type: Field
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Models/Settings/Theme/ETheme.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: DARK
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Models/Settings/Theme/ETheme.cs
+    startLine: 8
+  assemblies:
+  - Models
+  namespace: Models.Settings.Theme
+  syntax:
+    content: DARK = 1
+    return:
+      type: Models.Settings.Theme.ETheme
+- uid: Models.Settings.Theme.ETheme.BLUE
+  commentId: F:Models.Settings.Theme.ETheme.BLUE
+  id: BLUE
+  parent: Models.Settings.Theme.ETheme
+  langs:
+  - csharp
+  - vb
+  name: BLUE
+  nameWithType: ETheme.BLUE
+  fullName: Models.Settings.Theme.ETheme.BLUE
+  type: Field
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Models/Settings/Theme/ETheme.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: BLUE
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Models/Settings/Theme/ETheme.cs
+    startLine: 9
+  assemblies:
+  - Models
+  namespace: Models.Settings.Theme
+  syntax:
+    content: BLUE = 2
+    return:
+      type: Models.Settings.Theme.ETheme
+references:
+- uid: Models.Settings.Theme
+  commentId: N:Models.Settings.Theme
+  href: Models.html
+  name: Models.Settings.Theme
+  nameWithType: Models.Settings.Theme
+  fullName: Models.Settings.Theme
+  spec.csharp:
+  - uid: Models
+    name: Models
+    href: Models.html
+  - name: .
+  - uid: Models.Settings
+    name: Settings
+    href: Models.Settings.html
+  - name: .
+  - uid: Models.Settings.Theme
+    name: Theme
+    href: Models.Settings.Theme.html
+  spec.vb:
+  - uid: Models
+    name: Models
+    href: Models.html
+  - name: .
+  - uid: Models.Settings
+    name: Settings
+    href: Models.Settings.html
+  - name: .
+  - uid: Models.Settings.Theme
+    name: Theme
+    href: Models.Settings.Theme.html
+- uid: Models.Settings.Theme.ETheme
+  commentId: T:Models.Settings.Theme.ETheme
+  parent: Models.Settings.Theme
+  href: Models.Settings.Theme.ETheme.html
+  name: ETheme
+  nameWithType: ETheme
+  fullName: Models.Settings.Theme.ETheme

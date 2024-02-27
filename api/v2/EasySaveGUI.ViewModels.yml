@@ -5,6 +5,8 @@ items:
   id: EasySaveGUI.ViewModels
   children:
   - EasySaveGUI.ViewModels.BaseViewModel
+  - EasySaveGUI.ViewModels.BusinessSoftwareViewModel
+  - EasySaveGUI.ViewModels.FileExtensionViewModel
   - EasySaveGUI.ViewModels.FormatLogViewModel
   - EasySaveGUI.ViewModels.JobViewModel
   - EasySaveGUI.ViewModels.LangueViewModel
@@ -29,6 +31,20 @@ references:
   name: BaseViewModel
   nameWithType: BaseViewModel
   fullName: EasySaveGUI.ViewModels.BaseViewModel
+- uid: EasySaveGUI.ViewModels.BusinessSoftwareViewModel
+  commentId: T:EasySaveGUI.ViewModels.BusinessSoftwareViewModel
+  parent: EasySaveGUI.ViewModels
+  href: EasySaveGUI.ViewModels.BusinessSoftwareViewModel.html
+  name: BusinessSoftwareViewModel
+  nameWithType: BusinessSoftwareViewModel
+  fullName: EasySaveGUI.ViewModels.BusinessSoftwareViewModel
+- uid: EasySaveGUI.ViewModels.FileExtensionViewModel
+  commentId: T:EasySaveGUI.ViewModels.FileExtensionViewModel
+  parent: EasySaveGUI.ViewModels
+  href: EasySaveGUI.ViewModels.FileExtensionViewModel.html
+  name: FileExtensionViewModel
+  nameWithType: FileExtensionViewModel
+  fullName: EasySaveGUI.ViewModels.FileExtensionViewModel
 - uid: EasySaveGUI.ViewModels.FormatLogViewModel
   commentId: T:EasySaveGUI.ViewModels.FormatLogViewModel
   parent: EasySaveGUI.ViewModels

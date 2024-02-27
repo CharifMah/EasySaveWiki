@@ -7,7 +7,6 @@ items:
   - Stockage.Save.BaseSave
   - Stockage.Save.ISauve
   - Stockage.Save.SauveCollection
-  - Stockage.Save.SauveJobs
   - Stockage.Save.SauveJobsAsync
   langs:
   - csharp
@@ -39,12 +38,6 @@ references:
   name: SauveCollection
   nameWithType: SauveCollection
   fullName: Stockage.Save.SauveCollection
-- uid: Stockage.Save.SauveJobs
-  commentId: T:Stockage.Save.SauveJobs
-  href: Stockage.Save.SauveJobs.html
-  name: SauveJobs
-  nameWithType: SauveJobs
-  fullName: Stockage.Save.SauveJobs
 - uid: Stockage.Save.SauveJobsAsync
   commentId: T:Stockage.Save.SauveJobsAsync
   parent: Stockage.Save

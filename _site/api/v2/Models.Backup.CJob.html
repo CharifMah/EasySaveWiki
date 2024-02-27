@@ -89,7 +89,7 @@
 
 
   <h1 id="Models_Backup_CJob" data-uid="Models.Backup.CJob" class="text-break">
-Class CJob  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Models/Backup/CJob.cs&amp;version=GBdevelop-livrable-2&amp;line=10"><i class="bi bi-code-slash"></i></a>
+Class CJob  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Models/Backup/CJob.cs&amp;version=GBdevelop-livrable-2&amp;line=12"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -103,7 +103,7 @@ Class CJob  <a class="header-action link-secondary" title="View source" href="ht
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[DataContract]
-public class CJob : IPath</code></pre>
+public class CJob : BaseModel, INotifyPropertyChanged, IPath, IDisposable</code></pre>
   </div>
 
 
@@ -113,6 +113,7 @@ public class CJob : IPath</code></pre>
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="Models.BaseModel.html">BaseModel</a></div>
       <div><span class="xref">CJob</span></div>
     </dd>
   </dl>
@@ -120,7 +121,9 @@ public class CJob : IPath</code></pre>
   <dl class="typelist implements">
     <dt>Implements</dt>
     <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged">INotifyPropertyChanged</a></div>
       <div><a class="xref" href="../v1/LogsModels.IPath.html">IPath</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
     </dd>
   </dl>
 
@@ -129,10 +132,13 @@ public class CJob : IPath</code></pre>
     <dt>Inherited Members</dt>
     <dd>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+      <a class="xref" href="Models.BaseModel.html#Models_BaseModel_PropertyChanged">BaseModel.PropertyChanged</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+      <a class="xref" href="Models.BaseModel.html#Models_BaseModel_NotifyPropertyChanged_System_String_">BaseModel.NotifyPropertyChanged(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
@@ -161,7 +167,7 @@ public class CJob : IPath</code></pre>
 
   <h3 id="Models_Backup_CJob__ctor_System_String_System_String_System_String_Models_Backup_ETypeBackup_" data-uid="Models.Backup.CJob.#ctor(System.String,System.String,System.String,Models.Backup.ETypeBackup)">
   CJob(string, string, string, ETypeBackup)
-  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Models/Backup/CJob.cs&amp;version=GBdevelop-livrable-2&amp;line=60"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Models/Backup/CJob.cs&amp;version=GBdevelop-livrable-2&amp;line=74"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Constructeur de job</p>
@@ -210,7 +216,7 @@ public class CJob : IPath</code></pre>
 
   <h3 id="Models_Backup_CJob_BackupType" data-uid="Models.Backup.CJob.BackupType">
   BackupType
-  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Models/Backup/CJob.cs&amp;version=GBdevelop-livrable-2&amp;line=44"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Models/Backup/CJob.cs&amp;version=GBdevelop-livrable-2&amp;line=52"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Type de sauvegarde</p>
@@ -242,7 +248,7 @@ public class CJob : IPath</code></pre>
 
   <h3 id="Models_Backup_CJob_Name" data-uid="Models.Backup.CJob.Name">
   Name
-  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Models/Backup/CJob.cs&amp;version=GBdevelop-livrable-2&amp;line=29"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Models/Backup/CJob.cs&amp;version=GBdevelop-livrable-2&amp;line=31"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Nom du job de sauvegarde</p>
@@ -274,7 +280,7 @@ public class CJob : IPath</code></pre>
 
   <h3 id="Models_Backup_CJob_SauveJobs" data-uid="Models.Backup.CJob.SauveJobs">
   SauveJobs
-  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Models/Backup/CJob.cs&amp;version=GBdevelop-livrable-2&amp;line=45"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Models/Backup/CJob.cs&amp;version=GBdevelop-livrable-2&amp;line=56"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -305,7 +311,7 @@ public class CJob : IPath</code></pre>
 
   <h3 id="Models_Backup_CJob_SourceDirectory" data-uid="Models.Backup.CJob.SourceDirectory">
   SourceDirectory
-  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Models/Backup/CJob.cs&amp;version=GBdevelop-livrable-2&amp;line=34"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Models/Backup/CJob.cs&amp;version=GBdevelop-livrable-2&amp;line=36"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Répertoire source à sauvegarder</p>
@@ -337,7 +343,7 @@ public class CJob : IPath</code></pre>
 
   <h3 id="Models_Backup_CJob_TargetDirectory" data-uid="Models.Backup.CJob.TargetDirectory">
   TargetDirectory
-  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Models/Backup/CJob.cs&amp;version=GBdevelop-livrable-2&amp;line=39"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Models/Backup/CJob.cs&amp;version=GBdevelop-livrable-2&amp;line=44"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Répertoire cible de la sauvegarde</p>
@@ -369,11 +375,38 @@ public class CJob : IPath</code></pre>
 </h2>
 
 
+  <a id="Models_Backup_CJob_Dispose_" data-uid="Models.Backup.CJob.Dispose*"></a>
+
+  <h3 id="Models_Backup_CJob_Dispose" data-uid="Models.Backup.CJob.Dispose">
+  Dispose()
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Models/Backup/CJob.cs&amp;version=GBdevelop-livrable-2&amp;line=148"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
   <a id="Models_Backup_CJob_Equals_" data-uid="Models.Backup.CJob.Equals*"></a>
 
   <h3 id="Models_Backup_CJob_Equals_System_Object_" data-uid="Models.Backup.CJob.Equals(System.Object)">
   Equals(object?)
-  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Models/Backup/CJob.cs&amp;version=GBdevelop-livrable-2&amp;line=114"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Models/Backup/CJob.cs&amp;version=GBdevelop-livrable-2&amp;line=134"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Determines whether the specified object is equal to the current object.</p>
@@ -408,11 +441,70 @@ public class CJob : IPath</code></pre>
 
 
 
+  <a id="Models_Backup_CJob_Finalize_" data-uid="Models.Backup.CJob.Finalize*"></a>
+
+  <h3 id="Models_Backup_CJob_Finalize" data-uid="Models.Backup.CJob.Finalize">
+  ~CJob()
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Models/Backup/CJob.cs&amp;version=GBdevelop-livrable-2&amp;line=82"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected ~CJob()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Models_Backup_CJob_GetHashCode_" data-uid="Models.Backup.CJob.GetHashCode*"></a>
+
+  <h3 id="Models_Backup_CJob_GetHashCode" data-uid="Models.Backup.CJob.GetHashCode">
+  GetHashCode()
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Models/Backup/CJob.cs&amp;version=GBdevelop-livrable-2&amp;line=143"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Serves as the default hash function.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>A hash code for the current object.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="Models_Backup_CJob_Run_" data-uid="Models.Backup.CJob.Run*"></a>
 
-  <h3 id="Models_Backup_CJob_Run_System_Collections_Generic_List_LogsModels_CLogState__" data-uid="Models.Backup.CJob.Run(System.Collections.Generic.List{LogsModels.CLogState})">
-  Run(List&lt;CLogState&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Models/Backup/CJob.cs&amp;version=GBdevelop-livrable-2&amp;line=75"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Models_Backup_CJob_Run_Stockage_Logs_ILogger_System_UInt32__UpdateLogDelegate_" data-uid="Models.Backup.CJob.Run(Stockage.Logs.ILogger{System.UInt32}.UpdateLogDelegate)">
+  Run(UpdateLogDelegate)
+  <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Models/Backup/CJob.cs&amp;version=GBdevelop-livrable-2&amp;line=93"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Lance l'exécution du job de sauvegarde</p>
@@ -420,20 +512,15 @@ public class CJob : IPath</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task Run(List&lt;CLogState&gt; pLogState)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Run(ILogger&lt;uint&gt;.UpdateLogDelegate pUpdateLog)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>pLogState</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="LogsModels.CLogState.html">CLogState</a>&gt;</dt>
+    <dt><code>pUpdateLog</code> <a class="xref" href="Stockage.Logs.ILogger-1.html">ILogger</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a>&gt;.<a class="xref" href="Stockage.Logs.ILogger-1.UpdateLogDelegate.html">UpdateLogDelegate</a></dt>
     <dd></dd>
   </dl>
 
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
-    <dd></dd>
-  </dl>
 
 
 
@@ -449,7 +536,7 @@ public class CJob : IPath</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Models/Backup/CJob.cs&amp;version=GBdevelop-livrable-2&amp;line=10" class="edit-link">Edit this page</a>
+          <a href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Models/Backup/CJob.cs&amp;version=GBdevelop-livrable-2&amp;line=12" class="edit-link">Edit this page</a>
         </div>
 
 

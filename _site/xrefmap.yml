@@ -1,6 +1,133 @@
 ### YamlMime:XRefMap
 sorted: true
 references:
+- uid: CryptoSoft
+  name: CryptoSoft
+  href: api/v2/CryptoSoft.html
+  commentId: N:CryptoSoft
+  fullName: CryptoSoft
+  nameWithType: CryptoSoft
+- uid: CryptoSoft.BaseChiffrement
+  name: BaseChiffrement
+  href: api/v2/CryptoSoft.BaseChiffrement.html
+  commentId: T:CryptoSoft.BaseChiffrement
+  fullName: CryptoSoft.BaseChiffrement
+  nameWithType: BaseChiffrement
+- uid: CryptoSoft.BaseChiffrement.#ctor
+  name: BaseChiffrement()
+  href: api/v2/CryptoSoft.BaseChiffrement.html#CryptoSoft_BaseChiffrement__ctor
+  commentId: M:CryptoSoft.BaseChiffrement.#ctor
+  name.vb: New()
+  fullName: CryptoSoft.BaseChiffrement.BaseChiffrement()
+  fullName.vb: CryptoSoft.BaseChiffrement.New()
+  nameWithType: BaseChiffrement.BaseChiffrement()
+  nameWithType.vb: BaseChiffrement.New()
+- uid: CryptoSoft.BaseChiffrement.#ctor*
+  name: BaseChiffrement
+  href: api/v2/CryptoSoft.BaseChiffrement.html#CryptoSoft_BaseChiffrement__ctor_
+  commentId: Overload:CryptoSoft.BaseChiffrement.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: CryptoSoft.BaseChiffrement.BaseChiffrement
+  fullName.vb: CryptoSoft.BaseChiffrement.New
+  nameWithType: BaseChiffrement.BaseChiffrement
+  nameWithType.vb: BaseChiffrement.New
+- uid: CryptoSoft.BaseChiffrement.Decrypt(System.Byte[],System.Byte[])
+  name: Decrypt(byte[], byte[])
+  href: api/v2/CryptoSoft.BaseChiffrement.html#CryptoSoft_BaseChiffrement_Decrypt_System_Byte___System_Byte___
+  commentId: M:CryptoSoft.BaseChiffrement.Decrypt(System.Byte[],System.Byte[])
+  name.vb: Decrypt(Byte(), Byte())
+  fullName: CryptoSoft.BaseChiffrement.Decrypt(byte[], byte[])
+  fullName.vb: CryptoSoft.BaseChiffrement.Decrypt(Byte(), Byte())
+  nameWithType: BaseChiffrement.Decrypt(byte[], byte[])
+  nameWithType.vb: BaseChiffrement.Decrypt(Byte(), Byte())
+- uid: CryptoSoft.BaseChiffrement.Decrypt*
+  name: Decrypt
+  href: api/v2/CryptoSoft.BaseChiffrement.html#CryptoSoft_BaseChiffrement_Decrypt_
+  commentId: Overload:CryptoSoft.BaseChiffrement.Decrypt
+  isSpec: "True"
+  fullName: CryptoSoft.BaseChiffrement.Decrypt
+  nameWithType: BaseChiffrement.Decrypt
+- uid: CryptoSoft.BaseChiffrement.DecryptTime
+  name: DecryptTime
+  href: api/v2/CryptoSoft.BaseChiffrement.html#CryptoSoft_BaseChiffrement_DecryptTime
+  commentId: P:CryptoSoft.BaseChiffrement.DecryptTime
+  fullName: CryptoSoft.BaseChiffrement.DecryptTime
+  nameWithType: BaseChiffrement.DecryptTime
+- uid: CryptoSoft.BaseChiffrement.DecryptTime*
+  name: DecryptTime
+  href: api/v2/CryptoSoft.BaseChiffrement.html#CryptoSoft_BaseChiffrement_DecryptTime_
+  commentId: Overload:CryptoSoft.BaseChiffrement.DecryptTime
+  isSpec: "True"
+  fullName: CryptoSoft.BaseChiffrement.DecryptTime
+  nameWithType: BaseChiffrement.DecryptTime
+- uid: CryptoSoft.BaseChiffrement.Encrypt(System.Byte[],System.Byte[])
+  name: Encrypt(byte[], byte[])
+  href: api/v2/CryptoSoft.BaseChiffrement.html#CryptoSoft_BaseChiffrement_Encrypt_System_Byte___System_Byte___
+  commentId: M:CryptoSoft.BaseChiffrement.Encrypt(System.Byte[],System.Byte[])
+  name.vb: Encrypt(Byte(), Byte())
+  fullName: CryptoSoft.BaseChiffrement.Encrypt(byte[], byte[])
+  fullName.vb: CryptoSoft.BaseChiffrement.Encrypt(Byte(), Byte())
+  nameWithType: BaseChiffrement.Encrypt(byte[], byte[])
+  nameWithType.vb: BaseChiffrement.Encrypt(Byte(), Byte())
+- uid: CryptoSoft.BaseChiffrement.Encrypt*
+  name: Encrypt
+  href: api/v2/CryptoSoft.BaseChiffrement.html#CryptoSoft_BaseChiffrement_Encrypt_
+  commentId: Overload:CryptoSoft.BaseChiffrement.Encrypt
+  isSpec: "True"
+  fullName: CryptoSoft.BaseChiffrement.Encrypt
+  nameWithType: BaseChiffrement.Encrypt
+- uid: CryptoSoft.BaseChiffrement.EncryptTime
+  name: EncryptTime
+  href: api/v2/CryptoSoft.BaseChiffrement.html#CryptoSoft_BaseChiffrement_EncryptTime
+  commentId: P:CryptoSoft.BaseChiffrement.EncryptTime
+  fullName: CryptoSoft.BaseChiffrement.EncryptTime
+  nameWithType: BaseChiffrement.EncryptTime
+- uid: CryptoSoft.BaseChiffrement.EncryptTime*
+  name: EncryptTime
+  href: api/v2/CryptoSoft.BaseChiffrement.html#CryptoSoft_BaseChiffrement_EncryptTime_
+  commentId: Overload:CryptoSoft.BaseChiffrement.EncryptTime
+  isSpec: "True"
+  fullName: CryptoSoft.BaseChiffrement.EncryptTime
+  nameWithType: BaseChiffrement.EncryptTime
+- uid: CryptoSoft.CXorChiffrement
+  name: CXorChiffrement
+  href: api/v2/CryptoSoft.CXorChiffrement.html
+  commentId: T:CryptoSoft.CXorChiffrement
+  fullName: CryptoSoft.CXorChiffrement
+  nameWithType: CXorChiffrement
+- uid: CryptoSoft.CXorChiffrement.Decrypt(System.Byte[],System.Byte[])
+  name: Decrypt(byte[], byte[])
+  href: api/v2/CryptoSoft.CXorChiffrement.html#CryptoSoft_CXorChiffrement_Decrypt_System_Byte___System_Byte___
+  commentId: M:CryptoSoft.CXorChiffrement.Decrypt(System.Byte[],System.Byte[])
+  name.vb: Decrypt(Byte(), Byte())
+  fullName: CryptoSoft.CXorChiffrement.Decrypt(byte[], byte[])
+  fullName.vb: CryptoSoft.CXorChiffrement.Decrypt(Byte(), Byte())
+  nameWithType: CXorChiffrement.Decrypt(byte[], byte[])
+  nameWithType.vb: CXorChiffrement.Decrypt(Byte(), Byte())
+- uid: CryptoSoft.CXorChiffrement.Decrypt*
+  name: Decrypt
+  href: api/v2/CryptoSoft.CXorChiffrement.html#CryptoSoft_CXorChiffrement_Decrypt_
+  commentId: Overload:CryptoSoft.CXorChiffrement.Decrypt
+  isSpec: "True"
+  fullName: CryptoSoft.CXorChiffrement.Decrypt
+  nameWithType: CXorChiffrement.Decrypt
+- uid: CryptoSoft.CXorChiffrement.Encrypt(System.Byte[],System.Byte[])
+  name: Encrypt(byte[], byte[])
+  href: api/v2/CryptoSoft.CXorChiffrement.html#CryptoSoft_CXorChiffrement_Encrypt_System_Byte___System_Byte___
+  commentId: M:CryptoSoft.CXorChiffrement.Encrypt(System.Byte[],System.Byte[])
+  name.vb: Encrypt(Byte(), Byte())
+  fullName: CryptoSoft.CXorChiffrement.Encrypt(byte[], byte[])
+  fullName.vb: CryptoSoft.CXorChiffrement.Encrypt(Byte(), Byte())
+  nameWithType: CXorChiffrement.Encrypt(byte[], byte[])
+  nameWithType.vb: CXorChiffrement.Encrypt(Byte(), Byte())
+- uid: CryptoSoft.CXorChiffrement.Encrypt*
+  name: Encrypt
+  href: api/v2/CryptoSoft.CXorChiffrement.html#CryptoSoft_CXorChiffrement_Encrypt_
+  commentId: Overload:CryptoSoft.CXorChiffrement.Encrypt
+  isSpec: "True"
+  fullName: CryptoSoft.CXorChiffrement.Encrypt
+  nameWithType: CXorChiffrement.Encrypt
 - uid: EasySave.Views
   name: EasySave.Views
   href: api/v1/EasySave.Views.html
@@ -804,13 +931,13 @@ references:
   fullName: EasySaveGUI.MainWindow.ReleaseCapture
   nameWithType: MainWindow.ReleaseCapture
 - uid: EasySaveGUI.MainWindow.SendMessage(System.IntPtr,System.Int32,System.Int32,System.Int32)
-  name: SendMessage(IntPtr, int, int, int)
+  name: SendMessage(nint, int, int, int)
   href: api/v2/EasySaveGUI.MainWindow.html#EasySaveGUI_MainWindow_SendMessage_System_IntPtr_System_Int32_System_Int32_System_Int32_
   commentId: M:EasySaveGUI.MainWindow.SendMessage(System.IntPtr,System.Int32,System.Int32,System.Int32)
   name.vb: SendMessage(IntPtr, Integer, Integer, Integer)
-  fullName: EasySaveGUI.MainWindow.SendMessage(System.IntPtr, int, int, int)
+  fullName: EasySaveGUI.MainWindow.SendMessage(nint, int, int, int)
   fullName.vb: EasySaveGUI.MainWindow.SendMessage(System.IntPtr, Integer, Integer, Integer)
-  nameWithType: MainWindow.SendMessage(IntPtr, int, int, int)
+  nameWithType: MainWindow.SendMessage(nint, int, int, int)
   nameWithType.vb: MainWindow.SendMessage(IntPtr, Integer, Integer, Integer)
 - uid: EasySaveGUI.MainWindow.SendMessage*
   name: SendMessage
@@ -974,6 +1101,82 @@ references:
   fullName.vb: EasySaveGUI.UserControls.JobPropertyControl.New
   nameWithType: JobPropertyControl.JobPropertyControl
   nameWithType.vb: JobPropertyControl.New
+- uid: EasySaveGUI.UserControls.JobRunningControl
+  name: JobRunningControl
+  href: api/v2/EasySaveGUI.UserControls.JobRunningControl.html
+  commentId: T:EasySaveGUI.UserControls.JobRunningControl
+  fullName: EasySaveGUI.UserControls.JobRunningControl
+  nameWithType: JobRunningControl
+- uid: EasySaveGUI.UserControls.JobRunningControl.#ctor
+  name: JobRunningControl()
+  href: api/v2/EasySaveGUI.UserControls.JobRunningControl.html#EasySaveGUI_UserControls_JobRunningControl__ctor
+  commentId: M:EasySaveGUI.UserControls.JobRunningControl.#ctor
+  name.vb: New()
+  fullName: EasySaveGUI.UserControls.JobRunningControl.JobRunningControl()
+  fullName.vb: EasySaveGUI.UserControls.JobRunningControl.New()
+  nameWithType: JobRunningControl.JobRunningControl()
+  nameWithType.vb: JobRunningControl.New()
+- uid: EasySaveGUI.UserControls.JobRunningControl.#ctor*
+  name: JobRunningControl
+  href: api/v2/EasySaveGUI.UserControls.JobRunningControl.html#EasySaveGUI_UserControls_JobRunningControl__ctor_
+  commentId: Overload:EasySaveGUI.UserControls.JobRunningControl.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: EasySaveGUI.UserControls.JobRunningControl.JobRunningControl
+  fullName.vb: EasySaveGUI.UserControls.JobRunningControl.New
+  nameWithType: JobRunningControl.JobRunningControl
+  nameWithType.vb: JobRunningControl.New
+- uid: EasySaveGUI.UserControls.LoadingAnimationControl
+  name: LoadingAnimationControl
+  href: api/v2/EasySaveGUI.UserControls.LoadingAnimationControl.html
+  commentId: T:EasySaveGUI.UserControls.LoadingAnimationControl
+  fullName: EasySaveGUI.UserControls.LoadingAnimationControl
+  nameWithType: LoadingAnimationControl
+- uid: EasySaveGUI.UserControls.LoadingAnimationControl.#ctor
+  name: LoadingAnimationControl()
+  href: api/v2/EasySaveGUI.UserControls.LoadingAnimationControl.html#EasySaveGUI_UserControls_LoadingAnimationControl__ctor
+  commentId: M:EasySaveGUI.UserControls.LoadingAnimationControl.#ctor
+  name.vb: New()
+  fullName: EasySaveGUI.UserControls.LoadingAnimationControl.LoadingAnimationControl()
+  fullName.vb: EasySaveGUI.UserControls.LoadingAnimationControl.New()
+  nameWithType: LoadingAnimationControl.LoadingAnimationControl()
+  nameWithType.vb: LoadingAnimationControl.New()
+- uid: EasySaveGUI.UserControls.LoadingAnimationControl.#ctor*
+  name: LoadingAnimationControl
+  href: api/v2/EasySaveGUI.UserControls.LoadingAnimationControl.html#EasySaveGUI_UserControls_LoadingAnimationControl__ctor_
+  commentId: Overload:EasySaveGUI.UserControls.LoadingAnimationControl.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: EasySaveGUI.UserControls.LoadingAnimationControl.LoadingAnimationControl
+  fullName.vb: EasySaveGUI.UserControls.LoadingAnimationControl.New
+  nameWithType: LoadingAnimationControl.LoadingAnimationControl
+  nameWithType.vb: LoadingAnimationControl.New
+- uid: EasySaveGUI.UserControls.LoadingAnimationControl.Hide
+  name: Hide()
+  href: api/v2/EasySaveGUI.UserControls.LoadingAnimationControl.html#EasySaveGUI_UserControls_LoadingAnimationControl_Hide
+  commentId: M:EasySaveGUI.UserControls.LoadingAnimationControl.Hide
+  fullName: EasySaveGUI.UserControls.LoadingAnimationControl.Hide()
+  nameWithType: LoadingAnimationControl.Hide()
+- uid: EasySaveGUI.UserControls.LoadingAnimationControl.Hide*
+  name: Hide
+  href: api/v2/EasySaveGUI.UserControls.LoadingAnimationControl.html#EasySaveGUI_UserControls_LoadingAnimationControl_Hide_
+  commentId: Overload:EasySaveGUI.UserControls.LoadingAnimationControl.Hide
+  isSpec: "True"
+  fullName: EasySaveGUI.UserControls.LoadingAnimationControl.Hide
+  nameWithType: LoadingAnimationControl.Hide
+- uid: EasySaveGUI.UserControls.LoadingAnimationControl.Show
+  name: Show()
+  href: api/v2/EasySaveGUI.UserControls.LoadingAnimationControl.html#EasySaveGUI_UserControls_LoadingAnimationControl_Show
+  commentId: M:EasySaveGUI.UserControls.LoadingAnimationControl.Show
+  fullName: EasySaveGUI.UserControls.LoadingAnimationControl.Show()
+  nameWithType: LoadingAnimationControl.Show()
+- uid: EasySaveGUI.UserControls.LoadingAnimationControl.Show*
+  name: Show
+  href: api/v2/EasySaveGUI.UserControls.LoadingAnimationControl.html#EasySaveGUI_UserControls_LoadingAnimationControl_Show_
+  commentId: Overload:EasySaveGUI.UserControls.LoadingAnimationControl.Show
+  isSpec: "True"
+  fullName: EasySaveGUI.UserControls.LoadingAnimationControl.Show
+  nameWithType: LoadingAnimationControl.Show
 - uid: EasySaveGUI.UserControls.MenuControl
   name: MenuControl
   href: api/v2/EasySaveGUI.UserControls.MenuControl.html
@@ -1024,6 +1227,57 @@ references:
   fullName.vb: EasySaveGUI.UserControls.OptionsMenuControl.New
   nameWithType: OptionsMenuControl.OptionsMenuControl
   nameWithType.vb: OptionsMenuControl.New
+- uid: EasySaveGUI.UserControls.ValidationAnimationControl
+  name: ValidationAnimationControl
+  href: api/v2/EasySaveGUI.UserControls.ValidationAnimationControl.html
+  commentId: T:EasySaveGUI.UserControls.ValidationAnimationControl
+  fullName: EasySaveGUI.UserControls.ValidationAnimationControl
+  nameWithType: ValidationAnimationControl
+- uid: EasySaveGUI.UserControls.ValidationAnimationControl.#ctor
+  name: ValidationAnimationControl()
+  href: api/v2/EasySaveGUI.UserControls.ValidationAnimationControl.html#EasySaveGUI_UserControls_ValidationAnimationControl__ctor
+  commentId: M:EasySaveGUI.UserControls.ValidationAnimationControl.#ctor
+  name.vb: New()
+  fullName: EasySaveGUI.UserControls.ValidationAnimationControl.ValidationAnimationControl()
+  fullName.vb: EasySaveGUI.UserControls.ValidationAnimationControl.New()
+  nameWithType: ValidationAnimationControl.ValidationAnimationControl()
+  nameWithType.vb: ValidationAnimationControl.New()
+- uid: EasySaveGUI.UserControls.ValidationAnimationControl.#ctor*
+  name: ValidationAnimationControl
+  href: api/v2/EasySaveGUI.UserControls.ValidationAnimationControl.html#EasySaveGUI_UserControls_ValidationAnimationControl__ctor_
+  commentId: Overload:EasySaveGUI.UserControls.ValidationAnimationControl.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: EasySaveGUI.UserControls.ValidationAnimationControl.ValidationAnimationControl
+  fullName.vb: EasySaveGUI.UserControls.ValidationAnimationControl.New
+  nameWithType: ValidationAnimationControl.ValidationAnimationControl
+  nameWithType.vb: ValidationAnimationControl.New
+- uid: EasySaveGUI.UserControls.ValidationAnimationControl.Hide
+  name: Hide()
+  href: api/v2/EasySaveGUI.UserControls.ValidationAnimationControl.html#EasySaveGUI_UserControls_ValidationAnimationControl_Hide
+  commentId: M:EasySaveGUI.UserControls.ValidationAnimationControl.Hide
+  fullName: EasySaveGUI.UserControls.ValidationAnimationControl.Hide()
+  nameWithType: ValidationAnimationControl.Hide()
+- uid: EasySaveGUI.UserControls.ValidationAnimationControl.Hide*
+  name: Hide
+  href: api/v2/EasySaveGUI.UserControls.ValidationAnimationControl.html#EasySaveGUI_UserControls_ValidationAnimationControl_Hide_
+  commentId: Overload:EasySaveGUI.UserControls.ValidationAnimationControl.Hide
+  isSpec: "True"
+  fullName: EasySaveGUI.UserControls.ValidationAnimationControl.Hide
+  nameWithType: ValidationAnimationControl.Hide
+- uid: EasySaveGUI.UserControls.ValidationAnimationControl.Show
+  name: Show()
+  href: api/v2/EasySaveGUI.UserControls.ValidationAnimationControl.html#EasySaveGUI_UserControls_ValidationAnimationControl_Show
+  commentId: M:EasySaveGUI.UserControls.ValidationAnimationControl.Show
+  fullName: EasySaveGUI.UserControls.ValidationAnimationControl.Show()
+  nameWithType: ValidationAnimationControl.Show()
+- uid: EasySaveGUI.UserControls.ValidationAnimationControl.Show*
+  name: Show
+  href: api/v2/EasySaveGUI.UserControls.ValidationAnimationControl.html#EasySaveGUI_UserControls_ValidationAnimationControl_Show_
+  commentId: Overload:EasySaveGUI.UserControls.ValidationAnimationControl.Show
+  isSpec: "True"
+  fullName: EasySaveGUI.UserControls.ValidationAnimationControl.Show
+  nameWithType: ValidationAnimationControl.Show
 - uid: EasySaveGUI.UserControls.ValidationPopupControl
   name: ValidationPopupControl
   href: api/v2/EasySaveGUI.UserControls.ValidationPopupControl.html
@@ -1137,6 +1391,146 @@ references:
   commentId: E:EasySaveGUI.ViewModels.BaseViewModel.PropertyChanged
   fullName: EasySaveGUI.ViewModels.BaseViewModel.PropertyChanged
   nameWithType: BaseViewModel.PropertyChanged
+- uid: EasySaveGUI.ViewModels.BusinessSoftwareViewModel
+  name: BusinessSoftwareViewModel
+  href: api/v2/EasySaveGUI.ViewModels.BusinessSoftwareViewModel.html
+  commentId: T:EasySaveGUI.ViewModels.BusinessSoftwareViewModel
+  fullName: EasySaveGUI.ViewModels.BusinessSoftwareViewModel
+  nameWithType: BusinessSoftwareViewModel
+- uid: EasySaveGUI.ViewModels.BusinessSoftwareViewModel.#ctor
+  name: BusinessSoftwareViewModel()
+  href: api/v2/EasySaveGUI.ViewModels.BusinessSoftwareViewModel.html#EasySaveGUI_ViewModels_BusinessSoftwareViewModel__ctor
+  commentId: M:EasySaveGUI.ViewModels.BusinessSoftwareViewModel.#ctor
+  name.vb: New()
+  fullName: EasySaveGUI.ViewModels.BusinessSoftwareViewModel.BusinessSoftwareViewModel()
+  fullName.vb: EasySaveGUI.ViewModels.BusinessSoftwareViewModel.New()
+  nameWithType: BusinessSoftwareViewModel.BusinessSoftwareViewModel()
+  nameWithType.vb: BusinessSoftwareViewModel.New()
+- uid: EasySaveGUI.ViewModels.BusinessSoftwareViewModel.#ctor*
+  name: BusinessSoftwareViewModel
+  href: api/v2/EasySaveGUI.ViewModels.BusinessSoftwareViewModel.html#EasySaveGUI_ViewModels_BusinessSoftwareViewModel__ctor_
+  commentId: Overload:EasySaveGUI.ViewModels.BusinessSoftwareViewModel.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: EasySaveGUI.ViewModels.BusinessSoftwareViewModel.BusinessSoftwareViewModel
+  fullName.vb: EasySaveGUI.ViewModels.BusinessSoftwareViewModel.New
+  nameWithType: BusinessSoftwareViewModel.BusinessSoftwareViewModel
+  nameWithType.vb: BusinessSoftwareViewModel.New
+- uid: EasySaveGUI.ViewModels.BusinessSoftwareViewModel.AddBusinessSoftware(System.String)
+  name: AddBusinessSoftware(string)
+  href: api/v2/EasySaveGUI.ViewModels.BusinessSoftwareViewModel.html#EasySaveGUI_ViewModels_BusinessSoftwareViewModel_AddBusinessSoftware_System_String_
+  commentId: M:EasySaveGUI.ViewModels.BusinessSoftwareViewModel.AddBusinessSoftware(System.String)
+  name.vb: AddBusinessSoftware(String)
+  fullName: EasySaveGUI.ViewModels.BusinessSoftwareViewModel.AddBusinessSoftware(string)
+  fullName.vb: EasySaveGUI.ViewModels.BusinessSoftwareViewModel.AddBusinessSoftware(String)
+  nameWithType: BusinessSoftwareViewModel.AddBusinessSoftware(string)
+  nameWithType.vb: BusinessSoftwareViewModel.AddBusinessSoftware(String)
+- uid: EasySaveGUI.ViewModels.BusinessSoftwareViewModel.AddBusinessSoftware*
+  name: AddBusinessSoftware
+  href: api/v2/EasySaveGUI.ViewModels.BusinessSoftwareViewModel.html#EasySaveGUI_ViewModels_BusinessSoftwareViewModel_AddBusinessSoftware_
+  commentId: Overload:EasySaveGUI.ViewModels.BusinessSoftwareViewModel.AddBusinessSoftware
+  isSpec: "True"
+  fullName: EasySaveGUI.ViewModels.BusinessSoftwareViewModel.AddBusinessSoftware
+  nameWithType: BusinessSoftwareViewModel.AddBusinessSoftware
+- uid: EasySaveGUI.ViewModels.BusinessSoftwareViewModel.BusinessSoftware
+  name: BusinessSoftware
+  href: api/v2/EasySaveGUI.ViewModels.BusinessSoftwareViewModel.html#EasySaveGUI_ViewModels_BusinessSoftwareViewModel_BusinessSoftware
+  commentId: P:EasySaveGUI.ViewModels.BusinessSoftwareViewModel.BusinessSoftware
+  fullName: EasySaveGUI.ViewModels.BusinessSoftwareViewModel.BusinessSoftware
+  nameWithType: BusinessSoftwareViewModel.BusinessSoftware
+- uid: EasySaveGUI.ViewModels.BusinessSoftwareViewModel.BusinessSoftware*
+  name: BusinessSoftware
+  href: api/v2/EasySaveGUI.ViewModels.BusinessSoftwareViewModel.html#EasySaveGUI_ViewModels_BusinessSoftwareViewModel_BusinessSoftware_
+  commentId: Overload:EasySaveGUI.ViewModels.BusinessSoftwareViewModel.BusinessSoftware
+  isSpec: "True"
+  fullName: EasySaveGUI.ViewModels.BusinessSoftwareViewModel.BusinessSoftware
+  nameWithType: BusinessSoftwareViewModel.BusinessSoftware
+- uid: EasySaveGUI.ViewModels.BusinessSoftwareViewModel.RemoveBusinessSoftwares(System.Collections.Generic.List{System.String})
+  name: RemoveBusinessSoftwares(List<string>)
+  href: api/v2/EasySaveGUI.ViewModels.BusinessSoftwareViewModel.html#EasySaveGUI_ViewModels_BusinessSoftwareViewModel_RemoveBusinessSoftwares_System_Collections_Generic_List_System_String__
+  commentId: M:EasySaveGUI.ViewModels.BusinessSoftwareViewModel.RemoveBusinessSoftwares(System.Collections.Generic.List{System.String})
+  name.vb: RemoveBusinessSoftwares(List(Of String))
+  fullName: EasySaveGUI.ViewModels.BusinessSoftwareViewModel.RemoveBusinessSoftwares(System.Collections.Generic.List<string>)
+  fullName.vb: EasySaveGUI.ViewModels.BusinessSoftwareViewModel.RemoveBusinessSoftwares(System.Collections.Generic.List(Of String))
+  nameWithType: BusinessSoftwareViewModel.RemoveBusinessSoftwares(List<string>)
+  nameWithType.vb: BusinessSoftwareViewModel.RemoveBusinessSoftwares(List(Of String))
+- uid: EasySaveGUI.ViewModels.BusinessSoftwareViewModel.RemoveBusinessSoftwares*
+  name: RemoveBusinessSoftwares
+  href: api/v2/EasySaveGUI.ViewModels.BusinessSoftwareViewModel.html#EasySaveGUI_ViewModels_BusinessSoftwareViewModel_RemoveBusinessSoftwares_
+  commentId: Overload:EasySaveGUI.ViewModels.BusinessSoftwareViewModel.RemoveBusinessSoftwares
+  isSpec: "True"
+  fullName: EasySaveGUI.ViewModels.BusinessSoftwareViewModel.RemoveBusinessSoftwares
+  nameWithType: BusinessSoftwareViewModel.RemoveBusinessSoftwares
+- uid: EasySaveGUI.ViewModels.FileExtensionViewModel
+  name: FileExtensionViewModel
+  href: api/v2/EasySaveGUI.ViewModels.FileExtensionViewModel.html
+  commentId: T:EasySaveGUI.ViewModels.FileExtensionViewModel
+  fullName: EasySaveGUI.ViewModels.FileExtensionViewModel
+  nameWithType: FileExtensionViewModel
+- uid: EasySaveGUI.ViewModels.FileExtensionViewModel.#ctor
+  name: FileExtensionViewModel()
+  href: api/v2/EasySaveGUI.ViewModels.FileExtensionViewModel.html#EasySaveGUI_ViewModels_FileExtensionViewModel__ctor
+  commentId: M:EasySaveGUI.ViewModels.FileExtensionViewModel.#ctor
+  name.vb: New()
+  fullName: EasySaveGUI.ViewModels.FileExtensionViewModel.FileExtensionViewModel()
+  fullName.vb: EasySaveGUI.ViewModels.FileExtensionViewModel.New()
+  nameWithType: FileExtensionViewModel.FileExtensionViewModel()
+  nameWithType.vb: FileExtensionViewModel.New()
+- uid: EasySaveGUI.ViewModels.FileExtensionViewModel.#ctor*
+  name: FileExtensionViewModel
+  href: api/v2/EasySaveGUI.ViewModels.FileExtensionViewModel.html#EasySaveGUI_ViewModels_FileExtensionViewModel__ctor_
+  commentId: Overload:EasySaveGUI.ViewModels.FileExtensionViewModel.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: EasySaveGUI.ViewModels.FileExtensionViewModel.FileExtensionViewModel
+  fullName.vb: EasySaveGUI.ViewModels.FileExtensionViewModel.New
+  nameWithType: FileExtensionViewModel.FileExtensionViewModel
+  nameWithType.vb: FileExtensionViewModel.New
+- uid: EasySaveGUI.ViewModels.FileExtensionViewModel.AddEncryptionExtension(System.String)
+  name: AddEncryptionExtension(string)
+  href: api/v2/EasySaveGUI.ViewModels.FileExtensionViewModel.html#EasySaveGUI_ViewModels_FileExtensionViewModel_AddEncryptionExtension_System_String_
+  commentId: M:EasySaveGUI.ViewModels.FileExtensionViewModel.AddEncryptionExtension(System.String)
+  name.vb: AddEncryptionExtension(String)
+  fullName: EasySaveGUI.ViewModels.FileExtensionViewModel.AddEncryptionExtension(string)
+  fullName.vb: EasySaveGUI.ViewModels.FileExtensionViewModel.AddEncryptionExtension(String)
+  nameWithType: FileExtensionViewModel.AddEncryptionExtension(string)
+  nameWithType.vb: FileExtensionViewModel.AddEncryptionExtension(String)
+- uid: EasySaveGUI.ViewModels.FileExtensionViewModel.AddEncryptionExtension*
+  name: AddEncryptionExtension
+  href: api/v2/EasySaveGUI.ViewModels.FileExtensionViewModel.html#EasySaveGUI_ViewModels_FileExtensionViewModel_AddEncryptionExtension_
+  commentId: Overload:EasySaveGUI.ViewModels.FileExtensionViewModel.AddEncryptionExtension
+  isSpec: "True"
+  fullName: EasySaveGUI.ViewModels.FileExtensionViewModel.AddEncryptionExtension
+  nameWithType: FileExtensionViewModel.AddEncryptionExtension
+- uid: EasySaveGUI.ViewModels.FileExtensionViewModel.EncryptionExtensions
+  name: EncryptionExtensions
+  href: api/v2/EasySaveGUI.ViewModels.FileExtensionViewModel.html#EasySaveGUI_ViewModels_FileExtensionViewModel_EncryptionExtensions
+  commentId: P:EasySaveGUI.ViewModels.FileExtensionViewModel.EncryptionExtensions
+  fullName: EasySaveGUI.ViewModels.FileExtensionViewModel.EncryptionExtensions
+  nameWithType: FileExtensionViewModel.EncryptionExtensions
+- uid: EasySaveGUI.ViewModels.FileExtensionViewModel.EncryptionExtensions*
+  name: EncryptionExtensions
+  href: api/v2/EasySaveGUI.ViewModels.FileExtensionViewModel.html#EasySaveGUI_ViewModels_FileExtensionViewModel_EncryptionExtensions_
+  commentId: Overload:EasySaveGUI.ViewModels.FileExtensionViewModel.EncryptionExtensions
+  isSpec: "True"
+  fullName: EasySaveGUI.ViewModels.FileExtensionViewModel.EncryptionExtensions
+  nameWithType: FileExtensionViewModel.EncryptionExtensions
+- uid: EasySaveGUI.ViewModels.FileExtensionViewModel.RemoveEncryptionExtensions(System.Collections.Generic.List{System.String})
+  name: RemoveEncryptionExtensions(List<string>)
+  href: api/v2/EasySaveGUI.ViewModels.FileExtensionViewModel.html#EasySaveGUI_ViewModels_FileExtensionViewModel_RemoveEncryptionExtensions_System_Collections_Generic_List_System_String__
+  commentId: M:EasySaveGUI.ViewModels.FileExtensionViewModel.RemoveEncryptionExtensions(System.Collections.Generic.List{System.String})
+  name.vb: RemoveEncryptionExtensions(List(Of String))
+  fullName: EasySaveGUI.ViewModels.FileExtensionViewModel.RemoveEncryptionExtensions(System.Collections.Generic.List<string>)
+  fullName.vb: EasySaveGUI.ViewModels.FileExtensionViewModel.RemoveEncryptionExtensions(System.Collections.Generic.List(Of String))
+  nameWithType: FileExtensionViewModel.RemoveEncryptionExtensions(List<string>)
+  nameWithType.vb: FileExtensionViewModel.RemoveEncryptionExtensions(List(Of String))
+- uid: EasySaveGUI.ViewModels.FileExtensionViewModel.RemoveEncryptionExtensions*
+  name: RemoveEncryptionExtensions
+  href: api/v2/EasySaveGUI.ViewModels.FileExtensionViewModel.html#EasySaveGUI_ViewModels_FileExtensionViewModel_RemoveEncryptionExtensions_
+  commentId: Overload:EasySaveGUI.ViewModels.FileExtensionViewModel.RemoveEncryptionExtensions
+  isSpec: "True"
+  fullName: EasySaveGUI.ViewModels.FileExtensionViewModel.RemoveEncryptionExtensions
+  nameWithType: FileExtensionViewModel.RemoveEncryptionExtensions
 - uid: EasySaveGUI.ViewModels.FormatLogViewModel
   name: FormatLogViewModel
   href: api/v2/EasySaveGUI.ViewModels.FormatLogViewModel.html
@@ -1245,19 +1639,6 @@ references:
   isSpec: "True"
   fullName: EasySaveGUI.ViewModels.JobViewModel.DeleteJobs
   nameWithType: JobViewModel.DeleteJobs
-- uid: EasySaveGUI.ViewModels.JobViewModel.JobManager
-  name: JobManager
-  href: api/v2/EasySaveGUI.ViewModels.JobViewModel.html#EasySaveGUI_ViewModels_JobViewModel_JobManager
-  commentId: P:EasySaveGUI.ViewModels.JobViewModel.JobManager
-  fullName: EasySaveGUI.ViewModels.JobViewModel.JobManager
-  nameWithType: JobViewModel.JobManager
-- uid: EasySaveGUI.ViewModels.JobViewModel.JobManager*
-  name: JobManager
-  href: api/v2/EasySaveGUI.ViewModels.JobViewModel.html#EasySaveGUI_ViewModels_JobViewModel_JobManager_
-  commentId: Overload:EasySaveGUI.ViewModels.JobViewModel.JobManager
-  isSpec: "True"
-  fullName: EasySaveGUI.ViewModels.JobViewModel.JobManager
-  nameWithType: JobViewModel.JobManager
 - uid: EasySaveGUI.ViewModels.JobViewModel.Jobs
   name: Jobs
   href: api/v2/EasySaveGUI.ViewModels.JobViewModel.html#EasySaveGUI_ViewModels_JobViewModel_Jobs
@@ -1284,22 +1665,25 @@ references:
   isSpec: "True"
   fullName: EasySaveGUI.ViewModels.JobViewModel.JobsRunning
   nameWithType: JobViewModel.JobsRunning
-- uid: EasySaveGUI.ViewModels.JobViewModel.LoadJobs(System.Boolean,System.String)
-  name: LoadJobs(bool, string)
-  href: api/v2/EasySaveGUI.ViewModels.JobViewModel.html#EasySaveGUI_ViewModels_JobViewModel_LoadJobs_System_Boolean_System_String_
-  commentId: M:EasySaveGUI.ViewModels.JobViewModel.LoadJobs(System.Boolean,System.String)
-  name.vb: LoadJobs(Boolean, String)
-  fullName: EasySaveGUI.ViewModels.JobViewModel.LoadJobs(bool, string)
-  fullName.vb: EasySaveGUI.ViewModels.JobViewModel.LoadJobs(Boolean, String)
-  nameWithType: JobViewModel.LoadJobs(bool, string)
-  nameWithType.vb: JobViewModel.LoadJobs(Boolean, String)
-- uid: EasySaveGUI.ViewModels.JobViewModel.LoadJobs*
-  name: LoadJobs
-  href: api/v2/EasySaveGUI.ViewModels.JobViewModel.html#EasySaveGUI_ViewModels_JobViewModel_LoadJobs_
-  commentId: Overload:EasySaveGUI.ViewModels.JobViewModel.LoadJobs
+- uid: EasySaveGUI.ViewModels.JobViewModel.Name
+  name: Name
+  href: api/v2/EasySaveGUI.ViewModels.JobViewModel.html#EasySaveGUI_ViewModels_JobViewModel_Name
+  commentId: P:EasySaveGUI.ViewModels.JobViewModel.Name
+  fullName: EasySaveGUI.ViewModels.JobViewModel.Name
+  nameWithType: JobViewModel.Name
+- uid: EasySaveGUI.ViewModels.JobViewModel.Name*
+  name: Name
+  href: api/v2/EasySaveGUI.ViewModels.JobViewModel.html#EasySaveGUI_ViewModels_JobViewModel_Name_
+  commentId: Overload:EasySaveGUI.ViewModels.JobViewModel.Name
   isSpec: "True"
-  fullName: EasySaveGUI.ViewModels.JobViewModel.LoadJobs
-  nameWithType: JobViewModel.LoadJobs
+  fullName: EasySaveGUI.ViewModels.JobViewModel.Name
+  nameWithType: JobViewModel.Name
+- uid: EasySaveGUI.ViewModels.JobViewModel.OnBusinessSoftwareDetected
+  name: OnBusinessSoftwareDetected
+  href: api/v2/EasySaveGUI.ViewModels.JobViewModel.html#EasySaveGUI_ViewModels_JobViewModel_OnBusinessSoftwareDetected
+  commentId: E:EasySaveGUI.ViewModels.JobViewModel.OnBusinessSoftwareDetected
+  fullName: EasySaveGUI.ViewModels.JobViewModel.OnBusinessSoftwareDetected
+  nameWithType: JobViewModel.OnBusinessSoftwareDetected
 - uid: EasySaveGUI.ViewModels.JobViewModel.RunJobs(System.Collections.Generic.List{Models.Backup.CJob})
   name: RunJobs(List<CJob>)
   href: api/v2/EasySaveGUI.ViewModels.JobViewModel.html#EasySaveGUI_ViewModels_JobViewModel_RunJobs_System_Collections_Generic_List_Models_Backup_CJob__
@@ -1316,6 +1700,19 @@ references:
   isSpec: "True"
   fullName: EasySaveGUI.ViewModels.JobViewModel.RunJobs
   nameWithType: JobViewModel.RunJobs
+- uid: EasySaveGUI.ViewModels.JobViewModel.SauveCollection
+  name: SauveCollection
+  href: api/v2/EasySaveGUI.ViewModels.JobViewModel.html#EasySaveGUI_ViewModels_JobViewModel_SauveCollection
+  commentId: P:EasySaveGUI.ViewModels.JobViewModel.SauveCollection
+  fullName: EasySaveGUI.ViewModels.JobViewModel.SauveCollection
+  nameWithType: JobViewModel.SauveCollection
+- uid: EasySaveGUI.ViewModels.JobViewModel.SauveCollection*
+  name: SauveCollection
+  href: api/v2/EasySaveGUI.ViewModels.JobViewModel.html#EasySaveGUI_ViewModels_JobViewModel_SauveCollection_
+  commentId: Overload:EasySaveGUI.ViewModels.JobViewModel.SauveCollection
+  isSpec: "True"
+  fullName: EasySaveGUI.ViewModels.JobViewModel.SauveCollection
+  nameWithType: JobViewModel.SauveCollection
 - uid: EasySaveGUI.ViewModels.JobViewModel.SaveJobs
   name: SaveJobs()
   href: api/v2/EasySaveGUI.ViewModels.JobViewModel.html#EasySaveGUI_ViewModels_JobViewModel_SaveJobs
@@ -1342,6 +1739,19 @@ references:
   isSpec: "True"
   fullName: EasySaveGUI.ViewModels.JobViewModel.SelectedJob
   nameWithType: JobViewModel.SelectedJob
+- uid: EasySaveGUI.ViewModels.JobViewModel.Stop
+  name: Stop()
+  href: api/v2/EasySaveGUI.ViewModels.JobViewModel.html#EasySaveGUI_ViewModels_JobViewModel_Stop
+  commentId: M:EasySaveGUI.ViewModels.JobViewModel.Stop
+  fullName: EasySaveGUI.ViewModels.JobViewModel.Stop()
+  nameWithType: JobViewModel.Stop()
+- uid: EasySaveGUI.ViewModels.JobViewModel.Stop*
+  name: Stop
+  href: api/v2/EasySaveGUI.ViewModels.JobViewModel.html#EasySaveGUI_ViewModels_JobViewModel_Stop_
+  commentId: Overload:EasySaveGUI.ViewModels.JobViewModel.Stop
+  isSpec: "True"
+  fullName: EasySaveGUI.ViewModels.JobViewModel.Stop
+  nameWithType: JobViewModel.Stop
 - uid: EasySaveGUI.ViewModels.LangueViewModel
   name: LangueViewModel
   href: api/v2/EasySaveGUI.ViewModels.LangueViewModel.html
@@ -1463,13 +1873,13 @@ references:
   isSpec: "True"
   fullName: EasySaveGUI.ViewModels.LayoutViewModel.LoadLayout
   nameWithType: LayoutViewModel.LoadLayout
-- uid: EasySaveGUI.ViewModels.LayoutViewModel.SaveLayout(AvalonDock.DockingManager,Models.ETheme,System.String)
+- uid: EasySaveGUI.ViewModels.LayoutViewModel.SaveLayout(AvalonDock.DockingManager,Models.Settings.Theme.ETheme,System.String)
   name: SaveLayout(DockingManager, ETheme, string)
-  href: api/v2/EasySaveGUI.ViewModels.LayoutViewModel.html#EasySaveGUI_ViewModels_LayoutViewModel_SaveLayout_AvalonDock_DockingManager_Models_ETheme_System_String_
-  commentId: M:EasySaveGUI.ViewModels.LayoutViewModel.SaveLayout(AvalonDock.DockingManager,Models.ETheme,System.String)
+  href: api/v2/EasySaveGUI.ViewModels.LayoutViewModel.html#EasySaveGUI_ViewModels_LayoutViewModel_SaveLayout_AvalonDock_DockingManager_Models_Settings_Theme_ETheme_System_String_
+  commentId: M:EasySaveGUI.ViewModels.LayoutViewModel.SaveLayout(AvalonDock.DockingManager,Models.Settings.Theme.ETheme,System.String)
   name.vb: SaveLayout(DockingManager, ETheme, String)
-  fullName: EasySaveGUI.ViewModels.LayoutViewModel.SaveLayout(AvalonDock.DockingManager, Models.ETheme, string)
-  fullName.vb: EasySaveGUI.ViewModels.LayoutViewModel.SaveLayout(AvalonDock.DockingManager, Models.ETheme, String)
+  fullName: EasySaveGUI.ViewModels.LayoutViewModel.SaveLayout(AvalonDock.DockingManager, Models.Settings.Theme.ETheme, string)
+  fullName.vb: EasySaveGUI.ViewModels.LayoutViewModel.SaveLayout(AvalonDock.DockingManager, Models.Settings.Theme.ETheme, String)
   nameWithType: LayoutViewModel.SaveLayout(DockingManager, ETheme, string)
   nameWithType.vb: LayoutViewModel.SaveLayout(DockingManager, ETheme, String)
 - uid: EasySaveGUI.ViewModels.LayoutViewModel.SaveLayout*
@@ -1504,6 +1914,32 @@ references:
   fullName.vb: EasySaveGUI.ViewModels.MainViewModel.New
   nameWithType: MainViewModel.MainViewModel
   nameWithType.vb: MainViewModel.New
+- uid: EasySaveGUI.ViewModels.MainViewModel.BusinessSoftwareVm
+  name: BusinessSoftwareVm
+  href: api/v2/EasySaveGUI.ViewModels.MainViewModel.html#EasySaveGUI_ViewModels_MainViewModel_BusinessSoftwareVm
+  commentId: P:EasySaveGUI.ViewModels.MainViewModel.BusinessSoftwareVm
+  fullName: EasySaveGUI.ViewModels.MainViewModel.BusinessSoftwareVm
+  nameWithType: MainViewModel.BusinessSoftwareVm
+- uid: EasySaveGUI.ViewModels.MainViewModel.BusinessSoftwareVm*
+  name: BusinessSoftwareVm
+  href: api/v2/EasySaveGUI.ViewModels.MainViewModel.html#EasySaveGUI_ViewModels_MainViewModel_BusinessSoftwareVm_
+  commentId: Overload:EasySaveGUI.ViewModels.MainViewModel.BusinessSoftwareVm
+  isSpec: "True"
+  fullName: EasySaveGUI.ViewModels.MainViewModel.BusinessSoftwareVm
+  nameWithType: MainViewModel.BusinessSoftwareVm
+- uid: EasySaveGUI.ViewModels.MainViewModel.FileExtensionVm
+  name: FileExtensionVm
+  href: api/v2/EasySaveGUI.ViewModels.MainViewModel.html#EasySaveGUI_ViewModels_MainViewModel_FileExtensionVm
+  commentId: P:EasySaveGUI.ViewModels.MainViewModel.FileExtensionVm
+  fullName: EasySaveGUI.ViewModels.MainViewModel.FileExtensionVm
+  nameWithType: MainViewModel.FileExtensionVm
+- uid: EasySaveGUI.ViewModels.MainViewModel.FileExtensionVm*
+  name: FileExtensionVm
+  href: api/v2/EasySaveGUI.ViewModels.MainViewModel.html#EasySaveGUI_ViewModels_MainViewModel_FileExtensionVm_
+  commentId: Overload:EasySaveGUI.ViewModels.MainViewModel.FileExtensionVm
+  isSpec: "True"
+  fullName: EasySaveGUI.ViewModels.MainViewModel.FileExtensionVm
+  nameWithType: MainViewModel.FileExtensionVm
 - uid: EasySaveGUI.ViewModels.MainViewModel.FormatLogVm
   name: FormatLogVm
   href: api/v2/EasySaveGUI.ViewModels.MainViewModel.html#EasySaveGUI_ViewModels_MainViewModel_FormatLogVm
@@ -1556,6 +1992,38 @@ references:
   isSpec: "True"
   fullName: EasySaveGUI.ViewModels.MainViewModel.LayoutVm
   nameWithType: MainViewModel.LayoutVm
+- uid: EasySaveGUI.ViewModels.MainViewModel.LoadJobs(System.Boolean,System.String)
+  name: LoadJobs(bool, string?)
+  href: api/v2/EasySaveGUI.ViewModels.MainViewModel.html#EasySaveGUI_ViewModels_MainViewModel_LoadJobs_System_Boolean_System_String_
+  commentId: M:EasySaveGUI.ViewModels.MainViewModel.LoadJobs(System.Boolean,System.String)
+  name.vb: LoadJobs(Boolean, String)
+  fullName: EasySaveGUI.ViewModels.MainViewModel.LoadJobs(bool, string?)
+  fullName.vb: EasySaveGUI.ViewModels.MainViewModel.LoadJobs(Boolean, String)
+  nameWithType: MainViewModel.LoadJobs(bool, string?)
+  nameWithType.vb: MainViewModel.LoadJobs(Boolean, String)
+- uid: EasySaveGUI.ViewModels.MainViewModel.LoadJobs*
+  name: LoadJobs
+  href: api/v2/EasySaveGUI.ViewModels.MainViewModel.html#EasySaveGUI_ViewModels_MainViewModel_LoadJobs_
+  commentId: Overload:EasySaveGUI.ViewModels.MainViewModel.LoadJobs
+  isSpec: "True"
+  fullName: EasySaveGUI.ViewModels.MainViewModel.LoadJobs
+  nameWithType: MainViewModel.LoadJobs
+- uid: EasySaveGUI.ViewModels.MainViewModel.LoadJobsFile(System.String)
+  name: LoadJobsFile(string)
+  href: api/v2/EasySaveGUI.ViewModels.MainViewModel.html#EasySaveGUI_ViewModels_MainViewModel_LoadJobsFile_System_String_
+  commentId: M:EasySaveGUI.ViewModels.MainViewModel.LoadJobsFile(System.String)
+  name.vb: LoadJobsFile(String)
+  fullName: EasySaveGUI.ViewModels.MainViewModel.LoadJobsFile(string)
+  fullName.vb: EasySaveGUI.ViewModels.MainViewModel.LoadJobsFile(String)
+  nameWithType: MainViewModel.LoadJobsFile(string)
+  nameWithType.vb: MainViewModel.LoadJobsFile(String)
+- uid: EasySaveGUI.ViewModels.MainViewModel.LoadJobsFile*
+  name: LoadJobsFile
+  href: api/v2/EasySaveGUI.ViewModels.MainViewModel.html#EasySaveGUI_ViewModels_MainViewModel_LoadJobsFile_
+  commentId: Overload:EasySaveGUI.ViewModels.MainViewModel.LoadJobsFile
+  isSpec: "True"
+  fullName: EasySaveGUI.ViewModels.MainViewModel.LoadJobsFile
+  nameWithType: MainViewModel.LoadJobsFile
 - uid: EasySaveGUI.ViewModels.MainViewModel.PopupVm
   name: PopupVm
   href: api/v2/EasySaveGUI.ViewModels.MainViewModel.html#EasySaveGUI_ViewModels_MainViewModel_PopupVm
@@ -1645,6 +2113,45 @@ references:
   fullName.vb: EasySaveGUI.ViewModels.SettingsViewModel.New
   nameWithType: SettingsViewModel.SettingsViewModel
   nameWithType.vb: SettingsViewModel.New
+- uid: EasySaveGUI.ViewModels.SettingsViewModel.BusinessSoftwareVm
+  name: BusinessSoftwareVm
+  href: api/v2/EasySaveGUI.ViewModels.SettingsViewModel.html#EasySaveGUI_ViewModels_SettingsViewModel_BusinessSoftwareVm
+  commentId: P:EasySaveGUI.ViewModels.SettingsViewModel.BusinessSoftwareVm
+  fullName: EasySaveGUI.ViewModels.SettingsViewModel.BusinessSoftwareVm
+  nameWithType: SettingsViewModel.BusinessSoftwareVm
+- uid: EasySaveGUI.ViewModels.SettingsViewModel.BusinessSoftwareVm*
+  name: BusinessSoftwareVm
+  href: api/v2/EasySaveGUI.ViewModels.SettingsViewModel.html#EasySaveGUI_ViewModels_SettingsViewModel_BusinessSoftwareVm_
+  commentId: Overload:EasySaveGUI.ViewModels.SettingsViewModel.BusinessSoftwareVm
+  isSpec: "True"
+  fullName: EasySaveGUI.ViewModels.SettingsViewModel.BusinessSoftwareVm
+  nameWithType: SettingsViewModel.BusinessSoftwareVm
+- uid: EasySaveGUI.ViewModels.SettingsViewModel.CurrentLayout
+  name: CurrentLayout
+  href: api/v2/EasySaveGUI.ViewModels.SettingsViewModel.html#EasySaveGUI_ViewModels_SettingsViewModel_CurrentLayout
+  commentId: P:EasySaveGUI.ViewModels.SettingsViewModel.CurrentLayout
+  fullName: EasySaveGUI.ViewModels.SettingsViewModel.CurrentLayout
+  nameWithType: SettingsViewModel.CurrentLayout
+- uid: EasySaveGUI.ViewModels.SettingsViewModel.CurrentLayout*
+  name: CurrentLayout
+  href: api/v2/EasySaveGUI.ViewModels.SettingsViewModel.html#EasySaveGUI_ViewModels_SettingsViewModel_CurrentLayout_
+  commentId: Overload:EasySaveGUI.ViewModels.SettingsViewModel.CurrentLayout
+  isSpec: "True"
+  fullName: EasySaveGUI.ViewModels.SettingsViewModel.CurrentLayout
+  nameWithType: SettingsViewModel.CurrentLayout
+- uid: EasySaveGUI.ViewModels.SettingsViewModel.FileExtensionVm
+  name: FileExtensionVm
+  href: api/v2/EasySaveGUI.ViewModels.SettingsViewModel.html#EasySaveGUI_ViewModels_SettingsViewModel_FileExtensionVm
+  commentId: P:EasySaveGUI.ViewModels.SettingsViewModel.FileExtensionVm
+  fullName: EasySaveGUI.ViewModels.SettingsViewModel.FileExtensionVm
+  nameWithType: SettingsViewModel.FileExtensionVm
+- uid: EasySaveGUI.ViewModels.SettingsViewModel.FileExtensionVm*
+  name: FileExtensionVm
+  href: api/v2/EasySaveGUI.ViewModels.SettingsViewModel.html#EasySaveGUI_ViewModels_SettingsViewModel_FileExtensionVm_
+  commentId: Overload:EasySaveGUI.ViewModels.SettingsViewModel.FileExtensionVm
+  isSpec: "True"
+  fullName: EasySaveGUI.ViewModels.SettingsViewModel.FileExtensionVm
+  nameWithType: SettingsViewModel.FileExtensionVm
 - uid: EasySaveGUI.ViewModels.SettingsViewModel.LogVm
   name: LogVm
   href: api/v2/EasySaveGUI.ViewModels.SettingsViewModel.html#EasySaveGUI_ViewModels_SettingsViewModel_LogVm
@@ -1658,6 +2165,19 @@ references:
   isSpec: "True"
   fullName: EasySaveGUI.ViewModels.SettingsViewModel.LogVm
   nameWithType: SettingsViewModel.LogVm
+- uid: EasySaveGUI.ViewModels.SettingsViewModel.ResetCurrentLayout
+  name: ResetCurrentLayout()
+  href: api/v2/EasySaveGUI.ViewModels.SettingsViewModel.html#EasySaveGUI_ViewModels_SettingsViewModel_ResetCurrentLayout
+  commentId: M:EasySaveGUI.ViewModels.SettingsViewModel.ResetCurrentLayout
+  fullName: EasySaveGUI.ViewModels.SettingsViewModel.ResetCurrentLayout()
+  nameWithType: SettingsViewModel.ResetCurrentLayout()
+- uid: EasySaveGUI.ViewModels.SettingsViewModel.ResetCurrentLayout*
+  name: ResetCurrentLayout
+  href: api/v2/EasySaveGUI.ViewModels.SettingsViewModel.html#EasySaveGUI_ViewModels_SettingsViewModel_ResetCurrentLayout_
+  commentId: Overload:EasySaveGUI.ViewModels.SettingsViewModel.ResetCurrentLayout
+  isSpec: "True"
+  fullName: EasySaveGUI.ViewModels.SettingsViewModel.ResetCurrentLayout
+  nameWithType: SettingsViewModel.ResetCurrentLayout
 - uid: EasySaveGUI.ViewModels.SettingsViewModel.Settings
   name: Settings
   href: api/v2/EasySaveGUI.ViewModels.SettingsViewModel.html#EasySaveGUI_ViewModels_SettingsViewModel_Settings
@@ -1715,6 +2235,19 @@ references:
   isSpec: "True"
   fullName: EasySaveGUI.Views.MenuPage.ClearLists
   nameWithType: MenuPage.ClearLists
+- uid: EasySaveGUI.Views.MenuPage.ShowValidation
+  name: ShowValidation()
+  href: api/v2/EasySaveGUI.Views.MenuPage.html#EasySaveGUI_Views_MenuPage_ShowValidation
+  commentId: M:EasySaveGUI.Views.MenuPage.ShowValidation
+  fullName: EasySaveGUI.Views.MenuPage.ShowValidation()
+  nameWithType: MenuPage.ShowValidation()
+- uid: EasySaveGUI.Views.MenuPage.ShowValidation*
+  name: ShowValidation
+  href: api/v2/EasySaveGUI.Views.MenuPage.html#EasySaveGUI_Views_MenuPage_ShowValidation_
+  commentId: Overload:EasySaveGUI.Views.MenuPage.ShowValidation
+  isSpec: "True"
+  fullName: EasySaveGUI.Views.MenuPage.ShowValidation
+  nameWithType: MenuPage.ShowValidation
 - uid: LogsModels
   name: LogsModels
   href: api/v1/LogsModels.html
@@ -1740,6 +2273,32 @@ references:
   isSpec: "True"
   fullName: LogsModels.CLogBase.Date
   nameWithType: CLogBase.Date
+- uid: LogsModels.CLogBase.Dispose
+  name: Dispose()
+  href: api/v2/LogsModels.CLogBase.html#LogsModels_CLogBase_Dispose
+  commentId: M:LogsModels.CLogBase.Dispose
+  fullName: LogsModels.CLogBase.Dispose()
+  nameWithType: CLogBase.Dispose()
+- uid: LogsModels.CLogBase.Dispose*
+  name: Dispose
+  href: api/v2/LogsModels.CLogBase.html#LogsModels_CLogBase_Dispose_
+  commentId: Overload:LogsModels.CLogBase.Dispose
+  isSpec: "True"
+  fullName: LogsModels.CLogBase.Dispose
+  nameWithType: CLogBase.Dispose
+- uid: LogsModels.CLogBase.EncryptTime
+  name: EncryptTime
+  href: api/v2/LogsModels.CLogBase.html#LogsModels_CLogBase_EncryptTime
+  commentId: P:LogsModels.CLogBase.EncryptTime
+  fullName: LogsModels.CLogBase.EncryptTime
+  nameWithType: CLogBase.EncryptTime
+- uid: LogsModels.CLogBase.EncryptTime*
+  name: EncryptTime
+  href: api/v2/LogsModels.CLogBase.html#LogsModels_CLogBase_EncryptTime_
+  commentId: Overload:LogsModels.CLogBase.EncryptTime
+  isSpec: "True"
+  fullName: LogsModels.CLogBase.EncryptTime
+  nameWithType: CLogBase.EncryptTime
 - uid: LogsModels.CLogBase.Equals(System.Object)
   name: Equals(object?)
   href: api/v2/LogsModels.CLogBase.html#LogsModels_CLogBase_Equals_System_Object_
@@ -1756,6 +2315,35 @@ references:
   isSpec: "True"
   fullName: LogsModels.CLogBase.Equals
   nameWithType: CLogBase.Equals
+- uid: LogsModels.CLogBase.Finalize
+  name: ~CLogBase()
+  href: api/v2/LogsModels.CLogBase.html#LogsModels_CLogBase_Finalize
+  commentId: M:LogsModels.CLogBase.Finalize
+  name.vb: ''
+  fullName: LogsModels.CLogBase.~CLogBase()
+  fullName.vb: ''
+  nameWithType: CLogBase.~CLogBase()
+  nameWithType.vb: ''
+- uid: LogsModels.CLogBase.Finalize*
+  name: ~CLogBase
+  href: api/v2/LogsModels.CLogBase.html#LogsModels_CLogBase_Finalize_
+  commentId: Overload:LogsModels.CLogBase.Finalize
+  isSpec: "True"
+  fullName: LogsModels.CLogBase.~CLogBase
+  nameWithType: CLogBase.~CLogBase
+- uid: LogsModels.CLogBase.FormatLog
+  name: FormatLog
+  href: api/v2/LogsModels.CLogBase.html#LogsModels_CLogBase_FormatLog
+  commentId: P:LogsModels.CLogBase.FormatLog
+  fullName: LogsModels.CLogBase.FormatLog
+  nameWithType: CLogBase.FormatLog
+- uid: LogsModels.CLogBase.FormatLog*
+  name: FormatLog
+  href: api/v2/LogsModels.CLogBase.html#LogsModels_CLogBase_FormatLog_
+  commentId: Overload:LogsModels.CLogBase.FormatLog
+  isSpec: "True"
+  fullName: LogsModels.CLogBase.FormatLog
+  nameWithType: CLogBase.FormatLog
 - uid: LogsModels.CLogBase.GetHashCode
   name: GetHashCode()
   href: api/v2/LogsModels.CLogBase.html#LogsModels_CLogBase_GetHashCode
@@ -1798,6 +2386,19 @@ references:
   isSpec: "True"
   fullName: LogsModels.CLogBase.NotifyPropertyChanged
   nameWithType: CLogBase.NotifyPropertyChanged
+- uid: LogsModels.CLogBase.Progress
+  name: Progress
+  href: api/v2/LogsModels.CLogBase.html#LogsModels_CLogBase_Progress
+  commentId: P:LogsModels.CLogBase.Progress
+  fullName: LogsModels.CLogBase.Progress
+  nameWithType: CLogBase.Progress
+- uid: LogsModels.CLogBase.Progress*
+  name: Progress
+  href: api/v2/LogsModels.CLogBase.html#LogsModels_CLogBase_Progress_
+  commentId: Overload:LogsModels.CLogBase.Progress
+  isSpec: "True"
+  fullName: LogsModels.CLogBase.Progress
+  nameWithType: CLogBase.Progress
 - uid: LogsModels.CLogBase.PropertyChanged
   name: PropertyChanged
   href: api/v2/LogsModels.CLogBase.html#LogsModels_CLogBase_PropertyChanged
@@ -1952,19 +2553,6 @@ references:
   isSpec: "True"
   fullName: LogsModels.CLogState.Name
   nameWithType: CLogState.Name
-- uid: LogsModels.CLogState.Progress
-  name: Progress
-  href: api/v2/LogsModels.CLogState.html#LogsModels_CLogState_Progress
-  commentId: P:LogsModels.CLogState.Progress
-  fullName: LogsModels.CLogState.Progress
-  nameWithType: CLogState.Progress
-- uid: LogsModels.CLogState.Progress*
-  name: Progress
-  href: api/v2/LogsModels.CLogState.html#LogsModels_CLogState_Progress_
-  commentId: Overload:LogsModels.CLogState.Progress
-  isSpec: "True"
-  fullName: LogsModels.CLogState.Progress
-  nameWithType: CLogState.Progress
 - uid: LogsModels.CLogState.RemainingFiles
   name: RemainingFiles
   href: api/v1/LogsModels.CLogState.html#LogsModels_CLogState_RemainingFiles
@@ -2073,6 +2661,19 @@ references:
   isSpec: "True"
   fullName: Models.Backup.CJob.BackupType
   nameWithType: CJob.BackupType
+- uid: Models.Backup.CJob.Dispose
+  name: Dispose()
+  href: api/v2/Models.Backup.CJob.html#Models_Backup_CJob_Dispose
+  commentId: M:Models.Backup.CJob.Dispose
+  fullName: Models.Backup.CJob.Dispose()
+  nameWithType: CJob.Dispose()
+- uid: Models.Backup.CJob.Dispose*
+  name: Dispose
+  href: api/v2/Models.Backup.CJob.html#Models_Backup_CJob_Dispose_
+  commentId: Overload:Models.Backup.CJob.Dispose
+  isSpec: "True"
+  fullName: Models.Backup.CJob.Dispose
+  nameWithType: CJob.Dispose
 - uid: Models.Backup.CJob.Equals(System.Object)
   name: Equals(object?)
   href: api/v1/Models.Backup.CJob.html#Models_Backup_CJob_Equals_System_Object_
@@ -2089,6 +2690,35 @@ references:
   isSpec: "True"
   fullName: Models.Backup.CJob.Equals
   nameWithType: CJob.Equals
+- uid: Models.Backup.CJob.Finalize
+  name: ~CJob()
+  href: api/v2/Models.Backup.CJob.html#Models_Backup_CJob_Finalize
+  commentId: M:Models.Backup.CJob.Finalize
+  name.vb: ''
+  fullName: Models.Backup.CJob.~CJob()
+  fullName.vb: ''
+  nameWithType: CJob.~CJob()
+  nameWithType.vb: ''
+- uid: Models.Backup.CJob.Finalize*
+  name: ~CJob
+  href: api/v2/Models.Backup.CJob.html#Models_Backup_CJob_Finalize_
+  commentId: Overload:Models.Backup.CJob.Finalize
+  isSpec: "True"
+  fullName: Models.Backup.CJob.~CJob
+  nameWithType: CJob.~CJob
+- uid: Models.Backup.CJob.GetHashCode
+  name: GetHashCode()
+  href: api/v2/Models.Backup.CJob.html#Models_Backup_CJob_GetHashCode
+  commentId: M:Models.Backup.CJob.GetHashCode
+  fullName: Models.Backup.CJob.GetHashCode()
+  nameWithType: CJob.GetHashCode()
+- uid: Models.Backup.CJob.GetHashCode*
+  name: GetHashCode
+  href: api/v2/Models.Backup.CJob.html#Models_Backup_CJob_GetHashCode_
+  commentId: Overload:Models.Backup.CJob.GetHashCode
+  isSpec: "True"
+  fullName: Models.Backup.CJob.GetHashCode
+  nameWithType: CJob.GetHashCode
 - uid: Models.Backup.CJob.Name
   name: Name
   href: api/v1/Models.Backup.CJob.html#Models_Backup_CJob_Name
@@ -2102,21 +2732,20 @@ references:
   isSpec: "True"
   fullName: Models.Backup.CJob.Name
   nameWithType: CJob.Name
+- uid: Models.Backup.CJob.Run(Stockage.Logs.ILogger{System.UInt32}.UpdateLogDelegate)
+  name: Run(UpdateLogDelegate)
+  href: api/v2/Models.Backup.CJob.html#Models_Backup_CJob_Run_Stockage_Logs_ILogger_System_UInt32__UpdateLogDelegate_
+  commentId: M:Models.Backup.CJob.Run(Stockage.Logs.ILogger{System.UInt32}.UpdateLogDelegate)
+  fullName: Models.Backup.CJob.Run(Stockage.Logs.ILogger<uint>.UpdateLogDelegate)
+  fullName.vb: Models.Backup.CJob.Run(Stockage.Logs.ILogger(Of UInteger).UpdateLogDelegate)
+  nameWithType: CJob.Run(ILogger<uint>.UpdateLogDelegate)
+  nameWithType.vb: CJob.Run(ILogger(Of UInteger).UpdateLogDelegate)
 - uid: Models.Backup.CJob.Run(Stockage.Save.SauveJobs)
   name: Run(SauveJobs)
   href: api/v1/Models.Backup.CJob.html#Models_Backup_CJob_Run_Stockage_Save_SauveJobs_
   commentId: M:Models.Backup.CJob.Run(Stockage.Save.SauveJobs)
   fullName: Models.Backup.CJob.Run(Stockage.Save.SauveJobs)
   nameWithType: CJob.Run(SauveJobs)
-- uid: Models.Backup.CJob.Run(System.Collections.Generic.List{LogsModels.CLogState})
-  name: Run(List<CLogState>)
-  href: api/v2/Models.Backup.CJob.html#Models_Backup_CJob_Run_System_Collections_Generic_List_LogsModels_CLogState__
-  commentId: M:Models.Backup.CJob.Run(System.Collections.Generic.List{LogsModels.CLogState})
-  name.vb: Run(List(Of CLogState))
-  fullName: Models.Backup.CJob.Run(System.Collections.Generic.List<LogsModels.CLogState>)
-  fullName.vb: Models.Backup.CJob.Run(System.Collections.Generic.List(Of LogsModels.CLogState))
-  nameWithType: CJob.Run(List<CLogState>)
-  nameWithType.vb: CJob.Run(List(Of CLogState))
 - uid: Models.Backup.CJob.Run*
   name: Run
   href: api/v1/Models.Backup.CJob.html#Models_Backup_CJob_Run_
@@ -2316,6 +2945,34 @@ references:
   commentId: F:Models.Backup.ETypeBackup.DIFFERENTIEL
   fullName: Models.Backup.ETypeBackup.DIFFERENTIEL
   nameWithType: ETypeBackup.DIFFERENTIEL
+- uid: Models.BaseModel
+  name: BaseModel
+  href: api/v2/Models.BaseModel.html
+  commentId: T:Models.BaseModel
+  fullName: Models.BaseModel
+  nameWithType: BaseModel
+- uid: Models.BaseModel.NotifyPropertyChanged(System.String)
+  name: NotifyPropertyChanged(string)
+  href: api/v2/Models.BaseModel.html#Models_BaseModel_NotifyPropertyChanged_System_String_
+  commentId: M:Models.BaseModel.NotifyPropertyChanged(System.String)
+  name.vb: NotifyPropertyChanged(String)
+  fullName: Models.BaseModel.NotifyPropertyChanged(string)
+  fullName.vb: Models.BaseModel.NotifyPropertyChanged(String)
+  nameWithType: BaseModel.NotifyPropertyChanged(string)
+  nameWithType.vb: BaseModel.NotifyPropertyChanged(String)
+- uid: Models.BaseModel.NotifyPropertyChanged*
+  name: NotifyPropertyChanged
+  href: api/v2/Models.BaseModel.html#Models_BaseModel_NotifyPropertyChanged_
+  commentId: Overload:Models.BaseModel.NotifyPropertyChanged
+  isSpec: "True"
+  fullName: Models.BaseModel.NotifyPropertyChanged
+  nameWithType: BaseModel.NotifyPropertyChanged
+- uid: Models.BaseModel.PropertyChanged
+  name: PropertyChanged
+  href: api/v2/Models.BaseModel.html#Models_BaseModel_PropertyChanged
+  commentId: E:Models.BaseModel.PropertyChanged
+  fullName: Models.BaseModel.PropertyChanged
+  nameWithType: BaseModel.PropertyChanged
 - uid: Models.CFormatLog
   name: CFormatLog
   href: api/v2/Models.CFormatLog.html
@@ -2735,6 +3392,437 @@ references:
   commentId: F:Models.ETheme.LIGHT
   fullName: Models.ETheme.LIGHT
   nameWithType: ETheme.LIGHT
+- uid: Models.Langue
+  name: Models.Langue
+  href: api/v2/Models.Langue.html
+  commentId: N:Models.Langue
+  fullName: Models.Langue
+  nameWithType: Models.Langue
+- uid: Models.Langue.CLangue
+  name: CLangue
+  href: api/v2/Models.Langue.CLangue.html
+  commentId: T:Models.Langue.CLangue
+  fullName: Models.Langue.CLangue
+  nameWithType: CLangue
+- uid: Models.Langue.CLangue.#ctor
+  name: CLangue()
+  href: api/v2/Models.Langue.CLangue.html#Models_Langue_CLangue__ctor
+  commentId: M:Models.Langue.CLangue.#ctor
+  name.vb: New()
+  fullName: Models.Langue.CLangue.CLangue()
+  fullName.vb: Models.Langue.CLangue.New()
+  nameWithType: CLangue.CLangue()
+  nameWithType.vb: CLangue.New()
+- uid: Models.Langue.CLangue.#ctor*
+  name: CLangue
+  href: api/v2/Models.Langue.CLangue.html#Models_Langue_CLangue__ctor_
+  commentId: Overload:Models.Langue.CLangue.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Models.Langue.CLangue.CLangue
+  fullName.vb: Models.Langue.CLangue.New
+  nameWithType: CLangue.CLangue
+  nameWithType.vb: CLangue.New
+- uid: Models.Langue.CLangue.Languages
+  name: Languages
+  href: api/v2/Models.Langue.CLangue.html#Models_Langue_CLangue_Languages
+  commentId: P:Models.Langue.CLangue.Languages
+  fullName: Models.Langue.CLangue.Languages
+  nameWithType: CLangue.Languages
+- uid: Models.Langue.CLangue.Languages*
+  name: Languages
+  href: api/v2/Models.Langue.CLangue.html#Models_Langue_CLangue_Languages_
+  commentId: Overload:Models.Langue.CLangue.Languages
+  isSpec: "True"
+  fullName: Models.Langue.CLangue.Languages
+  nameWithType: CLangue.Languages
+- uid: Models.Langue.CLangue.SelectedCulture
+  name: SelectedCulture
+  href: api/v2/Models.Langue.CLangue.html#Models_Langue_CLangue_SelectedCulture
+  commentId: P:Models.Langue.CLangue.SelectedCulture
+  fullName: Models.Langue.CLangue.SelectedCulture
+  nameWithType: CLangue.SelectedCulture
+- uid: Models.Langue.CLangue.SelectedCulture*
+  name: SelectedCulture
+  href: api/v2/Models.Langue.CLangue.html#Models_Langue_CLangue_SelectedCulture_
+  commentId: Overload:Models.Langue.CLangue.SelectedCulture
+  isSpec: "True"
+  fullName: Models.Langue.CLangue.SelectedCulture
+  nameWithType: CLangue.SelectedCulture
+- uid: Models.Langue.CLangue.SetLanguage(System.String)
+  name: SetLanguage(string)
+  href: api/v2/Models.Langue.CLangue.html#Models_Langue_CLangue_SetLanguage_System_String_
+  commentId: M:Models.Langue.CLangue.SetLanguage(System.String)
+  name.vb: SetLanguage(String)
+  fullName: Models.Langue.CLangue.SetLanguage(string)
+  fullName.vb: Models.Langue.CLangue.SetLanguage(String)
+  nameWithType: CLangue.SetLanguage(string)
+  nameWithType.vb: CLangue.SetLanguage(String)
+- uid: Models.Langue.CLangue.SetLanguage*
+  name: SetLanguage
+  href: api/v2/Models.Langue.CLangue.html#Models_Langue_CLangue_SetLanguage_
+  commentId: Overload:Models.Langue.CLangue.SetLanguage
+  isSpec: "True"
+  fullName: Models.Langue.CLangue.SetLanguage
+  nameWithType: CLangue.SetLanguage
+- uid: Models.Settings
+  name: Models.Settings
+  href: api/v2/Models.Settings.html
+  commentId: N:Models.Settings
+  fullName: Models.Settings
+  nameWithType: Models.Settings
+- uid: Models.Settings.CFormatLog
+  name: CFormatLog
+  href: api/v2/Models.Settings.CFormatLog.html
+  commentId: T:Models.Settings.CFormatLog
+  fullName: Models.Settings.CFormatLog
+  nameWithType: CFormatLog
+- uid: Models.Settings.CFormatLog.#ctor
+  name: CFormatLog()
+  href: api/v2/Models.Settings.CFormatLog.html#Models_Settings_CFormatLog__ctor
+  commentId: M:Models.Settings.CFormatLog.#ctor
+  name.vb: New()
+  fullName: Models.Settings.CFormatLog.CFormatLog()
+  fullName.vb: Models.Settings.CFormatLog.New()
+  nameWithType: CFormatLog.CFormatLog()
+  nameWithType.vb: CFormatLog.New()
+- uid: Models.Settings.CFormatLog.#ctor*
+  name: CFormatLog
+  href: api/v2/Models.Settings.CFormatLog.html#Models_Settings_CFormatLog__ctor_
+  commentId: Overload:Models.Settings.CFormatLog.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Models.Settings.CFormatLog.CFormatLog
+  fullName.vb: Models.Settings.CFormatLog.New
+  nameWithType: CFormatLog.CFormatLog
+  nameWithType.vb: CFormatLog.New
+- uid: Models.Settings.CFormatLog.FormatsLogs
+  name: FormatsLogs
+  href: api/v2/Models.Settings.CFormatLog.html#Models_Settings_CFormatLog_FormatsLogs
+  commentId: P:Models.Settings.CFormatLog.FormatsLogs
+  fullName: Models.Settings.CFormatLog.FormatsLogs
+  nameWithType: CFormatLog.FormatsLogs
+- uid: Models.Settings.CFormatLog.FormatsLogs*
+  name: FormatsLogs
+  href: api/v2/Models.Settings.CFormatLog.html#Models_Settings_CFormatLog_FormatsLogs_
+  commentId: Overload:Models.Settings.CFormatLog.FormatsLogs
+  isSpec: "True"
+  fullName: Models.Settings.CFormatLog.FormatsLogs
+  nameWithType: CFormatLog.FormatsLogs
+- uid: Models.Settings.CFormatLog.SelectedFormatLog
+  name: SelectedFormatLog
+  href: api/v2/Models.Settings.CFormatLog.html#Models_Settings_CFormatLog_SelectedFormatLog
+  commentId: P:Models.Settings.CFormatLog.SelectedFormatLog
+  fullName: Models.Settings.CFormatLog.SelectedFormatLog
+  nameWithType: CFormatLog.SelectedFormatLog
+- uid: Models.Settings.CFormatLog.SelectedFormatLog*
+  name: SelectedFormatLog
+  href: api/v2/Models.Settings.CFormatLog.html#Models_Settings_CFormatLog_SelectedFormatLog_
+  commentId: Overload:Models.Settings.CFormatLog.SelectedFormatLog
+  isSpec: "True"
+  fullName: Models.Settings.CFormatLog.SelectedFormatLog
+  nameWithType: CFormatLog.SelectedFormatLog
+- uid: Models.Settings.CFormatLog.SetFormatLog(System.String)
+  name: SetFormatLog(string)
+  href: api/v2/Models.Settings.CFormatLog.html#Models_Settings_CFormatLog_SetFormatLog_System_String_
+  commentId: M:Models.Settings.CFormatLog.SetFormatLog(System.String)
+  name.vb: SetFormatLog(String)
+  fullName: Models.Settings.CFormatLog.SetFormatLog(string)
+  fullName.vb: Models.Settings.CFormatLog.SetFormatLog(String)
+  nameWithType: CFormatLog.SetFormatLog(string)
+  nameWithType.vb: CFormatLog.SetFormatLog(String)
+- uid: Models.Settings.CFormatLog.SetFormatLog*
+  name: SetFormatLog
+  href: api/v2/Models.Settings.CFormatLog.html#Models_Settings_CFormatLog_SetFormatLog_
+  commentId: Overload:Models.Settings.CFormatLog.SetFormatLog
+  isSpec: "True"
+  fullName: Models.Settings.CFormatLog.SetFormatLog
+  nameWithType: CFormatLog.SetFormatLog
+- uid: Models.Settings.CSettings
+  name: CSettings
+  href: api/v2/Models.Settings.CSettings.html
+  commentId: T:Models.Settings.CSettings
+  fullName: Models.Settings.CSettings
+  nameWithType: CSettings
+- uid: Models.Settings.CSettings.BusinessSoftware
+  name: BusinessSoftware
+  href: api/v2/Models.Settings.CSettings.html#Models_Settings_CSettings_BusinessSoftware
+  commentId: P:Models.Settings.CSettings.BusinessSoftware
+  fullName: Models.Settings.CSettings.BusinessSoftware
+  nameWithType: CSettings.BusinessSoftware
+- uid: Models.Settings.CSettings.BusinessSoftware*
+  name: BusinessSoftware
+  href: api/v2/Models.Settings.CSettings.html#Models_Settings_CSettings_BusinessSoftware_
+  commentId: Overload:Models.Settings.CSettings.BusinessSoftware
+  isSpec: "True"
+  fullName: Models.Settings.CSettings.BusinessSoftware
+  nameWithType: CSettings.BusinessSoftware
+- uid: Models.Settings.CSettings.EncryptionExtensions
+  name: EncryptionExtensions
+  href: api/v2/Models.Settings.CSettings.html#Models_Settings_CSettings_EncryptionExtensions
+  commentId: P:Models.Settings.CSettings.EncryptionExtensions
+  fullName: Models.Settings.CSettings.EncryptionExtensions
+  nameWithType: CSettings.EncryptionExtensions
+- uid: Models.Settings.CSettings.EncryptionExtensions*
+  name: EncryptionExtensions
+  href: api/v2/Models.Settings.CSettings.html#Models_Settings_CSettings_EncryptionExtensions_
+  commentId: Overload:Models.Settings.CSettings.EncryptionExtensions
+  isSpec: "True"
+  fullName: Models.Settings.CSettings.EncryptionExtensions
+  nameWithType: CSettings.EncryptionExtensions
+- uid: Models.Settings.CSettings.FormatLog
+  name: FormatLog
+  href: api/v2/Models.Settings.CSettings.html#Models_Settings_CSettings_FormatLog
+  commentId: P:Models.Settings.CSettings.FormatLog
+  fullName: Models.Settings.CSettings.FormatLog
+  nameWithType: CSettings.FormatLog
+- uid: Models.Settings.CSettings.FormatLog*
+  name: FormatLog
+  href: api/v2/Models.Settings.CSettings.html#Models_Settings_CSettings_FormatLog_
+  commentId: Overload:Models.Settings.CSettings.FormatLog
+  isSpec: "True"
+  fullName: Models.Settings.CSettings.FormatLog
+  nameWithType: CSettings.FormatLog
+- uid: Models.Settings.CSettings.Instance
+  name: Instance
+  href: api/v2/Models.Settings.CSettings.html#Models_Settings_CSettings_Instance
+  commentId: P:Models.Settings.CSettings.Instance
+  fullName: Models.Settings.CSettings.Instance
+  nameWithType: CSettings.Instance
+- uid: Models.Settings.CSettings.Instance*
+  name: Instance
+  href: api/v2/Models.Settings.CSettings.html#Models_Settings_CSettings_Instance_
+  commentId: Overload:Models.Settings.CSettings.Instance
+  isSpec: "True"
+  fullName: Models.Settings.CSettings.Instance
+  nameWithType: CSettings.Instance
+- uid: Models.Settings.CSettings.JobConfigFolderPath
+  name: JobConfigFolderPath
+  href: api/v2/Models.Settings.CSettings.html#Models_Settings_CSettings_JobConfigFolderPath
+  commentId: P:Models.Settings.CSettings.JobConfigFolderPath
+  fullName: Models.Settings.CSettings.JobConfigFolderPath
+  nameWithType: CSettings.JobConfigFolderPath
+- uid: Models.Settings.CSettings.JobConfigFolderPath*
+  name: JobConfigFolderPath
+  href: api/v2/Models.Settings.CSettings.html#Models_Settings_CSettings_JobConfigFolderPath_
+  commentId: Overload:Models.Settings.CSettings.JobConfigFolderPath
+  isSpec: "True"
+  fullName: Models.Settings.CSettings.JobConfigFolderPath
+  nameWithType: CSettings.JobConfigFolderPath
+- uid: Models.Settings.CSettings.JobDefaultConfigPath
+  name: JobDefaultConfigPath
+  href: api/v2/Models.Settings.CSettings.html#Models_Settings_CSettings_JobDefaultConfigPath
+  commentId: P:Models.Settings.CSettings.JobDefaultConfigPath
+  fullName: Models.Settings.CSettings.JobDefaultConfigPath
+  nameWithType: CSettings.JobDefaultConfigPath
+- uid: Models.Settings.CSettings.JobDefaultConfigPath*
+  name: JobDefaultConfigPath
+  href: api/v2/Models.Settings.CSettings.html#Models_Settings_CSettings_JobDefaultConfigPath_
+  commentId: Overload:Models.Settings.CSettings.JobDefaultConfigPath
+  isSpec: "True"
+  fullName: Models.Settings.CSettings.JobDefaultConfigPath
+  nameWithType: CSettings.JobDefaultConfigPath
+- uid: Models.Settings.CSettings.Langue
+  name: Langue
+  href: api/v2/Models.Settings.CSettings.html#Models_Settings_CSettings_Langue
+  commentId: P:Models.Settings.CSettings.Langue
+  fullName: Models.Settings.CSettings.Langue
+  nameWithType: CSettings.Langue
+- uid: Models.Settings.CSettings.Langue*
+  name: Langue
+  href: api/v2/Models.Settings.CSettings.html#Models_Settings_CSettings_Langue_
+  commentId: Overload:Models.Settings.CSettings.Langue
+  isSpec: "True"
+  fullName: Models.Settings.CSettings.Langue
+  nameWithType: CSettings.Langue
+- uid: Models.Settings.CSettings.LayoutDefaultFolderPath
+  name: LayoutDefaultFolderPath
+  href: api/v2/Models.Settings.CSettings.html#Models_Settings_CSettings_LayoutDefaultFolderPath
+  commentId: P:Models.Settings.CSettings.LayoutDefaultFolderPath
+  fullName: Models.Settings.CSettings.LayoutDefaultFolderPath
+  nameWithType: CSettings.LayoutDefaultFolderPath
+- uid: Models.Settings.CSettings.LayoutDefaultFolderPath*
+  name: LayoutDefaultFolderPath
+  href: api/v2/Models.Settings.CSettings.html#Models_Settings_CSettings_LayoutDefaultFolderPath_
+  commentId: Overload:Models.Settings.CSettings.LayoutDefaultFolderPath
+  isSpec: "True"
+  fullName: Models.Settings.CSettings.LayoutDefaultFolderPath
+  nameWithType: CSettings.LayoutDefaultFolderPath
+- uid: Models.Settings.CSettings.LoadSettings
+  name: LoadSettings()
+  href: api/v2/Models.Settings.CSettings.html#Models_Settings_CSettings_LoadSettings
+  commentId: M:Models.Settings.CSettings.LoadSettings
+  fullName: Models.Settings.CSettings.LoadSettings()
+  nameWithType: CSettings.LoadSettings()
+- uid: Models.Settings.CSettings.LoadSettings*
+  name: LoadSettings
+  href: api/v2/Models.Settings.CSettings.html#Models_Settings_CSettings_LoadSettings_
+  commentId: Overload:Models.Settings.CSettings.LoadSettings
+  isSpec: "True"
+  fullName: Models.Settings.CSettings.LoadSettings
+  nameWithType: CSettings.LoadSettings
+- uid: Models.Settings.CSettings.LogDefaultFolderPath
+  name: LogDefaultFolderPath
+  href: api/v2/Models.Settings.CSettings.html#Models_Settings_CSettings_LogDefaultFolderPath
+  commentId: P:Models.Settings.CSettings.LogDefaultFolderPath
+  fullName: Models.Settings.CSettings.LogDefaultFolderPath
+  nameWithType: CSettings.LogDefaultFolderPath
+- uid: Models.Settings.CSettings.LogDefaultFolderPath*
+  name: LogDefaultFolderPath
+  href: api/v2/Models.Settings.CSettings.html#Models_Settings_CSettings_LogDefaultFolderPath_
+  commentId: Overload:Models.Settings.CSettings.LogDefaultFolderPath
+  isSpec: "True"
+  fullName: Models.Settings.CSettings.LogDefaultFolderPath
+  nameWithType: CSettings.LogDefaultFolderPath
+- uid: Models.Settings.CSettings.ResetJobConfigPath
+  name: ResetJobConfigPath()
+  href: api/v2/Models.Settings.CSettings.html#Models_Settings_CSettings_ResetJobConfigPath
+  commentId: M:Models.Settings.CSettings.ResetJobConfigPath
+  fullName: Models.Settings.CSettings.ResetJobConfigPath()
+  nameWithType: CSettings.ResetJobConfigPath()
+- uid: Models.Settings.CSettings.ResetJobConfigPath*
+  name: ResetJobConfigPath
+  href: api/v2/Models.Settings.CSettings.html#Models_Settings_CSettings_ResetJobConfigPath_
+  commentId: Overload:Models.Settings.CSettings.ResetJobConfigPath
+  isSpec: "True"
+  fullName: Models.Settings.CSettings.ResetJobConfigPath
+  nameWithType: CSettings.ResetJobConfigPath
+- uid: Models.Settings.CSettings.SaveSettings
+  name: SaveSettings()
+  href: api/v2/Models.Settings.CSettings.html#Models_Settings_CSettings_SaveSettings
+  commentId: M:Models.Settings.CSettings.SaveSettings
+  fullName: Models.Settings.CSettings.SaveSettings()
+  nameWithType: CSettings.SaveSettings()
+- uid: Models.Settings.CSettings.SaveSettings*
+  name: SaveSettings
+  href: api/v2/Models.Settings.CSettings.html#Models_Settings_CSettings_SaveSettings_
+  commentId: Overload:Models.Settings.CSettings.SaveSettings
+  isSpec: "True"
+  fullName: Models.Settings.CSettings.SaveSettings
+  nameWithType: CSettings.SaveSettings
+- uid: Models.Settings.CSettings.SetJobConfigPath(System.String)
+  name: SetJobConfigPath(string)
+  href: api/v2/Models.Settings.CSettings.html#Models_Settings_CSettings_SetJobConfigPath_System_String_
+  commentId: M:Models.Settings.CSettings.SetJobConfigPath(System.String)
+  name.vb: SetJobConfigPath(String)
+  fullName: Models.Settings.CSettings.SetJobConfigPath(string)
+  fullName.vb: Models.Settings.CSettings.SetJobConfigPath(String)
+  nameWithType: CSettings.SetJobConfigPath(string)
+  nameWithType.vb: CSettings.SetJobConfigPath(String)
+- uid: Models.Settings.CSettings.SetJobConfigPath*
+  name: SetJobConfigPath
+  href: api/v2/Models.Settings.CSettings.html#Models_Settings_CSettings_SetJobConfigPath_
+  commentId: Overload:Models.Settings.CSettings.SetJobConfigPath
+  isSpec: "True"
+  fullName: Models.Settings.CSettings.SetJobConfigPath
+  nameWithType: CSettings.SetJobConfigPath
+- uid: Models.Settings.CSettings.Theme
+  name: Theme
+  href: api/v2/Models.Settings.CSettings.html#Models_Settings_CSettings_Theme
+  commentId: P:Models.Settings.CSettings.Theme
+  fullName: Models.Settings.CSettings.Theme
+  nameWithType: CSettings.Theme
+- uid: Models.Settings.CSettings.Theme*
+  name: Theme
+  href: api/v2/Models.Settings.CSettings.html#Models_Settings_CSettings_Theme_
+  commentId: Overload:Models.Settings.CSettings.Theme
+  isSpec: "True"
+  fullName: Models.Settings.CSettings.Theme
+  nameWithType: CSettings.Theme
+- uid: Models.Settings.Theme
+  name: Models.Settings.Theme
+  href: api/v2/Models.Settings.Theme.html
+  commentId: N:Models.Settings.Theme
+  fullName: Models.Settings.Theme
+  nameWithType: Models.Settings.Theme
+- uid: Models.Settings.Theme.CTheme
+  name: CTheme
+  href: api/v2/Models.Settings.Theme.CTheme.html
+  commentId: T:Models.Settings.Theme.CTheme
+  fullName: Models.Settings.Theme.CTheme
+  nameWithType: CTheme
+- uid: Models.Settings.Theme.CTheme.#ctor
+  name: CTheme()
+  href: api/v2/Models.Settings.Theme.CTheme.html#Models_Settings_Theme_CTheme__ctor
+  commentId: M:Models.Settings.Theme.CTheme.#ctor
+  name.vb: New()
+  fullName: Models.Settings.Theme.CTheme.CTheme()
+  fullName.vb: Models.Settings.Theme.CTheme.New()
+  nameWithType: CTheme.CTheme()
+  nameWithType.vb: CTheme.New()
+- uid: Models.Settings.Theme.CTheme.#ctor*
+  name: CTheme
+  href: api/v2/Models.Settings.Theme.CTheme.html#Models_Settings_Theme_CTheme__ctor_
+  commentId: Overload:Models.Settings.Theme.CTheme.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Models.Settings.Theme.CTheme.CTheme
+  fullName.vb: Models.Settings.Theme.CTheme.New
+  nameWithType: CTheme.CTheme
+  nameWithType.vb: CTheme.New
+- uid: Models.Settings.Theme.CTheme.CurrentLayout
+  name: CurrentLayout
+  href: api/v2/Models.Settings.Theme.CTheme.html#Models_Settings_Theme_CTheme_CurrentLayout
+  commentId: P:Models.Settings.Theme.CTheme.CurrentLayout
+  fullName: Models.Settings.Theme.CTheme.CurrentLayout
+  nameWithType: CTheme.CurrentLayout
+- uid: Models.Settings.Theme.CTheme.CurrentLayout*
+  name: CurrentLayout
+  href: api/v2/Models.Settings.Theme.CTheme.html#Models_Settings_Theme_CTheme_CurrentLayout_
+  commentId: Overload:Models.Settings.Theme.CTheme.CurrentLayout
+  isSpec: "True"
+  fullName: Models.Settings.Theme.CTheme.CurrentLayout
+  nameWithType: CTheme.CurrentLayout
+- uid: Models.Settings.Theme.CTheme.CurrentTheme
+  name: CurrentTheme
+  href: api/v2/Models.Settings.Theme.CTheme.html#Models_Settings_Theme_CTheme_CurrentTheme
+  commentId: P:Models.Settings.Theme.CTheme.CurrentTheme
+  fullName: Models.Settings.Theme.CTheme.CurrentTheme
+  nameWithType: CTheme.CurrentTheme
+- uid: Models.Settings.Theme.CTheme.CurrentTheme*
+  name: CurrentTheme
+  href: api/v2/Models.Settings.Theme.CTheme.html#Models_Settings_Theme_CTheme_CurrentTheme_
+  commentId: Overload:Models.Settings.Theme.CTheme.CurrentTheme
+  isSpec: "True"
+  fullName: Models.Settings.Theme.CTheme.CurrentTheme
+  nameWithType: CTheme.CurrentTheme
+- uid: Models.Settings.Theme.CTheme.LayoutsTheme
+  name: LayoutsTheme
+  href: api/v2/Models.Settings.Theme.CTheme.html#Models_Settings_Theme_CTheme_LayoutsTheme
+  commentId: P:Models.Settings.Theme.CTheme.LayoutsTheme
+  fullName: Models.Settings.Theme.CTheme.LayoutsTheme
+  nameWithType: CTheme.LayoutsTheme
+- uid: Models.Settings.Theme.CTheme.LayoutsTheme*
+  name: LayoutsTheme
+  href: api/v2/Models.Settings.Theme.CTheme.html#Models_Settings_Theme_CTheme_LayoutsTheme_
+  commentId: Overload:Models.Settings.Theme.CTheme.LayoutsTheme
+  isSpec: "True"
+  fullName: Models.Settings.Theme.CTheme.LayoutsTheme
+  nameWithType: CTheme.LayoutsTheme
+- uid: Models.Settings.Theme.ETheme
+  name: ETheme
+  href: api/v2/Models.Settings.Theme.ETheme.html
+  commentId: T:Models.Settings.Theme.ETheme
+  fullName: Models.Settings.Theme.ETheme
+  nameWithType: ETheme
+- uid: Models.Settings.Theme.ETheme.BLUE
+  name: BLUE
+  href: api/v2/Models.Settings.Theme.ETheme.html#Models_Settings_Theme_ETheme_BLUE
+  commentId: F:Models.Settings.Theme.ETheme.BLUE
+  fullName: Models.Settings.Theme.ETheme.BLUE
+  nameWithType: ETheme.BLUE
+- uid: Models.Settings.Theme.ETheme.DARK
+  name: DARK
+  href: api/v2/Models.Settings.Theme.ETheme.html#Models_Settings_Theme_ETheme_DARK
+  commentId: F:Models.Settings.Theme.ETheme.DARK
+  fullName: Models.Settings.Theme.ETheme.DARK
+  nameWithType: ETheme.DARK
+- uid: Models.Settings.Theme.ETheme.LIGHT
+  name: LIGHT
+  href: api/v2/Models.Settings.Theme.ETheme.html#Models_Settings_Theme_ETheme_LIGHT
+  commentId: F:Models.Settings.Theme.ETheme.LIGHT
+  fullName: Models.Settings.Theme.ETheme.LIGHT
+  nameWithType: ETheme.LIGHT
 - uid: OpenDialog
   name: OpenDialog
   href: api/v1/OpenDialog.html
@@ -2770,13 +3858,13 @@ references:
   nameWithType: CDialog.ReadFile(string, Regex, string)
   nameWithType.vb: CDialog.ReadFile(String, Regex, String)
 - uid: OpenDialog.CDialog.ReadFile(System.String,System.Text.RegularExpressions.Regex,System.String,System.Boolean)
-  name: ReadFile(string, Regex, string, bool)
+  name: ReadFile(string, Regex?, string?, bool)
   href: api/v2/OpenDialog.CDialog.html#OpenDialog_CDialog_ReadFile_System_String_System_Text_RegularExpressions_Regex_System_String_System_Boolean_
   commentId: M:OpenDialog.CDialog.ReadFile(System.String,System.Text.RegularExpressions.Regex,System.String,System.Boolean)
   name.vb: ReadFile(String, Regex, String, Boolean)
-  fullName: OpenDialog.CDialog.ReadFile(string, System.Text.RegularExpressions.Regex, string, bool)
+  fullName: OpenDialog.CDialog.ReadFile(string, System.Text.RegularExpressions.Regex?, string?, bool)
   fullName.vb: OpenDialog.CDialog.ReadFile(String, System.Text.RegularExpressions.Regex, String, Boolean)
-  nameWithType: CDialog.ReadFile(string, Regex, string, bool)
+  nameWithType: CDialog.ReadFile(string, Regex?, string?, bool)
   nameWithType.vb: CDialog.ReadFile(String, Regex, String, Boolean)
 - uid: OpenDialog.CDialog.ReadFile*
   name: ReadFile
@@ -2795,13 +3883,13 @@ references:
   nameWithType: CDialog.ReadFolder(string)
   nameWithType.vb: CDialog.ReadFolder(String)
 - uid: OpenDialog.CDialog.ReadFolder(System.String,System.String)
-  name: ReadFolder(string, string)
+  name: ReadFolder(string, string?)
   href: api/v2/OpenDialog.CDialog.html#OpenDialog_CDialog_ReadFolder_System_String_System_String_
   commentId: M:OpenDialog.CDialog.ReadFolder(System.String,System.String)
   name.vb: ReadFolder(String, String)
-  fullName: OpenDialog.CDialog.ReadFolder(string, string)
+  fullName: OpenDialog.CDialog.ReadFolder(string, string?)
   fullName.vb: OpenDialog.CDialog.ReadFolder(String, String)
-  nameWithType: CDialog.ReadFolder(string, string)
+  nameWithType: CDialog.ReadFolder(string, string?)
   nameWithType.vb: CDialog.ReadFolder(String, String)
 - uid: OpenDialog.CDialog.ReadFolder*
   name: ReadFolder
@@ -2861,6 +3949,19 @@ references:
   isSpec: "True"
   fullName: Ressources.Strings.BackupTypeEmpty
   nameWithType: Strings.BackupTypeEmpty
+- uid: Ressources.Strings.BusinessSoftware
+  name: BusinessSoftware
+  href: api/v2/Ressources.Strings.html#Ressources_Strings_BusinessSoftware
+  commentId: P:Ressources.Strings.BusinessSoftware
+  fullName: Ressources.Strings.BusinessSoftware
+  nameWithType: Strings.BusinessSoftware
+- uid: Ressources.Strings.BusinessSoftware*
+  name: BusinessSoftware
+  href: api/v2/Ressources.Strings.html#Ressources_Strings_BusinessSoftware_
+  commentId: Overload:Ressources.Strings.BusinessSoftware
+  isSpec: "True"
+  fullName: Ressources.Strings.BusinessSoftware
+  nameWithType: Strings.BusinessSoftware
 - uid: Ressources.Strings.ByteCopied
   name: ByteCopied
   href: api/v2/Ressources.Strings.html#Ressources_Strings_ByteCopied
@@ -3082,6 +4183,19 @@ references:
   isSpec: "True"
   fullName: Ressources.Strings.DefaultFile
   nameWithType: Strings.DefaultFile
+- uid: Ressources.Strings.DefaultLayout
+  name: DefaultLayout
+  href: api/v2/Ressources.Strings.html#Ressources_Strings_DefaultLayout
+  commentId: P:Ressources.Strings.DefaultLayout
+  fullName: Ressources.Strings.DefaultLayout
+  nameWithType: Strings.DefaultLayout
+- uid: Ressources.Strings.DefaultLayout*
+  name: DefaultLayout
+  href: api/v2/Ressources.Strings.html#Ressources_Strings_DefaultLayout_
+  commentId: Overload:Ressources.Strings.DefaultLayout
+  isSpec: "True"
+  fullName: Ressources.Strings.DefaultLayout
+  nameWithType: Strings.DefaultLayout
 - uid: Ressources.Strings.DeleteJob
   name: DeleteJob
   href: api/v2/Ressources.Strings.html#Ressources_Strings_DeleteJob
@@ -3329,6 +4443,19 @@ references:
   isSpec: "True"
   fullName: Ressources.Strings.JobsDeleted
   nameWithType: Strings.JobsDeleted
+- uid: Ressources.Strings.JobsRunning
+  name: JobsRunning
+  href: api/v2/Ressources.Strings.html#Ressources_Strings_JobsRunning
+  commentId: P:Ressources.Strings.JobsRunning
+  fullName: Ressources.Strings.JobsRunning
+  nameWithType: Strings.JobsRunning
+- uid: Ressources.Strings.JobsRunning*
+  name: JobsRunning
+  href: api/v2/Ressources.Strings.html#Ressources_Strings_JobsRunning_
+  commentId: Overload:Ressources.Strings.JobsRunning
+  isSpec: "True"
+  fullName: Ressources.Strings.JobsRunning
+  nameWithType: Strings.JobsRunning
 - uid: Ressources.Strings.Lang
   name: Lang
   href: api/v2/Ressources.Strings.html#Ressources_Strings_Lang
@@ -3420,6 +4547,45 @@ references:
   isSpec: "True"
   fullName: Ressources.Strings.LogState
   nameWithType: Strings.LogState
+- uid: Ressources.Strings.MenuJob
+  name: MenuJob
+  href: api/v2/Ressources.Strings.html#Ressources_Strings_MenuJob
+  commentId: P:Ressources.Strings.MenuJob
+  fullName: Ressources.Strings.MenuJob
+  nameWithType: Strings.MenuJob
+- uid: Ressources.Strings.MenuJob*
+  name: MenuJob
+  href: api/v2/Ressources.Strings.html#Ressources_Strings_MenuJob_
+  commentId: Overload:Ressources.Strings.MenuJob
+  isSpec: "True"
+  fullName: Ressources.Strings.MenuJob
+  nameWithType: Strings.MenuJob
+- uid: Ressources.Strings.MenuPreference
+  name: MenuPreference
+  href: api/v2/Ressources.Strings.html#Ressources_Strings_MenuPreference
+  commentId: P:Ressources.Strings.MenuPreference
+  fullName: Ressources.Strings.MenuPreference
+  nameWithType: Strings.MenuPreference
+- uid: Ressources.Strings.MenuPreference*
+  name: MenuPreference
+  href: api/v2/Ressources.Strings.html#Ressources_Strings_MenuPreference_
+  commentId: Overload:Ressources.Strings.MenuPreference
+  isSpec: "True"
+  fullName: Ressources.Strings.MenuPreference
+  nameWithType: Strings.MenuPreference
+- uid: Ressources.Strings.MenuSettings
+  name: MenuSettings
+  href: api/v2/Ressources.Strings.html#Ressources_Strings_MenuSettings
+  commentId: P:Ressources.Strings.MenuSettings
+  fullName: Ressources.Strings.MenuSettings
+  nameWithType: Strings.MenuSettings
+- uid: Ressources.Strings.MenuSettings*
+  name: MenuSettings
+  href: api/v2/Ressources.Strings.html#Ressources_Strings_MenuSettings_
+  commentId: Overload:Ressources.Strings.MenuSettings
+  isSpec: "True"
+  fullName: Ressources.Strings.MenuSettings
+  nameWithType: Strings.MenuSettings
 - uid: Ressources.Strings.MultipleIndexes
   name: MultipleIndexes
   href: api/v2/Ressources.Strings.html#Ressources_Strings_MultipleIndexes
@@ -3524,6 +4690,19 @@ references:
   isSpec: "True"
   fullName: Ressources.Strings.PathNotReachable
   nameWithType: Strings.PathNotReachable
+- uid: Ressources.Strings.Paths
+  name: Paths
+  href: api/v2/Ressources.Strings.html#Ressources_Strings_Paths
+  commentId: P:Ressources.Strings.Paths
+  fullName: Ressources.Strings.Paths
+  nameWithType: Strings.Paths
+- uid: Ressources.Strings.Paths*
+  name: Paths
+  href: api/v2/Ressources.Strings.html#Ressources_Strings_Paths_
+  commentId: Overload:Ressources.Strings.Paths
+  isSpec: "True"
+  fullName: Ressources.Strings.Paths
+  nameWithType: Strings.Paths
 - uid: Ressources.Strings.PossibleTypeBackup
   name: PossibleTypeBackup
   href: api/v2/Ressources.Strings.html#Ressources_Strings_PossibleTypeBackup
@@ -3537,6 +4716,19 @@ references:
   isSpec: "True"
   fullName: Ressources.Strings.PossibleTypeBackup
   nameWithType: Strings.PossibleTypeBackup
+- uid: Ressources.Strings.Preference
+  name: Preference
+  href: api/v2/Ressources.Strings.html#Ressources_Strings_Preference
+  commentId: P:Ressources.Strings.Preference
+  fullName: Ressources.Strings.Preference
+  nameWithType: Strings.Preference
+- uid: Ressources.Strings.Preference*
+  name: Preference
+  href: api/v2/Ressources.Strings.html#Ressources_Strings_Preference_
+  commentId: Overload:Ressources.Strings.Preference
+  isSpec: "True"
+  fullName: Ressources.Strings.Preference
+  nameWithType: Strings.Preference
 - uid: Ressources.Strings.Progress
   name: Progress
   href: api/v2/Ressources.Strings.html#Ressources_Strings_Progress
@@ -3680,6 +4872,19 @@ references:
   isSpec: "True"
   fullName: Ressources.Strings.Select
   nameWithType: Strings.Select
+- uid: Ressources.Strings.SelectAll
+  name: SelectAll
+  href: api/v2/Ressources.Strings.html#Ressources_Strings_SelectAll
+  commentId: P:Ressources.Strings.SelectAll
+  fullName: Ressources.Strings.SelectAll
+  nameWithType: Strings.SelectAll
+- uid: Ressources.Strings.SelectAll*
+  name: SelectAll
+  href: api/v2/Ressources.Strings.html#Ressources_Strings_SelectAll_
+  commentId: Overload:Ressources.Strings.SelectAll
+  isSpec: "True"
+  fullName: Ressources.Strings.SelectAll
+  nameWithType: Strings.SelectAll
 - uid: Ressources.Strings.SelectChoice
   name: SelectChoice
   href: api/v2/Ressources.Strings.html#Ressources_Strings_SelectChoice
@@ -4495,6 +5700,15 @@ references:
   fullName.vb: Stockage.Logs.ILogger(Of T).Log
   nameWithType: ILogger<T>.Log
   nameWithType.vb: ILogger(Of T).Log
+- uid: Stockage.Logs.ILogger`1.UpdateLogDelegate
+  name: ILogger<T>.UpdateLogDelegate
+  href: api/v2/Stockage.Logs.ILogger-1.UpdateLogDelegate.html
+  commentId: T:Stockage.Logs.ILogger`1.UpdateLogDelegate
+  name.vb: ILogger(Of T).UpdateLogDelegate
+  fullName: Stockage.Logs.ILogger<T>.UpdateLogDelegate
+  fullName.vb: Stockage.Logs.ILogger(Of T).UpdateLogDelegate
+  nameWithType: ILogger<T>.UpdateLogDelegate
+  nameWithType.vb: ILogger(Of T).UpdateLogDelegate
 - uid: Stockage.Save
   name: Stockage.Save
   href: api/v1/Stockage.Save.html
@@ -4551,6 +5765,15 @@ references:
   isSpec: "True"
   fullName: Stockage.Save.BaseSave.CopyDirectory
   nameWithType: BaseSave.CopyDirectory
+- uid: Stockage.Save.BaseSave.CopyDirectoryAsync(System.IO.DirectoryInfo,System.IO.DirectoryInfo,Stockage.Logs.ILogger{System.UInt32}.UpdateLogDelegate,System.Boolean,System.Boolean)
+  name: CopyDirectoryAsync(DirectoryInfo, DirectoryInfo, UpdateLogDelegate, bool, bool)
+  href: api/v2/Stockage.Save.BaseSave.html#Stockage_Save_BaseSave_CopyDirectoryAsync_System_IO_DirectoryInfo_System_IO_DirectoryInfo_Stockage_Logs_ILogger_System_UInt32__UpdateLogDelegate_System_Boolean_System_Boolean_
+  commentId: M:Stockage.Save.BaseSave.CopyDirectoryAsync(System.IO.DirectoryInfo,System.IO.DirectoryInfo,Stockage.Logs.ILogger{System.UInt32}.UpdateLogDelegate,System.Boolean,System.Boolean)
+  name.vb: CopyDirectoryAsync(DirectoryInfo, DirectoryInfo, UpdateLogDelegate, Boolean, Boolean)
+  fullName: Stockage.Save.BaseSave.CopyDirectoryAsync(System.IO.DirectoryInfo, System.IO.DirectoryInfo, Stockage.Logs.ILogger<uint>.UpdateLogDelegate, bool, bool)
+  fullName.vb: Stockage.Save.BaseSave.CopyDirectoryAsync(System.IO.DirectoryInfo, System.IO.DirectoryInfo, Stockage.Logs.ILogger(Of UInteger).UpdateLogDelegate, Boolean, Boolean)
+  nameWithType: BaseSave.CopyDirectoryAsync(DirectoryInfo, DirectoryInfo, ILogger<uint>.UpdateLogDelegate, bool, bool)
+  nameWithType.vb: BaseSave.CopyDirectoryAsync(DirectoryInfo, DirectoryInfo, ILogger(Of UInteger).UpdateLogDelegate, Boolean, Boolean)
 - uid: Stockage.Save.BaseSave.CopyDirectoryAsync(System.IO.DirectoryInfo,System.IO.DirectoryInfo,System.Boolean,System.Boolean)
   name: CopyDirectoryAsync(DirectoryInfo, DirectoryInfo, bool, bool)
   href: api/v1/Stockage.Save.BaseSave.html#Stockage_Save_BaseSave_CopyDirectoryAsync_System_IO_DirectoryInfo_System_IO_DirectoryInfo_System_Boolean_System_Boolean_
@@ -4560,15 +5783,6 @@ references:
   fullName.vb: Stockage.Save.BaseSave.CopyDirectoryAsync(System.IO.DirectoryInfo, System.IO.DirectoryInfo, Boolean, Boolean)
   nameWithType: BaseSave.CopyDirectoryAsync(DirectoryInfo, DirectoryInfo, bool, bool)
   nameWithType.vb: BaseSave.CopyDirectoryAsync(DirectoryInfo, DirectoryInfo, Boolean, Boolean)
-- uid: Stockage.Save.BaseSave.CopyDirectoryAsync(System.IO.DirectoryInfo,System.IO.DirectoryInfo,System.Boolean,System.Collections.Generic.List{LogsModels.CLogState},System.Boolean)
-  name: CopyDirectoryAsync(DirectoryInfo, DirectoryInfo, bool, List<CLogState>, bool)
-  href: api/v2/Stockage.Save.BaseSave.html#Stockage_Save_BaseSave_CopyDirectoryAsync_System_IO_DirectoryInfo_System_IO_DirectoryInfo_System_Boolean_System_Collections_Generic_List_LogsModels_CLogState__System_Boolean_
-  commentId: M:Stockage.Save.BaseSave.CopyDirectoryAsync(System.IO.DirectoryInfo,System.IO.DirectoryInfo,System.Boolean,System.Collections.Generic.List{LogsModels.CLogState},System.Boolean)
-  name.vb: CopyDirectoryAsync(DirectoryInfo, DirectoryInfo, Boolean, List(Of CLogState), Boolean)
-  fullName: Stockage.Save.BaseSave.CopyDirectoryAsync(System.IO.DirectoryInfo, System.IO.DirectoryInfo, bool, System.Collections.Generic.List<LogsModels.CLogState>, bool)
-  fullName.vb: Stockage.Save.BaseSave.CopyDirectoryAsync(System.IO.DirectoryInfo, System.IO.DirectoryInfo, Boolean, System.Collections.Generic.List(Of LogsModels.CLogState), Boolean)
-  nameWithType: BaseSave.CopyDirectoryAsync(DirectoryInfo, DirectoryInfo, bool, List<CLogState>, bool)
-  nameWithType.vb: BaseSave.CopyDirectoryAsync(DirectoryInfo, DirectoryInfo, Boolean, List(Of CLogState), Boolean)
 - uid: Stockage.Save.BaseSave.CopyDirectoryAsync*
   name: CopyDirectoryAsync
   href: api/v1/Stockage.Save.BaseSave.html#Stockage_Save_BaseSave_CopyDirectoryAsync_
@@ -4576,6 +5790,19 @@ references:
   isSpec: "True"
   fullName: Stockage.Save.BaseSave.CopyDirectoryAsync
   nameWithType: BaseSave.CopyDirectoryAsync
+- uid: Stockage.Save.BaseSave.FolderPath
+  name: FolderPath
+  href: api/v2/Stockage.Save.BaseSave.html#Stockage_Save_BaseSave_FolderPath
+  commentId: P:Stockage.Save.BaseSave.FolderPath
+  fullName: Stockage.Save.BaseSave.FolderPath
+  nameWithType: BaseSave.FolderPath
+- uid: Stockage.Save.BaseSave.FolderPath*
+  name: FolderPath
+  href: api/v2/Stockage.Save.BaseSave.html#Stockage_Save_BaseSave_FolderPath_
+  commentId: Overload:Stockage.Save.BaseSave.FolderPath
+  isSpec: "True"
+  fullName: Stockage.Save.BaseSave.FolderPath
+  nameWithType: BaseSave.FolderPath
 - uid: Stockage.Save.BaseSave.Options
   name: Options
   href: api/v1/Stockage.Save.BaseSave.html#Stockage_Save_BaseSave_Options
@@ -4605,12 +5832,6 @@ references:
   fullName.vb: Stockage.Save.BaseSave.Sauver(Of T)(T, String, Boolean, String, Boolean)
   nameWithType: BaseSave.Sauver<T>(T, string, bool, string, bool)
   nameWithType.vb: BaseSave.Sauver(Of T)(T, String, Boolean, String, Boolean)
-- uid: Stockage.Save.BaseSave._path
-  name: _path
-  href: api/v2/Stockage.Save.BaseSave.html#Stockage_Save_BaseSave__path
-  commentId: F:Stockage.Save.BaseSave._path
-  fullName: Stockage.Save.BaseSave._path
-  nameWithType: BaseSave._path
 - uid: Stockage.Save.ISauve
   name: ISauve
   href: api/v1/Stockage.Save.ISauve.html
@@ -4772,6 +5993,15 @@ references:
   commentId: T:Stockage.Save.SauveJobsAsync
   fullName: Stockage.Save.SauveJobsAsync
   nameWithType: SauveJobsAsync
+- uid: Stockage.Save.SauveJobsAsync.#ctor(System.Collections.Generic.List{System.String},System.String,System.String,System.Diagnostics.Stopwatch)
+  name: SauveJobsAsync(List<string>, string?, string, Stopwatch?)
+  href: api/v2/Stockage.Save.SauveJobsAsync.html#Stockage_Save_SauveJobsAsync__ctor_System_Collections_Generic_List_System_String__System_String_System_String_System_Diagnostics_Stopwatch_
+  commentId: M:Stockage.Save.SauveJobsAsync.#ctor(System.Collections.Generic.List{System.String},System.String,System.String,System.Diagnostics.Stopwatch)
+  name.vb: New(List(Of String), String, String, Stopwatch)
+  fullName: Stockage.Save.SauveJobsAsync.SauveJobsAsync(System.Collections.Generic.List<string>, string?, string, System.Diagnostics.Stopwatch?)
+  fullName.vb: Stockage.Save.SauveJobsAsync.New(System.Collections.Generic.List(Of String), String, String, System.Diagnostics.Stopwatch)
+  nameWithType: SauveJobsAsync.SauveJobsAsync(List<string>, string?, string, Stopwatch?)
+  nameWithType.vb: SauveJobsAsync.New(List(Of String), String, String, Stopwatch)
 - uid: Stockage.Save.SauveJobsAsync.#ctor(System.String,System.String)
   name: SauveJobsAsync(string, string)
   href: api/v1/Stockage.Save.SauveJobsAsync.html#Stockage_Save_SauveJobsAsync__ctor_System_String_System_String_
@@ -4781,15 +6011,6 @@ references:
   fullName.vb: Stockage.Save.SauveJobsAsync.New(String, String)
   nameWithType: SauveJobsAsync.SauveJobsAsync(string, string)
   nameWithType.vb: SauveJobsAsync.New(String, String)
-- uid: Stockage.Save.SauveJobsAsync.#ctor(System.String,System.String,System.Diagnostics.Stopwatch)
-  name: SauveJobsAsync(string, string, Stopwatch)
-  href: api/v2/Stockage.Save.SauveJobsAsync.html#Stockage_Save_SauveJobsAsync__ctor_System_String_System_String_System_Diagnostics_Stopwatch_
-  commentId: M:Stockage.Save.SauveJobsAsync.#ctor(System.String,System.String,System.Diagnostics.Stopwatch)
-  name.vb: New(String, String, Stopwatch)
-  fullName: Stockage.Save.SauveJobsAsync.SauveJobsAsync(string, string, System.Diagnostics.Stopwatch)
-  fullName.vb: Stockage.Save.SauveJobsAsync.New(String, String, System.Diagnostics.Stopwatch)
-  nameWithType: SauveJobsAsync.SauveJobsAsync(string, string, Stopwatch)
-  nameWithType.vb: SauveJobsAsync.New(String, String, Stopwatch)
 - uid: Stockage.Save.SauveJobsAsync.#ctor*
   name: SauveJobsAsync
   href: api/v1/Stockage.Save.SauveJobsAsync.html#Stockage_Save_SauveJobsAsync__ctor_
@@ -4800,6 +6021,15 @@ references:
   fullName.vb: Stockage.Save.SauveJobsAsync.New
   nameWithType: SauveJobsAsync.SauveJobsAsync
   nameWithType.vb: SauveJobsAsync.New
+- uid: Stockage.Save.SauveJobsAsync.CopyDirectoryAsync(System.IO.DirectoryInfo,System.IO.DirectoryInfo,Stockage.Logs.ILogger{System.UInt32}.UpdateLogDelegate,System.Boolean,System.Boolean)
+  name: CopyDirectoryAsync(DirectoryInfo, DirectoryInfo, UpdateLogDelegate, bool, bool)
+  href: api/v2/Stockage.Save.SauveJobsAsync.html#Stockage_Save_SauveJobsAsync_CopyDirectoryAsync_System_IO_DirectoryInfo_System_IO_DirectoryInfo_Stockage_Logs_ILogger_System_UInt32__UpdateLogDelegate_System_Boolean_System_Boolean_
+  commentId: M:Stockage.Save.SauveJobsAsync.CopyDirectoryAsync(System.IO.DirectoryInfo,System.IO.DirectoryInfo,Stockage.Logs.ILogger{System.UInt32}.UpdateLogDelegate,System.Boolean,System.Boolean)
+  name.vb: CopyDirectoryAsync(DirectoryInfo, DirectoryInfo, UpdateLogDelegate, Boolean, Boolean)
+  fullName: Stockage.Save.SauveJobsAsync.CopyDirectoryAsync(System.IO.DirectoryInfo, System.IO.DirectoryInfo, Stockage.Logs.ILogger<uint>.UpdateLogDelegate, bool, bool)
+  fullName.vb: Stockage.Save.SauveJobsAsync.CopyDirectoryAsync(System.IO.DirectoryInfo, System.IO.DirectoryInfo, Stockage.Logs.ILogger(Of UInteger).UpdateLogDelegate, Boolean, Boolean)
+  nameWithType: SauveJobsAsync.CopyDirectoryAsync(DirectoryInfo, DirectoryInfo, ILogger<uint>.UpdateLogDelegate, bool, bool)
+  nameWithType.vb: SauveJobsAsync.CopyDirectoryAsync(DirectoryInfo, DirectoryInfo, ILogger(Of UInteger).UpdateLogDelegate, Boolean, Boolean)
 - uid: Stockage.Save.SauveJobsAsync.CopyDirectoryAsync(System.IO.DirectoryInfo,System.IO.DirectoryInfo,System.Boolean,System.Boolean)
   name: CopyDirectoryAsync(DirectoryInfo, DirectoryInfo, bool, bool)
   href: api/v1/Stockage.Save.SauveJobsAsync.html#Stockage_Save_SauveJobsAsync_CopyDirectoryAsync_System_IO_DirectoryInfo_System_IO_DirectoryInfo_System_Boolean_System_Boolean_
@@ -4809,15 +6039,6 @@ references:
   fullName.vb: Stockage.Save.SauveJobsAsync.CopyDirectoryAsync(System.IO.DirectoryInfo, System.IO.DirectoryInfo, Boolean, Boolean)
   nameWithType: SauveJobsAsync.CopyDirectoryAsync(DirectoryInfo, DirectoryInfo, bool, bool)
   nameWithType.vb: SauveJobsAsync.CopyDirectoryAsync(DirectoryInfo, DirectoryInfo, Boolean, Boolean)
-- uid: Stockage.Save.SauveJobsAsync.CopyDirectoryAsync(System.IO.DirectoryInfo,System.IO.DirectoryInfo,System.Boolean,System.Collections.Generic.List{LogsModels.CLogState},System.Boolean)
-  name: CopyDirectoryAsync(DirectoryInfo, DirectoryInfo, bool, List<CLogState>, bool)
-  href: api/v2/Stockage.Save.SauveJobsAsync.html#Stockage_Save_SauveJobsAsync_CopyDirectoryAsync_System_IO_DirectoryInfo_System_IO_DirectoryInfo_System_Boolean_System_Collections_Generic_List_LogsModels_CLogState__System_Boolean_
-  commentId: M:Stockage.Save.SauveJobsAsync.CopyDirectoryAsync(System.IO.DirectoryInfo,System.IO.DirectoryInfo,System.Boolean,System.Collections.Generic.List{LogsModels.CLogState},System.Boolean)
-  name.vb: CopyDirectoryAsync(DirectoryInfo, DirectoryInfo, Boolean, List(Of CLogState), Boolean)
-  fullName: Stockage.Save.SauveJobsAsync.CopyDirectoryAsync(System.IO.DirectoryInfo, System.IO.DirectoryInfo, bool, System.Collections.Generic.List<LogsModels.CLogState>, bool)
-  fullName.vb: Stockage.Save.SauveJobsAsync.CopyDirectoryAsync(System.IO.DirectoryInfo, System.IO.DirectoryInfo, Boolean, System.Collections.Generic.List(Of LogsModels.CLogState), Boolean)
-  nameWithType: SauveJobsAsync.CopyDirectoryAsync(DirectoryInfo, DirectoryInfo, bool, List<CLogState>, bool)
-  nameWithType.vb: SauveJobsAsync.CopyDirectoryAsync(DirectoryInfo, DirectoryInfo, Boolean, List(Of CLogState), Boolean)
 - uid: Stockage.Save.SauveJobsAsync.CopyDirectoryAsync*
   name: CopyDirectoryAsync
   href: api/v1/Stockage.Save.SauveJobsAsync.html#Stockage_Save_SauveJobsAsync_CopyDirectoryAsync_
@@ -4825,6 +6046,15 @@ references:
   isSpec: "True"
   fullName: Stockage.Save.SauveJobsAsync.CopyDirectoryAsync
   nameWithType: SauveJobsAsync.CopyDirectoryAsync
+- uid: Stockage.Save.SauveJobsAsync.CopyFileAsync(System.IO.FileInfo,System.String,LogsModels.CLogState)
+  name: CopyFileAsync(FileInfo, string, CLogState)
+  href: api/v2/Stockage.Save.SauveJobsAsync.html#Stockage_Save_SauveJobsAsync_CopyFileAsync_System_IO_FileInfo_System_String_LogsModels_CLogState_
+  commentId: M:Stockage.Save.SauveJobsAsync.CopyFileAsync(System.IO.FileInfo,System.String,LogsModels.CLogState)
+  name.vb: CopyFileAsync(FileInfo, String, CLogState)
+  fullName: Stockage.Save.SauveJobsAsync.CopyFileAsync(System.IO.FileInfo, string, LogsModels.CLogState)
+  fullName.vb: Stockage.Save.SauveJobsAsync.CopyFileAsync(System.IO.FileInfo, String, LogsModels.CLogState)
+  nameWithType: SauveJobsAsync.CopyFileAsync(FileInfo, string, CLogState)
+  nameWithType.vb: SauveJobsAsync.CopyFileAsync(FileInfo, String, CLogState)
 - uid: Stockage.Save.SauveJobsAsync.CopyFileAsync(System.String,System.String)
   name: CopyFileAsync(string, string)
   href: api/v1/Stockage.Save.SauveJobsAsync.html#Stockage_Save_SauveJobsAsync_CopyFileAsync_System_String_System_String_
@@ -4841,6 +6071,48 @@ references:
   isSpec: "True"
   fullName: Stockage.Save.SauveJobsAsync.CopyFileAsync
   nameWithType: SauveJobsAsync.CopyFileAsync
+- uid: Stockage.Save.SauveJobsAsync.Dispose
+  name: Dispose()
+  href: api/v2/Stockage.Save.SauveJobsAsync.html#Stockage_Save_SauveJobsAsync_Dispose
+  commentId: M:Stockage.Save.SauveJobsAsync.Dispose
+  fullName: Stockage.Save.SauveJobsAsync.Dispose()
+  nameWithType: SauveJobsAsync.Dispose()
+- uid: Stockage.Save.SauveJobsAsync.Dispose*
+  name: Dispose
+  href: api/v2/Stockage.Save.SauveJobsAsync.html#Stockage_Save_SauveJobsAsync_Dispose_
+  commentId: Overload:Stockage.Save.SauveJobsAsync.Dispose
+  isSpec: "True"
+  fullName: Stockage.Save.SauveJobsAsync.Dispose
+  nameWithType: SauveJobsAsync.Dispose
+- uid: Stockage.Save.SauveJobsAsync.Errors
+  name: Errors
+  href: api/v2/Stockage.Save.SauveJobsAsync.html#Stockage_Save_SauveJobsAsync_Errors
+  commentId: P:Stockage.Save.SauveJobsAsync.Errors
+  fullName: Stockage.Save.SauveJobsAsync.Errors
+  nameWithType: SauveJobsAsync.Errors
+- uid: Stockage.Save.SauveJobsAsync.Errors*
+  name: Errors
+  href: api/v2/Stockage.Save.SauveJobsAsync.html#Stockage_Save_SauveJobsAsync_Errors_
+  commentId: Overload:Stockage.Save.SauveJobsAsync.Errors
+  isSpec: "True"
+  fullName: Stockage.Save.SauveJobsAsync.Errors
+  nameWithType: SauveJobsAsync.Errors
+- uid: Stockage.Save.SauveJobsAsync.Finalize
+  name: ~SauveJobsAsync()
+  href: api/v2/Stockage.Save.SauveJobsAsync.html#Stockage_Save_SauveJobsAsync_Finalize
+  commentId: M:Stockage.Save.SauveJobsAsync.Finalize
+  name.vb: ''
+  fullName: Stockage.Save.SauveJobsAsync.~SauveJobsAsync()
+  fullName.vb: ''
+  nameWithType: SauveJobsAsync.~SauveJobsAsync()
+  nameWithType.vb: ''
+- uid: Stockage.Save.SauveJobsAsync.Finalize*
+  name: ~SauveJobsAsync
+  href: api/v2/Stockage.Save.SauveJobsAsync.html#Stockage_Save_SauveJobsAsync_Finalize_
+  commentId: Overload:Stockage.Save.SauveJobsAsync.Finalize
+  isSpec: "True"
+  fullName: Stockage.Save.SauveJobsAsync.~SauveJobsAsync
+  nameWithType: SauveJobsAsync.~SauveJobsAsync
 - uid: Stockage.Save.SauveJobsAsync.GetDirSize(System.String)
   name: GetDirSize(string)
   href: api/v1/Stockage.Save.SauveJobsAsync.html#Stockage_Save_SauveJobsAsync_GetDirSize_System_String_
@@ -4909,6 +6181,31 @@ references:
   isSpec: "True"
   fullName: Stockage.Save.SauveJobsAsync.UpdateLog
   nameWithType: SauveJobsAsync.UpdateLog
+- uid: UnitTestCryptoSoft
+  name: UnitTestCryptoSoft
+  href: api/v2/UnitTestCryptoSoft.html
+  commentId: N:UnitTestCryptoSoft
+  fullName: UnitTestCryptoSoft
+  nameWithType: UnitTestCryptoSoft
+- uid: UnitTestCryptoSoft.EncryptDecryptTest
+  name: EncryptDecryptTest
+  href: api/v2/UnitTestCryptoSoft.EncryptDecryptTest.html
+  commentId: T:UnitTestCryptoSoft.EncryptDecryptTest
+  fullName: UnitTestCryptoSoft.EncryptDecryptTest
+  nameWithType: EncryptDecryptTest
+- uid: UnitTestCryptoSoft.EncryptDecryptTest.XorTest
+  name: XorTest()
+  href: api/v2/UnitTestCryptoSoft.EncryptDecryptTest.html#UnitTestCryptoSoft_EncryptDecryptTest_XorTest
+  commentId: M:UnitTestCryptoSoft.EncryptDecryptTest.XorTest
+  fullName: UnitTestCryptoSoft.EncryptDecryptTest.XorTest()
+  nameWithType: EncryptDecryptTest.XorTest()
+- uid: UnitTestCryptoSoft.EncryptDecryptTest.XorTest*
+  name: XorTest
+  href: api/v2/UnitTestCryptoSoft.EncryptDecryptTest.html#UnitTestCryptoSoft_EncryptDecryptTest_XorTest_
+  commentId: Overload:UnitTestCryptoSoft.EncryptDecryptTest.XorTest
+  isSpec: "True"
+  fullName: UnitTestCryptoSoft.EncryptDecryptTest.XorTest
+  nameWithType: EncryptDecryptTest.XorTest
 - uid: UnitTestJobs
   name: UnitTestJobs
   href: api/v1/UnitTestJobs.html
@@ -4998,6 +6295,19 @@ references:
   isSpec: "True"
   fullName: UnitTestStorage.StockageTestUnit.TestExtensionSerialisation
   nameWithType: StockageTestUnit.TestExtensionSerialisation
+- uid: UnitTestStorage.StockageTestUnit.TestExtensionSerialization
+  name: TestExtensionSerialization()
+  href: api/v2/UnitTestStorage.StockageTestUnit.html#UnitTestStorage_StockageTestUnit_TestExtensionSerialization
+  commentId: M:UnitTestStorage.StockageTestUnit.TestExtensionSerialization
+  fullName: UnitTestStorage.StockageTestUnit.TestExtensionSerialization()
+  nameWithType: StockageTestUnit.TestExtensionSerialization()
+- uid: UnitTestStorage.StockageTestUnit.TestExtensionSerialization*
+  name: TestExtensionSerialization
+  href: api/v2/UnitTestStorage.StockageTestUnit.html#UnitTestStorage_StockageTestUnit_TestExtensionSerialization_
+  commentId: Overload:UnitTestStorage.StockageTestUnit.TestExtensionSerialization
+  isSpec: "True"
+  fullName: UnitTestStorage.StockageTestUnit.TestExtensionSerialization
+  nameWithType: StockageTestUnit.TestExtensionSerialization
 - uid: UnitTestStorage.StockageTestUnit.TestSerialisation
   name: TestSerialisation()
   href: api/v1/UnitTestStorage.StockageTestUnit.html#UnitTestStorage_StockageTestUnit_TestSerialisation
@@ -5011,6 +6321,19 @@ references:
   isSpec: "True"
   fullName: UnitTestStorage.StockageTestUnit.TestSerialisation
   nameWithType: StockageTestUnit.TestSerialisation
+- uid: UnitTestStorage.StockageTestUnit.TestSerialization
+  name: TestSerialization()
+  href: api/v2/UnitTestStorage.StockageTestUnit.html#UnitTestStorage_StockageTestUnit_TestSerialization
+  commentId: M:UnitTestStorage.StockageTestUnit.TestSerialization
+  fullName: UnitTestStorage.StockageTestUnit.TestSerialization()
+  nameWithType: StockageTestUnit.TestSerialization()
+- uid: UnitTestStorage.StockageTestUnit.TestSerialization*
+  name: TestSerialization
+  href: api/v2/UnitTestStorage.StockageTestUnit.html#UnitTestStorage_StockageTestUnit_TestSerialization_
+  commentId: Overload:UnitTestStorage.StockageTestUnit.TestSerialization
+  isSpec: "True"
+  fullName: UnitTestStorage.StockageTestUnit.TestSerialization
+  nameWithType: StockageTestUnit.TestSerialization
 - uid: ViewModels
   name: ViewModels
   href: api/v1/ViewModels.html

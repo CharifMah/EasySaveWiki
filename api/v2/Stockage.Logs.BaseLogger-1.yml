@@ -71,7 +71,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Datas
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Stockage/Logs/BaseLog.cs
-    startLine: 15
+    startLine: 17
   assemblies:
   - Stockage
   namespace: Stockage.Logs
@@ -106,7 +106,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: .ctor
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Stockage/Logs/BaseLog.cs
-    startLine: 16
+    startLine: 19
   assemblies:
   - Stockage
   namespace: Stockage.Logs
@@ -135,7 +135,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Log
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Stockage/Logs/BaseLog.cs
-    startLine: 27
+    startLine: 32
   assemblies:
   - Stockage
   namespace: Stockage.Logs
@@ -185,7 +185,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Clear
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Stockage/Logs/BaseLog.cs
-    startLine: 48
+    startLine: 51
   assemblies:
   - Stockage
   namespace: Stockage.Logs

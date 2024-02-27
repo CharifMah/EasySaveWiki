@@ -1,0 +1,62 @@
+### YamlMime:ManagedReference
+items:
+- uid: Models.Settings.Theme
+  commentId: N:Models.Settings.Theme
+  id: Models.Settings.Theme
+  children:
+  - Models.Settings.Theme.CTheme
+  - Models.Settings.Theme.ETheme
+  langs:
+  - csharp
+  - vb
+  name: Models.Settings.Theme
+  nameWithType: Models.Settings.Theme
+  fullName: Models.Settings.Theme
+  type: Namespace
+  assemblies:
+  - Models
+references:
+- uid: Models.Settings.Theme.CTheme
+  commentId: T:Models.Settings.Theme.CTheme
+  parent: Models.Settings.Theme
+  href: Models.Settings.Theme.CTheme.html
+  name: CTheme
+  nameWithType: CTheme
+  fullName: Models.Settings.Theme.CTheme
+- uid: Models.Settings.Theme.ETheme
+  commentId: T:Models.Settings.Theme.ETheme
+  parent: Models.Settings.Theme
+  href: Models.Settings.Theme.ETheme.html
+  name: ETheme
+  nameWithType: ETheme
+  fullName: Models.Settings.Theme.ETheme
+- uid: Models.Settings.Theme
+  commentId: N:Models.Settings.Theme
+  href: Models.html
+  name: Models.Settings.Theme
+  nameWithType: Models.Settings.Theme
+  fullName: Models.Settings.Theme
+  spec.csharp:
+  - uid: Models
+    name: Models
+    href: Models.html
+  - name: .
+  - uid: Models.Settings
+    name: Settings
+    href: Models.Settings.html
+  - name: .
+  - uid: Models.Settings.Theme
+    name: Theme
+    href: Models.Settings.Theme.html
+  spec.vb:
+  - uid: Models
+    name: Models
+    href: Models.html
+  - name: .
+  - uid: Models.Settings
+    name: Settings
+    href: Models.Settings.html
+  - name: .
+  - uid: Models.Settings.Theme
+    name: Theme
+    href: Models.Settings.Theme.html

@@ -46,9 +46,9 @@ items:
   langs:
   - csharp
   - vb
-  name: ReadFile(string, Regex, string, bool)
-  nameWithType: CDialog.ReadFile(string, Regex, string, bool)
-  fullName: OpenDialog.CDialog.ReadFile(string, System.Text.RegularExpressions.Regex, string, bool)
+  name: ReadFile(string, Regex?, string?, bool)
+  nameWithType: CDialog.ReadFile(string, Regex?, string?, bool)
+  fullName: OpenDialog.CDialog.ReadFile(string, System.Text.RegularExpressions.Regex?, string?, bool)
   type: Method
   source:
     remote:
@@ -64,12 +64,12 @@ items:
   summary: Read a file with GTK CrossPlatform interface if it fail open classic Console Interface
   example: []
   syntax:
-    content: public static string ReadFile(string pDescription, Regex pRegexExtentions = null, string pCurrentFolder = null, bool pOpenFile = false)
+    content: public static string ReadFile(string pDescription, Regex? pRegexExtensions = null, string? pCurrentFolder = null, bool pOpenFile = false)
     parameters:
     - id: pDescription
       type: System.String
       description: Description for the interface
-    - id: pRegexExtentions
+    - id: pRegexExtensions
       type: System.Text.RegularExpressions.Regex
     - id: pCurrentFolder
       type: System.String
@@ -78,7 +78,7 @@ items:
     return:
       type: System.String
       description: return the selected file full path
-    content.vb: Public Shared Function ReadFile(pDescription As String, pRegexExtentions As Regex = Nothing, pCurrentFolder As String = Nothing, pOpenFile As Boolean = False) As String
+    content.vb: Public Shared Function ReadFile(pDescription As String, pRegexExtensions As Regex = Nothing, pCurrentFolder As String = Nothing, pOpenFile As Boolean = False) As String
   overload: OpenDialog.CDialog.ReadFile*
   nameWithType.vb: CDialog.ReadFile(String, Regex, String, Boolean)
   fullName.vb: OpenDialog.CDialog.ReadFile(String, System.Text.RegularExpressions.Regex, String, Boolean)
@@ -90,9 +90,9 @@ items:
   langs:
   - csharp
   - vb
-  name: ReadFolder(string, string)
-  nameWithType: CDialog.ReadFolder(string, string)
-  fullName: OpenDialog.CDialog.ReadFolder(string, string)
+  name: ReadFolder(string, string?)
+  nameWithType: CDialog.ReadFolder(string, string?)
+  fullName: OpenDialog.CDialog.ReadFolder(string, string?)
   type: Method
   source:
     remote:
@@ -106,7 +106,7 @@ items:
   - OpenDialog
   namespace: OpenDialog
   syntax:
-    content: public static string ReadFolder(string pDescription = "", string pPath = null)
+    content: public static string ReadFolder(string pDescription = "", string? pPath = null)
     parameters:
     - id: pDescription
       type: System.String

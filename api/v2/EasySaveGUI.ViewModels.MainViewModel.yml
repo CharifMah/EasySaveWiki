@@ -6,10 +6,14 @@ items:
   parent: EasySaveGUI.ViewModels
   children:
   - EasySaveGUI.ViewModels.MainViewModel.#ctor
+  - EasySaveGUI.ViewModels.MainViewModel.BusinessSoftwareVm
+  - EasySaveGUI.ViewModels.MainViewModel.FileExtensionVm
   - EasySaveGUI.ViewModels.MainViewModel.FormatLogVm
   - EasySaveGUI.ViewModels.MainViewModel.JobVm
   - EasySaveGUI.ViewModels.MainViewModel.LangueVm
   - EasySaveGUI.ViewModels.MainViewModel.LayoutVm
+  - EasySaveGUI.ViewModels.MainViewModel.LoadJobs(System.Boolean,System.String)
+  - EasySaveGUI.ViewModels.MainViewModel.LoadJobsFile(System.String)
   - EasySaveGUI.ViewModels.MainViewModel.PopupVm
   - EasySaveGUI.ViewModels.MainViewModel.SettingsVm
   langs:
@@ -26,18 +30,23 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: MainViewModel
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/MainViewModel.cs
-    startLine: 5
+    startLine: 9
   assemblies:
   - EasySaveGUI
   namespace: EasySaveGUI.ViewModels
   summary: Modèle de vue principal regroupant les différents modèles de vue
   example: []
   syntax:
-    content: public class MainViewModel
-    content.vb: Public Class MainViewModel
+    content: 'public class MainViewModel : BaseViewModel, INotifyPropertyChanged'
+    content.vb: Public Class MainViewModel Inherits BaseViewModel Implements INotifyPropertyChanged
   inheritance:
   - System.Object
+  - EasySaveGUI.ViewModels.BaseViewModel
+  implements:
+  - System.ComponentModel.INotifyPropertyChanged
   inheritedMembers:
+  - EasySaveGUI.ViewModels.BaseViewModel.PropertyChanged
+  - EasySaveGUI.ViewModels.BaseViewModel.NotifyPropertyChanged(System.String)
   - System.Object.Equals(System.Object)
   - System.Object.Equals(System.Object,System.Object)
   - System.Object.GetHashCode
@@ -63,7 +72,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: LangueVm
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/MainViewModel.cs
-    startLine: 16
+    startLine: 22
   assemblies:
   - EasySaveGUI
   namespace: EasySaveGUI.ViewModels
@@ -94,7 +103,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: FormatLogVm
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/MainViewModel.cs
-    startLine: 20
+    startLine: 26
   assemblies:
   - EasySaveGUI
   namespace: EasySaveGUI.ViewModels
@@ -125,7 +134,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: JobVm
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/MainViewModel.cs
-    startLine: 24
+    startLine: 30
   assemblies:
   - EasySaveGUI
   namespace: EasySaveGUI.ViewModels
@@ -156,7 +165,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: PopupVm
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/MainViewModel.cs
-    startLine: 25
+    startLine: 31
   assemblies:
   - EasySaveGUI
   namespace: EasySaveGUI.ViewModels
@@ -185,7 +194,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: SettingsVm
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/MainViewModel.cs
-    startLine: 26
+    startLine: 32
   assemblies:
   - EasySaveGUI
   namespace: EasySaveGUI.ViewModels
@@ -214,7 +223,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: LayoutVm
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/MainViewModel.cs
-    startLine: 27
+    startLine: 33
   assemblies:
   - EasySaveGUI
   namespace: EasySaveGUI.ViewModels
@@ -225,6 +234,66 @@ items:
       type: EasySaveGUI.ViewModels.LayoutViewModel
     content.vb: Public Property LayoutVm As LayoutViewModel
   overload: EasySaveGUI.ViewModels.MainViewModel.LayoutVm*
+- uid: EasySaveGUI.ViewModels.MainViewModel.BusinessSoftwareVm
+  commentId: P:EasySaveGUI.ViewModels.MainViewModel.BusinessSoftwareVm
+  id: BusinessSoftwareVm
+  parent: EasySaveGUI.ViewModels.MainViewModel
+  langs:
+  - csharp
+  - vb
+  name: BusinessSoftwareVm
+  nameWithType: MainViewModel.BusinessSoftwareVm
+  fullName: EasySaveGUI.ViewModels.MainViewModel.BusinessSoftwareVm
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/MainViewModel.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: BusinessSoftwareVm
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/MainViewModel.cs
+    startLine: 38
+  assemblies:
+  - EasySaveGUI
+  namespace: EasySaveGUI.ViewModels
+  summary: View Model pour la gestion des logiciels métiers
+  example: []
+  syntax:
+    content: public BusinessSoftwareViewModel BusinessSoftwareVm { get; set; }
+    parameters: []
+    return:
+      type: EasySaveGUI.ViewModels.BusinessSoftwareViewModel
+    content.vb: Public Property BusinessSoftwareVm As BusinessSoftwareViewModel
+  overload: EasySaveGUI.ViewModels.MainViewModel.BusinessSoftwareVm*
+- uid: EasySaveGUI.ViewModels.MainViewModel.FileExtensionVm
+  commentId: P:EasySaveGUI.ViewModels.MainViewModel.FileExtensionVm
+  id: FileExtensionVm
+  parent: EasySaveGUI.ViewModels.MainViewModel
+  langs:
+  - csharp
+  - vb
+  name: FileExtensionVm
+  nameWithType: MainViewModel.FileExtensionVm
+  fullName: EasySaveGUI.ViewModels.MainViewModel.FileExtensionVm
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/MainViewModel.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: FileExtensionVm
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/MainViewModel.cs
+    startLine: 44
+  assemblies:
+  - EasySaveGUI
+  namespace: EasySaveGUI.ViewModels
+  syntax:
+    content: public FileExtensionViewModel FileExtensionVm { get; set; }
+    parameters: []
+    return:
+      type: EasySaveGUI.ViewModels.FileExtensionViewModel
+    content.vb: Public Property FileExtensionVm As FileExtensionViewModel
+  overload: EasySaveGUI.ViewModels.MainViewModel.FileExtensionVm*
 - uid: EasySaveGUI.ViewModels.MainViewModel.#ctor
   commentId: M:EasySaveGUI.ViewModels.MainViewModel.#ctor
   id: '#ctor'
@@ -243,7 +312,7 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: .ctor
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/MainViewModel.cs
-    startLine: 34
+    startLine: 53
   assemblies:
   - EasySaveGUI
   namespace: EasySaveGUI.ViewModels
@@ -256,6 +325,82 @@ items:
   nameWithType.vb: MainViewModel.New()
   fullName.vb: EasySaveGUI.ViewModels.MainViewModel.New()
   name.vb: New()
+- uid: EasySaveGUI.ViewModels.MainViewModel.LoadJobsFile(System.String)
+  commentId: M:EasySaveGUI.ViewModels.MainViewModel.LoadJobsFile(System.String)
+  id: LoadJobsFile(System.String)
+  parent: EasySaveGUI.ViewModels.MainViewModel
+  langs:
+  - csharp
+  - vb
+  name: LoadJobsFile(string)
+  nameWithType: MainViewModel.LoadJobsFile(string)
+  fullName: EasySaveGUI.ViewModels.MainViewModel.LoadJobsFile(string)
+  type: Method
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/MainViewModel.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: LoadJobsFile
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/MainViewModel.cs
+    startLine: 81
+  assemblies:
+  - EasySaveGUI
+  namespace: EasySaveGUI.ViewModels
+  summary: Charge la liste des jobs depuis un fichier
+  example: []
+  syntax:
+    content: public JobViewModel LoadJobsFile(string pPath = null)
+    parameters:
+    - id: pPath
+      type: System.String
+      description: Chemin du fichier de configuration. Null pour le fichier par défaut.
+    return:
+      type: EasySaveGUI.ViewModels.JobViewModel
+      description: Instance du gestionnaire de jobs chargé
+    content.vb: Public Function LoadJobsFile(pPath As String = Nothing) As JobViewModel
+  overload: EasySaveGUI.ViewModels.MainViewModel.LoadJobsFile*
+  nameWithType.vb: MainViewModel.LoadJobsFile(String)
+  fullName.vb: EasySaveGUI.ViewModels.MainViewModel.LoadJobsFile(String)
+  name.vb: LoadJobsFile(String)
+- uid: EasySaveGUI.ViewModels.MainViewModel.LoadJobs(System.Boolean,System.String)
+  commentId: M:EasySaveGUI.ViewModels.MainViewModel.LoadJobs(System.Boolean,System.String)
+  id: LoadJobs(System.Boolean,System.String)
+  parent: EasySaveGUI.ViewModels.MainViewModel
+  langs:
+  - csharp
+  - vb
+  name: LoadJobs(bool, string?)
+  nameWithType: MainViewModel.LoadJobs(bool, string?)
+  fullName: EasySaveGUI.ViewModels.MainViewModel.LoadJobs(bool, string?)
+  type: Method
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/MainViewModel.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: LoadJobs
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/EasySaveGUI/ViewModels/MainViewModel.cs
+    startLine: 111
+  assemblies:
+  - EasySaveGUI
+  namespace: EasySaveGUI.ViewModels
+  summary: Charge la liste des jobs depuis un fichier
+  example: []
+  syntax:
+    content: public void LoadJobs(bool IsDefaultFile = true, string? pPath = null)
+    parameters:
+    - id: IsDefaultFile
+      type: System.Boolean
+      description: Indique si le fichier par défaut doit être chargé
+    - id: pPath
+      type: System.String
+      description: Chemin du fichier à charger, vide pour le fichier par défaut
+    content.vb: Public Sub LoadJobs(IsDefaultFile As Boolean = True, pPath As String = Nothing)
+  overload: EasySaveGUI.ViewModels.MainViewModel.LoadJobs*
+  nameWithType.vb: MainViewModel.LoadJobs(Boolean, String)
+  fullName.vb: EasySaveGUI.ViewModels.MainViewModel.LoadJobs(Boolean, String)
+  name.vb: LoadJobs(Boolean, String)
 references:
 - uid: EasySaveGUI.ViewModels
   commentId: N:EasySaveGUI.ViewModels
@@ -290,6 +435,59 @@ references:
   nameWithType.vb: Object
   fullName.vb: Object
   name.vb: Object
+- uid: EasySaveGUI.ViewModels.BaseViewModel
+  commentId: T:EasySaveGUI.ViewModels.BaseViewModel
+  parent: EasySaveGUI.ViewModels
+  href: EasySaveGUI.ViewModels.BaseViewModel.html
+  name: BaseViewModel
+  nameWithType: BaseViewModel
+  fullName: EasySaveGUI.ViewModels.BaseViewModel
+- uid: System.ComponentModel.INotifyPropertyChanged
+  commentId: T:System.ComponentModel.INotifyPropertyChanged
+  parent: System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged
+  name: INotifyPropertyChanged
+  nameWithType: INotifyPropertyChanged
+  fullName: System.ComponentModel.INotifyPropertyChanged
+- uid: EasySaveGUI.ViewModels.BaseViewModel.PropertyChanged
+  commentId: E:EasySaveGUI.ViewModels.BaseViewModel.PropertyChanged
+  parent: EasySaveGUI.ViewModels.BaseViewModel
+  href: EasySaveGUI.ViewModels.BaseViewModel.html#EasySaveGUI_ViewModels_BaseViewModel_PropertyChanged
+  name: PropertyChanged
+  nameWithType: BaseViewModel.PropertyChanged
+  fullName: EasySaveGUI.ViewModels.BaseViewModel.PropertyChanged
+- uid: EasySaveGUI.ViewModels.BaseViewModel.NotifyPropertyChanged(System.String)
+  commentId: M:EasySaveGUI.ViewModels.BaseViewModel.NotifyPropertyChanged(System.String)
+  parent: EasySaveGUI.ViewModels.BaseViewModel
+  isExternal: true
+  href: EasySaveGUI.ViewModels.BaseViewModel.html#EasySaveGUI_ViewModels_BaseViewModel_NotifyPropertyChanged_System_String_
+  name: NotifyPropertyChanged(string)
+  nameWithType: BaseViewModel.NotifyPropertyChanged(string)
+  fullName: EasySaveGUI.ViewModels.BaseViewModel.NotifyPropertyChanged(string)
+  nameWithType.vb: BaseViewModel.NotifyPropertyChanged(String)
+  fullName.vb: EasySaveGUI.ViewModels.BaseViewModel.NotifyPropertyChanged(String)
+  name.vb: NotifyPropertyChanged(String)
+  spec.csharp:
+  - uid: EasySaveGUI.ViewModels.BaseViewModel.NotifyPropertyChanged(System.String)
+    name: NotifyPropertyChanged
+    href: EasySaveGUI.ViewModels.BaseViewModel.html#EasySaveGUI_ViewModels_BaseViewModel_NotifyPropertyChanged_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: EasySaveGUI.ViewModels.BaseViewModel.NotifyPropertyChanged(System.String)
+    name: NotifyPropertyChanged
+    href: EasySaveGUI.ViewModels.BaseViewModel.html#EasySaveGUI_ViewModels_BaseViewModel_NotifyPropertyChanged_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
 - uid: System.Object.Equals(System.Object)
   commentId: M:System.Object.Equals(System.Object)
   parent: System.Object
@@ -516,6 +714,33 @@ references:
   name: System
   nameWithType: System
   fullName: System
+- uid: System.ComponentModel
+  commentId: N:System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.ComponentModel
+  nameWithType: System.ComponentModel
+  fullName: System.ComponentModel
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
 - uid: EasySaveGUI.ViewModels.MainViewModel.LangueVm*
   commentId: Overload:EasySaveGUI.ViewModels.MainViewModel.LangueVm
   href: EasySaveGUI.ViewModels.MainViewModel.html#EasySaveGUI_ViewModels_MainViewModel_LangueVm
@@ -594,6 +819,32 @@ references:
   name: LayoutViewModel
   nameWithType: LayoutViewModel
   fullName: EasySaveGUI.ViewModels.LayoutViewModel
+- uid: EasySaveGUI.ViewModels.MainViewModel.BusinessSoftwareVm*
+  commentId: Overload:EasySaveGUI.ViewModels.MainViewModel.BusinessSoftwareVm
+  href: EasySaveGUI.ViewModels.MainViewModel.html#EasySaveGUI_ViewModels_MainViewModel_BusinessSoftwareVm
+  name: BusinessSoftwareVm
+  nameWithType: MainViewModel.BusinessSoftwareVm
+  fullName: EasySaveGUI.ViewModels.MainViewModel.BusinessSoftwareVm
+- uid: EasySaveGUI.ViewModels.BusinessSoftwareViewModel
+  commentId: T:EasySaveGUI.ViewModels.BusinessSoftwareViewModel
+  parent: EasySaveGUI.ViewModels
+  href: EasySaveGUI.ViewModels.BusinessSoftwareViewModel.html
+  name: BusinessSoftwareViewModel
+  nameWithType: BusinessSoftwareViewModel
+  fullName: EasySaveGUI.ViewModels.BusinessSoftwareViewModel
+- uid: EasySaveGUI.ViewModels.MainViewModel.FileExtensionVm*
+  commentId: Overload:EasySaveGUI.ViewModels.MainViewModel.FileExtensionVm
+  href: EasySaveGUI.ViewModels.MainViewModel.html#EasySaveGUI_ViewModels_MainViewModel_FileExtensionVm
+  name: FileExtensionVm
+  nameWithType: MainViewModel.FileExtensionVm
+  fullName: EasySaveGUI.ViewModels.MainViewModel.FileExtensionVm
+- uid: EasySaveGUI.ViewModels.FileExtensionViewModel
+  commentId: T:EasySaveGUI.ViewModels.FileExtensionViewModel
+  parent: EasySaveGUI.ViewModels
+  href: EasySaveGUI.ViewModels.FileExtensionViewModel.html
+  name: FileExtensionViewModel
+  nameWithType: FileExtensionViewModel
+  fullName: EasySaveGUI.ViewModels.FileExtensionViewModel
 - uid: EasySaveGUI.ViewModels.MainViewModel.#ctor*
   commentId: Overload:EasySaveGUI.ViewModels.MainViewModel.#ctor
   href: EasySaveGUI.ViewModels.MainViewModel.html#EasySaveGUI_ViewModels_MainViewModel__ctor
@@ -603,3 +854,37 @@ references:
   nameWithType.vb: MainViewModel.New
   fullName.vb: EasySaveGUI.ViewModels.MainViewModel.New
   name.vb: New
+- uid: EasySaveGUI.ViewModels.MainViewModel.LoadJobsFile*
+  commentId: Overload:EasySaveGUI.ViewModels.MainViewModel.LoadJobsFile
+  href: EasySaveGUI.ViewModels.MainViewModel.html#EasySaveGUI_ViewModels_MainViewModel_LoadJobsFile_System_String_
+  name: LoadJobsFile
+  nameWithType: MainViewModel.LoadJobsFile
+  fullName: EasySaveGUI.ViewModels.MainViewModel.LoadJobsFile
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: EasySaveGUI.ViewModels.MainViewModel.LoadJobs*
+  commentId: Overload:EasySaveGUI.ViewModels.MainViewModel.LoadJobs
+  href: EasySaveGUI.ViewModels.MainViewModel.html#EasySaveGUI_ViewModels_MainViewModel_LoadJobs_System_Boolean_System_String_
+  name: LoadJobs
+  nameWithType: MainViewModel.LoadJobs
+  fullName: EasySaveGUI.ViewModels.MainViewModel.LoadJobs
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean

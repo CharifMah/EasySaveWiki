@@ -8,6 +8,7 @@ items:
   - Ressources.Strings.AdditionalJobs
   - Ressources.Strings.ApplyDefaultStyle
   - Ressources.Strings.BackupTypeEmpty
+  - Ressources.Strings.BusinessSoftware
   - Ressources.Strings.ByteCopied
   - Ressources.Strings.Cancel
   - Ressources.Strings.ChangeFormatLogs
@@ -25,6 +26,7 @@ items:
   - Ressources.Strings.DailyLogs
   - Ressources.Strings.Date
   - Ressources.Strings.DefaultFile
+  - Ressources.Strings.DefaultLayout
   - Ressources.Strings.DeleteJob
   - Ressources.Strings.DeletingJobs
   - Ressources.Strings.EnterFilePath
@@ -44,6 +46,7 @@ items:
   - Ressources.Strings.JobNotCreated
   - Ressources.Strings.Jobs
   - Ressources.Strings.JobsDeleted
+  - Ressources.Strings.JobsRunning
   - Ressources.Strings.Lang
   - Ressources.Strings.ListJobs
   - Ressources.Strings.LoadDefaultFile
@@ -51,6 +54,9 @@ items:
   - Ressources.Strings.LoadJobs
   - Ressources.Strings.Loaded
   - Ressources.Strings.LogState
+  - Ressources.Strings.MenuJob
+  - Ressources.Strings.MenuPreference
+  - Ressources.Strings.MenuSettings
   - Ressources.Strings.MultipleIndexes
   - Ressources.Strings.Name
   - Ressources.Strings.NoJobCreated
@@ -59,7 +65,9 @@ items:
   - Ressources.Strings.OtherLogs
   - Ressources.Strings.PasteClipboard
   - Ressources.Strings.PathNotReachable
+  - Ressources.Strings.Paths
   - Ressources.Strings.PossibleTypeBackup
+  - Ressources.Strings.Preference
   - Ressources.Strings.Progress
   - Ressources.Strings.Property
   - Ressources.Strings.Quit
@@ -71,6 +79,7 @@ items:
   - Ressources.Strings.SaveLayout
   - Ressources.Strings.Saved
   - Ressources.Strings.Select
+  - Ressources.Strings.SelectAll
   - Ressources.Strings.SelectChoice
   - Ressources.Strings.SelectConfigurationFile
   - Ressources.Strings.SelectRangeJobs
@@ -110,7 +119,7 @@ items:
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: A strongly-typed resource class, for looking up localized strings, etc.
+  summary: Une classe de ressource fortement typée destinée, entre autres, à la consultation des chaînes localisées.
   example: []
   syntax:
     content: public class Strings
@@ -147,7 +156,7 @@ items:
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Returns the cached ResourceManager instance used by this class.
+  summary: Retourne l'instance ResourceManager mise en cache utilisée par cette classe.
   example: []
   syntax:
     content: public static ResourceManager ResourceManager { get; }
@@ -179,9 +188,9 @@ items:
   - Ressources
   namespace: Ressources
   summary: >-
-    Overrides the current thread's CurrentUICulture property for all
+    Remplace la propriété CurrentUICulture du thread actuel pour toutes
 
-    resource lookups using this strongly typed resource class.
+    les recherches de ressources à l'aide de cette classe de ressource fortement typée.
   example: []
   syntax:
     content: public static CultureInfo Culture { get; set; }
@@ -212,7 +221,7 @@ items:
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string AdditionalJobs { get; }
@@ -243,7 +252,7 @@ items:
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string ApplyDefaultStyle { get; }
@@ -274,7 +283,7 @@ items:
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string BackupTypeEmpty { get; }
@@ -283,6 +292,37 @@ items:
       type: System.String
     content.vb: Public Shared ReadOnly Property BackupTypeEmpty As String
   overload: Ressources.Strings.BackupTypeEmpty*
+- uid: Ressources.Strings.BusinessSoftware
+  commentId: P:Ressources.Strings.BusinessSoftware
+  id: BusinessSoftware
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: BusinessSoftware
+  nameWithType: Strings.BusinessSoftware
+  fullName: Ressources.Strings.BusinessSoftware
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: BusinessSoftware
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 92
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Recherche une chaîne localisée semblable à .
+  example: []
+  syntax:
+    content: public static string BusinessSoftware { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property BusinessSoftware As String
+  overload: Ressources.Strings.BusinessSoftware*
 - uid: Ressources.Strings.ByteCopied
   commentId: P:Ressources.Strings.ByteCopied
   id: ByteCopied
@@ -301,11 +341,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: ByteCopied
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
-    startLine: 92
+    startLine: 101
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string ByteCopied { get; }
@@ -332,11 +372,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: bytes
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
-    startLine: 101
+    startLine: 110
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string bytes { get; }
@@ -363,11 +403,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Cancel
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
-    startLine: 110
+    startLine: 119
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string Cancel { get; }
@@ -394,11 +434,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: ChangeFormatLogs
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
-    startLine: 119
+    startLine: 128
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string ChangeFormatLogs { get; }
@@ -425,11 +465,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: ChooseLang
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
-    startLine: 128
+    startLine: 137
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string ChooseLang { get; }
@@ -456,11 +496,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: ClearConsole
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
-    startLine: 137
+    startLine: 146
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string ClearConsole { get; }
@@ -487,11 +527,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Close
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
-    startLine: 146
+    startLine: 155
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string Close { get; }
@@ -518,11 +558,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: CombineIndexes
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
-    startLine: 155
+    startLine: 164
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string CombineIndexes { get; }
@@ -549,11 +589,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Config
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
-    startLine: 164
+    startLine: 173
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string Config { get; }
@@ -580,11 +620,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Confirm
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
-    startLine: 173
+    startLine: 182
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string Confirm { get; }
@@ -611,11 +651,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: CopyEnd
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
-    startLine: 182
+    startLine: 191
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string CopyEnd { get; }
@@ -642,11 +682,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: CountLogs
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
-    startLine: 191
+    startLine: 200
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string CountLogs { get; }
@@ -673,11 +713,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: CreateJob
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
-    startLine: 200
+    startLine: 209
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string CreateJob { get; }
@@ -704,11 +744,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: CurrentFormat
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
-    startLine: 209
+    startLine: 218
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string CurrentFormat { get; }
@@ -735,11 +775,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: DailyLogs
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
-    startLine: 218
+    startLine: 227
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string DailyLogs { get; }
@@ -766,11 +806,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Date
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
-    startLine: 227
+    startLine: 236
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string Date { get; }
@@ -797,11 +837,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: DefaultFile
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
-    startLine: 236
+    startLine: 245
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string DefaultFile { get; }
@@ -810,6 +850,37 @@ items:
       type: System.String
     content.vb: Public Shared ReadOnly Property DefaultFile As String
   overload: Ressources.Strings.DefaultFile*
+- uid: Ressources.Strings.DefaultLayout
+  commentId: P:Ressources.Strings.DefaultLayout
+  id: DefaultLayout
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: DefaultLayout
+  nameWithType: Strings.DefaultLayout
+  fullName: Ressources.Strings.DefaultLayout
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: DefaultLayout
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 254
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Recherche une chaîne localisée semblable à .
+  example: []
+  syntax:
+    content: public static string DefaultLayout { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property DefaultLayout As String
+  overload: Ressources.Strings.DefaultLayout*
 - uid: Ressources.Strings.DeleteJob
   commentId: P:Ressources.Strings.DeleteJob
   id: DeleteJob
@@ -828,11 +899,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: DeleteJob
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
-    startLine: 245
+    startLine: 263
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string DeleteJob { get; }
@@ -859,11 +930,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: DeletingJobs
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
-    startLine: 254
+    startLine: 272
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string DeletingJobs { get; }
@@ -890,11 +961,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: EnterFilePath
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
-    startLine: 263
+    startLine: 281
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string EnterFilePath { get; }
@@ -921,11 +992,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: EnterFolderPath
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
-    startLine: 272
+    startLine: 290
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string EnterFolderPath { get; }
@@ -952,11 +1023,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Error
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
-    startLine: 281
+    startLine: 299
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string Error { get; }
@@ -983,11 +1054,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: FormatLogs
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
-    startLine: 290
+    startLine: 308
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string FormatLogs { get; }
@@ -1014,11 +1085,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: IndividualIndex
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
-    startLine: 299
+    startLine: 317
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string IndividualIndex { get; }
@@ -1045,11 +1116,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Info
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
-    startLine: 308
+    startLine: 326
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string Info { get; }
@@ -1076,11 +1147,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: InputFormat
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
-    startLine: 317
+    startLine: 335
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string InputFormat { get; }
@@ -1107,11 +1178,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: InvalideSelection
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
-    startLine: 326
+    startLine: 344
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string InvalideSelection { get; }
@@ -1138,11 +1209,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: InvalidIndexRange
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
-    startLine: 335
+    startLine: 353
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string InvalidIndexRange { get; }
@@ -1169,11 +1240,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: InvalidIndice
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
-    startLine: 344
+    startLine: 362
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string InvalidIndice { get; }
@@ -1200,11 +1271,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: IsActive
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
-    startLine: 353
+    startLine: 371
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string IsActive { get; }
@@ -1231,11 +1302,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: JobCreated
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
-    startLine: 362
+    startLine: 380
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string JobCreated { get; }
@@ -1262,11 +1333,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: JobCreation
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
-    startLine: 371
+    startLine: 389
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string JobCreation { get; }
@@ -1293,11 +1364,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: JobDeleteError
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
-    startLine: 380
+    startLine: 398
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string JobDeleteError { get; }
@@ -1324,11 +1395,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: JobNotCreated
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
-    startLine: 389
+    startLine: 407
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string JobNotCreated { get; }
@@ -1355,11 +1426,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Jobs
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
-    startLine: 398
+    startLine: 416
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string Jobs { get; }
@@ -1386,11 +1457,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: JobsDeleted
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
-    startLine: 407
+    startLine: 425
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string JobsDeleted { get; }
@@ -1399,6 +1470,37 @@ items:
       type: System.String
     content.vb: Public Shared ReadOnly Property JobsDeleted As String
   overload: Ressources.Strings.JobsDeleted*
+- uid: Ressources.Strings.JobsRunning
+  commentId: P:Ressources.Strings.JobsRunning
+  id: JobsRunning
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: JobsRunning
+  nameWithType: Strings.JobsRunning
+  fullName: Ressources.Strings.JobsRunning
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: JobsRunning
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 434
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Recherche une chaîne localisée semblable à .
+  example: []
+  syntax:
+    content: public static string JobsRunning { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property JobsRunning As String
+  overload: Ressources.Strings.JobsRunning*
 - uid: Ressources.Strings.Lang
   commentId: P:Ressources.Strings.Lang
   id: Lang
@@ -1417,11 +1519,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Lang
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
-    startLine: 416
+    startLine: 443
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string Lang { get; }
@@ -1448,11 +1550,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: ListJobs
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
-    startLine: 425
+    startLine: 452
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string ListJobs { get; }
@@ -1479,11 +1581,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: LoadDefaultFile
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
-    startLine: 434
+    startLine: 461
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string LoadDefaultFile { get; }
@@ -1510,11 +1612,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Loaded
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
-    startLine: 443
+    startLine: 470
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string Loaded { get; }
@@ -1541,11 +1643,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: LoadJobConfig
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
-    startLine: 452
+    startLine: 479
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string LoadJobConfig { get; }
@@ -1572,11 +1674,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: LoadJobs
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
-    startLine: 461
+    startLine: 488
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string LoadJobs { get; }
@@ -1603,11 +1705,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: LogState
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
-    startLine: 470
+    startLine: 497
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string LogState { get; }
@@ -1616,6 +1718,99 @@ items:
       type: System.String
     content.vb: Public Shared ReadOnly Property LogState As String
   overload: Ressources.Strings.LogState*
+- uid: Ressources.Strings.MenuJob
+  commentId: P:Ressources.Strings.MenuJob
+  id: MenuJob
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: MenuJob
+  nameWithType: Strings.MenuJob
+  fullName: Ressources.Strings.MenuJob
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: MenuJob
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 506
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Recherche une chaîne localisée semblable à .
+  example: []
+  syntax:
+    content: public static string MenuJob { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property MenuJob As String
+  overload: Ressources.Strings.MenuJob*
+- uid: Ressources.Strings.MenuPreference
+  commentId: P:Ressources.Strings.MenuPreference
+  id: MenuPreference
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: MenuPreference
+  nameWithType: Strings.MenuPreference
+  fullName: Ressources.Strings.MenuPreference
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: MenuPreference
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 515
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Recherche une chaîne localisée semblable à .
+  example: []
+  syntax:
+    content: public static string MenuPreference { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property MenuPreference As String
+  overload: Ressources.Strings.MenuPreference*
+- uid: Ressources.Strings.MenuSettings
+  commentId: P:Ressources.Strings.MenuSettings
+  id: MenuSettings
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: MenuSettings
+  nameWithType: Strings.MenuSettings
+  fullName: Ressources.Strings.MenuSettings
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: MenuSettings
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 524
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Recherche une chaîne localisée semblable à .
+  example: []
+  syntax:
+    content: public static string MenuSettings { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property MenuSettings As String
+  overload: Ressources.Strings.MenuSettings*
 - uid: Ressources.Strings.MultipleIndexes
   commentId: P:Ressources.Strings.MultipleIndexes
   id: MultipleIndexes
@@ -1634,11 +1829,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: MultipleIndexes
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
-    startLine: 479
+    startLine: 533
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string MultipleIndexes { get; }
@@ -1665,11 +1860,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Name
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
-    startLine: 488
+    startLine: 542
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string Name { get; }
@@ -1696,11 +1891,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: NoJobCreated
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
-    startLine: 497
+    startLine: 551
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string NoJobCreated { get; }
@@ -1727,11 +1922,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Open
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
-    startLine: 506
+    startLine: 560
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string Open { get; }
@@ -1758,11 +1953,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: OtherFile
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
-    startLine: 515
+    startLine: 569
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string OtherFile { get; }
@@ -1789,11 +1984,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: OtherLogs
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
-    startLine: 524
+    startLine: 578
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string OtherLogs { get; }
@@ -1820,11 +2015,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: PasteClipboard
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
-    startLine: 533
+    startLine: 587
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string PasteClipboard { get; }
@@ -1851,11 +2046,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: PathNotReachable
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
-    startLine: 542
+    startLine: 596
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string PathNotReachable { get; }
@@ -1864,6 +2059,37 @@ items:
       type: System.String
     content.vb: Public Shared ReadOnly Property PathNotReachable As String
   overload: Ressources.Strings.PathNotReachable*
+- uid: Ressources.Strings.Paths
+  commentId: P:Ressources.Strings.Paths
+  id: Paths
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: Paths
+  nameWithType: Strings.Paths
+  fullName: Ressources.Strings.Paths
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: Paths
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 605
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Recherche une chaîne localisée semblable à .
+  example: []
+  syntax:
+    content: public static string Paths { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Paths As String
+  overload: Ressources.Strings.Paths*
 - uid: Ressources.Strings.PossibleTypeBackup
   commentId: P:Ressources.Strings.PossibleTypeBackup
   id: PossibleTypeBackup
@@ -1882,11 +2108,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: PossibleTypeBackup
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
-    startLine: 551
+    startLine: 614
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string PossibleTypeBackup { get; }
@@ -1895,6 +2121,37 @@ items:
       type: System.String
     content.vb: Public Shared ReadOnly Property PossibleTypeBackup As String
   overload: Ressources.Strings.PossibleTypeBackup*
+- uid: Ressources.Strings.Preference
+  commentId: P:Ressources.Strings.Preference
+  id: Preference
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: Preference
+  nameWithType: Strings.Preference
+  fullName: Ressources.Strings.Preference
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: Preference
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 623
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Recherche une chaîne localisée semblable à .
+  example: []
+  syntax:
+    content: public static string Preference { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Preference As String
+  overload: Ressources.Strings.Preference*
 - uid: Ressources.Strings.Progress
   commentId: P:Ressources.Strings.Progress
   id: Progress
@@ -1913,11 +2170,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Progress
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
-    startLine: 560
+    startLine: 632
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string Progress { get; }
@@ -1944,11 +2201,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Property
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
-    startLine: 569
+    startLine: 641
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string Property { get; }
@@ -1975,11 +2232,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Quit
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
-    startLine: 578
+    startLine: 650
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string Quit { get; }
@@ -2006,11 +2263,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: RangeIndexes
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
-    startLine: 587
+    startLine: 659
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string RangeIndexes { get; }
@@ -2037,11 +2294,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: RunJobs
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
-    startLine: 596
+    startLine: 668
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string RunJobs { get; }
@@ -2068,11 +2325,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: SamePath
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
-    startLine: 605
+    startLine: 677
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string SamePath { get; }
@@ -2099,11 +2356,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: SaveConf
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
-    startLine: 614
+    startLine: 686
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string SaveConf { get; }
@@ -2130,11 +2387,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Saved
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
-    startLine: 623
+    startLine: 695
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string Saved { get; }
@@ -2161,11 +2418,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: SaveLayout
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
-    startLine: 632
+    startLine: 704
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string SaveLayout { get; }
@@ -2192,11 +2449,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Select
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
-    startLine: 641
+    startLine: 713
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string Select { get; }
@@ -2205,6 +2462,37 @@ items:
       type: System.String
     content.vb: Public Shared ReadOnly Property [Select] As String
   overload: Ressources.Strings.Select*
+- uid: Ressources.Strings.SelectAll
+  commentId: P:Ressources.Strings.SelectAll
+  id: SelectAll
+  parent: Ressources.Strings
+  langs:
+  - csharp
+  - vb
+  name: SelectAll
+  nameWithType: Strings.SelectAll
+  fullName: Ressources.Strings.SelectAll
+  type: Property
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: SelectAll
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
+    startLine: 722
+  assemblies:
+  - Ressources
+  namespace: Ressources
+  summary: Recherche une chaîne localisée semblable à .
+  example: []
+  syntax:
+    content: public static string SelectAll { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property SelectAll As String
+  overload: Ressources.Strings.SelectAll*
 - uid: Ressources.Strings.SelectChoice
   commentId: P:Ressources.Strings.SelectChoice
   id: SelectChoice
@@ -2223,11 +2511,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: SelectChoice
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
-    startLine: 650
+    startLine: 731
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string SelectChoice { get; }
@@ -2254,11 +2542,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: SelectConfigurationFile
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
-    startLine: 659
+    startLine: 740
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string SelectConfigurationFile { get; }
@@ -2285,11 +2573,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: SelectedFormatLogs
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
-    startLine: 668
+    startLine: 749
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string SelectedFormatLogs { get; }
@@ -2316,11 +2604,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: SelectedLanguage
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
-    startLine: 677
+    startLine: 758
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string SelectedLanguage { get; }
@@ -2347,11 +2635,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: SelectRangeJobs
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
-    startLine: 686
+    startLine: 767
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string SelectRangeJobs { get; }
@@ -2378,11 +2666,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Settings
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
-    startLine: 695
+    startLine: 776
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string Settings { get; }
@@ -2409,11 +2697,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: SingleIndex
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
-    startLine: 704
+    startLine: 785
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string SingleIndex { get; }
@@ -2440,11 +2728,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Size
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
-    startLine: 713
+    startLine: 794
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string Size { get; }
@@ -2471,11 +2759,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: SourceDir
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
-    startLine: 722
+    startLine: 803
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string SourceDir { get; }
@@ -2502,11 +2790,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: SourceDirectory
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
-    startLine: 731
+    startLine: 812
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string SourceDirectory { get; }
@@ -2533,11 +2821,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: StartIndex
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
-    startLine: 740
+    startLine: 821
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string StartIndex { get; }
@@ -2564,11 +2852,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Summary
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
-    startLine: 749
+    startLine: 830
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string Summary { get; }
@@ -2595,11 +2883,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: TargetDir
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
-    startLine: 758
+    startLine: 839
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string TargetDir { get; }
@@ -2626,11 +2914,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: TargetDirectory
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
-    startLine: 767
+    startLine: 848
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string TargetDirectory { get; }
@@ -2657,11 +2945,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: TimeElapsed
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
-    startLine: 776
+    startLine: 857
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string TimeElapsed { get; }
@@ -2688,11 +2976,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: TotalSize
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
-    startLine: 785
+    startLine: 866
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string TotalSize { get; }
@@ -2719,11 +3007,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: TransfertTime
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
-    startLine: 794
+    startLine: 875
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string TransfertTime { get; }
@@ -2750,11 +3038,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: Type
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
-    startLine: 803
+    startLine: 884
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string Type { get; }
@@ -2781,11 +3069,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: WithoutJobLoaded
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
-    startLine: 812
+    startLine: 893
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string WithoutJobLoaded { get; }
@@ -2812,11 +3100,11 @@ items:
       repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
     id: YouSelected
     path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Ressources/Strings.Designer.cs
-    startLine: 821
+    startLine: 902
   assemblies:
   - Ressources
   namespace: Ressources
-  summary: Looks up a localized string similar to .
+  summary: Recherche une chaîne localisée semblable à .
   example: []
   syntax:
     content: public static string YouSelected { get; }
@@ -3180,6 +3468,12 @@ references:
   name: BackupTypeEmpty
   nameWithType: Strings.BackupTypeEmpty
   fullName: Ressources.Strings.BackupTypeEmpty
+- uid: Ressources.Strings.BusinessSoftware*
+  commentId: Overload:Ressources.Strings.BusinessSoftware
+  href: Ressources.Strings.html#Ressources_Strings_BusinessSoftware
+  name: BusinessSoftware
+  nameWithType: Strings.BusinessSoftware
+  fullName: Ressources.Strings.BusinessSoftware
 - uid: Ressources.Strings.ByteCopied*
   commentId: Overload:Ressources.Strings.ByteCopied
   href: Ressources.Strings.html#Ressources_Strings_ByteCopied
@@ -3282,6 +3576,12 @@ references:
   name: DefaultFile
   nameWithType: Strings.DefaultFile
   fullName: Ressources.Strings.DefaultFile
+- uid: Ressources.Strings.DefaultLayout*
+  commentId: Overload:Ressources.Strings.DefaultLayout
+  href: Ressources.Strings.html#Ressources_Strings_DefaultLayout
+  name: DefaultLayout
+  nameWithType: Strings.DefaultLayout
+  fullName: Ressources.Strings.DefaultLayout
 - uid: Ressources.Strings.DeleteJob*
   commentId: Overload:Ressources.Strings.DeleteJob
   href: Ressources.Strings.html#Ressources_Strings_DeleteJob
@@ -3396,6 +3696,12 @@ references:
   name: JobsDeleted
   nameWithType: Strings.JobsDeleted
   fullName: Ressources.Strings.JobsDeleted
+- uid: Ressources.Strings.JobsRunning*
+  commentId: Overload:Ressources.Strings.JobsRunning
+  href: Ressources.Strings.html#Ressources_Strings_JobsRunning
+  name: JobsRunning
+  nameWithType: Strings.JobsRunning
+  fullName: Ressources.Strings.JobsRunning
 - uid: Ressources.Strings.Lang*
   commentId: Overload:Ressources.Strings.Lang
   href: Ressources.Strings.html#Ressources_Strings_Lang
@@ -3438,6 +3744,24 @@ references:
   name: LogState
   nameWithType: Strings.LogState
   fullName: Ressources.Strings.LogState
+- uid: Ressources.Strings.MenuJob*
+  commentId: Overload:Ressources.Strings.MenuJob
+  href: Ressources.Strings.html#Ressources_Strings_MenuJob
+  name: MenuJob
+  nameWithType: Strings.MenuJob
+  fullName: Ressources.Strings.MenuJob
+- uid: Ressources.Strings.MenuPreference*
+  commentId: Overload:Ressources.Strings.MenuPreference
+  href: Ressources.Strings.html#Ressources_Strings_MenuPreference
+  name: MenuPreference
+  nameWithType: Strings.MenuPreference
+  fullName: Ressources.Strings.MenuPreference
+- uid: Ressources.Strings.MenuSettings*
+  commentId: Overload:Ressources.Strings.MenuSettings
+  href: Ressources.Strings.html#Ressources_Strings_MenuSettings
+  name: MenuSettings
+  nameWithType: Strings.MenuSettings
+  fullName: Ressources.Strings.MenuSettings
 - uid: Ressources.Strings.MultipleIndexes*
   commentId: Overload:Ressources.Strings.MultipleIndexes
   href: Ressources.Strings.html#Ressources_Strings_MultipleIndexes
@@ -3486,12 +3810,24 @@ references:
   name: PathNotReachable
   nameWithType: Strings.PathNotReachable
   fullName: Ressources.Strings.PathNotReachable
+- uid: Ressources.Strings.Paths*
+  commentId: Overload:Ressources.Strings.Paths
+  href: Ressources.Strings.html#Ressources_Strings_Paths
+  name: Paths
+  nameWithType: Strings.Paths
+  fullName: Ressources.Strings.Paths
 - uid: Ressources.Strings.PossibleTypeBackup*
   commentId: Overload:Ressources.Strings.PossibleTypeBackup
   href: Ressources.Strings.html#Ressources_Strings_PossibleTypeBackup
   name: PossibleTypeBackup
   nameWithType: Strings.PossibleTypeBackup
   fullName: Ressources.Strings.PossibleTypeBackup
+- uid: Ressources.Strings.Preference*
+  commentId: Overload:Ressources.Strings.Preference
+  href: Ressources.Strings.html#Ressources_Strings_Preference
+  name: Preference
+  nameWithType: Strings.Preference
+  fullName: Ressources.Strings.Preference
 - uid: Ressources.Strings.Progress*
   commentId: Overload:Ressources.Strings.Progress
   href: Ressources.Strings.html#Ressources_Strings_Progress
@@ -3552,6 +3888,12 @@ references:
   name: Select
   nameWithType: Strings.Select
   fullName: Ressources.Strings.Select
+- uid: Ressources.Strings.SelectAll*
+  commentId: Overload:Ressources.Strings.SelectAll
+  href: Ressources.Strings.html#Ressources_Strings_SelectAll
+  name: SelectAll
+  nameWithType: Strings.SelectAll
+  fullName: Ressources.Strings.SelectAll
 - uid: Ressources.Strings.SelectChoice*
   commentId: Overload:Ressources.Strings.SelectChoice
   href: Ressources.Strings.html#Ressources_Strings_SelectChoice

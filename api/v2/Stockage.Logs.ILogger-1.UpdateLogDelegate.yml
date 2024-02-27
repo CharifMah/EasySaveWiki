@@ -1,0 +1,166 @@
+### YamlMime:ManagedReference
+items:
+- uid: Stockage.Logs.ILogger`1.UpdateLogDelegate
+  commentId: T:Stockage.Logs.ILogger`1.UpdateLogDelegate
+  id: ILogger`1.UpdateLogDelegate
+  parent: Stockage.Logs
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: ILogger<T>.UpdateLogDelegate
+  nameWithType: ILogger<T>.UpdateLogDelegate
+  fullName: Stockage.Logs.ILogger<T>.UpdateLogDelegate
+  type: Delegate
+  source:
+    remote:
+      path: EasySave-2.0/EasySaveGUI/Stockage/Logs/ILogger.cs
+      branch: develop-livrable-2
+      repo: https://faikmehmeti@dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24
+    id: UpdateLogDelegate
+    path: ../G4-FISA-24/EasySave-2.0/EasySaveGUI/Stockage/Logs/ILogger.cs
+    startLine: 29
+  assemblies:
+  - Stockage
+  namespace: Stockage.Logs
+  syntax:
+    content: public delegate void ILogger<T>.UpdateLogDelegate(CLogState pLogState, string pFormatLog, FileInfo? pFileInfo, string pTargetFilePath, Stopwatch pSw)
+    parameters:
+    - id: pLogState
+      type: LogsModels.CLogState
+    - id: pFormatLog
+      type: System.String
+    - id: pFileInfo
+      type: System.IO.FileInfo
+    - id: pTargetFilePath
+      type: System.String
+    - id: pSw
+      type: System.Diagnostics.Stopwatch
+    content.vb: Public Delegate Sub ILogger(Of T).UpdateLogDelegate(pLogState As CLogState, pFormatLog As String, pFileInfo As FileInfo, pTargetFilePath As String, pSw As Stopwatch)
+  nameWithType.vb: ILogger(Of T).UpdateLogDelegate
+  fullName.vb: Stockage.Logs.ILogger(Of T).UpdateLogDelegate
+  name.vb: ILogger(Of T).UpdateLogDelegate
+references:
+- uid: Stockage.Logs
+  commentId: N:Stockage.Logs
+  href: Stockage.html
+  name: Stockage.Logs
+  nameWithType: Stockage.Logs
+  fullName: Stockage.Logs
+  spec.csharp:
+  - uid: Stockage
+    name: Stockage
+    href: Stockage.html
+  - name: .
+  - uid: Stockage.Logs
+    name: Logs
+    href: Stockage.Logs.html
+  spec.vb:
+  - uid: Stockage
+    name: Stockage
+    href: Stockage.html
+  - name: .
+  - uid: Stockage.Logs
+    name: Logs
+    href: Stockage.Logs.html
+- uid: LogsModels.CLogState
+  commentId: T:LogsModels.CLogState
+  parent: LogsModels
+  href: LogsModels.CLogState.html
+  name: CLogState
+  nameWithType: CLogState
+  fullName: LogsModels.CLogState
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.IO.FileInfo
+  commentId: T:System.IO.FileInfo
+  parent: System.IO
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.io.fileinfo
+  name: FileInfo
+  nameWithType: FileInfo
+  fullName: System.IO.FileInfo
+- uid: System.Diagnostics.Stopwatch
+  commentId: T:System.Diagnostics.Stopwatch
+  parent: System.Diagnostics
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.diagnostics.stopwatch
+  name: Stopwatch
+  nameWithType: Stopwatch
+  fullName: System.Diagnostics.Stopwatch
+- uid: LogsModels
+  commentId: N:LogsModels
+  href: LogsModels.html
+  name: LogsModels
+  nameWithType: LogsModels
+  fullName: LogsModels
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.IO
+    name: IO
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.IO
+    name: IO
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io
+- uid: System.Diagnostics
+  commentId: N:System.Diagnostics
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Diagnostics
+  nameWithType: System.Diagnostics
+  fullName: System.Diagnostics
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Diagnostics
+    name: Diagnostics
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.diagnostics
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Diagnostics
+    name: Diagnostics
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.diagnostics

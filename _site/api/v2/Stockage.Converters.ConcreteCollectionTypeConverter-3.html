@@ -178,7 +178,7 @@ Class ConcreteCollectionTypeConverter&lt;TCollection, TItem, TBaseItem&gt;  <a c
   <a id="Stockage_Converters_ConcreteCollectionTypeConverter_3_CanConvert_" data-uid="Stockage.Converters.ConcreteCollectionTypeConverter`3.CanConvert*"></a>
 
   <h3 id="Stockage_Converters_ConcreteCollectionTypeConverter_3_CanConvert_System_Type_" data-uid="Stockage.Converters.ConcreteCollectionTypeConverter`3.CanConvert(System.Type)">
-  CanConvert(Type)
+  CanConvert(Type?)
   <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Stockage/Converters/ConcreteCollectionTypeConverter.cs&amp;version=GBdevelop-livrable-2&amp;line=43"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -187,7 +187,7 @@ Class ConcreteCollectionTypeConverter&lt;TCollection, TItem, TBaseItem&gt;  <a c
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override bool CanConvert(Type objectType)</code></pre>
+    <pre><code class="lang-csharp hljs">public override bool CanConvert(Type? objectType)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -215,7 +215,7 @@ Class ConcreteCollectionTypeConverter&lt;TCollection, TItem, TBaseItem&gt;  <a c
   <a id="Stockage_Converters_ConcreteCollectionTypeConverter_3_ReadJson_" data-uid="Stockage.Converters.ConcreteCollectionTypeConverter`3.ReadJson*"></a>
 
   <h3 id="Stockage_Converters_ConcreteCollectionTypeConverter_3_ReadJson_Newtonsoft_Json_JsonReader_System_Type_System_Object_Newtonsoft_Json_JsonSerializer_" data-uid="Stockage.Converters.ConcreteCollectionTypeConverter`3.ReadJson(Newtonsoft.Json.JsonReader,System.Type,System.Object,Newtonsoft.Json.JsonSerializer)">
-  ReadJson(JsonReader, Type, object, JsonSerializer)
+  ReadJson(JsonReader, Type?, object?, JsonSerializer)
   <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Stockage/Converters/ConcreteCollectionTypeConverter.cs&amp;version=GBdevelop-livrable-2&amp;line=25"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -224,7 +224,7 @@ Class ConcreteCollectionTypeConverter&lt;TCollection, TItem, TBaseItem&gt;  <a c
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override object ReadJson(JsonReader reader, Type objectType, object existingValue, JsonSerializer serializer)</code></pre>
+    <pre><code class="lang-csharp hljs">public override object ReadJson(JsonReader reader, Type? objectType, object? existingValue, JsonSerializer serializer)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -258,7 +258,7 @@ Class ConcreteCollectionTypeConverter&lt;TCollection, TItem, TBaseItem&gt;  <a c
   <a id="Stockage_Converters_ConcreteCollectionTypeConverter_3_WriteJson_" data-uid="Stockage.Converters.ConcreteCollectionTypeConverter`3.WriteJson*"></a>
 
   <h3 id="Stockage_Converters_ConcreteCollectionTypeConverter_3_WriteJson_Newtonsoft_Json_JsonWriter_System_Object_Newtonsoft_Json_JsonSerializer_" data-uid="Stockage.Converters.ConcreteCollectionTypeConverter`3.WriteJson(Newtonsoft.Json.JsonWriter,System.Object,Newtonsoft.Json.JsonSerializer)">
-  WriteJson(JsonWriter, object, JsonSerializer)
+  WriteJson(JsonWriter, object?, JsonSerializer)
   <a class="header-action link-secondary" title="View source" href="https://dev.azure.com/faikmehmeti/G4-FISA-24/_git/G4-FISA-24?path=EasySave-2.0/EasySaveGUI/Stockage/Converters/ConcreteCollectionTypeConverter.cs&amp;version=GBdevelop-livrable-2&amp;line=13"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -267,7 +267,7 @@ Class ConcreteCollectionTypeConverter&lt;TCollection, TItem, TBaseItem&gt;  <a c
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void WriteJson(JsonWriter writer, object value, JsonSerializer serializer)</code></pre>
+    <pre><code class="lang-csharp hljs">public override void WriteJson(JsonWriter writer, object? value, JsonSerializer serializer)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
